@@ -1,0 +1,39 @@
+# Local environment and credentials
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.pem
+*.key
+
+# Written materials and presentation assets stay outside this repository
+*.md
+*.mdx
+*.markdown
+*.tex
+*.bib
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.zip
+*.png
+*.svg
+*.npz
+
+# Rebuilt artifacts
+output/
+data/papers.json
+data/papers.csv
+data/edges.csv
+data/corpus_audit.csv
+data/duplicates.csv
+data/temporal_anomalies.csv
+data/custom_rankings.json
+data/custom_rankings.csv
+data/semantic_rankings.csv
+data/reuse_edges.csv
+data/reviewed_citation_contexts.csv
+data/citation_contexts.csv

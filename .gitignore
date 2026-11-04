@@ -7,8 +7,9 @@ __pycache__/
 *.pem
 *.key
 
-# Written materials and presentation assets stay outside this repository
+# Reports and presentation assets stay outside this repository
 *.md
+!/README.md
 *.mdx
 *.markdown
 *.tex
@@ -21,6 +22,7 @@ __pycache__/
 *.zip
 *.png
 *.svg
+!/assets/overview.svg
 *.npz
 
 # Rebuilt artifacts

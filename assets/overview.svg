@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="550" viewBox="0 0 1280 550" role="img" aria-labelledby="title desc">
+  <title id="title">Поиск ключевых статей Sparse MoE</title>
+  <desc id="desc">Схема проекта. Корпус из 140 статей, граф из 550 связей и пять лидеров по показателю B. Маленький граф показан схематично.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#edf3ff"/>
+      <stop offset="1" stop-color="#f9fbff"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#94a9c9"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="550" rx="28" fill="url(#background)"/>
+  <circle cx="1190" cy="42" r="104" fill="#dce8ff" opacity="0.55"/>
+  <circle cx="1225" cy="42" r="60" fill="#c7d9fc" opacity="0.45"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif" fill="#142e52">
+
+    <text x="40" y="46" font-size="15" font-weight="700" fill="#315ea8" text-anchor="start">SPARSE MoE</text>
+    <text x="40" y="105" font-size="45" font-weight="700" fill="#142e52" text-anchor="start">Поиск ключевых статей</text>
+    <text x="40" y="145" font-size="21" font-weight="400" fill="#516784" text-anchor="start">От ссылок между статьями к списку работ для чтения</text>
+    <rect x="40" y="190" width="350" height="268" rx="16" fill="#ffffff" stroke="#dce5f2"/>
+    <circle cx="69" cy="223" r="12" fill="#e5edff"/>
+    <text x="69" y="228" font-size="13" font-weight="700" fill="#315ea8" text-anchor="middle">1</text>
+    <text x="93" y="231" font-size="23" font-weight="700" fill="#142e52" text-anchor="start">Корпус</text>
+    <rect x="465" y="190" width="350" height="268" rx="16" fill="#ffffff" stroke="#dce5f2"/>
+    <circle cx="494" cy="223" r="12" fill="#e5edff"/>
+    <text x="494" y="228" font-size="13" font-weight="700" fill="#315ea8" text-anchor="middle">2</text>
+    <text x="518" y="231" font-size="23" font-weight="700" fill="#142e52" text-anchor="start">Граф цитирования</text>
+    <rect x="890" y="190" width="350" height="268" rx="16" fill="#ffffff" stroke="#dce5f2"/>
+    <circle cx="919" cy="223" r="12" fill="#e5edff"/>
+    <text x="919" y="228" font-size="13" font-weight="700" fill="#315ea8" text-anchor="middle">3</text>
+    <text x="943" y="231" font-size="23" font-weight="700" fill="#142e52" text-anchor="start">Ключевые статьи</text>
+    <text x="67" y="324" font-size="67" font-weight="700" fill="#275ec0" text-anchor="start">140</text>
+    <text x="226" y="324" font-size="23" font-weight="500" fill="#142e52" text-anchor="start">статей</text>
+    <text x="67" y="362" font-size="20" font-weight="500" fill="#142e52" text-anchor="start">2017-2025</text>
+    <text x="67" y="401" font-size="16" font-weight="400" fill="#627591" text-anchor="start">747 записей до отбора</text>
+    <text x="67" y="434" font-size="16" font-weight="400" fill="#627591" text-anchor="start">OpenAlex + библиографии</text>
+    <text x="490" y="265" font-size="16" font-weight="400" fill="#627591" text-anchor="start">Ссылки между работами</text>
+    <path d="M517.51 304.60 L557.49 339.76" stroke="#94a9c9" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M573.64 307.91 L569.90 335.13" stroke="#94a9c9" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M631.84 303.78 L579.42 340.91" stroke="#94a9c9" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M648.16 303.78 L700.58 340.91" stroke="#94a9c9" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M706.36 307.91 L710.10 335.13" stroke="#94a9c9" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M762.49 304.60 L722.51 339.76" stroke="#94a9c9" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M576.00 355.00 L628.80 394.60" stroke="#94a9c9" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M704.00 355.00 L651.20 394.60" stroke="#94a9c9" stroke-width="2" marker-end="url(#arrow)"/>
+    <circle cx="510" cy="298" r="9" fill="#5283d2"/>
+    <circle cx="575" cy="298" r="9" fill="#5283d2"/>
+    <circle cx="640" cy="298" r="9" fill="#5283d2"/>
+    <circle cx="705" cy="298" r="9" fill="#5283d2"/>
+    <circle cx="770" cy="298" r="9" fill="#5283d2"/>
+    <circle cx="568" cy="349" r="9" fill="#5283d2"/>
+    <circle cx="712" cy="349" r="9" fill="#5283d2"/>
+    <circle cx="640" cy="403" r="12" fill="#e4af43"/>
+    <text x="640" y="438" font-size="17" font-weight="500" fill="#142e52" text-anchor="middle">550 связей</text>
+    <text x="915" y="265" font-size="16" font-weight="400" fill="#627591" text-anchor="start">Пятёрка по показателю B</text>
+    <circle cx="923" cy="287" r="10" fill="#edf2fb"/>
+    <text x="923" y="292" font-size="12" font-weight="700" fill="#315ea8" text-anchor="middle">1</text>
+    <text x="945" y="293" font-size="17" font-weight="500" fill="#142e52" text-anchor="start">Sparsely-Gated MoE</text>
+    <circle cx="923" cy="321" r="10" fill="#edf2fb"/>
+    <text x="923" y="326" font-size="12" font-weight="700" fill="#315ea8" text-anchor="middle">2</text>
+    <text x="945" y="327" font-size="17" font-weight="500" fill="#142e52" text-anchor="start">Switch Transformers</text>
+    <circle cx="923" cy="355" r="10" fill="#edf2fb"/>
+    <text x="923" y="360" font-size="12" font-weight="700" fill="#315ea8" text-anchor="middle">3</text>
+    <text x="945" y="361" font-size="17" font-weight="500" fill="#142e52" text-anchor="start">GShard</text>
+    <circle cx="923" cy="389" r="10" fill="#edf2fb"/>
+    <text x="923" y="394" font-size="12" font-weight="700" fill="#315ea8" text-anchor="middle">4</text>
+    <text x="945" y="395" font-size="17" font-weight="500" fill="#142e52" text-anchor="start">GLaM</text>
+    <circle cx="923" cy="423" r="10" fill="#edf2fb"/>
+    <text x="923" y="428" font-size="12" font-weight="700" fill="#315ea8" text-anchor="middle">5</text>
+    <text x="945" y="429" font-size="17" font-weight="500" fill="#142e52" text-anchor="start">Expert Choice</text>
+    <path d="M416 326 H441 M433 318 L441 326 L433 334" fill="none" stroke="#6d8ab6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M841 326 H866 M858 318 L866 326 L858 334" fill="none" stroke="#6d8ab6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="40" y="485" width="190" height="37" rx="12" fill="#fff0c8" stroke="none"/>
+    <text x="135" y="510" font-size="17" font-weight="600" fill="#785714" text-anchor="middle">2 000 запусков</text>
+    <text x="251" y="510" font-size="19" font-weight="500" fill="#516784" text-anchor="start">Проверяем, что меняется при потере ссылок</text>
+  </g>
+</svg>

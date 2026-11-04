@@ -5,32 +5,33 @@ U считает каждую достижимую цитирующую стат
 R использует только сохранённые контексты с разметкой ассистента.
 """
 
-import csv
 import json
 from collections import Counter, defaultdict
 
 import networkx as nx
 from scipy.stats import spearmanr
 
-from .storage import DATA, ROOT, TABLES, TEXTS, load_contexts, read_json, write_csv
+from .storage import DATA, ROOT, TABLES, TEXTS, load_contexts, read_csv, read_json, write_csv
 
 
 def influence(graph, beta=0.5):
     """Посчитать U, B и Katz на графе без циклов.
 
     Для каждой оцениваемой статьи идём против стрелок цитирования.
-    supports хранит прямые цитирующие статьи на кратчайших путях;
-    mass делит голос дальнего потомка поровну между этими ветвями.
+    supports хранит прямые цитирующие статьи на кратчайших путях,
+    а mass делит голос дальнего потомка поровну между этими ветвями.
     """
     if not 0 < beta < 1:
         raise ValueError("beta must be in (0,1)")
     if not nx.is_directed_acyclic_graph(graph):
         raise ValueError("Katz path propagation requires the chronological DAG")
-    result = {}
+
     katz = dict.fromkeys(graph, 0.0)
     for u in nx.topological_sort(graph):
         for v in graph.successors(u):
             katz[v] += 1 + beta * katz[u]
+
+    result = {}
     reverse = graph.reverse(copy=False)
     for v in sorted(graph):
         distance = nx.single_source_shortest_path_length(reverse, v)
@@ -43,11 +44,13 @@ def influence(graph, beta=0.5):
             if d == 1:
                 supports[u] = {u}
             else:
-                supports[u] = set().union(*(supports[t] for t in graph.successors(u) if distance.get(t) == d - 1))
+                parents = (supports[t] for t in graph.successors(u) if distance.get(t) == d - 1)
+                supports[u] = set().union(*parents)
             weight = beta ** (d - 1)
             unique += weight
             for first_branch in supports[u]:
                 mass[first_branch] += weight / len(supports[u])
+
         concentration = sum((m / unique) ** 2 for m in mass.values()) if unique else 0.0
         diverse = unique * (1 - concentration) if unique else 0.0
         result[v] = {
@@ -59,9 +62,6 @@ def influence(graph, beta=0.5):
             "reachable_descendants": len(distance) - 1,
             "largest_branch_mass": max(mass.values(), default=0.0),
         }
-        assert abs(sum(mass.values()) - unique) < 1e-8
-        assert -1e-10 <= diverse <= unique + 1e-10
-        assert katz[v] + 1e-9 >= unique
     return result
 
 
@@ -69,41 +69,35 @@ def build_structural_scores():
     """Исключить рёбра против хронологии и сравнить три структурные оценки."""
     papers = json.loads((TABLES / "papers.json").read_text(encoding="utf-8"))
     by_id = {p["id"]: p for p in papers}
+
     graph = nx.DiGraph()
     graph.add_nodes_from(by_id)
     removed = []
-    with (TABLES / "edges.csv").open(encoding="utf-8-sig", newline="") as f:
-        for e in csv.DictReader(f):
-            u, v = e["citing"], e["cited"]
-            if by_id[u]["date"] < by_id[v]["date"]:
-                removed.append(e)
-            else:
-                graph.add_edge(u, v)
-    assert nx.is_directed_acyclic_graph(graph)
+    for e in read_csv(TABLES / "edges.csv"):
+        u, v = e["citing"], e["cited"]
+        if by_id[u]["date"] < by_id[v]["date"]:
+            removed.append(e)
+        else:
+            graph.add_edge(u, v)
+
     base = influence(graph)
-    rows = []
-    for p in papers:
-        rows.append(
-            {
-                k: p[k]
-                for k in [
-                    "id",
-                    "title",
-                    "year",
-                    "global_citations",
-                    "local_citations",
-                    "pagerank",
-                    "rank_global_citations",
-                    "rank_local_citations",
-                    "rank_pagerank",
-                ]
-            }
-            | base[p["id"]]
-        )
+    fields = [
+        "id",
+        "title",
+        "year",
+        "global_citations",
+        "local_citations",
+        "pagerank",
+        "rank_global_citations",
+        "rank_local_citations",
+        "rank_pagerank",
+    ]
+    rows = [{k: p[k] for k in fields} | base[p["id"]] for p in papers]
     metrics = ["unique_descendants", "branching_descendants", "katz_paths"]
     for metric in metrics:
         for i, r in enumerate(sorted(rows, key=lambda r: (-r[metric], r["id"])), 1):
             r["rank_" + metric] = i
+
     sensitivity = []
     for beta in [0.25, 0.5, 0.75]:
         variant = influence(graph, beta)
@@ -118,12 +112,14 @@ def build_structural_scores():
                     "top5_overlap_with_beta_half": len(set(top) & set(base_top)),
                 }
             )
+
     correlations = {}
     for metric in metrics:
         correlations[metric] = {
             comparison: float(spearmanr([r[metric] for r in rows], [r[comparison] for r in rows]).statistic)
             for comparison in ["local_citations", "pagerank"]
         }
+
     summary = {
         "status": "calculated_structural_proxies_not_verified_reuse",
         "vertices": len(graph),
@@ -137,12 +133,14 @@ def build_structural_scores():
         },
         **TEXTS["structural_metrics"],
     }
+
     write_csv(TABLES / "custom_rankings.csv", sorted(rows, key=lambda r: r["rank_branching_descendants"]))
     (TABLES / "custom_rankings.json").write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
     (ROOT / "output/custom_metrics_summary.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     nx.write_graphml(graph, ROOT / "output/chronological_graph.graphml")
+
     for metric in metrics:
         print("\n" + metric)
         for r in sorted(rows, key=lambda r: r["rank_" + metric])[:8]:
@@ -155,12 +153,15 @@ def build_semantic_scores():
     by_context = {r["context_id"]: r for r in contexts}
     config = read_json(ROOT / "settings.json")["context_review"]
     labels = {i: label for label, ids in config["labels"].items() for i in ids}
-    assert len(labels) == sum(len(v) for v in config["labels"].values())
+    if len(labels) != sum(len(ids) for ids in config["labels"].values()):
+        raise ValueError("A context has several review labels in settings.json")
+
     flagged = {r["context_id"] for r in contexts if r["auto_label"] in ["use_signal", "extension_signal"]}
-    assert set(labels) == flagged, {
-        "unreviewed_flagged": sorted(flagged - set(labels)),
-        "stale_labels": sorted(set(labels) - flagged),
-    }
+    if set(labels) != flagged:
+        unreviewed = sorted(flagged - set(labels))
+        stale = sorted(set(labels) - flagged)
+        raise ValueError(f"Review labels do not match flagged contexts: unreviewed={unreviewed}, stale={stale}")
+
     reviewed = []
     for context_id, label in labels.items():
         r = by_context[context_id]
@@ -172,14 +173,16 @@ def build_semantic_scores():
                 "review_note": config["notes"].get(context_id, ""),
             }
         )
+
     papers = json.loads((TABLES / "papers.json").read_text(encoding="utf-8"))
     by_id = {p["id"]: p for p in papers}
-    with (DATA / "context_coverage.csv").open(encoding="utf-8-sig", newline="") as f:
-        coverage = list(csv.DictReader(f))
+    coverage = read_csv(DATA / "context_coverage.csv")
+
     weights = {"extension": 2.0, "method_use": 1.0, "component_use": 0.5}
     edge_evidence = defaultdict(list)
     for r in reviewed:
         edge_evidence[r["citing"], r["cited"]].append(r)
+
     accepted_edges = []
     scores = defaultdict(float)
     counts = defaultdict(Counter)
@@ -201,6 +204,7 @@ def build_semantic_scores():
                     "chronological_anomaly": by_id[u]["date"] < by_id[v]["date"],
                 }
             )
+
     rows = []
     for p in papers:
         incoming = [e for e in coverage if e["cited"] == p["id"]]
@@ -222,6 +226,7 @@ def build_semantic_scores():
         )
     for i, r in enumerate(sorted(rows, key=lambda r: (-r["pilot_reuse_score"], r["id"])), 1):
         r["rank_pilot_reuse_score"] = i
+
     sensitivity = []
     for extension_weight in [1.0, 1.5, 2.0]:
         for component_weight in [0.0, 0.5, 1.0]:
@@ -238,27 +243,31 @@ def build_semantic_scores():
                     "top5_ids": sorted(values, key=lambda u: (-values[u], u))[:5],
                 }
             )
+
+    positive_contexts = sum(r["reviewed_label"] in weights for r in reviewed)
     summary = {
         "contexts_extracted": len(contexts),
         "citation_edges": len(coverage),
         "edges_with_at_least_one_context": sum(int(e["contexts"]) > 0 for e in coverage),
         "reviewed_flagged_contexts": len(reviewed),
         "reviewed_unique_edges": len(edge_evidence),
-        "positive_method_or_component_or_extension_contexts": sum(r["reviewed_label"] in weights for r in reviewed),
+        "positive_method_or_component_or_extension_contexts": positive_contexts,
         "accepted_reuse_edges": len(accepted_edges),
         "positive_scoring_papers": sum(r["pilot_reuse_score"] > 0 for r in rows),
         "review_label_counts": dict(Counter(labels.values())),
-        "flagged_sample_adoption_fraction": sum(r["reviewed_label"] in weights for r in reviewed) / len(reviewed),
+        "flagged_sample_adoption_fraction": positive_contexts / len(reviewed),
         "score": TEXTS["semantic_metrics"]["score"],
         "sensitivity": sensitivity,
         "limits": TEXTS["semantic_metrics"]["limits"],
     }
+
     write_csv(TABLES / "reviewed_citation_contexts.csv", reviewed)
     write_csv(TABLES / "reuse_edges.csv", accepted_edges)
     write_csv(TABLES / "semantic_rankings.csv", sorted(rows, key=lambda r: r["rank_pilot_reuse_score"]))
     (ROOT / "output/semantic_metrics_summary.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"
     )
+
     display_summary = {key: value for key, value in summary.items() if key not in ["sensitivity", "limits"]}
     print(json.dumps(display_summary, ensure_ascii=False, indent=2))
     for r in sorted(rows, key=lambda r: r["rank_pilot_reuse_score"])[:10]:

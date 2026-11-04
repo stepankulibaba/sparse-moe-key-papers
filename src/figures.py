@@ -25,18 +25,42 @@ def label(p):
     return NAMES.get(p["id"].split("/")[-1], p["title"].split(":")[0][:33])
 
 
+def citation_positions(graph, highlights):
+    """Разместить связные статьи и отдельный ряд изолированных вершин."""
+    isolates = sorted(nx.isolates(graph))
+    active = graph.subgraph(sorted(set(graph) - set(isolates))).copy()
+    positions = {}
+
+    if active:
+        undirected = active.to_undirected()
+        initial = nx.spring_layout(undirected, seed=20261104, k=0.4, iterations=100)
+        anchors = [u for u in highlights if u in active]
+        for i, u in enumerate(anchors):
+            initial[u] = np.array([-1 + 2 * i / max(1, len(anchors) - 1), -1.1])
+
+        layout = nx.spring_layout(
+            undirected, pos=initial, fixed=anchors or None, seed=20261104, k=0.4, iterations=500
+        )
+        values = np.array(list(layout.values()))
+        lower, upper = values.min(axis=0), values.max(axis=0)
+        span = np.maximum(upper - lower, 1e-9)
+        for u, point in layout.items():
+            x, y = (point - lower) / span
+            positions[u] = np.array([-1 + 2 * x, 0.12 + 0.94 * y])
+
+    for i, u in enumerate(isolates):
+        positions[u] = np.array([-1 + 2 * i / max(1, len(isolates) - 1), -0.14])
+
+    return positions, isolates
+
+
 def plot_corpus():
     papers = json.loads((TABLES / "papers.json").read_text(encoding="utf-8"))
     summary = json.loads((OUT / "summary.json").read_text(encoding="utf-8"))
     by_id = {p["id"]: p for p in papers}
     graph = nx.DiGraph()
-    graph.add_nodes_from(by_id)
+    graph.add_nodes_from(sorted(by_id))
     graph.add_edges_from((e["citing"], e["cited"]) for e in read_csv(TABLES / "edges.csv"))
-
-    top = sorted(papers, key=lambda p: p["rank_pagerank"])[:35]
-    sub = graph.subgraph([p["id"] for p in top]).copy()
-    connected = max(nx.weakly_connected_components(sub), key=len)
-    sub = sub.subgraph(connected).copy()
 
     highlights = summary["algorithmic_highlights"]
     decisions = read_json(ROOT / "settings.json")["selection"]
@@ -44,81 +68,87 @@ def plot_corpus():
     if final_choice:
         highlights = [p["id"] for p in decisions["final_papers"]]
 
-    # Выделенные статьи внизу по дате, остальные рядами по десять.
-    positions = {}
-    ordered_highlights = sorted(highlights, key=lambda u: (by_id[u]["date"], u))
-    for i, u in enumerate(ordered_highlights):
-        positions[u] = np.array([-1 + 0.5 * i, -0.65])
-    ordinary = sorted((u for u in sub if u not in highlights), key=lambda u: (by_id[u]["date"], u))
-    for i, u in enumerate(ordinary):
-        row, col = divmod(i, 10)
-        count = min(10, len(ordinary) - row * 10)
-        positions[u] = np.array([-0.98 + 1.96 * col / max(1, count - 1), 0.12 + 0.4 * row])
-
+    positions, isolates = citation_positions(graph, highlights)
+    ordinary = sorted(set(graph) - set(isolates) - set(highlights))
     plt.rcParams.update(
-        {"font.family": "DejaVu Sans", "font.size": 10, "axes.spines.top": False, "axes.spines.right": False}
+        {"font.family": "STIXGeneral", "font.size": 10, "pdf.fonttype": 42, "svg.fonttype": "none"}
     )
-    fig, ax = plt.subplots(figsize=(10, 5.4), layout="constrained")
+    fig, ax = plt.subplots(figsize=(11.6, 4.8))
     nx.draw_networkx_edges(
-        sub,
+        graph,
         positions,
         ax=ax,
         arrows=True,
-        arrowsize=9,
-        width=0.6,
-        alpha=0.25,
-        edge_color="#626b75",
-        node_size=150,
-        connectionstyle="arc3,rad=.05",
+        arrowsize=5,
+        width=0.5,
+        alpha=0.22,
+        edge_color="#7e8ea2",
+        node_size=35,
+        connectionstyle="arc3,rad=.025",
     )
     nx.draw_networkx_nodes(
-        sub,
+        graph,
         positions,
         nodelist=ordinary,
-        node_size=75,
-        node_color="#376da4",
+        node_size=31,
+        node_color="#3c6eaa",
         edgecolors="white",
-        linewidths=0.5,
+        linewidths=0.3,
         ax=ax,
     )
     nx.draw_networkx_nodes(
-        sub,
+        graph,
         positions,
-        nodelist=highlights,
-        node_size=210,
-        node_color="#dfaa38",
-        node_shape="s",
-        edgecolors="#242424",
-        linewidths=0.8,
+        nodelist=isolates,
+        node_size=23,
+        node_color="#b4bcc7",
+        edgecolors="white",
+        linewidths=0.25,
         ax=ax,
     )
-    for u in highlights:
-        x, y = positions[u]
-        ax.annotate(
-            label(by_id[u]),
-            (x, y),
-            xytext=(0, -22),
-            textcoords="offset points",
-            ha="center",
-            va="top",
-            fontsize=12,
-            bbox={"facecolor": "white", "edgecolor": "none", "alpha": 0.87, "pad": 1},
-        )
-    ax.set_title(
-        LABELS["graph_title"].format(nodes=sub.number_of_nodes(), edges=sub.number_of_edges()),
-        loc="left",
-        fontsize=14,
-        pad=16,
+    nx.draw_networkx_nodes(
+        graph,
+        positions,
+        nodelist=highlights,
+        node_size=150,
+        node_color="#dfaa38",
+        node_shape="s",
+        edgecolors="#5c4a26",
+        linewidths=0.65,
+        ax=ax,
     )
-    caption = LABELS["graph_direction"] + (LABELS["selected_papers"] if final_choice else LABELS["algorithmic_top5"])
-    ax.text(0, -0.04, caption, transform=ax.transAxes, fontsize=10)
+    nx.draw_networkx_labels(
+        graph, positions, labels={u: str(i + 1) for i, u in enumerate(highlights)},
+        font_size=9, font_family="STIXGeneral", font_weight="bold", ax=ax,
+    )
+    if isolates:
+        ax.axhline(-0.015, color="#e1e5eb", linewidth=0.6)
+    ax.set_xlim(-1.08, 1.08)
+    ax.set_ylim(-0.20, 1.12)
     ax.set_axis_off()
-    ax.margins(0.18)
-    ax.set_ylim(-1.15, 1.2)
-    fig.savefig(OUT / "citation_graph.png", dpi=200, bbox_inches="tight")
-    fig.savefig(OUT / "citation_graph.svg", bbox_inches="tight")
+    fig.subplots_adjust(left=0.01, right=0.99, top=0.99, bottom=0.01)
+    for extension in ["png", "svg", "pdf"]:
+        fig.savefig(OUT / f"citation_graph.{extension}", dpi=300, facecolor="white")
     plt.close(fig)
 
+    layout_record = {
+        "nodes": [
+            {
+                "id": u,
+                "x": float(positions[u][0]),
+                "y": float(positions[u][1]),
+                "isolated": u in isolates,
+                "highlight": highlights.index(u) + 1 if u in highlights else None,
+            }
+            for u in graph
+        ],
+        "edges": list(graph.edges),
+    }
+    (OUT / "citation_graph_layout.json").write_text(
+        json.dumps(layout_record, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
+    plt.rcParams.update({"font.family": "DejaVu Sans", "axes.spines.top": False, "axes.spines.right": False})
     # В ячейках точные ранги, при равенстве порядок задаётся по ID.
     shown = sorted(papers, key=lambda p: p["rank_pagerank"])[:12]
     arr = np.array([[p["rank_local_citations"], p["rank_pagerank"], p["rank_global_citations"]] for p in shown])

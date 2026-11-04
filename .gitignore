@@ -10,6 +10,7 @@ __pycache__/
 # Reports and presentation assets stay outside this repository
 *.md
 !/README.md
+!/data/README.md
 *.mdx
 *.markdown
 *.tex
@@ -21,8 +22,8 @@ __pycache__/
 *.pptx
 *.zip
 *.png
+!/assets/citation_graph.png
 *.svg
-!/assets/overview.svg
 *.npz
 
 # Rebuilt artifacts

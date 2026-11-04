@@ -14,12 +14,8 @@ from src.verify import run_checks
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
-    )
-    parser.add_argument(
-        "--skip-stress", action="store_true", help="Пропустить 2 000 возмущений графа"
-    )
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--skip-stress", action="store_true", help="Пропустить 2 000 возмущений графа")
     parser.add_argument("--no-figures", action="store_true", help="Не строить рисунки")
     args = parser.parse_args()
     print("1. Корпус, граф цитирования и базовые рейтинги", flush=True)

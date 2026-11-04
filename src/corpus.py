@@ -9,16 +9,7 @@ import json
 import networkx as nx
 from scipy.stats import spearmanr
 
-from .storage import (
-    DATA,
-    OUT,
-    TABLES,
-    bibliography_edges,
-    normalize,
-    read_csv,
-    read_json,
-    write_csv,
-)
+from .storage import DATA, OUT, TABLES, bibliography_edges, normalize, read_csv, read_json, write_csv
 
 AS_OF = "2026-11-04"
 
@@ -26,21 +17,10 @@ AS_OF = "2026-11-04"
 def load_corpus():
     """Прочитать отобранные работы, версии и журнал тематического отбора."""
     source_summary = read_json(DATA / "provenance.json")["original_corpus_summary"]
-    evidence_fields = {
-        "observed_author_ids",
-        "incomplete_author_metadata",
-        "author_evidence_sources",
-    }
-    rows = [
-        {k: v for k, v in paper.items() if k not in evidence_fields}
-        for paper in read_json(DATA / "corpus.json")
-    ]
+    evidence_fields = {"observed_author_ids", "incomplete_author_metadata", "author_evidence_sources"}
+    rows = [{k: v for k, v in paper.items() if k not in evidence_fields} for paper in read_json(DATA / "corpus.json")]
     rows.sort(key=lambda paper: normalize(paper["title"]))
-    alias = {
-        version: paper["id"]
-        for paper in rows
-        for version in paper["version_ids"].split(";")
-    }
+    alias = {version: paper["id"] for paper in rows for version in paper["version_ids"].split(";")}
     audit = read_csv(DATA / "scope_audit.csv")
     for row in audit:
         row["accepted"] = row["accepted"] == "True"
@@ -71,14 +51,7 @@ def build_graph(rows, alias):
             provenance.setdefault((u, v), set()).add(edge["source"])
     for u, v in graph.edges:
         if by_id[u]["date"] < by_id[v]["date"]:
-            temporal.append(
-                {
-                    "citing": u,
-                    "cited": v,
-                    "citing_date": by_id[u]["date"],
-                    "cited_date": by_id[v]["date"],
-                }
-            )
+            temporal.append({"citing": u, "cited": v, "citing_date": by_id[u]["date"], "cited_date": by_id[v]["date"]})
     return graph, metadata_graph, provenance, temporal
 
 
@@ -116,9 +89,7 @@ def compare_pagerank_variants(graph, metadata_graph, rows, highlights, temporal)
     )
     chronological_graph = graph.copy()
     chronological_graph.remove_edges_from((e["citing"], e["cited"]) for e in temporal)
-    chrono_score = nx.pagerank(
-        chronological_graph, alpha=0.85, tol=1e-12, max_iter=1000
-    )
+    chrono_score = nx.pagerank(chronological_graph, alpha=0.85, tol=1e-12, max_iter=1000)
     chrono_top = sorted(chrono_score, key=lambda u: (-chrono_score[u], u))[:5]
     sensitivity.append(
         {
@@ -146,9 +117,7 @@ def build():
     main = sorted(rows, key=lambda r: r["rank_pagerank"])
     # Highlighted nodes are an algorithmic top five, not the student's final list.
     highlights = [r["id"] for r in main[:5]]
-    sensitivity = compare_pagerank_variants(
-        graph, metadata_graph, rows, highlights, temporal
-    )
+    sensitivity = compare_pagerank_variants(graph, metadata_graph, rows, highlights, temporal)
     summary = {
         "as_of_age_denominator": AS_OF,
         "raw_unique": source_summary["raw_unique"],
@@ -158,8 +127,7 @@ def build():
         "merged_records": sum(r["version_count"] - 1 for r in rows),
         "edges": graph.number_of_edges(),
         "openalex_edges": metadata_graph.number_of_edges(),
-        "supplementary_edges": graph.number_of_edges()
-        - metadata_graph.number_of_edges(),
+        "supplementary_edges": graph.number_of_edges() - metadata_graph.number_of_edges(),
         "isolates": nx.number_of_isolates(graph),
         "weak_components": nx.number_weakly_connected_components(graph),
         "missing_abstracts": sum(not r["abstract"] for r in rows),
@@ -171,41 +139,23 @@ def build():
         "algorithmic_highlights": highlights,
         "sensitivity": sensitivity,
         "spearman_global_vs_pagerank": float(
-            spearmanr(
-                [r["global_citations"] for r in rows], [r["pagerank"] for r in rows]
-            ).statistic
+            spearmanr([r["global_citations"] for r in rows], [r["pagerank"] for r in rows]).statistic
         ),
         "spearman_local_vs_pagerank": float(
-            spearmanr(
-                [r["local_citations"] for r in rows], [r["pagerank"] for r in rows]
-            ).statistic
+            spearmanr([r["local_citations"] for r in rows], [r["pagerank"] for r in rows]).statistic
         ),
         "top5_local_overlap_pagerank": len(
-            set(highlights)
-            & {
-                r["id"]
-                for r in sorted(rows, key=lambda r: r["rank_local_citations"])[:5]
-            }
+            set(highlights) & {r["id"] for r in sorted(rows, key=lambda r: r["rank_local_citations"])[:5]}
         ),
-        "local_top5_boundary_value": sorted(
-            (r["local_citations"] for r in rows), reverse=True
-        )[4],
+        "local_top5_boundary_value": sorted((r["local_citations"] for r in rows), reverse=True)[4],
         "local_top5_boundary_tie_count": sum(
-            r["local_citations"]
-            == sorted((q["local_citations"] for q in rows), reverse=True)[4]
-            for r in rows
+            r["local_citations"] == sorted((q["local_citations"] for q in rows), reverse=True)[4] for r in rows
         ),
         "top5_global_overlap_pagerank": len(
-            set(highlights)
-            & {
-                r["id"]
-                for r in sorted(rows, key=lambda r: r["rank_global_citations"])[:5]
-            }
+            set(highlights) & {r["id"] for r in sorted(rows, key=lambda r: r["rank_global_citations"])[:5]}
         ),
     }
-    assert (
-        len(rows) >= 100
-    ), f"Only {len(rows)} eligible candidates; extend documented retrieval before reporting"
+    assert len(rows) >= 100, f"Only {len(rows)} eligible candidates; extend documented retrieval before reporting"
     assert len(by_id) == len(rows)
     assert abs(summary["pagerank_sum"] - 1) < 1e-9
     write_csv(TABLES / "corpus_audit.csv", sorted(audit, key=lambda r: r["id"]))
@@ -213,39 +163,22 @@ def build():
     write_csv(TABLES / "papers.csv", main, csv_fields)
     write_csv(
         TABLES / "edges.csv",
-        [
-            {"citing": u, "cited": v, "sources": ";".join(sorted(provenance[(u, v)]))}
-            for u, v in sorted(graph.edges)
-        ],
+        [{"citing": u, "cited": v, "sources": ";".join(sorted(provenance[(u, v)]))} for u, v in sorted(graph.edges)],
         ["citing", "cited", "sources"],
     )
-    write_csv(
-        TABLES / "temporal_anomalies.csv",
-        temporal,
-        ["citing", "cited", "citing_date", "cited_date"],
-    )
+    write_csv(TABLES / "temporal_anomalies.csv", temporal, ["citing", "cited", "citing_date", "cited_date"])
     write_csv(
         TABLES / "duplicates.csv",
         [r for r in rows if r["version_count"] > 1],
         ["id", "title", "version_count", "version_ids"],
     )
-    (TABLES / "papers.json").write_text(
-        json.dumps(main, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
-    (OUT / "summary.json").write_text(
-        json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
+    (TABLES / "papers.json").write_text(json.dumps(main, ensure_ascii=False, indent=2), encoding="utf-8")
+    (OUT / "summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
     nx.write_graphml(graph, OUT / "citation_graph.graphml")
     print(json.dumps(summary, ensure_ascii=False, indent=2))
     print("\nTOP 15: rank PR / global / local | title")
     for r in main[:15]:
-        print(
-            r["rank_pagerank"],
-            r["rank_global_citations"],
-            r["local_citations"],
-            "|",
-            r["title"],
-        )
+        print(r["rank_pagerank"], r["rank_global_citations"], r["local_citations"], "|", r["title"])
     return rows, graph, summary
 
 

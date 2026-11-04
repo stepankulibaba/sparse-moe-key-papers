@@ -1,0 +1,168 @@
+
+Hangbo Bao, Li Dong, Furu Wei, Wenhui Wang, Nan
+Yang, Xiaodong Liu, Yu Wang, Jianfeng Gao, Song-
+hao Piao, Ming Zhou, and Hsiao-Wuen Hon. 2020.
+Unilmv2: Pseudo-masked language models for uni-
+ﬁed language model pre-training.
+In Proceedings
+of the 37th International Conference on Machine
+Learning, ICML 2020, volume 119 of Proceed-
+ings of Machine Learning Research, pages 642–652.
+PMLR.
+Dimitri P. Bertsekas. 1992. Auction algorithms for net-
+work ﬂow problems: A tutorial introduction. Com-
+putational Optimization and Applications, 1(1):7–
+66.
+Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie
+Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind
+Neelakantan, Pranav Shyam, Girish Sastry, Amanda
+Askell,
+Sandhini Agarwal,
+Ariel Herbert-Voss,
+Gretchen Krueger, Tom Henighan, Rewon Child,
+Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu,
+Clemens Winter, Christopher Hesse, Mark Chen,
+Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin
+Chess, Jack Clark, Christopher Berner, Sam Mc-
+Candlish, Alec Radford, Ilya Sutskever, and Dario
+Amodei. 2020. Language models are few-shot learn-
+ers. In Advances in Neural Information Processing
+Systems 33: Annual Conference on Neural Informa-
+tion Processing Systems 2020.
+Kevin Clark, Minh-Thang Luong, Quoc V. Le, and
+Christopher D. Manning. 2020.
+ELECTRA: pre-
+training text encoders as discriminators rather than
+generators.
+In 8th International Conference on
+Learning Representations, ICLR 2020. OpenRe-
+view.net.
+Alexis Conneau, Kartikay Khandelwal, Naman Goyal,
+Vishrav Chaudhary, Guillaume Wenzek, Francisco
+Guzmán, Edouard Grave, Myle Ott, Luke Zettle-
+moyer, and Veselin Stoyanov. 2020. Unsupervised
+cross-lingual representation learning at scale.
+In
+Proceedings of the 58th Annual Meeting of the As-
+sociation for Computational Linguistics, ACL 2020,
+pages 8440–8451. Association for Computational
+Linguistics.
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and
+Kristina Toutanova. 2019.
+BERT: pre-training of
+deep bidirectional transformers for language under-
+standing.
+In Proceedings of the 2019 Conference
+of the North American Chapter of the Association
+for Computational Linguistics: Human Language
+Technologies, NAACL-HLT 2019, Volume 1 (Long
+and Short Papers), pages 4171–4186. Association
+for Computational Linguistics.
+Li Dong, Nan Yang, Wenhui Wang, Furu Wei, Xi-
+aodong Liu, Yu Wang, Jianfeng Gao, Ming Zhou,
+and Hsiao-Wuen Hon. 2019.
+Uniﬁed language
+model pre-training for natural language understand-
+ing and generation.
+In Advances in Neural Infor-
+mation Processing Systems 32: Annual Conference
+on Neural Information Processing Systems 2019,
+NeurIPS 2019, pages 13042–13054.
+William Fedus, Barret Zoph, and Noam Shazeer. 2021.
+Switch transformers: Scaling to trillion parameter
+models with simple and efﬁcient sparsity.
+CoRR,
+abs/2101.03961.
+Sepp Hochreiter and Jürgen Schmidhuber. 1997. Long
+short-term memory. Neural Computing, 9(8):1735–
+1780.
+Robert A. Jacobs, Michael I. Jordan, Steven J. Nowlan,
+and Geoffrey E. Hinton. 1991. Adaptive mixtures of
+local experts. Neural Computing, 3(1):79–87.
+Michael I. Jordan and Robert A. Jacobs. 1994. Hier-
+archical mixtures of experts and the EM algorithm.
+Neural Computing, 6(2):181–214.
+Diederik P. Kingma and Jimmy Ba. 2015. Adam: A
+method for stochastic optimization.
+In 3rd Inter-
+national Conference on Learning Representations,
+ICLR 2015.
+Taku Kudo and John Richardson. 2018. Sentencepiece:
+A simple and language independent subword tok-
+enizer and detokenizer for neural text processing. In
+Proceedings of the 2018 Conference on Empirical
+Methods in Natural Language Processing, EMNLP
+2018, pages 66–71. Association for Computational
+Linguistics.
+Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu,
+Dehao Chen, Orhan Firat, Yanping Huang, Maxim
+Krikun, Noam Shazeer, and Zhifeng Chen. 2021.
+Gshard: Scaling giant models with conditional com-
+putation and automatic sharding.
+In 9th Inter-
+national Conference on Learning Representations,
+ICLR 2021. OpenReview.net.
+Mike Lewis, Shruti Bhosale, Tim Dettmers, Naman
+Goyal, and Luke Zettlemoyer. 2021. BASE layers:
+Simplifying training of large, sparse models.
+In
+Proceedings of the 38th International Conference
+on Machine Learning, ICML 2021, volume 139 of
+Proceedings of Machine Learning Research, pages
+6265–6274. PMLR.
+Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Man-
+dar Joshi, Danqi Chen, Omer Levy, Mike Lewis,
+Luke Zettlemoyer, and Veselin Stoyanov. 2019.
+Roberta: A robustly optimized BERT pretraining ap-
+proach. CoRR, abs/1907.11692.
+Shuming Ma, Jian Yang, Haoyang Huang, Zewen Chi,
+Li Dong, Dongdong Zhang, Hany Hassan Awadalla,
+Alexandre Muzio, Akiko Eriguchi, Saksham Sing-
+hal, Xia Song, Arul Menezes, and Furu Wei. 2020.
+XLM-T: scaling up multilingual machine translation
+with pretrained cross-lingual transformer encoders.
+CoRR, abs/2012.15547.
+
+Alec Radford, Jeffrey Wu, Rewon Child, David Luan,
+Dario Amodei, and Ilya Sutskever. 2019. Language
+models are unsupervised multitask learners. OpenAI
+blog.
+Colin Raffel, Noam Shazeer, Adam Roberts, Kather-
+ine Lee, Sharan Narang, Michael Matena, Yanqi
+Zhou, Wei Li, and Peter J. Liu. 2020.
+Exploring
+the limits of transfer learning with a uniﬁed text-to-
+text transformer. Journal of Machine Learning Re-
+search, 21(140):1–67.
+Stephen Roller, Sainbayar Sukhbaatar, Arthur Szlam,
+and Jason Weston. 2021.
+Hash layers for large
+sparse models. CoRR, abs/2106.04426.
+Rico Sennrich, Barry Haddow, and Alexandra Birch.
+2016. Neural machine translation of rare words with
+subword units. In Proceedings of the 54th Annual
+Meeting of the Association for Computational Lin-
+guistics, ACL 2016. The Association for Computer
+Linguistics.
+Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz,
+Andy Davis, Quoc V. Le, Geoffrey E. Hinton, and
+Jeff Dean. 2017.
+Outrageously large neural net-
+works: The sparsely-gated mixture-of-experts layer.
+In 5th International Conference on Learning Repre-
+sentations, ICLR 2017. OpenReview.net.
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob
+Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz
+Kaiser, and Illia Polosukhin. 2017. Attention is all
+you need. In Advances in Neural Information Pro-
+cessing Systems 30: Annual Conference on Neural
+Information Processing Systems 2017, pages 5998–
+6008.
+Yiren Wang, ChengXiang Zhai, and Hany Hassan.
+2020.
+Multi-task learning for multilingual neural
+machine translation.
+In Proceedings of the 2020
+Conference on Empirical Methods in Natural Lan-
+guage Processing, EMNLP 2020, pages 1022–1034.
+Association for Computational Linguistics.

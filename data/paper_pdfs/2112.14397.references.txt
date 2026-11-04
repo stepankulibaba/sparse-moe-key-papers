@@ -1,0 +1,331 @@
+
+[1] T. B. Brown, B. Mann, N. Ryder, M. Subbiah, J. Ka-
+plan, P. Dhariwal, A. Neelakantan, P. Shyam, G. Sastry,
+A. Askell, S. Agarwal, A. Herbert-Voss, G. Krueger,
+T. Henighan, R. Child, A. Ramesh, D. M. Ziegler, J. Wu,
+C. Winter, C. Hesse, M. Chen, E. Sigler, M. Litwin,
+S. Gray, B. Chess, J. Clark, C. Berner, S. McCandlish,
+A. Radford, I. Sutskever, and D. Amodei, “Language
+models are few-shot learners,” in NeurIPS, 2020.
+[2] A. Dosovitskiy, L. Beyer, A. Kolesnikov, D. Weis-
+senborn, X. Zhai, T. Unterthiner, M. Dehghani, M. Min-
+derer, G. Heigold, S. Gelly, J. Uszkoreit, and N. Houlsby,
+“An image is worth 16x16 words: Transformers for
+image
+recognition
+at
+scale,”
+in
+9th
+International
+Conference on Learning Representations, ICLR 2021,
+Virtual Event, Austria, May 3-7, 2021, 2021. [Online].
+Available: https://openreview.net/forum?id=YicbFdNTTy
+[3] C. Ying, T. Cai, S. Luo, S. Zheng, G. Ke, D. He, Y. Shen,
+and T.-Y. Liu, “Do transformers really perform bad for
+graph representation?” arXiv preprint arXiv:2106.05234,
+2021.
+[4] Q. Chen, H. Zhao, W. Li, P. Huang, and W. Ou, “Be-
+havior sequence transformer for e-commerce recommen-
+dation in alibaba,” in Proceedings of the 1st Interna-
+tional Workshop on Deep Learning Practice for High-
+Dimensional Sparse Data, 2019, pp. 1–4.
+[5] J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown,
+B. Chess, R. Child, S. Gray, A. Radford, J. Wu, and
+D. Amodei, “Scaling laws for neural language models,”
+CoRR, vol. abs/2001.08361, 2020. [Online]. Available:
+https://arxiv.org/abs/2001.08361
+[6] Y. Bengio, N. L´eonard, and A. C. Courville, “Estimating
+or propagating gradients through stochastic neurons for
+conditional computation,” CoRR, vol. abs/1308.3432,
+2013. [Online]. Available: http://arxiv.org/abs/1308.3432
+[7] N. Shazeer, A. Mirhoseini, K. Maziarz, A. Davis, Q. V.
+Le, G. E. Hinton, and J. Dean, “Outrageously large
+neural networks: The sparsely-gated mixture-of-experts
+layer,” in 5th International Conference on Learning
+Representations, ICLR 2017, Toulon, France, April 24-
+26, 2017, Conference Track Proceedings, 2017. [Online].
+Available: https://openreview.net/forum?id=B1ckMDqlg
+[8] W. Fedus, B. Zoph, and N. Shazeer, “Switch transform-
+ers: Scaling to trillion parameter models with simple and
+efﬁcient sparsity,” CoRR, vol. abs/2101.03961, 2021.
+[Online]. Available: https://arxiv.org/abs/2101.03961
+[9] D. Lepikhin, H. Lee, Y. Xu, D. Chen, O. Firat,
+Y. Huang, M. Krikun, N. Shazeer, and Z. Chen, “Gshard:
+Scaling giant models with conditional computation and
+automatic sharding,” in 9th International Conference on
+Learning Representations, ICLR 2021, Virtual Event,
+Austria, May 3-7, 2021, 2021. [Online]. Available:
+https://openreview.net/forum?id=qrwe7XHTmYb
+[10] M. Lewis, S. Bhosale, T. Dettmers, N. Goyal, and
+L. Zettlemoyer, “Base layers: Simplifying training of
+large, sparse models,” arXiv preprint arXiv:2103.16716,
+2021.
+[11] S. Roller, S. Sukhbaatar, A. Szlam, and J. Weston,
+“Hash layers for large sparse models,” arXiv preprint
+arXiv:2106.04426, 2021.
+[12] Y. Liu, M. Ott, N. Goyal, J. Du, M. Joshi, D. Chen,
+O. Levy, M. Lewis, L. Zettlemoyer, and V. Stoyanov,
+“Roberta: A robustly optimized bert pretraining ap-
+proach,” arXiv, 2019.
+[13] A. Radford, J. Wu, R. Child, D. Luan, D. Amodei,
+I. Sutskever et al., “Language models are unsupervised
+multitask learners.”
+[14] A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit,
+L. Jones, A. N. Gomez, L. Kaiser, and I. Polosukhin,
+“Attention is all you need,” in NeurIPS, 2017, pp. 5998–
+6008.
+[15] M. Lewis, S. Bhosale, T. Dettmers, N. Goyal, and
+L. Zettlemoyer, “BASE layers: Simplifying training
+of
+large,
+sparse
+models,”
+in
+Proceedings
+of
+the
+38th International Conference on Machine Learning,
+ICML 2021, 18-24 July 2021, Virtual Event, ser.
+Proceedings of Machine Learning Research, M. Meila
+and T. Zhang, Eds., vol. 139.
+PMLR, 2021, pp.
+6265–6274. [Online]. Available: http://proceedings.mlr.
+press/v139/lewis21a.html
+[16] D. Dai, L. Dong, S. Ma, B. Zheng, Z. Sui, B. Chang,
+and F. Wei, “Stablemoe: Stable routing strategy for
+mixture
+of
+experts,”
+in
+Proceedings
+of
+the
+60th
+Annual Meeting of the Association for Computational
+Linguistics (Volume 1: Long Papers), ACL 2022, Dublin,
+Ireland, May 22-27, 2022, S. Muresan, P. Nakov, and
+A. Villavicencio, Eds.
+Association for Computational
+Linguistics, 2022, pp. 7085–7095. [Online]. Available:
+https://doi.org/10.18653/v1/2022.acl-long.489
+[17] A. Wang, A. Singh, J. Michael, F. Hill, O. Levy, and
+S. R. Bowman, “GLUE: A multi-task benchmark and
+analysis platform for natural language understanding,” in
+Proceedings of the Workshop: Analyzing and Interpreting
+Neural Networks for NLP, BlackboxNLP@EMNLP 2018,
+Brussels,
+Belgium,
+November
+1,
+2018,
+T.
+Linzen,
+G. Chrupala, and A. Alishahi, Eds.
+Association for
+Computational Linguistics, 2018, pp. 353–355. [Online].
+Available: https://doi.org/10.18653/v1/w18-5446
+[18] A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit,
+L. Jones, A. N. Gomez, Ł. Kaiser, and I. Polosukhin,
+“Attention is all you need,” Advances in neural informa-
+tion processing systems, vol. 30, 2017.
+[19] L. J. Ba, J. R. Kiros, and G. E. Hinton, “Layer
+normalization,”
+CoRR,
+vol.
+abs/1607.06450,
+2016.
+[Online]. Available: http://arxiv.org/abs/1607.06450
+[20] J. Devlin, M. Chang, K. Lee, and K. Toutanova,
+“BERT: pre-training of deep bidirectional transformers
+for language understanding,” in Proceedings of the
+2019
+Conference
+of
+the
+North
+American
+Chapter
+of
+the
+Association
+for
+Computational
+Linguistics:
+Human Language Technologies, NAACL-HLT 2019,
+13
+
+Minneapolis, MN, USA, June 2-7, 2019, Volume 1
+(Long
+and
+Short
+Papers),
+J.
+Burstein,
+C.
+Doran,
+and T. Solorio, Eds.
+Association for Computational
+Linguistics, 2019, pp. 4171–4186. [Online]. Available:
+https://doi.org/10.18653/v1/n19-1423
+[21] A.
+Radford,
+K.
+Narasimhan,
+T.
+Salimans,
+and
+I.
+Sutskever,
+“Improving
+language
+understanding
+by generative pre-training,” 2018.
+[22] C. Raffel, N. Shazeer, A. Roberts, K. Lee, S. Narang,
+M. Matena, Y. Zhou, W. Li, and P. J. Liu, “Exploring
+the limits of transfer learning with a uniﬁed text-
+to-text transformer,” J. Mach. Learn. Res., vol. 21,
+pp.
+140:1–140:67,
+2020.
+[Online].
+Available:
+http:
+//jmlr.org/papers/v21/20-074.html
+[23] S. Hochreiter and J. Schmidhuber, “Long short-term
+memory,” Neural Comput., vol. 9, no. 8, pp. 1735–1780,
+1997. [Online]. Available: https://doi.org/10.1162/neco.
+1997.9.8.1735
+[24] E.
+Jang,
+S.
+Gu,
+and
+B.
+Poole,
+“Categorical
+reparameterization
+with
+gumbel-softmax,”
+in
+5th
+International Conference on Learning Representations,
+ICLR
+2017,
+Toulon,
+France,
+April
+24-26,
+2017,
+Conference
+Track
+Proceedings,
+2017.
+[Online].
+Available: https://openreview.net/forum?id=rkE3y85ee
+[25] M. Baines, S. Bhosale, V. Caggiano, N. Goyal, S. Goyal,
+M. Ott, B. Lefaudeux, V. Liptchinsky, M. Rabbat,
+S. Sheiffer, A. Sridhar, and M. Xu, “Fairscale: A
+general purpose modular pytorch library for high per-
+formance and large scale training,” https://github.com/
+facebookresearch/fairscale, 2021.
+[26] J. Rasley, S. Rajbhandari, O. Ruwase, and Y. He,
+“Deepspeed: System optimizations enable training deep
+learning models with over 100 billion parameters,” in
+KDD ’20: The 26th ACM SIGKDD Conference on
+Knowledge Discovery and Data Mining, Virtual Event,
+CA, USA, August 23-27, 2020.
+ACM, 2020, pp.
+3505–3506. [Online]. Available: https://doi.org/10.1145/
+3394486.3406703
+[27] M. Ott, S. Edunov, A. Baevski, A. Fan, S. Gross, N. Ng,
+D. Grangier, and M. Auli, “fairseq: A fast, extensible
+toolkit for sequence modeling,” in Proceedings of
+the 2019 Conference of the North American Chapter
+of
+the
+Association
+for
+Computational
+Linguistics:
+Human Language Technologies, NAACL-HLT 2019,
+Minneapolis, MN, USA, June 2-7, 2019, Demonstrations,
+W. Ammar, A. Louis, and N. Mostafazadeh, Eds.
+Association for Computational Linguistics, 2019, pp.
+48–53. [Online]. Available: https://doi.org/10.18653/v1/
+n19-4009
+[28] H. Hazimeh, Z. Zhao, A. Chowdhery, M. Sathiamoor-
+thy, Y. Chen, R. Mazumder, L. Hong, and E. H. Chi,
+“Dselect-k: Differentiable selection in the mixture of
+experts with applications to multi-task learning,” in Ad-
+vances in Neural Information Processing Systems 34:
+Annual Conference on Neural Information Processing
+Systems 2021, NeurIPS 2021, December 6-14, 2021,
+virtual, M. Ranzato, A. Beygelzimer, Y. N. Dauphin,
+P. Liang, and J. W. Vaughan, Eds., 2021, pp. 29 335–
+29 347.
+[29] D. Hendrycks and K. Gimpel, “Gaussian error linear
+units (gelus),” arXiv preprint arXiv:1606.08415, 2016.
+[30] D. P. Kingma and J. Ba, “Adam: A method for
+stochastic optimization,” in 3rd International Conference
+on Learning Representations, ICLR 2015, San Diego,
+CA, USA, May 7-9, 2015, Conference Track Proceedings,
+Y. Bengio and Y. LeCun, Eds., 2015. [Online]. Available:
+http://arxiv.org/abs/1412.6980
+[31] Y. LeCun, J. S. Denker, and S. A. Solla, “Optimal brain
+damage,” in Advances in neural information processing
+systems, 1990, pp. 598–605.
+[32] S. Han, H. Mao, and W. J. Dally, “Deep compres-
+sion: Compressing deep neural networks with pruning,
+trained quantization and huffman coding,” arXiv preprint
+arXiv:1510.00149, 2015.
+[33] W. Wen, C. Wu, Y. Wang, Y. Chen, and H. Li, “Learning
+structured sparsity in deep neural networks,” Advances
+in neural information processing systems, vol. 29, pp.
+2074–2082, 2016.
+[34] J.-H. Luo, J. Wu, and W. Lin, “Thinet: A ﬁlter level
+pruning method for deep neural network compression,”
+in Proceedings of the IEEE international conference on
+computer vision, 2017, pp. 5058–5066.
+[35] Y. He, X. Zhang, and J. Sun, “Channel pruning for
+accelerating very deep neural networks,” in Proceedings
+of the IEEE international conference on computer vision,
+2017, pp. 1389–1397.
+[36] H. Mao, S. Han, J. Pool, W. Li, X. Liu, Y. Wang,
+and W. J. Dally, “Exploring the granularity of sparsity
+in convolutional neural networks,” in Proceedings of
+the IEEE Conference on Computer Vision and Pattern
+Recognition Workshops, 2017, pp. 13–20.
+[37] J. Frankle and M. Carbin, “The lottery ticket hypothesis:
+Finding sparse, trainable neural networks,” in Interna-
+tional Conference on Learning Representations, 2018.
+[38] D. Eigen, M. Ranzato, and I. Sutskever, “Learning fac-
+tored representations in a deep mixture of experts,” arXiv
+preprint arXiv:1312.4314, 2013.
+[39] Z.
+Zhang,
+Y.
+Lin,
+Z.
+Liu,
+P.
+Li,
+M.
+Sun,
+and
+J. Zhou, “Moeﬁcation: Conditional computation of trans-
+former models for efﬁcient inference,” arXiv preprint
+arXiv:2110.01786, 2021.
+[40] S. Ruder, “An overview of multi-task learning in deep
+neural networks,” CoRR, vol. abs/1706.05098, 2017.
+[Online]. Available: http://arxiv.org/abs/1706.05098
+[41] J. Ma, Z. Zhao, X. Yi, J. Chen, L. Hong, and E. H.
+Chi, “Modeling task relationships in multi-task learning
+with multi-gate mixture-of-experts,” in Proceedings of
+the 24th ACM SIGKDD International Conference on
+Knowledge Discovery & Data Mining, KDD 2018,
+London, UK, August 19-23, 2018, Y. Guo and F. Farooq,
+Eds.
+ACM, 2018, pp. 1930–1939. [Online]. Available:
+https://doi.org/10.1145/3219819.3220007
+14

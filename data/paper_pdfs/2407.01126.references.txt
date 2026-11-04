@@ -1,0 +1,2222 @@
+
+[1] Marta Bañón, Pinzhen Chen, Barry Haddow, Ken-
+neth Heafield, Hieu Hoang, Miquel Esplà-Gomis,
+Mikel L. Forcada, Amir Kamran, Faheem Kirefu,
+Philipp Koehn, Sergio Ortiz Rojas, Leopoldo
+Pla Sempere, Gema Ramírez-Sánchez, Elsa Sar-
+rías, Marek Strelec, Brian Thompson, William
+Waites, Dion Wiggins, and Jaume Zaragoza.
+ParaCrawl: Web-scale acquisition of parallel cor-
+pora. In Proceedings of the 58th Annual Meeting
+of the Association for Computational Linguistics,
+pages 4555–4567, Online, 2020. Association for
+Computational Linguistics. 3, 4, 11
+[2] Ankur Bapna and Orhan Firat. Simple, scalable
+adaptation for neural machine translation.
+In
+Proceedings of the 2019 Conference on Empirical
+Methods in Natural Language Processing and the
+9th International Joint Conference on Natural Lan-
+guage Processing (EMNLP-IJCNLP), pages 1538–
+1548, Hong Kong, China, 2019. Association for
+Computational Linguistics. 1
+[3] Alexandre Berard,
+Ioan Calapodescu,
+Marc
+Dymetman, Claude Roux, Jean-Luc Meunier, and
+Vassilina Nikoulina. Machine translation of restau-
+rant reviews: New corpus for domain adaptation
+and robustness. In Proceedings of the 3rd Work-
+shop on Neural Generation and Translation, pages
+168–176, Hong Kong, 2019. Association for Com-
+putational Linguistics. 1, 2
+8
+
+Investigating the potential of Sparse Mixtures-of-Experts for multi-domain neural machine translation
+[4] Alexandre Berard, Dain Lee, Stephane Clinchant,
+Kweonwoo Jung, and Vassilina Nikoulina. Effi-
+cient inference for multilingual neural machine
+translation. In Proceedings of the 2021 Confer-
+ence on Empirical Methods in Natural Language
+Processing, pages 8563–8583, Online and Punta
+Cana, Dominican Republic, 2021. Association for
+Computational Linguistics. 4
+[5] Denny Britz, Quoc Le, and Reid Pryzant. Effective
+domain mixing for neural machine translation.
+In Proceedings of the Second Conference on Ma-
+chine Translation, pages 118–126, Copenhagen,
+Denmark, 2017. Association for Computational
+Linguistics. 1, 2, 3
+[6] Raj Dabre, Chenhui Chu, and Anoop Kunchukut-
+tan.
+A comprehensive survey of multilingual
+neural machine translation.
+arXiv preprint
+arXiv:2001.01115, 2020. 2
+[7] Nan Du, Yanping Huang, Andrew M Dai, Simon
+Tong, Dmitry Lepikhin, Yuanzhong Xu, Maxim
+Krikun, Yanqi Zhou, Adams Wei Yu, Orhan Fi-
+rat, Barret Zoph, Liam Fedus, Maarten P Bosma,
+Zongwei Zhou, Tao Wang, Emma Wang, Kellie
+Webster, Marie Pellat, Kevin Robinson, Kathleen
+Meier-Hellstern, Toju Duke, Lucas Dixon, Kun
+Zhang, Quoc Le, Yonghui Wu, Zhifeng Chen, and
+Claire Cui. GLaM: Efficient scaling of language
+models with mixture-of-experts. In Proceedings
+of the 39th International Conference on Machine
+Learning, pages 5547–5569. PMLR, 2022. 2
+[8] Shashank Gupta, Subhabrata Mukherjee, Kris-
+han Subudhi, Eduardo Gonzalez, Damien Jose,
+Ahmed H. Awadallah, and Jianfeng Gao. Sparsely
+activated mixture-of-experts are robust multi-task
+learners, 2022. 3, 5
+[9] Yi-Te Hsu, Sarthak Garg, Yi-Hsiu Liao, and Ilya
+Chatsviorkin. Efficient inference for neural ma-
+chine translation. In Proceedings of SustaiNLP:
+Workshop on Simple and Efficient Natural Lan-
+guage Processing, pages 48–53, Online, 2020. As-
+sociation for Computational Linguistics. 4
+[10] Changho Hwang, Wei Cui, Yifan Xiong, Ziyue
+Yang, Ze Liu, Han Hu, Zilong Wang, Rafael Salas,
+Jithin Jose, Prabhat Ram, Joe Chau, Peng Cheng,
+Fan Yang, Mao Yang, and Yongqiang Xiong. Tu-
+tel: Adaptive mixture-of-experts at scale. CoRR,
+abs/2206.03382, 2022. 7
+[11] Haoming Jiang, Chen Liang, Chong Wang, and
+Tuo Zhao. Multi-domain neural machine transla-
+tion with word-level adaptive layer-wise domain
+mixing. In Proceedings of the 58th Annual Meeting
+of the Association for Computational Linguistics,
+pages 1823–1834, Online, 2020. Association for
+Computational Linguistics. 2
+[12] Young Jin Kim, Ammar Ahmad Awan, Alexandre
+Muzio, Andres Felipe Cruz Salinas, Liyang Lu,
+Amr Hendy, Samyam Rajbhandari, Yuxiong He,
+and Hany Hassan Awadalla. Scalable and efficient
+moe training for multitask multilingual models.
+arXiv preprint arXiv:2109.10465, 2021. 2
+[13] Catherine Kobus, Josep Crego, and Jean Senel-
+lart. Domain Control for Neural Machine Transla-
+tion. In Proceedings of the International Conference
+Recent Advances in Natural Language Processing,
+RANLP 2017, pages 372–378, Varna, Bulgaria,
+2017. INCOMA Ltd. 1, 2, 3
+[14] Yeskendir Koishekenov, Vassilina Nikoulina, and
+Alexandre Berard.
+Memory-efficient nllb-200:
+Language-specific expert pruning of a massively
+multilingual machine translation model, 2022. 12
+[15] Sneha Kudugunta, Yanping Huang, Ankur Bapna,
+Maxim Krikun, Dmitry Lepikhin, Minh-Thang Lu-
+ong, and Orhan Firat. Beyond distillation: Task-
+level mixture-of-experts for efficient inference. In
+Findings of the Association for Computational Lin-
+guistics: EMNLP 2021, pages 3577–3599, Punta
+Cana, Dominican Republic, 2021. Association for
+Computational Linguistics. 2
+[16] Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong
+Xu, Dehao Chen, Orhan Firat, Yanping Huang,
+Maxim Krikun, Noam Shazeer, and Zhifeng Chen.
+Gshard: Scaling giant models with conditional
+computation and automatic sharding.
+arXiv
+preprint arXiv:2006.16668, 2020. 3
+[17] Pierre Lison and Jörg Tiedemann. OpenSubti-
+tles2016: Extracting large parallel corpora from
+movie and TV subtitles. In Proceedings of the Tenth
+International Conference on Language Resources
+and Evaluation (LREC’16), pages 923–929, Por-
+torož, Slovenia, 2016. European Language Re-
+sources Association (ELRA). 11
+[18] NLLB-Team. No language left behind: Scaling
+human-centered machine translation. 2022. 2,
+11
+[19] MinhQuang Pham, Josep Maria Crego, and
+François Yvon. Revisiting multi-domain machine
+translation. Transactions of the Association for
+Computational Linguistics, 9:17–35, 2021. 2, 7
+[20] Minh-Quang Pham, Josep Crego, and François
+Yvon.
+Multi-domain adaptation in neural ma-
+chine translation with dynamic sampling strate-
+gies. In Proceedings of the 23rd Annual Conference
+of the European Association for Machine Transla-
+tion, pages 13–22, Ghent, Belgium, 2022. Euro-
+pean Association for Machine Translation. 2
+9
+
+Investigating the potential of Sparse Mixtures-of-Experts for multi-domain neural machine translation
+[21] Minh-Quang Pham, François Yvon, and Josep
+Crego. Latent group dropout for multilingual and
+multidomain machine translation. In Findings
+of the Association for Computational Linguistics:
+NAACL 2022, pages 2469–2481, Seattle, United
+States, 2022. Association for Computational Lin-
+guistics. 2
+[22] Ye Qi, Devendra Sachan, Matthieu Felix, Sarguna
+Padmanabhan, and Graham Neubig. When and
+why are pre-trained word embeddings useful for
+neural machine translation? In Proceedings of the
+2018 Conference of the North American Chapter
+of the Association for Computational Linguistics:
+Human Language Technologies, Volume 2 (Short
+Papers), pages 529–535, New Orleans, Louisiana,
+2018. Association for Computational Linguistics.
+11
+[23] Danielle Saunders. Domain adaptation and multi-
+domain adaptation for neural machine transla-
+tion: A survey. J. Artif. Int. Res., 75, 2022. 8
+[24] Noam Shazeer, *Azalia Mirhoseini, *Krzysztof
+Maziarz, Andy Davis, Quoc Le, Geoffrey Hin-
+ton, and Jeff Dean. Outrageously large neural
+networks: The sparsely-gated mixture-of-experts
+layer. In International Conference on Learning Rep-
+resentations, 2017. 1
+[25] Ralf Steinberger, Bruno Pouliquen, Anna Widiger,
+Camelia Ignat, Tomaž Erjavec, Dan Tufiş, and
+Dániel Varga. The JRC-Acquis: A multilingual
+aligned parallel corpus with 20+ languages. In
+Proceedings of the Fifth International Conference
+on Language Resources and Evaluation (LREC’06),
+Genoa, Italy, 2006. European Language Resources
+Association (ELRA). 11
+[26] Sander Tars and Mark Fishel. Multi-domain neu-
+ral machine translation, 2018. 2
+[27] Jörg Tiedemann. Parallel data, tools and inter-
+faces in opus. In Proceedings of the Eight Inter-
+national Conference on Language Resources and
+Evaluation (LREC’12), Istanbul, Turkey, 2012. Eu-
+ropean Language Resources Association (ELRA).
+11
+[28] Jörg Tiedemann. Parallel data, tools and inter-
+faces in opus. In Proceedings of the Eight Inter-
+national Conference on Language Resources and
+Evaluation (LREC’12), Istanbul, Turkey, 2012. Eu-
+ropean Language Resources Association (ELRA).
+11
+[29] Ashish Vaswani, Noam Shazeer, Niki Parmar,
+Jakob Uszkoreit, Llion Jones, Aidan N Gomez,
+L ukasz Kaiser, and Illia Polosukhin. Attention is
+all you need. In Advances in Neural Information
+Processing Systems. Curran Associates, Inc., 2017.
+4
+[30] Wei Wang, Ye Tian, Jiquan Ngiam, Yinfei Yang,
+Isaac Caswell, and Zarana Parekh.
+Learning
+a multi-domain curriculum for neural machine
+translation. In Proceedings of the 58th Annual
+Meeting of the Association for Computational Lin-
+guistics, pages 7711–7723, Online, 2020. Associ-
+ation for Computational Linguistics. 2
+[31] Katharina Wäschle and Stefan Riezler. Analyzing
+parallelism and domain similarities in the marec
+patent corpus. 2012. 11
+10
+
+Investigating the potential of Sparse Mixtures-of-Experts for multi-domain neural machine translation
+A. Experimental setup
+Domain
+Train
+(M)
+Valid
+(K)
+Test
+(K)
+Sampl.
+prob.
+Generic
+33.8
+0.5
+n/a
+50%
+Europarl
+1.70
+0.5
+n/a
+18%
+Patents
+1.00
+2.0
+2.0
+10%
+Subtitles
+0.50
+2.0
+2.0
+5.3%
+Law
+0.47
+2.0
+2.0
+5.0%
+News-com.
+0.35
+0.5
+n/a
+3.7%
+Medical
+0.25
+2.0
+2.0
+2.6%
+Ted
+0.17
+4.0
+4.0
+1.8%
+Wikititles
+0.17
+0.5
+n/a
+1.8%
+Table 7: English-German data statistics (line pairs) for
+seen domains. Sampl. prob. denotes the probability
+of sampling line pairs from the domain in the training
+data mixture.
+Domain
+Train
+(M)
+Valid
+(K)
+Test
+(K)
+Sampl.
+prob.
+Generic
+51.0
+0.5
+n/a
+50.0%
+Europarl
+1.00
+0.5
+n/a
+11.7%
+Patents
+1.00
+2.0
+2.0
+11.7%
+Subtitles
+1.00
+2.0
+2.0
+11.7%
+Law
+0.50
+2.0
+2.0
+5.91%
+Medical
+0.40
+2.0
+2.0
+4.76%
+Ted
+0.26
+4.0
+4.0
+2.26%
+News-com.
+0.15
+0.5
+n/a
+1.79%
+Table 8: English-French data statistics (line pairs) for
+seen domains. Sampl. prob. denotes the probability of
+sampling the domain in the training data mixture.
+Data.
+We experiment with the German-English (De-
+En), English-German (En-De) and English-French (En-
+Fr) translation directions.
+All models are trained on a mix of generic data
+(Paracrawl, 1) and several seen domains:
+• Medical (European Medicines Agency documents,
+27);
+• Law (JRC-Acquis legislative EU texts, 25);
+• Ted (TED talks transcriptions, 22);
+• Subtitles (OpenSubtitles dataset, 17);
+• Patents (PatTR dataset, 31);
+• Europarl (European Parliament Proceedings);
+• News-commentary;
+• Wikititles4.
+4https://linguatools.org/tools/corpora/
+wikipedia-parallel-titles-corpora/
+The selection of seen domains is motivated by having
+domains of different sizes and having a pair of close
+domains, TED Talks and Subtitles (they both relate
+to spoken language). We also test the generalization
+capabilities of models on a set of unseen domains:
+• IT (manuals and localization files of open-source
+software:
+GNOME, KDE, PHP, Ubuntu, and
+OpenOffice);
+• Koran;
+• Flores (Wikipedia sentences, 18);
+• Patents (medical);
+• Subtitles (medical);
+• Medical abstracts (MuchMore dataset5);
+• European Central Bank documentation (ECB, 28,
+used only for En-Fr);
+• World bank data (used only for En-Fr).
+Medical abstracts, Patents (medical), and Subtitles
+(medical) are obtained from the UFAL Medical Corpus
+v. 1.06, and all the medical examples from this corpus
+are excluded from the training data. The purpose of
+introducing Medical abstracts, Patents (medical), and
+Subtitles (medical) domains is to test models’ capabili-
+ties to recognize unseen domains related to some seen
+domains (Medical, Patents, and Subtitles). Europarl,
+News-commentary, Medical, Law, Ted, Subtitles, IT, Ko-
+ran, and ECB data is a part of the OPUS collection [28].
+Tables 7 and 8 list data statistics. During training all the
+models except the experiment reported in Section 5.1,
+we sample the generic domain with probability 50%
+and other domains with probabilities proportional to
+their size in terms of line pairs.
+Training.
+All the models are trained from scratch for
+100k updates in mixed precision on four A100 or V100
+GPUs, with a batch size of maximum 4000 tokens and
+accumulated gradients over 16 batches. We do not use
+early stopping, as usually all validation curves continue
+growing until the end of the training. Only data paral-
+lelism is used, model parallelism is not needed as all
+the models fit into a single GPU’s memory. We use the
+Adam optimizer with the inverse square root learning
+rate schedule, with a warmup of 4k steps and a max-
+imum learning rate of 0.001. The data is tokenized
+using Byte Pair Encoding with a vocabulary of size 24K
+for English-German and 16K for English-French.
+11
+
+Investigating the potential of Sparse Mixtures-of-Experts for multi-domain neural machine translation
+Subt
+Ted
+Law
+Med
+Pat
+MoE + tags
+50.41 44.44 39.76 42.08 41.38
+MoE + tags + DR
+50.88 50.25 47.32 49.97 50.42
+MoE Dom.aw.
+50.92 36.44 33.45 36.97 36.95
+MoE Dom.aw. + DR
+50.77 49.74 41.96 41.73 49.42
+MoE Dom.spec.
+50.94 36.34 33.45 34.47 34.85
+MoE Dom.spec. + DR
+50.29 48.02 46.07 47.31 47.17
+Tr. x5 + tags
+50.55 46.01 37.86 41.73 44.49
+Tr. x5 + tags + DR
+50.41 50.06 48.15 49.55 50.02
+Table 9: BLEU scores for the De-En "Medical" test set,
+when decoding with various domain labels listed in
+column names.
+Subt
+Ted
+Law
+Med
+Pat
+MoE + tags
+54.48 47.96 41.60 45.36 44.16
+MoE + tags + DR
+54.29 54.00 52.11 53.49 54.04
+MoE Dom.aw.
+54.98 36.74 36.48 38.41 32.64
+MoE Dom.aw. + DR
+54.57 51.02 45.20 43.75 54.19
+MoE Dom.spec.
+54.71 38.20 32.12 32.90 26.02
+MoE Dom.spec. + DR
+54.98 52.64 44.20 44.31 47.46
+Tr. x5 + tags
+54.90 49.87 43.73 46.68 47.97
+Tr. x5 + tags + DR
+54.62 54.58 52.92 53.96 54.68
+Table 10: BLEU scores for the De-En "Law" test set,
+when decoding with various domain labels listed in
+column names.
+B. Additional results for the setting with
+wrong domain labels
+Tables 9 and 10 show performance on "Medical" and
+"Law" domains, when decoding with various domain
+labels. The tables confirm the conclusion made in the
+main text that using the proposed domain randomisa-
+tion improves model robustness to wrong domain labels
+at inference time.
+C. Analysis of gate statistics.
+To better assess difference between various gating
+mechanisms, we compare expert activations across
+different datasets of SMoE, SMoE+domain tags and
+SMoE+domain aware gate, SMoE + Domain Spec gate
+with DR and without.
+Figure 3 plots the cosine similarity between the experts
+activation vectors for each pair of test sets. Following
+[14] we compute the top-1 activity metric for each ex-
+pert as a fraction of tokens routed to this expert as the
+first choice. Each test set is then represented by a vec-
+tor containing top-1 activities of all the model’s experts
+5https://muchmore.dfki.de/resources1.htm, available only for
+En-De.
+6https://ufal.mff.cuni.cz/ufal_medical_corpus
+(10 experts × 6 amount of layers with experts). The
+similarity between these vectors would indicate the
+similarities in experts’ activation during decoding. In
+this figure we use the generic domain embedding for all
+the datasets during decoding. Therefore, it reflects how
+does an access to the domain knowledge during train-
+ing impacts models’ capacity to specialize its experts
+based solely on token representation 𝑥.
+In the second analysis, we decode a single dataset (Sub-
+titles) with different domain labels. This allows to as-
+sess how the domain embedding impacts the choice of
+experts at inference. Figure 2 plots similarities of the
+resulting experts’ activation between different domain
+tags.
+We see that the models without DR rely much more on
+the domain tag (Figure 2) compared to models with
+DR. Models with DR in its turn rely more on token
+representations to specialize experts compared to the
+model without DR (Figure 3). We note that models
+with Dom. Aware Gate and Dom. Specific Gate (right)
+lead to more dissimilar (and therefore more domain-
+specialized) experts overall compared to SMoE and
+SMoE+Domain.Tags models. Model with no access to
+domain knowledge (SMoE) specializes its tokens more
+compared to models that have access to domain labels
+without DR (top part of the graph).
+In addition, we note that all the models benefit from
+knowledge transfer by activating similar experts on sim-
+ilar domains: "Patents" and "Patents (medical)", "Subti-
+tles" and "Subtitles (medical)", "Subtitles" and "Ted".
+12
+
+Investigating the potential of Sparse Mixtures-of-Experts for multi-domain neural machine translation
+Model
+Law
+Med
+Ted
+Subt
+Pat
+Avg.
+Without access to seen domains labels
+Transformer Base (TB)
+45.6
+43.5
+34.2
+25.0
+28.4
+35.3
+Transformer width x1.5∗
+46.2
+43.5
+34.7
+25.4
+28.6
+35.7
+Transformer width x5
+48.2
+44.3
+35.2
+26.2
+29.0
+36.6
+Mixture of Experts (MoE)
+48.0
+44.6
+35.2
+25.6
+28.9
+36.5
+With access to seen domains labels
+TB + domain tags
+45.6
+42.9
+34.8
+26.5
+28.4
+35.6
+Tr. x1.5 + domain tags∗
+46.2
+43.8
+35.3
+26.3
+28.5
+36.0
+Tr. x5 + domain tags + DR
+48.5
+44.8
+36.1
+26.5
+28.9
+36.9
+TB + domain adapters
+48.2
+46.0
+33.5
+25.3
+28.7
+36.3
+MoE + domain tags
+48.2
+45.1
+35.8
+26.4
+28.5
+36.8
+MoE + domain tags + DR
+47.6
+45.1
+35.6
+26.3
+28.7
+36.7
+MoE + Dom. Aware Gate
+47.8
+46.1
+35.6
+26.5
+28.8
+37.0
+MoE + Dom. Aware Gate + DR
+47.8
+44.6
+35.5
+26.4
+28.7
+36.6
+Table 11: Results (BLEU) for seen domains, English-German translation. DR: domain randomization. Bold denotes
+significant improvement vs. "Transformer width ×1.5" (without domain labels) or "Tr. ×1.5 + domain tags" (with
+domain labels), both marked with ∗; underline denotes significant losses.
+Model
+Flores
+IT
+Koran
+Pat
+(med)
+Subt
+(med)
+Med
+abst
+Avg
+Without access to seen domains labels
+Transformer Base (TB)
+36.4
+28.1
+10.8
+31.9
+32.9
+11.1
+25.2
+Transformer width x1.5∗
+37.1
+28.5
+10.9
+32.2
+33.3
+11.2
+25.5
+Transformer width x5
+37.8
+29.2
+11.6
+32.2
+33.7
+11.5
+26.0
+Mixture of Experts (MoE)
+36.8
+28.4
+11.0
+32.3
+33.8
+11.2
+25.6
+Without access to seen domains labels
+TB + domain tags
+35.7
+28.2
+10.9
+30.7
+31.0
+11.2
+24.6
+Tr. x1.5 + domain tags∗
+36.3
+28.4
+10.8
+30.9
+31.4
+11.1
+24.8
+Tr. x5 + domain tags + DR
+37.8
+28.6
+11.5
+32.3
+34.2
+11.4
+26.0
+TB + domain adapters
+35.0
+28.8
+10.8
+23.5
+29.6
+10.8
+23.1
+MoE + domain tags
+36.3
+28.6
+11.6
+30.8
+31.3
+11.4
+25.0
+MoE + domain tags + DR
+36.5
+28.5
+11.2
+32.4
+33.7
+11.2
+25.6
+MoE + Dom. Aware Gate
+36.2
+29.1
+11.3
+27.6
+31.3
+11.2
+24.4
+MoE + Dom. Aware Gate + DR
+37.5
+28.5
+11.3
+32.1
+33.1
+11.3
+25.6
+Transformer Base (TB)
+36.4
+28.1
+10.8
+31.9
+32.9
+11.1
+25.2
+Table 12: Results for unseen domains (BLEU), English-German translation. For models with access to seen domain
+labels (second group of rows), the “generic” label is used for unseen domains. DR: domain randomization. Bold
+denotes significant improvement vs. "Transformer width ×1.5" (without domain labels) or "Tr. ×1.5 + domain
+tags" (with domain labels), both marked with ∗; underline denotes significant losses.
+13
+
+Investigating the potential of Sparse Mixtures-of-Experts for multi-domain neural machine translation
+Model
+Law
+Med
+Ted
+Subt
+Pat
+Avg
+Without access to seen domains labels
+Transformer Base (TB)
+59.7
+53.7
+44.8
+32.0
+37.0
+45.5
+Transformer width ×1.5∗
+60.6
+53.7
+45.1
+32.6
+37.4
+45.9
+Transformer width ×5
+62.6
+56.2
+45.5
+33.4
+37.5
+47.0
+Mixture of Experts (SMoE)
+62.5
+56.3
+45.4
+32.9
+37.3
+46.9
+With access to seen domains labels
+TB + domain tags
+59.8
+53.3
+44.9
+32.6
+37.0
+45.5
+TB + domain tags + DR
+60.1
+53.5
+44.8
+32.5
+37.1
+45.6
+Tr. ×1.5 + domain tags∗
+61.2
+54.5
+44.9
+32.7
+37.3
+46.1
+Tr. 5 + domain tags + DR
+62.5
+56.0
+45.3
+33.4
+37.5
+46.9
+TB + domain adapters
+62.5
+55.2
+42.0
+31.7
+37.1
+45.7
+TB + domain adapters + DR
+60.4
+54.2
+43.2
+31.6
+36.8
+45.2
+SMoE + domain tags
+62.9
+56.7
+45.3
+33.1
+37.5
+47.1
+SMoE + domain tags + DR
+62.8
+56.9
+45.2
+33.3
+37.4
+47.1
+SMoE + Dom. Aware Gate
+62.9
+56.8
+44.4
+32.6
+37.3
+46.8
+SMoE + Dom. Aware Gate + DR
+62.3
+56.8
+45.2
+33.0
+37.5
+47.0
+SMoE + Dom. Spec. Gate
+62.5
+56.3
+45.2
+33.2
+37.3
+46.9
+SMoE + Dom. Spec. Gate + DR
+62.8
+56.0
+45.5
+33.2
+37.6
+47.0
+Table 13: BLEU scores for seen domains, English-French translation. DR: domain randomization. Bold denotes
+significant improvement vs. "Transformer width ×1.5" (without domain labels) or "Tr. ×1.5 + domain tags" (with
+domain labels), both marked with ∗; underline denotes significant losses.
+Flores
+IT
+Med.abstr
+Patent(med)
+Subtitles(med)
+koran
+law
+medical
+Patent
+TED
+subtitles
+Flores
+IT
+MuchMore
+Patent_medical
+Subtitles_medical
+koran
+law
+medical
+Patent
+TED
+subtitles
+0.95 0.93 0.57
+0.9
+0.95 0.89 0.85 0.53 0.97 0.92
+0.95
+0.93 0.64 0.87 0.88 0.88
+0.9
+0.6
+0.91 0.89
+0.93 0.93
+0.71 0.78 0.83 0.87 0.93 0.63 0.85
+0.8
+0.57 0.64 0.71
+0.51
+0.5
+0.69 0.81 0.93 0.53 0.52
+0.9
+0.87 0.78 0.51
+0.97 0.78 0.76 0.48 0.97
+1.0
+0.95 0.88 0.83
+0.5
+0.97
+0.8
+0.76 0.48 0.99 0.98
+0.89 0.88 0.87 0.69 0.78
+0.8
+0.89 0.66 0.84
+0.8
+0.85
+0.9
+0.93 0.81 0.76 0.76 0.89
+0.7
+0.78 0.77
+0.53
+0.6
+0.63 0.93 0.48 0.48 0.66
+0.7
+0.5
+0.49
+0.97 0.91 0.85 0.53 0.97 0.99 0.84 0.78
+0.5
+0.98
+0.92 0.89
+0.8
+0.52
+1.0
+0.98
+0.8
+0.77 0.49 0.98
+SMoE
+Flores
+IT
+Med.abstr
+Patent(med)
+Subtitles(med)
+koran
+law
+medical
+Patent
+TED
+subtitles
+0.94 0.94 0.79
+0.9
+0.93 0.92 0.91 0.78 0.96 0.92
+0.94
+0.93 0.82 0.85 0.83
+0.9
+0.95 0.79 0.88 0.86
+0.94 0.93
+0.85
+0.8
+0.82 0.88 0.97
+0.8
+0.86 0.82
+0.79 0.82 0.85
+0.66 0.68 0.84 0.89 0.97 0.71 0.68
+0.9
+0.85
+0.8
+0.66
+0.95
+0.8
+0.78 0.65 0.97
+1.0
+0.93 0.83 0.82 0.68 0.95
+0.84 0.78 0.68 0.98 0.96
+0.92
+0.9
+0.88 0.84
+0.8
+0.84
+0.9
+0.83 0.87 0.82
+0.91 0.95 0.97 0.89 0.78 0.78
+0.9
+0.83 0.82
+0.8
+0.78 0.79
+0.8
+0.97 0.65 0.68 0.83 0.83
+0.71 0.67
+0.96 0.88 0.86 0.71 0.97 0.98 0.87 0.82 0.71
+0.98
+0.92 0.86 0.82 0.68
+1.0
+0.96 0.82
+0.8
+0.67 0.98
+SMoE+Dom.Tags
+Flores
+IT
+Med.abstr
+Patent(med)
+Subtitles(med)
+koran
+law
+medical
+Patent
+TED
+subtitles
+0.91 0.94 0.87 0.92 0.94 0.94 0.91 0.87 0.97 0.94
+0.91
+0.91
+0.9
+0.85
+0.8
+0.92 0.94 0.86 0.86 0.86
+0.94 0.91
+0.95 0.81 0.82 0.91 0.97 0.91 0.86 0.83
+0.87
+0.9
+0.95
+0.77 0.75 0.88 0.97 0.97 0.79 0.78
+0.92 0.85 0.81 0.77
+0.97 0.85 0.81 0.77 0.97
+1.0
+0.94
+0.8
+0.82 0.75 0.97
+0.85 0.79 0.77 0.99 0.98
+0.94 0.92 0.91 0.88 0.85 0.85
+0.92 0.88 0.89 0.87
+0.91 0.94 0.97 0.97 0.81 0.79 0.92
+0.91 0.83 0.82
+0.87 0.86 0.91 0.97 0.77 0.77 0.88 0.91
+0.81 0.78
+0.97 0.86 0.86 0.79 0.97 0.99 0.89 0.83 0.81
+0.98
+0.94 0.86 0.83 0.78
+1.0
+0.98 0.87 0.82 0.78 0.98
+SMoE+Dom.Aware Gate
+Flores
+IT
+Med.abstr
+Patent(med)
+Subtitles(med)
+koran
+law
+medical
+Patent
+TED
+subtitles
+0.91 0.94 0.87
+0.9
+0.91 0.87 0.89 0.86 0.96 0.93
+0.91
+0.92 0.92 0.83 0.78 0.84 0.96 0.88 0.85 0.84
+0.94 0.92
+0.95
+0.8
+0.8
+0.83 0.95 0.91 0.86 0.82
+0.87 0.92 0.95
+0.74 0.72 0.85 0.97 0.98 0.79 0.76
+0.9
+0.83
+0.8
+0.74
+0.97 0.78 0.78 0.74 0.97
+1.0
+0.91 0.78
+0.8
+0.72 0.97
+0.77 0.75 0.73 0.98 0.98
+0.87 0.84 0.83 0.85 0.78 0.77
+0.85 0.84 0.82 0.79
+0.89 0.96 0.95 0.97 0.78 0.75 0.85
+0.92
+0.8
+0.79
+0.86 0.88 0.91 0.98 0.74 0.73 0.84 0.92
+0.79 0.76
+0.96 0.85 0.86 0.79 0.97 0.98 0.82
+0.8
+0.79
+0.98
+0.93 0.84 0.82 0.76
+1.0
+0.98 0.79 0.79 0.76 0.98
+SMoE+Dom.Spec. Gate
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Flores
+IT
+Med.abstr
+Patent(med)
+Subtitles(med)
+koran
+law
+medical
+Patent
+TED
+subtitles
+Flores
+IT
+MuchMore
+Patent_medical
+Subtitles_medical
+koran
+law
+medical
+Patent
+TED
+subtitles
+0.95 0.93 0.57
+0.9
+0.95 0.89 0.85 0.53 0.97 0.92
+0.95
+0.93 0.64 0.87 0.88 0.88
+0.9
+0.6
+0.91 0.89
+0.93 0.93
+0.71 0.78 0.83 0.87 0.93 0.63 0.85
+0.8
+0.57 0.64 0.71
+0.51
+0.5
+0.69 0.81 0.93 0.53 0.52
+0.9
+0.87 0.78 0.51
+0.97 0.78 0.76 0.48 0.97
+1.0
+0.95 0.88 0.83
+0.5
+0.97
+0.8
+0.76 0.48 0.99 0.98
+0.89 0.88 0.87 0.69 0.78
+0.8
+0.89 0.66 0.84
+0.8
+0.85
+0.9
+0.93 0.81 0.76 0.76 0.89
+0.7
+0.78 0.77
+0.53
+0.6
+0.63 0.93 0.48 0.48 0.66
+0.7
+0.5
+0.49
+0.97 0.91 0.85 0.53 0.97 0.99 0.84 0.78
+0.5
+0.98
+0.92 0.89
+0.8
+0.52
+1.0
+0.98
+0.8
+0.77 0.49 0.98
+SMoE
+Flores
+IT
+Med.abstr
+Patent(med)
+Subtitles(med)
+koran
+law
+medical
+Patent
+TED
+subtitles
+0.95 0.91 0.67 0.88 0.94 0.93 0.87 0.62 0.96
+0.9
+0.95
+0.92 0.76 0.86 0.88 0.92 0.95
+0.7
+0.9
+0.88
+0.91 0.92
+0.8
+0.75 0.81
+0.9
+0.94 0.72 0.83 0.76
+0.67 0.76
+0.8
+0.57 0.59 0.75 0.82 0.98 0.61 0.58
+0.88 0.86 0.75 0.57
+0.96 0.78 0.76 0.53 0.97
+1.0
+0.94 0.88 0.81 0.59 0.96
+0.83 0.78 0.55 0.99 0.97
+0.93 0.92
+0.9
+0.75 0.78 0.83
+0.9
+0.72 0.86
+0.8
+0.87 0.95 0.94 0.82 0.76 0.78
+0.9
+0.72 0.81 0.77
+0.62
+0.7
+0.72 0.98 0.53 0.55 0.72 0.72
+0.57 0.53
+0.96
+0.9
+0.83 0.61 0.97 0.99 0.86 0.81 0.57
+0.98
+0.9
+0.88 0.76 0.58
+1.0
+0.97
+0.8
+0.77 0.53 0.98
+SMoE+Dom.Tags+DR
+Flores
+IT
+Med.abstr
+Patent(med)
+Subtitles(med)
+koran
+law
+medical
+Patent
+TED
+subtitles
+0.91 0.92
+0.6
+0.8
+0.88 0.71
+0.8
+0.55 0.94 0.84
+0.91
+0.91 0.66 0.79 0.86 0.63 0.83 0.58 0.85 0.83
+0.92 0.91
+0.7
+0.7
+0.8
+0.66
+0.9
+0.62 0.82 0.74
+0.6
+0.66
+0.7
+0.43 0.48 0.46
+0.7
+0.98 0.51 0.45
+0.8
+0.79
+0.7
+0.43
+0.95 0.49
+0.6
+0.39 0.94
+1.0
+0.88 0.86
+0.8
+0.48 0.95
+0.55 0.65 0.44 0.96 0.96
+0.71 0.63 0.66 0.46 0.49 0.55
+0.63 0.41 0.63 0.52
+0.8
+0.83
+0.9
+0.7
+0.6
+0.65 0.63
+0.59
+0.7
+0.63
+0.55 0.58 0.62 0.98 0.39 0.44 0.41 0.59
+0.47 0.41
+0.94 0.85 0.82 0.51 0.94 0.96 0.63
+0.7
+0.47
+0.96
+0.84 0.83 0.74 0.45
+1.0
+0.96 0.52 0.63 0.41 0.96
+SMoE+Dom.Aware Gate+DR
+Flores
+IT
+Med.abstr
+Patent(med)
+Subtitles(med)
+koran
+law
+medical
+Patent
+TED
+subtitles
+0.91 0.92 0.49 0.86 0.91 0.71 0.83 0.43 0.94 0.89
+0.91
+0.9
+0.59
+0.8
+0.8
+0.72 0.92
+0.5
+0.84 0.82
+0.92
+0.9
+0.6
+0.72 0.76 0.72 0.93 0.51
+0.8
+0.74
+0.49 0.59
+0.6
+0.38 0.37
+0.5
+0.64 0.98 0.41 0.39
+0.86
+0.8
+0.72 0.38
+0.97 0.55 0.66 0.32 0.97
+1.0
+0.91
+0.8
+0.76 0.37 0.97
+0.58 0.66 0.32 0.99 0.98
+0.71 0.72 0.72
+0.5
+0.55 0.58
+0.77 0.44 0.61 0.56
+0.83 0.92 0.93 0.64 0.66 0.66 0.77
+0.52 0.71 0.68
+0.43
+0.5
+0.51 0.98 0.32 0.32 0.44 0.52
+0.36 0.33
+0.94 0.84
+0.8
+0.41 0.97 0.99 0.61 0.71 0.36
+0.98
+0.89 0.82 0.74 0.39
+1.0
+0.98 0.56 0.68 0.33 0.98
+SMoE+Dom.Spec. Gate+DR
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Figure 3: Pairwise similarity of experts activated across different datasets, De-En translation. All the datasets
+were decoded with the generic domain embedding.
+14
+
+Investigating the potential of Sparse Mixtures-of-Experts for multi-domain neural machine translation
+Model
+Flores
+IT
+Koran
+Pat
+(med)
+Subt
+(med)
+World
+bank
+ECB
+Avg
+Without access to seen domains labels
+Transformer Base (TB)
+47.5
+16.0
+12.0
+35.5
+32.0
+32.4
+44.2
+31.3
+Transformer width ×1.5∗
+47.5
+16.2
+12.8
+35.8
+32.7
+32.4
+44.8
+31.7
+Transformer width ×5
+48.4
+16.4
+13.8
+36.0
+32.9
+32.9
+44.9
+32.2
+Mixture of Experts (SMoE)
+47.8
+16.4
+13.2
+35.8
+33.0
+32.8
+44.7
+32.0
+With access to seen domains labels
+TB + domain tags
+46.9
+16.0
+12.0
+34.3
+29.4
+32.0
+43.4
+30.6
+TB + domain tags + DR
+47.2
+16.0
+12.3
+35.6
+32.5
+32.3
+44.6
+31.5
+Tr. ×1.5 + domain tags∗
+46.5
+16.2
+12.7
+34.1
+29.7
+31.8
+44.2
+30.7
+Tr. 5 + domain tags + DR
+48.5
+16.2
+13.9
+36.1
+33.2
+32.7
+45.2
+32.3
+TB + domain adapters
+46.7
+16.1
+12.9
+29.5
+27.6
+31.9
+41.8
+29.5
+TB + domain adapters + DR
+48.3
+15.9
+12.3
+35.8
+32.7
+32.6
+44.9
+31.8
+SMoE + domain tags
+46.9
+16.4
+13.5
+34.4
+29.5
+32.1
+44.4
+31.0
+SMoE + domain tags + DR
+48.3
+16.3
+13.4
+35.9
+33.2
+33.0
+45.2
+32.2
+SMoE + Dom. Aware Gate
+47.6
+16.4
+13.3
+32.9
+29.4
+32.1
+43.4
+30.7
+SMoE + Dom. Aware Gate +
+DR
+47.9
+16.3
+12.9
+35.8
+33.0
+32.7
+45.0
+31.9
+SMoE + Dom. Spec. Gate
+48.1
+16.4
+13.3
+32.0
+29.2
+32.6
+44.1
+30.8
+SMoE + Dom. Spec. Gate +
+DR
+48.5
+16.3
+12.8
+35.9
+32.9
+32.7
+44.9
+32.0
+Table 14: BLEU scores for unseen domains, English-French translation. For models with access to seen domain
+labels (second group of rows), the “generic” label is used for unseen domains. DR: domain randomization. Bold
+denotes significant improvement vs. "Transformer width ×1.5" (without domain labels) or "Tr. ×1.5 + domain
+tags" (with domain labels), both marked with ∗; underline denotes significant losses.
+Model
+Law
+Med
+Ted
+Subt
+Pat
+Avg
+Without access to seen domains labels
+Transformer Base (TB)
+87.0
+85.7
+86.3
+79.5
+80.0
+83.7
+Transformer width ×1.5∗
+87.1
+85.6
+86.4
+79.7
+80.0
+83.8
+Transformer width ×5
+87.5
+85.8
+86.6
+80.1
+80.3
+84.1
+Mixture of Experts (SMoE)
+87.5
+86.0
+86.6
+80.1
+80.3
+84.1
+With access to seen domains labels
+TB + domain tags
+87.1
+85.6
+86.4
+79.4
+80.0
+83.7
+TB + domain tags + DR
+87.1
+85.5
+86.5
+79.7
+80.1
+83.8
+Tr. ×1.5 + domain tags∗
+87.3
+85.7
+86.6
+79.6
+80.2
+83.8
+TB + domain adapters
+87.2
+85.5
+84.3
+77.9
+80.2
+83.0
+TB + domain adapters + DR
+87.1
+85.4
+85.6
+78.9
+80.1
+83.4
+SMoE + domain tags
+87.6
+85.8
+86.8
+80.1
+80.2
+84.1
+SMoE + domain tags + DR
+87.5
+86.0
+86.9
+80.1
+80.2
+84.1
+SMoE + Dom. Aware Gate
+87.5
+85.9
+86.7
+79.8
+80.2
+84.0
+SMoE + Dom. Aware Gate + DR
+87.5
+86.0
+86.8
+80.1
+80.1
+84.1
+SMoE + Dom. Spec. Gate + DR
+87.5
+85.9
+86.8
+80.1
+80.2
+84.1
+Table 15: COMET results for seen domains, German-English translation. DR: domain randomization. Bold denotes
+significant improvement vs. "Transformer width ×1.5" (without domain labels) or "Tr. ×1.5 + domain tags" (with
+domain labels), both marked with ∗; underline denotes significant losses.
+15
+
+Investigating the potential of Sparse Mixtures-of-Experts for multi-domain neural machine translation
+Model
+Flores
+IT
+Koran
+Pat
+(med)
+Subt
+(med)
+Med
+abstr
+Avg
+Without access to seen domains labels
+Transformer Base (TB)
+88.4
+82.4
+70.8
+82.3
+82.0
+70.1
+79.3
+Transformer width ×1.5∗
+88.5
+82.6
+70.9
+82.3
+82.1
+70.0
+79.4
+Transformer width ×5
+88.8
+82.7
+70.7
+82.6
+82.6
+71.2
+79.7
+Mixture of Experts (SMoE)
+88.8
+82.5
+71.3
+82.4
+82.3
+70.4
+79.6
+With access to seen domains labels
+TB + domain tags
+88.3
+82.3
+70.0
+82.0
+81.5
+70.1
+79.0
+TB + domain tags + DR
+88.3
+82.2
+69.8
+82.4
+81.9
+70.2
+79.1
+Tr. ×1.5 + domain tags∗
+88.5
+82.5
+70.5
+82.2
+81.6
+70.6
+79.3
+TB + domain adapters
+88.3
+82.4
+70.2
+81.2
+80.6
+70.2
+78.8
+TB + domain adapters + DR
+88.6
+82.6
+70.3
+82.4
+82.1
+70.7
+79.4
+SMoE + domain tags
+88.8
+83.0
+71.4
+82.3
+81.7
+70.5
+79.6
+SMoE + domain tags + DR
+88.8
+82.3
+71.4
+82.4
+82.4
+70.5
+79.6
+SMoE + Dom. Aware Gate
+88.7
+82.8
+71.4
+81.1
+81.5
+70.1
+79.3
+SMoE + Dom. Aware Gate +
+DR
+88.8
+82.7
+71.2
+82.3
+82.2
+70.0
+79.5
+SMoE + Dom. Spec. Gate +
+DR
+88.7
+82.4
+71.1
+82.4
+82.5
+70.4
+79.6
+Table 16: COMET results for unseen domains, German-English translation. For models with access to seen domain
+labels (second group of rows), the “generic” label is used for unseen domains. DR: domain randomization. Bold
+denotes significant improvement vs. "Transformer width ×1.5" (without domain labels) or "Tr. ×1.5 + domain
+tags" (with domain labels), both marked with ∗; underline denotes significant losses.
+Model
+Law
+Med
+Ted
+Subt
+Pat
+Avg
+Without access to seen domains labels
+Transformer Base (TB)
+87.0
+84.0
+83.2
+76.7
+76.8
+81.6
+Transformer width x1.5
+87.2
+84.3
+83.5
+77.6
+77.0
+81.9
+Transformer width x5
+87.6
+84.1
+84.2
+78.3
+77.2
+82.2
+Mixture of Experts (MoE)
+87.4
+84.3
+83.6
+77.7
+77.0
+82.0
+With access to seen domains labels
+TB + domain tags
+87.0
+83.9
+83.5
+77.2
+76.7
+81.7
+Tr. x1.5 + domain tags
+87.4
+84.3
+84.0
+77.6
+77.0
+82.1
+TB + domain adapters
+87.2
+84.2
+82.5
+76.9
+76.9
+81.5
+MoE + domain tags
+87.5
+84.5
+84.2
+77.9
+77.0
+82.2
+MoE + domain tags + DR
+87.3
+84.4
+84.1
+78.0
+77.1
+82.2
+MoE + Dom. Aware Gate
+87.4
+84.6
+84.1
+77.9
+77.1
+82.2
+MoE + Dom. Aware Gate + DR
+87.5
+84.3
+84.2
+77.8
+77.0
+82.2
+Table 17: COMET results for seen domains, English-German translation. DR: domain randomization. Bold denotes
+significant improvement vs. "Transformer width ×1.5" (without domain labels) or "Tr. ×1.5 + domain tags" (with
+domain labels), both marked with ∗; underline denotes significant losses.
+16
+
+Investigating the potential of Sparse Mixtures-of-Experts for multi-domain neural machine translation
+Flores
+It
+Koran
+Pat
+(med)
+Subtitles_medical
+Medical
+ab-
+stracts
+Avg.
+Transformer Base (TB)
+84.3
+78.1
+69.2
+78.7
+79.0
+67.7
+76.2
+Transformer width x1.5
+85.0
+78.6
+69.6
+78.9
+79.3
+68.6
+76.7
+Transformer width x5
+85.6
+78.9
+70.4
+79.2
+79.7
+69.5
+77.2
+Mixture of Experts (MoE)
+84.8
+78.3
+69.5
+79.0
+79.6
+68.4
+76.6
+TB + domain tags
+83.9
+79.0
+69.1
+78.0
+77.0
+69.2
+76.1
+Tr. x1.5 + domain tags
+84.5
+79.1
+69.2
+78.0
+77.6
+68.1
+76.1
+TB + domain adapters
+83.0
+79.1
+69.0
+71.7
+76.2
+67.1
+74.3
+MoE + domain tags
+84.0
+79.2
+69.7
+78.0
+77.3
+68.3
+76.1
+MoE + domain tags + DR
+84.4
+78.7
+69.5
+79.0
+79.3
+67.7
+76.4
+MoE + Dom. Aware Gate
+84.1
+79.2
+69.5
+75.5
+77.0
+68.1
+75.6
+MoE + Dom. Aware Gate +
+DR
+85.0
+78.7
+70.0
+78.9
+79.1
+68.4
+76.7
+Table 18: COMET results for unseen domains, English-German translation, shallow decoder (3 layers). For models
+with access to seen domain labels (second group of rows), the “generic” label is used for unseen domains. DR:
+domain randomization. Bold denotes significant improvement vs. "Transformer width ×1.5" (without domain
+labels) or "Tr. ×1.5 + domain tags" (with domain labels), both marked with ∗; underline denotes significant
+losses.
+Model
+Law
+Med
+Ted
+Subt
+Pat
+Avg
+Without access to seen domains labels
+Transformer Base (TB)
+89.6
+86.7
+81.5
+76.9
+77.7
+82.5
+Transformer width x1.5
+89.8
+86.3
+81.7
+76.9
+77.9
+82.5
+Transformer width x5
+90.1
+86.6
+82.1
+77.3
+78.0
+82.8
+Mixture of Experts (SMoE)
+90.0
+86.4
+81.8
+77.1
+77.8
+82.6
+With access to seen domains labels
+TB + domain tags
+89.8
+86.3
+81.4
+76.8
+77.8
+82.4
+TB + domain tags + DR
+89.7
+86.4
+81.5
+76.7
+77.8
+82.4
+Tr. x1.5 + domain tags
+89.9
+86.7
+81.6
+77.1
+77.7
+82.6
+Tr. 5 + domain tags + DR
+90.0
+86.6
+82.1
+77.3
+78.1
+82.8
+TB + domain adapters
+89.9
+86.2
+79.9
+76.7
+77.7
+82.1
+TB + domain adapters + DR
+89.7
+86.3
+80.7
+76.5
+77.5
+82.2
+MoE + domain tags
+90.3
+86.9
+82.0
+77.4
+77.8
+82.9
+MoE + domain tags + DR
+90.3
+86.7
+81.9
+77.4
+78.0
+82.8
+MoE + Dom. Aware Gate
+90.1
+86.7
+81.4
+77.1
+77.8
+82.6
+MoE + Dom. Aware Gate + DR
+90.1
+86.5
+81.9
+77.2
+78.0
+82.7
+MoE + Dom. Spec. Gate
+90.1
+86.5
+81.8
+77.2
+77.9
+82.7
+MoE + Dom. Spec. Gate + DR
+90.2
+86.4
+81.9
+77.5
+77.9
+82.8
+Table 19: COMET results for seen domains, English-French translation. DR: domain randomization.
+17
+
+Investigating the potential of Sparse Mixtures-of-Experts for multi-domain neural machine translation
+Model
+Flores
+IT
+Koran
+Pat
+(med)
+Subt
+(med)
+World
+bank
+ECB
+Avg
+Without access to seen domains labels
+Transformer Base (TB)
+86.2
+68.0
+68.4
+79.4
+73.9
+86.0
+89.1
+78.7
+Transformer width x1.5
+86.2
+68.0
+69.2
+79.4
+74.2
+86.1
+89.3
+78.9
+Transformer width x5
+86.6
+68.0
+69.6
+79.5
+74.7
+86.3
+89.5
+79.2
+Mixture of Experts (MoE)
+86.3
+68.0
+69.5
+79.5
+74.2
+86.2
+89.2
+79.0
+With access to seen domains labels
+TB + domain tags
+86.0
+67.9
+68.5
+78.8
+73.2
+85.9
+88.9
+78.5
+TB + domain tags + DR
+86.0
+67.8
+68.4
+79.4
+74.1
+86.0
+89.1
+78.7
+Tr. x1.5 + domain tags
+86.0
+68.1
+68.8
+78.8
+72.9
+86.0
+89.0
+78.5
+Tr. 5 + domain tags + DR
+86.6
+68.3
+70.0
+79.6
+74.5
+86.2
+89.2
+79.2
+TB + domain adapters
+86.0
+68.1
+69.0
+76.8
+71.8
+85.8
+88.7
+78.0
+TB + domain adapters + DR
+86.4
+67.9
+69.0
+79.5
+74.2
+86.1
+89.3
+78.9
+MoE + domain tags
+86.1
+68.4
+69.3
+78.8
+73.0
+85.9
+89.0
+78.6
+MoE + domain tags + DR
+86.5
+68.1
+69.5
+79.5
+74.4
+86.2
+89.4
+79.1
+MoE + Dom. Aware Gate
+86.2
+68.2
+69.1
+78.0
+72.7
+86.0
+89.0
+78.5
+MoE + Dom. Aware Gate +
+DR
+86.4
+68.2
+69.1
+79.5
+74.3
+86.0
+89.4
+79.0
+MoE + Dom. Spec. Gate
+86.5
+68.4
+69.5
+77.3
+72.9
+86.1
+89.1
+78.5
+MoE + Dom. Spec. Gate + DR
+86.6
+68.1
+69.2
+79.5
+74.5
+86.3
+89.3
+79.1
+Table 20: COMET results for unseen domains, German-English translation. For models with access to seen domain
+labels (second group of rows), the “generic” label is used for unseen domains. DR: domain randomization.
+18

@@ -1,0 +1,281 @@
+
+Aminabadi, R. Y., Rajbhandari, S., Awan, A. A., Li, C., Li,
+D., Zheng, E., Ruwase, O., Smith, S., Zhang, M., Rasley,
+J., and He, Y. DeepSpeed-Inference: Enabling efficient
+inference of transformer models at unprecedented scale.
+In SC, pp. 46:1–46:15. IEEE, 2022.
+Costa-juss`a, M. R., Cross, J., C¸ elebi, O., Elbayad, M.,
+Heafield, K., Heffernan, K., Kalbassi, E., Lam, J., Licht,
+D., Maillard, J., Sun, A., Wang, S., Wenzek, G., Young-
+blood, A., Akula, B., Barrault, L., Gonzalez, G. M.,
+Hansanti, P., Hoffman, J., Jarrett, S., Sadagopan, K. R.,
+Rowe, D., Spruit, S., Tran, C., Andrews, P., Ayan, N. F.,
+Bhosale, S., Edunov, S., Fan, A., Gao, C., Goswami,
+V., Guzm´an, F., Koehn, P., Mourachko, A., Ropers, C.,
+Saleem, S., Schwenk, H., and Wang, J. No language
+left behind: Scaling human-centered machine translation,
+2022.
+Cui, W., Han, Z., Ouyang, L., Wang, Y., Zheng, N., Ma, L.,
+Yang, Y., Yang, F., Xue, J., Qiu, L., Zhou, L., Chen, Q.,
+Tan, H., and Guo, M. Optimizing dynamic neural net-
+works with brainstorm. In OSDI, pp. 797–815. USENIX
+Association, 2023.
+DeepSeek-AI. DeepSeek-V2: A strong, economical, and
+efficient mixture-of-experts language model, 2024.
+Douze, M., Guzhva, A., Deng, C., Johnson, J., Szilvasy, G.,
+Mazar´e, P.-E., Lomeli, M., Hosseini, L., and J´egou, H.
+The faiss library. 2024.
+Dumer, I. Covering spheres with spheres. Discret. Comput.
+Geom., 38(4):665–679, 2007.
+Eliseev, A. and Mazur, D. Fast inference of mixture-of-
+experts language models with offloading, 2023.
+Fedus, W., Zoph, B., and Shazeer, N. Switch Transform-
+ers: Scaling to trillion parameter models with simple and
+efficient sparsity, 2021.
+Holmes, C., Tanaka, M., Wyatt, M., Awan, A. A., Rasley,
+J., Rajbhandari, S., Aminabadi, R. Y., Qin, H., Bakhtiari,
+A., Kurilenko, L., and He, Y.
+DeepSpeed-FastGen:
+High-throughput text generation for LLMs via MII and
+DeepSpeed-Inference, 2024.
+Huang, C., Jin, G., and Li, J. SwapAdvisor: Pushing deep
+learning beyond the GPU memory limit via smart swap-
+ping. In ASPLOS, pp. 1341–1355. ACM, 2020.
+HuggingFace. Text generation inference. https://gith
+ub.com/huggingface/text-generation-i
+nference, 2024.
+Jeong, J., Baek, S., and Ahn, J. Fast and efficient model serv-
+ing using multi-gpus with direct-host-access. In EuroSys,
+pp. 249–265. ACM, 2023.
+Jiang, A. Q., Sablayrolles, A., Mensch, A., Bamford, C.,
+Chaplot, D. S., de Las Casas, D., Bressand, F., Lengyel,
+G., Lample, G., Saulnier, L., Lavaud, L. R., Lachaux, M.,
+Stock, P., Scao, T. L., Lavril, T., Wang, T., Lacroix, T.,
+and Sayed, W. E. Mixtral of experts, 2024.
+Jung, J., Kim, J., and Lee, J. DeepUM: Tensor migration
+and prefetching in unified memory. In ASPLOS (2), pp.
+207–221. ACM, 2023.
+Kwon, W., Li, Z., Zhuang, S., Sheng, Y., Zheng, L., Yu,
+C. H., Gonzalez, J., Zhang, H., and Stoica, I. Efficient
+memory management for large language model serving
+with pagedattention. In SOSP, pp. 611–626. ACM, 2023.
+Lee, W., Lee, J., Seo, J., and Sim, J. Infinigen: Efficient gen-
+erative inference of large language models with dynamic
+KV cache management. In OSDI, pp. 155–172. USENIX
+Association, 2024.
+NVIDIA. TensorRT-LLM. https://github.com/N
+VIDIA/TensorRT-LLM, 2024.
+Ollama. Ollama. https://github.com/ollama/
+ollama, 2024.
+Rankin, R. A. On the closest packing of spheres in n dimen-
+sions. Annals of Mathematics, pp. 1062–1081, 1947.
+Ren, J., Luo, J., Wu, K., Zhang, M., Jeon, H., and Li, D.
+Sentinel: Efficient tensor migration and allocation on
+heterogeneous memory systems for deep learning. In
+HPCA, pp. 598–611. IEEE, 2021.
+Sheng, Y., Zheng, L., Yuan, B., Li, Z., Ryabinin, M., Chen,
+B., Liang, P., R´e, C., Stoica, I., and Zhang, C. Flexgen:
+High-throughput generative inference of large language
+models with a single GPU. In ICML, volume 202 of
+Proceedings of Machine Learning Research, pp. 31094–
+31116. PMLR, 2023.
+Snowflake AI Research. Snowflake Arctic: The best LLM
+for enterprise AI — efficiently intelligent, truly open.
+https://www.snowflake.com/blog/arcti
+c-open-efficient-foundation-languag
+e-models-snowflake/.
+Team, Q. Qwen1.5-moe: Matching 7b model performance
+with 1/3 activated parameters”, February 2024. URL
+https://qwenlm.github.io/blog/qwen-m
+oe/.
+9
+
+MOE-INFINITY: Efficient MoE Inference on Personal Machines with Sparsity-Aware Expert Cache
+The Mosaic Research Team. Introducing DBRX: A new
+state-of-the-art open LLM. https://www.databr
+icks.com/blog/introducing-dbrx-new-s
+tate-art-open-llm.
+Wei, J., Wang, X., Schuurmans, D., Bosma, M., Ichter, B.,
+Xia, F., Chi, E. H., Le, Q. V., and Zhou, D. Chain-of-
+thought prompting elicits reasoning in large language
+models. In NeurIPS, 2022.
+XAI. Open release of Grok-1. https://x.ai/blog/
+grok-os, 2024. Accessed: 2024-06-04.
+Yu, G., Jeong, J. S., Kim, G., Kim, S., and Chun, B. Orca: A
+distributed serving system for transformer-based genera-
+tive models. In OSDI, pp. 521–538. USENIX Association,
+2022.
+A. Existing Post-Hoc Predictors
+Current post-hoc predictor (without changing model archi-
+tectures and finetuning) does not fully capture the sparse
+activation properties of the MoE models.
+(1) Prediction based on dependency. Predictors estimate
+expert activation based on memory dependency (Huang
+et al., 2020; HuggingFace, 2024; Aminabadi et al., 2022).
+As experts in one MoE layer all have memory dependency
+on the same router, such approaches fail to capture selective
+(S) and grouped (G) properties of sparse activation. Reuse
+(R) is not considered under the same scope.
+(2) Prediction based on counts. Predictors use aggre-
+gated frequency counters on each expert to estimate ac-
+tivation (Cui et al., 2023; Jung et al., 2023). As experts
+tend to show uniform activation in the long run, this fails
+to capture the sparsity (S). In addition, individual counters
+cannot instruct the grouped activation (G) within and across
+layers.
+(3) Prediction based on locality. Predictors estimate expert
+reuse based on heuristics such as LFU and LRU (Eliseev &
+Mazur, 2023; Jung et al., 2023; Cui et al., 2023; Aminabadi
+et al., 2022). Although only activated experts are considered
+(S,R), the reuse prediction is not applied across iterations,
+failing in the decoding phase.
+B. Practical Concerns
+B.1. Predictor Runtime Efficiency
+We design EAMC to have fixed capacity, thereby limiting
+both memory costs and the time required to find a matching
+EAM. When the EAMC reaches its capacity, it necessitates
+the replacement of an entry within the collection. Our re-
+placement strategy is guided by two main objectives: first,
+to record the most recent EAM, thereby quickly adapting to
+changes in workload; second, to maintain diversity within
+the recorded EAMs. Consequently, we opt to replace an
+EAM that is most similar to the incoming one. To imple-
+ment this, we compare the new EAM against all existing
+ones in the EAMC, replacing the one that shows the shortest
+cosine distance. We illustrate the EAMC replacement pro-
+cess in Figure 10. Here, consider that the EAMC capacity is
+3. Upon a new prompt P4 finished its trace, we compute the
+cosine distance between the EAM4 with all EAMs in the
+EAMC. The distances show that EAM4 is similar to EAM3,
+and we thus evict EAM3 and accommodate the EAM4.
+Runtime overhead. The capacity of an EAMC must be
+appropriately small, as a large capacity can impede its prac-
+ticality. MoE models benefit from a modest EAMC capacity
+for two main reasons: (i) After pre-training, MoE routers
+are optimized to create specialized expert groups for token
+processing, limiting the number of groups to ensure efficient
+10
+
+MOE-INFINITY: Efficient MoE Inference on Personal Machines with Sparsity-Aware Expert Cache
+0
+1
+1
+0
+0
+1
+2
+0
+2
+0
+2
+0
+#Layer
+#Expert
+P1
+P2
+1
+1
+0
+2
+0
+2
+P4
+Expert Activation Matrix
+Expert Activation Matrix Collection
+Cosine Distance = 0.8 
+Replace
+1
+1
+0
+2
+1
+1
+P3
+Cosine Distance = 0.5 
+Cosine Distance = 0.1 
+Figure 10: EAMC replacement example.
+token dispatching and high accuracy, a characteristic under-
+scored by leading research (Jiang et al., 2024; Team, 2024).
+(ii) Our evaluations in Section 5.2 indicate that a modest
+EAMC capacity, from hundreds to thousands, suffices for
+various LLM tasks and adapts well to task shifts, with the
+added advantage of negligible matching costs compared to
+model decoding latency. Searching for the most similar
+EAM is essentially a matrix multiplication on CPU (Douze
+et al., 2024). We measured the cost to be 21us per query un-
+der 1K EAMs and 226us for 10K EAMs. The frequency of
+the query is at most once per MoE layer for each (batched)
+input. Both memory and computation overhead are less than
+1% of the model inference latency (typically >120ms per
+token).
+Capacity bound. To analyse the upper bound of the number
+of cluster needed for a given cut-off distance under diverse
+inference requests, we formulate the EAMC construction
+as a sphere covering problem on the cosine distance, with
+each EAM as a vector in the space. In such a sphere space,
+arbitrary EAM can be projected to a point on the sphere, as
+under cosine distance, the EAM is normalized to unit vector.
+If we can find the minimal amount of the cluster that covers
+all area of the sphere, then the centroids of the clusters can
+be the representative EAMs for any given sequence. Theo-
+rems (Rankin, 1947; Dumer, 2007) shows that total number
+of cluster needed to cover the expert activation patterns is
+finite and polynomial complexity regarding the number of
+experts. In detail, this guarantees a lower bound of 75%
+cosine similarity by using 2LE EAMs and lower bound of
+98% cosine similarity by using 1
+2LE ln(LE) EAMs. We
+observe that E of SOTA MoE models ranges from 8 to 128
+and L ranges from 24 to 64 (Fedus et al., 2021; Jiang et al.,
+2024), leading to 40K EAMs with 160MB memory.
+Runtime optimizations. The high computational complex-
+ity of the clustering algorithm makes this enhancement
+difficult to deploy. Consider the case of serving Arctic-
+128x4B for the FLAN dataset (which includes 66 LLM
+tasks). The clustering algorithm needs to handle over 1 mil-
+lion EAMs, each forming a 4480-dimensional vector (the
+flattened EAM). To our knowledge, no existing clustering
+libraries (e.g., FAISS (Douze et al., 2024)) can efficiently
+handle this workload. Hence, we adhered to the above sim-
+ple but effective design for EAMC and left its enhancement
+with clustering algorithms for future work.
+B.2. System Implementation
+Support multiple GPUs. We implement expert parallelism
+to support the use of multiple GPUs on a server. Concretely,
+we use a hashing function to assign the experts to different
+GPUs based on their IDs. All experts are kept in the host
+DRAM. While executing the MoE layers by layers, we
+use this hashing function to know which GPU is going to
+accommodate an expert needed for prefetching or execution.
+When the GPU is spread across multiple NUMA nodes,
+we will pre-partition the experts based on NUMA nodes,
+ensuring that these experts are only assigned to the GPUs in
+the designated NUMA node.
+For each GPU, we create an independent I/O thread to man-
+age the prefetching and caching. This thread uses pinned
+memory and DMA operations to optimize data transfers
+between the GPU and host DRAM, and a single thread is
+sufficient to saturate the bandwidth provided by PCIe 4.0
+(32GB/s). For higher PCIe versions, we support creating
+multiple such threads per GPU.
+For now, most open-source MoE models can be fitted into
+the host memory (up to 1TB) of a commodity multi-GPU
+server. We leave the multi-server support for future work.
+Memory management. Given a MoE checkpoint, we keep
+its dense parts within the GPUs and turn on the offloading
+for its experts. This design is sufficient since the proportion
+of the experts’ parameters comprising of 90-99% of the total
+parameters. For initializing the kv-cache, we will reserve the
+amount of GPU memory in corresponding to the maximal
+output length we observed in the open LLM datasets.
+Inference runtime integration. We have integrated the
+above prefetching and caching mechanisms into PyTorch
+and support numerous kernel optimization, such as FlashAt-
+tention. Our current inference runtime supports checkpoints
+in PyTorch formats and HuggingFace formats.
+Failure recovery.
+MOE-INFINITY can checkpoint its
+EAMC together with the MoE checkpoints. Once recovered
+from the failure, it reloads the EAMC to efficiently resume
+its prefetching and caching performance.
+11

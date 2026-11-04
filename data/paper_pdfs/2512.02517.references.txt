@@ -1,0 +1,231 @@
+
+Bai, J.; Bai, S.; Yang, S.; Wang, S.; Tan, S.; Wang, P.; Lin,
+J.; Zhou, C.; and Zhou, J. 2023.
+Qwen-VL: A Versatile
+Vision-Language Model for Understanding, Localization,
+Text Reading, and Beyond. arXiv:2308.12966.
+Bai, S.; Chen, K.; Liu, X.; Wang, J.; Ge, W.; Song, S.; Dang,
+K.; Wang, P.; Wang, S.; Tang, J.; Zhong, H.; Zhu, Y.; Yang,
+M.; Li, Z.; Wan, J.; Wang, P.; Ding, W.; Fu, Z.; Xu, Y.;
+Ye, J.; Zhang, X.; Xie, T.; Cheng, Z.; Zhang, H.; Yang, Z.;
+Xu, H.; and Lin, J. 2025. Qwen2.5-VL Technical Report.
+arXiv:2502.13923.
+Banerjee, S.; and Lavie, A. 2005. METEOR: An automatic
+metric for MT evaluation with improved correlation with hu-
+man judgments. In Proceedings of the acl workshop on in-
+trinsic and extrinsic evaluation measures for machine trans-
+lation and/or summarization, 65–72.
+Chen, J.; Zhu, D.; Shen, X.; Li, X.; Liu, Z.; Zhang, P.;
+Krishnamoorthi, R.; Chandra, V.; Xiong, Y.; and Elho-
+seiny, M. 2023.
+MiniGPT-v2: large language model as
+a unified interface for vision-language multi-task learning.
+arXiv:2310.09478.
+Chen, L.; Zhang, Y.; Tian, B.; Ai, Y.; Cao, D.; and Wang,
+F.-Y. 2022. Parallel driving OS: A ubiquitous operating sys-
+tem for autonomous driving in CPSS. IEEE Transactions on
+Intelligent Vehicles, 7(4): 886–895.
+Cheng, G.; Han, J.; and Lu, X. 2017. Remote sensing image
+scene classification: Benchmark and state of the art. Pro-
+ceedings of the IEEE, 105(10): 1865–1883.
+Cheng, G.; Han, J.; Zhou, P.; and Guo, L. 2014. Multi-class
+geospatial object detection and geographic image classifica-
+tion based on collection of part detectors. ISPRS Journal of
+Photogrammetry and Remote Sensing, 98: 119–132.
+Durante, Z.; Huang, Q.; Wake, N.; Gong, R.; Park, J. S.;
+Sarkar, B.; Taori, R.; Noda, Y.; Terzopoulos, D.; Choi,
+Y.; Ikeuchi, K.; Vo, H.; Fei-Fei, L.; and Gao, J. 2024.
+Agent AI: Surveying the Horizons of Multimodal Interac-
+tion. arXiv:2401.03568.
+Hu, E. J.; Shen, Y.; Wallis, P.; Allen-Zhu, Z.; Li, Y.; Wang,
+S.; Wang, L.; and Chen, W. 2022. LoRA: Low-Rank Adap-
+tation of Large Language Models. In International Confer-
+ence on Learning Representations.
+kelu, Y.; Nuo, X.; Rong, Y.; Yingying, X.; Zhuoyan, G.; Tit-
+inunt, K.; yi, R.; Pu, Z.; Jin, W.; Ning, W.; and Chao, L.
+2025. Falcon: A Remote Sensing Vision-Language Founda-
+tion Model. arXiv preprint arXiv:2503.11070.
+Kuckreja, K.; Danish, M. S.; Naseer, M.; Das, A.; Khan, S.;
+and Khan, F. S. 2024.
+Geochat: Grounded large vision-
+language model for remote sensing.
+In Proceedings of
+the IEEE/CVF Conference on Computer Vision and Pattern
+Recognition, 27831–27840.
+Li, J.; Li, D.; Xiong, C.; and Hoi, S. 2022.
+Blip: Boot-
+strapping language-image pre-training for unified vision-
+language understanding and generation.
+In International
+conference on machine learning, 12888–12900. PMLR.
+Li, K.; Wan, G.; Cheng, G.; Meng, L.; and Han, J. 2020.
+Object detection in optical remote sensing images: A survey
+
+and a new benchmark. ISPRS journal of photogrammetry
+and remote sensing, 159: 296–307.
+Li, X.; Ding, J.; and Elhoseiny, M. 2024. VRSBench: A
+Versatile Vision-Language Benchmark Dataset for Remote
+Sensing Image Understanding. In Advances in Neural Infor-
+mation Processing Systems, volume 37, 3229–3242. Curran
+Associates, Inc.
+Lin, C.-Y. 2004. Rouge: A package for automatic evaluation
+of summaries. In Text summarization branches out, 74–81.
+Lin, H.; Hong, D.; Ge, S.; Luo, C.; Jiang, K.; Jin, H.; and
+Wen, C. 2025. Rs-moe: A vision-language model with mix-
+ture of experts for remote sensing image captioning and vi-
+sual question answering. IEEE Transactions on Geoscience
+and Remote Sensing.
+Liu, H.; Li, C.; Li, Y.; and Lee, Y. J. 2023a. Llava-1.5: Im-
+proved baselines with visual instruction tuning.
+Liu, H.; Li, C.; Li, Y.; and Lee, Y. J. 2024a.
+Improved
+baselines with visual instruction tuning. In Proceedings of
+the IEEE/CVF Conference on Computer Vision and Pattern
+Recognition, 26296–26306.
+Liu, H.; Li, C.; Wu, Q.; and Lee, Y. J. 2023b. Visual instruc-
+tion tuning. In Proceedings of the 37th International Confer-
+ence on Neural Information Processing Systems, NIPS ’23.
+Red Hook, NY, USA: Curran Associates Inc.
+Liu, J.; Qi, X.; Hang, P.; and Sun, J. 2024b.
+Enhancing
+social decision-making of autonomous vehicles: A mixed-
+strategy game approach with interaction orientation identifi-
+cation. IEEE Transactions on Vehicular Technology.
+Liu, S.; Ma, Y.; Zhang, X.; Wang, H.; Ji, J.; Sun, X.; and Ji,
+R. 2024c. Rotated multi-scale interaction network for refer-
+ring remote sensing image segmentation. In Proceedings of
+the IEEE/CVF Conference on Computer Vision and Pattern
+Recognition, 26658–26668.
+Liu, X.; and Lian, Z. 2024.
+Rsunivlm: A unified vision
+language model for remote sensing via granularity-oriented
+mixture of experts. arXiv preprint arXiv:2412.05679.
+Lobry, S.; Marcos, D.; Murray, J.; and Tuia, D. 2020.
+RSVQA: Visual question answering for remote sensing data.
+IEEE Transactions on Geoscience and Remote Sensing,
+58(12): 8555–8566.
+Long, Y.; Gong, Y.; Xiao, Z.; and Liu, Q. 2017. Accurate ob-
+ject localization in remote sensing images based on convo-
+lutional neural networks. IEEE Transactions on Geoscience
+and Remote Sensing, 55(5): 2486–2498.
+Loshchilov, I.; and Hutter, F. 2019. Decoupled Weight De-
+cay Regularization. arXiv:1711.05101.
+Lu, X.; Wang, B.; Zheng, X.; and Li, X. 2017. Exploring
+models and data for remote sensing image caption genera-
+tion. IEEE Transactions on Geoscience and Remote Sens-
+ing, 56(4): 2183–2195.
+Luo, J.; Pang, Z.; Zhang, Y.; Wang, T.; Wang, L.; Dang, B.;
+Lao, J.; Wang, J.; Chen, J.; Tan, Y.; and Li, Y. 2024. Sky-
+SenseGPT: A Fine-Grained Instruction Tuning Dataset and
+Model for Remote Sensing Vision-Language Understand-
+ing. arXiv:2406.10100.
+Muhtar, D.; Li, Z.; Gu, F.; Zhang, X.; and Xiao, P. 2024.
+Lhrs-bot: Empowering remote sensing with vgi-enhanced
+large multimodal language model. In European Conference
+on Computer Vision, 440–457. Springer.
+OpenAI. 2023. GPT-4V system card. https://openai.com/
+index/gpt-4v-system-card.
+Pang, C.; Weng, X.; Wu, J.; Li, J.; Liu, Y.; Sun, J.; Li, W.;
+Wang, S.; Feng, L.; Xia, G.-S.; et al. 2025. Vhm: Versatile
+and honest vision language model for remote sensing image
+analysis. In Proceedings of the AAAI Conference on Artifi-
+cial Intelligence, volume 39, 6381–6388.
+Papineni, K.; Roukos, S.; Ward, T.; and Zhu, W.-J. 2002.
+Bleu: a method for automatic evaluation of machine trans-
+lation.
+In Proceedings of the 40th annual meeting of the
+Association for Computational Linguistics, 311–318.
+Qu, B.; Li, X.; Tao, D.; and Lu, X. 2016. Deep semantic
+understanding of high resolution remote sensing image. In
+2016 International conference on computer, information and
+telecommunication systems (Cits), 1–5. IEEE.
+Schuhmann, C.; Beaumont, R.; Vencu, R.; Gordon, C.;
+Wightman, R.; Cherti, M.; Coombes, T.; Katta, A.; Mullis,
+C.; Wortsman, M.; et al. 2022. Laion-5b: An open large-
+scale dataset for training next generation image-text mod-
+els. Advances in neural information processing systems, 35:
+25278–25294.
+Shen, Y.; Song, K.; Tan, X.; Li, D.; Lu, W.; and Zhuang,
+Y. 2023. Hugginggpt: Solving ai tasks with chatgpt and its
+friends in hugging face. Advances in Neural Information
+Processing Systems, 36: 38154–38180.
+Soni, S.; Dudhane, A.; Debary, H.; Fiaz, M.; Munir, M. A.;
+Danish, M. S.; Fraccaro, P.; Watson, C. D.; Klein, L. J.;
+Khan, F. S.; et al. 2025. Earthdial: Turning multi-sensory
+earth observations to interactive dialogues. In Proceedings
+of the Computer Vision and Pattern Recognition Conference,
+14303–14313.
+Sun, X.; Wang, P.; Yan, Z.; Xu, F.; Wang, R.; Diao, W.;
+Chen, J.; Li, J.; Feng, Y.; Xu, T.; et al. 2022a. FAIR1M:
+A benchmark dataset for fine-grained object recognition in
+high-resolution remote sensing imagery. ISPRS Journal of
+Photogrammetry and Remote Sensing, 184: 116–130.
+Sun, Y.; Feng, S.; Li, X.; Ye, Y.; Kang, J.; and Huang, X.
+2022b. Visual grounding in remote sensing images. In Pro-
+ceedings of the 30th ACM International conference on Mul-
+timedia, 404–412.
+Tay, Y.; Phan, M. C.; Tuan, L. A.; and Hui, S. C. 2017.
+Learning to rank question answer pairs with holographic
+dual LSTM architecture. In Proceedings of the 40th Inter-
+national ACM SIGIR Conference on Research and Develop-
+ment in Information Retrieval, 695–704. ACM.
+Wang, J.; Wang, S.; and Zhang, Y. 2025. Deep learning on
+medical image analysis. CAAI Transactions on Intelligence
+Technology, 10(1): 1–35.
+Wang, J.; Zhang, H.; Hong, H.; Jin, X.; He, Y.; Xue, H.; and
+Zhao, Z. 2023. Open-vocabulary object detection with an
+open corpus. In Proceedings of the IEEE/CVF international
+conference on computer vision, 6759–6769.
+
+Wu, Z.; Chen, X.; Pan, Z.; Liu, X.; Liu, W.; Dai, D.; Gao,
+H.; Ma, Y.; Wu, C.; Wang, B.; et al. 2024. DeepSeek-VL2:
+Mixture-of-Experts Vision-Language Models for Advanced
+Multimodal Understanding.
+Xia, G.-S.; Bai, X.; Ding, J.; Zhu, Z.; Belongie, S.; Luo,
+J.; Datcu, M.; Pelillo, M.; and Zhang, L. 2018. DOTA: A
+large-scale dataset for object detection in aerial images. In
+Proceedings of the IEEE conference on computer vision and
+pattern recognition, 3974–3983.
+Xia, G.-S.; Hu, J.; Hu, F.; Shi, B.; Bai, X.; Zhong, Y.; Zhang,
+L.; and Lu, X. 2017. AID: A benchmark data set for perfor-
+mance evaluation of aerial scene classification. IEEE Trans-
+actions on Geoscience and Remote Sensing, 55(7): 3965–
+3981.
+Xia, G.-S.; Yang, W.; Delon, J.; Gousseau, Y.; Sun, H.; and
+Maˆıtre, H. 2010. Structural high-resolution satellite image
+indexing. In ISPRS TC VII Symposium-100 Years ISPRS,
+volume 38, 298–303.
+Yuan, Z.; Zhang, W.; Fu, K.; Li, X.; Deng, C.; Wang, H.; and
+Sun, X. 2021. Exploring a Fine-Grained Multiscale Method
+for Cross-Modal Remote Sensing Image Retrieval.
+IEEE
+Transactions on Geoscience and Remote Sensing, 60: 1–19.
+Zhan, Y.; Xiong, Z.; and Yuan, Y. 2023. Rsvg: Exploring
+data and models for visual grounding on remote sensing
+data. IEEE Transactions on Geoscience and Remote Sens-
+ing, 61: 1–13.
+Zhang, W.; Cai, M.; Zhang, T.; Zhuang, Y.; and Mao, X.
+2024.
+Earthgpt: A universal multi-modal large language
+model for multi-sensor image comprehension in remote
+sensing domain. IEEE Transactions on Geoscience and Re-
+mote Sensing.
+Zhang, Y.; Yuan, Y.; Feng, Y.; and Lu, X. 2019. Hierarchi-
+cal and robust convolutional neural network for very high-
+resolution remote sensing object detection. IEEE Transac-
+tions on Geoscience and Remote Sensing, 57(8): 5535–5548.
+Zhou, Y.; Lan, M.; Li, X.; Ke, Y.; Jiang, X.; Feng, L.; and
+Zhang, W. 2025.
+GeoGround: A Unified Large Vision-
+Language Model for Remote Sensing Visual Grounding.
+arXiv:2411.11904.
+Zhu, D.; Chen, J.; Shen, X.; Li, X.; and Elhoseiny, M.
+2024.
+MiniGPT-4: Enhancing Vision-Language Under-
+standing with Advanced Large Language Models. In The
+Twelfth International Conference on Learning Representa-
+tions.
+Zhu, P.; Wen, L.; Du, D.; Bian, X.; Fan, H.; Hu, Q.; and
+Ling, H. 2021. Detection and tracking meet drones chal-
+lenge. IEEE transactions on pattern analysis and machine
+intelligence, 44(11): 7380–7399.

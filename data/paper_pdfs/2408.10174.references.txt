@@ -1,0 +1,1336 @@
+
+Samuel K Ainsworth, Jonathan Hayase, and Siddhartha Srinivasa. Git re-basin: Merging models modulo permutation
+symmetries. arXiv preprint arXiv:2209.04836, 2022.
+Gregory Benton, Wesley Maddox, Sanae Lotfi, and Andrew Gordon Gordon Wilson. Loss surface simplexes for mode
+connecting volumes and fast ensembling. In International Conference on Machine Learning, pages 769–779. PMLR,
+2021.
+Gong Cheng, Junwei Han, and Xiaoqiang Lu. Remote sensing image scene classification: Benchmark and state of the
+art. Proceedings of the IEEE, 105(10):1865–1883, 2017.
+Mircea Cimpoi, Subhransu Maji, Iasonas Kokkinos, Sammy Mohamed, and Andrea Vedaldi. Describing textures in the
+wild. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 3606–3613, 2014.
+Damai Dai, Chengqi Deng, Chenggang Zhao, RX Xu, Huazuo Gao, Deli Chen, Jiashi Li, Wangding Zeng, Xingkai Yu,
+Y Wu, et al. Deepseekmoe: Towards ultimate expert specialization in mixture-of-experts language models. arXiv
+preprint arXiv:2401.06066, 2024.
+Felix Draxler, Kambis Veschgini, Manfred Salmhofer, and Fred Hamprecht. Essentially no barriers in neural network
+energy landscape. In International conference on machine learning, pages 1309–1318. PMLR, 2018.
+Rahim Entezari, Hanie Sedghi, Olga Saukh, and Behnam Neyshabur. The role of permutation invariance in linear mode
+connectivity of neural networks. arXiv preprint arXiv:2110.06296, 2021.
+William Fedus, Jeff Dean, and Barret Zoph. A review of sparse expert models in deep learning. arXiv preprint
+arXiv:2209.01667, 2022a.
+William Fedus, Barret Zoph, and Noam Shazeer. Switch transformers: Scaling to trillion parameter models with simple
+and efficient sparsity. Journal of Machine Learning Research, 23(120):1–39, 2022b.
+Jonathan Frankle, Gintare Karolina Dziugaite, Daniel Roy, and Michael Carbin. Linear mode connectivity and the
+lottery ticket hypothesis. In International Conference on Machine Learning, pages 3259–3269. PMLR, 2020.
+C Daniel Freeman and Joan Bruna. Topology and geometry of half-rectified network optimization. arXiv preprint
+arXiv:1611.01540, 2016.
+Leo Gao, Jonathan Tow, Baber Abbasi, Stella Biderman, Sid Black, Anthony DiPofi, Charles Foster, Laurence Golding,
+Jeffrey Hsu, Alain Le Noac’h, Haonan Li, Kyle McDonell, Niklas Muennighoff, Chris Ociepa, Jason Phang, Laria
+Reynolds, Hailey Schoelkopf, Aviya Skowron, Lintang Sutawika, Eric Tang, Anish Thite, Ben Wang, Kevin Wang,
+and Andy Zou. A framework for few-shot language model evaluation, 07 2024.
+Timur Garipov, Pavel Izmailov, Dmitrii Podoprikhin, Dmitry P Vetrov, and Andrew G Wilson. Loss surfaces, mode
+connectivity, and fast ensembling of dnns. Advances in neural information processing systems, 31, 2018.
+Muhammad Usman Hadi, Rizwan Qureshi, Abbas Shah, Muhammad Irfan, Anas Zafar, Muhammad Bilal Shaikh,
+Naveed Akhtar, Jia Wu, Seyedali Mirjalili, et al. Large language models: a comprehensive survey of its applications,
+challenges, limitations, and future prospects. Authorea Preprints, 2023.
+Patrick Helber, Benjamin Bischke, Andreas Dengel, and Damian Borth. Eurosat: A novel dataset and deep learning
+benchmark for land use and land cover classification. IEEE Journal of Selected Topics in Applied Earth Observations
+and Remote Sensing, 12(7):2217–2226, 2019.
+Edward J Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, and Weizhu Chen.
+Lora: Low-rank adaptation of large language models. arXiv preprint arXiv:2106.09685, 2021.
+Gabriel Ilharco, Marco Tulio Ribeiro, Mitchell Wortsman, Suchin Gururangan, Ludwig Schmidt, Hannaneh Hajishirzi,
+and Ali Farhadi. Editing models with task arithmetic. arXiv preprint arXiv:2212.04089, 2022.
+Pavel Izmailov, Dmitrii Podoprikhin, Timur Garipov, Dmitry Vetrov, and Andrew Gordon Wilson. Averaging weights
+leads to wider optima and better generalization. arXiv preprint arXiv:1803.05407, 2018.
+Robert A Jacobs, Michael I Jordan, Steven J Nowlan, and Geoffrey E Hinton. Adaptive mixtures of local experts.
+Neural computation, 3(1):79–87, 1991.
+Arthur Jacot, Franck Gabriel, and Clément Hongler. Neural tangent kernel: Convergence and generalization in neural
+networks. Advances in neural information processing systems, 31, 2018.
+Albert Q Jiang, Alexandre Sablayrolles, Antoine Roux, Arthur Mensch, Blanche Savary, Chris Bamford, Devendra Singh
+Chaplot, Diego de las Casas, Emma Bou Hanna, Florian Bressand, et al. Mixtral of experts. arXiv preprint
+arXiv:2401.04088, 2024.
+Xisen Jin, Xiang Ren, Daniel Preotiuc-Pietro, and Pengxiang Cheng. Dataless knowledge fusion by merging weights of
+language models. arXiv preprint arXiv:2212.09849, 2022.
+12
+
+SMILE: Zero-Shot Sparse Mixture of Low-Rank Experts Construction
+A PREPRINT
+Jean Kaddour. Stop wasting my time! saving days of imagenet and bert training with latest weight averaging. arXiv
+preprint arXiv:2209.14981, 2022.
+Dahyun Kim, Chanjun Park, Sanghoon Kim, Wonsung Lee, Wonho Song, Yunsu Kim, Hyeonwoo Kim, Yungi Kim,
+Hyeonju Lee, Jihoo Kim, et al. Solar 10.7 b: Scaling large language models with simple yet effective depth up-scaling.
+arXiv preprint arXiv:2312.15166, 2023.
+Aran Komatsuzaki, Joan Puigcerver, James Lee-Thorp, Carlos Riquelme Ruiz, Basil Mustafa, Joshua Ainslie, Yi Tay,
+Mostafa Dehghani, and Neil Houlsby. Sparse upcycling: Training mixture-of-experts from dense checkpoints. arXiv
+preprint arXiv:2212.05055, 2022.
+Jonathan Krause, Michael Stark, Jia Deng, and Li Fei-Fei. 3d object representations for fine-grained categorization. In
+Proceedings of the IEEE international conference on computer vision workshops, pages 554–561, 2013.
+Yann LeCun, Léon Bottou, Yoshua Bengio, and Patrick Haffner. Gradient-based learning applied to document
+recognition. Proceedings of the IEEE, 86(11):2278–2324, 1998.
+Mike Lewis, Shruti Bhosale, Tim Dettmers, Naman Goyal, and Luke Zettlemoyer. Base layers: Simplifying training of
+large, sparse models. In International Conference on Machine Learning, pages 6265–6274. PMLR, 2021.
+Weishi Li, Yong Peng, Miao Zhang, Liang Ding, Han Hu, and Li Shen. Deep model fusion: A survey, 2023.
+Yixuan Li, Jason Yosinski, Jeff Clune, Hod Lipson, and John Hopcroft. Convergent learning: Do different neural
+networks learn the same representations? arXiv preprint arXiv:1511.07543, 2015.
+Chang Liu, Chenfei Lou, Runzhong Wang, Alan Yuhan Xi, Li Shen, and Junchi Yan. Deep neural network fusion
+via graph matching with applications to model ensemble and federated learning. In International Conference on
+Machine Learning, pages 13857–13869. PMLR, 2022.
+Zhenyi Lu, Chenghao Fan, Wei Wei, Xiaoye Qu, Dangyang Chen, and Yu Cheng. Twin-merging: Dynamic integration
+of modular expertise in model merging. arXiv preprint arXiv:2406.15479, 2024.
+Michael S Matena and Colin A Raffel. Merging models with fisher-weighted averaging. Advances in Neural Information
+Processing Systems, 35:17703–17716, 2022.
+Shervin Minaee, Tomas Mikolov, Narjes Nikzad, Meysam Chenaghlu, Richard Socher, Xavier Amatriain, and Jianfeng
+Gao. Large language models: A survey. arXiv preprint arXiv:2402.06196, 2024.
+Vaishnavh Nagarajan and J Zico Kolter. Uniform convergence may be unable to explain generalization in deep learning.
+Advances in Neural Information Processing Systems, 32, 2019.
+Yuval Netzer, Tao Wang, Adam Coates, Alessandro Bissacco, Baolin Wu, Andrew Y Ng, et al. Reading digits in natural
+images with unsupervised feature learning. In NIPS workshop on deep learning and unsupervised feature learning,
+volume 2011, page 4. Granada, 2011.
+Peter J. Olver and Chehrzad Shakiban. Applied Linear Algebra. Undergraduate Texts in Mathematics. Springer Interna-
+tional Publishing, Cham, 2018. ISBN 978-3-319-91040-6 978-3-319-91041-3. doi: 10.1007/978-3-319-91041-3.
+URL http://link.springer.com/10.1007/978-3-319-91041-3.
+Oleksiy Ostapenko, Zhan Su, Edoardo Maria Ponti, Laurent Charlin, Nicolas Le Roux, Matheus Pereira, Lucas
+Caccia, and Alessandro Sordoni. Towards modular llms by building and reusing a library of loras. arXiv preprint
+arXiv:2405.11157, 2024.
+Omer Sagi and Lior Rokach. Ensemble learning: A survey. Wiley interdisciplinary reviews: data mining and knowledge
+discovery, 8(4):e1249, 2018.
+Johannes Stallkamp, Marc Schlipsing, Jan Salmen, and Christian Igel. Man vs. computer: Benchmarking machine
+learning algorithms for traffic sign recognition. Neural networks, 32:323–332, 2012.
+George Stoica, Daniel Bolya, Jakob Bjorner, Pratik Ramesh, Taylor Hearn, and Judy Hoffman. Zipit! merging models
+from different tasks without training. arXiv preprint arXiv:2305.03053, 2023.
+Anke Tang, Li Shen, Yong Luo, Yibing Zhan, Han Hu, Bo Du, Yixin Chen, and Dacheng Tao. Parameter efficient
+multi-task model fusion with partial linearization. arXiv preprint arXiv:2310.04742, 2023.
+Anke Tang, Li Shen, Yong Luo, Han Hu, Bo Do, and Dacheng Tao. Fusionbench: A comprehensive benchmark of deep
+model fusion. arXiv preprint arXiv:2406.03280, 2024a.
+Anke Tang, Li Shen, Yong Luo, Shiwei Liu, Han Hu, and Bo Du. Towards efficient pareto set approximation via
+mixture of experts based model fusion. arXiv preprint arXiv:2406.09770, 2024b.
+Anke Tang, Li Shen, Yong Luo, Nan Yin, Lefei Zhang, and Dacheng Tao. Merging multi-task models via weight-
+ensembling mixture of experts. arXiv preprint arXiv:2402.00433, 2024c.
+13
+
+SMILE: Zero-Shot Sparse Mixture of Low-Rank Experts Construction
+A PREPRINT
+Norman Tatro, Pin-Yu Chen, Payel Das, Igor Melnyk, Prasanna Sattigeri, and Rongjie Lai. Optimizing mode connectivity
+via neuron alignment. Advances in Neural Information Processing Systems, 33:15300–15311, 2020.
+Fanqi Wan, Xinting Huang, Deng Cai, Xiaojun Quan, Wei Bi, and Shuming Shi. Knowledge fusion of large language
+models. arXiv preprint arXiv:2401.10491, 2024a.
+Fanqi Wan, Ziyi Yang, Longguang Zhong, Xiaojun Quan, Xinting Huang, and Wei Bi. Fusechat: Knowledge fusion of
+chat models. arXiv preprint arXiv:2402.16107, 2024b.
+Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel Bowman. GLUE: A Multi-Task
+Benchmark and Analysis Platform for Natural Language Understanding. In Proceedings of the 2018 EMNLP
+Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP, pages 353–355, Brussels, Belgium,
+2018. Association for Computational Linguistics. doi: 10.18653/v1/W18-5446. URL http://aclweb.org/
+anthology/W18-5446.
+Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi, Pierric Cistac, Tim
+Rault, Rémi Louf, Morgan Funtowicz, et al. Huggingface’s transformers: State-of-the-art natural language processing.
+arXiv preprint arXiv:1910.03771, 2019a.
+Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi, Pierric Cistac, Tim
+Rault, Rémi Louf, Morgan Funtowicz, et al. Huggingface’s transformers: State-of-the-art natural language processing.
+arXiv preprint arXiv:1910.03771, 2019b.
+Chengyue Wu, Teng Wang, Yixiao Ge, Zeyu Lu, Ruisong Zhou, Ying Shan, and Ping Luo. π-tuning: Transferring
+multimodal foundation models with optimal multi-task interpolation. In International Conference on Machine
+Learning, pages 37713–37727. PMLR, 2023.
+Jianxiong Xiao, James Hays, Krista A Ehinger, Aude Oliva, and Antonio Torralba. Sun database: Large-scale scene
+recognition from abbey to zoo. In 2010 IEEE computer society conference on computer vision and pattern recognition,
+pages 3485–3492. IEEE, 2010.
+Prateek Yadav, Derek Tam, Leshem Choshen, Colin Raffel, and Mohit Bansal. Resolving interference when merging
+models. arXiv preprint arXiv:2306.01708, 1, 2023.
+Prateek Yadav, Colin Raffel, Mohammed Muqeeth, Lucas Caccia, Haokun Liu, Tianlong Chen, Mohit Bansal, Leshem
+Choshen, and Alessandro Sordoni. A survey on model moerging: Recycling and routing among specialized experts
+for collaborative learning. arXiv preprint arXiv:2408.07057, 2024.
+Enneng Yang, Li Shen, Guibing Guo, Xingwei Wang, Xiaochun Cao, Jie Zhang, and Dacheng Tao. Model merging
+in llms, mllms, and beyond: Methods, theories, applications and opportunities. arXiv preprint arXiv:2408.07666,
+2024a.
+Enneng Yang, Li Shen, Zhenyi Wang, Guibing Guo, Xiaojun Chen, Xingwei Wang, and Dacheng Tao. Representation
+surgery for multi-task model merging. Forty-first International Conference on Machine Learning, 2024b.
+Enneng Yang, Zhenyi Wang, Li Shen, Shiwei Liu, Guibing Guo, Xingwei Wang, and Dacheng Tao. Adamerging:
+Adaptive model merging for multi-task learning. The Twelfth International Conference on Learning Representations,
+2024c.
+Le Yu, Bowen Yu, Haiyang Yu, Fei Huang, and Yongbin Li. Language models are super mario: Absorbing abilities
+from homologous models as a free lunch. In Forty-first International Conference on Machine Learning, 2024.
+David Yunis, Kumar Kshitij Patel, Pedro Henrique Pamplona Savarese, Gal Vardi, Jonathan Frankle, Matthew Walter,
+Karen Livescu, and Michael Maire. On convexity and linear mode connectivity in neural networks. In OPT 2022:
+Optimization for Machine Learning (NeurIPS 2022 Workshop), 2022.
+Hongling Zheng, Li Shen, Anke Tang, Yong Luo, Han Hu, Bo Du, and Dacheng Tao. Learn from model beyond
+fine-tuning: A survey. arXiv preprint arXiv:2310.08184, 2023.
+14
+
+SMILE: Zero-Shot Sparse Mixture of Low-Rank Experts Construction
+A PREPRINT
+A
+Projecting Fine-tuned Updates onto Subspaces
+This section provides an in-depth mathematical explanation of the projection merge experiments discussed in Section 2.
+These experiments aim to gain empirical insights into the distribution of task-specific information across different
+subspaces of the weight matrix after fine-tuning a pre-trained model on downstream tasks.
+Let W ∈Rm×n be the weight matrix of a linear layer in the pre-trained model, and Wft ∈Rm×n be the corresponding
+weight matrix after fine-tuning. We define the weight update as ∆W = Wft −W. We begin by performing a full
+Singular Value Decomposition (SVD) on the pre-trained weight matrix W:
+W = UΣV ⊤
+(19)
+where U ∈Rm×m and V ∈Rn×n are orthonormal matrices containing left and right singular vectors, respectively, and
+Σ ∈Rm×n contains the singular values in descending order. The first r diagonal elements of Σ are non-zero, where
+r = rank(W), while the remaining elements are zero. According to Theorem 1, we can leverage the properties of
+singular value decomposition (SVD) to gain a deeper understanding of the fine-tuning process. This theorem states that
+any matrix A ∈Rm×n can be decomposed into a sum of rank-one matrices using the left singular vectors {ui}m
+i=1 and
+right singular vectors {vi}n
+i=1 as bases:
+A =
+m
+X
+i=1
+n
+X
+j=1
+αijuiv⊤
+j = UΣAV ⊤
+(20)
+where αij = ⟨A, uiv⊤
+j ⟩is the projection of A onto the basis uiv⊤
+j , ΣA is a real matrix and ΣA(i, j) = αij. This
+decomposition provides a powerful framework for analyzing the fine-tuning process. When we fine-tune a pre-trained
+model, we can interpret the weight updates ∆W as modifications to the singular value matrix Σ, while the singular
+vectors U and V remain constant. Then we partition the singular matrix Σ into three zones:
+• Zone I & Subspace I: {1, . . . , rhalf}, where rhalf is chosen such that Prhalf
+i=1 σi ≈1
+2
+Pr
+i=1 σi. The basis of
+this subspace is {uiv⊤
+j |1 ≤i, j ≤rhalf}. The projection merged weights in this subspace can be computed as
+follows:
+WI = W +
+rhalf
+X
+i=1
+rhalf
+X
+j=1
+⟨∆W, uiv⊤
+j ⟩uiv⊤
+j = W + Urhalf U ⊤
+rhalf ∆WVrhalf V ⊤
+rhalf .
+(21)
+Where Urhalf and Vrhalf are the first rhalf columns of U and V , respectively.
+• Zone II & Subspace II: {rhalf + 1, . . . , r}, where r = rank(W).
+The basis of this subspace is
+{uiv⊤
+i }r
+i=rhalf +1. The basis of subspace II & III is {uiv⊤
+j |rhalf + 1 ≤i ≤r, rhalf + 1 ≤j ≤r}.
+The projection merged weights in this subspace can be computed as follows:
+WII = W +
+r
+X
+i=rhalf +1
+r
+X
+j=rhalf +1
+⟨∆W, uiv⊤
+j ⟩uiv⊤
+j = W + Urhalf +1:rU ⊤
+rhalf +1:r∆WVrhalf +1:rV ⊤
+rhalf +1:r.
+(22)
+Where Urhalf +1:r and Vrhalf +1:r are the (rhalf + 1)-th to r-th columns of U and V , respectively.
+• Zone III & Subspace II + III: The basis of this subspace is {uiv⊤
+j |r + 1 ≤i ≤m, r + 1 ≤j ≤n} and the
+projection merged weights in this subspace can be computed as follows:
+WII+III = W +
+m
+X
+i=r+1
+n
+X
+j=r+1
+⟨∆W, uiv⊤
+j ⟩uiv⊤
+j = W + Ur+1:mU ⊤
+r+1:m∆WVr+1:nV ⊤
+r+1:n.
+(23)
+Where Ur+1:m and Vr+1:n are the (r + 1)-th to m-th columns of U and (r + 1)-th to n-th columns of V .
+We then evaluate the performance of these modified weight matrices on the downstream tasks. The accuracy comparison
+in Figure 2b is obtained by using these modified weight matrices in place of the original pre-trained weights. For other
+layers instead of the linear layers, we keep the pre-trained weights unchanged.
+B
+The Gradient Flow During Fine-tuning
+In this section, we analyze the gradient flow during the fine-tuning process to gain insights into how linear layers in a
+deep neural network adapt to new tasks. We decompose a fine-tuned deep neural network f into three components:
+15
+
+SMILE: Zero-Shot Sparse Mixture of Low-Rank Experts Construction
+A PREPRINT
+the pre-linear layers fpre, the linear layers flinear(x) = Wftx + bft, and the post-linear layers fpost. Therefore, the
+output of the network can be expressed as f(x) = fpost(flinear(fpre(x))). Without loss of generality, the pre-linear
+layers fpre can be dropped, as our focus is on the fine-tuning process of the linear layer flinear.
+During fine-tuning, the model parameters are updated by minimizing a loss function L with respect to the model
+weights. Using stochastic gradient descent (SGD) as the optimization algorithm, the weight update ∆W and bias update
+∆b at each step can be expressed as:
+W (t+1) −W (t) = −η∇W L
+
+fpost
+
+W (t)x + b(t)
+, b(t+1) −b(t) = −η∇bL
+
+fpost
+
+W (t)x + b(t)
+.
+(24)
+Where η is the learning rate, and ∇W L and ∇bL are the gradients of the loss function with respect to the weights and
+biases, respectively. In Eq. (24), we omit the pre-linear layers fpre and use x as the input to the linear layer flinear for
+simplicity. Let y = Wx + b be the output of the linear layer, L′ = L ◦fpost be the composed loss function. Starting
+from the SGD update rule for the weights, we have:
+W (t+1) −W (t) = −η∇W L′ 
+W (t)x + b(t)
+(25)
+= −η∇yL′ · ∇W
+
+W (t)x + b(t)
+(26)
+= −η∇yL′ · xT ,
+(27)
+In practice, we typically use mini-batch SGD, where we average the gradients over a batch of samples. We can represent
+this as an expectation:
+W (t+1) −W (t) = −ηEx∼p(x)[∇yL · xT ]
+(28)
+Given this gradient update rule, we can analyze how it relates to our choice of routing logits in SMILE. Recall that we
+defined the routing logits as:
+r(i) =
+V (i)⊤
+kgatex
+
+2
+(29)
+Let’s consider the expected weight update over many iterations when Wft is close to W:
+E[∆W] ≈−ηEx∼p(x)[∇yL · xT ]
+(30)
+= −ηEx∼p(x)[g · xT ]
+(31)
+where g = ∇yL is the gradient of the loss with respect to the output of the linear layer. Now, let’s consider the singular
+value decomposition (SVD) of the expected weight update:
+E[∆W] = UΣV T
+(32)
+The right singular vectors V represent the directions in the input space that are most important for the weight updates.
+Our routing logits r(i) are based on projecting the input onto the top kgate right singular vectors of the fine-tuned weight
+difference ∆W (i). This choice is justified because: the right singular vectors of ∆W (i) are likely to be similar to
+those of E[∆W], as both represent important directions for task-specific updates. In addition, by projecting onto these
+vectors, we’re measuring how much an input aligns with the directions that were most important during fine-tuning for
+a specific task.
+A NTK perspective. On the other hand, we can analyze the fine-tuning process from a neural tangent kernel (NTK)
+perspective. Following [Tang et al., 2023], and according to the linear property of the linear layer, we have:
+flinear (x; ϕft) −flinear (x; ϕ)
+(33)
+= ∇ϕflinear (x; ϕ)⊤(ϕft −ϕ)
+(34)
+≈−ηEx′∼p(x)
+h
+∇ϕflinear (x; ϕ)⊤∇ϕL′ (flinear (x′; ϕ))
+i
+(35)
+= −ηEx′∼p(x)
+h
+∇ϕflinear (x; ϕ)⊤∇ϕflinear (x′; ϕ) ∇flinearL′ (flinear (x′; ϕ))
+i
+(36)
+= −ηEx′∼p(x) [K(x, x′; ϕ)∇flinearL′ (flinear (x′; ϕ))] ,
+(37)
+Where ϕ denotes the pre-trained parameters of the flinear, i.e. W and b. ϕft denotes the fine-tuned parameters Wft
+and bft. K(x, x′; ϕ) = ⟨∇ϕflinear (x; ϕ) , ∇ϕflinear (x′; ϕ)⟩is the neural tangent kernel (NTK) [Jacot et al., 2018]
+of the linear layer flinear, and L′ = L ◦fpost is the composed loss function. Note that for given x, K(x, x′; ϕ) is a
+constant matrix.
+16
+
+SMILE: Zero-Shot Sparse Mixture of Low-Rank Experts Construction
+A PREPRINT
+Table 7: Performance of fine-tuned CLIP-ViT-B/32 models on eight downstream tasks.
+Model
+SUN397
+Cars
+RESISC45
+EuroSAT
+SVHN
+GTSRB
+MNIST
+DTD
+Pre-trained
+63.2
+59.8
+60.7
+46.0
+31.6
+32.5
+48.3
+43.9
+SUN397
+75.0
+47.0
+54.3
+46.5
+28.3
+26.4
+44.3
+41.6
+Cars
+56.6
+78.3
+50.9
+38.4
+30.2
+30.6
+49.7
+41.8
+RESISC45
+52.0
+47.2
+95.2
+56.9
+23.9
+24.3
+39.7
+35.9
+EuroSAT
+49.0
+39.9
+33.5
+99.0
+11.8
+22.9
+33.8
+35.5
+SVHN
+40.5
+36.3
+18.9
+9.8
+97.3
+27.3
+81.8
+23.2
+GTSRB
+36.8
+33.0
+20.6
+21.3
+41.2
+98.9
+30.9
+23.9
+MNIST
+50.3
+40.0
+31.3
+17.7
+50.1
+19.3
+99.6
+30.7
+DTD
+54.6
+51.3
+36.9
+25.0
+28.9
+21.8
+47.3
+79.7
+Table 8: Performance of fine-tuned CLIP-ViT-L/14 models on eight downstream tasks.
+Model
+SUN397
+Cars
+RESISC45
+EuroSAT
+SVHN
+GTSRB
+MNIST
+DTD
+Pre-trained
+68.3
+77.8
+71.0
+58.9
+58.4
+50.6
+76.4
+55.5
+SUN397
+82.8
+68.4
+58.1
+49.9
+55.0
+46.3
+79.5
+52.8
+Cars
+67.8
+92.9
+68.7
+56.4
+51.7
+47.7
+80.5
+55.6
+RESISC45
+65.6
+69.0
+97.4
+64.3
+38.3
+46.6
+77.7
+49.9
+EuroSAT
+65.2
+69.0
+40.6
+99.2
+33.4
+45.6
+73.5
+47.1
+SVHN
+66.4
+69.0
+54.0
+19.7
+97.9
+48.7
+92.2
+50.1
+GTSRB
+63.4
+64.8
+38.7
+19.6
+71.0
+99.2
+75.1
+45.8
+MNIST
+56.0
+49.8
+53.5
+26.6
+48.2
+33.1
+99.8
+47.1
+DTD
+66.8
+75.3
+65.5
+43.7
+49.5
+45.0
+68.5
+85.5
+Table 9: Performance of full fine-tuned Flan-T5-Base models on eight downstream tasks.
+Model
+CoLA
+MNLI
+MRPC
+QNLI
+QQP
+RTE
+SST2
+STSB
+Pre-trained
+69.1
+56.5
+76.2
+88.4
+82.1
+80.1
+91.2
+62.2
+CoLA
+75.0
+37.2
+72.8
+87.6
+80.4
+76.9
+91.4
+63.6
+MNLI
+65.9
+83.4
+75.7
+89.2
+82.6
+78.0
+90.6
+66.2
+MRPC
+63.4
+48.3
+87.5
+85.8
+81.1
+72.6
+88.1
+76.1
+QNLI
+68.7
+39.2
+75.5
+91.5
+81.3
+78.3
+91.6
+68.2
+QQP
+59.1
+50.4
+73.8
+88.3
+85.4
+81.2
+90.8
+75.9
+RTE
+65.4
+51.1
+69.6
+88.7
+80.8
+85.9
+90.3
+68.9
+SST2
+67.8
+54.0
+76.5
+87.8
+83.4
+80.5
+93.6
+63.6
+STSB
+69.3
+49.3
+76.5
+89.0
+81.7
+77.6
+90.1
+88.7
+Table 10: Performance of LoRA fine-tuned (rLoRA = 16) Flan-T5-Base models on eight downstream tasks.
+Model
+CoLA
+MNLI
+MRPC
+QNLI
+QQP
+RTE
+SST2
+STSB
+Pre-trained
+69.1
+56.5
+76.2
+88.4
+82.1
+80.1
+91.2
+62.2
+CoLA
+69.1
+39.9
+75.2
+89.1
+81.1
+81.9
+90.7
+54.0
+MNLI
+69.4
+82.7
+73.8
+89.3
+82.0
+79.4
+90.9
+68.1
+MRPC
+64.0
+44.9
+85.5
+82.6
+81.0
+69.0
+88.6
+73.6
+QNLI
+68.9
+52.7
+76.7
+90.9
+82.8
+79.8
+91.5
+68.9
+QQP
+65.0
+54.6
+75.7
+89.0
+84.0
+81.6
+90.7
+75.3
+RTE
+64.9
+51.8
+69.4
+89.2
+79.8
+84.5
+90.6
+70.1
+SST2
+68.3
+56.6
+76.0
+88.5
+83.4
+79.8
+92.9
+62.6
+STSB
+65.7
+1.7
+67.4
+89.3
+80.1
+79.8
+90.8
+87.4
+17
+
+SMILE: Zero-Shot Sparse Mixture of Low-Rank Experts Construction
+A PREPRINT
+C
+Fine-Tuned Model Performance
+In this section, we present the performance of the fine-tuned models on their corresponding test sets. These results
+serve as a baseline for evaluating the effectiveness of our proposed model fusion technique.
+Tables 7 and 8 show the performance of fine-tuned CLIP-ViT-B/32 and CLIP-ViT-L/14 models, respectively, on
+eight image classification tasks. These tasks include SUN397 [Xiao et al., 2010], Cars [Krause et al., 2013], RE-
+SISC45 [Cheng et al., 2017], EuroSAT [Helber et al., 2019], SVHN [Netzer et al., 2011], GTSRB [Stallkamp et al.,
+2012], MNIST [LeCun et al., 1998], and DTD [Cimpoi et al., 2014]. For image classification tasks, we report the
+classification accuracy. Tables 9 and 10 present the performance of Flan-T5-Base models on eight text generation tasks
+from GLUE benchmark [Wang et al., 2018], using full fine-tuning and LoRA fine-tuning (rLoRA = 16) respectively.
+We report Spearman’s ρ for STSB and exact match accuracy for other tasks. In particular for STSB, if the text outputs
+can not be parsed into a valid float number, we assign a score of zero. The datasets and fine-tuned models are accessible
+to the public on HuggingFace [Wolf et al., 2019a]. For further information, please consult FusionBench [Tang et al.,
+2024a].
+Several key observations can be made from these results:
+1. Task-Specific Improvements: Across all model types, fine-tuning consistently improves performance on the
+target task compared to the pre-trained model. This demonstrates the effectiveness of task-specific adaptation.
+2. Negative Transfer: In some cases, we observe negative transfer, where fine-tuning on one task harms perfor-
+mance on another task. For example, in Table 7, the SVHN-tuned model performs worse on EuroSAT (9.8%)
+compared to the pre-trained model (46.0%).
+3. Task Relatedness: Some fine-tuned models show improved performance on related tasks. For example, in
+Table 9, the MNLI-tuned model performs well on QNLI, suggesting a transfer of relevant knowledge between
+these natural language inference tasks.
+4. Varying Task Difficulty: The diagonal entries reveal that some tasks are inherently more challenging than
+others. For instance, in the CLIP-ViT models, EuroSAT and MNIST consistently achieve very high accuracy,
+while SUN397, Cars and DTD prove more challenging.
+5. Model Size Impact: Comparing CLIP-ViT-B/32 and CLIP-ViT-L/14 results, we generally see improved
+performance with the larger model, indicating that model capacity plays a role in both task-specific performance
+and generalization.
+D
+Hyperparameter Analysis
+In this section, we present a comprehensive analysis of the hyperparameters k and kgate for the CLIP-ViT-B/32 and
+CLIP-ViT-L/14 models across eight image classification datasets. We examine their impact on both model performance
+(average accuracy) and model complexity (number of parameters). We also test the extreme cases when k = ∞, which
+corresponds to full-rank experts, denoted as “Dense” in the figures. We normalize the number of parameters by the
+number of parameters in the original model (87.5M for CLIP-ViT-B/32 and 303M for CLIP-ViT-L/14) to facilitate
+comparison.
+CLIP Models. From Figures 8 and 9, we observe that (1) The performance of the upscaled models is generally better
+than the pre-trained models, which demonstrates the effectiveness of our fine-tuning strategy. (2) increasing the values
+of k generally improves the performance of both the CLIP-ViT-B/32 and CLIP-ViT-L/14 models, though at the cost
+of increased model complexity. (3) Increased values of kgate improve the performance of the upscaled models at the
+beginning, but the performance starts to decrease when kgate is too large. This observation is consistent with our
+discussion in Section 4 that a larger kgate may result in a less discriminative gating mechanism. (4) Better performance
+preservation can be achieved with the CLIP-ViT-L/14 model than with the CLIP-ViT-B/32 model, which is consistent
+with our discussion in Section 3 that the larger model has more dimension redundancy and is less severe to the parameter
+interference problem.
+In practice, when selecting hyperparameters for the upscaled models, it is crucial to balance the trade-off between
+performance and parameter overhead. Take CLIP-ViT-B/32 as an example, a good trade-off between performance
+and parameter overhead can be achieved with k ≈32 and kgate ≈16. For the CLIP-ViT-L/14 model, k ≈64 and
+kgate ≈8 are recommended. By doing so, we obtain a multi-task model that achieves around 98% of the performance
+of the fine-tuned model with only 20% of the total parameters compared to maintaining eight individual fine-tuned
+models for each task. Note that the upscaled SMILE model is sparsely inferenced, increasing the number of parameters
+by N only increases the activated parameters by about N/T for each token. Even with an extreme focus on storage and
+18
+
+SMILE: Zero-Shot Sparse Mixture of Low-Rank Experts Construction
+A PREPRINT
+4
+8
+16
+32
+64
+128
+Dense
+k
+1
+2
+4
+8
+16
+32
+64
+128
+256
+512
+768
+kgate
+75.8
+79.9
+82.7
+84.7
+85.7
+86.2
+86.5
+78.1
+81.9
+84.6
+86.4
+87.2
+87.7
+88.0
+79.6
+83.1
+85.8
+87.4
+88.3
+88.8
+89.1
+79.5
+83.6
+86.1
+87.7
+88.5
+89.0
+89.3
+80.3
+84.0
+86.6
+88.2
+88.9
+89.3
+89.6
+80.5
+84.2
+86.7
+88.1
+89.0
+89.4
+89.6
+80.6
+84.3
+86.9
+88.5
+89.1
+89.5
+89.8
+80.6
+84.3
+86.9
+88.4
+89.1
+89.6
+89.8
+80.6
+84.4
+87.0
+88.5
+89.2
+89.5
+89.8
+80.0
+84.1
+86.8
+88.4
+89.1
+89.4
+89.7
+69.5
+74.4
+78.3
+81.0
+82.4
+83.1
+83.6
+70.0
+72.5
+75.0
+77.5
+80.0
+82.5
+85.0
+87.5
+(a) Heatmap of average accuracy.
+0
+20
+40
+60
+80
+100
+120
+k
+50
+60
+70
+80
+90
+Average Accuracy
+kgate
+1
+2
+4
+8
+16
+32
+64
+128
+256
+512
+768
+(b) Line plot of average accuracy.
+4
+8
+16
+32
+64
+128
+Dense
+k
+1
+2
+4
+8
+16
+32
+64
+128
+256
+512
+768
+kgate
+1.07
+1.14
+1.26
+1.50
+1.99
+2.96
+8.78
+1.08
+1.14
+1.26
+1.51
+1.99
+2.96
+8.79
+1.10
+1.16
+1.28
+1.52
+2.01
+2.98
+8.81
+1.13
+1.19
+1.31
+1.55
+2.04
+3.01
+8.84
+1.19
+1.25
+1.37
+1.61
+2.10
+3.07
+8.90
+1.31
+1.37
+1.49
+1.74
+2.22
+3.19
+9.02
+1.55
+1.61
+1.74
+1.98
+2.46
+3.43
+9.26
+2.04
+2.10
+2.22
+2.46
+2.95
+3.92
+9.75
+3.01
+3.07
+3.19
+3.43
+3.92
+4.89
+10.72
+4.95
+5.01
+5.13
+5.38
+5.86
+6.83
+12.66
+6.89
+6.96
+7.08
+7.32
+7.80
+8.78
+14.60
+2
+4
+6
+8
+10
+12
+14
+(c) Heatmap of the normalized number of parameters.
+0
+20
+40
+60
+80
+100
+120
+k
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Normalized Number of Parameters
+kgate
+1
+2
+4
+8
+16
+32
+64
+128
+256
+512
+768
+(d) Line plot of normalized number of parameters.
+Figure 8: Hyperparameter analysis of the CLIP-ViT-B/32 model on eight image classification datasets. Here we show
+how different values of hyperparameters k and kgate affect the average performance and the number of parameters
+(normalized by the number of parameters in the original model) in the upscaled model. We also show the average
+accuracy of pre-trained models and individual fine-tuned models in subfigure (b).
+inference costs, only 7% of the parameters overhead can achieve an average multi-task performance of about 90% of
+the individual fine-tuned models.
+Flan-T5 Models. Figure 5 shows the hyperparameter analysis of the Flan-T5-Base models on eight tasks from the
+GLUE benchmark. We conduct the same analysis for both full fine-tuned models and LoRA fine-tuned models with
+rLoRA = 16. It is observed that the performance is relatively stable, with most configurations yielding accuracies
+around 85.1 to 85.6 for the full fine-tuned models and around 83.8 to 84.0 for the LoRA fine-tuned models. Upscaling
+LoRA fine-tuned models is very parameter-efficient, with the number of parameters increasing by only 2% to 7%
+compared to the original dense model. For a balanced trade-off between performance and parameter overhead, consider
+setting k ≈32 and kgate ≈8 for the full fine-tuned model fusion, and k ≈8 and kgate ≈2 for the LoRA fine-tuned
+model fusion.
+E
+Large-Scale Model Experiments
+This appendix provides additional details and results for our experiments with large-scale models, specifically the
+Mistral-7B series. We used the following models in our experiments, which are available on the HuggingFace:
+• Base pre-trained model (M0): mistralai/Mistral-7B-v0.1
+• Expert model M1: meta-math/MetaMath-Mistral-7B
+19
+
+SMILE: Zero-Shot Sparse Mixture of Low-Rank Experts Construction
+A PREPRINT
+4
+8
+16
+32
+64
+128
+Dense
+k
+1
+2
+4
+8
+16
+32
+kgate
+86.0
+88.4
+90.4
+91.7
+92.4
+92.7
+93.0
+86.9
+89.1
+90.9
+92.1
+92.7
+93.0
+93.2
+87.5
+89.8
+91.4
+92.6
+93.1
+93.4
+93.6
+87.8
+90.1
+91.6
+92.7
+93.3
+93.5
+93.8
+87.9
+90.2
+91.7
+92.8
+93.4
+93.6
+93.9
+87.9
+90.3
+91.8
+92.9
+93.4
+93.6
+93.9
+86
+87
+88
+89
+90
+91
+92
+93
+(a) Heatmap of average performance.
+0
+20
+40
+60
+80
+100
+120
+k
+65
+70
+75
+80
+85
+90
+95
+Average Accuracy
+kgate
+1
+2
+4
+8
+16
+32
+(b) Line plot of average performance.
+4
+8
+16
+32
+64
+128
+Dense
+k
+1
+2
+4
+8
+16
+32
+kgate
+1.06
+1.10
+1.20
+1.38
+1.76
+2.51
+8.98
+1.06
+1.11
+1.20
+1.39
+1.76
+2.51
+8.99
+1.08
+1.12
+1.22
+1.40
+1.78
+2.52
+9.00
+1.10
+1.15
+1.24
+1.43
+1.80
+2.55
+9.02
+1.15
+1.19
+1.29
+1.47
+1.85
+2.59
+9.07
+1.24
+1.29
+1.38
+1.57
+1.94
+2.69
+9.16
+2
+3
+4
+5
+6
+7
+8
+9
+(c) Heatmap of normalized parameter count.
+0
+20
+40
+60
+80
+100
+120
+k
+1.0
+1.2
+1.4
+1.6
+1.8
+2.0
+2.2
+2.4
+2.6
+Normalized Number of Parameters
+kgate
+1
+2
+4
+8
+16
+32
+(d) Line plot of normalized parameter count.
+Figure 9: Hyperparameter analysis of the CLIP-ViT-L/14 model on eight image classification datasets. Here we show
+how different values of hyperparameters k and kgate affect the average performance and the number of parameters
+(normalized by the number of parameters in the original model) in the upscaled model. We also show the average
+accuracy of pre-trained models and individual fine-tuned models in subfigure (b).
+• Expert model M2: cognitivecomputations/dolphin-2.1-mistral-7b
+• Expert model M3: uukuguy/speechless-code-mistral-7b-v1.0
+For the SMILE models, the hyperparameter settings were as follows: kgate was consistently set to 8 across all
+experiments, while k ranged from 8 to 512 (including 8, 16, 32, 64, 128, 256, 384, and 512), as shown in Figure 7.
+Table 11 provides a more comprehensive view of the performance of individual models and various SMILE models
+with different k values. We use EleutherAI/lm-evaluation-harness [Gao et al., 2024] to evaluate the models on
+the four tasks: MMLU, TruthfulQA, GSM8K, and ARC Challenge. We merge the models on host memory and evaluate
+them on two NVIDIA 4090 GPUs with 24GB of memory each.
+It is notable that as the value of k increases, we generally see improved performance, especially in tasks like GSM8K
+and TruthfulQA. The results also show a clear trade-off between model size and performance. The SMILE model with
+k = 8 (7.3B parameters) already achieves comparable or better results than the pre-trained model on all tasks, while
+larger models (k = 512, 11.2B parameters) approach the performance of individual expert models.
+Limitations and future work for LLMs. Here we provide a brief discussion of the limitations of our experiments and
+potential directions for future work.
+• Limited expert model pool. In the experiments for CLIP models and Flan-t5 models, we use eight expert
+models to evaluate the performance of the SMILE model. However, in the Mistral-7B experiments, the
+experiments are currently limited to three expert models, which may not fully demonstrate the method’s
+20
+
+SMILE: Zero-Shot Sparse Mixture of Low-Rank Experts Construction
+A PREPRINT
+Table 11: Detailed performance comparison of individual models and various SMILE models with different k values.
+For all upscaled models, the kgate value was set to 8.
+Model
+MMLU
+TruthfulQA
+GSM8K
+ARC Challenge
+M0 (pre-trained)
+59.64
+42.62
+38.81
+53.92
+M1
+60.56
+44.79
+71.49
+51.02
+M2
+60.56
+55.88
+56.93
+57.00
+M3
+61.18
+47.47
+48.98
+57.68
+M0;123 (7.3B, k = 8)
+60.28
+46.31
+46.55
+55.55
+M0;123 (7.5B, k = 32)
+60.37
+49.49
+55.04
+54.52
+M0;123 (8.3B, k = 128)
+60.43
+50.91
+63.76
+54.35
+M0;123 (9.3B, k = 256)
+60.53
+51.83
+65.58
+54.01
+M0;123 (11.2B, k = 512)
+60.66
+52.79
+67.85
+54.35
+capabilities with a larger, more diverse set of experts. Future work could explore the impact of additional
+expert models on the performance of the SMILE model.
+• LoRA fine-tuning. In the experiments, we use full fine-tuned Mistral-7B models as expert models. Where
+the linear models are upscaled into MoE modules and the remaining parts of the model are copied directly
+from the pre-trained model. The reason for this is that the top Mistral-7B models available on HuggingFace
+are now fully fine-tuned. This approach, however, may not fully exploit SMILE’s potential. A more effective
+strategy could involve using LoRA fine-tuned models as expert models. In this scenario, only specific linear
+layers would be fine-tuned using low-rank techniques, with the rest of the model remaining frozen. This
+approach could potentially enhance SMILE’s efficiency and effectiveness. As we have shown in the Flan-T5
+experiments, LoRA fine-tuning can significantly reduce the number of additional parameters required to
+achieve comparable performance.
+21

@@ -1,0 +1,56 @@
+
+[1] Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo Almeida, Carroll Wainwright, Pamela Mishkin, Chong Zhang,
+Sandhini Agarwal, Katarina Slama, Alex Ray, et al. Training language models to follow instructions with human
+feedback. Advances in Neural Information Processing Systems, 35:27730–27744, 2022.
+[2] Yizhong Wang, Swaroop Mishra, Pegah Alipoormolabashi, Yeganeh Kordi, Amirreza Mirzaei, Anjana Arunkumar,
+Arjun Ashok, Arut Selvan Dhanasekaran, Atharva Naik, David Stap, et al. Benchmarking generalization via
+in-context instructions on 1,600+ language tasks. arXiv preprint arXiv:2204.07705, 2022.
+[3] Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A Smith, Daniel Khashabi, and Hannaneh Ha-
+jishirzi. Self-instruct: Aligning language model with self generated instructions. arXiv preprint arXiv:2212.10560,
+2022.
+[4] OpenAI. ChatGPT. https://openai.com/blog/chatgpt/, 2023.
+[5] OpenAI. Gpt-4 technical report, 2023.
+[6] Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timothée Lacroix,
+Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal Azhar, et al. Llama: Open and efficient foundation language
+models. arXiv preprint arXiv:2302.13971, 2023.
+[7] Rohan Taori, Ishaan Gulrajani, Tianyi Zhang, Yann Dubois, Xuechen Li, Carlos Guestrin, Percy Liang, and
+Tatsunori B. Hashimoto. Stanford alpaca: An instruction-following llama model. https://github.com/
+tatsu-lab/stanford_alpaca, 2023.
+[8] Vicuna. Vicuna: An open-source chatbot impressing gpt-4 with 90%* chatgpt quality. https://vicuna.lmsys.
+org/, 2023.
+[9] ShareGPT. https://sharegpt.com/, 2023.
+[10] Edward J Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, and Weizhu
+Chen. Lora: Low-rank adaptation of large language models. arXiv preprint arXiv:2106.09685, 2021.
+[11] Ruiqi Zhong, Kristy Lee, Zheng Zhang, and Dan Klein. Adapting language models for zero-shot learning by
+meta-tuning on dataset and prompt collections. arXiv preprint arXiv:2104.04670, 2021.
+[12] Jason Wei, Maarten Bosma, Vincent Y Zhao, Kelvin Guu, Adams Wei Yu, Brian Lester, Nan Du, Andrew M Dai,
+and Quoc V Le. Finetuned language models are zero-shot learners. arXiv preprint arXiv:2109.01652, 2021.
+[13] Hyung Won Chung, Le Hou, Shayne Longpre, Barret Zoph, Yi Tay, William Fedus, Eric Li, Xuezhi Wang,
+Mostafa Dehghani, Siddhartha Brahma, et al. Scaling instruction-finetuned language models. arXiv preprint
+arXiv:2210.11416, 2022.
+[14] Stephen H. Bach, Victor Sanh, Zheng-Xin Yong, Albert Webson, Colin Raffel, Nihal V. Nayak, Abheesht Sharma,
+Taewoon Kim, M Saiful Bari, Thibault Fevry, Zaid Alyafeai, Manan Dey, Andrea Santilli, Zhiqing Sun, Srulik
+Ben-David, Canwen Xu, Gunjan Chhablani, Han Wang, Jason Alan Fries, Maged S. Al-shaibani, Shanya Sharma,
+Urmish Thakker, Khalid Almubarak, Xiangru Tang, Xiangru Tang, Mike Tian-Jian Jiang, and Alexander M. Rush.
+Promptsource: An integrated development environment and repository for natural language prompts, 2022.
+[15] Victor Sanh, Albert Webson, Colin Raffel, Stephen H Bach, Lintang Sutawika, Zaid Alyafeai, Antoine Chaffin,
+Arnaud Stiegler, Teven Le Scao, Arun Raja, et al. Multitask prompted training enables zero-shot task generalization.
+arXiv preprint arXiv:2110.08207, 2021.
+7
+
+PRIME AI paper
+[16] Yiming Cui, Ziqing Yang, and Xin Yao. Efficient and effective text encoding for chinese llama and alpaca. arXiv
+preprint arXiv:2304.08177, 2023.
+[17] Rongsheng Wang, Yaofei Duan, ChanTong Lam, Jiexi Chen, Jiangsheng Xu, Haoming Chen, Xiaohong Liu,
+Patrick Cheong-Iao Pang, and Tao Tan. Ivygpt: Interactive chinese pathway language model in medical domain,
+2023.
+[18] Jiaxi Cui, Zongjian Li, Yang Yan, Bohua Chen, and Li Yuan. Chatlaw: Open-source legal large language model
+with integrated external knowledge bases, 2023.
+[19] YangMu
+Yu.
+Cornucopia-llama-fin-chinese.
+https://github.com/jerry1993-tech/
+Cornucopia-LLaMA-Fin-Chinese, 2023.
+8
+
+PRIME AI paper

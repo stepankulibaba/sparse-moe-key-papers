@@ -1,0 +1,222 @@
+
+[1] Doubling all2all performance with nvidia collective communica-
+tion library 2.12. https://developer.nvidia.com/blog/doubling-all2all-
+performance-with-nvidia-collective-communication-library-2-12/. Ac-
+cessed: 2022-07-13.
+[2] Reza Yazdani Aminabadi, Samyam Rajbhandari, Ammar Ahmad Awan,
+Cheng Li, Du Li, Elton Zheng, Olatunji Ruwase, Shaden Smith, Minjia
+Zhang, Jeff Rasley, et al. Deepspeed-inference: enabling efficient infer-
+ence of transformer models at unprecedented scale. In International
+Conference for High Performance Computing, Networking, Storage and
+Analysis, pages 1–15. IEEE, 2022.
+[3] Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D
+Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish
+Sastry, Amanda Askell, et al. Language models are few-shot learners.
+Advances in neural information processing systems, 33:1877–1901, 2020.
+[4] Li-Wen Chang, Wenlei Bao, Qi Hou, Chengquan Jiang, Ningxin Zheng,
+Yinmin Zhong, Xuanrun Zhang, Zuquan Song, Ziheng Jiang, Haibin
+Lin, Xin Jin, and Xin Liu. FLUX: fast software-based communication
+overlap on gpus through kernel fusion. CoRR, abs/2406.06858, 2024.
+[5] Chang Chen, Xiuhong Li, Qianchao Zhu, Jiangfei Duan, Peng Sun,
+Xingcheng Zhang, and Chao Yang. Centauri: Enabling efficient sched-
+uling for communication-computation overlap in large model train-
+ing via communication partitioning. In Proceedings of the 29th ACM
+International Conference on Architectural Support for Programming
+Languages and Operating Systems, Volume 3, pages 178–191, 2024.
+[6] Zewen Chi, Li Dong, Shaohan Huang, Damai Dai, Shuming Ma, Barun
+Patra, Saksham Singhal, Payal Bajaj, Xia Song, Xian-Ling Mao, et al.
+On the representation collapse of sparse mixture of experts. Advances
+in Neural Information Processing Systems, 35:34600–34613, 2022.
+[7] Aakanksha Chowdhery, Sharan Narang, Jacob Devlin, Maarten Bosma,
+Gaurav Mishra, Adam Roberts, Paul Barham, Hyung Won Chung,
+Charles Sutton, Sebastian Gehrmann, et al. Palm: Scaling language
+modeling with pathways.
+Journal of Machine Learning Research,
+24(240):1–113, 2023.
+[8] Damai Dai, Li Dong, Shuming Ma, Bo Zheng, Zhifang Sui, Baobao
+Chang, and Furu Wei. Stablemoe: Stable routing strategy for mixture
+of experts. In Proceedings of the 60th Annual Meeting of the Association
+for Computational Linguistics (Volume 1: Long Papers), pages 7085–7095,
+2022.
+[9] Jeffrey Dean, Greg Corrado, Rajat Monga, Kai Chen, Matthieu Devin,
+Mark Mao, Marc’aurelio Ranzato, Andrew Senior, Paul Tucker, Ke Yang,
+et al. Large scale distributed deep networks. Advances in neural
+information processing systems, 25, 2012.
+[10] DeepSeek-AI.
+Deepseek-v2: A strong, economical, and efficient
+mixture-of-experts language model, 2024.
+[11] Danny Driess, Fei Xia, Mehdi SM Sajjadi, Corey Lynch, Aakanksha
+Chowdhery, Brian Ichter, Ayzaan Wahid, Jonathan Tompson, Quan
+Vuong, Tianhe Yu, et al. Palm-e: An embodied multimodal language
+model. arXiv preprint arXiv:2303.03378, 2023.
+[12] William Fedus, Barret Zoph, and Noam Shazeer. Switch transformers:
+Scaling to trillion parameter models with simple and efficient sparsity.
+The Journal of Machine Learning Research, 23(1):5232–5270, 2022.
+[13] Jiaao He, Jiezhong Qiu, Aohan Zeng, Zhilin Yang, Jidong Zhai, and
+Jie Tang. Fastmoe: A fast mixture-of-expert training system. arXiv
+preprint arXiv:2103.13262, 2021.
+[14] Jiaao He, Jidong Zhai, Tiago Antunes, Haojie Wang, Fuwen Luo,
+Shangfeng Shi, and Qin Li. FasterMoE: modeling and optimizing
+training of large-scale dynamic pre-trained models. In Proceedings
+of the 27th ACM SIGPLAN Symposium on Principles and Practice of
+Parallel Programming, pages 120–134, 2022.
+[15] Yanping Huang, Youlong Cheng, Ankur Bapna, Orhan Firat, Dehao
+Chen, Mia Chen, HyoukJoong Lee, Jiquan Ngiam, Quoc V Le, Yonghui
+Wu, et al. Gpipe: Efficient training of giant neural networks using
+pipeline parallelism. Advances in neural information processing systems,
+32, 2019.
+[16] Yongqi Huang, Peng Ye, Xiaoshui Huang, Sheng Li, Tao Chen, and
+Wanli Ouyang. Experts weights averaging: A new general training
+scheme for vision transformers. arXiv preprint arXiv:2308.06093, 2023.
+[17] Changho Hwang, Wei Cui, Yifan Xiong, Ziyue Yang, Ze Liu, Han
+Hu, Zilong Wang, Rafael Salas, Jithin Jose, Prabhat Ram, et al. Tutel:
+Adaptive mixture-of-experts at scale. Proceedings of Machine Learning
+and Systems, 5, 2023.
+[18] Abhinav Jangda, Jun Huang, Guodong Liu, Amir Hossein Nodehi Sabet,
+Saeed Maleki, Youshan Miao, Madanlal Musuvathi, Todd Mytkowicz,
+and Olli Saarikivi. Breaking the computation and communication
+abstraction barrier in distributed machine learning workloads. In
+ASPLOS, pages 402–416. ACM, 2022.
+[19] Xianyan Jia, Shutao Song, Shaohuai Shi, Wei He, Yangzihao Wang,
+Haidong Rong, Feihu Zhou, Liqiang Xie, Zhenyu Guo, Yuanzhou Yang,
+Liwei Yu, Tiegang Chen, Guangxiao Hu, and Xiaowen Chu. Highly
+scalable deep learning training system with mixed-precision: Training
+ImageNet in four minutes. In Proc. of Workshop on Systems for ML and
+Open Source Software, collocated with NeurIPS 2018, 2018.
+[20] Albert Q Jiang, Alexandre Sablayrolles, Antoine Roux, Arthur Mensch,
+Blanche Savary, Chris Bamford, Devendra Singh Chaplot, Diego de las
+Casas, Emma Bou Hanna, Florian Bressand, et al. Mixtral of experts.
+arXiv preprint arXiv:2401.04088, 2024.
+[21] Chenyu Jiang, Ye Tian, Zhen Jia, Chuan Wu, Yida Wang, and Shuai
+Zheng. Lancet: Accelerating mixture-of-experts training by over-
+lapping weight gradient computation and all-to-all communication.
+Proceedings of Machine Learning and Systems, 6:74–86, 2024.
+[22] Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu, Dehao Chen,
+Orhan Firat, Yanping Huang, Maxim Krikun, Noam Shazeer, and
+Zhifeng Chen. Gshard: Scaling giant models with conditional compu-
+tation and automatic sharding. In International Conference on Learning
+Representations, 2020.
+[23] Mike Lewis, Shruti Bhosale, Tim Dettmers, Naman Goyal, and Luke
+Zettlemoyer. BASE layers: Simplifying training of large, sparse models.
+In International Conference on Machine Learning, pages 6265–6274.
+PMLR, 2021.
+[24] Jiamin Li, Yimin Jiang, Yibo Zhu, Cong Wang, and Hong Xu. Acceler-
+ating distributed {MoE} training and inference with lina. In USENIX
+Annual Technical Conference, pages 945–959, 2023.
+[25] Juncai Liu, Jessie Hui Wang, and Yimin Jiang. Janus: A unified dis-
+tributed training framework for sparse mixture-of-experts models. In
+Proceedings of the ACM SIGCOMM 2023 Conference, pages 486–498,
+2023.
+[26] Rui Liu, Young Jin Kim, Alexandre Muzio, and Hany Hassan. Gating
+dropout: Communication-efficient regularization for sparsely activated
+transformers. In International Conference on Machine Learning, pages
+13782–13792. PMLR, 2022.
+[27] Jiaqi Ma, Zhe Zhao, Xinyang Yi, Jilin Chen, Lichan Hong, and Ed H
+Chi. Modeling task relationships in multi-task learning with multi-
+gate mixture-of-experts. In Proceedings of the 24th ACM SIGKDD
+international conference on knowledge discovery & data mining, pages
+1930–1939, 2018.
+[28] Zixuan Ma, Jiaao He, Jiezhong Qiu, Huanqi Cao, Yuanwei Wang,
+Zhenbo Sun, Liyan Zheng, Haojie Wang, Shizhi Tang, Tianyu Zheng,
+et al. Bagualu: targeting brain scale pretrained models with over 37
+million cores. In Proceedings of the 27th ACM SIGPLAN Symposium on
+Principles and Practice of Parallel Programming, pages 192–204, 2022.
+[29] Deepak Narayanan, Mohammad Shoeybi, Jared Casper, Patrick LeGres-
+ley, Mostofa Patwary, Vijay Korthikanti, Dmitri Vainbrand, Prethvi
+Kashinkunti, Julie Bernauer, Bryan Catanzaro, et al. Efficient large-
+scale language model training on GPU clusters using Megatron-LM.
+In Proceedings of the International Conference for High Performance
+Computing, Networking, Storage and Analysis, pages 1–15, 2021.
+
+FSMoE: A Flexible and Scalable Training System for Sparse Mixture-of-Experts Models
+ASPLOS ’25, March 30-April 3, 2025, Rotterdam, Netherlands
+[30] Xiaonan Nie, Xupeng Miao, Zilong Wang, Zichao Yang, Jilong Xue,
+Lingxiao Ma, Gang Cao, and Bin Cui. Flexmoe: Scaling large-scale
+sparse pre-trained model training via dynamic device placement. Pro-
+ceedings of the ACM on Management of Data, 1(1):1–19, 2023.
+[31] Xiaonan Nie, Pinxue Zhao, Xupeng Miao, Tong Zhao, and Bin Cui. Het-
+umoe: An efficient trillion-scale mixture-of-expert distributed training
+system. arXiv preprint arXiv:2203.14685, 2022.
+[32] Jorge Nocedal and Stephen J Wright. Numerical optimization. Springer,
+1999.
+[33] Xinglin Pan, Wenxiang Lin, Shaohuai Shi, Xiaowen Chu, Weinong Sun,
+and Bo Li. Parm: Efficient training of large sparsely-activated models
+with dedicated schedules. In IEEE INFOCOM 2024-IEEE Conference on
+Computer Communications, 2024.
+[34] Suchita Pati, Shaizeen Aga, Mahzabeen Islam, Nuwan Jayasena, and
+Matthew D. Sinclair. T3: transparent tracking & triggering for fine-
+grained overlap of compute & collectives. In ASPLOS (2), pages 1146–
+1164. ACM, 2024.
+[35] Kenneth V Price. Differential evolution. In Handbook of optimization:
+From classical to modern approach, pages 187–214. Springer, 2013.
+[36] Joan Puigcerver, Carlos Riquelme, Basil Mustafa, and Neil Houlsby.
+From sparse to soft mixtures of experts. arXiv preprint arXiv:2308.00951,
+2023.
+[37] Kishore Punniyamurthy, Khaled Hamidouche, and Bradford M.
+Beckmann. Optimizing distributed ml communication with fused
+computation-collective operations, 2024.
+[38] Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei,
+Ilya Sutskever, et al. Language models are unsupervised multitask
+learners. OpenAI blog, 1(8):9, 2019.
+[39] Samyam Rajbhandari, Conglong Li, Zhewei Yao, Minjia Zhang,
+Reza Yazdani Aminabadi, Ammar Ahmad Awan, Jeff Rasley, and Yux-
+iong He. Deepspeed-moe: Advancing mixture-of-experts inference and
+training to power next-generation ai scale. In International Conference
+on Machine Learning, pages 18332–18346. PMLR, 2022.
+[40] Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis,
+Quoc Le, Geoffrey Hinton, and Jeff Dean. Outrageously large neural
+networks: The sparsely-gated mixture-of-experts layer. In International
+Conference on Learning Representations, 2016.
+[41] Shaohuai Shi, Xiaowen Chu, and Bo Li. Exploiting simultaneous
+communications to accelerate data parallel distributed deep learning.
+In IEEE INFOCOM 2021-IEEE Conference on Computer Communications,
+pages 1–10. IEEE, 2021.
+[42] Shaohuai Shi, Xinglin Pan, Xiaowen Chu, and Bo Li. PipeMoE: Ac-
+celerating mixture-of-experts through adaptive pipelining. In IEEE
+INFOCOM 2023-IEEE Conference on Computer Communications, 2023.
+[43] Shaohuai Shi, Xinglin Pan, Qiang Wang, Chengjian Liu, Xiaozhe Ren,
+Zhongzhe Hu, Yu Yang, Bo Li, and Xiaowen Chu. Schemoe: An ex-
+tensible mixture-of-experts distributed training system with tasks
+scheduling. In Proceedings of the Nineteenth European Conference on
+Computer Systems, pages 236–249, 2024.
+[44] Siddharth Singh, Olatunji Ruwase, Ammar Ahmad Awan, Samyam Ra-
+jbhandari, Yuxiong He, and Abhinav Bhatele. A hybrid tensor-expert-
+data parallelism approach to optimize mixture-of-experts training. In
+Proceedings of the 37th International Conference on Supercomputing,
+pages 203–214, 2023.
+[45] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion
+Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. Attention
+is all you need. Advances in neural information processing systems, 30,
+2017.
+[46] Shibo Wang, Jinliang Wei, Amit Sabne, Andy Davis, Berkin Ilbeyi,
+Blake Hechtman, Dehao Chen, Karthik Srinivasa Murthy, Marcello
+Maggioni, Qiao Zhang, Sameer Kumar, Tongfei Guo, Yuanzhong Xu,
+and Zongwei Zhou. Overlap communication with dependent compu-
+tation via decomposition in large deep learning models. In ASPLOS
+(1), pages 93–106. ACM, 2023.
+[47] Yang You, Jing Li, Sashank Reddi, Jonathan Hseu, Sanjiv Kumar, Sri-
+nadh Bhojanapalli, Xiaodan Song, James Demmel, Kurt Keutzer, and
+Cho-Jui Hsieh. Large batch optimization for deep learning: Training
+BERT in 76 minutes. In International Conference on Learning Represen-
+tations, 2020.
+[48] Zhao You, Shulin Feng, Dan Su, and Dong Yu. Speechmoe: Scaling to
+large acoustic models with dynamic routing mixture of experts. arXiv
+preprint arXiv:2105.03036, 2021.
+[49] Mingshu Zhai, Jiaao He, Zixuan Ma, Zan Zong, Runqing Zhang, and
+Jidong Zhai. SmartMoE: Efficiently training Sparsely-Activated mod-
+els through combining offline and online parallelization. In USENIX
+Annual Technical Conference, pages 961–975, 2023.
+[50] Ningxin Zheng, Huiqiang Jiang, Quanlu Zhang, Zhenhua Han, Lingx-
+iao Ma, Yuqing Yang, Fan Yang, Chengruidong Zhang, Lili Qiu, Mao
+Yang, et al. Pit: Optimization of dynamic sparse deep learning models
+via permutation invariant transformation. In Proceedings of the 29th
+Symposium on Operating Systems Principles, pages 331–347, 2023.
+[51] Yanqi Zhou, Tao Lei, Hanxiao Liu, Nan Du, Yanping Huang, Vin-
+cent Zhao, Andrew Dai, Zhifeng Chen, Quoc Le, and James Laudon.
+Mixture-of-experts with expert choice routing.
+arXiv preprint
+arXiv:2202.09368, 2022.
+[52] Simiao Zuo, Xiaodong Liu, Jian Jiao, Young Jin Kim, Hany Hassan,
+Ruofei Zhang, Jianfeng Gao, and Tuo Zhao. Taming sparsely activated
+transformer with stochastic experts. In International Conference on
+Learning Representations, 2021.

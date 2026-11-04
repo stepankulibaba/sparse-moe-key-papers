@@ -1,0 +1,108 @@
+
+Abnar, S. et al. (2025). Parameters vs flops: Scaling laws for optimal sparsity for mixture-of-experts language models.
+arXiv preprint arXiv:2501.12370.
+Amodei, D. et al. (2016). Deep speech 2: End-to-end speech recognition in english and mandarin. In International
+conference on machine learning, pages 173–182. PMLR.
+Ardila, R. et al. (2019). Common voice: A massively-multilingual speech corpus. arXiv preprint arXiv:1912.06670.
+Bain, M., Huh, J., Han, T., and Zisserman, A. (2023). Whisperx: Time-accurate speech transcription of long-form
+audio. arXiv preprint arXiv:2303.00747.
+Brown, T. et al. (2020). Language models are few-shot learners. NeurIPS, 33:1877–1901.
+Carletta, J. (2007). Unleashing the killer corpus: experiences in creating the multi-everything ami meeting corpus.
+Language Resources and Evaluation, 41:181–190.
+Chen, W., Tian, J., Peng, Y., Yan, B., Yang, C.-H. H., and Watanabe, S. (2025). Owls: Scaling laws for multilingual
+speech recognition and translation models. arXiv preprint arXiv:2502.10373.
+Cieri, C., Miller, D., and Walker, K. (2004). The fisher corpus: A resource for the next generations of speech-to-text.
+In LREC, volume 4, pages 69–71.
+Conneau, A. et al. (2023). Fleurs: Few-shot learning evaluation of universal representations of speech. In 2022 IEEE
+Spoken Language Technology Workshop (SLT), pages 798–805. IEEE.
+Csordás, R., Irie, K., Schmidhuber, J., Potts, C., and Manning, C. D. (2024). Moeut: Mixture-of-experts universal
+transformers. arXiv preprint arXiv:2405.16039.
+Dai, D., Dong, L., Ma, S., Zheng, B., Sui, Z., Chang, B., and Wei, F. (2022). Stablemoe: Stable routing strategy for
+mixture of experts. arXiv preprint arXiv:2204.08396.
+Dai, D. et al. (2024). Deepseekmoe: Towards ultimate expert specialization in mixture-of-experts language models.
+arXiv preprint arXiv:2401.06066.
+Du, N. et al. (2022). Glam: Efficient scaling of language models with mixture-of-experts. In ICML, pages 5547–5569.
+PMLR.
+Fedus, W. et al. (2022). Switch transformers: Scaling to trillion parameter models with simple and efficient sparsity.
+Journal of Machine Learning Research, 23(120):1–39.
+Godfrey, J. J., Holliman, E. C., and McDaniel, J. (1992). Switchboard: Telephone speech corpus for research and
+development. In Acoustics, speech, and signal processing, volume 1, pages 517–520. IEEE Computer Society.
+Graves, A. and Graves, A. (2012). Connectionist temporal classification. Supervised sequence labelling with recurrent
+neural networks, pages 61–93.
+Gu, Z. et al. (2024). Denoising lm: Pushing the limits of error correction models for speech recognition. arXiv preprint
+arXiv:2405.15216.
+Gulati, A. et al. (2020). Conformer: Convolution-augmented transformer for speech recognition. In Proc. Interspeech,
+5036-5040.
+Guo, J., Sainath, T. N., and Weiss, R. J. (2019). A spelling correction model for end-to-end speech recognition. In
+ICASSP, pages 5651–5655. IEEE.
+He, E. et al. (2024). Upcycling large language models into mixture of experts. arXiv preprint arXiv:2410.07524.
+Hernandez, F. et al. (2018). Ted-lium 3: Twice as much data and corpus repartition for experiments on speaker
+adaptation. In Speech and Computer: 20th International Conference, SPECOM 2018, Proceedings 20, pages 198–208.
+Springer.
+Hoffmann, J. et al. (2022). Training compute-optimal large language models. In Proceedings of the 36th International
+Conference on Neural Information Processing Systems, pages 30016–30030.
+Hu, K., Li, B., Sainath, T. N., Zhang, Y., and Beaufays, F. (2023). Mixture-of-expert conformer for streaming
+multilingual asr. arXiv preprint arXiv:2305.15663.
+13
+
+Jacobs, R. A., Jordan, M. I., Nowlan, S. J., and Hinton, G. E. (1991). Adaptive mixtures of local experts. Neural
+computation, 3(1):79–87.
+Jelassi, S. et al. (2024). Mixture of parrots: Experts improve memorization more than reasoning. arXiv preprint
+arXiv:2410.19034.
+Jordan, M. I. and Jacobs, R. A. (1994). Hierarchical mixtures of experts and the em algorithm. Neural computation,
+6(2):181–214.
+Kahn, J. et al. (2020). Libri-light: A benchmark for asr with limited or no supervision. In ICASSP, pages 7669–7673.
+IEEE.
+Kang, W., Yang, X., Yao, Z., Kuang, F., Yang, Y., Guo, L., Lin, L., and Povey, D. (2024). Libriheavy: A 50,000
+hours asr corpus with punctuation casing and context. In ICASSP 2024-2024 IEEE International Conference on
+Acoustics, Speech and Signal Processing (ICASSP), pages 10991–10995. IEEE.
+Kim, S., Hori, T., and Watanabe, S. (2017). Joint ctc-attention based end-to-end speech recognition using multi-task
+learning. In ICASSP, pages 4835–4839. IEEE.
+Kwon, Y. and Chung, S.-W. (2023). Mole: Mixture of language experts for multi-lingual automatic speech recognition.
+In ICASSP, pages 1–5. IEEE.
+Lewis, M. et al. (2021). Base layers: Simplifying training of large, sparse models. In International Conference on
+Machine Learning, pages 6265–6274. PMLR.
+Li, Y., Sun, L., Cai, Y., and Yolwas, N. (2024). Monet: A mixture of experts solution for multilingual and low-resource
+asr challenges. In IJCNN, pages 1–8. IEEE.
+Likhomanenko, T., Xu, Q., Kahn, J., Synnaeve, G., and Collobert, R. (2021). slimipl: Language-model-free iterative
+pseudo-labeling. Interspeech.
+Panayotov, V., Chen, G., Povey, D., and Khudanpur, S. (2015). Librispeech: an asr corpus based on public domain
+audio books. In ICASSP, pages 5206–5210. IEEE.
+Park, D. S. et al. (2019). Specaugment: A simple data augmentation method for automatic speech recognition. arXiv
+preprint arXiv:1904.08779.
+Paul, D. B. and Baker, J. (1992). The design for the wall street journal-based csr corpus. In Speech and Natural
+Language: Proceedings of a Workshop.
+Radford, A. et al. (2023). Robust speech recognition via large-scale weak supervision. In ICML, pages 28492–28518.
+PMLR.
+Riquelme, C. et al. (2021). Scaling vision with sparse mixture of experts. NeurIPS, 34:8583–8595.
+Roller, S., Sukhbaatar, S., Weston, J., et al. (2021). Hash layers for large sparse models. Advances in Neural Information
+Processing Systems, 34:17555–17566.
+Shazeer, N. et al. (2017). Outrageously large neural networks: The sparsely-gated mixture-of-experts layer. arXiv
+preprint arXiv:1701.06538.
+Sun, Q., Pickett, M., Nain, A. K., and Jones, L. (2025). Transformer layers as painters.
+Synnaeve, G. et al. (2020). End-to-end asr: from supervised to semi-supervised learning with modern architectures. In
+ICML 2020 Workshop on Self-supervision in Audio and Speech.
+Vaswani, A. et al. (2017). Attention is all you need. Advances in Neural Information Processing Systems.
+Wang, C. et al. (2021). Voxpopuli: A large-scale multilingual speech corpus for representation learning, semi-supervised
+learning and interpretation. arXiv preprint arXiv:2101.00390.
+Watanabe, S. et al. (2020). Chime-6 challenge: Tackling multispeaker speech recognition for unsegmented recordings.
+arXiv preprint arXiv:2004.09249.
+You, Z., Feng, S., Su, D., and Yu, D. (2021). Speechmoe: Scaling to large acoustic models with dynamic routing
+mixture of experts. arXiv preprint arXiv:2105.03036.
+You, Z., Feng, S., Su, D., and Yu, D. (2022). Speechmoe2: Mixture-of-experts model with improved routing. In
+ICASSP, pages 7217–7221. IEEE.
+14
+
+Zeghidour, N. et al. (2018). Fully convolutional speech recognition. arXiv preprint arXiv:1812.06864.
+Zeyer, A., Irie, K., Schlüter, R., and Ney, H. (2018). Improved training of end-to-end attention models for speech
+recognition. In Interspeech 2018, pages 7–11.
+Zhang, R., Luo, Y., Liu, J., Yang, H., Dong, Z., Gudovskiy, D., Okuno, T., Nakata, Y., Keutzer, K., Du, Y., et al.
+(2024). Efficient deweahter mixture-of-experts with uncertainty-aware feature-wise linear modulation. In Proceedings
+of the AAAI Conference on Artificial Intelligence, volume 38, pages 16812–16820.
+Zhao, H., Qiu, Z., Wu, H., Wang, Z., He, Z., and Fu, J. (2024). Hypermoe: Towards better mixture of experts via
+transferring among experts. arXiv preprint arXiv:2402.12656.
+Zhou, Y. et al. (2022). Mixture-of-experts with expert choice routing. Advances in Neural Information Processing
+Systems, 35:7103–7114.
+Zoph, B., Bello, I., Kumar, S., Du, N., Huang, Y., Dean, J., Shazeer, N., and Fedus, W. (2022). St-moe: Designing
+stable and transferable sparse expert models. arXiv preprint arXiv:2202.08906.
+15

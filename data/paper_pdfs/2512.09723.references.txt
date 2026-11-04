@@ -1,0 +1,404 @@
+
+[1]
+Shibo Jie et al. “Mixture of Lookup Experts”. In: Proceedings of the 42nd International Conference on Machine
+Learning. ISSN: 2640-3498. 2025, pp. 27929–27940. URL: https://proceedings.mlr.press/v267
+/jie25b.html.
+[2]
+Chaojun Xiao et al. “Densing law of LLMs”. In: Nature Machine Intelligence 7.11 (2025), pp. 1823–1833.
+ISSN: 2522-5839. URL: https://www.nature.com/articles/s42256-025-01137-0.
+[3]
+Sabri Eyuboglu et al. Cartridges: Lightweight and general-purpose long context representations via self-study.
+2025. URL: http://arxiv.org/abs/2506.06266.
+[4]
+Zhiyu Li et al. MemOS: An Operating System for Memory-Augmented Generation (MAG) in Large Language
+Models. 2025. URL: http://arxiv.org/abs/2505.22101.
+[5]
+Yaxi Lu et al. “Proactive Agent: Shifting LLM Agents from Reactive Responses to Active Assistance”. In:
+International Conference on Representation Learning 2025 (2025), pp. 47431–47457. URL: https://proce
+edings.iclr.cc/paper_files/paper/2025/hash/75c37811e830bf029584b1c6fac17726-Ab
+stract-Conference.html.
+[6]
+Bufang Yang et al. ContextAgent: Context-Aware Proactive LLM Agents with Open-World Sensory Perceptions.
+Oct. 2025. URL: http://arxiv.org/abs/2505.14668.
+[7]
+Noam Shazeer et al. “Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer”.
+In: International Conference on Learning Representations 2017. 2017. URL: https://openreview.net/f
+orum?id=B1ckMDqlg.
+[8]
+An Yang et al. Qwen3 Technical Report. 2025. URL: http://arxiv.org/abs/2505.09388.
+[9]
+DeepSeek-AI et al. DeepSeek-V3 Technical Report. 2025. URL: http://arxiv.org/abs/2412.19437.
+[10]
+Kimi Team et al. Kimi K2: Open Agentic Intelligence. 2025. URL: http://arxiv.org/abs/2507.20534.
+[11]
+Zhenliang Xue et al. PowerInfer-2: Fast Large Language Model Inference on a Smartphone. 2024. URL:
+http://arxiv.org/abs/2406.06282.
+[12]
+Damai Dai et al. “DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language
+Models”. In: Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume
+1: Long Papers). 2024, pp. 1280–1297. URL: https://aclanthology.org/2024.acl-long.70/.
+[13]
+Jan Ludziejewski et al. “Scaling Laws for Fine-Grained Mixture of Experts”. In: Proceedings of the 41st
+International Conference on Machine Learning. 2024, pp. 33270–33288. URL: https://proceedings.ml
+r.press/v235/ludziejewski24a.html.
+[14]
+Da Yu et al. Scaling Embedding Layers in Language Models. 2025. URL: http://arxiv.org/abs/2502.0
+1637.
+[15]
+William Fedus, Barret Zoph, and Noam Shazeer. “Switch Transformers: Scaling to Trillion Parameter Models
+with Simple and Efficient Sparsity”. In: Journal of Machine Learning Research 23.120 (2022), pp. 1–39. ISSN:
+1533-7928. URL: http://jmlr.org/papers/v23/21-0998.html.
+[16]
+Zihan Qiu et al. “Demons in the Detail: On Implementing Load Balancing Loss for Training Specialized
+Mixture-of-Expert Models”. In: Proceedings of the 63rd Annual Meeting of the Association for Computational
+Linguistics (Volume 1: Long Papers). 2025, pp. 5005–5018. ISBN: 979-8-89176-251-0. URL: https://acla
+nthology.org/2025.acl-long.249/.
+[17]
+Lean Wang et al. Auxiliary-Loss-Free Load Balancing Strategy for Mixture-of-Experts. 2024. URL: http://ar
+xiv.org/abs/2408.15664.
+[18]
+Xu Owen He. Mixture of A Million Experts. 2024. URL: http://arxiv.org/abs/2407.04153.
+[19]
+Guillaume Lample et al. “Large Memory Layers with Product Keys”. In: Advances in Neural Information
+Processing Systems. Vol. 32. 2019. URL: https://proceedings.neurips.cc/paper/2019/hash/9d
+8df73a3cfbf3c5b47bc9b50f214aff-Abstract.html.
+[20]
+Vincent-Pierre Berges et al. “Memory Layers at Scale”. In: Proceedings of the 42nd International Conference
+on Machine Learning. ISSN: 2640-3498. 2025, pp. 3831–3842. URL: https://proceedings.mlr.pres
+s/v267/berges25a.html.
+[21]
+Zihao Huang et al. “Ultra-Sparse Memory Network”. In: International Conference on Representation Learning
+2025 (2025), pp. 86557–86575. URL: https://proceedings.iclr.cc/paper_files/paper/2025
+/hash/d78d68cae595fabadd187b583ee8708e-Abstract-Conference.html.
+8
+
+[22]
+Zihao Huang et al. UltraMemV2: Memory Networks Scaling to 120B Parameters with Superior Long-Context
+Learning. Aug. 2025. URL: http://arxiv.org/abs/2508.18756.
+[23]
+Hongzhi Huang et al. “Over-Tokenized Transformer: Vocabulary is Generally Worth Scaling”. In: Proceedings
+of the 42nd International Conference on Machine Learning. ISSN: 2640-3498. 2025, pp. 26261–26282. URL:
+https://proceedings.mlr.press/v267/huang25bb.html.
+[24]
+Zihan Qiu et al. Gated Attention for Large Language Models: Non-linearity, Sparsity, and Attention-Sink-Free.
+2025. URL: http://arxiv.org/abs/2505.06708.
+[25]
+Yu A. Malkov and D. A. Yashunin. “Efficient and Robust Approximate Nearest Neighbor Search Using Hier-
+archical Navigable Small World Graphs”. In: IEEE Transactions on Pattern Analysis and Machine Intelligence
+42.4 (2020), pp. 824–836. ISSN: 1939-3539. URL: https://ieeexplore.ieee.org/abstract/docu
+ment/8594636.
+[26]
+Jianlin Su et al. “RoFormer: Enhanced transformer with Rotary Position Embedding”. In: Neurocomputing
+568 (2024), p. 127063. ISSN: 0925-2312. URL: https://www.sciencedirect.com/science/articl
+e/pii/S0925231223011864.
+[27]
+Enzhe Lu et al. MoBA: Mixture of Block Attention for Long-Context LLMs. 2025. URL: http://arxiv.org
+/abs/2502.13189.
+[28]
+DeepSeek-AI. DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models. 2025. URL: https://hu
+ggingface.co/deepseek-ai/DeepSeek-V3.2/blob/main/assets/paper.pdf.
+[29]
+Noam Shazeer. GLU Variants Improve Transformer. 2020. URL: http://arxiv.org/abs/2002.05202.
+[30]
+Ashish Vaswani et al. “Attention is All you Need”. In: Advances in Neural Information Processing Systems.
+Vol. 30. 2017. URL: https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91f
+bd053c1c4a845aa-Abstract.html.
+[31]
+Biao Zhang and Rico Sennrich. “Root Mean Square Layer Normalization”. In: Advances in Neural Information
+Processing Systems. Vol. 32. 2019. URL: https://proceedings.neurips.cc/paper/2019/hash/1e
+8a19426224ca89e83cef47f1e7f53b-Abstract.html.
+[32]
+Ruibin Xiong et al. “On Layer Normalization in the Transformer Architecture”. In: Proceedings of the 37th
+International Conference on Machine Learning. 2020, pp. 10524–10533. URL: https://proceedings.ml
+r.press/v119/xiong20b.html.
+[33]
+Guilherme Penedo et al. “The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale”. In:
+Advances in Neural Information Processing Systems 37 (2024), pp. 30811–30849. URL: https://proce
+edings.neurips.cc/paper_files/paper/2024/hash/370df50ccfdf8bde18f8f9c2d9151bda
+-Abstract-Datasets_and_Benchmarks_Track.html.
+[34]
+Ilya Loshchilov and Frank Hutter. “Decoupled Weight Decay Regularization”. In: 7th International Conference
+on Learning Representations, ICLR 2019, 2019. URL: https://openreview.net/forum?id=Bkg6RiCq
+Y7.
+9
+
+A
+Pseudocode
+The pseudocode for MoKLV in training mode is given below. The definitions of some modules that are
+not the focus of this article, such as Attention, RotaryEmb, and Config, are omitted here.
+1 import torch
+2 from torch import nn
+3 from torch.nn import functional as F
+4
+5
+6 class MLP(nn.Module):
+7
+def __init__(self, config: Config, key_expert: bool = False):
+8
+super().__init__()
+9
+h_size = config.hidden_size
+10
+i_size = config.intermediate_size
+11
+o_size = config.key_size if key_expert else h_size
+12
+13
+self.ffn_gate = nn.Linear(h_size, i_size, bias=False)
+14
+self.ffn_up = nn.Linear(h_size, i_size, bias=False)
+15
+self.ffn_down = nn.Linear(i_size, o_size, bias=False)
+16
+17
+def forward(self, x: torch.Tensor):
+18
+x1 = self.ffn_gate(x)
+19
+x2 = self.ffn_up(x)
+20
+x3 = F.silu(x1) * x2
+21
+y = self.ffn_down(x3)
+22
+return y
+23
+24
+25 class Layer(nn.Module):
+26
+def __init__(self, config: Config, has_experts: bool):
+27
+super().__init__()
+28
+d = config.hidden_size
+29
+dk = config.key_size
+30
+n = config.num_experts
+31
+32
+self.rotary_emb = RotaryEmb(config)
+33
+self.attention = Attention(config, self.rotary_emb)
+34
+self.ffn = MLP(config)
+35
+self.attn_layer_norm = nn.RMSNorm(d)
+36
+self.ffn_layer_norm = nn.RMSNorm(d)
+37
+self.has_experts = has_experts
+38
+self.qk_scale_factor = config.qk_scale_factor
+39
+self.expert_topk = config.expert_topk
+40
+41
+if has_experts:
+42
+self.query_proj = nn.Linear(d, dk, bias=False)
+43
+self.key_experts = nn.ModuleList([MLP(config, True) for _ in range(n)])
+44
+self.value_experts = nn.ModuleList([MLP(config) for _ in range(n)])
+45
+self.vocab_emb_layer_norm = nn.RMSNorm(d)
+46
+self.expert_key_norm = nn.RMSNorm(dk)
+47
+self.expert_value_norm = nn.RMSNorm(d)
+48
+self.router = nn.Parameter(torch.randn(d, n))
+49
+self.new_router = nn.Parameter(torch.randn(d, n))
+10
+
+50
+self.gate = nn.Parameter(torch.randn(d, 1))
+51
+self.new_gate = nn.Parameter(torch.randn(d, 1))
+52
+53
+def forward(
+54
+self,
+55
+x_input: torch.Tensor,
+56
+vocab_emb: torch.Tensor,
+57
+sliding_window_mask: torch.Tensor,
+58
+):
+59
+x = self.attn_layer_norm(x_input)
+60
+x_ffn_input = self.attention(x) + x_input
+61
+x_ffn = self.ffn_layer_norm(x_ffn_input)
+62
+y = self.ffn(x_ffn) + x_ffn_input
+63
+64
+if self.has_experts:
+65
+expert_query = self.query_proj(x_ffn).unsqueeze(2)
+# (b, s, 1, dk)
+66
+vocab_emb = self.vocab_emb_layer_norm(vocab_emb)
+67
+expert_key = torch.stack(
+68
+[f(vocab_emb) for f in self.key_experts], 2
+69
+)
+# (b, s, n, dk)
+70
+expert_key = self.expert_key_norm(expert_key)
+71
+expert_value = torch.stack(
+72
+[f(vocab_emb) for f in self.value_experts], 2
+73
+)
+# (b, s, n, d)
+74
+75
+"""The original expert output in MoLE"""
+76
+router_score = x_ffn @ self.router
+# (b, s, n)
+77
+qk_score = (
+78
+expert_query @ expert_key.transpose(-2, -1) * self.qk_scale_factor
+79
+)
+# (b, s, 1, dk) @ (b, s, dk, n) -> (b, s, 1, n)
+80
+score = router_score + qk_score.squeeze(2)
+# (b, s, n)
+81
+score = score.softmax(-1).unsqueeze(-1)
+# (b, s, n, 1)
+82
+gate = torch.sigmoid(x_ffn @ self.gate)
+# (b, s, 1)
+83
+expert_output = (expert_value * score).sum(2) * gate
+# (b, s, d)
+84
+85
+"""The New expert output added in MoLKV"""
+86
+new_router_score = x_ffn @ self.new_router
+# (b, s, n)
+87
+expert_query_r = self.rotary_emb(expert_query)
+88
+expert_key_r = self.rotary_emb(expert_key)
+89
+new_qk_score = (
+90
+expert_query_r.transpose(1, 2)
+91
+@ expert_key_r.permute(0, 2, 3, 1)
+92
+* self.qk_scale_factor
+93
+)
+# (b, 1, s, dk) @ (b, n, dk, s) -> (b, n, s, s)
+94
+new_score = (
+95
+new_router_score.transpose(1, 2).unsqueeze(-1) + new_qk_score
+96
+)
+# (b, n, s, s)
+97
+98
+new_score = new_score.masked_fill(~sliding_window_mask, float("-inf"))
+99
+new_score = new_score.permute(0, 2, 3, 1).flatten(2)
+# (b, s, s * n)
+100
+indices = new_score.topk(self.expert_topk, -1, sorted=False).indices
+101
+topk_mask = torch.zeros_like(new_score, dtype=bool)
+102
+topk_mask.scatter_(-1, indices, True)
+103
+new_score = new_score.masked_fill(~topk_mask, float("-inf"))
+104
+new_score = new_score.softmax(-1)
+11
+
+105
+new_gate = torch.sigmoid(x_ffn @ self.new_gate)
+# (b, s, 1)
+106
+new_expert_output = (
+107
+new_score
+108
+@ self.expert_value_norm(expert_value).flatten(1, 2)
+109
+* new_gate
+110
+)
+# (b, s, s * n) @ (b, s * n, d) -> (b, s, d)
+111
+112
+y = y + expert_output + new_expert_output
+113
+114
+return y
+B
+Training Hyperparameters
+Configuration Key
+Value
+seq_length
+2048
+batch_size
+8
+gradient_accumulatio_steps
+30
+effective_batch_size
+240
+training_steps
+20000
+warmup_steps
+200
+learning_rate
+3e-4
+lr_decay_scheduler
+cosine
+min_lr
+3e-6
+weight_decay
+0.1
+adam_betas
+[0.9, 0.95]
+grad_clip
+1.0
+layer_norm_type
+RMSNorm
+layer_norm_eps
+1e-8
+optimizer_type
+AdamW
+optimizer_eps
+1e-8
+mixed_precision
+True
+pos_emb
+RoPE
+pos_emb_theta
+10000
+weight_tying
+False
+init_dist
+trunc normal
+init_std
+0.02
+12

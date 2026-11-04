@@ -1,0 +1,1521 @@
+
+ALIAS PARTH GOYAL, A. G., Didolkar, A., Ke, N. R.,
+Blundell, C., Beaudoin, P., Heess, N., Mozer, M. C.,
+and Bengio, Y. Neural production systems. Advances
+in Neural Information Processing Systems, 34:25673–
+25687, 2021. (Cited on page 6.)
+Andersen, P., Gross, G. N., Lomo, T., and Sveen, O. Partic-
+ipation of inhibitory and excitatory interneurones in the
+control of hippocampal cortical output. In UCLA forum in
+medical sciences, volume 11, pp. 415–465, 1969. (Cited
+on pages 1 and 6.)
+Bao, H., Dong, L., Piao, S., and Wei, F.
+BEiT:
+BERT Pre-Training of Image Transformers.
+In In-
+ternational Conference on Learning Representations,
+2022a. URL https://openreview.net/forum?
+id=p-BhZSz59o4. (Cited on page 1.)
+Bao, H., Wang, W., Dong, L., Liu, Q., Mohammed,
+O. K., Aggarwal, K., Som, S., Piao, S., and Wei,
+F.
+VLMo:
+Unified Vision-Language Pre-Training
+with Mixture-of-Modality-Experts.
+In Oh, A. H.,
+Agarwal, A., Belgrave, D., and Cho, K. (eds.), Ad-
+vances in Neural Information Processing Systems,
+2022b. URL https://openreview.net/forum?
+id=bydKs84JEyw. (Cited on page 1.)
+Bengio, Y. Deep Learning of Representations: Looking
+Forward. In Dediu, A.-H., Mart ˜An-Vide, C., Mitkov, R.,
+and Truthe, B. (eds.), Statistical Language and Speech
+Processing, pp. 1–37, Berlin, Heidelberg, 2013. Springer
+Berlin Heidelberg. ISBN 978-3-642-39593-2. (Cited on
+page 5.)
+Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J. D.,
+Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G.,
+Askell, A., et al. Language models are few-shot learners.
+Advances in neural information processing systems, 33:
+1877–1901, 2020. (Cited on page 1.)
+Casanueva, I., Temˇcinas, T., Gerz, D., Henderson, M.,
+and Vuli´c, I. Efficient intent detection with dual sen-
+tence encoders.
+In Proceedings of the 2nd Work-
+shop on Natural Language Processing for Conversa-
+tional AI, pp. 38–45, Online, July 2020. Association
+for Computational Linguistics. doi: 10.18653/v1/2020.
+nlp4convai-1.5.
+URL https://aclanthology.
+org/2020.nlp4convai-1.5. (Cited on page 6.)
+Chen, T., Zhang, Z., JAISWAL, A. K., Liu, S., and Wang, Z.
+Sparse moe as the new dropout: Scaling dense and self-
+slimmable transformers. In The Eleventh International
+Conference on Learning Representations, 2023. (Cited on
+pages 2, 5, 6, and 7.)
+Chi, Z., Dong, L., Huang, S., Dai, D., Ma, S., Patra, B., Sing-
+hal, S., Bajaj, P., Song, X., Mao, X.-L., Huang, H., and
+Wei, F. On the Representation Collapse of Sparse Mix-
+ture of Experts. In Oh, A. H., Agarwal, A., Belgrave, D.,
+and Cho, K. (eds.), Advances in Neural Information Pro-
+cessing Systems, 2022. URL https://openreview.
+net/forum?id=mWaYC6CZf5. (Cited on pages 1, 2, 5,
+and 6.)
+Chow, Y., Tulepbergenov, A., Nachum, O., Gupta, D., Ryu,
+M., Ghavamzadeh, M., and Boutilier, C. A Mixture-of-
+Expert Approach to RL-based Dialogue Management.
+In The Eleventh International Conference on Learning
+Representations, 2023. URL https://openreview.
+net/forum?id=4FBUihxz5nm. (Cited on page 1.)
+Clark, A., De Las Casas, D., Guy, A., Mensch, A., Pa-
+ganini, M., Hoffmann, J., Damoc, B., Hechtman, B.,
+Cai, T., Borgeaud, S., Van Den Driessche, G. B., Ruther-
+ford, E., Hennigan, T., Johnson, M. J., Cassirer, A.,
+Jones, C., Buchatskaya, E., Budden, D., Sifre, L., Osin-
+dero, S., Vinyals, O., Ranzato, M., Rae, J., Elsen, E.,
+Kavukcuoglu, K., and Simonyan, K. Unified Scaling
+Laws for Routed Language Models. In Chaudhuri, K.,
+Jegelka, S., Song, L., Szepesvari, C., Niu, G., and Sabato,
+S. (eds.), Proceedings of the 39th International Confer-
+ence on Machine Learning, volume 162 of Proceedings of
+Machine Learning Research, pp. 4057–4086. PMLR, July
+2022. URL https://proceedings.mlr.press/
+v162/clark22a.html. (Cited on page 5.)
+Dai, D., Dong, L., Ma, S., Zheng, B., Sui, Z., Chang,
+B., and Wei, F. StableMoE: Stable Routing Strategy
+for Mixture of Experts.
+In Proceedings of the 60th
+Annual Meeting of the Association for Computational
+Linguistics (Volume 1: Long Papers), pp. 7085–7095,
+Dublin, Ireland, May 2022. Association for Compu-
+tational Linguistics.
+doi: 10.18653/v1/2022.acl-long.
+489. URL https://aclanthology.org/2022.
+acl-long.489. (Cited on pages 1, 2, 3, 5, and 6.)
+9
+
+CompeteSMoE - Effective Training of Sparse Mixture of Experts via Competition
+Do, T., Khiem, L., Pham, Q., Nguyen, T., Doan, T.-N.,
+Nguyen, B., Liu, C., Ramasamy, S., Li, X., and Hoi,
+S.
+HyperRouter: Towards Efficient Training and In-
+ference of Sparse Mixture of Experts.
+In Bouamor,
+H., Pino, J., and Bali, K. (eds.), Proceedings of the
+2023 Conference on Empirical Methods in Natural
+Language Processing, pp. 5754–5765, Singapore, De-
+cember 2023. Association for Computational Linguis-
+tics. URL https://aclanthology.org/2023.
+emnlp-main.351. (Cited on page 2.)
+Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn,
+D., Zhai, X., Unterthiner, T., Dehghani, M., Min-
+derer, M., Heigold, G., Gelly, S., Uszkoreit, J., and
+Houlsby, N.
+An Image is Worth 16x16 Words:
+Transformers for Image Recognition at Scale.
+In In-
+ternational Conference on Learning Representations,
+2021. URL https://openreview.net/forum?
+id=YicbFdNTTy. (Cited on page 1.)
+Du, N., Huang, Y., Dai, A. M., Tong, S., Lepikhin, D., Xu,
+Y., Krikun, M., Zhou, Y., Yu, A. W., Firat, O., Zoph, B.,
+Fedus, L., Bosma, M. P., Zhou, Z., Wang, T., Wang, E.,
+Webster, K., Pellat, M., Robinson, K., Meier-Hellstern,
+K., Duke, T., Dixon, L., Zhang, K., Le, Q., Wu, Y.,
+Chen, Z., and Cui, C. GLaM: Efficient Scaling of Lan-
+guage Models with Mixture-of-Experts. In Chaudhuri,
+K., Jegelka, S., Song, L., Szepesvari, C., Niu, G., and
+Sabato, S. (eds.), Proceedings of the 39th International
+Conference on Machine Learning, volume 162 of Pro-
+ceedings of Machine Learning Research, pp. 5547–5569.
+PMLR, July 2022. URL https://proceedings.
+mlr.press/v162/du22c.html. (Cited on pages 1,
+2, 6, and 21.)
+Eccles, J. C.
+The cerebellum as a neuronal machine.
+Springer Science & Business Media, 2013.
+(Cited on
+pages 1 and 6.)
+Eigen, D., Ranzato, M., and Sutskever, I. Learning fac-
+tored representations in a deep mixture of experts. arXiv
+preprint arXiv:1312.4314, 2013. (Cited on page 5.)
+Fedus, W., Zoph, B., and Shazeer, N. Switch Transform-
+ers: Scaling to Trillion Parameter Models with Sim-
+ple and Efficient Sparsity. Journal of Machine Learn-
+ing Research, 23(120):1–39, 2022.
+URL http://
+jmlr.org/papers/v23/21-0998.html. (Cited
+on pages 1, 2, 3, 5, 6, and 21.)
+Feldman, J. A. and Ballard, D. H. Connectionist models and
+their properties. Cognitive science, 6(3):205–254, 1982.
+(Cited on page 6.)
+Goodfellow, I., Warde-Farley, D., Mirza, M., Courville,
+A., and Bengio, Y. Maxout networks. In International
+conference on machine learning, pp. 1319–1327. PMLR,
+2013. (Cited on page 6.)
+Goyal, A., Lamb, A., Hoffmann, J., Sodhani, S., Levine,
+S., Bengio, Y., and Sch¨olkopf, B. Recurrent Independent
+Mechanisms. In International Conference on Learning
+Representations, 2021. URL https://openreview.
+net/forum?id=mLcmdlEUxy-. (Cited on page 6.)
+Grossberg, S. and Grossberg, S. Contour enhancement,
+short term memory, and constancies in reverberating neu-
+ral networks. Studies of Mind and Brain: Neural Prin-
+ciples of Learning, Perception, Development, Cognition,
+and Motor Control, pp. 332–378, 1982. (Cited on page 1.)
+Gulati, A., Qin, J., Chiu, C.-C., Parmar, N., Zhang, Y., Yu,
+J., Han, W., Wang, S., Zhang, Z., Wu, Y., and Pang,
+R. Conformer: Convolution-augmented Transformer for
+Speech Recognition. In Proc. Interspeech 2020, pp. 5036–
+5040, 2020. doi: 10.21437/Interspeech.2020-3015. (Cited
+on page 1.)
+Ha, D., Dai, A. M., and Le, Q. V. HyperNetworks. In
+International Conference on Learning Representations,
+2017. URL https://openreview.net/forum?
+id=rkpACe1lx. (Cited on page 2.)
+Ho, N., Yang, C.-Y., and Jordan, M. I. Convergence Rates
+for Gaussian Mixtures of Experts. Journal of Machine
+Learning Research, 23(323):1–81, 2022. URL http://
+jmlr.org/papers/v23/20-1129.html. (Cited
+on page 5.)
+Jacobs, R. A., Jordan, M. I., Nowlan, S. J., and Hinton, G. E.
+Adaptive mixtures of local experts. Neural computation,
+3(1):79–87, 1991. Publisher: MIT Press. (Cited on page 5.)
+Jordan, M. I. and Jacobs, R. A. Hierarchical mixtures of
+experts and the EM algorithm. Neural computation, 6(2):
+181–214, 1994. Publisher: MIT Press. (Cited on page 5.)
+Khalili, A. New estimation and feature selection methods in
+mixture-of-experts models. Canadian Journal of Statis-
+tics, 38(4):519–539, 2010. (Cited on page 5.)
+Kingma, D. P. and Ba, J. Adam: A method for stochastic op-
+timization. arXiv preprint arXiv:1412.6980, 2014. (Cited
+on page 6.)
+Kohonen, T. Self-organized formation of topologically cor-
+rect feature maps. Biological cybernetics, 43(1):59–69,
+1982. (Cited on page 6.)
+Lamb, A., He, D., Goyal, A., Ke, G., Liao, C.-F., Ravanelli,
+M., and Bengio, Y. Transformers with competitive en-
+sembles of independent mechanisms.
+arXiv preprint
+arXiv:2103.00336, 2021. (Cited on page 6.)
+10
+
+CompeteSMoE - Effective Training of Sparse Mixture of Experts via Competition
+Lee-Thorp, J. and Ainslie, J. Sparse Mixers: Combining
+MoE and Mixing to build a more efficient BERT. In Find-
+ings of the Association for Computational Linguistics:
+EMNLP 2022, pp. 58–75, Abu Dhabi, United Arab Emi-
+rates, December 2022. Association for Computational
+Linguistics. URL https://aclanthology.org/
+2022.findings-emnlp.5. (Cited on pages 1 and 2.)
+Lepikhin, D., Lee, H., Xu, Y., Chen, D., Firat, O., Huang, Y.,
+Krikun, M., Shazeer, N., and Chen, Z. GShard: Scaling
+Giant Models with Conditional Computation and Auto-
+matic Sharding. In International Conference on Learning
+Representations, 2021. URL https://openreview.
+net/forum?id=qrwe7XHTmYb.
+(Cited on pages 2
+and 5.)
+Lewis, M., Bhosale, S., Dettmers, T., Goyal, N., and Zettle-
+moyer, L. BASE Layers: Simplifying Training of Large,
+Sparse Models.
+In Meila, M. and Zhang, T. (eds.),
+Proceedings of the 38th International Conference on
+Machine Learning, volume 139 of Proceedings of Ma-
+chine Learning Research, pp. 6265–6274. PMLR, July
+2021. URL https://proceedings.mlr.press/
+v139/lewis21a.html. (Cited on page 5.)
+Li, J., Li, D., Xiong, C., and Hoi, S. Blip: Bootstrapping
+language-image pre-training for unified vision-language
+understanding and generation. In International Confer-
+ence on Machine Learning, pp. 12888–12900. PMLR,
+2022. (Cited on page 1.)
+Li, J., Li, D., Savarese, S., and Hoi, S.
+Blip-2: Boot-
+strapping language-image pre-training with frozen im-
+age encoders and large language models. arXiv preprint
+arXiv:2301.12597, 2023. (Cited on page 1.)
+Maas, A. L., Daly, R. E., Pham, P. T., Huang, D., Ng,
+A. Y., and Potts, C. Learning Word Vectors for Sentiment
+Analysis. In Proceedings of the 49th Annual Meeting
+of the Association for Computational Linguistics: Hu-
+man Language Technologies, pp. 142–150, Portland, Ore-
+gon, USA, June 2011. Association for Computational
+Linguistics. URL https://aclanthology.org/
+P11-1015. (Cited on page 6.)
+Mahoney, M.
+Large text compression benchmark,
+2011. URL http://www.mattmahoney.net/dc/
+text.html. (Cited on page 6.)
+Masoudnia, S. and Ebrahimpour, R. Mixture of experts:
+a literature survey.
+Artificial Intelligence Review, 42
+(2):275–293, 2014. ISSN 1573-7462. doi: 10.1007/
+s10462-012-9338-y. URL https://doi.org/10.
+1007/s10462-012-9338-y. (Cited on page 5.)
+McClelland, J. L., Rumelhart, D. E., Group, P. R., et al.
+Parallel distributed processing, volume 2: Explorations
+in the microstructure of cognition: Psychological and
+biological models, volume 2. MIT press, 1987. (Cited on
+page 5.)
+Mendes, E. F. and Jiang, W. On convergence rates of mix-
+tures of polynomial experts. Neural computation, 24(11):
+3025–3051, 2012. Publisher: MIT Press. (Cited on page 5.)
+Merity, S., Xiong, C., Bradbury, J., and Socher, R. Pointer
+Sentinel Mixture Models. In International Conference
+on Learning Representations, 2017. URL https://
+openreview.net/forum?id=Byj72udxe. (Cited
+on page 6.)
+Montuelle, L. and Le Pennec, E. Mixture of Gaussian regres-
+sions model with logistic weights, a penalized maximum
+likelihood approach. Electronic Journal of Statistics, 8
+(1):1661–1695, 2014. Publisher: The Institute of Math-
+ematical Statistics and the Bernoulli Society. (Cited on
+page 5.)
+Nguyen, H., Nguyen, T., and Ho, N. Demystifying softmax
+gating in Gaussian mixture of experts. In Advances in
+Neural Information Processing Systems, 2023a. (Cited on
+page 5.)
+Nguyen, H., Akbarian, P., and Ho, N. Is temperature sample
+efficient for softmax Gaussian mixture of experts? arXiv
+preprint arXiv:2401.13875, 2024a. (Cited on page 5.)
+Nguyen, H., Akbarian, P., Yan, F., and Ho, N. Statistical per-
+spective of top-k sparse softmax gating mixture of experts.
+In International Conference on Learning Representations,
+2024b. (Cited on page 5.)
+Nguyen, H., Nguyen, T., Nguyen, K., and Ho, N. Towards
+convergence rates for parameter estimation in Gaussian-
+gated mixture of experts. In Proceedings of The 27th
+International Conference on Artificial Intelligence and
+Statistics, 2024c. (Cited on page 5.)
+Nguyen, H. D. and Chamroukhi, F. Practical and theoreti-
+cal aspects of mixture-of-experts modeling: An overview.
+Wiley Interdisciplinary Reviews: Data Mining and Knowl-
+edge Discovery, 8(4):e1246, 2018. Publisher: Wiley On-
+line Library. (Cited on page 5.)
+Nguyen, H. D., Lloyd-Jones, L. R., and McLachlan, G. J. A
+universal approximation theorem for mixture-of-experts
+models. Neural computation, 28(12):2585–2593, 2016.
+Publisher: MIT Press. (Cited on page 5.)
+Nguyen, H. D., Chamroukhi, F., and Forbes, F.
+Ap-
+proximation
+results
+regarding
+the
+multiple-output
+Gaussian gated mixture of linear experts model. Neu-
+rocomputing, 366:208–214, 2019.
+ISSN 0925-2312.
+doi:
+https://doi.org/10.1016/j.neucom.2019.08.014.
+URL
+https://www.sciencedirect.com/
+11
+
+CompeteSMoE - Effective Training of Sparse Mixture of Experts via Competition
+science/article/pii/S0925231219311336.
+(Cited on page 5.)
+Nguyen, H. D., Nguyen, T., Chamroukhi, F., and McLach-
+lan, G. J. Approximations of conditional probability den-
+sity functions in Lebesgue spaces via mixture of experts
+models. Journal of Statistical Distributions and Appli-
+cations, 8(1):13, August 2021a. ISSN 2195-5832. doi:
+10.1186/s40488-021-00125-0. URL https://doi.
+org/10.1186/s40488-021-00125-0. (Cited on
+page 5.)
+Nguyen, T.
+Model Selection and Approximation in
+High-dimensional Mixtures of Experts Models: from
+Theory to Practice.
+PhD Thesis, Normandie Uni-
+versit ˜A©, December 2021.
+URL https://tel.
+archives-ouvertes.fr/tel-03524749.
+(Cited on page 5.)
+Nguyen, T., Nguyen, H. D., Chamroukhi, F., and McLach-
+lan, G. J.
+Approximation by finite mixtures of con-
+tinuous density functions that vanish at infinity.
+Co-
+gent Mathematics & Statistics, 7(1):1750861, January
+2020.
+ISSN null.
+doi:
+10.1080/25742558.2020.
+1750861.
+URL https://doi.org/10.1080/
+25742558.2020.1750861. Publisher: Cogent OA.
+(Cited on page 5.)
+Nguyen, T., Nguyen, H. D., Chamroukhi, F., and McLach-
+lan, G. J. An l1-oracle inequality for the Lasso in mixture-
+of-experts regression models. arXiv:2009.10622, Jan-
+uary 2021b. URL http://arxiv.org/abs/2009.
+10622. (Cited on page 5.)
+Nguyen, T., Nguyen, H. D., Chamroukhi, F., and Forbes, F.
+A non-asymptotic approach for model selection via pe-
+nalization in high-dimensional mixture of experts models.
+Electronic Journal of Statistics, 16(2):4742 – 4822, 2022.
+doi: 10.1214/22-EJS2057. URL https://doi.org/
+10.1214/22-EJS2057. (Cited on page 5.)
+Nguyen, T., Chamroukhi, F., Nguyen, H. D., and McLach-
+lan, G. J. Approximation of probability density func-
+tions via location-scale finite mixtures in Lebesgue
+spaces.
+Communications in Statistics - Theory and
+Methods, 52(14):5048–5059, 2023b.
+doi: 10.1080/
+03610926.2021.2002360. URL https://doi.org/
+10.1080/03610926.2021.2002360.
+(Cited on
+page 5.)
+Nguyen, T., Nguyen, D. N., Nguyen, H. D., and Cham-
+roukhi, F. A non-asymptotic risk bound for model se-
+lection in high-dimensional mixture of experts via joint
+rank and variable selection. In Australasian Joint Confer-
+ence on Artificial Intelligence. Springer, 2023c. (Cited on
+page 5.)
+Norets, A.
+Approximation of conditional densities by
+smooth mixtures of regressions. The Annals of Statistics,
+38(3):1733 – 1766, 2010. doi: 10.1214/09-AOS765. URL
+https://doi.org/10.1214/09-AOS765. Pub-
+lisher: Institute of Mathematical Statistics.
+(Cited on
+page 5.)
+Norets, A. and Pelenis, J.
+Adaptive Bayesian estima-
+tion of conditional discrete-continuous distributions
+with an application to stock market trading activity.
+Journal of Econometrics, 2021.
+ISSN 0304-4076.
+doi:
+https://doi.org/10.1016/j.jeconom.2021.11.004.
+URL
+https://www.sciencedirect.com/
+science/article/pii/S030440762100261X.
+(Cited on page 5.)
+Norets, A. and Pelenis, J. Adaptive Bayesian Estimation
+of Discrete-Continuous Distributions Under Smooth-
+ness and Sparsity.
+Econometrica, 90(3):1355–1377,
+2022. doi: https://doi.org/10.3982/ECTA17884. URL
+https://onlinelibrary.wiley.com/doi/
+abs/10.3982/ECTA17884. (Cited on page 5.)
+Oster, M. and Liu, S.-C. Spiking inputs to a winner-take-all
+network. Advances in Neural Information Processing
+Systems, 18, 2005. (Cited on page 6.)
+Press, O., Smith, N. A., and Levy, O. Improving transformer
+models by reordering their sublayers. In Proceedings of
+the 58th Annual Meeting of the Association for Computa-
+tional Linguistics, pp. 2996–3005, Online, July 2020. As-
+sociation for Computational Linguistics. doi: 10.18653/
+v1/2020.acl-main.270. URL https://www.aclweb.
+org/anthology/2020.acl-main.270. (Cited on
+page 21.)
+Radford, A., Wu, J., Child, R., Luan, D., Amodei, D.,
+Sutskever, I., et al. Language models are unsupervised
+multitask learners. OpenAI blog, 1(8):9, 2019. (Cited on
+page 1.)
+Riesenhuber, M. and Poggio, T. Hierarchical models of
+object recognition in cortex. Nature neuroscience, 2(11):
+1019–1025, 1999. (Cited on page 1.)
+Riquelme, C., Puigcerver, J., Mustafa, B., Neumann, M.,
+Jenatton, R., Susano Pinto, A., Keysers, D., and Houlsby,
+N. Scaling vision with sparse mixture of experts. Ad-
+vances in Neural Information Processing Systems, 34:
+8583–8595, 2021. (Cited on page 1.)
+Rives, A., Meier, J., Sercu, T., Goyal, S., Lin, Z., Liu, J.,
+Guo, D., Ott, M., Zitnick, C. L., Ma, J., and Fergus, R.
+Biological structure and function emerge from scaling
+unsupervised learning to 250 million protein sequences.
+Proceedings of the National Academy of Sciences, 118,
+2021. URL https://www.pnas.org/doi/abs/
+10.1073/pnas.2016239118. (Cited on page 1.)
+12
+
+CompeteSMoE - Effective Training of Sparse Mixture of Experts via Competition
+Ruiz, C. R., Puigcerver, J., Mustafa, B., Neumann, M.,
+Jenatton, R., Pinto, A. S., Keysers, D., and Houlsby,
+N. Scaling Vision with Sparse Mixture of Experts. In
+Beygelzimer, A., Dauphin, Y., Liang, P., and Vaughan,
+J. W. (eds.), Advances in Neural Information Processing
+Systems, 2021. URL https://openreview.net/
+forum?id=NGPmH3vbAA_. (Cited on page 1.)
+Rumelhart, D. E. and Zipser, D. Feature discovery by com-
+petitive learning. Cognitive science, 9(1):75–112, 1985.
+(Cited on page 6.)
+Shazeer, N., Mirhoseini, A., Maziarz, K., Davis, A., Le,
+Q., Hinton, G., and Dean, J. Outrageously Large Neural
+Networks: The Sparsely-Gated Mixture-of-Experts Layer.
+In International Conference on Learning Representations,
+2017. URL https://openreview.net/forum?
+id=B1ckMDqlg. (Cited on page 5.)
+Socher, R., Perelygin, A., Wu, J., Chuang, J., Manning,
+C. D., Ng, A., and Potts, C. Recursive Deep Models
+for Semantic Compositionality Over a Sentiment Tree-
+bank. In Proceedings of the 2013 Conference on Empiri-
+cal Methods in Natural Language Processing, pp. 1631–
+1642, Seattle, Washington, USA, October 2013. Associ-
+ation for Computational Linguistics. URL https://
+aclanthology.org/D13-1170. (Cited on page 6.)
+Srivastava, R. K., Masci, J., Kazerounian, S., Gomez, F.,
+and Schmidhuber, J. Compete to compute. Advances in
+neural information processing systems, 26, 2013. (Cited
+on page 6.)
+Stefanis, C. Interneuronal mechanisms in the cortex. In
+UCLA forum in medical sciences, volume 11, pp. 497–
+526, 1969. (Cited on page 6.)
+van de Geer, S. Empirical Processes in M-estimation. Cam-
+bridge University Press, 2000. (Cited on page 14.)
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J.,
+Jones, L., Gomez, A. N., Kaiser, ˚A., and Polosukhin, I.
+Attention is All you Need. In Guyon, I., Luxburg, U. V.,
+Bengio, S., Wallach, H., Fergus, R., Vishwanathan, S.,
+and Garnett, R. (eds.), Advances in Neural Information
+Processing Systems, volume 30. Curran Associates, Inc.,
+2017.
+URL https://proceedings.neurips.
+cc/paper_files/paper/2017/file/
+3f5ee243547dee91fbd053c1c4a845aa-Paper.
+pdf. (Cited on page 1.)
+Von der Malsburg, C. Self-organization of orientation sensi-
+tive cells in the striate cortex. Kybernetik, 14(2):85–100,
+1973. (Cited on page 6.)
+Wang, Y., Wang, W., Joty, S., and Hoi, S. C.
+Codet5:
+Identifier-aware unified pre-trained encoder-decoder mod-
+els for code understanding and generation. arXiv preprint
+arXiv:2109.00859, 2021. (Cited on page 1.)
+Yuksel, S. E., Wilson, J. N., and Gader, P. D. Twenty Years
+of Mixture of Experts. IEEE Transactions on Neural
+Networks and Learning Systems, 23(8):1177–1193, 2012.
+ISSN 2162-2388 VO - 23. doi: 10.1109/TNNLS.2012.
+2200299. (Cited on page 5.)
+Zhou, Y., Lei, T., Liu, H., Du, N., Huang, Y., Zhao, V., Dai,
+A. M., Chen, z., Le, Q. V., and Laudon, J. Mixture-of-
+Experts with Expert Choice Routing. In Koyejo, S., Mo-
+hamed, S., Agarwal, A., Belgrave, D., Cho, K., and Oh, A.
+(eds.), Advances in Neural Information Processing Sys-
+tems, volume 35, pp. 7103–7114. Curran Associates, Inc.,
+2022.
+URL https://proceedings.neurips.
+cc/paper_files/paper/2022/file/
+2f00ecd787b432c1d36f3de9800728eb-Paper-Conference
+pdf. (Cited on page 5.)
+Zhou, Y., Du, N., Huang, Y., Peng, D., Lan, C., Huang, D.,
+Shakeri, S., So, D., Dai, A. M., Lu, Y., et al. Brainformers:
+Trading simplicity for efficiency. In International Con-
+ference on Machine Learning, pp. 42531–42542. PMLR,
+2023. (Cited on pages 1 and 2.)
+Zuo, S., Liu, X., Jiao, J., Kim, Y. J., Hassan, H., Zhang,
+R., Gao, J., and Zhao, T.
+Taming Sparsely Acti-
+vated Transformer with Stochastic Experts.
+In In-
+ternational Conference on Learning Representations,
+2022. URL https://openreview.net/forum?
+id=B72HXs80q4. (Cited on page 5.)
+13
+
+CompeteSMoE - Effective Training of Sparse Mixture of Experts via Competition
+Supplementary Material for “CompeteSMoE - Effective Training of Sparse
+Mixture of Experts via Competition”
+This document is organized as follow. Appendix A summarizes the notations used in our work. Appendix B presents the
+detailed proof of our theoretical analysis in Section 4. Appendix C presents all the implementation details, additional results,
+and visualizations.
+A. Summary of Main Notations
+We summarize the main notations used in the main paper in Table 6, including those introduced later in the supplementary
+material.
+B. Proof for Results in Section 4
+B.1. Proof of Theorem 4.1
+In this proof, we first present some fundamental results on the density estimation problem for M-estimators in (van de Geer,
+2000), and then provide the main proof in Appendix B.1.1. To streamline our discussion, let us introduce some necessary
+concepts from the empirical process theory. In particular, let Pk(Θ) be the set of all conditional densities with respect to
+mixing measures in Ek∗(Θ), i.e.
+Pk∗(Θ) := {pG(Y |X) : G ∈Ek∗(Θ)}.
+Additionally, we also consider two following variants of the set Pk∗(Θ):
+Pk(Θ) := {p(G+G∗)/2(Y |X) : G ∈Ek∗(Θ)},
+P
+1/2
+k∗(Θ) := {p1/2
+(G+G∗)/2(Y |X) : G ∈Ek∗(Θ)}.
+Next, we define for each δ > 0 a Hellinger ball centered around the true conditional density pG∗(Y |X) and intersect with
+the set P
+1/2
+k∗(Θ) as below
+P
+1/2
+k∗(Θ, δ) := {p1/2(Y |X) ∈P
+1/2
+k∗(Θ) : h(pG, pG∗) ≤δ}.
+Moreover, the size of this Hellinger ball is quantified by the following term:
+JB(δ, P
+1/2
+k∗(Θ, δ)) :=
+Z δ
+δ2/213 H1/2
+B (t, P
+1/2
+k∗(Θ, t), ∥· ∥)dt ∨δ,
+(12)
+where HB(t, P
+1/2
+k∗(Θ, t), ∥· ∥) stands for the bracketing entropy of P
+1/2
+k∗(Θ, t) under the ℓ2-norm, and t ∨δ := max{t, δ}.
+Now, we are ready to recall the results in (van de Geer, 2000).
+Lemma B.1 (Theorem 7.4,(van de Geer, 2000)). Take Ψ(δ) ≥JB(δ, P
+1/2
+k∗(Θ, δ)) such that Ψ(δ)/δ2 is a non-increasing
+function of δ. Then, for a universal constant c and √nδ2
+n ≥cΨ(δn), we achieve that
+P
+
+h(p b
+Gn, pG∗) > δ
+
+≤c exp(−nδ2/c2),
+for any δ ≥δn.
+Proof of Lemma B.1 is available in (van de Geer, 2000). Apart from this result, we also need to introduce the upper bounds
+of the covering number N(ε, Pk∗(Θ), ∥· ∥1) and the bracketing entropy HB(ε, Pk∗(Θ), h) as follows:
+Lemma B.2. Suppose that Θ is a bounded set, then we have for any ε ∈(0, 1/2) that
+(a) log N(ε, Pk∗(Θ), ∥· ∥1) ≲log(1/ε);
+(b) HB(ε, Pk∗(Θ), h) ≲log(1/ε).
+Proof of Lemma B.2 is deferred to Appendix B.1.2.
+14
+
+CompeteSMoE - Effective Training of Sparse Mixture of Experts via Competition
+Symbol
+Description
+Wr
+Router parameter
+We
+Expert parameter
+N
+Number of experts used
+R
+Router network (function)
+g
+Expert network (function)
+x, X
+Token, input
+z
+Token representation
+s
+Affinity score
+TopK
+TopK function
+K
+Top K experts with the largest affinity scores
+by, Y
+Final prediction, output
+sR
+Router affinity score
+sC
+Competition affinity score
+t
+Current t-th iteration
+λ(t)
+Schedule (probability for head) at t-th iteration
+LNLL
+Negative log-likelihood
+LR
+Router loss
+ϵt
+Step size
+α
+Balance factor
+n
+Sample size
+[n]
+Set of {1, 2, ..., n} for any positive integer n
+an = O(bn) or an ≲bn
+If an ≤Cbn for all n ∈N, where C > 0 is some universal constant
+uz
+uz = uz1
+1 uz2
+2 . . . uzd
+d , for any vector u ∈Rd and z := (z1, z2, . . . , zd) ∈Nd
+|u|
+|u| := u1 + u2 + . . . + ud, for any vector u ∈Rd
+z!
+z! := z1!z2! . . . zd!, for any vector u ∈Rd and z := (z1, z2, . . . , zd) ∈Nd
+k∗
+True number of experts
+f(·|µ, σ)
+Univariate Gaussian density with mean µ and variance σ
+G∗
+True mixing measure
+δ
+Dirac measure
+ν
+Lebesgue measure
+Θ
+Parameter space
+q
+Dimension of expert parameter space
+bGn
+Maximum likelihood estimation of the true mixing measure G∗
+Ek∗(Θ)
+Space of all mixing measures with exactly k∗components
+∥· ∥, ∥· ∥1
+2-norm and 1-norm value
+|A|
+Cardinality of any set A
+h
+Hellinger distance
+V
+Total Variation distance
+D
+Voronoi loss function
+Pk(Θ), Pk(Θ), P
+1/2
+k∗(Θ)
+Set of all conditional densities with respect to mixing measures in Ek∗(Θ) and two variants
+P
+1/2
+k∗(Θ, δ)
+Hellinger ball centered around the true conditional density pG∗(Y |X) and intersect with P
+1/2
+k∗(Θ)
+JB(δ, P
+1/2
+k∗(Θ, δ))
+Size of the Hellinger ball P
+1/2
+k∗(Θ, δ)
+N(ε, Pk∗(Θ), ∥· ∥1)
+Covering number
+HB(ε, Pk∗(Θ), h)
+Bracketing entropy
+Table 6. Summary of Main Notations.
+15
+
+CompeteSMoE - Effective Training of Sparse Mixture of Experts via Competition
+B.1.1. MAIN PROOF
+From equation 12 and part (b) of Lemma B.2, we have that
+JB(δ, P
+1/2
+k∗(Θ, δ)) =
+Z δ
+δ2/213 H1/2
+B (t, P
+1/2
+k∗(Θ, t), ∥· ∥)dt ∨δ
+≤
+Z δ
+δ2/213 H1/2
+B (t, P
+1/2
+k∗(Θ, t), h)dt ∨δ
+≲
+Z δ
+δ2/213 log(1/t)dt ∨δ.
+Next, we choose Ψ(δ) = δ
+p
+log(1/δ) such that Ψ(δ) ≥JB(δ, P
+1/2
+k∗(Θ, δ)). Then, with δn = O(
+p
+log(n)/n), it follows
+from Lemma B.1 that for some universal constants C and c which depend only on Θ, we get
+P
+
+h(p b
+Gn, pG∗) > C
+p
+log(n)/n
+
+≲exp(−c log(n)).
+Hence, the proof is completed.
+B.1.2. PROOF OF LEMMA B.2
+Part (a). Recall that Θ is a compact set, then there exists an ε-cover, which we denote as Θε. Moreover, it can be
+verified that |Θε| ≤O(ε−(q+1)k∗). Next, for each mixing measure G = Pk∗
+i=1 δ(Wei,σi) ∈Ek∗(Θ), we consider another
+one G = Pk∗
+i=1 δ(W ei,σi), where (W ei, σi) ∈Θε is the closet point to (Wei, σi) in this set for any i ∈[k∗]. Then, the
+conditional density pG(Y |X) belongs to the following set
+Q :=
+n
+pG(Y |X) ∈Pk∗(Θ) : (Wei, σi) ∈Θε, ∀i ∈[k∗]
+o
+.
+Subsequently, we demonstrate that Q is an ε-cover of the metric space (Pk∗(Θ), ∥·∥1). In other words, we need to show that
+for any pG(Y |X) ∈Pk∗(Θ), there exists some density pG ∈Q such that ∥pG −pG∥1 ≲ε. For this sake, let us consider
+P :=
+ k∗
+K
+
+K-element subsets of [k∗], which are of the form {τ1, . . . , τK} for any τ ∈[P]. Additionally, we also denote
+{τK+1, . . . , τk∗} := [k∗] \ {τ1, . . . , τK}, and then partition the covariate space X in two ways as follows:
+Xτ := {x ∈X : |g(x, Wei)| ≥|g(x, Wej)|, ∀i ∈{τ1, . . . , τK}, j ∈{τK+1, . . . , τk∗}}
+X τ := {x ∈X : |g(x, W ei)| ≥|g(x, W ej)|, ∀i ∈{τ1, . . . , τK}, j ∈{τK+1, . . . , τk∗}}.
+As Θ and X are bounded, we may assume that ∥Wei −W ei∥≤Cη for any parameter We, where η is some positive
+constant and C > 0 will be chosen later. Similarly, since X is a bounded set, then for any τ ∈[P], we can find some
+constant cτ ≥0 that satisfies
+min
+x∈Xτ , i∈{τ1,...,τK},
+j∈{τK+1,...,τk∗}
+[|g(x, Wei)| −|g(x, Wej)|] = cτη,
+Now, we point out that Xτ ⊆X τ if cτ > 0, and Xτ has measure zero otherwise.
+Case 1: cτ > 0.
+Recall that g(x, We) is Lipschitz continuous with respect to We, i.e.
+|g(x, Wei) −g(x, W ei)| ≤L(x)∥Wei −W ei∥,
+where L(x) is some positive constant depending on x. Since X is bounded, we get that L(x) ≤A for some positive constant,
+which follows that |g(x, Wei) −g(X, W ei)| ≤ACη. As a result, for x ∈Xτ, i ∈{τ1, . . . , τK} and j ∈{τK+1, . . . , τk∗},
+we observe that
+|g(x, W ei)| ≥|g(x, Wei)| −|g(x, Wei) −g(x, W ei)|
+≥|g(x, Wej)| + cτη −ACη
+≥|g(x, W ej)| −|g(x, W ej) −g(x, Wej)| + cτη −ACη
+≥|g(x, W ej)| −2ACη + cτη.
+16
+
+CompeteSMoE - Effective Training of Sparse Mixture of Experts via Competition
+By choosing C =
+cτ
+2A, we obtain that |g(x, W ei)| ≥|g(x, W ej)| for any i ∈{τ1, . . . , τK} and j ∈{τK+1, . . . , τk∗}.
+Therefore, x ∈X τ, and we can conclude that Xτ ⊆X τ.
+Case 2: cτ = 0.
+For x ∈Xτ, we assume that
+|g(x, Weτ1)| ≥. . . ≥|g(x, WeτK )| ≥|g(x, WeτK+1)| ≥. . . ≥|g(x, Weτk∗)|.
+Now that cτ = 0, we have
+|g(x, WeτK )| −|g(x, WeτK+1)| = 0.
+As a consequence, we obtain that Xτ is a subset of
+S : {x ∈X : |g(x, WeτK )| = |g(x, WeτK+1)|}.
+Since S has measure zero, Xτ also inherits this property.
+Thus, we already proved that Xτ ⊆X τ if cτ > 0, and Xτ has measure zero otherwise.
+Next, let us consider X ∈Xτ, where τ ∈[P] such that {τ1, . . . , τK} = {1, . . . , K}, we can check that Hn :=
+h PK
+j=1 exp(|g(X, W ej)|)
+i
+· [pG(Y |X) −pG(Y |X)] can be decomposed as
+Hn =
+K
+X
+i=1
+exp(|g(X, Wei|))
+h
+f(Y |g(X, Wei), σi) −f(Y |g(X, W ei), σi)
+i
++
+K
+X
+i=1
+h
+exp(|g(X, Wei)|) −exp(|g(X, W ei)|)
+i
+·
+h
+f(Y |g(X, W ei), σi) −pG(Y |X)
+i
+.
+As Θ and X are bounded, we may assume that exp(|g(X, Wei|)) ≤B1 and |f(Y |g(X, W ei), σi) −pG(Y |X)| ≤B2 for
+some positive constants B1, B2. Thus, we obtain that
+|Hn| ≲
+K
+X
+i=1
+B1 ·
+h
+∥Wei −W ei∥+ |σi −σi|
+i
++
+K
+X
+i=1
+B2 · ∥Wei −W ei∥≲ε.
+Additionally, since
+h PK
+j=1 exp(|g(X, W ej)|)
+i
+· [pG(Y |X) −pG(Y |X)] ≥K, we also achieve that |pG(Y |X) −
+pG(Y |X)| ≲ε. Analogously, we can show that this inequality holds for X ∈Xτ for any τ ∈[P]. Since SP
+p=1 Xτ = X,
+we also deduce that the previous bound holds for any X ∈X. Consequently, it follows that ∥pG(X, Y ) −pG(Y |X)∥≲ε.
+This result indicates that Q is an ε-cover of the metric space (Pk∗(Θ), ∥· ∥1). Therefore, we get
+N(ε, Pk∗(Θ), ∥· ∥1) ≤|Θε| ≤O(ε−(q+1)k∗),
+or equivalently,
+log N(ε, Pk∗(Θ), ∥· ∥1) ≤|Θε| ≲log(1/ε).
+Part (b). Firstly, we will derive an upper bound for the Gaussian experts f(Y |g(X, We), σ). Since Θ is a compact set, we
+have |g(X, We)| ≤m1 and m2 ≤σ ≤m3 for any X ∈X and (We, σ) ∈Θ. Then, it follows that f(Y |g(X, We), σ) ≤
+B(X, Y ), where
+B(Y |X) =
+
+
+
+
+
+1
+√
+2πm2
+exp(−Y 2/(8m2
+3)),
+for |Y | ≥2m1
+1
+√
+2πm2
+,
+for |Y | < 2m1,
+for any X ∈X. Next, let η ≤ε be some positive constant that we choose later, then we denote {h1, . . . , hN} as
+an η-cover over Pk∗(Θ). Based on this cover, we build the following brackets Li(Y |X) := max{hi(Y |X) −η, 0} and
+17
+
+CompeteSMoE - Effective Training of Sparse Mixture of Experts via Competition
+Ui(Y |X) := max{hi(Y |X)+η, B(Y |X)}, for any i ∈[N]. We can validate that Pk∗(Y |X) ⊆SN
+i=1[Li(Y |X), Ui(Y |X)]
+and Ui(X, Y ) −Li(X, Y ) ≤min{2η, B(Y |X)}. Moreover, let M := max{2m1,
+√
+8m3} log(1/η), we have
+∥Ui −Li∥1 =
+Z
+[Ui(Y |X) −Li(Y |X)]d(X, Y )
+≤
+Z
+|Y |<2m1
+[Ui(Y |X) −Li(Y |X)]d(X, Y ) +
+Z
+|Y |≥2m1
+[Ui(Y |X) −Li(Y |X)]d(X, Y )
+≤Mη + exp(−M 2/(2m2
+3)) ≤cη,
+where c is some positive universal constant. The above result implies that
+HB(cη, Pk∗(Θ), ∥· ∥1) ≤log N(η, Pk∗(Θ), ∥· ∥1) ≲log(1/η).
+Then, we choose η = ε/c, we arrive at HB(ε, Pk∗(Θ), ∥· ∥1) ≲log(1/ε). Furthermore, as ℓ1-norm is upper bounded by
+the Hellinger distance h, we obtain that
+HB(ε, Pk∗(Θ), h) ≲log(1/ε).
+Hence, the proof is completed.
+B.2. Proof of Theorem 4.2
+First of all, we will demonstrate the Hellinger bound given in equation 10. Since the Hellinger distance is lower bounded by
+the Total Variation distance, i.e. h ≥V , it is sufficient to show that
+EX[V (pG(·|X), pG∗(·|X))] ≳D(G, G∗).
+For this purpose, we split the proof of this bound into two parts which we refer to as local part and global part.
+Local part: In this part, we will derive the following inequality:
+lim
+ε→0
+inf
+G∈Ek∗(Θ):D(G,G∗)≤ε EX[V (pG(·|X), pG∗(·|X))]/D(G, G∗) > 0.
+(13)
+Assume by contrary that this claim does not hold, then there exists a sequence of mixing measures Gn := Pk∗
+i=1 δ(W n
+ei,σn
+i ) ∈
+Ek∗(Θ) that satisfies two following limits: EX[V (pGn(·|X), pG∗(·|X))]/D(Gn, G∗) →0 and D(Gn, G∗) →0 when
+n →∞. Now, we consider Voronoi cells An
+j := Aj(Gn) defined as in equation 8. As we use asymptotic arguments in this
+proof, we may assume without loss of generality (WLOG) that the above Voronoi cells do not depend on the sample size n,
+that is, An
+j = Aj. Additionally, since each Vornoi cell has only one element, we can also assume that Aj = {j} for any
+j ∈[k∗]. This together with the fact that D(Gn, G∗) →0 indicates that (W n
+ej, σn
+j ) →(W ∗
+ej, σ∗
+j ) as n →∞for all j ∈[k∗].
+Subsequently, we assume WLOG that
+D(Gn, G∗) :=
+K
+X
+j=1
+h
+∥W n
+ej −W ∗
+ej∥+ |σn
+j −σ∗
+j |
+i
+.
+(14)
+Next, we will partition the covariate space X in order to specify the value of top-K sparse softmax gating function
+in the conditional density pG∗(Y |X). In particular, we consider P :=
+ k∗
+K
+
+different subsets of {1, 2, . . . , k∗}, each
+of which contains K elements. Moreover, we denote these subsets as {τ1, τ2, . . . , τK}, and let {τK+1, . . . , τk∗} :=
+[k∗] \ {τ1, τ2, . . . , τK} for any τ ∈[P]. Then, we divide the covariate space X into smaller regions as follows:
+X∗,τ := {x ∈X : |g(x, W ∗
+ei)| ≥|g(x, W ∗
+ej)|, ∀i ∈{τ1, . . . , τK}, j ∈{τK+1, . . . , τk∗}},
+Xn,τ := {x ∈X : |g(x, W n
+ei)| ≥|g(x, W n
+ej)|, ∀i ∈{τ1, . . . , τK}, j ∈{τK+1, . . . , τk∗}}.
+Now, we show that X∗,τ ⊆Xn,τ for sufficiently large n for any τ ∈[P]. Given some η > 0, since W n
+ej →W ∗
+ej for any
+j ∈[k∗], we have that ∥W n
+ej −W ∗
+ej∥≤Cη for sufficiently large n, where C > 0 will be chosen later. Moreover, as X is a
+bounded set, there exists some positive constant cτ such that
+min
+x∈Xτ , i∈{τ1,...,τK},
+j∈{τK+1,...,τk∗}
+[|g(x, W ∗
+ei)| −|g(x, W ∗
+ej)|] = cτη.
+18
+
+CompeteSMoE - Effective Training of Sparse Mixture of Experts via Competition
+By arguing similarly to Case 2 in part (a) of Appendix B.1.2, we get that if cτ = 0, then X∗,τ has measure zero. Therefore,
+we may assume that cτ > 0. Let x ∈X∗,τ and follow the same arguments used for Case 1 in part (a) of Appendix B.1.2, we
+obtain that
+|g(x, W n
+ei)| ≥|g(x, W n
+ej)| −2ACη + cτη,
+for sufficiently large n, i ∈{τ1, . . . , τK} and j ∈{τK+1, . . . , τk∗}, where A is an upper bound of the Lipschitz constant
+of expert function g(x, We). Then, by setting C = cτ
+2A, we achieve that |g(x, W n
+ei)| ≥|g(x, W n
+ej)| for sufficiently large
+n, i ∈{τ1, . . . , τK} and j ∈{τK+1, . . . , τk∗}. This result indicates that x ∈Xn,τ, and thus, X∗,τ ⊆Xn,τ for sufficiently
+large n.
+For (X, Y ) ∈X∗,τ × R where τ ∈[P] such that {τ1, . . . , τK} = {1, . . . , K}, two conditional densities pGn(Y |X) and
+pG∗(Y |X) are represented as
+pG∗(Y |X) =
+K
+X
+i=1
+exp(|g(X, W ∗
+ei)|)
+PK
+j=1 exp(|g(X, W ∗ej)|)
+· f(Y |g(X, W ∗
+ei), σ∗
+i ),
+pGn(Y |X) =
+K
+X
+i=1
+exp(|g(X, W n
+ei))|
+PK
+j=1 exp(|g(X, W n
+ej)|)
+· f(Y |g(X, W n
+ei), σn
+i ).
+Then, it can be verified that the quantity Zn :=
+h PK
+j=1 exp(|g(X, W ∗
+ej)|)
+i
+· [pGn(Y |X) −pG∗(Y |X)] can be decomposed
+as
+Zn =
+K
+X
+i=1
+h
+exp(|g(X, W n
+ei)|)f(Y |g(X, W n
+ei), σn
+i ) −exp(|g(X, W ∗
+ei)|)f(Y |g(X, W ∗
+ei), σ∗
+i )
+i
+−
+K
+X
+i=1
+h
+exp(|g(X, W n
+ei)|) −exp(|g(X, W ∗
+ei)|)]pGn(Y |X).
+Our upcoming arguments are separated into three steps as follows:
+Step 1: Taylor expansion. In this step, we apply the first-order Taylor expansions to the first and second terms in the
+decomposition of Zn as
+Zn =
+K
+X
+i=1
+(
+q
+X
+u=1
+(∆W n
+ei)(u)
+∂g
+∂W (u)
+e
+(X, W ∗
+ei) exp(|g(X, W ∗
+ei)|)
+h
+s∗
+g,i(X) · f(Y |g(X, W ∗
+ei), σ∗
+i )
++ ∂f
+∂g (Y |g(X, W ∗
+ei), σ∗
+i )
+i
++ 1
+2(∆σn
+i ) exp(|g(X, W ∗
+ei)|)∂2f
+∂g2 (Y |g(X, W ∗
+ei), σ∗
+i )
+)
++ R1(X, Y )
+−
+K
+X
+i=1
+q
+X
+u=1
+(∆W n
+ei)(u)
+∂g
+∂W (u)
+e
+(X, W ∗
+ei) exp(|g(X, W ∗
+ei)|)s∗
+g,i(X) · pGn(Y |X) + R2(X, Y ).
+Here, we denote ∆W n
+ei := W n
+ei −W ∗
+ei, ∆σn
+i := σn
+i −σ∗
+i and s∗
+g,i(X) := sign(g(X, W ∗
+ei)). Meanwhile, Rj(X, Y )
+is a Taylor remainder such that Rj(X, Y )/D(Gn, G∗) →0 as n →∞for j ∈{1, 2}. From the above equation,
+Zn −R1(X, Y ) −R2(X, Y ) can be seen as a linear combination of elements of the set F := SK
+i=1
+S3
+τ=0 Fτ,i where we
+define
+F0,i :=
+
+∂g
+∂W (u)
+e
+(X, W ∗
+ei) exp(|g(X, W ∗
+ei)|)s∗
+g,i(X) · f(Y |g(X, W ∗
+ei), σ∗
+i ) : 1 ≤u ≤q
+
+,
+F1,i :=
+
+∂g
+∂W (u)
+e
+(X, W ∗
+ei) exp(|g(X, W ∗
+ei)|)∂f
+∂g (Y |g(X, W ∗
+ei), σ∗
+i ) : 1 ≤u ≤q
+
+,
+F2,i :=
+
+exp(|g(X, W ∗
+ei)|)∂2f
+∂g2 (Y |g(X, W ∗
+ei), σ∗
+i )
+
+,
+F3,i :=
+
+∂g
+∂W (u)
+e
+(X, W ∗
+ei) exp(|g(X, W ∗
+ei)|)s∗
+g,i(X) · pGn(Y |X) : 1 ≤u ≤q
+
+.
+19
+
+CompeteSMoE - Effective Training of Sparse Mixture of Experts via Competition
+Step 2: Non-vanishing coefficients. Let E0,i(u), E1,i(u), E2,i and E3,i(u) be coefficients associated with those elements
+in the aforementioned linear combination. Then, we have E0,i(u) = E1,i(u) = −E3,i(u) = (∆W n
+ei)(u) and E2,i =
+(∆σn
+i )/2 for any i ∈[K] and u ∈[q]. We will show that at least one among E0,i(u)/D(Gn, G∗), E1,i(u)/D(Gn, G∗),
+E2,i/D(Gn, G∗) and E3,i(u)/D(Gn, G∗) does not approach zero when n goes to infinity. Assume by contrary that all of
+them vanish as n →∞. Thus, it follows that
+∥∆W n
+ei∥1
+D(Gn, G∗) =
+q
+X
+u=1
+|E0,i(u)|
+D(Gn, G∗) →0,
+|∆σn
+i |
+D(Gn, G∗) =
+2|E2,i|
+D(Gn, G∗) →0.
+Putting these limits and the formulation of D(Gn, G∗) in equation 14 together, we obtain that
+1 = D(Gn, G∗)
+D(Gn, G∗) =
+K
+X
+i=1
+∥∆W n
+ei∥1
+D(Gn, G∗) +
+K
+X
+i=1
+|∆σn
+i |
+D(Gn, G∗) →0,
+as n →∞, which is a contradiction.
+As a result, not all the ratios E0,i(u)/D(Gn, G∗), E1,i(u)/D(Gn, G∗),
+E2,i/D(Gn, G∗) and E3,i(u)/D(Gn, G∗) vanish when n goes to infinity.
+Step 3: Fatou’s arguments. By applying the Fatou’s lemma, we have
+0 = lim
+n→∞
+EX[V (pG(·|X), pG∗(·|X))]
+D(Gn, G∗)
+= 1
+2
+Z
+lim inf
+n→∞
+|pGn(Y |X) −pG∗(Y |X)|
+D(Gn, G∗)
+dXdY,
+which implies that [pGn(Y |X) −pG∗(Y |X)]/D(Gn, G∗) →0 as n →∞for almost surely (X, Y ). As a result, this limit
+also holds for almost surely (X, Y ) ∈X∗,τ × R where τ ∈[P] such that {τ1, p2, . . . , τK} := {1, 2, . . . , K}. Let us denote
+by mn the maximum of the absolute values of these four ratios. Since at least one among them does not tend to zero as
+n →∞, we have 1/mn̸ →∞. Additionally, we denote
+(∆W n
+ei)(u)
+mnD(Gn, G∗) →αi(u),
+(∆σn
+i )/2
+mnD(Gn, G∗) →βi,
+as n →∞for any i ∈[K] and u ∈[q] with a note that at least one among αu,i, βi is non-zero. Then, it follows from the
+fact [pGn(Y |X) −pG∗(Y |X)]/D(Gn, G∗) →as n →∞that
+0 = lim
+n→∞
+h PK
+j=1 exp(|g(X, W ∗
+ej)|)
+i
+·
+h
+pGn(Y |X) −pG∗(Y |X)
+i
+mnD(Gn, G∗)
+= lim
+n→∞
+Zn
+mnD(Gn, G∗)
+=
+K
+X
+i=1
+h
+2
+X
+τ=0
+Tτ,i(X)s∗
+g,i(X) · ∂τf
+∂gτ (Y |g(X, W ∗
+ei), σ∗
+i ) + T3,i(X)s∗
+g,i(X) · pG∗(Y |X)
+i
+,
+(15)
+for almost surely (X, Y ) ∈X∗,τ × R, where we define
+T0,i(X) = T1,i(X) = −T3,i(X) :=
+q
+X
+u=1
+αu,i
+∂g
+∂W (u)
+e
+(X, W ∗
+ei) exp(|g(X, W ∗
+ei)|),
+T2,i(X) := βi exp(|g(X, W ∗
+ei)|).
+Note that for almost surely X ∈X∗,τ, the set
+
+s∗
+g,i(X) · ∂τf
+∂gτ (Y |g(X, W ∗
+ei), s∗
+g,i(X) · pG∗(Y |X) : 0 ≤τ ≤2
+
+20
+
+CompeteSMoE - Effective Training of Sparse Mixture of Experts via Competition
+is linearly independent w.r.t Y . Thus, the result in equation 15 implies that Tτ,i(X) = 0 for almost surely X ∈X∗,τ for
+0 ≤τ ≤3 and i ∈[K]. In other words, we obtain for any i ∈[K] that βi = 0 and
+q
+X
+u=1
+αu,i
+∂g
+∂W (u)
+e
+(X, W ∗
+ei) = 0,
+for almost surely X ∈X∗,τ. Due to the assumption on the expert function g, the above equation leads to αu,i = 0 for
+any i ∈[K] and u ∈[q]. This contradicts the fact that not all the terms αu,i, βi are equal to zero. Hence, we reach the
+conclusion in equation 13.
+Consequently, there exists some positive constant ε′ > 0 that satisfies
+inf
+G∈Ek∗(Θ):D(G,G∗)≤ε′ EX[V (pG(·|X), pG∗(·|X))]/D(G, G∗) > 0
+Global part. Given the above result, it is sufficient to point out that
+inf
+G∈Ek∗(Θ):D(G,G∗)>ε′ EX[V (pG(·|X), pG∗(·|X))]/D(G, G∗) > 0.
+(16)
+Assume that this claim does not hold true, then we can find a sequence eGn ∈Ek∗(Θ) such that D( eGn, G∗) > ε′ and
+EX[V (p e
+Gn(·|X), pG∗(·|X))] →0 as n →∞. Since Θ is a compact set, we are able to replace eGn with its subsequence
+which converges to some mixing measure eG ∈Ek∗(Θ). Recall that D( eGn, G∗) > ε′, then we also get that D( eG, G∗) > ε′.
+On the other hand, by means of the Fatou’s lemma, we have
+0 = lim
+n→∞EX[2V (p e
+Gn(·|X), pG∗(·|X))] ≥
+Z
+lim inf
+n→∞|p e
+Gn(Y |X) −pG∗(Y |X)|dXdY,
+which follows that p e
+G(Y |X) −pG∗(Y |X) = 0 for almost surely (X, Y ). Thus, we achieve that eG ≡G∗, or equivalently
+D( eG, G∗) = 0. This contradicts to the fact that D( eG, G∗) > ε′ > 0.
+Hence, we reach the conclusion in equation 16, and the proof is completed.
+C. Additional implementation details
+This section provides the details parameters of our experiments in Section 6.
+C.1. General Setting
+The experiments are developed based on the publicly available Sandwich Transformers (Press et al., 2020) implementation1.
+However, the pre-training models were conducted on a single A100 GPU. Please note that parallel training on multiple
+GPUs might yield different results.
+C.2. Pre-training Experiments
+Tab. 7 provides the detail configurations for pre-training our Switch Transformer (Fedus et al., 2022) and GLaM (Du et al.,
+2022) with two versions (small & medium) on Enwik8, Text8 and WikiText-103.
+Dataset
+Input length Batch size Optimizer
+Lr
+# Iterations (Small / Medium)
+Enwik8
+512
+48
+Adam
+7.0e-4
+60k / 80k
+Text
+512
+48
+Adam
+7.0e-4
+60k / 80k
+WikiText-103
+512
+48
+Adam
+7.0e-4
+60k / 80k
+Table 7. Detail configurations for pre-training experiments on Enwik8, Text8 and WikiText-103 datasets.
+1https://github.com/ofirpress/sandwich_transformer
+21
+
+CompeteSMoE - Effective Training of Sparse Mixture of Experts via Competition
+C.3. Finetuning Experiments
+For finetuning experiments, we use the same model architecture as in pre-training. Tab. 8 shows the detail configurations
+used for finetuning experiments on SST-2, SST-5, IMDB, and BANKING77 datasets.
+Dataset
+Input length
+Batch size
+Optimizer
+Lr
+# Epochs
+SST-2
+512
+16
+Adam
+1e-4
+5
+SST-5
+512
+16
+Adam
+1e-4
+5
+IMDB
+512
+4
+Adam
+1e-4
+5
+BANKING77
+512
+16
+Adam
+1e-4
+50
+Table 8. Detail configurations for finetuning experiments on four different datasets.
+C.4. Significant Results
+We investigate the significant of our pre-training experiments in Section 6.2. We consider the tiny transformer configuration
+and repeat the training process five times using SMoE and CompeteSMoE. Table 9 reports the result of each run, the average
+and standard devation values. We can see that CompeteSMoE achieves better results than SMoE in all runs, resulting
+better average and also smaller standard deviations. The two-sided t-test returns the p−value at 0.016, suggesting the
+improvements of CompeteSMoE is significant.
+Furthermore, we also note that the training overhead of CompeteSMoE is also quite marginal, only at around 10% longer
+training time. Overall, the experimental results show that CompeteSMoE provides better pre-training and transfer learning
+capabilities with low training overheads.
+Enwik8 (BPC)
+CompeteSMoE
+SMoE
+1st
+1.303
+1.333
+2nd
+1.303
+1.322
+3rd
+1.307
+1.315
+4th
+1.315
+1.320
+5th
+1.304
+1.310
+Average
+1.306
+1.320
+± 0.005
+± 0.009
+Training epoch time(h)
+0.13
+0.11
+Table 9. BPC of multiple runs on the enwik8 test set using the tiny configuration.
+C.5. Routing Visualization
+This experiment investigate the quality of routers learned from various training algorithm. To this end, we consider reporting
+the entropy from the router’s softmax output. Routers with high entropy produce close to uniform policies, indicating a
+less-confident assignment. In contrast, low entropy routers are more confident in assigning experts to tokens. Although
+entropy alone cannot determine the router quality, when combined with the evaluation outcome, one can gauge the learned
+routers quality. Particularly, if a router has low entropy and achieve better evaluation results, one can expect that the learned
+routing policy has high quality.
+Table 10 reports the entropy of each router in a small model on the enwik8 test set. We can see that CompeteSMoE achieved
+lower entropy in four out of six routers, and lower average entropy. Together with the better performance, we can conclude
+that the routers learned by CompeteSMoE have higher quality (better token-expert assignment) than other baselines.
+We further visualize the softmax output of the routers from one randomly chosen sample in Figure 4. In most cases, we can
+observe the distributional outputs are much sharper in CompeteSMoE (lower entropy) than other baselines.
+22
+
+CompeteSMoE - Effective Training of Sparse Mixture of Experts via Competition
+(a) CompeteSMoE
+(b) SMoE
+Figure 4. Visualization of the distribution for the output of routers.
+23
+
+CompeteSMoE - Effective Training of Sparse Mixture of Experts via Competition
+Method
+Router 1
+Router 2
+Router 3
+Router 4
+Router 5
+Router 6
+Average
+CompeteSMoE
+0.3441
+0.4015
+0.5946
+0.6810
+0.6081
+1.3636
+0.6655
+± 0.29
+± 0.37
+± 0.39
+± 0.38
+± 0.37
+± 0.35
+± 0.36
+SMoE
+0.1158
+0.6411
+0.4247
+0.8331
+0.9701
+1.3681
+0.7255
+± 0.23
+± 0.48
+± 0.35
+± 0.48
+± 0.48
+± 0.42
+± 0.41
+SMoE-Fixed
+2.2473
+2.5103
+2.2579
+2.3565
+2.3181
+2.3947
+2.3942
+± 0.34
+± 0.13
+± 0.13
+± 0.26
+± 0.23
+± 0.22
+± 0.22
+XMoE
+0.7618
+0.6792
+1.1808
+0.9822
+0.8439
+1.4097
+0.9763
+± 0.47
+± 0.42
+± 0.38
+± 0.45
+± 0.42
+± 0.40
+± 0.43
+StableMoE
+0.7657
+1.2659
+1.1378
+1.2000
+1.4161
+1.8161
+1.2669
+± 0.71
+± 0.58
+± 0.56
+± 0.51
+± 0.48
+± 0.41
+± 0.54
+Table 10. Average entropy of the router distribution on the enwik8 dataset. Lower is better.
+24
+
+CompeteSMoE - Effective Training of Sparse Mixture of Experts via Competition
+(c) SMoE-Fixed
+(d) XMoE
+Figure 4. Visualization of the distribution for the output of routers.
+25
+
+CompeteSMoE - Effective Training of Sparse Mixture of Experts via Competition
+(e) StableMoE
+Figure 4. Visualization of the distribution for the output of routers.
+26

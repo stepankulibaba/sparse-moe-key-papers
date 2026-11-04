@@ -1,0 +1,263 @@
+
+Achiam, J.; Adler, S.; Agarwal, S.; Ahmad, L.; Akkaya, I.;
+Aleman, F. L.; Almeida, D.; Altenschmidt, J.; Altman, S.;
+Anadkat, S.; et al. 2023.
+Gpt-4 technical report.
+arXiv
+preprint arXiv:2303.08774.
+Ainslie, J.; Ontanon, S.; Alberti, C.; Cvicek, V.; Fisher, Z.;
+Pham, P.; Ravula, A.; Sanghai, S.; Wang, Q.; and Yang, L.
+2020. ETC: Encoding Long and Structured Inputs in Trans-
+formers. In Webber, B.; Cohn, T.; He, Y.; and Liu, Y., eds.,
+Proceedings of the 2020 Conference on Empirical Methods
+in Natural Language Processing (EMNLP), 268–284. On-
+line: Association for Computational Linguistics.
+Austin, J.; Johnson, D. D.; Ho, J.; Tarlow, D.; and Van
+Den Berg, R. 2021.
+Structured denoising diffusion mod-
+els in discrete state-spaces. Advances in Neural Information
+Processing Systems, 34: 17981–17993.
+Beltagy, I.; Peters, M. E.; and Cohan, A. 2020.
+Long-
+former: The long-document transformer.
+arXiv preprint
+arXiv:2004.05150.
+Bolliger, L.; Reich, D.; Haller, P.; Jakobi, D.; Prasse, P.; and
+J¨ager, L. 2023. ScanDL: A Diffusion Model for Generating
+Synthetic Scanpaths on Texts. In Bouamor, H.; Pino, J.; and
+Bali, K., eds., Proceedings of the 2023 Conference on Em-
+pirical Methods in Natural Language Processing, 15513–
+15538. Singapore: Association for Computational Linguis-
+tics.
+Cai, K.; Zhang, J.; Fan, Y.; Yang, J.; and Wang, K.
+2025. RaCoT: Plug-and-Play Contrastive Example Gener-
+ation Mechanism for Enhanced LLM Reasoning Reliability.
+arXiv:2510.22710.
+Chen, J.; Zhang, A.; Li, M.; Smola, A.; and Yang, D. 2023.
+A Cheaper and Better Diffusion Language Model with Soft-
+Masked Noise. In Bouamor, H.; Pino, J.; and Bali, K., eds.,
+Proceedings of the 2023 Conference on Empirical Methods
+in Natural Language Processing, 4765–4775. Singapore:
+Association for Computational Linguistics.
+Cohan, A.; Dernoncourt, F.; Kim, D. S.; Bui, T.; Kim, S.;
+Chang, W.; and Goharian, N. 2018. A Discourse-Aware At-
+tention Model for Abstractive Summarization of Long Doc-
+uments.
+In Walker, M.; Ji, H.; and Stent, A., eds., Pro-
+ceedings of the 2018 Conference of the North American
+Chapter of the Association for Computational Linguistics:
+Human Language Technologies, Volume 2 (Short Papers),
+615–621. New Orleans, Louisiana: Association for Compu-
+tational Linguistics.
+Du, N.; Huang, Y.; Dai, A. M.; Tong, S.; Lepikhin, D.; Xu,
+Y.; Krikun, M.; Zhou, Y.; Yu, A. W.; Firat, O.; et al. 2022.
+Glam: Efficient scaling of language models with mixture-of-
+experts. In International Conference on Machine Learning,
+5547–5569. PMLR.
+Fan, Y.; Zhang, J.; Cai, K.; Yang, J.; Tang, C.; Wang,
+J.; and Wang, K. 2025a.
+Cost-Effective Communication:
+An Auction-based Method for Language Agent Interaction.
+arXiv:2511.13193.
+Fan, Y.; Zhang, J.; Cai, K.; Yang, J.; Wang, J.; and Wang,
+K. 2025b. 3DAlign-DAER: Dynamic Attention Policy and
+Efficient Retrieval Strategy for Fine-grained 3D-Text Align-
+ment at Scale. arXiv:2511.13211.
+Fan, Y.; Zhang, J.; Cai, K.; Yang, J.; and Wang, K. 2025c.
+CCG: Rare-Label Prediction via Neural SEM–Driven
+Causal Game. In Christodoulopoulos, C.; Chakraborty, T.;
+Rose, C.; and Peng, V., eds., Findings of the Association
+for Computational Linguistics: EMNLP 2025, 6243–6256.
+Suzhou, China: Association for Computational Linguistics.
+ISBN 979-8-89176-335-7.
+Fedus, W.; Zoph, B.; and Shazeer, N. 2022. Switch trans-
+formers: Scaling to trillion parameter models with simple
+and efficient sparsity.
+Journal of Machine Learning Re-
+search, 23(120): 1–39.
+Gao, Z.-F.; Liu, P.; Zhao, W. X.; Lu, Z.-Y.; and Wen,
+J.-R. 2022.
+Parameter-efficient mixture-of-experts archi-
+tecture for pre-trained language models.
+arXiv preprint
+arXiv:2203.01104.
+Gong, S.; Li, M.; Feng, J.; Wu, Z.; and Kong, L. 2023.
+Diffuseq-v2: Bridging discrete and continuous text spaces
+for accelerated seq2seq diffusion models.
+arXiv preprint
+arXiv:2310.05793.
+Hoogeboom, E.; Gritsenko, A. A.; Bastings, J.; Poole, B.;
+Berg, R. v. d.; and Salimans, T. 2021. Autoregressive diffu-
+sion models. arXiv preprint arXiv:2110.02037.
+Lepikhin, D.; Lee, H.; Xu, Y.; Chen, D.; Firat, O.; Huang,
+Y.; Krikun, M.; Shazeer, N.; and Chen, Z. 2020. Gshard:
+
+Scaling giant models with conditional computation and au-
+tomatic sharding. arXiv preprint arXiv:2006.16668.
+Li, M.; Zhang, Z.; Lu, M.; Jia, X.; Liu, R.; Zhou, X.; and
+Zhang, Y. 2023a. Internet financial credit risk assessment
+with sliding window and attention mechanism lstm model.
+Tehniˇcki vjesnik, 30(1): 1–7.
+Li, T.; Zhang, G.; Do, Q. D.; Yue, X.; and Chen, W. 2024.
+Long-context llms struggle with long in-context learning.
+arXiv preprint arXiv:2404.02060.
+Li, X.; Zhang, J.; and Safara, F. 2021. Improving the Accu-
+racy of Diabetes Diagnosis Applications through a Hybrid
+Feature Selection Algorithm. Neural Process. Lett., 55(1):
+153–169.
+Li, Y.; Chen, J.; Ma, J.; Wang, X.; and Zhang, W. 2023b.
+Gaze Estimation Based on Convolutional Structure and Slid-
+ing Window-Based Attention Mechanism. Sensors, 23(13):
+6226.
+Lin, C.-Y. 2004. Rouge: A package for automatic evaluation
+of summaries. In Text summarization branches out, 74–81.
+Lin, W.; Zhang, J.; Cai, K.; and Wang, K. 2025. STORM:
+Search-Guided Generative World Models for Robotic Ma-
+nipulation. arXiv:2512.18477.
+Lu, C.; Zhou, Y.; Bao, F.; Chen, J.; Li, C.; and Zhu, J. 2022.
+Dpm-solver++: Fast solver for guided sampling of diffusion
+probabilistic models. arXiv preprint arXiv:2211.01095.
+Papineni, K.; Roukos, S.; Ward, T.; and Zhu, W.-J. 2002.
+Bleu: a method for automatic evaluation of machine trans-
+lation.
+In Proceedings of the 40th annual meeting of the
+Association for Computational Linguistics, 311–318.
+Rajbhandari, S.; Li, C.; Yao, Z.; Zhang, M.; Aminabadi,
+R. Y.; Awan, A. A.; Rasley, J.; and He, Y. 2022. Deepspeed-
+moe: Advancing mixture-of-experts inference and training
+to power next-generation ai scale. In International confer-
+ence on machine learning, 18332–18346. PMLR.
+Singh, M.; Cambronero, J.; Gulwani, S.; Le, V.; Negreanu,
+C.; and Verbruggen, G. 2023. CodeFusion: A Pre-trained
+Diffusion Model for Code Generation.
+In Bouamor, H.;
+Pino, J.; and Bali, K., eds., Proceedings of the 2023 Con-
+ference on Empirical Methods in Natural Language Pro-
+cessing, 11697–11708. Singapore: Association for Compu-
+tational Linguistics.
+Vaswani, A.; Shazeer, N.; Parmar, N.; Uszkoreit, J.; Jones,
+L.; Gomez, A. N.; Kaiser, Ł.; and Polosukhin, I. 2017. At-
+tention is all you need. Advances in neural information pro-
+cessing systems, 30.
+Wang, Z.; Hamza, W.; and Florian, R. 2017. Bilateral multi-
+perspective matching for natural language sentences. arXiv
+preprint arXiv:1702.03814.
+Yang, Z.; Qi, P.; Zhang, S.; Bengio, Y.; Cohen, W.; Salakhut-
+dinov, R.; and Manning, C. D. 2018. HotpotQA: A Dataset
+for Diverse, Explainable Multi-hop Question Answering. In
+Riloff, E.; Chiang, D.; Hockenmaier, J.; and Tsujii, J., eds.,
+Proceedings of the 2018 Conference on Empirical Methods
+in Natural Language Processing, 2369–2380. Brussels, Bel-
+gium: Association for Computational Linguistics.
+Yao, J.; Zhang, J.; Pan, X.; Wu, T.; and Xiao, C.
+2024.
+DepthSSC: Monocular 3D Semantic Scene Com-
+pletion via Depth-Spatial Alignment and Voxel Adaptation.
+arXiv:2311.17084.
+Yuasa, R.; Tamura, A.; Kajiwara, T.; Ninomiya, T.; and
+Kato, T. 2023.
+Multimodal Neural Machine Translation
+Using Synthetic Images Transformed by Latent Diffusion
+Model. In Padmakumar, V.; Vallejo, G.; and Fu, Y., eds.,
+Proceedings of the 61st Annual Meeting of the Association
+for Computational Linguistics (Volume 4: Student Research
+Workshop), 76–82. Toronto, Canada: Association for Com-
+putational Linguistics.
+Zaheer, M.; Guruganesh, G.; Dubey, K. A.; Ainslie, J.; Al-
+berti, C.; Ontanon, S.; Pham, P.; Ravula, A.; Wang, Q.;
+Yang, L.; et al. 2020.
+Big bird: Transformers for longer
+sequences. Advances in neural information processing sys-
+tems, 33: 17283–17297.
+Zhang, J.; Cai, K.; Fan, Y.; Liu, N.; and Wang, K. 2025a.
+MAT-Agent: Adaptive Multi-Agent Training Optimization.
+In The Thirty-ninth Annual Conference on Neural Informa-
+tion Processing Systems.
+Zhang, J.; Cai, K.; Fan, Y.; Wang, J.; and Wang, K.
+2025b.
+CF-VLM:CounterFactual Vision-Language Fine-
+tuning. arXiv:2506.17267.
+Zhang, J.; Cai, K.; Guo, X.; Liu, S.; Lv, Q.; Chen, R.;
+Yang, J.; Fan, Y.; Sun, X.; Wang, J.; Chen, Z.; Lin, L.; and
+Wang, K. 2025c. MM-CoT:A Benchmark for Probing Vi-
+sual Chain-of-Thought Reasoning in Multimodal Models.
+arXiv:2512.08228.
+Zhang, J.; Cai, K.; Yang, J.; Wang, J.; Tang, C.; and Wang,
+K. 2025d. Top-Down Semantic Refinement for Image Cap-
+tioning. arXiv:2510.22391.
+Zhang, J.; Cai, K.; Yang, J.; and Wang, K. 2025e. Learning
+Dynamics of VLM Finetuning. arXiv:2510.11978.
+Zhang, J.; Cai, K.; Zeng, Q.; Liu, N.; Fan, S.; Chen, Z.;
+and Wang, K. 2025f. Failure-Driven Workflow Refinement.
+arXiv:2510.10035.
+Zhang, J.; Fan, Y.; Cai, K.; Huang, Z.; Sun, X.; Wang, J.;
+Tang, C.; and Wang, K. 2025g.
+DrDiff: Dynamic Rout-
+ing Diffusion with Hierarchical Attention for Breaking the
+Efficiency-Quality Trade-off. arXiv:2509.02785.
+Zhang, J.; Fan, Y.; Cai, K.; Sun, X.; and Wang, K.
+2025h.
+OSC: Cognitive Orchestration through Dynamic
+Knowledge Alignment in Multi-Agent LLM Collaboration.
+arXiv:2509.04876.
+Zhang, J.; Fan, Y.; Cai, K.; and Wang, K. 2025i.
+Kolmogorov-Arnold Fourier Networks. arXiv:2502.06018.
+Zhang, J.; Fan, Y.; Lin, W.; Chen, R.; Jiang, H.; Chai,
+W.; Wang, J.; and Wang, K. 2025j. GAM-Agent: Game-
+Theoretic and Uncertainty-Aware Collaboration for Com-
+plex Visual Reasoning.
+In The Thirty-ninth Annual Con-
+ference on Neural Information Processing Systems.
+Zhang, J.; Fan, Y.; Wen, Z.; Wang, J.; and Wang, K. 2025k.
+Tri-MARF: A Tri-Modal Multi-Agent Responsive Frame-
+work for Comprehensive 3D Object Annotation.
+In The
+Thirty-ninth Annual Conference on Neural Information Pro-
+cessing Systems.
+
+Zhang, J.; Guo, X.; Cai, K.; Lv, Q.; Fan, Y.; Chai, W.;
+Wang, J.; and Wang, K. 2025l.
+HybridToken-VLM:
+Hybrid Token Compression for Vision-Language Models.
+arXiv:2512.08240.
+Zhang, J.; Huang, Z.; Fan, Y.; Liu, N.; Li, M.; Yang, Z.; Yao,
+J.; Wang, J.; and Wang, K. 2025m.
+KABB: Knowledge-
+Aware Bayesian Bandits for Dynamic Expert Coordination
+in Multi-Agent Systems. In Forty-second International Con-
+ference on Machine Learning.
+Zhang, J.; Liu, N.; Fan, Y.; Huang, Z.; Zeng, Q.; Cai, K.;
+Wang, J.; and Wang, K. 2025n. LLM-CAS: Dynamic Neu-
+ron Perturbation for Real-Time Hallucination Correction.
+arXiv:2512.18623.
+Zhang, T.; Kishore, V.; Wu, F.; Weinberger, K. Q.; and Artzi,
+Y. 2019.
+Bertscore: Evaluating text generation with bert.
+arXiv preprint arXiv:1904.09675.
+Zhou, P.; Gopalakrishnan, K.; Hedayatnia, B.; Kim, S.;
+Pujara, J.; Ren, X.; Liu, Y.; and Hakkani-Tur, D. 2021.
+Commonsense-Focused Dialogues for Response Genera-
+tion: An Empirical Study.
+In Li, H.; Levow, G.-A.; Yu,
+Z.; Gupta, C.; Sisman, B.; Cai, S.; Vandyke, D.; Dethlefs,
+N.; Wu, Y.; and Li, J. J., eds., Proceedings of the 22nd An-
+nual Meeting of the Special Interest Group on Discourse and
+Dialogue, 121–132. Singapore and Online: Association for
+Computational Linguistics.
+Zhou, Y.; Lei, T.; Liu, H.; Du, N.; Huang, Y.; Zhao, V.; Dai,
+A. M.; Le, Q. V.; Laudon, J.; et al. 2022. Mixture-of-experts
+with expert choice routing. Advances in Neural Information
+Processing Systems, 35: 7103–7114.
+Zhu, F.; Zhang, L.; Gao, J.; Qin, B.; Xu, R.; and Yang,
+H. 2023a. A Diffusion Model for Event Skeleton Genera-
+tion. In Rogers, A.; Boyd-Graber, J.; and Okazaki, N., eds.,
+Findings of the Association for Computational Linguistics:
+ACL 2023, 12630–12641. Toronto, Canada: Association for
+Computational Linguistics.
+Zhu, Y.; Gao, Z.; Zhou, X.; Zhongyi, Y.; and Xu, L. 2023b.
+DiffS2UT: A Semantic Preserving Diffusion Model for
+Textless Direct Speech-to-Speech Translation. In Bouamor,
+H.; Pino, J.; and Bali, K., eds., Proceedings of the 2023 Con-
+ference on Empirical Methods in Natural Language Pro-
+cessing, 11573–11583. Singapore: Association for Compu-
+tational Linguistics.

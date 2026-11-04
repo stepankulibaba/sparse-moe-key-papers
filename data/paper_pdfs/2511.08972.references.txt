@@ -1,0 +1,876 @@
+
+Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J. D.,
+Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G.,
+Askell, A., Agarwal, S., Herbert-Voss, A., Krueger, G.,
+Henighan, T., Child, R., Ramesh, A., Ziegler, D., Wu, J.,
+Winter, C., Hesse, C., Chen, M., Sigler, E., Litwin, M.,
+Gray, S., Chess, B., Clark, J., Berner, C., McCandlish, S.,
+Radford, A., Sutskever, I., and Amodei, D. Language
+models are few-shot learners.
+In Larochelle, H.,
+Ranzato, M., Hadsell, R., Balcan, M., and Lin, H. (eds.),
+Advances in Neural Information Processing Systems,
+volume 33, pp. 1877–1901. Curran Associates, Inc.,
+2020.
+URL https://proceedings.neurips.
+cc/paper_files/paper/2020/file/
+1457c0d6bfcb4967418bfb8ac142f64a-Paper.
+pdf.
+Cai, W., Jiang, J., Wang, F., Tang, J., Kim, S., and Huang,
+J.
+A survey on mixture of experts.
+arXiv preprint
+arXiv:2407.06204, 2024.
+Chi, Z., Dong, L., Huang, S., Dai, D., Ma, S., Patra, B.,
+Singhal, S., Bajaj, P., Song, X., Mao, X.-L., et al. On
+the representation collapse of sparse mixture of experts.
+Advances in Neural Information Processing Systems, 35:
+34600–34613, 2022.
+Clark, A., de Las Casas, D., Guy, A., Mensch, A., Paganini,
+M., Hoffmann, J., Damoc, B., Hechtman, B., Cai, T.,
+Borgeaud, S., et al. Unified scaling laws for routed lan-
+guage models. In International conference on machine
+learning, pp. 4057–4086. PMLR, 2022.
+Cuturi, M.
+Sinkhorn distances:
+Lightspeed compu-
+tation of optimal transport.
+In Burges, C., Bottou,
+L., Welling, M., Ghahramani, Z., and Weinberger,
+K. (eds.), Advances in Neural Information Process-
+ing Systems, volume 26. Curran Associates, Inc.,
+2013.
+URL https://proceedings.neurips.
+cc/paper_files/paper/2013/file/
+af21d0c97db2e27e13572cbf59eb343d-Paper.
+pdf.
+Deng, J., Dong, W., Socher, R., Li, L.-J., Li, K., and
+Fei-Fei, L. Imagenet: A large-scale hierarchical image
+database. In 2009 IEEE Conference on Computer Vi-
+sion and Pattern Recognition, pp. 248–255, 2009. doi:
+10.1109/CVPR.2009.5206848.
+Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn,
+D., Zhai, X., Unterthiner, T., Dehghani, M., Minderer,
+M., Heigold, G., Gelly, S., Uszkoreit, J., and Houlsby, N.
+An image is worth 16x16 words: Transformers for image
+recognition at scale. CoRR, abs/2010.11929, 2020. URL
+https://arxiv.org/abs/2010.11929.
+Du, N., Huang, Y., Dai, A. M., Tong, S., Lepikhin, D., Xu,
+Y., Krikun, M., Zhou, Y., Yu, A. W., Firat, O., et al. Glam:
+Efficient scaling of language models with mixture-of-
+experts. In International Conference on Machine Learn-
+ing, pp. 5547–5569. PMLR, 2022.
+Fedus, W., Zoph, B., and Shazeer, N. Switch transformers:
+Scaling to trillion parameter models with simple and ef-
+ficient sparsity. Journal of Machine Learning Research,
+23(120):1–39, 2022.
+Hendrycks, D., Basart, S., Mu, N., Kadavath, S., Wang, F.,
+Dorundo, E., Desai, R., Zhu, T., Parajuli, S., Guo, M.,
+et al. The many faces of robustness: A critical analysis of
+out-of-distribution generalization. In Proceedings of the
+IEEE/CVF international conference on computer vision,
+pp. 8340–8349, 2021a.
+Hendrycks, D., Zhao, K., Basart, S., Steinhardt, J., and Song,
+D. Natural adversarial examples. In Proceedings of the
+IEEE/CVF conference on computer vision and pattern
+recognition, pp. 15262–15271, 2021b.
+Kool, W., Maddison, C. J., and Mnih, A. Unbiased gradient
+estimation with balanced assignments for mixtures of
+experts. arXiv preprint arXiv:2109.11817, 2021.
+Langley, P. Crafting papers on machine learning. In Langley,
+P. (ed.), Proceedings of the 17th International Conference
+on Machine Learning (ICML 2000), pp. 1207–1216, Stan-
+ford, CA, 2000. Morgan Kaufmann.
+Lepikhin, D., Lee, H., Xu, Y., Chen, D., Firat, O., Huang, Y.,
+Krikun, M., Shazeer, N., and Chen, Z. Gshard: Scaling
+giant models with conditional computation and automatic
+sharding. arXiv preprint arXiv:2006.16668, 2020.
+Lin, B., Tang, Z., Ye, Y., Cui, J., Zhu, B., Jin, P.,
+Zhang, J., Ning, M., and Yuan, L.
+Moe-llava: Mix-
+ture of experts for large vision-language models. CoRR,
+abs/2401.15947, 2024. URL https://doi.org/10.
+48550/arXiv.2401.15947.
+Liu, T., Puigcerver, J., and Blondel, M. Sparsity-constrained
+optimal transport.
+arXiv preprint arXiv:2209.15466,
+2022.
+Liu, T., Blondel, M., Riquelme, C., and Puigcerver, J.
+Routers in vision mixture of experts: An empirical study.
+arXiv preprint arXiv:2401.15969, 2024.
+7
+
+Selective Sinkhorn Routing for Improved Sparse Mixture of Experts
+Liu, Z., Lin, Y., Cao, Y., Hu, H., Wei, Y., Zhang, Z., Lin,
+S., and Guo, B. Swin transformer: Hierarchical vision
+transformer using shifted windows. In Proceedings of the
+IEEE/CVF International Conference on Computer Vision
+(ICCV), 2021.
+Mahoney, M. Large text compression benchmark, 2011.
+Merity, S., Xiong, C., Bradbury, J., and Socher, R. Pointer
+sentinel mixture models. In International Conference
+on Learning Representations, 2017. URL https://
+openreview.net/forum?id=Byj72udxe.
+Morris, J., Lifland, E., Yoo, J. Y., Grigsby, J., Jin, D.,
+and Qi, Y.
+TextAttack: A framework for adversar-
+ial attacks, data augmentation, and adversarial training
+in NLP.
+In Liu, Q. and Schlangen, D. (eds.), Pro-
+ceedings of the 2020 Conference on Empirical Methods
+in Natural Language Processing: System Demonstra-
+tions, pp. 119–126, Online, October 2020. Association
+for Computational Linguistics. doi: 10.18653/v1/2020.
+emnlp-demos.16. URL https://aclanthology.
+org/2020.emnlp-demos.16/.
+Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang,
+S., Matena, M., Zhou, Y., Li, W., and Liu, P. J. Ex-
+ploring the limits of transfer learning with a unified
+text-to-text transformer. Journal of Machine Learning
+Research, 21(140):1–67, 2020. URL http://jmlr.
+org/papers/v21/20-074.html.
+Rasheed, H., Maaz, M., Shaji, S., Shaker, A., Khan, S.,
+Cholakkal, H., Anwer, R. M., Xing, E., Yang, M.-H., and
+Khan, F. S. Glamm: Pixel grounding large multimodal
+model. In Proceedings of the IEEE/CVF Conference on
+Computer Vision and Pattern Recognition (CVPR), pp.
+13009–13018, June 2024.
+Riquelme, C., Puigcerver, J., Mustafa, B., Neumann, M., Je-
+natton, R., Pinto, A. S., Keysers, D., and Houlsby, N. Scal-
+ing vision with sparse mixture of experts. In Proceedings
+of the 35th International Conference on Neural Informa-
+tion Processing Systems, NIPS ’21, Red Hook, NY, USA,
+2021. Curran Associates Inc. ISBN 9781713845393.
+Shazeer, N., Mirhoseini, A., Maziarz, K., Davis, A., Le,
+Q., Hinton, G., and Dean, J. Outrageously large neural
+networks: The sparsely-gated mixture-of-experts layer.
+arXiv preprint arXiv:1701.06538, 2017.
+Teo, R. and Nguyen, T. M. MomentumSMoe: Integrating
+momentum into sparse mixture of experts. In The Thirty-
+eighth Annual Conference on Neural Information Pro-
+cessing Systems, 2024. URL https://openreview.
+net/forum?id=y929esCZNJ.
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones,
+L., Gomez, A. N., Kaiser, L. u., and Polosukhin, I.
+Attention is all you need. In Guyon, I., Luxburg, U. V.,
+Bengio, S., Wallach, H., Fergus, R., Vishwanathan, S.,
+and Garnett, R. (eds.), Advances in Neural Information
+Processing Systems, volume 30. Curran Associates, Inc.,
+2017.
+URL https://proceedings.neurips.
+cc/paper_files/paper/2017/file/
+3f5ee243547dee91fbd053c1c4a845aa-Paper.
+pdf.
+Zhou, Y., Lei, T., Liu, H., Du, N., Huang, Y., Zhao, V.,
+Dai, A. M., Le, Q. V., Laudon, J., et al. Mixture-of-
+experts with expert choice routing. Advances in Neural
+Information Processing Systems, 35:7103–7114, 2022.
+Zoph, B., Bello, I., Kumar, S., Du, N., Huang, Y., Dean, J.,
+Shazeer, N., and Fedus, W. St-moe: Designing stable and
+transferable sparse expert models, 2022. URL https:
+//arxiv.org/abs/2202.08906.
+8
+
+Selective Sinkhorn Routing for Improved Sparse Mixture of Experts
+A. Theoretical results
+A.1. Proposition 4.1
+Proof. Let ˆΠi = ( ˆΠi,1, . . . , ˆΠi,n) ∈Rn be the i-th row
+of the solution to the entropy-regularized optimal transport
+problem. We aim to minimize the Kullback-Leibler (KL)
+divergence:
+KL(αi ∥ˆΠi) =
+n
+X
+j=1
+αi,j log
+ 
+αi,j
+ˆΠi,j
+!
+,
+where αi,j ≥0, Pn
+j=1 αi,j = 1, and supp(αi) ≤k. This
+means we want to select at most k non-zero entries for αi
+such that the KL divergence is minimized.
+Let Ti ⊂{1, . . . , n} be the support of αi, i.e., the indices
+where αi,j > 0. We know that |Ti| ≤k. For fixed Ti, the
+problem can be simplified to the following convex optimiza-
+tion problem:
+min
+αj≥0, j∈Ti
+P
+j∈Ti αj=1
+X
+j∈Ti
+αj log
+ 
+αj
+ˆΠi,j
+!
+.
+The Lagrangian for this problem is:
+L(α, λ) =
+X
+j∈Ti
+αj log
+ 
+αj
+ˆΠi,j
+!
++ λ
+
+X
+j∈Ti
+αj −1
+
+,
+where λ is the Lagrange multiplier. Taking the gradient with
+respect to αj and setting it to zero gives:
+∂L
+∂αj
+= log
+ 
+αj
+ˆΠi,j
+!
++1+λ = 0
+⇒
+αj = ˆΠi,je−1−λ.
+The KL divergence is given by:
+KL(αi ∥ˆΠi) =
+X
+j∈Ti
+αj log
+ 
+αj
+ˆΠi,j
+!
+.
+By substituting αj =
+ˆ
+Πi,j
+P
+l∈Ti ˆ
+Πi,l , we get:
+KL(αi ∥ˆΠi) =
+X
+j∈Ti
+ˆΠi,j
+P
+l∈Ti ˆΠi,l
+log
+ 
+ˆΠi,j
+P
+l∈Ti ˆΠi,l
+·
+1
+ˆΠi,j
+!
+.
+This simplifies to:
+KL(αi ∥ˆΠi) = −log
+
+X
+j∈Ti
+ˆΠi,j
+
+,
+To minimize the KL divergence, we need to maximize the
+sum P
+j∈Ti ˆΠi,j. This is achieved by selecting the top-k
+largest values of ˆΠi,j. Therefore, the optimal support set is:
+Ti = TopK( ˆΠi, k).
+Thus, the optimal αi is given by:
+αi,j =
+
+
+
+
+
+ˆΠi,j
+P
+l∈Ti ˆΠi,l
+,
+if j ∈Ti,
+0,
+otherwise.
+This completes the proof for Theorem 4.1.
+A.2. Proposition 4.2
+Proof. (1) Training. Let {x1, . . . , xm} ∼p(x) be a batch
+drawn i.i.d. Let π(xi) = f(g(xi)) ∈∆n be the routing dis-
+tribution for input xi, and define the batch-average routing
+vector:
+¯π = 1
+m
+m
+X
+i=1
+π(xi).
+By the law of large numbers, as m →∞, we have:
+¯π
+a.s.
+−−→Ex∼p(x)[π(x)].
+Thus, enforcing constraint (C3):
+Π⊤1m = m
+n 1n.
+is equivalent to enforcing:
+¯π = 1
+n1n,
+which promotes uniform expert usage across the data distri-
+bution. This helps prevent expert underuse and encourages
+specialization during training.
+(2) Inference. At inference time, only a single input x is
+available. Enforcing (C3) with m = 1 yields:
+π(x) = 1
+n1n,
+9
+
+Selective Sinkhorn Routing for Improved Sparse Mixture of Experts
+which forces uniform routing, ignoring the input-specific
+score S(x). This contradicts the goal of expert specializa-
+tion and leads to suboptimal predictions. Furthermore, a
+single sample cannot approximate p(x), so the population-
+level balancing constraints become meaningless.
+Conclusion. Training with Sinkhorn routing over batches
+supports expert balancing over the data distribution. In
+contrast, inference-time routing should be purely based on
+the input without enforcing expert balance constraints.
+A.3. Proposition 4.3
+Proof. For any fixed i, we observe that:
+˜gi −˜gj = (gi −gj) + αnoise(ϵi −ϵj).
+Since ϵi, ϵj ∼N(0, σ2); we have ϵi −ϵj ∼N(0, 2σ2).
+Thus:
+P(˜gi > ˜gj) = P(αnoiseϵi −αnoiseϵj > gj −gi)
+(7)
+= P
+
+ϵi −ϵj > gj −gi
+αnoise
+
+(8)
+= Φ
+ gi −gj
+√
+2σαnoise
+
+.
+(9)
+Independence of the noise implies:
+Pi =
+Y
+j̸=i
+P(˜gi > ˜gj) =
+Y
+j̸=i
+Φ
+ gi −gj
+√
+2σαnoise
+
+.
+Since each gi −gj is fixed and finite, and Φ(z) ∈(0, 1) for
+all real z, it follows that:
+Pi > 0.
+Hence, Pi is a positive constant that depends only on g
+and σ, and is independent of any input-dependent softmax
+transformation. Moreover, in the SSR-S variant, the proba-
+bility Pi ≥Φn 
+−
+√
+2
+σαnoise
+
+, which depends solely on the noise
+hyperparameter.
+B. Experimental Details
+B.1. Dataset Details
+WikiText-103
+(Merity et al., 2017) is a large-scale col-
+lection comprising over 100 million tokens sourced from
+23,805 “Good” articles and 4,790 “Featured articles”.
+Specifically, the training set includes over 103 million to-
+kens, while the validation and test sets consist of 217,646
+and 245,569 tokens, respectively. This dataset retains its
+original case, punctuation, and numerical values, resulting
+in a diverse vocabulary of 267,735 unique tokens. A clean
+version corresponds to the original dataset, while the at-
+tacked version is generated using TextAttack’s word-swap
+attack (Morris et al., 2020), where words in the validation
+and test sets are randomly replaced with the generic token
+“AAA”. This modification increases the difficulty for the
+model to predict the next word in the sequence accurately.
+Enwik-8
+(Mahoney, 2011) is a byte-level dataset compris-
+ing 100 million bytes sourced from Wikipedia. It includes
+not only English text but also markup, special characters,
+and multilingual content. The dataset is divided into 90
+million bytes for training, 5 million for validation, and 5
+million for testing.
+ImageNet-1K
+contains 1.28 million training images and
+50,000 validation images. The model is trained to classify
+each input image into one of 1,000 categories. Top-1 and
+Top-5 accuracy are reported across all experiments.
+ImageNet-A
+(Hendrycks et al., 2021b) contains real-
+world images that have been adversarially filtered to mislead
+existing ImageNet classifiers. A subset of 200 classes is
+selected from the original 1,000 ImageNet-1K categories,
+focusing on those where misclassifications would be par-
+ticularly severe. These 200 classes broadly represent the
+diversity of categories found in ImageNet-1K.
+ImageNet-O
+(Hendrycks et al., 2021b) contains adversar-
+ially filtered examples designed to challenge ImageNet out-
+of-distribution detectors. It consists of samples drawn from
+ImageNet-22K that are not part of ImageNet-1K, specifi-
+cally selected because a ResNet-50 model incorrectly classi-
+fies them as ImageNet-1K categories with high confidence.
+Imagenet-R
+(Hendrycks et al., 2021a) contains a variety
+of artistic renditions of object classes originally found in
+ImageNet, which are typically discouraged by the standard
+ImageNet guidelines. ImageNet-R includes 30,000 such
+renditions spanning 200 classes, selected as a subset of the
+ImageNet-1K categories.
+B.2. Model Architecture and Training Configurations
+For language modeling, we adopt a medium-scale configura-
+tion with 6 layers for Wikitext-103 and 8 layers for Enwik-8.
+Each layer consists of a multi-head self-attention (MHA)
+block followed by a SMoE block, both with residual con-
+nections. Training is performed with a batch size of 48 for
+80,000 steps, using a learning rate of 0.0007 with 4,000
+warm-up steps and a dropout rate of 0.1. The model uses
+8 attention heads for each MHA block and processes se-
+quences of 512 tokens in each batch, with attention spans of
+1,024 for Wikitext-103 and 2,048 for Enwik-8. The SMoE
+module has 16 experts with top-2 routing. The hidden and
+expert dimensions are 352 . The resulting model sizes are
+216M parameters for WikiText-103 and 36M for Enwik8,
+10
+
+Selective Sinkhorn Routing for Improved Sparse Mixture of Experts
+aligning with commonly explored scales in recent work (Teo
+& Nguyen, 2024).
+The baseline settings are customized fairly to the paper
+report. Specifically, for the SMoE w/ noise, we follow
+the noise initialization in (Shazeer et al., 2017). The aux-
+iliary loss coefficient is set to 0.01 (Shazeer et al., 2017;
+Lepikhin et al., 2020), and the z-loss coefficient to 0.001
+(Zoph et al., 2022). For the Sinkhorn-based SMoE, we set
+ξ = 1, δ = 0.0001 and η = 100. With SSR-variants,
+we consider ξ ∈{0.05, 0.5, 1}, δ = 0.0001, η = 100,
+p ∈{0.0001, 0.001, 0.01} and αnoise ∈{0.3, 1, 4}.
+For image classification, we use a compact 4-stage archi-
+tecture with depths [2, 2, 18, 2].
+The first two stages
+each have 2 blocks (self-attention + feed-forward); the
+third stage has 18 blocks, where self-attention alternates
+between feed-forward and MoE layers; and the final stage
+includes a self-attention–feed-forward block followed by
+a self-attention–MoE block. The embedding dimension is
+96 with attention heads [3, 6, 12, 24]. We employ 32 ex-
+perts for MoE layers with top-2 routing (550M parameters)
+and train for 60 epochs using AdamW (base LR 1.25e-4,
+min LR 1.25e-7, weight decay 0.1, cosine schedule), batch
+size 96, and an auxiliary loss coefficient of 0.1. For SSR-
+L and SSR-L w/ noise, we consider ξ = 0.5, δ = 0.0001,
+η = 100, p = 0.01 and αnoise = 1. While prior work (Teo &
+Nguyen, 2024) has explored model sizes ranging from 36M
+to 388M parameters, in this paper we extend the scale fur-
+ther to 550M parameters, demonstrating that SSR continues
+to provide strong performance gains at larger scale.
+B.3. Compute Resources
+All models are trained and evaluated using 2 NVIDIA A100
+GPUs with 40GB of memory each.
+C. Additional Experimental Results
+Table 7. Perplexity (PPL) of SSR-L with different probability p on
+clean/attacked WikiText-103.
+p
+Clean WikiText-103
+Attacked WikiText-103
+Valid PPL ↓
+Test PPL ↓
+Valid PPL ↓
+Test PPL ↓
+0.5
+33.321
+34.752
+41.748
+43.587
+0.1
+32.754
+34.815
+40.984
+43.386
+0.03
+32.859
+34.712
+41.281
+43.489
+0.01
+33.051
+34.913
+41.209
+43.423
+10−3
+33.029
+34.710
+41.403
+43.437
+10−4
+32.809
+34.573
+41.230
+43.318
+10−5
+32.992
+34.794
+41.573
+43.821
+Table 7 reports the effect of varying the probability p of ap-
+plying Sinkhorn routing in SSR-L. Across all tested values,
+SSR-L achieves lower Test PPL than Vanilla SMoE, show-
+ing that sparse Sinkhorn routing provides a useful balancing
+signal. The best Test PPL is obtained at p = 0.0001 on
+both clean and attacked WikiText-103, suggesting that only
+a very small fraction of Sinkhorn-based routing is needed to
+improve performance. However, SSR-L still underperforms
+SSR-L w/ noise in Table 1, indicating that gating noise
+further improves the effectiveness of SSR. Overall, these
+results show that p should remain small: using Sinkhorn
+routing too frequently may over-constrain the router, while
+using it too rarely weakens the balancing effect.
+Table 8. Perplexity (PPL) of SSR-S with different probability p on
+clean/attacked WikiText-103.
+p
+Clean WikiText-103
+Attacked WikiText-103
+Valid PPL ↓
+Test PPL ↓
+Valid PPL ↓
+Test PPL ↓
+0.1
+33.112
+35.112
+41.483
+43.728
+0.03
+33.033
+35.002
+41.434
+43.802
+0.01
+33.249
+35.060
+42.014
+44.187
+10−3
+32.610
+34.744
+41.012
+43.283
+10−4
+33.533
+35.240
+42.036
+44.108
+10−5
+32.905
+34.804
+41.523
+43.895
+Table 9. Perplexity (PPL) of SSR-S w/ noise with different proba-
+bility p on clean/attacked WikiText-103.
+p
+Clean WikiText-103
+Attacked WikiText-103
+Valid PPL ↓
+Test PPL ↓
+Valid PPL ↓
+Test PPL ↓
+0.1
+33.212
+34.768
+41.568
+43.411
+0.03
+33.470
+35.143
+41.960
+43.962
+0.01
+33.193
+34.918
+41.548
+43.764
+10−3
+32.881
+34.557
+41.037
+42.941
+10−4
+33.160
+34.908
+41.476
+43.498
+10−5
+33.326
+34.809
+41.804
+43.514
+Similarly, we evaluate SSR-S and SSR-S w/ noise across dif-
+ferent probabilities p, as reported in Table 8 and Table 9. For
+both variants, the best performance is consistently achieved
+at p = 10−3 across clean and attacked WikiText-103. This
+suggests that a small amount of Sinkhorn routing is suffi-
+cient to provide an effective balancing signal for SSR-S.
+Compared with SSR-S, adding gating noise further improves
+performance, reducing the clean Test PPL from 34.744 to
+34.557 and the attacked Test PPL from 43.283 to 42.941
+at the same probability p = 10−3. These results indicate
+that gating noise complements sparse Sinkhorn routing by
+improving routing robustness. Overall, p should be carefully
+controlled: overly large values may over-constrain routing,
+while overly small values may weaken the balancing effect.
+D. Detailed Derivation: Entropy-Regularized
+Maximum-Cost OT Solution
+Recall the entropy-regularized maximum-cost OT problem
+in Eq. 3:
+ˆΠ := arg max
+Π
+[⟨Π, C⟩−ξ⟨Π, log Π⟩],
+s.t.
+
+
+
+Π > 0,
+Π1n = 1m,
+Π⊤1m = (m/n)1n,
+11
+
+Selective Sinkhorn Routing for Improved Sparse Mixture of Experts
+SSR-L
+SSR-S
+SSR-L w/ noise
+SSR-S w/ noise
+SMoE w/ lb loss
+SMoE w/ z-loss
+SMoE w/ noise
+Sinkhorn-Based SMoE
+0.5%
+1%
+2%
+10%
+40%
+80%
+200%
+Relative Time Increase (%)
+0.33%
+0.37%
+0.62%
+0.65%
+2.04%
+2.12%
+2.50%
+72.47%
+(a) Conventional setting
+SSR-L
+SSR-S
+SSR-L w/ noise
+SSR-S w/ noise
+SMoE w/ lb loss
+SMoE w/ z-loss
+SMoE w/ noise
+Sinkhorn-Based SMoE
+0.5%
+1%
+2%
+10%
+40%
+80%
+200%
+Relative Time Increase (%)
+0.36%
+0.61%
+1.58%
+1.76%
+2.49%
+4.44%
+6.75%
+67.52%
+(b) Momentum setting
+Figure 4. Training time overhead relative to SMoE (Vanilla) on WikiText-103 under conventional and momentum settings.
+0.5%
+1%
+2%
+10%
+40%
+400%
+Relative Time Increase (%)
+SSR-S w/ noise
+(p = 0.001,
+noise = 4,
+= 0.05)
+SMoE w/ lb loss
+SSR-L w/ noise
+(p = 0.01,
+noise = 1,
+= 0.5)
+SSR-S w/ noise
+(p = 0.01,
+noise = 1,
+= 0.05)
+SMoE w/ noise
+Sinkhorn-Based SMoE
+0.05%
+0.44%
+1.57%
+2.56%
+2.72%
+128.02%
+Figure 5. Training time Overhead vs. Vanilla SMoE on Enwik-8
+dataset.
+where Π, C
+∈
+Rm×n, ξ
+>
+0 and ⟨A, B⟩
+:=
+m
+X
+i=1
+n
+X
+j=1
+Ai,jBi,j. Let us consider the Lagrange function:
+L (Π, λ, µ) =
+m
+X
+i=1
+n
+X
+j=1
+Πi,jCi,j −ξ
+m
+X
+i=1
+n
+X
+j=1
+Πi,j log(Πi,j)
++
+m
+X
+i=1
+λi
+
+
+n
+X
+j=1
+Πi,j −1
+
++
+n
+X
+j=1
+µj
+ m
+X
+i=1
+Πi,j −(m/n)
+!
+,
+where Π = [Πi,j]i,j ∈Rm×n, λ = [λ1, . . . , λm], µ =
+[µ1, . . . , µn] such that λi, µj ≥0 and
+m
+X
+i=1
+λi = 1,
+n
+X
+j=1
+µj =
+1 for i = 1, m, j = 1, n. Then we have some following
+assertions:
+∂L (Π, λ)
+∂Πi,j
+= Ci,j −ξ log Πi,j −ξ + λi + µj = 0,
+λi
+
+
+n
+X
+j=1
+Πi,j −1
+
+= 0, for i = 1, m,
+µj
+ m
+X
+i=1
+Πi,j −m/n
+!
+= 0, for j = 1, n.
+Hence, we have
+Πi,j = e(Ci,j−ϵ+λi+µj)/ϵ.
+Let denote kernel matrix K = exp(C/ξ −1m×n), then we
+obtain the solution of the problem in Eq. 3:
+ˆΠ =
+
+
+eλ1/ξ
+0
+. . .
+0
+0
+eλ2/ξ
+. . .
+0
+...
+...
+...
+...
+0
+0
+. . .
+eλm/ξ
+
+K
+
+
+eµ1/ξ
+0
+. . .
+0
+0
+eµ2/ξ
+. . .
+0
+...
+...
+...
+...
+0
+0
+. . .
+eµn/ξ
+
+
+= diag
+
+eλ/ξ
+K diag
+
+eµ/ξ
+.
+Conclusion.
+We obtained the solution of the entropy-
+regularized maximum-cost OT problem. It is evident that
+the value range of ˆΠ is directly influenced by the matrix
+K, which in turn depends on the cost matrix C. Therefore,
+employing either a linear or softmax cost formulation will
+inherently affect the solution of Eq. 3.
+12

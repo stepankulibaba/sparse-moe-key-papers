@@ -1,0 +1,161 @@
+
+[1] A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, L. Kaiser, and I. Polosukhin, Attention is
+All you Need (2017), URL https://papers.nips.cc/paper/7181-attention-is-all-you-need.
+[2] H. Touvron, L. Martin, K. Stone, P. Albert, A. Almahairi, Y. Babaei, N. Bashlykov, S. Batra, P. Bhargava,
+S. Bhosale, et al. (2023), URL https://arxiv.org/abs/2307.09288v2.
+[3] OpenAI (2023), URL http://arxiv.org/abs/2303.08774.
+[4] A. Chowdhery, S. Narang, J. Devlin, M. Bosma, G. Mishra, A. Roberts, P. Barham, H. W. Chung, C. Sutton,
+S. Gehrmann, et al. (2022), URL https://arxiv.org/abs/2204.02311v3.
+[5] A. Q. Jiang, A. Sablayrolles, A. Mensch, C. Bamford, D. S. Chaplot, D. d. l. Casas, F. Bressand, G. Lengyel,
+G. Lample, L. Saulnier, et al. (2023), URL https://arxiv.org/abs/2310.06825v1.
+[6] S. Gunasekar, Y. Zhang, J. Aneja, C. César, T. Mendes, A. D. Giorno, S. Gopi, M. Javaheripi, P. Kauffmann,
+G. De, et al. (2023), URL https://arxiv.org/abs/2306.11644v2.
+[7] S. Bubeck, V. Chandrasekaran, R. Eldan, J. Gehrke, E. Horvitz, E. Kamar, P. Lee, Y. T. Lee, Y. Li, S. Lundberg,
+et al. (2023), URL https://arxiv.org/abs/2303.12712v1.
+[8] M. J. Buehler, Appl. Mech. Rev. (2023), URL https://doi.org/10.1115/1.4063843.
+[9] M. Nejjar, . Luca, Z. †1, F. Stiehle, and I. Weber (2023), URL https://arxiv.org/abs/2311.16733v3.
+[10] M. J. Buehler, ACS Engineering Au (2023), URL 10.1021/acsengineeringau.3c00058.
+[11] R. K. Luu and M. J. Buehler, Adv. Science. (2023), URL https://doi.org/10.1002/advs.202306724.
+[12] R. K. Luu, M. Wysokowski, and M. J. Buehler, Applied Physics Letters 122 (2023), URL http://arxiv.org/
+abs/2304.12400http://dx.doi.org/10.1063/5.0155890.
+[13] M. J. Buehler (2023), URL https://arxiv.org/abs/2306.17525v1.
+[14] Y. Ge, W. Hua, K. Mei, J. Ji, J. Tan, S. Xu, Z. Li, and Y. Zhang (2023), URL http://arxiv.org/abs/2304.
+04370.
+[15] E. J. Hu, Y. Shen, P. Wallis, Z. Allen-Zhu, Y. Li, S. Wang, L. Wang, and W. Chen, Lora: Low-rank adaptation of
+large language models (2021), 2106.09685.
+[16] D. Kim, C. Park, S. Kim, W. Lee, W. Song, Y. Kim, H. Kim, Y. Kim, H. Lee, J. Kim, et al. (2023), URL
+https://arxiv.org/abs/2312.15166v1.
+[17] arcee-ai/mergekit:
+Tools for merging pretrained large language models., URL https://github.com/
+arcee-ai/mergekit.
+[18] R. A. Jacobs, M. I. Jordan, S. J. Nowlan, and G. E. Hinton, Neural Computation 3, 79 (1991), ISSN 0899-7667,
+URL https://dx.doi.org/10.1162/neco.1991.3.1.79.
+[19] J. B. Hampshire and A. Waibel, IEEE Transactions on Pattern Analysis and Machine Intelligence 14, 751 (1992),
+ISSN 01628828.
+[20] M. I. Jordan and R. A. Jacobs, Neural Computation 6, 181 (1994), ISSN 0899-7667, URL https://dx.doi.
+org/10.1162/neco.1994.6.2.181.
+[21] A. Q. Jiang, A. Sablayrolles, A. Roux, A. Mensch, B. Savary, C. Bamford, D. S. Chaplot, D. d. l. Casas, E. B.
+Hanna, F. Bressand, et al. (2024), URL https://arxiv.org/abs/2401.04088v1.
+[22] Y. Hu and M. J. Buehler, APL Machine Learning 1, 010901 (2023), ISSN 2770-9019, URL https://aip.
+scitation.org/doi/abs/10.1063/5.0134317.
+[23] M. J. Buehler,
+Modelling and Simulation in Materials Science and Engineering (2023),
+ISSN
+0965-0393,
+URL
+https://iopscience.iop.org/article/10.1088/1361-651X/accfb5https:
+//iopscience.iop.org/article/10.1088/1361-651X/accfb5/meta.
+[24] M. J. Buehler and K. Guo (2022), URL https://zenodo.org/record/6346661.
+[25] HuggingFaceH4/zephyr-7b-beta
+·
+Hugging
+Face,
+URL
+https://huggingface.co/HuggingFaceH4/
+zephyr-7b-beta.
+38
+
+X-LoRA: Mixture of Low-Rank Adapter Experts
+[26] M. Buehler, Atomistic modeling of materials failure (2008), ISBN 9780387764252.
+[27] DALL·E 3 system card, URL https://openai.com/research/dall-e-3-system-card.
+[28] W. Lu, D. L. Kaplan, and M. J. Buehler, Advanced Functional Materials p. 2311324 (2023), ISSN
+1616-3028,
+URL
+https://onlinelibrary.wiley.com/doi/full/10.1002/adfm.202311324https:
+//onlinelibrary.wiley.com/doi/abs/10.1002/adfm.202311324https://onlinelibrary.wiley.
+com/doi/10.1002/adfm.202311324.
+[29] B. Ni, D. L. Kaplan, and M. J. Buehler (2023), URL https://arxiv.org/abs/2310.10605v3.
+[30] H. Lu, B. Isralewitz, A. Krammer, V. Vogel, and K. Schulten, Biophysical Journal 75, 662 (1998),
+ISSN 00063495, URL /pmc/articles/PMC1299741/?report=abstracthttps://www.ncbi.nlm.nih.
+gov/pmc/articles/PMC1299741/.
+[31] J. Jumper, R. Evans, A. Pritzel, T. Green, M. Figurnov, O. Ronneberger, K. Tunyasuvunakool, R. Bates, A. Žídek,
+A. Potapenko, et al., Nature 596, 583 (2021), ISSN 14764687.
+[32] S. F. Altschul, W. Gish, W. Miller, E. W. Myers, and D. J. Lipman, Journal of Molecular Biology 215, 403
+(1990), ISSN 00222836, URL http://www.ncbi.nlm.nih.gov/pubmed/2231712https://linkinghub.
+elsevier.com/retrieve/pii/S0022283605803602.
+[33] M. Mirdita, K. Schütze, Y. Moriwaki, L. Heo, S. Ovchinnikov, and M. Steinegger, Nature Methods 2022 19:6 19,
+679 (2022), ISSN 1548-7105, URL https://www.nature.com/articles/s41592-022-01488-1.
+[34] T. Giesa, D. Spivak, and M. Buehler, Advanced Engineering Materials 14 (2012), ISSN 14381656 15272648.
+[35] D. I. Spivak and M. J. B. Reoccurring, pp. 0–13 (2011).
+[36] M. Girvan and M. E. Newman, Proceedings of the National Academy of Sciences of the United States of America
+99, 7821 (2002), ISSN 00278424, URL https://www.pnas.org/doi/abs/10.1073/pnas.122653799.
+[37] google/gemma-7b-it · Hugging Face, URL https://huggingface.co/google/gemma-7b-it.
+[38] L. Ruddigkeit, R. Van Deursen, L. C. Blum, and J. L. Reymond, Journal of Chemical Information and Modeling
+52, 2864 (2012), ISSN 1549960X, URL https://pubs.acs.org/doi/full/10.1021/ci300415d.
+[39] R. Ramakrishnan,
+M. Hartmann,
+E. Tapavicza,
+and O. A. Von Lilienfeld,
+Journal of Chemi-
+cal Physics 143, 84111 (2015), ISSN 00219606, URL /aip/jcp/article/143/8/084111/73278/
+Electronic-spectra-from-TDDFT-and-machine-learning.
+[40] A. K. Rappé, C. J. Casewit, K. S. Colwell, W. A. Goddard, and W. M. Skiff, Journal of the American Chemical So-
+ciety 114, 10024 (1992), ISSN 15205126, URL https://pubs.acs.org/doi/pdf/10.1021/ja00051a040.
+[41] J. Gasteiger and M. Marsili, Tetrahedron 36, 3219 (1980), ISSN 0040-4020.
+[42] D. A. McQuarrie and J. D. Simon, Physical Chemistry: A Molecular Approach (University Science Books, 1997),
+ISBN 978-0935702996.
+[43] F. A. Carey and R. J. Sundberg, Advanced Organic Chemistry: Part A: Structure and Mechanisms (Springer,
+2007), 5th ed., ISBN 978-0387683461.
+[44] M.
+Varghese
+and
+M.
+W.
+Grinstaff,
+Chemical
+Society
+Reviews
+51,
+8258
+(2022),
+ISSN
+1460-
+4744,
+URL https://pubs.rsc.org/en/content/articlehtml/2022/cs/d1cs00930chttps://pubs.
+rsc.org/en/content/articlelanding/2022/cs/d1cs00930c.
+[45] D. Hendrycks, C. Burns, S. Basart, A. Zou, M. Mazeika, D. Song, and J. Steinhardt, ICLR 2021 - 9th International
+Conference on Learning Representations (2020), URL https://arxiv.org/abs/2009.03300v3.
+[46] N. D. Matsakis and F. S. Klock II, in ACM SIGAda Ada Letters (ACM, 2014), vol. 34, pp. 103–104.
+[47] A. Ghafarollahi and M. J. Buehler (2024), URL https://arxiv.org/abs/2402.04268v1.
+[48] Matplotlib documentation — Matplotlib 3.5.1 documentation, URL https://matplotlib.org/stable/
+index.html.
+[49] A. Paszke, S. Gross, J. Bradbury, Z. Lin, Z. Devito, F. Massa, B. Steiner, T. Killeen, and E. Yang (2019).
+[50] J. Su, Y. Lu, S. Pan, B. Wen, and Y. Liu, Roformer: Enhanced transformer with rotary position embedding (2021),
+2104.09864.
+[51] W. Kwon, Z. Li, S. Zhuang, Y. Sheng, L. Zheng, C. H. Yu, J. E. Gonzalez, H. Zhang, and I. Stoica, in Proceedings
+of the ACM SIGOPS 29th Symposium on Operating Systems Principles (2023).
+[52] J. Wei, M. Bosma, V. Y. Zhao, K. Guu, A. W. Yu, B. Lester, N. Du, A. M. Dai, and Q. V. Le, ICLR 2022 - 10th
+International Conference on Learning Representations (2021), URL https://arxiv.org/abs/2109.01652v5.
+39
+
+X-LoRA: Mixture of Low-Rank Adapter Experts
+[53] QingyiSi/Alpaca-CoT at main, URL https://huggingface.co/datasets/QingyiSi/Alpaca-CoT/tree/
+main/Chain-of-Thought.
+[54] G. Li, . Hasan, A. Al, K. Hammoud, H. Itani, D. Khizbullin, and B. Ghanem (2023), URL https://arxiv.org/
+abs/2303.17760v2.
+[55] camel-ai/chemistry · Datasets at Hugging Face, URL https://huggingface.co/datasets/camel-ai/
+chemistry.
+[56] camel-ai/math · Datasets at Hugging Face, URL https://huggingface.co/datasets/camel-ai/math.
+[57] camel-ai/physics · Datasets at Hugging Face, URL https://huggingface.co/datasets/camel-ai/
+physics.
+[58] camel-ai/biology · Datasets at Hugging Face, URL https://huggingface.co/datasets/camel-ai/
+biology.
+[59] lamm-mit/MechanicsMaterials · Datasets at Hugging Face, URL https://huggingface.co/datasets/
+lamm-mit/MechanicsMaterials.
+[60] A. N. Lee, C. J. Hunter, and N. Ruiz (2023), URL https://arxiv.org/abs/2308.07317v1.
+[61] garage-bAInd/Open-Platypus · Datasets at Hugging Face, URL https://huggingface.co/datasets/
+garage-bAInd/Open-Platypus.
+[62] D. Weininger, Journal of Chemical Information and Computer Sciences 28, 31 (1988), ISSN 00952338, URL
+https://pubs.acs.org/doi/abs/10.1021/ci00057a005.
+[63] D. Weininger, A. Weininger, and J. L. Weininger, Journal of Chemical Information and Computer Sciences 29, 97
+(1989), ISSN 00952338, URL https://pubs.acs.org/doi/abs/10.1021/ci00062a008.
+[64] guidance-ai/guidance: A guidance language for controlling large language models., URL https://github.
+com/guidance-ai/guidance.
+[65] rahulnyk/knowledge_graph: Convert any text to a graph of knowledge. This can be used for Graph Augmented
+Generation or Knowledge Graph based QnA, URL https://github.com/rahulnyk/knowledge_graph.
+[66] J. Liu, LlamaIndex (2022), URL https://github.com/jerryjliu/llama_index.
+[67] networkx/networkx: Network Analysis in Python, URL https://github.com/networkx/networkx.
+[68] WestHealth/pyvis: Python package for creating and visualizing interactive network graphs., URL https://
+github.com/WestHealth/pyvis/tree/master.
+[69] L. L. C. Schrödinger, The PyMOL molecular graphics system, version 1.8 (2015).
+40

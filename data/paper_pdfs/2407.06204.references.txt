@@ -1,0 +1,1029 @@
+
+[1]
+A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N.
+Gomez, Ł. Kaiser, and I. Polosukhin, “Attention is all you need,”
+Advances in neural information processing systems, vol. 30, 2017.
+
+JOURNAL OF LATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015
+24
+[2]
+T. Brown, B. Mann, N. Ryder, M. Subbiah, J. D. Kaplan, P. Dhari-
+wal, A. Neelakantan, P. Shyam, G. Sastry, A. Askell et al.,
+“Language models are few-shot learners,” Advances in neural
+information processing systems, vol. 33, pp. 1877–1901, 2020.
+[3]
+A. Chowdhery, S. Narang, J. Devlin, M. Bosma, G. Mishra,
+A. Roberts, P. Barham, H. W. Chung, C. Sutton, S. Gehrmann
+et al., “Palm: Scaling language modeling with pathways,” Journal
+of Machine Learning Research, vol. 24, no. 240, pp. 1–113, 2023.
+[4]
+J. Achiam, S. Adler, S. Agarwal, L. Ahmad, I. Akkaya, F. L.
+Aleman, D. Almeida, J. Altenschmidt, S. Altman, S. Anadkat
+et al., “Gpt-4 technical report,” arXiv preprint arXiv:2303.08774,
+2023.
+[5]
+J. Jiang, F. Wang, J. Shen, S. Kim, and S. Kim, “A Survey on
+Large Language Models for Code Generation,” arXiv preprint
+arXiv:2406.00515, 2024.
+[6]
+C. Riquelme, J. Puigcerver, B. Mustafa, M. Neumann, R. Jenatton,
+A. Susano Pinto, D. Keysers, and N. Houlsby, “Scaling vision
+with sparse mixture of experts,” Advances in Neural Information
+Processing Systems, vol. 34, pp. 8583–8595, 2021.
+[7]
+Z. Liu, Y. Lin, Y. Cao, H. Hu, Y. Wei, Z. Zhang, S. Lin, and B. Guo,
+“Swin transformer: Hierarchical vision transformer using shifted
+windows,” in Proceedings of the IEEE/CVF international conference
+on computer vision, 2021, pp. 10 012–10 022.
+[8]
+J. Lu, D. Batra, D. Parikh, and S. Lee, “Vilbert: Pretraining task-
+agnostic visiolinguistic representations for vision-and-language
+tasks,” Advances in neural information processing systems, vol. 32,
+2019.
+[9]
+K. Zhou, J. Yang, C. C. Loy, and Z. Liu, “Learning to prompt for
+vision-language models,” International Journal of Computer Vision,
+vol. 130, no. 9, pp. 2337–2348, 2022.
+[10]
+D. Zhu, J. Chen, X. Shen, X. Li, and M. Elhoseiny, “Minigpt-4:
+Enhancing vision-language understanding with advanced large
+language models,” arXiv preprint arXiv:2304.10592, 2023.
+[11]
+J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess,
+R.
+Child,
+S.
+Gray,
+A.
+Radford,
+J.
+Wu,
+and
+D.
+Amodei,
+“Scaling laws for neural language models,” arXiv preprint
+arXiv:2001.08361, 2020.
+[12]
+J. Wei, Y. Tay, R. Bommasani, C. Raffel, B. Zoph, S. Borgeaud,
+D. Yogatama, M. Bosma, D. Zhou, D. Metzler et al., “Emer-
+gent
+abilities
+of
+large
+language
+models,”
+arXiv
+preprint
+arXiv:2206.07682, 2022.
+[13]
+K. M. Yoo, J. Han, S. In, H. Jeon, J. Jeong, J. Kang, H. Kim, K.-M.
+Kim, M. Kim, S. Kim et al., “HyperCLOVA X Technical Report,”
+arXiv preprint arXiv:2404.01954, 2024.
+[14]
+J. Hoffmann, S. Borgeaud, A. Mensch, E. Buchatskaya, T. Cai,
+E. Rutherford, D. d. L. Casas, L. A. Hendricks, J. Welbl, A. Clark
+et al., “Training compute-optimal large language models,” arXiv
+preprint arXiv:2203.15556, 2022.
+[15]
+R. A. Jacobs, M. I. Jordan, S. J. Nowlan, and G. E. Hinton,
+“Adaptive mixtures of local experts,” Neural computation, vol. 3,
+no. 1, pp. 79–87, 1991.
+[16]
+M. I. Jordan and R. A. Jacobs, “Hierarchical mixtures of experts
+and the EM algorithm,” Neural computation, vol. 6, no. 2, pp. 181–
+214, 1994.
+[17]
+R. Collobert, S. Bengio, and Y. Bengio, “A parallel mixture of
+SVMs for very large scale problems,” Advances in Neural Informa-
+tion Processing Systems, vol. 14, 2001.
+[18]
+C. Rasmussen and Z. Ghahramani, “Infinite mixtures of Gaussian
+process experts,” Advances in neural information processing systems,
+vol. 14, 2001.
+[19]
+B. Shahbaba and R. Neal, “Nonlinear models using Dirichlet
+process mixtures.” Journal of Machine Learning Research, vol. 10,
+no. 8, 2009.
+[20]
+D. Eigen, M. Ranzato, and I. Sutskever, “Learning factored
+representations in a deep mixture of experts,” arXiv preprint
+arXiv:1312.4314, 2013.
+[21]
+L. Theis and M. Bethge, “Generative image modeling using
+spatial lstms,” Advances in neural information processing systems,
+vol. 28, 2015.
+[22]
+M. Deisenroth and J. W. Ng, “Distributed gaussian processes,”
+in International conference on machine learning.
+PMLR, 2015, pp.
+1481–1490.
+[23]
+R. Aljundi, P. Chakravarty, and T. Tuytelaars, “Expert gate: Life-
+long learning with a network of experts,” in Proceedings of the
+IEEE conference on computer vision and pattern recognition, 2017,
+pp. 3366–3375.
+[24]
+N. Shazeer, A. Mirhoseini, K. Maziarz, A. Davis, Q. Le, G. Hinton,
+and J. Dean, “Outrageously large neural networks: The sparsely-
+gated mixture-of-experts layer,” arXiv preprint arXiv:1701.06538,
+2017.
+[25]
+D. Lepikhin, H. Lee, Y. Xu, D. Chen, O. Firat, Y. Huang,
+M. Krikun, N. Shazeer, and Z. Chen, “Gshard: Scaling giant
+models with conditional computation and automatic sharding,”
+arXiv preprint arXiv:2006.16668, 2020.
+[26]
+A. Q. Jiang, A. Sablayrolles, A. Roux, A. Mensch, B. Savary,
+C. Bamford, D. S. Chaplot, D. d. l. Casas, E. B. Hanna, F. Bressand
+et al., “Mixtral of experts,” arXiv preprint arXiv:2401.04088, 2024.
+[27]
+xAI, “Grok-1,” March 2024. [Online]. Available: https://github.
+com/xai-org/grok-1
+[28]
+Databricks, “Introducing DBRX: A New State-of-the-Art Open
+LLM,” March 2024. [Online]. Available: https://www.databricks.
+com/blog/introducing-dbrx-new-state-art-open-llm
+[29]
+S.
+A.
+R.
+Team,
+“Snowflake
+Arctic:
+The
+Best
+LLM
+for
+Enterprise AI — Efficiently Intelligent, Truly Open,” April
+2024. [Online]. Available: https://www.snowflake.com/blog/
+arctic-open-efficient-foundation-language-models-snowflake/
+[30]
+DeepSeek-AI, “DeepSeek-V2: A Strong, Economical, and Efficient
+Mixture-of-Experts Language Model,” 2024.
+[31]
+S. E. Yuksel, J. N. Wilson, and P. D. Gader, “Twenty years of
+mixture of experts,” IEEE transactions on neural networks and
+learning systems, vol. 23, no. 8, pp. 1177–1193, 2012.
+[32]
+W. Fedus, J. Dean, and B. Zoph, “A review of sparse expert
+models in deep learning,” arXiv preprint arXiv:2209.01667, 2022.
+[33]
+N. Du, Y. Huang, A. M. Dai, S. Tong, D. Lepikhin, Y. Xu,
+M. Krikun, Y. Zhou, A. W. Yu, O. Firat et al., “Glam: Efficient scal-
+ing of language models with mixture-of-experts,” in International
+Conference on Machine Learning.
+PMLR, 2022, pp. 5547–5569.
+[34]
+W. Fedus, B. Zoph, and N. Shazeer, “Switch transformers: Scaling
+to trillion parameter models with simple and efficient sparsity,”
+Journal of Machine Learning Research, vol. 23, no. 120, pp. 1–39,
+2022.
+[35]
+B. Zoph, I. Bello, S. Kumar, N. Du, Y. Huang, J. Dean, N. Shazeer,
+and W. Fedus, “St-moe: Designing stable and transferable sparse
+expert models,” arXiv preprint arXiv:2202.08906, 2022.
+[36]
+F. Xue, Z. Zheng, Y. Fu, J. Ni, Z. Zheng, W. Zhou, and Y. You,
+“Openmoe: An early effort on open mixture-of-experts language
+models,” arXiv preprint arXiv:2402.01739, 2024.
+[37]
+J. Puigcerver, C. R. Ruiz, B. Mustafa, and N. Houlsby, “From
+Sparse to Soft Mixtures of Experts,” in The Twelfth International
+Conference on Learning Representations, 2023.
+[38]
+M. Muqeeth, H. Liu, and C. Raffel, “Soft merging of experts with
+adaptive routing,” arXiv preprint arXiv:2306.03745, 2023.
+[39]
+Z. Zhong, M. Xia, D. Chen, and M. Lewis, “Lory: Fully Differ-
+entiable Mixture-of-Experts for Autoregressive Language Model
+Pre-training,” arXiv preprint arXiv:2405.03133, 2024.
+[40]
+T. Zadouri, A. ¨Ust¨un, A. Ahmadian, B. Ermis¸, A. Locatelli, and
+S. Hooker, “Pushing mixture of experts to the limit: Extremely
+parameter efficient moe for instruction tuning,” arXiv preprint
+arXiv:2309.05444, 2023.
+[41]
+J. Wu, X. Hu, Y. Wang, B. Pang, and R. Soricut, “Omni-SMoLA:
+Boosting Generalist Multimodal Models with Soft Mixture of
+Low-rank Experts,” arXiv preprint arXiv:2312.00968, 2023.
+[42]
+Y. Wang, S. Agarwal, S. Mukherjee, X. Liu, J. Gao, A. H.
+Awadallah,
+and
+J.
+Gao,
+“AdaMix:
+Mixture-of-Adaptations
+for Parameter-efficient Model Tuning,” in Proceedings of the
+2022
+Conference
+on
+Empirical
+Methods
+in
+Natural
+Language
+Processing, Y. Goldberg, Z. Kozareva, and Y. Zhang, Eds.
+Abu
+Dhabi, United Arab Emirates: Association for Computational
+Linguistics,
+Dec.
+2022,
+pp.
+5744–5760.
+[Online].
+Available:
+https://aclanthology.org/2022.emnlp-main.388
+[43]
+S. Dou, E. Zhou, Y. Liu, S. Gao, J. Zhao, W. Shen, Y. Zhou,
+Z. Xi, X. Wang, X. Fan et al., “Loramoe: Revolutionizing mixture
+of experts for maintaining world knowledge in language model
+alignment,” arXiv preprint arXiv:2312.09979, 2023.
+[44]
+Y. Gou, Z. Liu, K. Chen, L. Hong, H. Xu, A. Li, D.-Y. Yeung,
+J. T. Kwok, and Y. Zhang, “Mixture of cluster-conditional lora
+experts for vision-language instruction tuning,” arXiv preprint
+arXiv:2312.12379, 2023.
+[45]
+T. Luo, J. Lei, F. Lei, W. Liu, S. He, J. Zhao, and K. Liu, “Moelora:
+Contrastive learning guided mixture of experts on parameter-
+efficient fine-tuning for large language models,” arXiv preprint
+arXiv:2402.12851, 2024.
+
+JOURNAL OF LATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015
+25
+[46]
+X. Wu, S. Huang, and F. Wei, “Mixture of LoRA Experts,” in
+The Twelfth International Conference on Learning Representations,
+2024. [Online]. Available: https://openreview.net/forum?id=
+uWvKBCYh4S
+[47]
+A. Komatsuzaki, J. Puigcerver, J. Lee-Thorp, C. R. Ruiz,
+B. Mustafa, J. Ainslie, Y. Tay, M. Dehghani, and N. Houlsby,
+“Sparse Upcycling: Training Mixture-of-Experts from Dense
+Checkpoints,” in The Eleventh International Conference on Learning
+Representations, 2022.
+[48]
+Z. Zhang, Y. Lin, Z. Liu, P. Li, M. Sun, and J. Zhou, “MoEfication:
+Transformer Feed-forward Layers are Mixtures of Experts,” in
+Findings of the Association for Computational Linguistics: ACL 2022,
+2022, pp. 877–890.
+[49]
+L.-M. Team, “LLaMA-MoE: Building Mixture-of-Experts from
+LLaMA
+with
+Continual
+Pre-training,”
+Dec
+2023.
+[Online].
+Available: https://github.com/pjlab-sys4nlp/llama-moe
+[50]
+F. Xue, X. He, X. Ren, Y. Lou, and Y. You, “One student
+knows all experts know: From sparse to dense,” arXiv preprint
+arXiv:2201.10890, 2022.
+[51]
+T. Chen, S. Huang, Y. Xie, B. Jiao, D. Jiang, H. Zhou, J. Li,
+and F. Wei, “Task-specific expert pruning for sparse mixture-of-
+experts,” arXiv preprint arXiv:2206.00277, 2022.
+[52]
+S. Sukhbaatar, O. Golovneva, V. Sharma, H. Xu, X. V. Lin,
+B. Rozi`ere, J. Kahn, D. Li, W.-t. Yih, J. Weston et al., “Branch-Train-
+MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM,” arXiv
+preprint arXiv:2403.07816, 2024.
+[53]
+W. Chen, Y. Zhou, N. Du, Y. Huang, J. Laudon, Z. Chen,
+and C. Cui, “Lifelong language pretraining with distribution-
+specialized experts,” in International Conference on Machine Learn-
+ing.
+PMLR, 2023, pp. 5383–5395.
+[54]
+S. Antoniak, S. Jaszczur, M. Krutul, M. Pi´oro, J. Krajewski,
+J. Ludziejewski, T. Odrzyg´o´zd´z, and M. Cygan, “Mixture of
+Tokens: Efficient LLMs through Cross-Example Aggregation,”
+arXiv preprint arXiv:2310.15961, 2023.
+[55]
+D. Raposo, S. Ritter, B. Richards, T. Lillicrap, P. C. Humphreys,
+and A. Santoro, “Mixture-of-Depths: Dynamically allocating
+compute in transformer-based language models,” arXiv preprint
+arXiv:2404.02258, 2024.
+[56]
+F. Xue, Z. Shi, F. Wei, Y. Lou, Y. Liu, and Y. You, “Go wider instead
+of deeper,” in Proceedings of the AAAI Conference on Artificial
+Intelligence, vol. 36, no. 8, 2022, pp. 8779–8787.
+[57]
+S. Tan, Y. Shen, Z. Chen, A. Courville, and C. Gan, “Sparse
+Universal Transformer,” in Proceedings of the 2023 Conference on
+Empirical Methods in Natural Language Processing, 2023, pp. 169–
+179.
+[58]
+J.-Y. Choi, J. Kim, J.-H. Park, W.-L. Mok, and S. Lee, “SMoP:
+Towards Efficient and Effective Prompt Tuning with Sparse
+Mixture-of-Prompts,” in The 2023 Conference on Empirical Methods
+in Natural Language Processing, 2023.
+[59]
+J. Ma, Z. Zhao, X. Yi, J. Chen, L. Hong, and E. H. Chi, “Modeling
+task relationships in multi-task learning with multi-gate mixture-
+of-experts,” in Proceedings of the 24th ACM SIGKDD international
+conference on knowledge discovery & data mining, 2018, pp. 1930–
+1939.
+[60]
+X. Nie, X. Miao, S. Cao, L. Ma, Q. Liu, J. Xue, Y. Miao, Y. Liu,
+Z. Yang, and B. Cui, “Evomoe: An evolutional mixture-of-experts
+training framework via dense-to-sparse gate,” arXiv preprint
+arXiv:2112.14397, 2021.
+[61]
+X. Wu, S. Huang, and F. Wei, “MoLE: Mixture of LoRA Experts,”
+in The Twelfth International Conference on Learning Representations,
+2023.
+[62]
+B. Pan, Y. Shen, H. Liu, M. Mishra, G. Zhang, A. Oliva, C. Raffel,
+and R. Panda, “Dense Training, Sparse Inference: Rethinking
+Training of Mixture-of-Experts Language Models,” arXiv preprint
+arXiv:2404.05567, 2024.
+[63]
+A. Clark, D. de Las Casas, A. Guy, A. Mensch, M. Paganini,
+J. Hoffmann, B. Damoc, B. Hechtman, T. Cai, S. Borgeaud et al.,
+“Unified scaling laws for routed language models,” in Interna-
+tional conference on machine learning.
+PMLR, 2022, pp. 4057–4086.
+[64]
+S. Rajbhandari, C. Li, Z. Yao, M. Zhang, R. Y. Aminabadi,
+A. A. Awan, J. Rasley, and Y. He, “Deepspeed-moe: Advanc-
+ing mixture-of-experts inference and training to power next-
+generation ai scale,” in International conference on machine learning.
+PMLR, 2022, pp. 18 332–18 346.
+[65]
+T. Wei, B. Zhu, L. Zhao, C. Cheng, B. Li, W. L¨u, P. Cheng, J. Zhang,
+X. Zhang, L. Zeng et al., “Skywork-MoE: A Deep Dive into
+Training Techniques for Mixture-of-Experts Language Models,”
+arXiv preprint arXiv:2406.06563, 2024.
+[66]
+O. Lieber, B. Lenz, H. Bata, G. Cohen, J. Osin, I. Dalmedigos,
+E. Safahi, S. Meirom, Y. Belinkov, S. Shalev-Shwartz et al., “Jamba:
+A hybrid transformer-mamba language model,” arXiv preprint
+arXiv:2403.19887, 2024.
+[67]
+D. Dai, C. Deng, C. Zhao, R. Xu, H. Gao, D. Chen, J. Li, W. Zeng,
+X. Yu, Y. Wu et al., “Deepseekmoe: Towards ultimate expert spe-
+cialization in mixture-of-experts language models,” arXiv preprint
+arXiv:2401.06066, 2024.
+[68]
+A. Yang, J. Lin, R. Men, C. Zhou, L. Jiang, X. Jia, A. Wang,
+J. Zhang, J. Wang, Y. Li et al., “M6-t: Exploring sparse expert
+models and beyond,” arXiv preprint arXiv:2105.15082, 2021.
+[69]
+Z. Chen, Y. Shen, M. Ding, Z. Chen, H. Zhao, E. G. Learned-
+Miller, and C. Gan, “Mod-squad: Designing mixtures of experts
+as modular multi-task learners,” in Proceedings of the IEEE/CVF
+Conference on Computer Vision and Pattern Recognition, 2023, pp.
+11 828–11 837.
+[70]
+D. Dai, L. Dong, S. Ma, B. Zheng, Z. Sui, B. Chang, and F. Wei,
+“StableMoE: Stable Routing Strategy for Mixture of Experts,”
+in Proceedings of the 60th Annual Meeting of the Association for
+Computational Linguistics (Volume 1: Long Papers), 2022, pp. 7085–
+7095.
+[71]
+Y. Shen, Z. Zhang, T. Cao, S. Tan, Z. Chen, and C. Gan, “Mod-
+uleformer: Learning modular large language models from uncu-
+rated data,” arXiv preprint arXiv:2306.04640, 2023.
+[72]
+M. Lewis, S. Bhosale, T. Dettmers, N. Goyal, and L. Zettlemoyer,
+“Base layers: Simplifying training of large, sparse models,” in
+International Conference on Machine Learning.
+PMLR, 2021, pp.
+6265–6274.
+[73]
+H. Hazimeh, Z. Zhao, A. Chowdhery, M. Sathiamoorthy, Y. Chen,
+R. Mazumder, L. Hong, and E. Chi, “Dselect-k: Differentiable
+selection in the mixture of experts with applications to multi-
+task learning,” Advances in Neural Information Processing Systems,
+vol. 34, pp. 29 335–29 347, 2021.
+[74]
+Y. J. Kim, A. A. Awan, A. Muzio, A. F. C. Salinas, L. Lu, A. Hendy,
+S. Rajbhandari, Y. He, and H. H. Awadalla, “Scalable and efficient
+moe training for multitask multilingual models,” arXiv preprint
+arXiv:2109.10465, 2021.
+[75]
+S. Kudugunta, Y. Huang, A. Bapna, M. Krikun, D. Lepikhin, M.-T.
+Luong, and O. Firat, “Beyond Distillation: Task-level Mixture-of-
+Experts for Efficient Inference,” in Findings of the Association for
+Computational Linguistics: EMNLP 2021, 2021, pp. 3577–3599.
+[76]
+M. R. Costa-juss`a, J. Cross, O. C¸ elebi, M. Elbayad, K. Heafield,
+K. Heffernan, E. Kalbassi, J. Lam, D. Licht, J. Maillard et al., “No
+language left behind: Scaling human-centered machine transla-
+tion,” arXiv preprint arXiv:2207.04672, 2022.
+[77]
+Q. Ye, J. Zha, and X. Ren, “Eliciting and Understanding Cross-
+task Skills with Task-level Mixture-of-Experts,” in Findings of the
+Association for Computational Linguistics: EMNLP 2022, 2022, pp.
+2567–2592.
+[78]
+Z. Chi, L. Dong, S. Huang, D. Dai, S. Ma, B. Patra, S. Singhal,
+P. Bajaj, X. Song, X.-L. Mao et al., “On the representation collapse
+of sparse mixture of experts,” Advances in Neural Information
+Processing Systems, vol. 35, pp. 34 600–34 613, 2022.
+[79]
+J. Zhu, X. Zhu, W. Wang, X. Wang, H. Li, X. Wang, and J. Dai,
+“Uni-perceiver-moe: Learning sparse generalist models with con-
+ditional moes,” Advances in Neural Information Processing Systems,
+vol. 35, pp. 2664–2678, 2022.
+[80]
+X. Zhang, Y. Shen, Z. Huang, J. Zhou, W. Rong, and Z. Xiong,
+“Mixture of Attention Heads: Selecting Attention Heads Per
+Token,” in Proceedings of the 2022 Conference on Empirical Methods
+in Natural Language Processing, 2022, pp. 4150–4162.
+[81]
+Y. Shen, Z. Guo, T. Cai, and Z. Qin, “JetMoE: Reaching Llama2
+Performance with 0.1 M Dollars,” arXiv preprint arXiv:2404.07413,
+2024.
+[82]
+S. Wu, J. Luo, X. Chen, L. Li, X. Zhao, T. Yu, C. Wang, Y. Wang,
+F. Wang, W. Qiao et al., “Yuan 2.0-M32: Mixture of Experts with
+Attention Router,” arXiv preprint arXiv:2405.17976, 2024.
+[83]
+Z. Zeng, Y. Miao, H. Gao, H. Zhang, and Z. Deng, “Adamoe:
+Token-adaptive routing with null experts for mixture-of-experts
+language models,” arXiv preprint arXiv:2406.13233, 2024.
+[84]
+C. Shi, C. Yang, X. Zhu, J. Wang, T. Wu, S. Li, D. Cai, Y. Yang, and
+Y. Meng, “Unchosen experts can contribute too: Unleashing moe
+models’ power by self-contrast,” arXiv preprint arXiv:2405.14507,
+2024.
+
+JOURNAL OF LATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015
+26
+[85]
+Y. Guo, Z. Cheng, X. Tang, and T. Lin, “Dynamic mixture of
+experts: An auto-tuning approach for efficient transformer mod-
+els,” arXiv preprint arXiv:2405.14297, 2024.
+[86]
+R. Cai, S. Muralidharan, G. Heinrich, H. Yin, Z. Wang, J. Kautz,
+and P. Molchanov, “Flextron: Many-in-one flexible large language
+model,” in Forty-first International Conference on Machine Learning.
+[87]
+S. Roller, S. Sukhbaatar, J. Weston et al., “Hash layers for large
+sparse models,” Advances in Neural Information Processing Systems,
+vol. 34, pp. 17 555–17 566, 2021.
+[88]
+S. Zuo, X. Liu, J. Jiao, Y. J. Kim, H. Hassan, R. Zhang, J. Gao, and
+T. Zhao, “Taming Sparsely Activated Transformer with Stochastic
+Experts,” in International Conference on Learning Representations,
+2021.
+[89]
+S. Gururangan, M. Lewis, A. Holtzman, N. A. Smith, and
+L. Zettlemoyer, “DEMix Layers: Disentangling Domains for Mod-
+ular Language Modeling,” in Proceedings of the 2022 Conference
+of the North American Chapter of the Association for Computational
+Linguistics: Human Language Technologies, 2022, pp. 5557–5576.
+[90]
+A. Fan, S. Bhosale, H. Schwenk, Z. Ma, A. El-Kishky, S. Goyal,
+M. Baines, O. Celebi, G. Wenzek, V. Chaudhary et al., “Beyond
+english-centric multilingual machine translation,” Journal of Ma-
+chine Learning Research, vol. 22, no. 107, pp. 1–48, 2021.
+[91]
+X. Ren, P. Zhou, X. Meng, X. Huang, Y. Wang, W. Wang, P. Li,
+X. Zhang, A. Podolskiy, G. Arshinov et al., “Pangu-Σ: Towards
+trillion parameter language model with sparse heterogeneous
+computing,” arXiv preprint arXiv:2303.10845, 2023.
+[92]
+Y. Zhou, T. Lei, H. Liu, N. Du, Y. Huang, V. Zhao, A. M.
+Dai, Q. V. Le, J. Laudon et al., “Mixture-of-experts with expert
+choice routing,” Advances in Neural Information Processing Systems,
+vol. 35, pp. 7103–7114, 2022.
+[93]
+Y. Zhou, N. Du, Y. Huang, D. Peng, C. Lan, D. Huang, S. Shakeri,
+D. So, A. M. Dai, Y. Lu et al., “Brainformers: Trading simplicity
+for efficiency,” in International Conference on Machine Learning.
+PMLR, 2023, pp. 42 531–42 542.
+[94]
+D. H. Dat, P. Y. Mao, T. H. Nguyen, W. Buntine, and M. Ben-
+namoun, “HOMOE: A Memory-Based and Composition-Aware
+Framework for Zero-Shot Learning with Hopfield Network and
+Soft Mixture of Experts,” arXiv preprint arXiv:2311.14747, 2023.
+[95]
+S. He, R.-Z. Fan, L. Ding, L. Shen, T. Zhou, and D. Tao, “Merging
+experts into one: Improving computational efficiency of mixture
+of experts,” in Proceedings of the 2023 Conference on Empirical
+Methods in Natural Language Processing, 2023, pp. 14 685–14 691.
+[96]
+Z. Zhang, Z. Zeng, Y. Lin, C. Xiao, X. Wang, X. Han, Z. Liu,
+R. Xie, M. Sun, and J. Zhou, “Emergent modularity in pre-trained
+transformers,” in Findings of the Association for Computational
+Linguistics: ACL 2023, 2023, pp. 4066–4083.
+[97]
+M. N. R. Chowdhury, S. Zhang, M. Wang, S. Liu, and P.-Y. Chen,
+“Patch-level routing in mixture-of-experts is provably sample-
+efficient for convolutional neural networks,” in International Con-
+ference on Machine Learning.
+PMLR, 2023, pp. 6074–6114.
+[98]
+Y. Zhang, R. Cai, T. Chen, G. Zhang, H. Zhang, P.-Y. Chen,
+S. Chang, Z. Wang, and S. Liu, “Robust Mixture-of-Expert Train-
+ing for Convolutional Neural Networks,” in Proceedings of the
+IEEE/CVF International Conference on Computer Vision, 2023, pp.
+90–101.
+[99]
+Z. Chen, Y. Deng, Y. Wu, Q. Gu, and Y. Li, “Towards under-
+standing mixture of experts in deep learning,” arXiv preprint
+arXiv:2208.02813, 2022.
+[100] X. Wang, F. Yu, L. Dunlap, Y.-A. Ma, R. Wang, A. Mirhoseini,
+T. Darrell, and J. E. Gonzalez, “Deep mixture of experts via shal-
+low embedding,” in Uncertainty in artificial intelligence.
+PMLR,
+2020, pp. 552–562.
+[101] M. Artetxe, S. Bhosale, N. Goyal, T. Mihaylov, M. Ott, S. Shleifer,
+X. V. Lin, J. Du, S. Iyer, R. Pasunuru et al., “Efficient large
+scale language modeling with mixtures of experts,” arXiv preprint
+arXiv:2112.10684, 2021.
+[102] Q. Team, “Qwen1.5-MoE: Matching 7B Model Performance with
+1/3 Activated Parameters”,” February 2024. [Online]. Available:
+https://qwenlm.github.io/blog/qwen-moe/
+[103] X. O. He, “Mixture of a million experts,” arXiv preprint
+arXiv:2407.04153, 2024.
+[104] B. Lin, Z. Tang, Y. Ye, J. Cui, B. Zhu, P. Jin, J. Zhang, M. Ning, and
+L. Yuan, “Moe-llava: Mixture of experts for large vision-language
+models,” arXiv preprint arXiv:2401.15947, 2024.
+[105] X. Glorot, A. Bordes, and Y. Bengio, “Deep sparse rectifier neural
+networks,” in Proceedings of the fourteenth international conference
+on artificial intelligence and statistics.
+JMLR Workshop and Con-
+ference Proceedings, 2011, pp. 315–323.
+[106] D. Hendrycks and K. Gimpel, “Gaussian error linear units
+(gelus),” arXiv preprint arXiv:1606.08415, 2016.
+[107] N. Shazeer, “Glu variants improve transformer,” arXiv preprint
+arXiv:2002.05202, 2020.
+[108] W. Cai, J. Jiang, L. Qin, J. Cui, S. Kim, and J. Huang,
+“Shortcut-connected Expert Parallelism for Accelerating Mixture-
+of-Experts,” arXiv preprint arXiv:2404.05019, 2024.
+[109] S. He, L. Ding, D. Dong, B. Liu, F. Yu, and D. Tao, “Pad-net: An
+efficient framework for dynamic networks,” in Proceedings of the
+61st Annual Meeting of the Association for Computational Linguistics
+(Volume 1: Long Papers), 2023, pp. 14 354–14 366.
+[110] H. Zhao, Z. Qiu, H. Wu, Z. Wang, Z. He, and J. Fu, “Hyper-
+moe: Towards better mixture of experts via transferring among
+experts,” arXiv preprint arXiv:2402.12656, 2024.
+[111] S. Diao, T. Xu, R. Xu, J. Wang, and T. Zhang, “Mixture-of-Domain-
+Adapters: Decoupling and Injecting Domain Knowledge to Pre-
+trained Language Models’ Memories,” in The 61st Annual Meeting
+Of The Association For Computational Linguistics, 2023.
+[112] D. Li, Y. Ma, N. Wang, Z. Cheng, L. Duan, J. Zuo, C. Yang,
+and M. Tang, “MixLoRA: Enhancing Large Language Models
+Fine-Tuning with LoRA based Mixture of Experts,” arXiv preprint
+arXiv:2404.15159, 2024.
+[113] S. Chen, Z. Jie, and L. Ma, “Llava-mole: Sparse mixture of lora
+experts for mitigating data conflicts in instruction finetuning
+mllms,” arXiv preprint arXiv:2401.16160, 2024.
+[114] Y. Zhu, N. Wichers, C.-C. Lin, X. Wang, T. Chen, L. Shu, H. Lu,
+C. Liu, L. Luo, J. Chen et al., “Sira: Sparse mixture of low rank
+adaptation,” arXiv preprint arXiv:2311.09179, 2023.
+[115] Y. Mao, L. Mathias, R. Hou, A. Almahairi, H. Ma, J. Han, S. Yih,
+and M. Khabsa, “UniPELT: A Unified Framework for Parameter-
+Efficient Language Model Tuning,” in Proceedings of the 60th
+Annual Meeting of the Association for Computational Linguistics
+(Volume 1: Long Papers), 2022, pp. 6253–6264.
+[116] C. Gao, K. Chen, J. Rao, B. Sun, R. Liu, D. Peng, Y. Zhang, X. Guo,
+J. Yang, and V. Subrahmanian, “Higher Layers Need More LoRA
+Experts,” arXiv preprint arXiv:2402.08562, 2024.
+[117] Q.
+Liu,
+X.
+Wu,
+X.
+Zhao,
+Y.
+Zhu,
+D.
+Xu,
+F.
+Tian,
+and
+Y. Zheng, “Moelora: An moe-based parameter efficient fine-
+tuning method for multi-task medical applications,” arXiv
+preprint arXiv:2310.18339, 2023.
+[118] Y. Liu, R. Zhang, H. Yang, K. Keutzer, Y. Du, L. Du, and S. Zhang,
+“Intuition-aware Mixture-of-Rank-1-Experts for Parameter Effi-
+cient Finetuning,” arXiv preprint arXiv:2404.08985, 2024.
+[119] J. Xu, J. Lai, and Y. Huang, “Meteora: Multiple-tasks embedded
+lora for large language models,” arXiv preprint arXiv:2405.13053,
+2024.
+[120] L. Wu, M. Liu, Y. Chen, D. Chen, X. Dai, and L. Yuan, “Residual
+mixture of experts,” arXiv preprint arXiv:2204.09636, 2022.
+[121] D. Dua, S. Bhosale, V. Goswami, J. Cross, M. Lewis, and A. Fan,
+“Tricks for Training Sparse Translation Models,” in Proceedings of
+the 2022 Conference of the North American Chapter of the Association
+for Computational Linguistics: Human Language Technologies, 2022,
+pp. 3340–3345.
+[122] T. Chen, Z. Zhang, A. K. JAISWAL, S. Liu, and Z. Wang, “Sparse
+MoE as the New Dropout: Scaling Dense and Self-Slimmable
+Transformers,” in The Eleventh International Conference on Learning
+Representations, 2022.
+[123] S. Zuo, Q. Zhang, C. Liang, P. He, T. Zhao, and W. Chen, “MoE-
+BERT: from BERT to Mixture-of-Experts via Importance-Guided
+Adaptation,” in Proceedings of the 2022 Conference of the North
+American Chapter of the Association for Computational Linguistics:
+Human Language Technologies, 2022, pp. 1610–1623.
+[124] Z. Qiu, Z. Huang, and J. Fu, “Unlocking emergent modularity
+in large language models,” in Proceedings of the 2024 Conference
+of the North American Chapter of the Association for Computational
+Linguistics: Human Language Technologies (Volume 1: Long Papers),
+2024, pp. 2638–2660.
+[125] Y. Huang, P. Ye, X. Huang, S. Li, T. Chen, and W. Ouyang,
+“Experts weights averaging: A new general training scheme for
+vision transformers,” arXiv preprint arXiv:2308.06093, 2023.
+[126] S. He, D. Dong, L. Ding, and A. Li, “Demystifying the compres-
+sion of mixture-of-experts through a unified framework,” arXiv
+preprint arXiv:2406.02500, 2024.
+[127] M. Li, S. Gururangan, T. Dettmers, M. Lewis, T. Althoff, N. A.
+Smith, and L. Zettlemoyer, “Branch-Train-Merge: Embarrassingly
+
+JOURNAL OF LATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015
+27
+Parallel Training of Expert Language Models,” in First Workshop
+on Interpolation Regularizers and Beyond at NeurIPS 2022, 2022.
+[128] H. Wang, F. M. Polo, Y. Sun, S. Kundu, E. Xing, and M. Yurochkin,
+“Fusing Models with Complementary Expertise,” in The Twelfth
+International Conference on Learning Representations, 2023.
+[129] J. He, J. Qiu, A. Zeng, Z. Yang, J. Zhai, and J. Tang, “Fast-
+moe: A fast mixture-of-expert training system,” arXiv preprint
+arXiv:2103.13262, 2021.
+[130] C. Hwang, W. Cui, Y. Xiong, Z. Yang, Z. Liu, H. Hu, Z. Wang,
+R. Salas, J. Jose, P. Ram et al., “Tutel: Adaptive mixture-of-experts
+at scale,” Proceedings of Machine Learning and Systems, vol. 5, 2023.
+[131] L. Shen, Z. Wu, W. Gong, H. Hao, Y. Bai, H. Wu, X. Wu,
+J. Bian, H. Xiong, D. Yu et al., “Se-moe: A scalable and efficient
+mixture-of-experts distributed training and inference system,”
+arXiv preprint arXiv:2205.10034, 2022.
+[132] J. He, J. Zhai, T. Antunes, H. Wang, F. Luo, S. Shi, and Q. Li,
+“Fastermoe: modeling and optimizing training of large-scale
+dynamic pre-trained models,” in Proceedings of the 27th ACM SIG-
+PLAN Symposium on Principles and Practice of Parallel Programming,
+2022, pp. 120–134.
+[133] S. Singh, O. Ruwase, A. A. Awan, S. Rajbhandari, Y. He, and
+A. Bhatele, “A Hybrid Tensor-Expert-Data Parallelism Approach
+to Optimize Mixture-of-Experts Training,” in Proceedings of the
+37th International Conference on Supercomputing, 2023, pp. 203–214.
+[134] X. Nie, P. Zhao, X. Miao, T. Zhao, and B. Cui, “HetuMoE:
+An efficient trillion-scale mixture-of-expert distributed training
+system,” arXiv preprint arXiv:2203.14685, 2022.
+[135] X. Nie, X. Miao, Z. Wang, Z. Yang, J. Xue, L. Ma, G. Cao, and
+B. Cui, “Flexmoe: Scaling large-scale sparse pre-trained model
+training via dynamic device placement,” Proceedings of the ACM
+on Management of Data, vol. 1, no. 1, pp. 1–19, 2023.
+[136] M. Zhai, J. He, Z. Ma, Z. Zong, R. Zhang, and J. Zhai,
+“{SmartMoE}: Efficiently Training {Sparsely-Activated} Models
+through Combining Offline and Online Parallelization,” in 2023
+USENIX Annual Technical Conference (USENIX ATC 23), 2023, pp.
+961–975.
+[137] T. Gale, D. Narayanan, C. Young, and M. Zaharia, “Megablocks:
+Efficient sparse training with mixture-of-experts,” Proceedings of
+Machine Learning and Systems, vol. 5, 2023.
+[138] S. Tan, Y. Shen, R. Panda, and A. Courville, “Scattered Mixture-of-
+Experts Implementation,” arXiv preprint arXiv:2403.08245, 2024.
+[139] N. Zheng, H. Jiang, Q. Zhang, Z. Han, L. Ma, Y. Yang, F. Yang,
+C. Zhang, L. Qiu, M. Yang et al., “Pit: Optimization of dynamic
+sparse deep learning models via permutation invariant transfor-
+mation,” in Proceedings of the 29th Symposium on Operating Systems
+Principles, 2023, pp. 331–347.
+[140] J. Yao, Q. Anthony, A. Shafi, H. Subramoni et al., “Exploiting
+Inter-Layer Expert Affinity for Accelerating Mixture-of-Experts
+Model Inference,” arXiv preprint arXiv:2401.08383, 2024.
+[141] C. Chen, M. Li, Z. Wu, D. Yu, and C. Yang, “Ta-moe: Topology-
+aware large scale mixture-of-expert training,” Advances in Neural
+Information Processing Systems, vol. 35, pp. 22 173–22 186, 2022.
+[142] Z. Zhang, Y. Xia, H. Wang, D. Yang, C. Hu, X. Zhou, and
+D. Cheng, “MPMoE: Memory Efficient MoE for Pre-trained Mod-
+els with Adaptive Pipeline Parallelism,” IEEE Transactions on
+Parallel and Distributed Systems, 2024.
+[143] C. Jiang, Y. Tian, Z. Jia, S. Zheng, C. Wu, and Y. Wang, “Lancet:
+Accelerating Mixture-of-Experts Training via Whole Graph
+Computation-Communication
+Overlapping,”
+arXiv
+preprint
+arXiv:2404.19429, 2024.
+[144] S. Shi, X. Pan, X. Chu, and B. Li, “Pipemoe: Accelerating mixture-
+of-experts through adaptive pipelining,” in IEEE INFOCOM
+2023-IEEE Conference on Computer Communications.
+IEEE, 2023,
+pp. 1–10.
+[145] S. Shi, X. Pan, Q. Wang, C. Liu, X. Ren, Z. Hu, Y. Yang, B. Li, and
+X. Chu, “Schemoe: An extensible mixture-of-experts distributed
+training system with tasks scheduling,” in Proceedings of the
+Nineteenth European Conference on Computer Systems, 2024, pp.
+236–249.
+[146] K. Punniyamurthy, K. Hamidouche, and B. M. Beckmann, “Op-
+timizing distributed ml communication with fused computation-
+collective operations,” arXiv preprint arXiv:2305.06942, 2023.
+[147] R. Hwang, J. Wei, S. Cao, C. Hwang, X. Tang, T. Cao, M. Yang,
+and M. Rhu, “Pre-gated MoE: An Algorithm-System Co-Design
+for Fast and Scalable Mixture-of-Expert Inference,” arXiv preprint
+arXiv:2308.12066, 2023.
+[148] R. Yi, L. Guo, S. Wei, A. Zhou, S. Wang, and M. Xu, “Edgemoe:
+Fast on-device inference of moe-based large language models,”
+arXiv preprint arXiv:2308.14352, 2023.
+[149] Y. Du, S. Zhao, D. Zhao, M. Ma, Y. Chen, L. Huo, Q. Yang,
+D. Xu, and B. Qin, “Mogu: A framework for enhancing safety
+of open-sourced llms while preserving their usability,” arXiv
+preprint arXiv:2405.14488, 2024.
+[150] H. Tang, J. Liu, M. Zhao, and X. Gong, “Progressive layered
+extraction (ple): A novel multi-task learning (mtl) model for
+personalized recommendations,” in Proceedings of the 14th ACM
+Conference on Recommender Systems, 2020, pp. 269–278.
+[151] J. Jiang, P. Zhang, Y. Luo, C. Li, J. B. Kim, K. Zhang, S. Wang,
+X. Xie, and S. Kim, “AdaMCT: adaptive mixture of CNN-
+transformer for sequential recommendation,” in Proceedings of the
+32nd ACM International Conference on Information and Knowledge
+Management, 2023, pp. 976–986.
+[152] Z. Zhang, S. Liu, J. Yu, Q. Cai, X. Zhao, C. Zhang, Z. Liu, Q. Liu,
+H. Zhao, L. Hu et al., “M3oe: Multi-domain multi-task mixture-of
+experts recommendation framework,” in Proceedings of the 47th
+International ACM SIGIR Conference on Research and Development
+in Information Retrieval, 2024, pp. 893–902.
+[153] B.
+Mustafa,
+C.
+Riquelme,
+J.
+Puigcerver,
+R.
+Jenatton,
+and
+N. Houlsby, “Multimodal contrastive learning with limoe: the
+language-image mixture of experts,” Advances in Neural Informa-
+tion Processing Systems, vol. 35, pp. 9564–9576, 2022.
+[154] S. Shen, Z. Yao, C. Li, T. Darrell, K. Keutzer, and Y. He, “Scaling
+vision-language models with sparse mixture of experts,” arXiv
+preprint arXiv:2303.07226, 2023.
+[155] Y. Li, B. Hui, Z. Yin, M. Yang, F. Huang, and Y. Li, “Pace:
+Unified multi-modal dialogue pre-training with progressive and
+compositional experts,” in Proceedings of the 61st Annual Meeting
+of the Association for Computational Linguistics (Volume 1: Long
+Papers), 2023, pp. 13 402–13 416.
+[156] Y. Li, S. Jiang, B. Hu, L. Wang, W. Zhong, W. Luo, L. Ma, and
+M. Zhang, “Uni-MoE: Scaling Unified Multimodal LLMs with
+Mixture of Experts,” arXiv preprint arXiv:2405.11273, 2024.
+[157] B. McKinzie, Z. Gan, J.-P. Fauconnier, S. Dodge, B. Zhang,
+P. Dufter, D. Shah, X. Du, F. Peng, F. Weers et al., “Mm1: Methods,
+analysis & insights from multimodal llm pre-training,” arXiv
+preprint arXiv:2403.09611, 2024.
+[158] A. Q. Jiang, A. Sablayrolles, A. Mensch, C. Bamford, D. S. Chap-
+lot, D. d. l. Casas, F. Bressand, G. Lengyel, G. Lample, L. Saulnier
+et al., “Mistral 7B,” arXiv preprint arXiv:2310.06825, 2023.
+[159] H. Touvron, L. Martin, K. Stone, P. Albert, A. Almahairi,
+Y. Babaei, N. Bashlykov, S. Batra, P. Bhargava, S. Bhosale et al.,
+“Llama 2: Open foundation and fine-tuned chat models,” arXiv
+preprint arXiv:2307.09288, 2023.
+[160] OpenAI, “Chatgpt: Optimizing language models for dialogue,”
+https://openai.com/blog/chatgpt, 2022.
+[161] X. Bi, D. Chen, G. Chen, S. Chen, D. Dai, C. Deng, H. Ding,
+K. Dong, Q. Du, Z. Fu et al., “Deepseek llm: Scaling open-
+source language models with longtermism,” arXiv preprint
+arXiv:2401.02954, 2024.
+[162] Q. Team, “Introducing Qwen1.5,” February 2024. [Online].
+Available: https://qwenlm.github.io/blog/qwen1.5/
+[163] Y. Bengio, N. L´eonard, and A. Courville, “Estimating or prop-
+agating gradients through stochastic neurons for conditional
+computation,” arXiv preprint arXiv:1308.3432, 2013.
+[164] A. Davis and I. Arel, “Low-rank approximations for condi-
+tional feedforward computation in deep neural networks,” arXiv
+preprint arXiv:1312.4461, 2013.
+[165] A. Almahairi, N. Ballas, T. Cooijmans, Y. Zheng, H. Larochelle,
+and A. Courville, “Dynamic capacity networks,” in International
+Conference on Machine Learning.
+PMLR, 2016, pp. 2549–2558.
+[166] E. Bengio, P.-L. Bacon, J. Pineau, and D. Precup, “Conditional
+computation in neural networks for faster models,” arXiv preprint
+arXiv:1511.06297, 2015.
+[167] C. Rosenbaum, T. Klinger, and M. Riemer, “Routing networks:
+Adaptive selection of non-linear functions for multi-task learn-
+ing,” arXiv preprint arXiv:1711.01239, 2017.
+[168] C. Rosenbaum, I. Cases, M. Riemer, and T. Klinger, “Routing
+networks and the challenges of modular and compositional
+computation,” arXiv preprint arXiv:1904.12774, 2019.
+[169] C. Raffel, N. Shazeer, A. Roberts, K. Lee, S. Narang, M. Matena,
+Y. Zhou, W. Li, and P. J. Liu, “Exploring the limits of transfer
+learning with a unified text-to-text transformer,” Journal of ma-
+chine learning research, vol. 21, no. 140, pp. 1–67, 2020.
+
+JOURNAL OF LATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015
+28
+[170] Z. Li, C. You, S. Bhojanapalli, D. Li, A. S. Rawat, S. J. Reddi, K. Ye,
+F. Chern, F. Yu, R. Guo et al., “The lazy neuron phenomenon: On
+emergence of activation sparsity in transformers,” arXiv preprint
+arXiv:2210.06313, 2022.
+[171] S. Gross, M. Ranzato, and A. Szlam, “Hard mixtures of experts
+for large scale weakly supervised vision,” in Proceedings of the
+IEEE Conference on Computer Vision and Pattern Recognition, 2017,
+pp. 6865–6873.
+[172] E. J. Hu, P. Wallis, Z. Allen-Zhu, Y. Li, S. Wang, L. Wang, W. Chen
+et al., “LoRA: Low-Rank Adaptation of Large Language Models,”
+in International Conference on Learning Representations, 2021.
+[173] N. Muennighoff, L. Soldaini, D. Groeneveld, K. Lo, J. Morrison,
+S. Min, W. Shi, P. Walsh, O. Tafjord, N. Lambert et al., “Ol-
+moe: Open mixture-of-experts language models,” arXiv preprint
+arXiv:2409.02060, 2024.
+[174] A. Liu, B. Feng, B. Xue, B. Wang, B. Wu, C. Lu, C. Zhao, C. Deng,
+C. Zhang, C. Ruan et al., “Deepseek-v3 technical report,” arXiv
+preprint arXiv:2412.19437, 2024.
+[175] G. Lample, A. Sablayrolles, M. Ranzato, L. Denoyer, and
+H. J´egou, “Large memory layers with product keys,” Advances
+in Neural Information Processing Systems, vol. 32, 2019.
+[176] A. Gu and T. Dao, “Mamba: Linear-time sequence modeling with
+selective state spaces,” arXiv preprint arXiv:2312.00752, 2023.
+[177] D. Hendrycks, C. Burns, S. Basart, A. Zou, M. Mazeika, D. Song,
+and J. Steinhardt, “Measuring massive multitask language un-
+derstanding,” arXiv preprint arXiv:2009.03300, 2020.
+[178] K. Cobbe, V. Kosaraju, M. Bavarian, M. Chen, H. Jun, L. Kaiser,
+M. Plappert, J. Tworek, J. Hilton, R. Nakano et al., “Train-
+ing verifiers to solve math word problems,” arXiv preprint
+arXiv:2110.14168, 2021.
+[179] D. Hendrycks, C. Burns, S. Kadavath, A. Arora, S. Basart, E. Tang,
+D. Song, and J. Steinhardt, “Measuring mathematical problem
+solving with the math dataset,” arXiv preprint arXiv:2103.03874,
+2021.
+[180] M. Chen, J. Tworek, H. Jun, Q. Yuan, H. P. d. O. Pinto, J. Kaplan,
+H. Edwards, Y. Burda, N. Joseph, G. Brockman et al., “Eval-
+uating large language models trained on code,” arXiv preprint
+arXiv:2107.03374, 2021.
+[181] J. Devlin, M.-W. Chang, K. Lee, and K. Toutanova, “Bert: Pre-
+training of deep bidirectional transformers for language under-
+standing,” arXiv preprint arXiv:1810.04805, 2018.
+[182] B. Zhang and R. Sennrich, “Root mean square layer normaliza-
+tion,” Advances in Neural Information Processing Systems, vol. 32,
+2019.
+[183] J. Ainslie, J. Lee-Thorp, M. de Jong, Y. Zemlyanskiy, F. Lebron,
+and S. Sanghai, “GQA: Training Generalized Multi-Query Trans-
+former Models from Multi-Head Checkpoints,” in Proceedings
+of the 2023 Conference on Empirical Methods in Natural Language
+Processing, 2023, pp. 4895–4901.
+[184] J. Su, M. Ahmed, Y. Lu, S. Pan, W. Bo, and Y. Liu, “Roformer:
+Enhanced transformer with rotary position embedding,” Neuro-
+computing, vol. 568, p. 127063, 2024.
+[185] N. Ding, Y. Qin, G. Yang, F. Wei, Z. Yang, Y. Su, S. Hu, Y. Chen, C.-
+M. Chan, W. Chen et al., “Delta tuning: A comprehensive study
+of parameter efficient methods for pre-trained language models,”
+arXiv preprint arXiv:2203.06904, 2022.
+[186] Z. Han, C. Gao, J. Liu, S. Q. Zhang et al., “Parameter-efficient fine-
+tuning for large models: A comprehensive survey,” arXiv preprint
+arXiv:2403.14608, 2024.
+[187] V. Lialin, V. Deshpande, and A. Rumshisky, “Scaling down
+to scale up: A guide to parameter-efficient fine-tuning,” arXiv
+preprint arXiv:2303.15647, 2023.
+[188] H. Liu, D. Tam, M. Muqeeth, J. Mohta, T. Huang, M. Bansal,
+and C. A. Raffel, “Few-shot parameter-efficient fine-tuning is
+better and cheaper than in-context learning,” Advances in Neural
+Information Processing Systems, vol. 35, pp. 1950–1965, 2022.
+[189] O. Ostapenko, L. Caccia, Z. Su, N. Le Roux, L. Charlin, and
+A. Sordoni, “A Case Study of Instruction Tuning with Mixture
+of Parameter-Efficient Experts,” in NeurIPS 2023 Workshop on
+Instruction Tuning and Instruction Following, 2023.
+[190] N. Houlsby, A. Giurgiu, S. Jastrzebski, B. Morrone, Q. De Larous-
+silhe, A. Gesmundo, M. Attariyan, and S. Gelly, “Parameter-
+efficient transfer learning for NLP,” in International Conference on
+Machine Learning.
+PMLR, 2019, pp. 2790–2799.
+[191] X. L. Li and P. Liang, “Prefix-Tuning: Optimizing Continuous
+Prompts for Generation,” in Proceedings of the 59th Annual Meeting
+of the Association for Computational Linguistics and the 11th Interna-
+tional Joint Conference on Natural Language Processing (Volume 1:
+Long Papers), 2021, pp. 4582–4597.
+[192] T. Chen, Z. Zhang, A. K. JAISWAL, S. Liu, and Z. Wang,
+“Sparse
+MoE
+as
+the
+New
+Dropout:
+Scaling
+Dense
+and
+Self-Slimmable
+Transformers,”
+in
+The
+Eleventh
+International
+Conference on Learning Representations, 2023. [Online]. Available:
+https://openreview.net/forum?id=w1hwFUb 81
+[193] T. Wei, L. Zhao, L. Zhang, B. Zhu, L. Wang, H. Yang, B. Li,
+C. Cheng, W. L¨u, R. Hu et al., “Skywork: A more open bilingual
+foundation model,” arXiv preprint arXiv:2310.19341, 2023.
+[194] J. Kirkpatrick, R. Pascanu, N. Rabinowitz, J. Veness, G. Des-
+jardins, A. A. Rusu, K. Milan, J. Quan, T. Ramalho, A. Grabska-
+Barwinska et al., “Overcoming catastrophic forgetting in neural
+networks,” Proceedings of the national academy of sciences, vol. 114,
+no. 13, pp. 3521–3526, 2017.
+[195] M. Ott, S. Edunov, A. Baevski, A. Fan, S. Gross, N. Ng, D. Grang-
+ier, and M. Auli, “fairseq: A fast, extensible toolkit for sequence
+modeling,” arXiv preprint arXiv:1904.01038, 2019.
+[196] N. Shazeer, Y. Cheng, N. Parmar, D. Tran, A. Vaswani, P. Koanan-
+takool, P. Hawkins, H. Lee, M. Hong, C. Young et al., “Mesh-
+tensorflow: Deep learning for supercomputers,” Advances in neu-
+ral information processing systems, vol. 31, 2018.
+[197] S. Rajbhandari, J. Rasley, O. Ruwase, and Y. He, “Zero: Mem-
+ory optimizations toward training trillion parameter models,”
+in SC20: International Conference for High Performance Computing,
+Networking, Storage and Analysis.
+IEEE, 2020, pp. 1–16.
+[198] J. Ren, S. Rajbhandari, R. Y. Aminabadi, O. Ruwase, S. Yang,
+M. Zhang, D. Li, and Y. He, “{Zero-offload}: Democratizing
+{billion-scale} model training,” in 2021 USENIX Annual Technical
+Conference (USENIX ATC 21), 2021, pp. 551–564.
+[199] S. Rajbhandari, O. Ruwase, J. Rasley, S. Smith, and Y. He, “Zero-
+infinity: Breaking the gpu memory wall for extreme scale deep
+learning,” in Proceedings of the international conference for high
+performance computing, networking, storage and analysis, 2021, pp.
+1–14.
+[200] Z. Ma, J. He, J. Qiu, H. Cao, Y. Wang, Z. Sun, L. Zheng,
+H. Wang, S. Tang, T. Zheng et al., “BaGuaLu: targeting brain scale
+pretrained models with over 37 million cores,” in Proceedings of
+the 27th ACM SIGPLAN Symposium on Principles and Practice of
+Parallel Programming, 2022, pp. 192–204.
+[201] L. Zheng, Z. Li, H. Zhang, Y. Zhuang, Z. Chen, Y. Huang,
+Y. Wang, Y. Xu, D. Zhuo, E. P. Xing et al., “Alpa: Automating inter-
+and {Intra-Operator} parallelism for distributed deep learning,”
+in 16th USENIX Symposium on Operating Systems Design and
+Implementation (OSDI 22), 2022, pp. 559–578.
+[202] M. Shoeybi, M. Patwary, R. Puri, P. LeGresley, J. Casper, and
+B. Catanzaro, “Megatron-lm: Training multi-billion parame-
+ter language models using model parallelism,” arXiv preprint
+arXiv:1909.08053, 2019.
+[203] S. Smith, M. Patwary, B. Norick, P. LeGresley, S. Rajbhandari,
+J. Casper, Z. Liu, S. Prabhumoye, G. Zerveas, V. Korthikanti et al.,
+“Using deepspeed and megatron to train megatron-turing nlg
+530b, a large-scale generative language model,” arXiv preprint
+arXiv:2201.11990, 2022.
+[204] D. Narayanan, M. Shoeybi, J. Casper, P. LeGresley, M. Pat-
+wary, V. Korthikanti, D. Vainbrand, P. Kashinkunti, J. Bernauer,
+B. Catanzaro et al., “Efficient large-scale language model training
+on gpu clusters using megatron-lm,” in Proceedings of the Inter-
+national Conference for High Performance Computing, Networking,
+Storage and Analysis, 2021, pp. 1–15.
+[205] Y. Huang, Y. Cheng, A. Bapna, O. Firat, D. Chen, M. Chen, H. Lee,
+J. Ngiam, Q. V. Le, Y. Wu et al., “Gpipe: Efficient training of giant
+neural networks using pipeline parallelism,” Advances in neural
+information processing systems, vol. 32, 2019.
+[206] D. Narayanan, A. Harlap, A. Phanishayee, V. Seshadri, N. R. De-
+vanur, G. R. Ganger, P. B. Gibbons, and M. Zaharia, “PipeDream:
+generalized pipeline parallelism for DNN training,” in Proceed-
+ings of the 27th ACM symposium on operating systems principles,
+2019, pp. 1–15.
+[207] P. Qi, X. Wan, G. Huang, and M. Lin, “Zero Bubble Pipeline
+Parallelism,” in The Twelfth International Conference on Learning
+Representations, 2023.
+[208] S. Li, F. Xue, C. Baranwal, Y. Li, and Y. You, “Sequence paral-
+lelism: Long sequence training from system perspective,” arXiv
+preprint arXiv:2105.13120, 2021.
+[209] V. A. Korthikanti, J. Casper, S. Lym, L. McAfee, M. Andersch,
+M. Shoeybi, and B. Catanzaro, “Reducing activation recomputa-
+
+JOURNAL OF LATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015
+29
+tion in large transformer models,” Proceedings of Machine Learning
+and Systems, vol. 5, 2023.
+[210] S. A. Jacobs, M. Tanaka, C. Zhang, M. Zhang, L. Song, S. Rajbhan-
+dari, and Y. He, “Deepspeed ulysses: System optimizations for
+enabling training of extreme long sequence transformer models,”
+arXiv preprint arXiv:2309.14509, 2023.
+[211] A. Dosovitskiy, L. Beyer, A. Kolesnikov, D. Weissenborn, X. Zhai,
+T. Unterthiner, M. Dehghani, M. Minderer, G. Heigold, S. Gelly
+et al., “An image is worth 16x16 words: Transformers for image
+recognition at scale,” arXiv preprint arXiv:2010.11929, 2020.
+[212] Y. Zheng and D. X. Wang, “A survey of recommender systems
+with multi-objective optimization,” Neurocomputing, vol. 474, pp.
+141–153, 2022.
+[213] J. Ngiam, A. Khosla, M. Kim, J. Nam, H. Lee, and A. Y. Ng,
+“Multimodal deep learning,” in Proceedings of the 28th interna-
+tional conference on machine learning (ICML-11), 2011, pp. 689–696.
+[214] T. Baltruˇsaitis, C. Ahuja, and L.-P. Morency, “Multimodal ma-
+chine learning: A survey and taxonomy,” IEEE transactions on
+pattern analysis and machine intelligence, vol. 41, no. 2, pp. 423–443,
+2018.
+[215] S. Uppal, S. Bhagat, D. Hazarika, N. Majumder, S. Poria, R. Zim-
+mermann, and A. Zadeh, “Multimodal research in vision and
+language: A review of current and emerging trends,” Information
+Fusion, vol. 77, pp. 149–171, 2022.
+[216] L. Zhou, H. Palangi, L. Zhang, H. Hu, J. Corso, and J. Gao,
+“Unified vision-language pre-training for image captioning and
+vqa,” in Proceedings of the AAAI conference on artificial intelligence,
+vol. 34, no. 07, 2020, pp. 13 041–13 049.
+[217] T. Dao, D. Fu, S. Ermon, A. Rudra, and C. R´e, “Flashattention:
+Fast and memory-efficient exact attention with io-awareness,”
+Advances in Neural Information Processing Systems, vol. 35, pp.
+16 344–16 359, 2022.
+[218] W. Kwon, Z. Li, S. Zhuang, Y. Sheng, L. Zheng, C. H. Yu,
+J. Gonzalez, H. Zhang, and I. Stoica, “Efficient memory manage-
+ment for large language model serving with pagedattention,” in
+Proceedings of the 29th Symposium on Operating Systems Principles,
+2023, pp. 611–626.
+[219] S. Shen, L. Hou, Y. Zhou, N. Du, S. Longpre, J. Wei, H. W. Chung,
+B. Zoph, W. Fedus, X. Chen et al., “Mixture-of-experts meets
+instruction tuning: A winning combination for large language
+models,” arXiv preprint arXiv:2305.14705, 2023.
+[220] S. Dou, E. Zhou, Y. Liu, S. Gao, J. Zhao, W. Shen, Y. Zhou, Z. Xi,
+X. Wang, X. Fan et al., “The Art of Balancing: Revolutionizing
+Mixture of Experts for Maintaining World Knowledge in Lan-
+guage Model Alignment,” arXiv preprint arXiv:2312.09979, 2023.

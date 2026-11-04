@@ -1,0 +1,415 @@
+
+AI@Meta. 2024. Llama 3 model card.
+Joshua Ainslie, James Lee-Thorp, Michiel de Jong, Yury
+Zemlyanskiy, Federico Lebrón, and Sumit Sanghai.
+2023. Gqa: Training generalized multi-query trans-
+former models from multi-head checkpoints. arXiv
+preprint arXiv:2305.13245.
+BAAI. 2024.
+Infinity instruct.
+arXiv preprint
+arXiv:2406.XXXX.
+Yonatan Bisk, Rowan Zellers, Jianfeng Gao, Yejin Choi,
+et al. 2020. Piqa: Reasoning about physical com-
+monsense in natural language. In Proceedings of the
+AAAI conference on artificial intelligence, volume 34,
+pages 7432–7439.
+Mark Chen, Jerry Tworek, Heewoo Jun, Qiming
+Yuan, Henrique Ponde De Oliveira Pinto, Jared Ka-
+plan, Harri Edwards, Yuri Burda, Nicholas Joseph,
+Greg Brockman, et al. 2021.
+Evaluating large
+language models trained on code. arXiv preprint
+arXiv:2107.03374.
+Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot,
+Ashish Sabharwal, Carissa Schoenick, and Oyvind
+Tafjord. 2018. Think you have solved question an-
+swering? try arc, the ai2 reasoning challenge. arXiv
+preprint arXiv:1803.05457.
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian,
+Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias
+Plappert, Jerry Tworek, Jacob Hilton, Reiichiro
+Nakano, et al. 2021. Training verifiers to solve math
+word problems. arXiv preprint arXiv:2110.14168.
+DeepSeek-AI. 2024. Deepseek-v2: A strong, economi-
+cal, and efficient mixture-of-experts language model.
+Preprint, arXiv:2405.04434.
+Guanting Dong, Hongyi Yuan, Keming Lu, Cheng-
+peng Li, Mingfeng Xue, Dayiheng Liu, Wei Wang,
+Zheng Yuan, Chang Zhou, and Jingren Zhou. 2023.
+How abilities in large language models are affected
+by supervised fine-tuning data composition. arXiv
+preprint arXiv:2310.05492.
+William Fedus, Barret Zoph, and Noam Shazeer. 2022.
+Switch transformers: Scaling to trillion parameter
+models with simple and efficient sparsity. Journal of
+Machine Learning Research, 23(120):1–39.
+Tianyu Fu, Haofeng Huang, Xuefei Ning, Genghan
+Zhang, Boju Chen, Tianqi Wu, Hongyi Wang, Zix-
+iao Huang, Shiyao Li, Shengen Yan, et al. 2024.
+Moa: Mixture of sparse attention for automatic
+large language model compression. arXiv preprint
+arXiv:2406.14909.
+Leo Gao, Jonathan Tow, Baber Abbasi, Stella Biderman,
+Sid Black, Anthony DiPofi, Charles Foster, Laurence
+Golding, Jeffrey Hsu, Alain Le Noac’h, Haonan Li,
+Kyle McDonell, Niklas Muennighoff, Chris Ociepa,
+Jason Phang, Laria Reynolds, Hailey Schoelkopf,
+Aviya Skowron, Lintang Sutawika, Eric Tang, An-
+ish Thite, Ben Wang, Kevin Wang, and Andy Zou.
+2024. A framework for few-shot language model
+evaluation.
+Ethan He, Abhinav Khattar, Ryan Prenger, Vijay Kor-
+thikanti, Zijie Yan, Tong Liu, Shiqing Fan, Ashwath
+Aithal, Mohammad Shoeybi, and Bryan Catanzaro.
+2024. Upcycling large language models into mixture
+of experts. arXiv preprint arXiv:2410.07524.
+Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou,
+Mantas Mazeika, Dawn Song, and Jacob Steinhardt.
+2020. Measuring massive multitask language under-
+standing. arXiv preprint arXiv:2009.03300.
+Albert Q Jiang, Alexandre Sablayrolles, Antoine
+Roux, Arthur Mensch, Blanche Savary, Chris Bam-
+ford, Devendra Singh Chaplot, Diego de las Casas,
+Emma Bou Hanna, Florian Bressand, et al. 2024.
+Mixtral of experts. arXiv preprint arXiv:2401.04088.
+Aran Komatsuzaki, Joan Puigcerver, James Lee-Thorp,
+Carlos Riquelme Ruiz, Basil Mustafa, Joshua Ainslie,
+Yi Tay, Mostafa Dehghani, and Neil Houlsby.
+9
+
+2022.
+Sparse upcycling:
+Training mixture-of-
+experts from dense checkpoints.
+arXiv preprint
+arXiv:2212.05055.
+Namhoon Lee, Thalaiyasingam Ajanthan, and Philip HS
+Torr. 2018.
+Snip: Single-shot network pruning
+based on connection sensitivity.
+arXiv preprint
+arXiv:1810.02340.
+Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu,
+Dehao Chen, Orhan Firat, Yanping Huang, Maxim
+Krikun, Noam Shazeer, and Zhifeng Chen. 2020.
+Gshard: Scaling giant models with conditional com-
+putation and automatic sharding.
+arXiv preprint
+arXiv:2006.16668.
+Ziyue Li and Tianyi Zhou. 2024.
+Your mixture-of-
+experts llm is secretly an embedding model for free.
+arXiv preprint arXiv:2410.10814.
+Zhenyi Lu, Chenghao Fan, Wei Wei, Xiaoye Qu, Dan-
+gyang Chen, and Yu Cheng. 2024. Twin-merging:
+Dynamic integration of modular expertise in model
+merging. arXiv preprint arXiv:2406.15479.
+Mikko I. Malinen and Pasi Fränti. 2014. Balanced k-
+means for clustering. In Structural, Syntactic, and
+Statistical Pattern Recognition, pages 32–41, Berlin,
+Heidelberg. Springer Berlin Heidelberg.
+Niklas Muennighoff, Luca Soldaini, Dirk Groeneveld,
+Kyle Lo, Jacob Morrison, Sewon Min, Weijia Shi,
+Pete Walsh, Oyvind Tafjord, Nathan Lambert, Yuling
+Gu, Shane Arora, Akshita Bhagia, Dustin Schwenk,
+David Wadden, Alexander Wettig, Binyuan Hui, Tim
+Dettmers, Douwe Kiela, Ali Farhadi, Noah A. Smith,
+Pang Wei Koh, Amanpreet Singh, and Hannaneh
+Hajishirzi. 2024. Olmoe: Open mixture-of-experts
+language models. Preprint, arXiv:2409.02060.
+Samyam Rajbhandari, Conglong Li, Zhewei Yao, Min-
+jia Zhang, Reza Yazdani Aminabadi, Ammar Ah-
+mad Awan, Jeff Rasley, and Yuxiong He. 2022.
+Deepspeed-moe: Advancing mixture-of-experts in-
+ference and training to power next-generation ai scale.
+In International conference on machine learning,
+pages 18332–18346. PMLR.
+Machel Reid, Nikolay Savinov, Denis Teplyashin,
+Dmitry Lepikhin, Timothy Lillicrap, Jean-baptiste
+Alayrac, Radu Soricut, Angeliki Lazaridou, Orhan Fi-
+rat, Julian Schrittwieser, et al. 2024. Gemini 1.5: Un-
+locking multimodal understanding across millions of
+tokens of context. arXiv preprint arXiv:2403.05530.
+Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavat-
+ula, and Yejin Choi. 2021. Winogrande: An adver-
+sarial winograd schema challenge at scale. Commu-
+nications of the ACM, 64(9):99–106.
+Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz,
+Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff
+Dean. 2017. Outrageously large neural networks:
+The sparsely-gated mixture-of-experts layer. arXiv
+preprint arXiv:1701.06538.
+Yikang Shen, Zhen Guo, Tianle Cai, and Zengyi Qin.
+2024. Jetmoe: Reaching llama2 performance with
+0.1 m dollars. arXiv preprint arXiv:2404.07413.
+Qwen Team. 2024. Qwen1.5-moe: Matching 7b model
+performance with 1/3 activated parameters".
+Teknium. 2023. Openhermes 2.5: An open dataset of
+synthetic data for generalist llm assistants.
+Hugo Touvron, Louis Martin, Kevin Stone, Peter Al-
+bert, Amjad Almahairi, Yasmine Babaei, Nikolay
+Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti
+Bhosale, et al. 2023.
+Llama 2:
+Open founda-
+tion and fine-tuned chat models.
+arXiv preprint
+arXiv:2307.09288.
+A Vaswani. 2017. Attention is all you need. Advances
+in Neural Information Processing Systems.
+Guan Wang, Sijie Cheng, Xianyuan Zhan, Xiangang Li,
+Sen Song, and Yang Liu. 2023. Openchat: Advanc-
+ing open-source language models with mixed-quality
+data. arXiv preprint arXiv:2309.11235.
+Tianwen Wei, Bo Zhu, Liang Zhao, Cheng Cheng, Biye
+Li, Weiwei Lü, Peng Cheng, Jianhao Zhang, Xi-
+aoyu Zhang, Liang Zeng, et al. 2024.
+Skywork-
+moe:
+A deep dive into training techniques for
+mixture-of-experts language models. arXiv preprint
+arXiv:2406.06563.
+Johannes Welbl, Nelson F Liu, and Matt Gardner. 2017.
+Crowdsourcing multiple choice science questions.
+arXiv preprint arXiv:1707.06209.
+Zhangchen Xu, Fengqing Jiang, Luyao Niu, Yun-
+tian Deng, Radha Poovendran, Yejin Choi, and
+Bill Yuchen Lin. 2024. Magpie: Alignment data
+synthesis from scratch by prompting aligned llms
+with nothing. arXiv preprint arXiv:2406.08464.
+Longhui Yu, Weisen Jiang, Han Shi, Jincheng Yu,
+Zhengying Liu, Yu Zhang, James T Kwok, Zhen-
+guo Li, Adrian Weller, and Weiyang Liu. 2023.
+Metamath: Bootstrap your own mathematical ques-
+tions for large language models.
+arXiv preprint
+arXiv:2309.12284.
+Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali
+Farhadi, and Yejin Choi. 2019. Hellaswag: Can a
+machine really finish your sentence? arXiv preprint
+arXiv:1905.07830.
+Jihai Zhang, Xiaoye Qu, Tong Zhu, and Yu Cheng.
+2024. Clip-moe: Towards building mixture of ex-
+perts for clip with diversified multiplet upcycling.
+arXiv preprint arXiv:2409.19291.
+Chunting Zhou, Pengfei Liu, Puxin Xu, Srinivasan Iyer,
+Jiao Sun, Yuning Mao, Xuezhe Ma, Avia Efrat, Ping
+Yu, Lili Yu, et al. 2024. Lima: Less is more for align-
+ment. Advances in Neural Information Processing
+Systems, 36.
+10
+
+Jeffrey Zhou, Tianjian Lu, Swaroop Mishra, Sid-
+dhartha Brahma, Sujoy Basu, Yi Luan, Denny Zhou,
+and Le Hou. 2023.
+Instruction-following evalu-
+ation for large language models.
+arXiv preprint
+arXiv:2311.07911.
+Tong Zhu, Daize Dong, Xiaoye Qu, Jiacheng Ruan,
+Wenliang Chen, and Yu Cheng. 2024a. Dynamic data
+mixing maximizes instruction tuning for mixture-of-
+experts. arXiv preprint arXiv:2406.11256.
+Tong Zhu, Xiaoye Qu, Daize Dong, Jiacheng Ruan,
+Jingqi Tong, Conghui He, and Yu Cheng. 2024b.
+Llama-moe:
+Building mixture-of-experts from
+llama with continual pre-training. arXiv preprint
+arXiv:2406.16554.
+Simiao Zuo, Qingru Zhang, Chen Liang, Pengcheng He,
+Tuo Zhao, and Weizhu Chen. 2022. Moebert: from
+bert to mixture-of-experts via importance-guided
+adaptation. arXiv preprint arXiv:2204.07675.
+A
+Dataset Information and Processing
+In this section, we describe the composition of the
+dataset used in the two-stage Instruction tuning. As
+shown in Table 2, we construct three datasets of
+different sizes by combining open-source datasets,
+including OpenHermes-2.5 3, Lima 4, ShareGPT4
+5, SlimOrca 6, BAAI/Infinity-Instruct 7, and Llama-
+3-Magpie-Air-3M-v0.1 8. When merging multi-
+ple datasets, we apply filtering to ensure the qual-
+ity of the datasets. Subsequently, we adopt the
+MetaMathQA 9 and the code and math part of the
+BAAI/Infinity-Instruct.
+B
+Generation Cases
+In this section, we present some examples from the
+IFEval and GSM8K benchmarks to demonstrate
+that our model exhibits good instruction-following
+and math capabilities.
+3https://huggingface.co/datasets/teknium/
+OpenHermes-2.5
+4https://huggingface.co/datasets/GAIR/lima
+5https://huggingface.co/datasets/
+anon8231489123/ShareGPT_Vicuna_unfiltered
+6https://huggingface.co/datasets/Open-Orca/
+SlimOrca
+7https://huggingface.co/datasets/BAAI/
+Infinity-Instruct/tree/main
+8https://huggingface.co/datasets/Magpie-Align/
+Llama-3-Magpie-Air-3M-v0.1
+9https://huggingface.co/datasets/meta-math/
+MetaMathQA
+Table 2: Dataset Composition of the Instruction Follow-
+ing Training Stage.
+Dataset Composition
+Tokens
+First-Stage Instruction Tuning
+OpenHermes-2.5
+Lima
+ShareGPT4
+SlimOrca
+0.40B
+OpenHermes-2.5
+Lima
+ShareGPT4
+SlimOrca
+BAAI/Infinity-Instruct
+1.28B
+OpenHermes-2.5
+Lima
+ShareGPT4
+SlimOrca
+BAAI/Infinity-Instruct
+Llama-3-Magpie-Air-3M-
+v0.1
+2.50B
+Second-Stage Instruction Tuning
+MetaMathQA
+BAAI/Infinity-Instruct/code
+BAAI/Infinity-Instruct/math
+Conversation from First-stage
+0.99B
+11
+
+Table 3: Examples from our LLaMA-MoE v2 model. The examples are from the IFEval benchmark.
+Query
+Response
+Who built the first artificial ice
+rink? Please include the keys
+(1) Name (2) Location and (3)
+Year. Use less than 150 words.
+The first artificial ice rink was built by the French engineer,
+Pierre de Chambolle, in 1889. Chambolle’s ice rink was located
+in Paris, France. The ice rink was made of a combination of ice
+and water, and it was heated by a steam engine. Chambolle’s
+invention revolutionized the world of ice sports and paved the
+way for the development of modern artificial ice rinks.
+Write a short essay about the
+updates of the latest episode of
+your favorite TV show. Use less
+than 300 words.
+The latest episode of my favorite TV show, "The Walking
+Dead," has been a thrilling ride. The episode picks up where
+the previous one left off, with the survivors of the group dealing
+with the aftermath of the recent attack on the town. The group
+is now on their way to the nearby town of Woodbury, where
+they hope to find safety and a new beginning.
+As they journey through the post-apocalyptic landscape, they
+encounter a number of new characters, including a young girl
+who has been surviving on her own. The group is initially wary
+of her, but as they get to know her, they realize that she is a
+valuable asset to their group.
+The episode also introduces a number of new plot twists, includ-
+ing the revelation that the group’s leader, Rick Grimes, has been
+secretly working with a group of survivors to take down the
+walkers. This adds a new layer of complexity to the story, and
+raises questions about the true nature of the group’s mission.
+Overall, the latest episode of "The Walking Dead" is a gripping
+and intense ride, with plenty of action, suspense, and emotional
+moments. The characters are well-developed, and the plot is
+engaging and unpredictable. If you haven’t already, I highly
+recommend checking it out.
+Invent a funny tagline for a
+local comedy show, and put
+your whole response in double
+quotes.
+"Laugh your way to the stars with us at the ’Laughing Llama’
+comedy show, where even the most awkward jokes are guaran-
+teed to make you giggle!"
+What is another word for En-
+gravings? Answer in lowercase
+letters only, throughout your en-
+tire answer.
+carvings
+12
+
+Table 4: Examples from our LLaMA-MoE v2 model. The examples are from the GSM8K benchmark.
+Query
+Response
+At a restaurant, Juice Box A is 4
+dollars. Juice Box B is 5 dollars
+more than Juice Box A. Juice
+Box C is 7 dollars more than
+Juice Box A. How much more
+is Juice box C than Juice Box
+B?
+Juice Box A is 4 dollars. Juice Box B is 5 dollars more than
+Juice Box A, so it is 4 + 5 = 9 dollars. Juice Box C is 7 dollars
+more than Juice Box A, so it is 4 + 7 = 11 dollars. To find out
+how much more Juice Box C is than Juice Box B, we subtract
+the price of Juice Box B from the price of Juice Box C: 11 - 9 =
+2. The answer is 2.
+After
+Andrea
+saved
+some
+money, she then spent the rest
+of her money on an $11 sweater
+and gave her brother $4. If she
+had $36 in the beginning, how
+much did Andrea save?
+Andrea had $36 in the beginning. She spent $11 on a sweater
+and gave her brother $4. So she spent 11 + 4 = 15 dollars. 36 -
+15 = 21. The answer is 21.
+Carver just turned 45 years old,
+which makes him 5 years less
+than twice the age of his son.
+How old is his son, in years?
+Let’s call Carver’s son’s age "S". According to the information,
+5 years less than twice the age of his son is 45. So, 2S - 5 = 45.
+Adding 5 to both sides, we get 2S = 50. Dividing both sides by
+2, we find S = 25. The answer is 25.
+Michael is racing his horse and
+notices that for every mile the
+horse runs, he eats 1/2 a bail of
+hay. A bail of hay costs $3. If
+his horse runs for 30 minutes at
+32MPH, and Michael has six 5
+dollar bills, how much change
+does he have after he buys the
+hay?
+First, we need to find out how many miles the horse runs. 30
+minutes is 30 / 60 = 0.5 hours. At 32MPH, the horse runs 0.5 x
+32 = 16 miles. For every mile, the horse eats 1/2 a bail of hay.
+So the horse eats 16 x 1/2 = 8 bails of hay. A bail of hay costs
+$3, so 8 bails cost 8 x $3 = $24. Michael has six 5 dollar bills,
+so he has 6 x $5 = $30. After buying the hay, he has $30 - $24
+= $6 left. The answer is 6.
+Melissa works as a pet groomer.
+This week, she has 8 dogs that
+need to be bathed, 5 cats that
+need their nails clipped, 3 birds
+that need their wings trimmed,
+and 12 horses that need to be
+brushed. If she splits the groom-
+ing jobs evenly over the days,
+how many animals will she
+groom each day of the week?
+Melissa has a total of 8 + 5 + 3 + 12 = 28 animals to groom. If
+she splits them evenly over 7 days, she will groom 28 / 7 = 4
+animals each day. The answer is 4.
+Mason is on his bike journey at
+a rate of 8 miles per hour. He
+travels for 4 hours, takes some
+rest, and then goes on for an-
+other 6 hours. How many miles
+has he traveled in total?
+Mason travels for 4 hours at 8 miles per hour, so he covers 4 x
+8 = 32 miles. Then he goes for another 6 hours at 8 miles per
+hour, so he covers 6 x 8 = 48 miles. In total, he has traveled 32
++ 48 = 80 miles. The answer is 80.
+13

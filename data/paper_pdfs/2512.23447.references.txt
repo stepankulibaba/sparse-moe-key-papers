@@ -1,0 +1,188 @@
+
+[1] Baidu-ERNIE-Team. Ernie 4.5 technical report, 2025.
+[2] Ting Chen, Simon Kornblith, Mohammad Norouzi, and Geoffrey Hinton. A simple framework for contrastive
+learning of visual representations, 2020. URL https://arxiv.org/abs/2002.05709.
+[3] Christopher Clark, Kenton Lee, Ming-Wei Chang, Tom Kwiatkowski, Michael Collins, and Kristina Toutanova.
+BoolQ: Exploring the surprising difficulty of natural yes/no questions. In Jill Burstein, Christy Doran, and
+Thamar Solorio, editors, Proceedings of the 2019 Conference of the North American Chapter of the Association
+for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pages 2924–
+2936, Minneapolis, Minnesota, June 2019. Association for Computational Linguistics. doi: 10.18653/v1/N19-1300.
+URL https://aclanthology.org/N19-1300/.
+[4] Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, and Oyvind
+Tafjord. Think you have solved question answering? try arc, the ai2 reasoning challenge, 2018. URL https:
+//arxiv.org/abs/1803.05457.
+[5] Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert,
+Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, and John Schulman. Training verifiers to solve
+math word problems, 2021. URL https://arxiv.org/abs/2110.14168.
+[6] Damai Dai, Chengqi Deng, Chenggang Zhao, R. X. Xu, Huazuo Gao, Deli Chen, Jiashi Li, Wangding Zeng,
+Xingkai Yu, Y. Wu, Zhenda Xie, Y. K. Li, Panpan Huang, Fuli Luo, Chong Ruan, Zhifang Sui, and Wenfeng
+Liang. Deepseekmoe: Towards ultimate expert specialization in mixture-of-experts language models, 2024. URL
+https://arxiv.org/abs/2401.06066.
+[7] DeepSeek-AI. Deepseek-v3 technical report, 2025. URL https://arxiv.org/abs/2412.19437.
+[8] William Fedus, Barret Zoph, and Noam Shazeer. Switch transformers: Scaling to trillion parameter models
+with simple and efficient sparsity.
+Journal of Machine Learning Research, 23(120):1–39, 2022.
+URL http:
+//jmlr.org/papers/v23/21-0998.html.
+10
+
+[9] Mor Geva, Roei Schuster, Jonathan Berant, and Omer Levy. Transformer feed-forward layers are key-value
+memories. In Marie-Francine Moens, Xuanjing Huang, Lucia Specia, and Scott Wen-tau Yih, editors, Proceedings
+of the 2021 Conference on Empirical Methods in Natural Language Processing, pages 5484–5495, Online and
+Punta Cana, Dominican Republic, November 2021. Association for Computational Linguistics. doi: 10.18653/v1/
+2021.emnlp-main.446. URL https://aclanthology.org/2021.emnlp-main.446.
+[10] Zhuocheng Gong, Ang Lv, Jian Guan, Wei Wu, Huishuai Zhang, Minlie Huang, Dongyan Zhao, and Rui Yan.
+Mixture-of-modules: Reinventing transformers as dynamic assemblies of modules. In Yaser Al-Onaizan, Mohit
+Bansal, and Yun-Nung Chen, editors, Proceedings of the 2024 Conference on Empirical Methods in Natural
+Language Processing, pages 20924–20938, Miami, Florida, USA, November 2024. Association for Computa-
+tional Linguistics. doi: 10.18653/v1/2024.emnlp-main.1164. URL https://aclanthology.org/2024.emnlp-main.
+1164/.
+[11] Hongcan Guo, Haolang Lu, Guoshun Nan, Bolun Chu, Jialin Zhuang, Yuan Yang, Wenhao Che, Sicong Leng,
+Qimei Cui, and Xudong Jiang. Advancing expert specialization for better moe, 2025. URL https://arxiv.org/
+abs/2505.22323.
+[12] Xu Owen He. Mixture of a million experts, 2024. URL https://arxiv.org/abs/2407.04153.
+[13] Ahmed Hendawy, Jan Peters, and Carlo D’Eramo. Multi-task reinforcement learning with mixture of orthogonal
+experts. In The Twelfth International Conference on Learning Representations, 2024. URL https://openreview.
+net/forum?id=aZH1dM3GOX.
+[14] Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and Jacob Steinhardt.
+Measuring massive multitask language understanding. Proceedings of the International Conference on Learning
+Representations (ICLR), 2021.
+[15] Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric Tang, Dawn Song, and Jacob
+Steinhardt. Measuring mathematical problem solving with the math dataset. NeurIPS, 2021.
+[16] Yuzhen Huang, Yuzhuo Bai, Zhihao Zhu, Junlei Zhang, Jinghan Zhang, Tangjun Su, Junteng Liu, Chuancheng
+Lv, Yikai Zhang, Jiayi Lei, Yao Fu, Maosong Sun, and Junxian He. C-eval: A multi-level multi-discipline chinese
+evaluation suite for foundation models. In Advances in Neural Information Processing Systems, 2023.
+[17] Mandar Joshi, Eunsol Choi, Daniel Weld, and Luke Zettlemoyer. TriviaQA: A large scale distantly supervised
+challenge dataset for reading comprehension. In Regina Barzilay and Min-Yen Kan, editors, Proceedings of
+the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages
+1601–1611, Vancouver, Canada, July 2017. Association for Computational Linguistics. doi: 10.18653/v1/P17-1147.
+URL https://aclanthology.org/P17-1147/.
+[18] Prannay Khosla, Piotr Teterwak, Chen Wang, Aaron Sarna, Yonglong Tian, Phillip Isola, Aaron Maschinot,
+Ce Liu, and Dilip Krishnan. Supervised contrastive learning. In H. Larochelle, M. Ranzato, R. Hadsell, M.F.
+Balcan, and H. Lin, editors, Advances in Neural Information Processing Systems, volume 33, pages 18661–
+18673. Curran Associates, Inc., 2020. URL https://proceedings.neurips.cc/paper_files/paper/2020/file/
+d89a66c7c80a29b1bdbab0f2a1a94af8-Paper.pdf.
+[19] Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu, Dehao Chen, Orhan Firat, Yanping Huang, Maxim Krikun,
+Noam Shazeer, and Zhifeng Chen. {GS}hard: Scaling giant models with conditional computation and automatic
+sharding. In International Conference on Learning Representations, 2021. URL https://openreview.net/forum?
+id=qrwe7XHTmYb.
+[20] Hongzhan Lin, Ang Lv, Yuhan Chen, Chen Zhu, Yang Song, Hengshu Zhu, and Rui Yan. Mixture of in-context
+experts enhance llms'long context awareness. In A. Globerson, L. Mackey, D. Belgrave, A. Fan, U. Paquet,
+J. Tomczak, and C. Zhang, editors, Advances in Neural Information Processing Systems, volume 37, pages
+79573–79596. Curran Associates, Inc., 2024. doi: 10.52202/079017-2526. URL https://proceedings.neurips.
+cc/paper_files/paper/2024/file/91315fbb83ce353ae5538cba395f70d1-Paper-Conference.pdf.
+[21] Boan Liu, Liang Ding, Li Shen, Keqin Peng, Yu Cao, Dazhao Cheng, and Dacheng Tao. Diversifying the
+mixture-of-experts representation for language models with orthogonal optimizer, 2024. URL https://arxiv.
+org/abs/2310.09762.
+[22] Zichang Liu, Jue Wang, Tri Dao, Tianyi Zhou, Binhang Yuan, Zhao Song, Anshumali Shrivastava, Ce Zhang,
+Yuandong Tian, Christopher Ré, and Beidi Chen. Deja vu: contextual sparsity for efficient llms at inference time.
+In Proceedings of the 40th International Conference on Machine Learning, ICML’23. JMLR.org, 2023.
+11
+
+[23] Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. In International Conference on Learning
+Representations, 2019. URL https://openreview.net/forum?id=Bkg6RiCqY7.
+[24] Tongxu Luo, Jiahe Lei, Fangyu Lei, Weihao Liu, Shizhu He, Jun Zhao, and Kang Liu. Moelora: Contrastive
+learning guided mixture of experts on parameter-efficient fine-tuning for large language models, 2024. URL
+https://arxiv.org/abs/2402.12851.
+[25] Ang Lv, Ruobing Xie, Yining Qian, Songhao Wu, Xingwu Sun, Zhanhui Kang, Di Wang, and Rui Yan. Autonomy-of-
+experts models. In Forty-second International Conference on Machine Learning, 2025. URL https://openreview.
+net/forum?id=8BIDrYWCeg.
+[26] Todor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal. Can a suit of armor conduct electricity? a
+new dataset for open book question answering, 2018. URL https://arxiv.org/abs/1809.02789.
+[27] Niklas Muennighoff, Luca Soldaini, Dirk Groeneveld, Kyle Lo, Jacob Morrison, Sewon Min, Weijia Shi, Pete
+Walsh, Oyvind Tafjord, Nathan Lambert, Yuling Gu, Shane Arora, Akshita Bhagia, Dustin Schwenk, David
+Wadden, Alexander Wettig, Binyuan Hui, Tim Dettmers, Douwe Kiela, Ali Farhadi, Noah A. Smith, Pang Wei
+Koh, Amanpreet Singh, and Hannaneh Hajishirzi. Olmoe: Open mixture-of-experts language models, 2025. URL
+https://arxiv.org/abs/2409.02060.
+[28] OpenAI. Gpt-oss series, 8 2025. URL https://openai.com/index/introducing-gpt-oss/.
+[29] Jungwoo Park, Ahn Young Jin, Kee-Eung Kim, and Jaewoo Kang. Monet: Mixture of monosemantic experts
+for transformers. In The Thirteenth International Conference on Learning Representations, 2025. URL https:
+//openreview.net/forum?id=1Ogw1SHY3p.
+[30] Quang Pham, Giang Do, Huy Nguyen, TrungTin Nguyen, Chenghao Liu, Mina Sartipi, Binh T. Nguyen, Savitha
+Ramasamy, Xiaoli Li, Steven Hoi, and Nhat Ho. Competesmoe – effective training of sparse mixture of experts
+via competition, 2024.
+[31] Zihan Qiu, Zeyu Huang, Bo Zheng, Kaiyue Wen, Zekun Wang, Rui Men, Ivan Titov, Dayiheng Liu, Jingren
+Zhou, and Junyang Lin. Demons in the detail: On implementing load balancing loss for training specialized
+mixture-of-expert models. In Wanxiang Che, Joyce Nabende, Ekaterina Shutova, and Mohammad Taher Pilehvar,
+editors, Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1:
+Long Papers), pages 5005–5018, Vienna, Austria, July 2025. Association for Computational Linguistics. ISBN
+979-8-89176-251-0. doi: 10.18653/v1/2025.acl-long.249. URL https://aclanthology.org/2025.acl-long.249/.
+[32] Qwen. Qwen2.5 technical report. arXiv preprint arXiv:2412.15115, 2024.
+[33] Melissa Roemmele, Cosmin Adrian Bejan, and Andrew S. Gordon. Choice of plausible alternatives: An evaluation
+of commonsense causal reasoning. In 2011 AAAI Spring Symposium Series, 2011.
+[34] Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, and Yejin Choi. Winogrande: An adversarial winograd
+schema challenge at scale. Communications of the ACM, 64(9):99–106, 2021.
+[35] Maarten Sap, Hannah Rashkin, Derek Chen, Ronan Le Bras, and Yejin Choi. Social IQa: Commonsense reasoning
+about social interactions. In Kentaro Inui, Jing Jiang, Vincent Ng, and Xiaojun Wan, editors, Proceedings
+of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint
+Conference on Natural Language Processing (EMNLP-IJCNLP), pages 4463–4473, Hong Kong, China, November
+2019. Association for Computational Linguistics. doi: 10.18653/v1/D19-1454. URL https://aclanthology.org/
+D19-1454.
+[36] Noam Shazeer, *Azalia Mirhoseini, *Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff Dean.
+Outrageously large neural networks: The sparsely-gated mixture-of-experts layer. In International Conference on
+Learning Representations, 2017. URL https://openreview.net/forum?id=B1ckMDqlg.
+[37] Luca Soldaini, Rodney Kinney, Akshita Bhagia, Dustin Schwenk, David Atkinson, Russell Authur, Ben Bogin,
+Khyathi Chandu, Jennifer Dumas, Yanai Elazar, Valentin Hofmann, Ananya Harsh Jha, Sachin Kumar, Li Lucy,
+Xinxi Lyu, Nathan Lambert, Ian Magnusson, Jacob Morrison, Niklas Muennighoff, Aakanksha Naik, Crystal Nam,
+Matthew E. Peters, Abhilasha Ravichander, Kyle Richardson, Zejiang Shen, Emma Strubell, Nishant Subramani,
+Oyvind Tafjord, Pete Walsh, Luke Zettlemoyer, Noah A. Smith, Hannaneh Hajishirzi, Iz Beltagy, Dirk Groeneveld,
+Jesse Dodge, and Kyle Lo. Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining
+Research. arXiv preprint, 2024.
+12
+
+[38] Mirac Suzgun, Nathan Scales, Nathanael Schärli, Sebastian Gehrmann, Yi Tay, Hyung Won Chung, Aakanksha
+Chowdhery, Quoc Le, Ed Chi, Denny Zhou, and Jason Wei. Challenging BIG-bench tasks and whether chain-
+of-thought can solve them. In Anna Rogers, Jordan Boyd-Graber, and Naoaki Okazaki, editors, Findings of
+the Association for Computational Linguistics: ACL 2023, pages 13003–13051, Toronto, Canada, July 2023.
+Association for Computational Linguistics. doi: 10.18653/v1/2023.findings-acl.824. URL https://aclanthology.
+org/2023.findings-acl.824/.
+[39] Alon Talmor, Jonathan Herzig, Nicholas Lourie, and Jonathan Berant. CommonsenseQA: A question answer-
+ing challenge targeting commonsense knowledge. In Jill Burstein, Christy Doran, and Thamar Solorio, edi-
+tors, Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational
+Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pages 4149–4158, Minneapo-
+lis, Minnesota, June 2019. Association for Computational Linguistics.
+doi: 10.18653/v1/N19-1421.
+URL
+https://aclanthology.org/N19-1421/.
+[40] Aaron van den Oord, Yazhe Li, and Oriol Vinyals. Representation learning with contrastive predictive coding,
+2019. URL https://arxiv.org/abs/1807.03748.
+[41] Laurens van der Maaten and Geoffrey Hinton. Visualizing data using t-sne. Journal of Machine Learning Research,
+9(86):2579–2605, 2008. URL http://jmlr.org/papers/v9/vandermaaten08a.html.
+[42] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Ł ukasz Kaiser,
+and Illia Polosukhin.
+Attention is all you need.
+In I. Guyon, U. Von Luxburg, S. Bengio, H. Wallach,
+R. Fergus, S. Vishwanathan, and R. Garnett, editors, Advances in Neural Information Processing Systems,
+volume 30. Curran Associates, Inc., 2017. URL https://proceedings.neurips.cc/paper_files/paper/2017/
+file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf.
+[43] Lean Wang, Huazuo Gao, Chenggang Zhao, Xu Sun, and Damai Dai. Auxiliary-loss-free load balancing strategy
+for mixture-of-experts, 2024. URL https://arxiv.org/abs/2408.15664.
+[44] Yubo Wang, Xueguang Ma, Ge Zhang, Yuansheng Ni, Abhranil Chandra, Shiguang Guo, Weiming Ren, Aaran
+Arulraj, Xuan He, Ziyan Jiang, et al. Mmlu-pro: A more robust and challenging multi-task language understanding
+benchmark. arXiv preprint arXiv:2406.01574, 2024.
+[45] Johannes Welbl, Nelson F. Liu, and Matt Gardner.
+Crowdsourcing multiple choice science questions.
+In
+Leon Derczynski, Wei Xu, Alan Ritter, and Tim Baldwin, editors, Proceedings of the 3rd Workshop on Noisy
+User-generated Text, pages 94–106, Copenhagen, Denmark, September 2017. Association for Computational
+Linguistics. doi: 10.18653/v1/W17-4413. URL https://aclanthology.org/W17-4413/.
+[46] Songhao Wu, Ang Lv, Ruobing Xie, Xingwu Sun, Di Wang, Rui Yan, and Yankai Lin. Union-of-experts: Experts
+in mixture-of-experts are secretly routers, 2025. URL https://openreview.net/forum?id=Ksgiup7ZNZ.
+[47] Xingyi Yang, Constantin Venhoff, Ashkan Khakzar, Christian Schroeder de Witt, Puneet K. Dokania, Adel Bibi,
+and Philip Torr. Mixture of experts made intrinsically interpretable. In Forty-second International Conference
+on Machine Learning, 2025. URL https://openreview.net/forum?id=6QERrXMLP2.
+[48] Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, and Yejin Choi. HellaSwag: Can a machine really finish
+your sentence? In Anna Korhonen, David Traum, and Lluís Màrquez, editors, Proceedings of the 57th Annual
+Meeting of the Association for Computational Linguistics, pages 4791–4800, Florence, Italy, July 2019. Association
+for Computational Linguistics. doi: 10.18653/v1/P19-1472. URL https://aclanthology.org/P19-1472/.
+[49] Wanjun Zhong, Ruixiang Cui, Yiduo Guo, Yaobo Liang, Shuai Lu, Yanlin Wang, Amin Saied, Weizhu Chen,
+and Nan Duan.
+AGIEval: A human-centric benchmark for evaluating foundation models.
+In Kevin Duh,
+Helena Gomez, and Steven Bethard, editors, Findings of the Association for Computational Linguistics: NAACL
+2024, pages 2299–2314, Mexico City, Mexico, June 2024. Association for Computational Linguistics.
+doi:
+10.18653/v1/2024.findings-naacl.149. URL https://aclanthology.org/2024.findings-naacl.149/.
+[50] Barret Zoph, Irwan Bello, Sameer Kumar, Nan Du, Yanping Huang, Jeff Dean, Noam Shazeer, and William Fedus.
+St-moe: Designing stable and transferable sparse expert models, 2022. URL https://arxiv.org/abs/2202.08906.
+13

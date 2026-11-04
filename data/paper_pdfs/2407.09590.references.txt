@@ -1,0 +1,3259 @@
+
+Luisa Bentivogli, Peter Clark, Ido Dagan, and Danilo
+Giampiccolo. 2009. The fifth pascal recognizing
+textual entailment challenge. TAC, 7(8):1.
+Thibault Castells, Hyoung-Kyu Song, Bo-Kyeong Kim,
+and Shinkook Choi. 2024. Ld-pruner: Efficient prun-
+ing of latent diffusion models using task-agnostic
+insights. In Proceedings of the IEEE/CVF Confer-
+ence on Computer Vision and Pattern Recognition,
+pages 821–830.
+Tianyu Chen, Shaohan Huang, Yuan Xie, Binx-
+ing Jiao, Daxin Jiang, Haoyi Zhou, Jianxin Li,
+and Furu Wei. 2022.
+Task-specific expert prun-
+ing for sparse mixture-of-experts. arXiv preprint
+arXiv:2206.00277.
+Kyusik Choi and Hoeseok Yang. 2021. A gpu archi-
+tecture aware fine-grain pruning technique for deep
+neural networks. In European Conference on Paral-
+lel Processing, pages 217–231. Springer.
+Mohammed Nowaz Rabbani Chowdhury, Meng Wang,
+Kaoutar El Maghraoui, Naigang Wang, Pin-Yu
+Chen, and Christopher Carothers. 2024.
+A prov-
+ably effective method for pruning experts in fine-
+tuned sparse mixture-of-experts.
+arXiv preprint
+arXiv:2405.16646.
+Christopher Clark, Kenton Lee, Ming-Wei Chang,
+Tom Kwiatkowski, Michael Collins, and Kristina
+Toutanova. 2019. Boolq: Exploring the surprising
+difficulty of natural yes/no questions. In Proceedings
+of the 2019 Conference of the North American Chap-
+ter of the Association for Computational Linguistics:
+Human Language Technologies, Volume 1 (Long and
+Short Papers), pages 2924–2936.
+MohammadReza Davari, Stefan Horoi, Amine Natik,
+Guillaume Lajoie, Guy Wolf, and Eugene Belilovsky.
+Reliability of cka as a similarity measure in deep
+learning. In The Eleventh International Conference
+on Learning Representations.
+Guiguang Ding, Shuo Zhang, Zizhou Jia, Jing Zhong,
+and Jungong Han. 2020. Where to prune: Using
+lstm to guide data-dependent soft pruning. IEEE
+Transactions on Image Processing, 30:293–304.
+Gongfan Fang, Xinyin Ma, Mingli Song, Michael Bi Mi,
+and Xinchao Wang. 2023. Depgraph: Towards any
+structural pruning. In Proceedings of the IEEE/CVF
+conference on computer vision and pattern recogni-
+tion, pages 16091–16101.
+William Fedus, Barret Zoph, and Noam Shazeer. 2022.
+Switch transformers: Scaling to trillion parameter
+models with simple and efficient sparsity. Journal of
+Machine Learning Research, 23(120):1–39.
+Leo Gao, Jonathan Tow, Stella Biderman, Sid Black,
+Anthony DiPofi, Charles Foster, Laurence Golding,
+Jeffrey Hsu, Kyle McDonell, Niklas Muennighoff,
+et al. 2021.
+A framework for few-shot language
+model evaluation. Version v0. 0.1. Sept, 10:8–9.
+9
+
+Daniel Greenfeld and Uri Shalit. 2020. Robust learn-
+ing with the hilbert-schmidt independence criterion.
+In International Conference on Machine Learning,
+pages 3759–3768. PMLR.
+Shwai He, Daize Dong, Liang Ding, and Ang Li.
+2024. Demystifying the compression of mixture-of-
+experts through a unified framework. arXiv preprint
+arXiv:2406.02500.
+Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou,
+Mantas Mazeika, Dawn Song, and Jacob Steinhardt.
+2020. Measuring massive multitask language under-
+standing. In International Conference on Learning
+Representations.
+R Jacobs, MI Jordan, GE Hinton, et al. 1991. Mixtures
+of expert networks. Neural Comput, 3:79–87.
+Albert Q Jiang, Alexandre Sablayrolles, Antoine
+Roux, Arthur Mensch, Blanche Savary, Chris Bam-
+ford, Devendra Singh Chaplot, Diego de las Casas,
+Emma Bou Hanna, Florian Bressand, et al. 2024.
+Mixtral of experts. arXiv preprint arXiv:2401.04088.
+Michael I Jordan and Robert A Jacobs. 1994. Hierarchi-
+cal mixtures of experts and the em algorithm. Neural
+computation, 6(2):181–214.
+Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B
+Brown, Benjamin Chess, Rewon Child, Scott Gray,
+Alec Radford, Jeffrey Wu, and Dario Amodei. 2020.
+Scaling laws for neural language models.
+arXiv
+preprint arXiv:2001.08361.
+Simon Kornblith, Mohammad Norouzi, Honglak Lee,
+and Geoffrey Hinton. 2019.
+Similarity of neural
+network representations revisited. In International
+conference on machine learning, pages 3519–3529.
+PMLR.
+Carl Lemaire, Andrew Achkar, and Pierre-Marc Jodoin.
+2019. Structured pruning of neural networks with
+budget-aware regularization. In Proceedings of the
+IEEE/CVF Conference on Computer Vision and Pat-
+tern Recognition, pages 9108–9116.
+Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu,
+Dehao Chen, Orhan Firat, Yanping Huang, Maxim
+Krikun, Noam Shazeer, and Zhifeng Chen. 2020.
+Gshard: Scaling giant models with conditional com-
+putation and automatic sharding.
+arXiv preprint
+arXiv:2006.16668.
+Bo Li, Yifei Shen, Jingkang Yang, Yezhen Wang, Jiawei
+Ren, Tong Che, Jun Zhang, and Ziwei Liu. 2022.
+Sparse mixture-of-experts are domain generalizable
+learners. arXiv preprint arXiv:2206.04046.
+Pingzhi Li, Zhenyu Zhang, Prateek Yadav, Yi-Lin Sung,
+Yu Cheng, Mohit Bansal, and Tianlong Chen. 2024a.
+Merge, then compress: Demystify efficient smoe
+with hints from its routing policy. In The Twelfth In-
+ternational Conference on Learning Representations.
+Yunxin Li, Shenyuan Jiang, Baotian Hu, Longyue
+Wang, Wanqi Zhong, Wenhan Luo, Lin Ma, and
+Min Zhang. 2024b. Uni-moe: Scaling unified multi-
+modal llms with mixture of experts. arXiv preprint
+arXiv:2405.11273.
+Zhu Liao, Victor Quétu, Van-Tam Nguyen, and Enzo
+Tartaglione. 2023. Can unstructured pruning reduce
+the depth in deep neural networks? In Proceedings
+of the IEEE/CVF International Conference on Com-
+puter Vision, pages 1402–1406.
+Jing Liu, Bohan Zhuang, Zhuangwei Zhuang, Yong
+Guo, Junzhou Huang, Jinhui Zhu, and Mingkui Tan.
+2021. Discrimination-aware network pruning for
+deep model compression. IEEE Transactions on Pat-
+tern Analysis and Machine Intelligence, 44(8):4035–
+4051.
+Zhuang Liu, Mingjie Sun, Tinghui Zhou, Gao Huang,
+and Trevor Darrell. 2018. Rethinking the value of
+network pruning. In International Conference on
+Learning Representations.
+Xudong Lu, Qi Liu, Yuhui Xu, Aojun Zhou, Siyuan
+Huang, Bo Zhang, Junchi Yan, and Hongsheng Li.
+2024. Not all experts are equal: Efficient expert
+pruning and skipping for mixture-of-experts large
+language models. arXiv preprint arXiv:2402.14800.
+Jian-Hao Luo, Hao Zhang, Hong-Yu Zhou, Chen-Wei
+Xie, Jianxin Wu, and Weiyao Lin. 2018. Thinet:
+Pruning cnn filters for a thinner net. IEEE transac-
+tions on pattern analysis and machine intelligence,
+41(10):2525–2538.
+Gabryel Mason-Williams and Fredrik Dahlqvist. 2024.
+What makes a good prune? maximal unstructured
+pruning for maximal cosine similarity. In The Twelfth
+International Conference on Learning Representa-
+tions.
+Saeed Masoudnia and Reza Ebrahimpour. 2014. Mix-
+ture of experts: a literature survey. Artificial Intelli-
+gence Review, 42:275–293.
+Todor Mihaylov, Peter Clark, Tushar Khot, and Ashish
+Sabharwal. 2018. Can a suit of armor conduct elec-
+tricity? a new dataset for open book question an-
+swering. In Proceedings of the 2018 Conference on
+Empirical Methods in Natural Language Processing,
+pages 2381–2391.
+Andrew Ng, Michael Jordan, and Yair Weiss. 2001.
+On spectral clustering: Analysis and an algorithm.
+Advances in neural information processing systems
+14.
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine
+Lee, Sharan Narang, Michael Matena, Yanqi Zhou,
+Wei Li, and Peter J Liu. 2020. Exploring the lim-
+its of transfer learning with a unified text-to-text
+transformer. Journal of machine learning research,
+21(140):1–67.
+10
+
+Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz,
+Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff
+Dean. 2017. Outrageously large neural networks:
+The sparsely-gated mixture-of-experts layer. arXiv
+preprint arXiv:1701.06538.
+Maying Shen, Pavlo Molchanov, Hongxu Yin, and
+Jose M Alvarez. 2022. When to prune? a policy
+towards early structural pruning. In Proceedings of
+the IEEE/CVF Conference on Computer Vision and
+Pattern Recognition, pages 12247–12256.
+Xinyu Shi, Jianhao Ding, Zecheng Hao, and Zhaofei
+Yu. 2024. Towards energy efficient spiking neural
+networks: An unstructured pruning framework. In
+The Twelfth International Conference on Learning
+Representations.
+David Smerkous, Qinxun Bai, and Li Fuxin. Enhancing
+diversity in bayesian deep learning via hyperspherical
+energy minimization of cka. In The Thirty-eighth An-
+nual Conference on Neural Information Processing
+Systems.
+Yaqing Wang, Sahaj Agarwal, Subhabrata Mukherjee,
+Xiaodong Liu, Jing Gao, Ahmed Hassan, and Jian-
+feng Gao. 2022. Adamix: Mixture-of-adaptations
+for parameter-efficient model tuning. In Proceed-
+ings of the 2022 Conference on Empirical Methods
+in Natural Language Processing, pages 5744–5760.
+Yulong Wang, Xiaolu Zhang, Lingxi Xie, Jun Zhou,
+Hang Su, Bo Zhang, and Xiaolin Hu. 2020. Pruning
+from scratch. In Proceedings of the AAAI conference
+on artificial intelligence, volume 34, pages 12273–
+12280.
+Mitchell Wortsman, Gabriel Ilharco, Samir Ya Gadre,
+Rebecca Roelofs, Raphael Gontijo-Lopes, Ari S Mor-
+cos, Hongseok Namkoong, Ali Farhadi, Yair Carmon,
+Simon Kornblith, et al. 2022. Model soups: averag-
+ing weights of multiple fine-tuned models improves
+accuracy without increasing inference time. In In-
+ternational conference on machine learning, pages
+23965–23998. PMLR.
+Mengzhou Xia, Tianyu Gao, Zhiyuan Zeng, and Danqi
+Chen. 2023. Sheared llama: Accelerating language
+model pre-training via structured pruning.
+arXiv
+preprint arXiv:2310.06694.
+Seniha Esen Yuksel, Joseph N Wilson, and Paul D Gader.
+2012. Twenty years of mixture of experts. IEEE
+transactions on neural networks and learning sys-
+tems, 23(8):1177–1193.
+Xiao Zhang and Dongrui Wu. 2020. Empirical studies
+on the properties of linear regions in deep neural
+networks. arXiv preprint arXiv:2001.01072.
+Yihua Zhang, Ruisi Cai, Tianlong Chen, Guanhua
+Zhang, Huan Zhang, Pin-Yu Chen, Shiyu Chang,
+Zhangyang Wang, and Sijia Liu. 2023.
+Robust
+mixture-of-expert training for convolutional neural
+networks. In Proceedings of the IEEE/CVF Inter-
+national Conference on Computer Vision, pages 90–
+101.
+Xinyu Zhao, Guoheng Sun, Ruisi Cai, Yukun Zhou,
+Pingzhi Li, Peihao Wang, Bowen Tan, Yexiao He,
+Li Chen, Yi Liang, Beidi Chen, Binhang Yuan,
+Hongyi Wang, Ang Li, Zhangyang Wang, and Tian-
+long Chen. 2024. Model-glue: Democratized llm
+scaling for a large model zoo in the wild. In The
+Thirty-eight Conference on Neural Information Pro-
+cessing Systems Datasets and Benchmarks Track.
+Jinguo Zhu, Xizhou Zhu, Wenhai Wang, Xiaohua Wang,
+Hongsheng Li, Xiaogang Wang, and Jifeng Dai. 2022.
+Uni-perceiver-moe: Learning sparse generalist mod-
+els with conditional moes. Advances in Neural Infor-
+mation Processing Systems, 35:2664–2678.
+Michael Zhu and Suyog Gupta. 2017. To prune, or not
+to prune: exploring the efficacy of pruning for model
+compression. arXiv preprint arXiv:1710.01878.
+Barret Zoph, Irwan Bello, Sameer Kumar, Nan Du,
+Yanping Huang, Jeff Dean, Noam Shazeer, and
+William Fedus. 2022. St-moe: Designing stable and
+transferable sparse expert models. arXiv preprint
+arXiv:2202.08906.
+11
+
+A
+Experiment details
+We conducted our experiments using four 80GB
+NVIDIA A100 GPUs.
+In our learning strategy for expert merging, we
+used SGD as the optimizer to learn the coefficients
+for expert merging, with the learning rate set to
+1 × 10−3. We randomly sample 128 samples from
+the calibration set (C4) and partition them into a
+3 : 1 ratio as the training and evaluation sets, re-
+spectively. The coefficients were initialized as iden-
+tity matrices and optimized over 50 epochs until
+they converged.
+For baseline methods and models, all usage and
+distribution comply with the terms of their license,
+i.e., Mixtral (Apache License 2.0), Deepseek (MIT
+license), Qwen (Tongyi Qianwen license), lm eval-
+uation harness (MIT license). We use Copilot to
+help with debugging and coding.
+B
+Evaluation on the expert similarity
+Following the same setting in section 3.3, we con-
+duct experiments on evaluating the expert similarity
+in all MoE layers of Mixtral-8x7B and Mixtral-
+8x22B. The results are respectively depicted in
+fig. D1 and fig. D2. We summarize the observation
+as follows,
+• Most MoE layers in the two Mixtral models
+contain significant expert redundancy.
+• The most redundant MoE layers are located
+in the first and last several layers, while the
+experts in the intermediate MoE layers learn
+more diverse features.
+C
+Enumeration on the expert pruning
+We present the full greedy search result on Mixtral-
+8x7B in fig. D3. In detail, we first enumerate all
+the possible combinations of dropping 2 experts
+layer by layer, and then evaluate the model on the
+MMLU task. For example, 66.19 in the first row
+and third column in layer 0 indicates performance
+while dropping the first and third expert in layer 0
+of the Mixtral-8x7B model.
+Although dropping most of the combinations on
+different layers only leads to a minor performance
+drop, we can notice that it could cause the model to
+crash when the fourth expert in layer 1 is involved
+during the pruning process.
+D
+Results on different strategies for
+pruning
+While we report the best performance using our
+data-centric and model-centric strategies to prune
+the MoE models, we detail more results on pruning
+the Mixtral-8x7B and Mixtral-8x22B.
+1. For model-centric stratgies, we show the re-
+sults with vectorized weight and surrogate
+weight strategies to discover the similar ex-
+perts. We uniformly merge the experts and
+their routers for model pruning.
+In other
+words, the model-centric strategies differ at
+the discovery stage.
+2. For data-centric strategy, after we discover
+similar experts, we respectively use the learn-
+ing strategy to merge the experts with weights
+(Learn), only maintain the expert with the
+maximum visiting frequency (Max), or uni-
+formly merging different experts (Uniform).
+Thus, in this experiment, the data-centric
+strategies differ at the merging stage.
+From the results of our strategies, we can observe
+the following:
+1. Both the Vectorized and Surrogate strategies
+surpass all other data-involved pruning base-
+line methods.
+This suggests that weights
+already encode valuable data information,
+which can be utilized to group experts for
+pruning.
+2. When
+pruning
+relatively
+small
+models
+(Mixtral-8x7B), the inclusion of data in the
+pruning process improves candidate selection
+for merging and pruning, leading to better
+performance compared to using only model
+weights. While the learning strategy offers a
+slight improvement in average performance,
+it comes at a higher computational cost
+compared to using uniform coefficients for
+merging.
+3. For larger models (Mixtral-8x22B), the model-
+centric method outperforms the data-centric
+method. We argue that this is due to over-
+fitting to the small calibration dataset during
+pruning, especially when dealing with a large
+number of parameters. The small calibration
+dataset cannot approximate the distribution
+of the pre-training dataset effectively. This
+12
+
+Table B1: Results on pruning the Mixtral-8x7B and Mixtral-8x22B from 8 experts to 6 and 4 experts in each
+MoE layer. We present the results of our four strategies, namely 1) Vectorized and surrogate θ: prunable experts
+discovery using vectorized or surrogate weights and merging with uniform coefficients; 2) Learn: prunable experts
+discovery using vanilla data and learn coefficients to merge based on eq. (6); 3) Max: maintaining the expert in each
+discovered group with the maximum visiting frequency. The first and second columns respectively indicate the
+results on pruned model with 6 and 4 experts.
+Dataset
+MMLU
+BoolQ
+OpenBookQA
+RTE
+Average
+Method
+humanities
+social science
+stem
+Other
+Mixtral-8x7B
+60.5
+77.8
+58.9
+74.2
+85.4
+34.4
+71.1
+66.0
+Model-centric
+Vectorized
+54.4/48.1
+70.2/58.5
+51.8/45.2
+66.8/55.2
+85.6/83.7
+31.4/26.2
+68.9/62.4
+61.3/54.2
+Surrogate
+56.8/47.1
+69.7/56.4
+50.9/42.2
+66.0/55.0
+86.9/83.8
+32.6/27.0
+68.5/64.6
+61.6/53.7
+Data-centric
+Learn
+56.0/48.0
+73.1/57.0
+52.4/43.3
+68.2/54.6
+86.4/83.3
+31.4/28.5
+69.3/67.1
+62.4/54.5
+Max
+56.4/47.6
+71.9/58.6
+52.0/42.9
+66.9/55.7
+85.1/82.8
+35.2/28.8
+70.4/66.8
+62.6/53.7
+Uniform
+56.2/47.8
+72.7/57.2
+52.1/42.7
+68.1/54.0
+85.6/83.2
+32.8/28.6
+68.6/66.5
+62.3/54.3
+Mixtral-8x22B
+68.6
+84.1
+67.1
+78.7
+87.9
+0.358
+71.2
+70.4
+Model-centric
+Vectorized
+26.7/24.2
+28.5/21.7
+26.9/21.3
+31.7/23.8
+62.0/53.6
+19.6/11.4
+52.0/53.1
+35.3/29.9
+Surrogate
+63.7/58.1
+80.0/72.5
+62.1/54.3
+75.6/68.3
+88.0/85.2
+34.6/31.2
+69.0/68.6
+67.6/62.6
+Data-centric
+Learn
+61.4/57.9
+78.3/70.1
+61.2/51.4
+72.8/65.0
+88.2/84.9
+35.6/32.7
+70.5/67.3
+66.9/61.3
+Max
+56.8/47.1
+69.7/56.4
+50.9/42.2
+66.0/55.0
+86.9/83.8
+32.6/27.0
+68.5/64.6
+61.6/53.7
+Uniform
+62.3/57.8
+78.5/69.7
+60.2/51.3
+73.4/64.2
+87.6/83.1
+35.8/33.2
+71.1/68.1
+67.0/61.1
+is evident from the significant performance
+drop observed when using the Max strategy
+for pruning Mixtral-8x22B.
+E
+Full results on pruning Deepseek and
+Qwen
+We present the full results of pruning Deepseek-
+MoE-16 and Qwen2-57B-14A in fig. E4 and fig. E5.
+It is evident that our proposed data-centric and
+model-centric strategies outperform all baseline
+methods in most test cases. Additionally, when
+examining different evaluation tasks, the results on
+MMLU show a more reliable and consistent trend
+as the number of pruned experts increases. How-
+ever, for smaller tasks such as the RTE dataset, we
+observe some randomness in the evaluation results
+due to the limited dataset size.We did not include
+the enumeration-based method in our comparison,
+as it is time-consuming and difficult to complete
+within a limited timeframe, especially when the
+number of experts is large in these models.
+F
+Empirical Analysis on Expert Hints
+We analyze the change of expert hints on the cali-
+bration dataset C4, where the expert hint refers to
+the visiting frequency of the expert on the calibra-
+tion set.
+The statistic results are shown in fig. F6. We
+can see that in most MoE layers in Mixtral-8x7B,
+many pairs of experts have similar hints. In con-
+trast, pruning differentiates the hints of experts.
+Compared to directly using hints as the pruning
+goal, using expert knowledge as the pruning cri-
+terion results in more significant changes in hints.
+Additionally, the merging operation on the gate ag-
+gregates the new expert (last column) more tokens,
+further increasing the hint differences.
+G
+Pseudo-code implementation
+Solving eq. (4) is an NP-hard problem. To ob-
+tain an approximate solution, two methods can be
+employed. One approach is to use spectral cluster-
+ing (Ng et al., 2001), while the other is a greedy
+strategy that iteratively merges the pair of experts
+with the highest similarity to construct the pruned
+expert graph. Although both methods yield com-
+parable performance, the greedy approach is sig-
+nificantly more efficient, particularly when dealing
+with large language models that have many ex-
+perts per MoE layer. In practice, for data-centric
+method, we also observe that using cosine similar-
+ity performs on par with centered kernel alignment
+(CKA), while being more computationally efficient
+for measuring expert similarity. At the same time,
+the mean-squared error also works well, which we
+adopt in the model-centric method.
+H
+Discussion on data- and model-centric
+methods
+The data-centric method is a natural extension of
+the paper’s starting point. However, its implemen-
+tation requires access to a small portion of the pre-
+training dataset or a surrogate dataset with a similar
+distribution, which may pose practical challenges.
+13
+
+Figure D1: Evaluation of the expert similarity for different MoE layers in Mixtral-8x7B under the linear kernel-based
+CKA criteria.
+0
+5
+0
+2
+4
+6
+Layer 1
+0
+5
+0
+2
+4
+6
+Layer 2
+0
+5
+0
+2
+4
+6
+Layer 3
+0
+5
+0
+2
+4
+6
+Layer 4
+0
+5
+0
+2
+4
+6
+Layer 5
+0
+5
+0
+2
+4
+6
+Layer 6
+0
+5
+0
+2
+4
+6
+Layer 7
+0
+5
+0
+2
+4
+6
+Layer 8
+0
+5
+0
+2
+4
+6
+Layer 9
+0
+5
+0
+2
+4
+6
+Layer 10
+0
+5
+0
+2
+4
+6
+Layer 11
+0
+5
+0
+2
+4
+6
+Layer 12
+0
+5
+0
+2
+4
+6
+Layer 13
+0
+5
+0
+2
+4
+6
+Layer 14
+0
+5
+0
+2
+4
+6
+Layer 15
+0
+5
+0
+2
+4
+6
+Layer 16
+0
+5
+0
+2
+4
+6
+Layer 17
+0
+5
+0
+2
+4
+6
+Layer 18
+0
+5
+0
+2
+4
+6
+Layer 19
+0
+5
+0
+2
+4
+6
+Layer 20
+0
+5
+0
+2
+4
+6
+Layer 21
+0
+5
+0
+2
+4
+6
+Layer 22
+0
+5
+0
+2
+4
+6
+Layer 23
+0
+5
+0
+2
+4
+6
+Layer 24
+0
+5
+0
+2
+4
+6
+Layer 25
+0
+5
+0
+2
+4
+6
+Layer 26
+0
+5
+0
+2
+4
+6
+Layer 27
+0
+5
+0
+2
+4
+6
+Layer 28
+0
+5
+0
+2
+4
+6
+Layer 29
+0
+5
+0
+2
+4
+6
+Layer 30
+0
+5
+0
+2
+4
+6
+Layer 31
+0
+5
+0
+2
+4
+6
+Layer 32
+0
+5
+0
+2
+4
+6
+Layer 33
+0
+5
+0
+2
+4
+6
+Layer 34
+0
+5
+0
+2
+4
+6
+Layer 35
+0
+5
+0
+2
+4
+6
+Layer 36
+0
+5
+0
+2
+4
+6
+Layer 37
+0
+5
+0
+2
+4
+6
+Layer 38
+0
+5
+0
+2
+4
+6
+Layer 39
+0
+5
+0
+2
+4
+6
+Layer 40
+0
+5
+0
+2
+4
+6
+Layer 41
+0
+5
+0
+2
+4
+6
+Layer 42
+0
+5
+0
+2
+4
+6
+Layer 43
+0
+5
+0
+2
+4
+6
+Layer 44
+0
+5
+0
+2
+4
+6
+Layer 45
+0
+5
+0
+2
+4
+6
+Layer 46
+0
+5
+0
+2
+4
+6
+Layer 47
+0
+5
+0
+2
+4
+6
+Layer 48
+0
+5
+0
+2
+4
+6
+Layer 49
+0
+5
+0
+2
+4
+6
+Layer 50
+0
+5
+0
+2
+4
+6
+Layer 51
+0
+5
+0
+2
+4
+6
+Layer 52
+0
+5
+0
+2
+4
+6
+Layer 53
+0
+5
+0
+2
+4
+6
+Layer 54
+0
+5
+0
+2
+4
+6
+Layer 55
+0
+5
+0
+2
+4
+6
+Layer 56
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Figure D2: Evaluation of the expert similarity for different MoE layers in Mixtral-8x22B under the linear kernel-
+based CKA criteria.
+14
+
+0.00
+66.95
+66.19
+67.30
+66.89
+67.13
+66.42
+67.26
+66.95
+0.00
+66.67
+66.91
+66.60
+66.96
+66.42
+67.12
+66.19
+66.67
+0.00
+67.12
+66.66
+66.84
+65.84
+66.82
+67.30
+66.91
+67.12
+0.00
+66.84
+67.06
+66.34
+67.01
+66.89
+66.60
+66.66
+66.84
+0.00
+66.87
+66.47
+67.06
+67.13
+66.96
+66.84
+67.06
+66.87
+0.00
+66.24
+67.16
+66.42
+66.42
+65.84
+66.34
+66.47
+66.24
+0.00
+66.84
+67.26
+67.12
+66.82
+67.01
+67.06
+67.16
+66.84
+0.00
+layer 0
+0.00
+67.01
+66.83
+42.91
+66.99
+66.91
+66.69
+66.81
+67.01
+0.00
+66.97
+40.86
+66.91
+67.13
+66.77
+66.64
+66.83
+66.97
+0.00
+40.14
+66.81
+67.00
+66.59
+66.77
+42.91
+40.86
+40.14
+0.00
+42.86
+42.24
+43.04
+42.30
+66.99
+66.91
+66.81
+42.86
+0.00
+66.69
+67.01
+66.77
+66.91
+67.13
+67.00
+42.24
+66.69
+0.00
+66.88
+66.82
+66.69
+66.77
+66.59
+43.04
+67.01
+66.88
+0.00
+66.48
+66.81
+66.64
+66.77
+42.30
+66.77
+66.82
+66.48
+0.00
+layer 1
+0.00
+67.13
+67.10
+67.33
+67.00
+67.04
+66.74
+66.95
+67.13
+0.00
+66.97
+67.19
+67.17
+66.91
+67.03
+66.84
+67.10
+66.97
+0.00
+66.96
+67.03
+67.00
+66.94
+66.81
+67.33
+67.19
+66.96
+0.00
+67.21
+67.10
+67.11
+67.16
+67.00
+67.17
+67.03
+67.21
+0.00
+66.99
+66.80
+66.86
+67.04
+66.91
+67.00
+67.10
+66.99
+0.00
+66.94
+67.02
+66.74
+67.03
+66.94
+67.11
+66.80
+66.94
+0.00
+66.98
+66.95
+66.84
+66.81
+67.16
+66.86
+67.02
+66.98
+0.00
+layer 2
+0.00
+66.66
+66.76
+66.86
+66.84
+66.55
+66.67
+66.74
+66.66
+0.00
+66.56
+66.69
+66.62
+66.62
+66.64
+66.80
+66.76
+66.56
+0.00
+66.97
+66.79
+66.75
+66.86
+66.82
+66.86
+66.69
+66.97
+0.00
+67.10
+67.10
+66.81
+67.02
+66.84
+66.62
+66.79
+67.10
+0.00
+66.71
+66.87
+66.92
+66.55
+66.62
+66.75
+67.10
+66.71
+0.00
+66.81
+66.80
+66.67
+66.64
+66.86
+66.81
+66.87
+66.81
+0.00
+66.93
+66.74
+66.80
+66.82
+67.02
+66.92
+66.80
+66.93
+0.00
+layer 3
+0.00
+66.76
+66.74
+66.67
+66.71
+66.59
+66.53
+66.56
+66.76
+0.00
+66.91
+66.61
+66.58
+66.75
+66.50
+66.74
+66.74
+66.91
+0.00
+66.67
+66.98
+66.66
+66.89
+66.81
+66.67
+66.61
+66.67
+0.00
+66.86
+66.49
+66.66
+66.59
+66.71
+66.58
+66.98
+66.86
+0.00
+66.60
+66.71
+66.91
+66.59
+66.75
+66.66
+66.49
+66.60
+0.00
+66.49
+66.59
+66.53
+66.50
+66.89
+66.66
+66.71
+66.49
+0.00
+66.64
+66.56
+66.74
+66.81
+66.59
+66.91
+66.59
+66.64
+0.00
+layer 4
+0.00
+66.51
+66.66
+66.39
+66.86
+66.49
+66.43
+66.43
+66.51
+0.00
+66.69
+66.29
+66.84
+66.42
+66.69
+66.36
+66.66
+66.69
+0.00
+66.51
+66.71
+66.34
+66.82
+66.65
+66.39
+66.29
+66.51
+0.00
+66.69
+66.37
+66.64
+66.44
+66.86
+66.84
+66.71
+66.69
+0.00
+66.66
+66.84
+66.71
+66.49
+66.42
+66.34
+66.37
+66.66
+0.00
+66.45
+66.38
+66.43
+66.69
+66.82
+66.64
+66.84
+66.45
+0.00
+66.62
+66.43
+66.36
+66.65
+66.44
+66.71
+66.38
+66.62
+0.00
+layer 5
+0.00
+66.74
+66.76
+66.64
+66.70
+66.84
+66.47
+66.80
+66.74
+0.00
+66.75
+66.76
+66.80
+66.57
+66.49
+66.74
+66.76
+66.75
+0.00
+66.88
+66.78
+66.84
+66.71
+66.96
+66.64
+66.76
+66.88
+0.00
+66.47
+66.81
+66.61
+66.65
+66.70
+66.80
+66.78
+66.47
+0.00
+66.44
+66.33
+66.59
+66.84
+66.57
+66.84
+66.81
+66.44
+0.00
+66.22
+66.78
+66.47
+66.49
+66.71
+66.61
+66.33
+66.22
+0.00
+66.51
+66.80
+66.74
+66.96
+66.65
+66.59
+66.78
+66.51
+0.00
+layer 6
+0.00
+66.44
+66.32
+66.31
+66.67
+66.34
+66.54
+66.34
+66.44
+0.00
+66.41
+66.28
+66.74
+66.53
+66.71
+66.65
+66.32
+66.41
+0.00
+66.06
+66.24
+66.19
+66.12
+66.37
+66.31
+66.28
+66.06
+0.00
+66.34
+66.24
+66.24
+66.29
+66.67
+66.74
+66.24
+66.34
+0.00
+66.23
+66.42
+66.50
+66.34
+66.53
+66.19
+66.24
+66.23
+0.00
+66.02
+66.06
+66.54
+66.71
+66.12
+66.24
+66.42
+66.02
+0.00
+66.42
+66.34
+66.65
+66.37
+66.29
+66.50
+66.06
+66.42
+0.00
+layer 7
+0.00
+66.27
+66.52
+66.55
+66.72
+65.82
+66.69
+66.41
+66.27
+0.00
+66.54
+66.53
+66.62
+65.79
+66.40
+66.17
+66.52
+66.54
+0.00
+66.77
+66.71
+66.20
+66.95
+66.25
+66.55
+66.53
+66.77
+0.00
+67.06
+66.09
+66.72
+66.76
+66.72
+66.62
+66.71
+67.06
+0.00
+66.39
+66.74
+66.46
+65.82
+65.79
+66.20
+66.09
+66.39
+0.00
+66.44
+66.00
+66.69
+66.40
+66.95
+66.72
+66.74
+66.44
+0.00
+66.43
+66.41
+66.17
+66.25
+66.76
+66.46
+66.00
+66.43
+0.00
+layer 8
+0.00
+66.81
+66.82
+66.81
+66.99
+66.79
+67.04
+66.76
+66.81
+0.00
+66.38
+66.86
+66.91
+66.52
+66.97
+66.60
+66.82
+66.38
+0.00
+66.68
+66.69
+66.43
+66.81
+66.34
+66.81
+66.86
+66.68
+0.00
+66.83
+66.72
+67.16
+66.59
+66.99
+66.91
+66.69
+66.83
+0.00
+66.42
+66.84
+66.59
+66.79
+66.52
+66.43
+66.72
+66.42
+0.00
+66.60
+66.44
+67.04
+66.97
+66.81
+67.16
+66.84
+66.60
+0.00
+66.70
+66.76
+66.60
+66.34
+66.59
+66.59
+66.44
+66.70
+0.00
+layer 9
+0.00
+66.28
+66.74
+66.71
+66.73
+66.76
+66.46
+66.82
+66.28
+0.00
+66.34
+66.55
+66.23
+66.50
+66.15
+66.68
+66.74
+66.34
+0.00
+67.30
+67.22
+67.02
+66.77
+67.20
+66.71
+66.55
+67.30
+0.00
+66.98
+67.04
+66.68
+67.02
+66.73
+66.23
+67.22
+66.98
+0.00
+66.86
+66.87
+66.73
+66.76
+66.50
+67.02
+67.04
+66.86
+0.00
+66.70
+66.83
+66.46
+66.15
+66.77
+66.68
+66.87
+66.70
+0.00
+66.83
+66.82
+66.68
+67.20
+67.02
+66.73
+66.83
+66.83
+0.00
+layer 10
+0.00
+66.59
+67.00
+67.02
+65.75
+66.86
+66.86
+66.84
+66.59
+0.00
+66.87
+66.82
+66.01
+66.58
+66.89
+66.52
+67.00
+66.87
+0.00
+66.89
+65.94
+66.93
+67.00
+66.68
+67.02
+66.82
+66.89
+0.00
+66.04
+67.01
+67.01
+66.67
+65.75
+66.01
+65.94
+66.04
+0.00
+65.47
+66.05
+65.71
+66.86
+66.58
+66.93
+67.01
+65.47
+0.00
+67.03
+66.44
+66.86
+66.89
+67.00
+67.01
+66.05
+67.03
+0.00
+66.67
+66.84
+66.52
+66.68
+66.67
+65.71
+66.44
+66.67
+0.00
+layer 11
+0.00
+66.69
+66.57
+66.32
+66.60
+66.04
+66.26
+66.71
+66.69
+0.00
+67.28
+66.35
+67.35
+66.84
+66.84
+67.26
+66.57
+67.28
+0.00
+66.46
+67.13
+66.96
+67.13
+67.18
+66.32
+66.35
+66.46
+0.00
+66.44
+66.49
+66.51
+66.40
+66.60
+67.35
+67.13
+66.44
+0.00
+66.78
+66.98
+67.13
+66.04
+66.84
+66.96
+66.49
+66.78
+0.00
+66.51
+66.83
+66.26
+66.84
+67.13
+66.51
+66.98
+66.51
+0.00
+66.94
+66.71
+67.26
+67.18
+66.40
+67.13
+66.83
+66.94
+0.00
+layer 12
+0.00
+65.88
+67.29
+66.91
+66.93
+66.96
+67.11
+66.84
+65.88
+0.00
+66.04
+66.01
+65.95
+66.19
+65.99
+65.89
+67.29
+66.04
+0.00
+67.03
+67.02
+67.19
+67.20
+66.80
+66.91
+66.01
+67.03
+0.00
+66.96
+67.13
+66.97
+66.70
+66.93
+65.95
+67.02
+66.96
+0.00
+66.99
+66.98
+66.62
+66.96
+66.19
+67.19
+67.13
+66.99
+0.00
+67.11
+66.86
+67.11
+65.99
+67.20
+66.97
+66.98
+67.11
+0.00
+67.05
+66.84
+65.89
+66.80
+66.70
+66.62
+66.86
+67.05
+0.00
+layer 13
+0.00
+65.68
+65.47
+65.14
+65.41
+65.72
+65.74
+65.70
+65.68
+0.00
+67.05
+67.11
+67.09
+67.00
+67.15
+67.08
+65.47
+67.05
+0.00
+67.14
+67.06
+67.06
+67.19
+67.12
+65.14
+67.11
+67.14
+0.00
+67.16
+67.10
+67.01
+67.28
+65.41
+67.09
+67.06
+67.16
+0.00
+67.01
+67.18
+67.13
+65.72
+67.00
+67.06
+67.10
+67.01
+0.00
+67.13
+67.08
+65.74
+67.15
+67.19
+67.01
+67.18
+67.13
+0.00
+67.13
+65.70
+67.08
+67.12
+67.28
+67.13
+67.08
+67.13
+0.00
+layer 14
+0.00
+66.50
+66.60
+65.64
+66.42
+66.20
+66.61
+66.35
+66.50
+0.00
+67.02
+66.87
+67.05
+67.11
+67.14
+67.21
+66.60
+67.02
+0.00
+66.82
+66.95
+67.06
+67.02
+67.07
+65.64
+66.87
+66.82
+0.00
+66.83
+67.00
+66.93
+66.85
+66.42
+67.05
+66.95
+66.83
+0.00
+67.08
+67.16
+67.31
+66.20
+67.11
+67.06
+67.00
+67.08
+0.00
+67.11
+67.21
+66.61
+67.14
+67.02
+66.93
+67.16
+67.11
+0.00
+67.11
+66.35
+67.21
+67.07
+66.85
+67.31
+67.21
+67.11
+0.00
+layer 15
+0.00
+67.26
+67.06
+67.19
+67.10
+66.94
+67.14
+67.26
+67.26
+0.00
+67.13
+67.13
+67.18
+66.76
+67.25
+67.17
+67.06
+67.13
+0.00
+67.07
+67.17
+66.82
+67.03
+66.98
+67.19
+67.13
+67.07
+0.00
+67.20
+66.72
+67.12
+66.78
+67.10
+67.18
+67.17
+67.20
+0.00
+66.96
+67.19
+66.98
+66.94
+66.76
+66.82
+66.72
+66.96
+0.00
+66.91
+66.76
+67.14
+67.25
+67.03
+67.12
+67.19
+66.91
+0.00
+67.09
+67.26
+67.17
+66.98
+66.78
+66.98
+66.76
+67.09
+0.00
+layer 16
+0.00
+67.06
+67.11
+67.13
+67.00
+67.16
+67.18
+66.53
+67.06
+0.00
+67.10
+67.06
+67.07
+67.07
+67.16
+66.36
+67.11
+67.10
+0.00
+67.03
+67.14
+67.11
+67.18
+66.46
+67.13
+67.06
+67.03
+0.00
+67.10
+67.13
+67.18
+66.42
+67.00
+67.07
+67.14
+67.10
+0.00
+67.10
+67.06
+66.64
+67.16
+67.07
+67.11
+67.13
+67.10
+0.00
+67.21
+66.37
+67.18
+67.16
+67.18
+67.18
+67.06
+67.21
+0.00
+66.61
+66.53
+66.36
+66.46
+66.42
+66.64
+66.37
+66.61
+0.00
+layer 17
+0.00
+66.69
+67.31
+67.24
+67.11
+66.91
+67.15
+66.98
+66.69
+0.00
+66.74
+66.66
+66.76
+66.32
+66.71
+66.62
+67.31
+66.74
+0.00
+67.08
+67.22
+66.88
+67.10
+67.13
+67.24
+66.66
+67.08
+0.00
+67.11
+66.86
+67.05
+67.05
+67.11
+66.76
+67.22
+67.11
+0.00
+66.79
+67.23
+67.11
+66.91
+66.32
+66.88
+66.86
+66.79
+0.00
+66.89
+66.84
+67.15
+66.71
+67.10
+67.05
+67.23
+66.89
+0.00
+66.96
+66.98
+66.62
+67.13
+67.05
+67.11
+66.84
+66.96
+0.00
+layer 18
+0.00
+67.07
+66.96
+67.06
+67.08
+67.14
+67.08
+67.00
+67.07
+0.00
+67.06
+67.15
+67.11
+67.11
+67.14
+67.08
+66.96
+67.06
+0.00
+66.98
+67.03
+66.92
+67.03
+67.20
+67.06
+67.15
+66.98
+0.00
+67.15
+67.21
+67.03
+67.15
+67.08
+67.11
+67.03
+67.15
+0.00
+67.05
+66.91
+67.09
+67.14
+67.11
+66.92
+67.21
+67.05
+0.00
+67.06
+67.14
+67.08
+67.14
+67.03
+67.03
+66.91
+67.06
+0.00
+67.19
+67.00
+67.08
+67.20
+67.15
+67.09
+67.14
+67.19
+0.00
+layer 19
+0.00
+66.90
+67.19
+67.15
+67.12
+67.10
+67.08
+67.03
+66.90
+0.00
+67.02
+66.94
+67.09
+67.06
+67.13
+66.99
+67.19
+67.02
+0.00
+66.94
+67.06
+67.12
+67.09
+67.13
+67.15
+66.94
+66.94
+0.00
+66.85
+66.84
+67.04
+66.92
+67.12
+67.09
+67.06
+66.85
+0.00
+67.20
+67.15
+67.06
+67.10
+67.06
+67.12
+66.84
+67.20
+0.00
+66.96
+67.05
+67.08
+67.13
+67.09
+67.04
+67.15
+66.96
+0.00
+67.11
+67.03
+66.99
+67.13
+66.92
+67.06
+67.05
+67.11
+0.00
+layer 20
+0.00
+67.18
+67.20
+67.06
+67.05
+67.18
+67.10
+67.18
+67.18
+0.00
+66.99
+67.18
+66.93
+67.19
+67.18
+67.08
+67.20
+66.99
+0.00
+67.02
+66.93
+67.08
+66.95
+67.06
+67.06
+67.18
+67.02
+0.00
+67.09
+67.03
+67.14
+67.13
+67.05
+66.93
+66.93
+67.09
+0.00
+66.95
+67.08
+66.93
+67.18
+67.19
+67.08
+67.03
+66.95
+0.00
+67.21
+67.05
+67.10
+67.18
+66.95
+67.14
+67.08
+67.21
+0.00
+67.14
+67.18
+67.08
+67.06
+67.13
+66.93
+67.05
+67.14
+0.00
+layer 21
+0.00
+67.16
+67.09
+67.18
+67.01
+67.09
+67.17
+66.74
+67.16
+0.00
+67.04
+67.17
+67.07
+67.03
+67.06
+66.89
+67.09
+67.04
+0.00
+67.16
+66.98
+67.16
+67.26
+66.78
+67.18
+67.17
+67.16
+0.00
+67.14
+67.26
+67.13
+67.06
+67.01
+67.07
+66.98
+67.14
+0.00
+67.08
+67.03
+66.81
+67.09
+67.03
+67.16
+67.26
+67.08
+0.00
+67.11
+66.96
+67.17
+67.06
+67.26
+67.13
+67.03
+67.11
+0.00
+66.84
+66.74
+66.89
+66.78
+67.06
+66.81
+66.96
+66.84
+0.00
+layer 22
+0.00
+67.09
+67.16
+67.13
+66.93
+67.09
+67.16
+67.12
+67.09
+0.00
+67.21
+67.21
+67.14
+67.17
+67.26
+67.13
+67.16
+67.21
+0.00
+67.11
+67.09
+67.14
+67.24
+67.15
+67.13
+67.21
+67.11
+0.00
+66.99
+67.04
+67.06
+67.06
+66.93
+67.14
+67.09
+66.99
+0.00
+67.05
+67.19
+67.21
+67.09
+67.17
+67.14
+67.04
+67.05
+0.00
+67.13
+67.09
+67.16
+67.26
+67.24
+67.06
+67.19
+67.13
+0.00
+67.18
+67.12
+67.13
+67.15
+67.06
+67.21
+67.09
+67.18
+0.00
+layer 23
+0.00
+67.02
+67.09
+67.01
+67.16
+67.15
+67.21
+67.06
+67.02
+0.00
+67.04
+67.10
+67.13
+67.19
+67.13
+67.19
+67.09
+67.04
+0.00
+66.99
+67.13
+67.08
+67.09
+67.23
+67.01
+67.10
+66.99
+0.00
+67.01
+67.18
+67.04
+66.98
+67.16
+67.13
+67.13
+67.01
+0.00
+67.07
+67.26
+67.14
+67.15
+67.19
+67.08
+67.18
+67.07
+0.00
+67.20
+67.20
+67.21
+67.13
+67.09
+67.04
+67.26
+67.20
+0.00
+67.13
+67.06
+67.19
+67.23
+66.98
+67.14
+67.20
+67.13
+0.00
+layer 24
+0.00
+66.99
+67.15
+67.10
+67.15
+67.12
+67.11
+67.14
+66.99
+0.00
+67.22
+67.11
+67.14
+67.28
+67.10
+67.26
+67.15
+67.22
+0.00
+67.22
+67.06
+67.04
+67.18
+67.11
+67.10
+67.11
+67.22
+0.00
+67.15
+67.23
+67.20
+67.19
+67.15
+67.14
+67.06
+67.15
+0.00
+67.07
+67.04
+67.06
+67.12
+67.28
+67.04
+67.23
+67.07
+0.00
+67.09
+67.23
+67.11
+67.10
+67.18
+67.20
+67.04
+67.09
+0.00
+67.08
+67.14
+67.26
+67.11
+67.19
+67.06
+67.23
+67.08
+0.00
+layer 25
+0.00
+67.07
+67.13
+67.22
+67.14
+67.19
+67.13
+67.16
+67.07
+0.00
+67.02
+67.12
+67.16
+67.10
+67.13
+67.13
+67.13
+67.02
+0.00
+66.99
+67.16
+67.25
+67.19
+67.18
+67.22
+67.12
+66.99
+0.00
+67.10
+67.00
+67.13
+67.18
+67.14
+67.16
+67.16
+67.10
+0.00
+67.23
+67.28
+67.20
+67.19
+67.10
+67.25
+67.00
+67.23
+0.00
+67.28
+67.23
+67.13
+67.13
+67.19
+67.13
+67.28
+67.28
+0.00
+67.16
+67.16
+67.13
+67.18
+67.18
+67.20
+67.23
+67.16
+0.00
+layer 26
+0.00
+67.08
+67.16
+67.23
+67.05
+67.16
+67.00
+67.04
+67.08
+0.00
+67.21
+66.99
+67.10
+67.06
+67.09
+67.13
+67.16
+67.21
+0.00
+67.16
+67.11
+67.02
+67.17
+67.10
+67.23
+66.99
+67.16
+0.00
+67.17
+67.26
+67.06
+67.08
+67.05
+67.10
+67.11
+67.17
+0.00
+67.18
+67.15
+67.12
+67.16
+67.06
+67.02
+67.26
+67.18
+0.00
+67.12
+67.00
+67.00
+67.09
+67.17
+67.06
+67.15
+67.12
+0.00
+67.18
+67.04
+67.13
+67.10
+67.08
+67.12
+67.00
+67.18
+0.00
+layer 27
+0.00
+67.06
+67.13
+66.91
+67.07
+67.12
+67.18
+67.21
+67.06
+0.00
+67.12
+66.98
+67.13
+67.11
+67.18
+67.26
+67.13
+67.12
+0.00
+67.00
+67.17
+67.04
+67.10
+67.09
+66.91
+66.98
+67.00
+0.00
+67.11
+66.92
+67.04
+67.13
+67.07
+67.13
+67.17
+67.11
+0.00
+67.18
+67.04
+67.13
+67.12
+67.11
+67.04
+66.92
+67.18
+0.00
+67.08
+67.19
+67.18
+67.18
+67.10
+67.04
+67.04
+67.08
+0.00
+67.07
+67.21
+67.26
+67.09
+67.13
+67.13
+67.19
+67.07
+0.00
+layer 28
+0.00
+67.11
+67.06
+67.16
+67.11
+67.11
+67.13
+67.10
+67.11
+0.00
+67.11
+67.03
+67.18
+67.01
+67.09
+67.18
+67.06
+67.11
+0.00
+67.16
+67.13
+66.89
+67.18
+67.11
+67.16
+67.03
+67.16
+0.00
+67.13
+67.01
+67.07
+67.08
+67.11
+67.18
+67.13
+67.13
+0.00
+67.15
+67.19
+67.21
+67.11
+67.01
+66.89
+67.01
+67.15
+0.00
+67.06
+66.96
+67.13
+67.09
+67.18
+67.07
+67.19
+67.06
+0.00
+67.18
+67.10
+67.18
+67.11
+67.08
+67.21
+66.96
+67.18
+0.00
+layer 29
+0.00
+67.08
+67.06
+67.15
+67.21
+67.10
+67.07
+67.06
+67.08
+0.00
+67.09
+67.04
+67.21
+67.13
+67.21
+67.04
+67.06
+67.09
+0.00
+67.16
+67.27
+67.06
+67.18
+67.02
+67.15
+67.04
+67.16
+0.00
+67.28
+67.09
+67.21
+67.13
+67.21
+67.21
+67.27
+67.28
+0.00
+67.06
+67.01
+67.15
+67.10
+67.13
+67.06
+67.09
+67.06
+0.00
+66.98
+67.16
+67.07
+67.21
+67.18
+67.21
+67.01
+66.98
+0.00
+67.08
+67.06
+67.04
+67.02
+67.13
+67.15
+67.16
+67.08
+0.00
+layer 30
+0.00
+67.21
+67.26
+67.16
+67.18
+67.18
+67.16
+66.92
+67.21
+0.00
+67.23
+67.15
+67.20
+67.16
+67.17
+66.91
+67.26
+67.23
+0.00
+67.29
+67.28
+67.40
+67.20
+66.88
+67.16
+67.15
+67.29
+0.00
+67.18
+67.15
+67.13
+66.96
+67.18
+67.20
+67.28
+67.18
+0.00
+67.17
+67.16
+66.91
+67.18
+67.16
+67.40
+67.15
+67.17
+0.00
+67.18
+67.00
+67.16
+67.17
+67.20
+67.13
+67.16
+67.18
+0.00
+66.95
+66.92
+66.91
+66.88
+66.96
+66.91
+67.00
+66.95
+0.00
+layer 31
+Figure D3: Enumeration on dropping two experts.
+15
+
+6260585654525048
+Number of experts
+27.5
+30.0
+32.5
+35.0
+37.5
+40.0
+42.5
+Score
+64 experts
+MMLU
+6260585654525048
+Number of experts
+60.0
+62.5
+65.0
+67.5
+70.0
+72.5
+75.0
+77.5
+Score
+64 experts
+BoolQ
+6260585654525048
+Number of experts
+26
+27
+28
+29
+30
+31
+32
+33
+34
+Score
+64 experts
+OpenBookQA
+6260585654525048
+Number of experts
+56
+58
+60
+62
+64
+66
+68
+Score
+64 experts
+RTE
+6260585654525048
+Number of experts
+44
+46
+48
+50
+52
+54
+Score
+64 experts
+Average
+Gate-guided
+Count-guided
+Our Data-Centric Expert-guided
+Our Model-Centric Expert-guided
+Figure E4: Results on pruning Deepseek-MoE-16B.
+626058565452504846
+Number of experts
+71
+72
+73
+74
+75
+Score
+64 experts
+MMLU
+626058565452504846
+Number of experts
+85.0
+85.5
+86.0
+86.5
+87.0
+87.5
+88.0
+88.5
+Score
+64 experts
+BoolQ
+626058565452504846
+Number of experts
+31.0
+31.5
+32.0
+32.5
+33.0
+33.5
+34.0
+34.5
+35.0
+Score
+64 experts
+OpenBookQA
+626058565452504846
+Number of experts
+77
+78
+79
+80
+81
+Score
+64 experts
+RTE
+626058565452504846
+Number of experts
+66.5
+67.0
+67.5
+68.0
+68.5
+69.0
+Score
+64 experts
+Average
+Gate-guided
+Count-guided
+Our Data-Centric Expert-guided
+Our Model-Centric Expert-guided
+Figure E5: Results on pruning Qwen2-57B-14A.
+Algorithm 1 Pruning algorithm for given MoE
+layer
+Input: The set of experts F = {f1, f2, ..., fN}
+in the given MoE layer to prune, each expert
+fi consisting of three layers parameterized by
+θi
+1, θi
+2, θi
+3, respectively, the number of experts
+to reserve r, the calibration dataset D, strategy
+s.
+Output: Pruned MoE layer with reduced experts
+{f1, f2, ..., fr}.
+1: function MOE PRUNING(MoE layer F, num-
+ber of experts r to reserve)
+2:
+Initialize G = {V, E, A}.
+3:
+for each i in N do
+4:
+if s==Data-centric then
+5:
+R(fi) = fi(Mixup(D)).
+6:
+else if s==Vectorized weights then
+7:
+R(fi) = {θi
+1, θi
+2, θi
+3}
+8:
+else if s==Surrogate weights then
+9:
+R(fi) = θi
+2(θi
+1 · θi
+3)
+10:
+for each i in N do
+11:
+for each j in N do
+12:
+A(Eij) = CKA(R(fi), R(fj))
+13:
+Optimize eq. (4) on G to find r subgroup
+of experts.
+14:
+Merge experts with their routers clustered
+within the same subgroup based on eq. (5).
+15:
+return Pruned F
+Figure F6: Statistics of the visiting frequency for all
+experts in different MoE layers.
+On the one hand, achieving good distributional
+similarity between the surrogate and real datasets
+is indeed crucial for the success of the data-centric
+method. Without such similarity, the method can
+fail entirely. In our trials, we tried using random
+inputs to identify similar experts and prune the
+MoE model, which led to the crashed performance
+of the pruned experts.
+On the other hand, while surrogate datasets are
+generally simpler than real-world datasets, they still
+capture critical characteristics learned by different
+experts. Notably, no pre-trained data is publicly
+available for the models we study, including Mix-
+tral, DeepSeek, and Qwen. However, leveraging a
+small portion of the open-source pre-trained dataset
+C4 still yields comparable performance on diverse
+benchmarks, as shown in our results.
+16
+
+In contrast, the model-centric method identifies
+similar experts directly by analyzing the model’s
+weights, bypassing the need for any data. This ap-
+proach builds on the observation that training on
+the same dataset produces similar weight distribu-
+tions, which can serve as a surrogate for predicting
+outputs given the same inputs. In the context of
+MoEs, when the gating mechanism consistently
+routes similar tokens to a group of experts, those
+experts tend to exhibit similar weights. Therefore,
+the model-centric strategy aligns with the paper’s
+initial data-dependent premise by offering a com-
+plementary perspective on expert similarity without
+relying on external datasets.
+17

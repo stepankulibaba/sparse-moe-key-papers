@@ -1,0 +1,1532 @@
+
+Marah Abdin, Jyoti Aneja, Hany Awadalla, Ahmed Awadallah, Ammar Ahmad Awan, Nguyen Bach,
+Amit Bahree, Arash Bakhtiari, Jianmin Bao, Harkirat Behl, et al. Phi-3 technical report: A highly
+capable language model locally on your phone. arxiv 2024. arXiv preprint arXiv:2404.14219,
+2024.
+Yutong Bai, Xinyang Geng, Karttikeya Mangalam, Amir Bar, Alan L Yuille, Trevor Darrell, Jitendra
+Malik, and Alexei A Efros. Sequential modeling enables scalable learning for large vision models.
+In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp.
+22861–22872, 2024.
+Hangbo Bao, Li Dong, Songhao Piao, and Furu Wei. BEit: BERT pre-training of image transformers.
+In International Conference on Learning Representations, 2022a. URL https://openreview.net/
+forum?id=p-BhZSz59o4.
+Hangbo Bao, Wenhui Wang, Li Dong, Qiang Liu, Owais Khan Mohammed, Kriti Aggarwal, Subhojit
+Som, Songhao Piao, and Furu Wei. Vlmo: Unified vision-language pre-training with mixture-
+of-modality-experts. Advances in Neural Information Processing Systems, 35:32897–32912,
+2022b.
+Emmanuel Bengio, Pierre-Luc Bacon, Joelle Pineau, and Doina Precup. Conditional computation in
+neural networks for faster models. arXiv preprint arXiv:1511.06297, 2015.
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla Dhariwal,
+Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, et al. Language models are
+few-shot learners. Advances in neural information processing systems, 33:1877–1901, 2020.
+Lili Chen, Kevin Lu, Aravind Rajeswaran, Kimin Lee, Aditya Grover, Misha Laskin, Pieter Abbeel,
+Aravind Srinivas, and Igor Mordatch. Decision transformer: Reinforcement learning via sequence
+modeling. Advances in neural information processing systems, 34:15084–15097, 2021.
+Lin Chen, Jinsong Li, Xiaoyi Dong, Pan Zhang, Yuhang Zang, Zehui Chen, Haodong Duan, Jiaqi
+Wang, Yu Qiao, Dahua Lin, et al. Are we on the right way for evaluating large vision-language
+models? arXiv preprint arXiv:2403.20330, 2024.
+Tianlong Chen, Zhenyu Zhang, Ajay Kumar Jaiswal, Shiwei Liu, and Zhangyang Wang. Sparse
+moe as the new dropout: Scaling dense and self-slimmable transformers. In ICLR, 2023. URL
+https://openreview.net/pdf?id=w1hwFUb 81.
+Zewen Chi, Li Dong, Shaohan Huang, Damai Dai, Shuming Ma, Barun Patra, Saksham Singhal,
+Payal Bajaj, Xia Song, Xian-Ling Mao, et al. On the representation collapse of sparse mixture of
+experts. Advances in Neural Information Processing Systems, 35:34600–34613, 2022.
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: Pre-training of
+deep bidirectional transformers for language understanding. In Jill Burstein, Christy Doran, and
+Thamar Solorio (eds.), Proceedings of the 2019 Conference of the North American Chapter of the
+Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and
+Short Papers), pp. 4171–4186, Minneapolis, Minnesota, June 2019. Association for Computational
+Linguistics. doi: 10.18653/v1/N19-1423. URL https://aclanthology.org/N19-1423.
+10
+
+Preprint.
+Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas
+Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit,
+and Neil Houlsby. An image is worth 16x16 words: Transformers for image recognition at scale.
+In International Conference on Learning Representations, 2021. URL https://openreview.net/
+forum?id=YicbFdNTTy.
+Nan Du, Yanping Huang, Andrew M Dai, Simon Tong, Dmitry Lepikhin, Yuanzhong Xu, Maxim
+Krikun, Yanqi Zhou, Adams Wei Yu, Orhan Firat, Barret Zoph, Liam Fedus, Maarten P Bosma,
+Zongwei Zhou, Tao Wang, Emma Wang, Kellie Webster, Marie Pellat, Kevin Robinson, Kathleen
+Meier-Hellstern, Toju Duke, Lucas Dixon, Kun Zhang, Quoc Le, Yonghui Wu, Zhifeng Chen,
+and Claire Cui. GLaM: Efficient scaling of language models with mixture-of-experts. In Ka-
+malika Chaudhuri, Stefanie Jegelka, Le Song, Csaba Szepesvari, Gang Niu, and Sivan Sabato
+(eds.), Proceedings of the 39th International Conference on Machine Learning, volume 162 of
+Proceedings of Machine Learning Research, pp. 5547–5569. PMLR, 17–23 Jul 2022. URL
+https://proceedings.mlr.press/v162/du22c.html.
+William Fedus, Barret Zoph, and Noam Shazeer. Switch transformers: Scaling to trillion parameter
+models with simple and efficient sparsity. Journal of Machine Learning Research, 23(120):1–39,
+2022.
+Xing Han, Tongzheng Ren, Tan Nguyen, Khai Nguyen, Joydeep Ghosh, and Nhat Ho. Designing
+robust transformers using robust kernel density estimation. Advances in Neural Information
+Processing Systems, 36, 2024.
+Donald Olding Hebb. The organization of behavior: A neuropsychological theory. Psychology press,
+2005.
+Dan Hendrycks and Thomas Dietterich. Benchmarking neural network robustness to common
+corruptions and perturbations. In International Conference on Learning Representations, 2019a.
+URL https://openreview.net/forum?id=HJz6tiCqYm.
+Dan Hendrycks and Thomas Dietterich. Benchmarking neural network robustness to common
+corruptions and perturbations. In International Conference on Learning Representations, 2019b.
+URL https://openreview.net/forum?id=HJz6tiCqYm.
+Dan Hendrycks, Steven Basart, Norman Mu, Saurav Kadavath, Frank Wang, Evan Dorundo, Rahul
+Desai, Tyler Zhu, Samyak Parajuli, Mike Guo, et al. The many faces of robustness: A critical
+analysis of out-of-distribution generalization. In Proceedings of the IEEE/CVF international
+conference on computer vision, pp. 8340–8349, 2021a.
+Dan Hendrycks, Steven Basart, Norman Mu, Saurav Kadavath, Frank Wang, Evan Dorundo, Rahul
+Desai, Tyler Zhu, Samyak Parajuli, Mike Guo, et al. The many faces of robustness: A critical
+analysis of out-of-distribution generalization. In Proceedings of the IEEE/CVF international
+conference on computer vision, pp. 8340–8349, 2021b.
+Dan Hendrycks, Kevin Zhao, Steven Basart, Jacob Steinhardt, and Dawn Song. Natural adversarial
+examples. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition,
+pp. 15262–15271, 2021c.
+J. J. Hopfield. Neural networks and physical systems with emergent collective computational abilities.
+Proceedings of the National Academy of Sciences of the United States of America, 79(8):2554–2558,
+April 1982. ISSN 0027-8424.
+Fenyu Hu, Liping Wang, Qiang Liu, Shu Wu, Liang Wang, and Tieniu Tan. Graphdive: Graph
+classification by mixture of diverse experts. In Lud De Raedt (ed.), Proceedings of the Thirty-First
+International Joint Conference on Artificial Intelligence, IJCAI-22, pp. 2080–2086. International
+Joint Conferences on Artificial Intelligence Organization, 7 2022. doi: 10.24963/ijcai.2022/289.
+URL https://doi.org/10.24963/ijcai.2022/289. Main Track.
+Drew A Hudson and Christopher D Manning. Gqa: A new dataset for real-world visual reasoning
+and compositional question answering. In Proceedings of the IEEE/CVF conference on computer
+vision and pattern recognition, pp. 6700–6709, 2019.
+11
+
+Preprint.
+Robert A Jacobs, Michael I Jordan, Steven J Nowlan, and Geoffrey E Hinton. Adaptive mixtures of
+local experts. Neural computation, 3(1):79–87, 1991.
+Michael Janner, Qiyang Li, and Sergey Levine. Offline reinforcement learning as one big sequence
+modeling problem. Advances in neural information processing systems, 34:1273–1286, 2021.
+Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B Brown, Benjamin Chess, Rewon Child, Scott
+Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. Scaling laws for neural language models.
+arXiv preprint arXiv:2001.08361, 2020.
+Suyeon Kim, Dongha Lee, SeongKu Kang, Seonghyeon Lee, and Hwanjo Yu. Learning topology-
+specific experts for molecular property prediction. In Proceedings of the AAAI Conference on
+Artificial Intelligence, volume 37, pp. 8291–8299, 2023.
+Aran Komatsuzaki, Joan Puigcerver, James Lee-Thorp, Carlos Riquelme Ruiz, Basil Mustafa, Joshua
+Ainslie, Yi Tay, Mostafa Dehghani, and Neil Houlsby. Sparse upcycling: Training mixture-of-
+experts from dense checkpoints. arXiv preprint arXiv:2212.05055, 2022.
+Kenichi Kumatani, Robert Gmyr, Felipe Cruz Salinas, Linquan Liu, Wei Zuo, Devang Patel, Eric
+Sun, and Yu Shi. Building a great multi-lingual teacher with sparsely-gated mixture of experts for
+speech recognition. arXiv preprint arXiv:2112.05820, 2021.
+Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu, Dehao Chen, Orhan Firat, Yanping Huang,
+Maxim Krikun, Noam Shazeer, and Zhifeng Chen. {GS}hard: Scaling giant models with condi-
+tional computation and automatic sharding. In International Conference on Learning Representa-
+tions, 2021. URL https://openreview.net/forum?id=qrwe7XHTmYb.
+Mike Lewis, Shruti Bhosale, Tim Dettmers, Naman Goyal, and Luke Zettlemoyer. Base layers:
+Simplifying training of large, sparse models. In International Conference on Machine Learning,
+pp. 6265–6274. PMLR, 2021.
+Jiachen Li, Xinyao Wang, Sijie Zhu, Chia-Wen Kuo, Lu Xu, Fan Chen, Jitesh Jain, Humphrey Shi,
+and Longyin Wen. Cumo: Scaling multimodal llm with co-upcycled mixture-of-experts. arXiv
+preprint arXiv:2405.05949, 2024.
+Junnan Li, Dongxu Li, Silvio Savarese, and Steven Hoi. Blip-2: Bootstrapping language-image
+pre-training with frozen image encoders and large language models. In International conference
+on machine learning, pp. 19730–19742. PMLR, 2023a.
+Yifan Li, Yifan Du, Kun Zhou, Jinpeng Wang, Wayne Xin Zhao, and Ji-Rong Wen. Evaluating object
+hallucination in large vision-language models. arXiv preprint arXiv:2305.10355, 2023b.
+Aixin Liu, Bei Feng, Bin Wang, Bingxuan Wang, Bo Liu, Chenggang Zhao, Chengqi Dengr, Chong
+Ruan, Damai Dai, Daya Guo, et al. Deepseek-v2: A strong, economical, and efficient mixture-of-
+experts language model. arXiv preprint arXiv:2405.04434, 2024a.
+Aixin Liu, Bei Feng, Bing Xue, Bingxuan Wang, Bochao Wu, Chengda Lu, Chenggang Zhao,
+Chengqi Deng, Chenyu Zhang, Chong Ruan, et al. Deepseek-v3 technical report. arXiv preprint
+arXiv:2412.19437, 2024b.
+Haotian Liu, Chunyuan Li, Qingyang Wu, and Yong Jae Lee. Visual instruction tuning. In Thirty-
+seventh Conference on Neural Information Processing Systems, 2023a. URL https://openreview.
+net/forum?id=w0H2xGHlkw.
+Haotian Liu, Chunyuan Li, Yuheng Li, and Yong Jae Lee. Improved baselines with visual instruction
+tuning. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,
+pp. 26296–26306, 2024c.
+Haotian Liu, Chunyuan Li, Qingyang Wu, and Yong Jae Lee. Visual instruction tuning. Advances in
+neural information processing systems, 36, 2024d.
+Yuan Liu, Haodong Duan, Yuanhan Zhang, Bo Li, Songyang Zhang, Wangbo Zhao, Yike Yuan, Jiaqi
+Wang, Conghui He, Ziwei Liu, et al. Mmbench: Is your multi-modal model an all-around player?
+In European conference on computer vision, pp. 216–233. Springer, 2024e.
+12
+
+Preprint.
+Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, and Baining Guo.
+Swin transformer: Hierarchical vision transformer using shifted windows. In Proceedings of the
+IEEE/CVF international conference on computer vision, pp. 10012–10022, 2021.
+Zheyuan Liu, Chunhui Zhang, Yijun Tian, Erchi Zhang, Chao Huang, Yanfang Ye, and Chuxu Zhang.
+Fair graph representation learning via diverse mixture-of-experts. In Proceedings of the ACM Web
+Conference 2023, pp. 28–38, 2023b.
+Pan Lu, Swaroop Mishra, Tanglin Xia, Liang Qiu, Kai-Wei Chang, Song-Chun Zhu, Oyvind Tafjord,
+Peter Clark, and Ashwin Kalyan. Learn to explain: Multimodal reasoning via thought chains for
+science question answering. Advances in Neural Information Processing Systems, 35:2507–2521,
+2022.
+Stephen Merity, Caiming Xiong, James Bradbury, and Richard Socher. Pointer sentinel mixture
+models. In International Conference on Learning Representations, 2017. URL https://openreview.
+net/forum?id=Byj72udxe.
+John Morris, Eli Lifland, Jin Yong Yoo, Jake Grigsby, Di Jin, and Yanjun Qi. Textattack: A framework
+for adversarial attacks, data augmentation, and adversarial training in nlp. In Proceedings of the
+2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations,
+pp. 119–126, 2020.
+Niklas Muennighoff, Alexander Rush, Boaz Barak, Teven Le Scao, Nouamane Tazi, Aleksandra
+Piktus, Sampo Pyysalo, Thomas Wolf, and Colin A Raffel. Scaling data-constrained language
+models. Advances in Neural Information Processing Systems, 36:50358–50376, 2023.
+Nam V Nguyen, Thong T Doan, Luong Tran, Van Nguyen, and Quang Pham. Libmoe: A library
+for comprehensive benchmarking mixture of experts in large language models. arXiv preprint
+arXiv:2411.00918, 2024.
+Tam Nguyen, Ngoc N Tran, Khai Nguyen, and Richard G Baraniuk. Improving routing in sparse
+mixture of experts with graph of tokens. arXiv preprint arXiv:2505.00792, 2025.
+Tan Nguyen, Tam Nguyen, Hai Do, Khai Nguyen, Vishwanath Saragadam, Minh Pham, Khuong Duy
+Nguyen, Nhat Ho, and Stanley Osher. Improving transformer with an admixture of attention heads.
+Advances in neural information processing systems, 35:27937–27952, 2022.
+NVIDIA Corporation. Nvidia a100 tensor core gpu architecture. https://images.nvidia.com/aem-dam/
+en-zz/Solutions/data-center/nvidia-ampere-architecture-whitepaper.pdf, 2020. Accessed: 2025-05-
+08.
+Ofir Press, Noah A. Smith, and Omer Levy. Improving transformer models by reordering their
+sublayers. In Proceedings of the 58th Annual Meeting of the Association for Computational
+Linguistics, pp. 2996–3005, Online, July 2020. Association for Computational Linguistics. doi:
+10.18653/v1/2020.acl-main.270. URL https://www.aclweb.org/anthology/2020.acl-main.270.
+Joan Puigcerver, Rodolphe Jenatton, Carlos Riquelme, Pranjal Awasthi, and Srinadh Bhojanapalli.
+On the adversarial robustness of mixture of experts. Advances in Neural Information Processing
+Systems, 35:9660–9671, 2022.
+Joan Puigcerver, Carlos Riquelme Ruiz, Basil Mustafa, and Neil Houlsby. From sparse to soft
+mixtures of experts. In The Twelfth International Conference on Learning Representations, 2024.
+URL https://openreview.net/forum?id=jxpsAj7ltE.
+Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever, et al. Language
+models are unsupervised multitask learners. OpenAI blog, 1(8):9, 2019.
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi
+Zhou, Wei Li, and Peter J Liu. Exploring the limits of transfer learning with a unified text-to-text
+transformer. Journal of machine learning research, 21(140):1–67, 2020.
+Carlos Riquelme, Joan Puigcerver, Basil Mustafa, Maxim Neumann, Rodolphe Jenatton, Andr´e
+Susano Pinto, Daniel Keysers, and Neil Houlsby. Scaling vision with sparse mixture of experts.
+Advances in Neural Information Processing Systems, 34:8583–8595, 2021.
+13
+
+Preprint.
+Stephen Roller, Sainbayar Sukhbaatar, Jason Weston, et al. Hash layers for large sparse models.
+Advances in Neural Information Processing Systems, 34:17555–17566, 2021.
+Kartik Sharma, Yeon-Chang Lee, Sivagami Nambi, Aditya Salian, Shlok Shah, Sang-Wook Kim,
+and Srijan Kumar. A survey of graph neural networks for social recommender systems. ACM
+Computing Surveys, 56(10):1–34, 2024.
+N Shazeer, A Mirhoseini, K Maziarz, A Davis, Q Le, G Hinton, and J Dean. The sparsely-gated
+mixture-of-experts layer. Outrageously large neural networks, 2017a.
+Noam Shazeer, *Azalia Mirhoseini, *Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton,
+and Jeff Dean. Outrageously large neural networks: The sparsely-gated mixture-of-experts layer.
+In International Conference on Learning Representations, 2017b. URL https://openreview.net/
+forum?id=B1ckMDqlg.
+Abdul-Saboor Sheikh, Jacquelyn A Shelton, and J¨org L¨ucke. A truncated em approach for spike-and-
+slab sparse coding. The Journal of Machine Learning Research, 15(1):2653–2687, 2014.
+Amanpreet Singh, Vivek Natarajan, Meet Shah, Yu Jiang, Xinlei Chen, Dhruv Batra, Devi Parikh, and
+Marcus Rohrbach. Towards vqa models that can read. In Proceedings of the IEEE/CVF conference
+on computer vision and pattern recognition, pp. 8317–8326, 2019.
+Shashank Subramanian, Peter Harrington, Kurt Keutzer, Wahid Bhimji, Dmitriy Morozov, Michael W
+Mahoney, and Amir Gholami. Towards foundation models for scientific machine learning: Charac-
+terizing scaling and transfer behavior. Advances in Neural Information Processing Systems, 36,
+2024.
+Chen Tang, Bo Lv, Zifan Zheng, Bohao Yang, Kun Zhao, Ning Liao, Xiaoxing Wang, Feiyu Xiong,
+Zhiyu Li, Nayu Liu, et al. Graphmoe: Amplifying cognitive depth of mixture-of-experts network
+via introducing self-rethinking mechanism. arXiv preprint arXiv:2501.07890, 2025.
+Mathieu Blondel Tianlin Liu, Joan Puigcerver. Sparsity-constrained optimal transport. In Proceedings
+of the Eleventh International Conference on Learning Representations (ICLR), 2023.
+URL
+https://openreview.net/forum?id=yHY9NbQJ5BP.
+Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timoth´ee
+Lacroix, Baptiste Rozi`ere, Naman Goyal, Eric Hambro, Faisal Azhar, et al. Llama: Open and
+efficient foundation language models. arXiv preprint arXiv:2302.13971, 2023.
+Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel Bowman. Glue:
+A multi-task benchmark and analysis platform for natural language understanding. In Proceedings
+of the 2018 EMNLP Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for
+NLP, pp. 353–355, 2018.
+Haotao Wang, Ziyu Jiang, Yuning You, Yan Han, Gaowen Liu, Jayanth Srinivasa, Ramana Kompella,
+Zhangyang Wang, et al. Graph mixture of experts: Learning on large-scale graphs with explicit
+diversity modeling. Advances in Neural Information Processing Systems, 36, 2024a.
+Peng Wang, Shuai Bai, Sinan Tan, Shijie Wang, Zhihao Fan, Jinze Bai, Keqin Chen, Xuejing Liu,
+Jialin Wang, Wenbin Ge, Yang Fan, Kai Dang, Mengfei Du, Xuancheng Ren, Rui Men, Dayiheng
+Liu, Chang Zhou, Jingren Zhou, and Junyang Lin. Qwen2-vl: Enhancing vision-language model’s
+perception of the world at any resolution. arXiv preprint arXiv:2409.12191, 2024b.
+Shiwen Wu, Fei Sun, Wentao Zhang, Xu Xie, and Bin Cui. Graph neural networks in recommender
+systems: a survey. ACM Computing Surveys, 55(5):1–37, 2022.
+Lei Xu, Michael Jordan, and Geoffrey E Hinton. An alternative model for mixtures of experts.
+Advances in neural information processing systems, 7, 1994.
+Liu Yang, Siting Liu, Tingwei Meng, and Stanley J Osher. In-context operator learning with data
+prompts for differential equation problems. Proceedings of the National Academy of Sciences, 120
+(39):e2310142120, 2023.
+14
+
+Preprint.
+Xiang Yue, Yuansheng Ni, Kai Zhang, Tianyu Zheng, Ruoqi Liu, Ge Zhang, Samuel Stevens, Dongfu
+Jiang, Weiming Ren, Yuxuan Sun, et al. Mmmu: A massive multi-discipline multimodal under-
+standing and reasoning benchmark for expert agi. In Proceedings of the IEEE/CVF Conference on
+Computer Vision and Pattern Recognition, pp. 9556–9567, 2024.
+Seniha Esen Yuksel, Joseph N Wilson, and Paul D Gader. Twenty years of mixture of experts. IEEE
+transactions on neural networks and learning systems, 23(8):1177–1193, 2012.
+Guibin Zhang, Xiangguo Sun, Yanwei Yue, Chonghe Jiang, Kun Wang, Tianlong Chen, and Shirui
+Pan. Graph sparsification via mixture of graphs. arXiv preprint arXiv:2405.14260, 2024.
+Yihua Zhang, Ruisi Cai, Tianlong Chen, Guanhua Zhang, Huan Zhang, Pin-Yu Chen, Shiyu Chang,
+Zhangyang Wang, and Sijia Liu. Robust mixture-of-expert training for convolutional neural
+networks. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pp.
+90–101, 2023.
+Daquan Zhou, Zhiding Yu, Enze Xie, Chaowei Xiao, Animashree Anandkumar, Jiashi Feng, and
+Jose M Alvarez. Understanding the robustness in vision transformers. In International Conference
+on Machine Learning, pp. 27378–27394. PMLR, 2022a.
+Liguang Zhou, Yuhongze Zhou, Tin Lun Lam, and Yangsheng Xu. Context-aware mixture-of-experts
+for unbiased scene graph generation. arXiv preprint arXiv:2208.07109, 2022b.
+Yanqi Zhou, Tao Lei, Hanxiao Liu, Nan Du, Yanping Huang, Vincent Zhao, Andrew M Dai, Quoc V
+Le, James Laudon, et al. Mixture-of-experts with expert choice routing. Advances in Neural
+Information Processing Systems, 35:7103–7114, 2022c.
+Yanqi Zhou, Nan Du, Yanping Huang, Daiyi Peng, Chang Lan, Da Huang, Siamak Shakeri, David
+So, Andrew M. Dai, Yifeng Lu, Zhifeng Chen, Quoc V Le, Claire Cui, James Laudon, and Jeff
+Dean. Brainformers: Trading simplicity for efficiency. In Proceedings of the 40th International
+Conference on Machine Learning, volume 202, pp. 42531–42542. PMLR, 23–29 Jul 2023. URL
+https://proceedings.mlr.press/v202/zhou23c.html.
+15
+
+Preprint.
+Supplement to “Modeling Expert Interactions in Sparse Mixture
+of Experts via Graph Structures”
+Table of Contents
+A Overview of Symphony Sparse Mixture of Experts Architecture
+17
+B
+Proofs
+17
+B.1
+Proof of Theorem 1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+B.2
+Relaxing the geometrical assumption on expert selection regions . . . . . . . . . .
+18
+B.3
+Proof of Proposition 1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+C Deriving Cosine and Random Routers from the Posterior Formulation of the Gate
+Values in (S)MoE
+20
+D Experimental Details
+20
+D.1 WikiText-103 Language Modeling . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+D.2
+ImageNet-1K Object Recognition
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+D.3 Visual Instruction Tuning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+E Additional Experimental Results
+22
+E.1
+C4 Language Modeling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+E.2
+ImageNet-1k Object Recognition on SwinMoE
+. . . . . . . . . . . . . . . . . . .
+23
+E.3
+Full Set of ImageNet-C Results . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+E.4
+ImageNet-1k Object Recognition on SoftMoE . . . . . . . . . . . . . . . . . . . .
+23
+E.5
+LLaVA-332K Results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+F
+Complexity and runtime analysis
+24
+F.1
+Complexity of the Symphony Router . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+F.2
+Runtime evolution of SymphonySMoE . . . . . . . . . . . . . . . . . . . . . . . .
+24
+F.3
+Reducing Overhead . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+G Additional Empirical Analysis
+25
+G.1 Ablation Study on Different Initialization Strategies for the Social Graph . . . . . .
+25
+G.2 Ablation Study on The Decay Parameter β . . . . . . . . . . . . . . . . . . . . . .
+25
+G.3
+Dense vs. Sparse Social Graph . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+G.4
+Load balancing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+G.5 Visualizing the Social Graph . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+H Distiguish with Other Graph-based SMoE
+27
+I
+Broader Impacts
+29
+16
+
+Preprint.
+Social Graph between Experts
+Linear Gate
+Symphony Router
+input token
+output
+Figure 2: An overview figure that illustrates the architecture of SymphonySMoE.
+A
+OVERVIEW OF SYMPHONY SPARSE MIXTURE OF EXPERTS ARCHITECTURE
+Figure 2 depicts the overall architecture of SymphonySMoE.
+B
+PROOFS
+B.1
+PROOF OF THEOREM 1
+Proof of Theorem 1. Let {wj}j=1,...,M be the expert embeddings. We can assume that the true
+selection region for expert wj is well-estimated by a ball Bj = Bj(Rj) := {x ∈X : ∥x −wj∥≤
+Rj} of radius Rj > 0 for all j = 1, . . . , M since w⊤
+j x + b ≈−1
+2∥wj −x∥2 when the learnable
+bias is close to −1
+2(∥wj∥2 + ∥x∥2) (also note that arg maxj(w⊤
+j x + b) = arg minj ∥wj −x∥
+holds exactly particularly when wj are normalized as in Chi et al. (2022)), and Euclidean distance is
+spherically invariant as ∥wj −x∥= const yields a sphere over x. Then, the co-selection region for
+experts wj and wk can be represented as Cjk := Bj ∩Bk.
+Now consider the following contamination setting:
+Xε :=
+
+x′ ∈Rd : x′ = x + δ, x ∈X, ∥δ∥≤ε
+	
+,
+(9)
+where Xε essentially corresponds to the ε-expansion of X. Subsequently, we define the following set
+of ”escaped” tokens
+Cesc
+jk := {x ∈Cjk : x + δ ∈Xε \ Cjk, ∥δ∥≤ε} ,
+(10)
+which denotes all points in Cjk that are drifted out of Cjk because of natural data corruption or an
+adversary. Now since Cesc
+jk ∪(Cjk \ Cesc
+jk ) = Cjk with an empty overlap, we have
+µ(Cesc
+jk )
+µ(Cjk \ Cesc
+jk ) =
+µ(Cesc
+jk )
+µ(Cjk) −µ(Cesc
+jk ) ≤
+µ(Cε
+jk) −µ(Cjk)
+µ(Cjk) −
+h
+µ(Cε
+jk) −µ(Cjk)
+i,
+(11)
+where Cε
+jk := Bj(Rj +ε)∩Bk(Rk +ε), and the inequality follows from the fact that Cesc
+jk ⊆Cε
+jk \Cjk
+and Cjk ⊆Cε
+jk for any ε ≥0. Since measure (volume) of the intersection of balls is smooth in radius,
+we also have that limε→0+ µ(Cε
+jk) = µ(Cjk). Hence, for any small ν > 0, there exists ε0 > 0 such
+that for all ε ≤ε0, the following holds:
+µ(Cε
+jk) −µ(Cjk)
+ = µ(Cε
+jk) −µ(Cjk) ≤
+ν
+1 + ν µ(Cjk).
+(12)
+Plugging this into Eqn. 11, we obtain that
+µ(Cesc
+jk )
+µ(Cjk \ Cesc
+jk ) ≤
+µ(Cε
+jk) −µ(Cjk)
+µ(Cjk) −
+h
+µ(Cε
+jk) −µ(Cjk)
+i ≤
+ν
+1+ν µ(Cjk)
+µ(Cjk) −
+ν
+1+ν µ(Cjk) = ν.
+(13)
+In other words, Eqn. 13 implies that the mass of the set of correctly routed tokens even under
+contamination of reasonably bounded magnitude, µ(Cjk \ Cesc
+jk ), dominates the mass of the set of
+mis-routed tokens given by Cesc
+jk .
+17
+
+Preprint.
+Notice also that the smoothness of volume as a function of radius yields µ(Cε
+jk) −µ(Cjk) =
+µ′(Cjk)ε + o(ε) where µ′(Cjk) is proportional to the surface of the intersection solid. Therefore, we
+have ν = O(ε) i.e. the rate of change in measure is of the same order as the perturbation magnitude.
+Now observe that ajk is effectively an empirical estimation of the mass of tokens in Cjk \ Cesc
+jk as, by
+definition,
+ajk = 1
+N
+N
+X
+i=1
+Ixi+δ∈Cjk ≈E
+h
+Ixi∈(Cjk\Cesc
+jk )∪Eesc
+i
+= µ((Cjk \ Cesc
+jk ) ∪Eesc) ≤µ(Cjk \ Cesc) + Lε,
+(14)
+where Eesc ⊆S
+j′,k′:|j−j′|+|k−k′|>0 Cesc
+j′k′ denotes the set of tokens escaped from Cesc
+j′k′ and incoming
+into Cjk because of perturbation. The approximation holds for sufficiently large N due to the Strong
+Law of Large Numbers (SLLN) while the last equality follows from the definition of expectation.
+The existence of such constant L is provided by applying Eqn. 13 to all Cj′k′ individually and using
+union bound. On the other hand, Cesc
+jk ⊆Cε
+jk \ Cjk and Eqn. 12 give that
+µ(Cjk \ Cesc
+jk ) = µ(Cjk) −µ(Cesc
+jk )
+≥µ(Cjk) −µ(Cε
+jk \ Cjk)
+≥µ(Cjk) −
+ν
+1 + ν µ(Cjk)
+=
+1
+1 + ν µ(Cjk).
+(15)
+Thus, combining Eqn. 14 and Eqn. 15, we get
+1
+1 + ν µ(Cjk) ≤E
+h
+Ixi∈(Cjk\Cesc
+jk )∪Eesc
+i
+≤µ(Cjk) + Lε,
+(16)
+The only piece left is to find how good the approximation in Eqn. 14 is. To this end, since the indicator
+random variable is bounded between 0 and 1 by definition, Hoeffding’s inequality (or McDiarmid’s
+inequality when δ is specifically a data-dependent adversarial perturbation to get a similar bound)
+gives that for any t ≥0,
+P
+ 
+1
+N
+N
+X
+i=1
+Ixi+δ∈Cjk −E
+h
+Ixi∈(Cjk\Cesc
+jk )∪Eesc
+i ≥t
+!
+≤exp(−2Nt2).
+(17)
+Put differently, the following bound holds with probability ≥1 −α
+ajk −E
+h
+Ixi∈(Cjk\Cesc
+jk )∪Eesc
+i ≤
+r
+ln(2/α)
+2N
+(18)
+Combining all pieces together, with probability at least 1 −α, the following inequalities are true:
+1
+1 + ν µ(Cjk) −
+r
+ln(2/α)
+2N
+≤ajk ≤µ(Cjk) +
+r
+ln(2/α)
+2N
++ Lε.
+(19)
+Finally, notice that since ν = O(ε), we have 1/(1 + ν) = 1 −O(ε). Hence, there exists a constant ˜L
+such that
+µ(Cjk) −
+r
+ln(2/α)
+2N
+−˜Lε ≤ajk ≤µ(Cjk) +
+r
+ln(2/α)
+2N
++ ˜Lε,
+(20)
+as claimed.
+B.2
+RELAXING THE GEOMETRICAL ASSUMPTION ON EXPERT SELECTION REGIONS
+While Theorem 1 assumes spherical expert selection regions for analytical tractability, the theoretical
+framework extends naturally to the polyhedral geometry inherent in sparse mixture-of-experts routing
+mechanisms. In practice, the router assigns token x to expert j when w⊤
+j x + bj ≥w⊤
+k x + bk for all
+k̸ = j, defining Voronoi cells Vj := {x ∈Rd : w⊤
+j x + bj ≥w⊤
+k x + bk, ∀k̸ = j}. The co-selection
+region becomes Cjk = V(2)
+j
+∩V(2)
+k , where V(2)
+j
+denotes the second-order Voronoi cell containing
+points for which expert j ranks among the top-2 selections.
+18
+
+Preprint.
+The key modification required is in the perturbation analysis. For polyhedral regions, the ε-expansion
+is given by the Minkowski sum Cε
+jk = Cjk ⊕Bε(0), where Bε(0) is the ε-ball centered at the
+origin. Following the Minkowski-Steiner formula for convex polytopes, the volume expansion can be
+expressed as:
+µ(Cε
+jk) −µ(Cjk) =
+d−1
+X
+i=1
+Vd−i(Cjk)
+d
+i
+
+εi,
+(21)
+where the continuous functions Vi(Cjk) denotes the k-th mixed volume (quermassintegral) of polytope
+Cjk. In particular, Vd(Cjk) = µ(Cjk) is the volume, Vd−1(Cjk) is proportional to the surface area,
+and V1(Cjk) is the mean width.
+For the linear term in ε, we have:
+Vd−1(Cjk) = 1
+d
+X
+F ∈Fjk
+σd−1(F),
+(22)
+where Fjk denotes the set of (d −1)-dimensional faces of polytope Cjk and σd−1(F) is the (d −1)-
+dimensional Hausdorff measure of face F. This replaces the spherical surface measure in the original
+analysis. The constant ˜L in Theorem 1 must be redefined to account for the polyhedral geometry:
+˜L ∝max
+j,k
+(
+Vd−1(Cjk) +
+d−1
+X
+i=2
+Vd−i(Cjk)
+d
+i
+
+εi−1
+0
+)
+,
+(23)
+where ε0 is the maximum perturbation magnitude under consideration. The additional terms capture
+the contribution of higher-order geometric features (edges, vertices) to the expansion.
+To ensure the bound in Theorem 1 remains valid, we require that the polyhedral regions Cjk satisfy a
+geometric regularity condition: there exists a constant ρ > 0 such that for all j, k, the polytope Cjk
+contains a ball of radius ρ · diam(Cjk), where diam(·) denotes the diameter. This condition prevents
+the occurrence of extremely thin or degenerate polytopes that could lead to unbounded sensitivity to
+perturbations.
+Under this regularity condition, the polyhedral setting exhibits anisotropic perturbation sensitivity:
+tokens near faces of Cjk experience perturbation effects proportional to their distance from the
+hyperplane boundary, while tokens near edges and vertices face amplified sensitivity due to the local
+convergence of multiple decision boundaries. This geometric relaxation reinforces the intuition from
+Remark 7 that ajk naturally downweights expert pairs whose co-selection regions Cjk contain a
+higher density of boundary-proximal, contamination-vulnerable tokens.
+B.3
+PROOF OF PROPOSITION 1
+Proof. We prove them in order.
+(i) First, we decompose s into two additive terms. Any probability vector s ∈∆M−1 (where
+1⊤s = 1 and sj ≥0) can be decomposed as s = u + v, where u =
+1
+M 1 is the “baseline”
+uniform vector (1 is the all-ones vector) and v is a perturbation satisfying 1⊤v = 0 (mean-
+zero condition).
+Second, we examine the action of A on u and v separately. Since A is column-stochastic,
+A1 = 1, and thus Au = A
+  1
+M 1
+
+=
+1
+M 1 = u. For the perturbation v, we use the spectral
+gap assumption. The eigenvalues of A are ordered as 1 = λ1 > |λ2| ≥· · · ≥|λM|, with
+ρ = maxi≥2 |λi| < 1. The spectral gap ensures that for any vector v orthogonal to 1 (i.e.,
+in the subspace spanned by the eigenvectors corresponding to λi, i ≥2), ∥Av∥2 ≤ρ∥v∥2.
+This follows from the fact that Av is a linear combination of these eigenvectors, scaled by
+eigenvalues less than or equal to ρ in magnitude:
+∥Av∥2
+2 =
+ M
+X
+i=2
+λiαiξi
+!⊤ M
+X
+i=2
+λiαiξi
+!
+=
+M
+X
+i=2
+λ2
+i α2
+i ≤ρ2
+M
+X
+i=2
+α2 = ρ2∥v∥2
+2,
+where ξi are eigenvectors of A and αi are such that v = PM
+i=2 αiξi.
+19
+
+Preprint.
+Now, since u⊤v =
+  1
+M 1⊤
+v =
+1
+M (1⊤v) = 0, we have ∥s∥2
+2 = ∥u∥2
+2 + ∥v∥2
+2. Similarly,
+r = As = A(u + v) = Au + Av = u + Av,
+which implies
+∥r∥2
+2 = ∥u + Av∥2
+2 = ∥u∥2
+2 + ∥Av∥2
+2 + 2u⊤Av.
+Again, u⊤Av =
+  1
+M 1⊤
+Av =
+1
+M (1⊤Av) =
+1
+M (A⊤1)⊤v. Since A⊤1 = 1 (as A is
+column-stochastic, and symmetrization makes it doubly-stochastic), u⊤Av = 0. Thus,
+∥r∥2
+2 = ∥u∥2
+2 + ∥Av∥2
+2 ≤∥u∥2
+2 + ρ2∥v∥2
+2 ≤∥s∥2
+2,
+so ∥r∥2 ≤∥s∥2 holds as an intermediate result. For two probability vectors s, s′, write
+s′ −s = v′ with 1⊤v′ = 0, so
+∥A(s′ −s)∥2 = ∥Av′∥2 ≤ρ∥v′∥2 = ρ∥s′ −s∥2,
+proving the contraction property. This is vital for robustness because mean-zero perturbations
+(e.g., noise that does not shift the total probability) are naturally damped, ensuring the routing
+remains stable against input fluctuations.
+(ii) Consider a perturbation ∆s with ∥∆s∥2 < g/(2ρ), where g is the margin. Then r′ =
+A(s + ∆s) = r + A∆s. The ℓ2 norm bound gives ∥A∆s∥2 ≤ρ∥∆s∥2 < ρ · g
+2ρ = g/2. In
+the ℓ∞norm, coordinate-wise changes satisfy ∥r′ −r∥∞≤∥A∆s∥2 ≤g/2. The margin
+g ensures that the smallest value in J exceeds the largest outside J by g, so a change of
+less than g/2 cannot swap the TopK set. If s(x) is Ls-Lipschitz, ∥∆s∥2 ≤Ls∥∆x∥, so
+Ls∥∆x∥< g/(2ρ) implies ∥∆x∥< g/(2ρLs), completing the proof.
+C
+DERIVING COSINE AND RANDOM ROUTERS FROM THE POSTERIOR
+FORMULATION OF THE GATE VALUES IN (S)MOE
+In this appendix, we show that the formulation of gate values in SMoE as a posterior distribution can
+be trivially applied to derive the cosine router (Chi et al., 2022) and random router (Chen et al., 2023).
+Deriving Random Router (Chen et al., 2023): To derive the random router in (Chen et al., 2023),
+we just need to randomly initialized the center wj of the likelihood p(x|zj = 1) = N(x|wj, σ2
+j I)
+and the bias bj in Eqn. 5. We fix these parameters to guide token assignment during training.
+Deriving Cosine Router (Chi et al., 2022): To derive the cosine router in (Chi et al., 2022), we
+first replace the router weight W := [w1, . . . , wM]⊤∈RM×D by another lower-dimensional router
+weight E := [e1, . . . , eM]⊤∈RM×De. We next replace the token x by its projected representation
+onto the lower-dimensional expert embedding space Ωx where Ω∈RDe×D. We normalize Ωx and
+ei, i = 1, . . . , M. Similar derivation as in Section 2.1 can then be applied to obtain the gate values of
+the cosine router.
+D
+EXPERIMENTAL DETAILS
+D.1
+WIKITEXT-103 LANGUAGE MODELING
+Dataset. The WikiText-103 dataset (Merity et al., 2017) is derived from Wikipedia articles and is
+designed to capture long-range contextual dependencies. The training set contains about 28,000
+articles, with a total of 103 million words. Each article is divided into text blocks with approximately
+3,600 words. The validation and test sets have 218,000 and 246,000 words, respectively, with both
+sets comprising 60 articles and totaling about 268,000 words. On the attacked dataset, we corrupt the
+both validation and test data to demonstrate the robustness of SymphonySMoE using TextAttack’s
+word swap attack (Morris et al., 2020). This adversarial attack randomly replaces words in the dataset
+with a generic ”AAA” for evaluation making it difficult for the model to predict the next word in the
+sequence correctly.
+Model and baselines. We use the Switch Transformer (Fedus et al., 2022), referred to as SMoE
+in our tables and figures, and GLaM (Du et al., 2022) baselines, which replaces each multilayer
+perceptron (MLP) layer and every other MLP layer in a vanilla language modeling transformer with
+a SMoE layer, respectively.
+20
+
+Preprint.
+For consistency, we define the number of layers in each model as the number of SMoE layers. The
+default model used in each experiment is medium sized with 6 layers, but we include a comparison
+between a larger one with 12 layers as well. Each model has 16 experts in every SMoE layer
+and selects 2 experts (K = 2) per input. The baseline SMoE model uses a sparse router function
+consisting of a linear network receiving the input data followed by the TopK, then the Softmax
+function. The SymphonySMoE model replaces that linear network with our Symphony router.
+The medium and large SMoE models train for 80 epochs and the GLaM models train for 120
+epochs. Our implementation is based on the code base developed by (Press et al., 2020), publicly
+available at https://github.com/ofirpress/sandwich transformer and https://github.com/giangdip2410/
+CompeteSMoE/tree/main.
+D.2
+IMAGENET-1K OBJECT RECOGNITION
+Datasets. We use the ImageNet-1K dataset that contains 1.28M training images and 50K validation
+images. There are 1000 classes of images and the model learns an object recognition task. For
+robustness to common corruptions, we use ImageNet-C (IN-C) (Hendrycks & Dietterich, 2019b)
+which consists of 15 different types of corruptions applied to the ImageNet-1K validation set with
+5 levels of severity. To test robustness to label distribution shifts, we use ImageNet-O (Hendrycks
+et al., 2021c). This dataset contains a 200-class subset of ImageNet-1K classes with adversarially
+filtered images. Finally, we test our model on ImageNet-R (IN-R) (Hendrycks et al., 2021b), which
+contains various artistic renditions of images. This evaluates the model’s generalization ability to
+abstract visual renditions.
+Metrics. On ImageNet-1K and ImageNet-R, we report the top-1 accuracies for all experiments.
+On ImageNet-C, the standard metric for evaluation is the mCE. To calculate this, we average the
+top-1 error rate for each corruption type across the 5 levels of severity and divide them by AlexNet’s
+average errors, then take the final average across all corruption types. We report the area under
+the precision-recall curve (AUPR) for ImageNet-O, which requires anomaly scores. The score is
+obtained by taking the negative of the highest softmax probability output by the model. The direction
+of increasing or decreasing values of these metrics, signifying greater robustness, will be indicated in
+the table with an arrow.
+Model and baselines. The baseline model we use is the SMoE version of the Swin Transformer
+(Liu et al., 2021) architecture which has a total of 280M parameters. This backbone uses 4 base
+layers of depth 2, 2, 18, and 2. The first two base layers each contain 2 self-attention layers and
+2 feed-forward layers. The third base layer contains 18 self-attention layers with alternating feed-
+forward and SMoE layers. The final base layer contains 2 self-attention layers with one feed-forward
+and one MoE layer. The embedding dimension is 96 and the heads per base layer are 3, 6, 12,
+and 24. We use a total of 16 experts per SMoE layer use top-2 expert routing. We train both
+Swin-MoE model and SymphonySwin-MoE models for 60 epochs using the publicly available code,
+https://github.com/microsoft/Swin-Transformer?tab=readme-ov-file.
+D.3
+VISUAL INSTRUCTION TUNING
+Training pipeline. We adapt the training pipeline in CuMO (Li et al., 2024) to train a Mixture
+of Experts (MoE) model from existing dense Large Language Model (LLM) and Visual Model
+checkpoints using the Sparse Upcycling technique (Komatsuzaki et al., 2022). This approach
+duplicates the original model to create experts and continues training them on a downstream dataset
+as a normal MoE, bypassing the expensive pre-training step. The pipeline follows a two-stage
+process: (1) Dense Training Stage, where the MLP connector is initialized and trained to connect
+the pre-trained visual encoder to the pre-trained LLM using the LLaVA-558K dataset (Liu et al.,
+2024d); (2) MoE Training Stage, where the model is upcycled to become MoE and trained on the
+full LLaVA-665K dataset to obtain visual instruction-following capabilities. We inherit the pretrained
+dense checkpoint of Siglip224 + Phi3.5 model and the training code from LibMoE (Nguyen et al.,
+2024).
+Evaluation benchmarks. The GQA (Hudson & Manning, 2019) and MMMU (Yue et al., 2024)
+benchmarks assess the model’s visual perception capabilities for tasks ranging widely from day-to-day
+tasks to college-level tests. Following LLaVA-1.5 (Liu et al., 2024c), ScienceQA (Lu et al., 2022)
+with multiple-choice questions is used to evaluate zero-shot generalization in scientific question
+answering. TextVQA (Singh et al., 2019) and MMStar (Chen et al., 2024) further test the model’s text
+and visual capabilities through text-rich visual questions and visually indispensable questions. Lastly,
+21
+
+Preprint.
+Table 6: Top-1 accuracy (%) of Swin-MoE and SymphonySwin-MoE on each corruption type in ImageNet-C for
+the largest severity level.
+Corruption Type/Model
+Swin-MoE
+SymphonySwin-MoE
+(Baseline)
+(Ours)
+Brightness
+58.49
+59.16
+Contrast
+22.48
+21.75
+Defocus Blur
+13.92
+14.35
+Elastic Transform
+26.84
+27.26
+Fog
+32.82
+28.88
+Frost
+36.59
+38.04
+Gaussian Noise
+14.10
+16.69
+Glass Blur
+10.79
+11.67
+Impulse Noise
+13.68
+17.60
+JPEG Compression
+17.10
+18.84
+Motion Blur
+21.47
+21.68
+Pixelate
+8.58
+10.18
+Shot Noise
+13.42
+16.21
+Snow
+31.43
+33.41
+Zoom Blur
+23.57
+23.60
+Table 7: Perplexity (PPL) results of SymphonySMoE vs. SMoE baseline on clean and attacked C4 dataset subset
+validation and test sets. A lower PPL implies better performance.
+Model
+Clean C4 subset
+Attacked C4 subset
+Valid PPL ↓
+Test PPL ↓
+Valid PPL ↓
+Test PPL ↓
+SMoE (baseline)
+40.38
+40.55
+51.24
+51.34
+SymphonySMoE (Ours)
+39.47
+39.82
+49.78
+50.26
+Actual
+Actual
+Swin-MoE
+Swin-MoE
+SymphonySwin-MoE
+(Ours)
+SymphonySwin-MoE
+(Ours)
+Figure 3: Plots of 14x14 image reconstructions where each patch is colored by its assigned expert in the
+Swin-MoE (baseline) and SymphonySwin-MoE model. For each triple of images, the left-most image is the
+actual input to each model, the middle image is a visualization of the assigned expert for each patch in the
+baseline Swin-MoE while the right-most image is the corresponding plot for the SymphonySwin-MoE model.
+we use MMBench (Liu et al., 2024e) with comprehensive multiple-choice questions and POPE (Li
+et al., 2023b) with object hallucination tests to evaluate the model’s robustness.
+E
+ADDITIONAL EXPERIMENTAL RESULTS
+E.1
+C4 LANGUAGE MODELING
+We trained a Switch Transformer (Fedus et al., 2022) and its Symphony counterpart on 8B unique
+tokens from C4, following the setup of (Muennighoff et al., 2023). For validation and test sets, we
+used 80M tokens each, and constructed attacked versions using the method described in Appendix D.1.
+Both models were trained for a single epoch, with the best checkpoints selected based on validation
+perplexity. As shown in Table 7, SymphonySMoE outperforms the vanilla SMoE on both clean and
+attacked data. On clean C4, SymphonySMoE improves test perplexity by +0.73 (39.82 vs. 40.55).
+Under attack, it achieves a larger gain of +1.08 (50.26 vs. 51.34), demonstrating greater robustness.
+Together, these C4 results highlight the effectiveness of our method even under single-epoch training
+on very large corpora, a more realistic setting than multi-epoch training.
+22
+
+Preprint.
+Table 8: Top-1 accuracy (%), top-5 accuracy (%), AUPR and mean corruption error (mCE) of SymphonySMoE
+vs. the Swin-MoE baseline on ImageNet-1K and popular robustness benchmarks for image classification. For all
+metrics except mCE, a higher value is better. For mCE on ImageNet-C, lower is better.
+Metric/Model
+Swin-MoE
+SymphonySwin-MoE
+(baseline)
+(Ours)
+Parameters
+280 M
+280 M
+IN-1K
+Top-1 ↑
+75.39
+75.57
+IN-R
+Top-1 ↑
+31.50
+31.72
+IN-O
+AUPR ↑
+18.36
+18.52
+IN-C
+mCE ↓
+74.28
+73.56
+E.2
+IMAGENET-1K OBJECT RECOGNITION ON SWINMOE
+Experimental Setup. We follow the experimental setup of (Liu et al., 2021) for pre-training and
+evaluation on ImageNet-1K (IN-1K). In particular, we evaluate SymphonySwin-MoE against the
+Swin-MoE Transformer baseline with a total of 16 experts and top-2 expert routing.
+Out-of-distribution Image Classification. We conducted additional experiments on the standard
+out-of-distribution (OOD) benchmarks for robustness in computer vision tasks. These robustness
+benchmarks include image classification on ImageNet-R (IN-R) (Hendrycks et al., 2021a), ImageNet-
+O (IN-O) (Hendrycks et al., 2021c), and ImageNet-C (IN-C) (Hendrycks & Dietterich, 2019a). We
+provide details on each dataset and the metrics for evaluation in Appendix D.2. As ImageNet-C
+consists of 15 different corruption types across 5 levels of severity, we provide the average result in
+Table 8 and the full set of results in Appendix E.3. We adopt the conventional setup of pre-training
+on the clean ImageNet-1K dataset and evaluating the trained models on the various OOD datasets
+(Han et al., 2024; Zhou et al., 2022a; Puigcerver et al., 2022).
+On clean data, our SymphonySwin-MoE achieves an 0.2% increase in top-1 accuracy while on
+ImageNet-R, ImageNet-O and ImageNet-C, we also observe good improvements. Most notably,
+SymphonySwin-MoE achieves a substantial boost in performance on ImageNet-C, reducing the
+baseline’s result by more than 0.7 mCE. Combining these results with those on the language modeling
+task in Section 4.1, we illustrate the effectiveness of our Symphony Router across multiple modalities,
+further highlighting the strength of our approach.
+Image Segmentation. In each example in Figure 3, we observe that SymphonySwin-MoE is able to
+identify distinct, meaningful regions more effectively than the baseline model and route these regions
+to the same experts. The improved segmentation of the images allows each expert to better specialize
+in specific features in the data, leading to improved performance on clean ImageNet-1K.
+E.3
+FULL SET OF IMAGENET-C RESULTS
+In this section, we present the top-1 accuracy of Swin-MoE and SymphonySwin-MoE on each
+corruption type in ImageNet-C for the largest severity level. These results can be found in Table 6.
+Across almost all corruption categories, we see a remarkable improvement in the accuracy of the
+SymphonySwin-MoE. In particular, under the Impulse Noise corruption, we gain almost 4% in top-1
+accuracy.
+E.4
+IMAGENET-1K OBJECT RECOGNITION ON SOFTMOE
+To further demonstrate the integrability of our method on vision tasks, we evaluate a SoftMoE
+variant with the symphony router integrated, referred to as SymphonySoftMoE. The experiments
+follow the same setup described in Section E.2. As shown in Table 9, SymphonySoftMoE achieves
+improvements in Top-5 accuracy on the clean ImageNet-1K test set and consistently enhances
+robustness on ImageNet-R and ImageNet-O.
+E.5
+LLAVA-332K RESULTS
+Results on LLaVA-332K dataset. In visual instruction tuning task, we finetune both Sympho-
+nySMoE and SMoE on LLaVA-332K to further testing our approach in the limited data scenario.
+The result in Table 10 shows the advantage of SymphonySMoE when it performs better than the
+baseline SMoE in all benchmarks, especially with remarkably margin of 2.47% on the ScienceQA
+benchmarks.
+23
+
+Preprint.
+Table 9: Top-1 and top-5 accuracy on clean ImageNet-1K (IN-1K), top-1 accuracy on ImageNet-R (IN-R) and
+AUPR on ImageNet-O (IN-O) for the baseline SoftMoE model and SymphonySoftMoE. For all metrics, higher
+is better.
+Metric/Model
+SoftMoE
+SymphonySoftMoE
+(baseline)
+(Ours)
+IN-1K
+Top-1 ↑
+72.21
+72.14
+Top-5 ↑
+90.57
+90.59
+IN-R
+Top-1 ↑
+32.41
+32.56
+IN-O
+AUPR ↑
+17.59
+17.84
+Table 10: Accuracy of SMoE and SymphonySMoE in Visual Instruction Tuning task. Both models is upcycled
+from Siglip224 + Phi3.5 with a total of 4.2B parameters and finetuned on LLaVA-665K (Liu et al., 2024c)
+dataset. We evaluate the model performance across 7 popular benchmarks with diverse characteristics, especially
+hallucination (POPE (Li et al., 2023b)) and robustness (MMBench (Liu et al., 2024e)). A higher accuracy
+indicates better performance.
+Benchmark
+SMoE
+(baseline)
+SymphonySMoE
+(Ours)
+TextVQA
+39.33
+40.42
+GQA
+59.16
+60.03
+MMMU
+41.89
+43.22
+MMStar
+41.67
+42.27
+ScienceQA
+79.56
+82.03
+MMBench-EN
+70.19
+70.53
+POPE
+85.22
+85.91
+F
+COMPLEXITY AND RUNTIME ANALYSIS
+In this section, we examine both the theoretical computational complexity and the empirical runtime
+performance of SymphonySMoE, demonstrating that it introduces only a minimal computational
+overhead.
+F.1
+COMPLEXITY OF THE SYMPHONY ROUTER
+From a theoretical standpoint, the Symphony Router defined in Section 2 introduces only an M × M
+adjacency matrix and a corresponding update operation. Table 5 outlines the additional computational
+and memory complexities incurred by the router. Computationally, this design entails just one
+M × M and one M × N matrix multiplication, resulting in a test-time complexity of O(NM 2).
+During training, an extra update operation is required with a complexity of O(NCk
+2 ), where N
+denotes the number of tokens. Importantly, this component does not require gradient computation,
+which simplifies the training process. In terms of memory, the overhead introduced by the social
+graph remains modest: storing the symphony adjacency matrix at test time requires only O(M 2)
+memory, while training necessitates O(NCk
+2 ) memory to maintain the expert-expert pair list. In
+practical scenarios, the number of experts M and the top-k value k are typically much smaller than
+the sequence length N.
+As a concrete example, we analyze the theoretical overhead of DeepSeek-V3 (Liu et al., 2024b), a
+large-scale Mixture-of-Experts (MoE) model composed of 58 MoE layers (L), each containing 256
+routed experts (M), with a top-k selection of 8 (k), and a context length of 4096 tokens (N). The
+additional memory costs during training and inference are calculated as L(M 2 + NC2
+k) × 4B and
+LM 2 × 4B, yielding approximately 39.875 MB and 14.5 MB, respectively. These overheads are
+negligible compared to the 1250 GB model size, and thus have no significant impact on storage or
+deployment. On the computational side, the training and inference overheads are LN(M 2 + C2
+k)
+and LNM 2 floating point operations, respectively, amounting to 14.51G and 14.5G FLOPs. These
+values remain small relative to the hundreds of tera-FLOPs required by DeepSeek-V3 and the 19.5
+TFLOPS FP32 processing capability of an Nvidia A100 GPU (NVIDIA Corporation, 2020).
+F.2
+RUNTIME EVOLUTION OF SYMPHONYSMOE
+Evaluation Settings. We use the base Switch-Transformer settings in D.1 in WikiText-103 Language
+Modeling task and conduct the experiments on a single A100-SXM4-80GB. For the runtime and
+memory evolution at test time, we fix batch size B = 8, topK k = 2 and vary the number of experts
+M ∈{4, 16, 32, 64}, the sequence length N ∈{256, 512, 1024, 2048, 4096}.
+24
+
+Preprint.
+Table 11: Runtime comparison between SMoE and SymphonySMoE at test time (time in ms)
+#experts
+4
+16
+32
+64
+seqlen
+SMoE SymphonySMoE ∆(%) SMoE SymphonySMoE ∆(%) SMoE SymphonySMoE ∆(%) SMoE SymphonySMoE ∆(%)
+256
+26.72
+26.81
++0.35 27.19
+27.29
++0.37 29.37
+29.72
++1.19 33.98
+34.17
++0.56
+512
+44.27
+44.25
+-0.06 44.47
+44.85
++0.86 45.05
+45.14
++0.21 49.55
+49.64
++0.19
+1024
+81.10
+81.20
++0.13 81.86
+82.09
++0.28 81.99
+82.26
++0.33 82.77
+83.23
++0.55
+2048
+164.64
+165.28
++0.39 165.74
+166.35
++0.37 167.46
+168.07
++0.36 168.17
+168.75
++0.34
+4096
+411.92
+412.29
++0.09 413.52
+413.35
+-0.04 414.36
+415.17
++0.20 417.59
+418.55
++0.23
+Table 12: Memory usage comparison between SMoE and SymphonySMoE at test time (memory in MB)
+#experts
+4
+16
+32
+64
+seqlen
+SMoE SymphonySMoE ∆(%) SMoE SymphonySMoE ∆(%) SMoE SymphonySMoE ∆(%) SMoE SymphonySMoE ∆(%)
+256
+5624
+5624
+0.00
+5706
+5714
++0.14 5798
+5806
++0.14 5990
+5998
++0.13
+512
+10164
+10164
+0.00
+10252
+10252
+0.00 10336
+10336
+0.00 10518
+10518
+0.00
+1024
+19504
+19504
+0.00
+19600
+19600
+0.00 19684
+19686
++0.01 19884
+19884
+0.00
+2048
+39130
+39130
+0.00
+39226
+39228
++0.01 39310
+39310
+0.00 39510
+39510
+0.00
+4096
+73160
+73162
++0.003 73256
+73256
+0.00 73340
+73340
+0.00 73542
+73542
+0.00
+Table 13: Perplexity of SymphonySMoE and SMoE under different initialization strategies on clean and attacked
+WikiText-103 validation and test sets. A lower PPL implies better performance.
+Experiment Name
+Clean WikiText-103
+Attacked WikiText-103
+Valid PPL ↓
+Test PPL ↓
+Valid PPL ↓
+Test PPL ↓
+SMoE baseline
+33.76
+35.55
+42.24
+44.19
+Uniform SymphonySMoE
+33.50
+35.40
+41.89
+44.12
+Kaiming SymphonySMoE
+32.77
+34.34
+41.09
+42.99
+Xavier SymphonySMoE
+32.97
+34.32
+41.36
+42.95
+Zero SymphonySMoE
+32.71
+34.29
+40.87
+42.79
+Runtime and memory evolution at test time. We include the result for runtime evolution at Table 11
+and for memory evolution at Table 12.
+F.3
+REDUCING OVERHEAD
+We have employed a fully vectorized implementation of all operations introduced by SMoE, ensuring
+that no manual loops are introduced and that all computations are GPU-friendly. The code for this
+implementation is provided in the supplementary material.
+Note that SymphonySMoE framework requires invoking the TopK operation twice per sample: once
+to construct the expert-expert adjacency matrix A and once to compute the final scores. However, the
+first invocation, which updates A, does not participate in gradient computation and thus does not
+interfere with the optimization process.
+G
+ADDITIONAL EMPIRICAL ANALYSIS
+G.1
+ABLATION STUDY ON DIFFERENT INITIALIZATION STRATEGIES FOR THE SOCIAL GRAPH
+The social graph is represented by the adjacency matrix A ∈RM×M, where M denotes the number
+of experts. At initialization, this matrix is set to the zero matrix. We name this the zero initialization
+(Zero SymphonySMoE).
+We conduct additional experiments with three alternative initialization strategies: Kaiming, Xavier,
+and standard uniform initialization. The results of these experiments are reported in Table 13. As
+shown in the results, these alternative initialization methods improve both the accuracy and robustness
+of SymphonySMoE compared to the baseline model. However, the zero initialization strategy remains
+the most effective among the tested approaches.
+G.2
+ABLATION STUDY ON THE DECAY PARAMETER β
+The parameter β serves as the decay factor in the exponential moving average used to interpolate
+between the current and new expert-to-expert interaction graphs during training. We conducted an
+ablation study on β, with results summarized in Table 14 below. Across all tested values, the model
+consistently outperforms the baseline, though the degree of improvement varies.
+The best performance is achieved at β = 0.9, suggesting that retaining more historical information
+about expert interactions is beneficial for both clean and robust performance. This indicates that
+25
+
+Preprint.
+Figure 4: Evolution of social graphs across layers in Switch Transformers during Wikitext-103 pretraining.
+expert specialization patterns evolve gradually, and maintaining a longer-term memory of these
+relationships helps stabilize routing decisions. Importantly, the consistent improvements across a
+broad range of β values (from 0.3 to 0.9) demonstrate that our method is robust to this hyperparameter,
+which enhances its practical applicability.
+G.3
+DENSE VS. SPARSE SOCIAL GRAPH
+To further explore potential reductions in overhead, we experimented with sparsifying the social
+graph using a threshold t = 0.05. The results of this experiment are reported in Table 15. While
+introducing sparsity still improves performance compared to the baseline model, it leads to a decrease
+in both accuracy and robustness of SymphonySMoE. Additionally, given that the matrix size is M 2
+(which is 16 × 16 in our case), the difference in memory and computational cost between the dense
+26
+
+Preprint.
+Table 14: Ablation study on decay parameter β on clean and attacked WikiText-103 validation and test sets. A
+lower PPL implies better performance.
+β
+Clean WikiText-103
+Attacked WikiText-103
+Valid PPL ↓
+Test PPL ↓
+Valid PPL ↓
+Test PPL ↓
+baseline SMoE
+33.76
+35.55
+42.24
+44.19
+β = 0.9
+32.71
+34.29
+40.87
+42.79
+β = 0.7
+33.24
+35.2
+41.78
+44.1
+β = 0.5
+32.89
+34.41
+41.33
+43.06
+β = 0.3
+33.03
+34.38
+41.33
+42.97
+Table 15: Perplexity of SymphonySMoE with sparse graph initialization. We evaluate the computational
+efficiency and performance impact of sparsifying the social graph threshold t = 0.05. Sparsity leads to a decline
+in accuracy and robustness. Lower perplexity indicates better performance.
+Experiment Name
+Clean WikiText-103
+Attacked WikiText-103
+Valid PPL ↓
+Test PPL ↓
+Valid PPL ↓
+Test PPL ↓
+SMoE (baseline)
+33.76
+35.55
+42.24
+44.19
+Sparse SymphonySMoE
+33.00
+34.53
+41.13
+42.88
+Dense SymphonySMoE
+32.71
+34.29
+40.87
+42.79
+and sparse representations is negligible. Consequently, we opted to retain the dense formulation to
+preserve model performance.
+G.4
+LOAD BALANCING
+SMoE
+Percentage of times each 
+expert is chosen (%)
+Experts, ordered by frequency
+SymphonySMoE
+Figure 5: Expert selection frequencies for baseline
+SMoE and SymphonySMoE on WikiText-103, averaged
+across all layers. Experts are sorted by frequency; a
+more uniform distribution reflects better load balancing.
+Load balancing.
+Figure 5 compares expert
+load balancing between the baseline SMoE and
+our proposed SymphonySMoE on WikiText-103
+task. Experts in each layer are ordered by their
+selection frequency during validation, and these
+frequencies are averaged across all SMoE layers.
+The left plot shows a right-skewed distribution in
+the baseline model, indicating a load imbalance
+where a few experts dominate. In contrast, Sym-
+phonySMoE (right plot) exhibits a more uniform
+distribution, suggesting significantly improved
+load balancing that leads to better model performance. These findings align with the improved results
+on WikiText-103 reported in Table 1.
+G.5
+VISUALIZING THE SOCIAL GRAPH
+Figure 4 visualizes the evolution of social graphs across all layers of Switch Transformers trained
+on WikiText-103. The results show progressive refinement in expert usage, with deeper layers
+exhibiting stronger, more structured connections, hinting for the emerging expert specialization and
+collaboration dynamics in the training.
+H
+DISTIGUISH WITH OTHER GRAPH-BASED SMOE
+We briefly compared our SymphonySMoE model with (Nguyen et al., 2025) in the Related Work
+section of the manuscript. Here, we present the key differences between SymphonySMoE and the
+Similarity/Attention-Aware SMoE proposed by (Nguyen et al., 2025).
+Key Conceptual Difference
+The fundamental distinction lies in the type of structural interaction
+leveraged for routing in sparse mixture-of-experts (SMoE) models. SymphonySMoE introduces and
+exploits expert-to-expert interactions to guide token routing, whereas Similarity/Attention-Aware
+SMoE incorporates token-to-token interactions into the routing mechanism. These two approaches
+are complementary rather than mutually exclusive. To demonstrate this, we conducted additional
+experiments, reported in Table 16. Integrating SymphonySMoE’s expert-to-expert interactions into
+Similarity-Aware SMoE improves the latter’s performance in both clean and noisy (attacked) settings
+(e.g., PPL improves from 34.50 →35.06 under clean and 42.83 →43.67 under noise). Interestingly,
+SymphonySMoE alone still outperforms both Similarity-Aware SMoE and the combined model. This
+27
+
+Preprint.
+Table 16: Perplexity (PPL) results of SymphonySMoE vs. SMoE baseline and similarity-informed variants on
+clean and attacked WikiText-103 validation and test sets. A lower PPL implies better performance.
+Model/Metric
+Clean WikiText-103
+Attacked WikiText-103
+Valid PPL ↓
+Test PPL ↓
+Valid PPL ↓
+Test PPL ↓
+SMoE (baseline)
+33.76
+35.55
+42.24
+44.19
+Similarity-inform SMoE
+33.31
+35.06
+41.59
+43.67
+Symphony + Similarity-inform SMoE
+32.92
+34.50
+41.22
+42.83
+SymphonySMoE (Ours)
+32.71
+34.29
+40.87
+42.79
+Table 17: Perplexity (PPL) results of 32 experts-top 4 setting of SymphonySMoE vs. SMoE baseline and
+similarity-informed variants on clean and attacked WikiText-103 validation and test sets. A lower PPL implies
+better performance.
+Model/Metric
+Clean WikiText-103
+Attacked WikiText-103
+Valid PPL ↓
+Test PPL ↓
+Valid PPL ↓
+Test PPL ↓
+SMoE 32-4 (baseline)
+30.77
+32.71
+43.77
+45.72
+Similarity-inform SMoE 32-4
+30.87
+32.58
+39.26
+41.20
+SymphonySMoE 32-4 (Ours)
+30.54
+32.01
+38.29
+40.07
+Table 18: Throughput (samples/second) of SymphonySMoE vs. SMoE baseline and Similarity-informed SMoE
+during training and inference on the WikiText-103 dataset. We also compare the memory consumption of these
+models at inference time. Higher throughput and lower memory consumption indicate better efficiency.
+Model/Metric
+Train throughput
+(samples/second) ↑
+Inference throughput
+(samples/second) ↑
+Inference memory
+(MB) ↓
+SMoE (baseline)
+1066
+3677
+66319
+Similarity-inform SMoE
+951
+3433
+70077
+SymphonySMoE (Ours)
+1006
+3603
+68929
+suggests that effectively fusing expert- and token-level graphs for routing remains an open challenge
+and a promising direction for future research.
+Furthermore, the probabilistic graphical model (PGM) used in SymphonySMoE (Figure 1B) to
+capture expert-to-expert interactions is structurally distinct from the PGM in (Nguyen et al., 2025),
+which models token-to-token interactions. Our design (Figure 1B) builds directly on the classical
+MoE graphical model of (Xu et al., 1994) (Figure 1A), a foundational work in the MoE literature.
+Advantages of Expert-to-Expert Interactions in SymphonySMoE
+Beyond conceptual novelty,
+SymphonySMoE’s expert-to-expert interactions provide two practical advantages over token-to-token
+approaches. First, they offer improved scalability with large expert pools. Recent SMoE-based
+models such as DeepSeekV3 (Liu et al., 2024b) employ large expert sets (e.g., one shared + 256
+routed experts). As shown in Table 4 of our manuscript, SymphonySMoE scales favorably with
+the number of experts. In contrast, it remains unclear whether token-to-token approaches exhibit
+similar scalability. To further investigate, we compared SymphonySMoE and Similarity-Aware SMoE
+on WikiText-103 with 32 experts. Results in Table 17 show that as the number of experts grows,
+SymphonySMoE’s robustness advantage under word-swap attacks increases (PPL gap rises from
+0.88 to 1.13).
+Second, SymphonySMoE achieves better computational and memory efficiency. It requires only an
+adjacency matrix of size M ×M for M experts, whereas Similarity-/Attention-Aware SMoE requires
+an interaction matrix of size N ×N for N tokens. The computational complexity of SymphonySMoE
+is O(NM 2), compared to O(N 2M) for token-based methods. In practical scenarios, M ≪N; for
+example, in the WikiText-103 experiments (Table 1), M = 16 while N = 512. Additionally, Sym-
+phonySMoE does not require recomputing the expert graph during inference, whereas token-to-token
+approaches recompute token graphs for each input sequence. Table 18 compares training/inference
+throughput (samples/sec) and memory usage (MB) between SymphonySMoE and Similarity-Aware
+SMoE on WikiText-103. The results confirm that SymphonySMoE achieves faster training and
+inference speeds and lower memory costs, while maintaining performance comparable to baseline
+SMoE.
+28
+
+Preprint.
+I
+BROADER IMPACTS
+Our research enhances both clean data handling and robust performance, particularly in socially
+impactful domains. Notably, we demonstrate improved results in object recognition, benefiting
+self-driving cars, and language modeling, enhancing AI chatbot assistants. We show significant
+advancements in resisting data perturbation, aiming to protect critical AI systems from malicious
+actors. Furthermore, we achieve competitive performance in language modeling with contaminated
+data, reflecting real-world scenarios where data is often imperfect. While the potential for AI misuse
+exists, our work provides substantial improvements in fundamental architectures and theory, which
+we hope will lead to further socially beneficial outcomes.
+29

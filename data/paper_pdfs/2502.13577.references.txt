@@ -1,0 +1,174 @@
+
+Josh Achiam, Steven Adler, Sandhini Agarwal, Lama
+Ahmad, Ilge Akkaya, Florencia Leoni Aleman,
+Diogo Almeida, Janko Altenschmidt, Sam Altman,
+Shyamal Anadkat, et al. 2023. Gpt-4 technical report.
+arXiv preprint arXiv:2303.08774.
+Michal Aharon, Michael Elad, and Alfred Bruckstein.
+2006. K-svd: An algorithm for designing overcom-
+plete dictionaries for sparse representation. IEEE
+Transactions on signal processing, 54(11):4311–
+4322.
+Allen Altman and Steven Kleiman. 2013. A term of
+commutative algebra. Worldwide Center of Mathe-
+matics.
+Anthropic. 2024. The claude 3 model family: Opus,
+sonnet, haiku.
+8
+
+Mark Anthony Armstrong. 2013.
+Basic topology.
+Springer Science & Business Media.
+Yoshua Bengio, Nicholas Léonard, and Aaron Courville.
+2013. Estimating or propagating gradients through
+stochastic neurons for conditional computation.
+arXiv preprint arXiv:1308.3432.
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie
+Subbiah, Jared D Kaplan, Prafulla Dhariwal, Arvind
+Neelakantan, Pranav Shyam, Girish Sastry, Amanda
+Askell, et al. 2020. Language models are few-shot
+learners. Advances in neural information processing
+systems, 33:1877–1901.
+Jacob Devlin. 2018. Bert: Pre-training of deep bidi-
+rectional transformers for language understanding.
+arXiv preprint arXiv:1810.04805.
+Abhimanyu Dubey, Abhinav Jauhri, Abhinav Pandey,
+Abhishek Kadian, Ahmad Al-Dahle, Aiesha Letman,
+Akhil Mathur, Alan Schelten, Amy Yang, Angela
+Fan, et al. 2024. The llama 3 herd of models. arXiv
+preprint arXiv:2407.21783.
+Yonina C Eldar and Gitta Kutyniok. 2012. Compressed
+sensing: theory and applications. Cambridge univer-
+sity press.
+Wensheng Gan, Zhenyao Ning, Zhenlian Qi, and
+Philip S Yu. 2025. Mixture of experts (moe): A big
+data perspective. arXiv preprint arXiv:2501.16352.
+Mark Goresky, Robert MacPherson, Mark Goresky, and
+Robert MacPherson. 1988. Stratified morse theory.
+Springer.
+Karol Gregor and Yann LeCun. 2010. Learning fast
+approximations of sparse coding. In Proceedings of
+the 27th international conference on international
+conference on machine learning, pages 399–406.
+Daya Guo, Dejian Yang, Haowei Zhang, Junxiao Song,
+Ruoyu Zhang, Runxin Xu, Qihao Zhu, Shirong Ma,
+Peiyi Wang, Xiao Bi, et al. 2025. Deepseek-r1: In-
+centivizing reasoning capability in llms via reinforce-
+ment learning. arXiv preprint arXiv:2501.12948.
+Steve Huntsman, Michael Robinson, and Ludmilla
+Huntsman. 2024. Prospects for inconsistency detec-
+tion using large language models and sheaves. arXiv
+preprint arXiv:2401.16713.
+Robert A Jacobs, Michael I Jordan, Steven J Nowlan,
+and Geoffrey E Hinton. 1991. Adaptive mixtures of
+local experts. Neural computation, 3(1):79–87.
+Diederik P Kingma. 2014. Adam: A method for stochas-
+tic optimization. arXiv preprint arXiv:1412.6980.
+Yuxin Liang, Rui Cao, Jie Zheng, Jie Ren, and Ling
+Gao. 2021. Learning to remove: Towards isotropic
+pre-trained bert embedding. In Artificial Neural Net-
+works and Machine Learning–ICANN 2021: 30th
+International Conference on Artificial Neural Net-
+works, Bratislava, Slovakia, September 14–17, 2021,
+Proceedings, Part V 30, pages 448–459. Springer.
+Yinhan Liu. 2019.
+Roberta:
+A robustly opti-
+mized bert pretraining approach.
+arXiv preprint
+arXiv:1907.11692, 364.
+I Loshchilov. 2017. Decoupled weight decay regulariza-
+tion. arXiv preprint arXiv:1711.05101.
+Andrew L. Maas, Raymond E. Daly, Peter T. Pham,
+Dan Huang, Andrew Y. Ng, and Christopher Potts.
+2011. Learning word vectors for sentiment analysis.
+In Proceedings of the 49th Annual Meeting of the
+Association for Computational Linguistics: Human
+Language Technologies, pages 142–150, Portland,
+Oregon, USA. Association for Computational Lin-
+guistics.
+Julien Mairal, Francis Bach, Jean Ponce, and Guillermo
+Sapiro. 2009. Online dictionary learning for sparse
+coding. In Proceedings of the 26th annual interna-
+tional conference on machine learning, pages 689–
+696.
+Julian McAuley and Jure Leskovec. 2013. Hidden fac-
+tors and hidden topics: understanding rating dimen-
+sions with review text. In Proceedings of the 7th
+ACM Conference on Recommender Systems, RecSys
+’13, page 165–172, New York, NY, USA. Association
+for Computing Machinery.
+Kevin P. Murphy. 2023. Probabilistic Machine Learn-
+ing: Advanced Topics. MIT Press.
+Bruno A Olshausen and David J Field. 1996. Emer-
+gence of simple-cell receptive field properties by
+learning a sparse code for natural images. Nature,
+381(6583):607–609.
+Bo Pang and Lillian Lee. 2005. Seeing stars: Exploiting
+class relationships for sentiment categorization with
+respect to rating scales. In Proceedings of the ACL.
+Yagyensh Chandra Pati, Ramin Rezaiifar, and Perinku-
+lam Sambamurthy Krishnaprasad. 1993. Orthogonal
+matching pursuit: Recursive function approximation
+with applications to wavelet decomposition. In Pro-
+ceedings of 27th Asilomar conference on signals, sys-
+tems and computers, pages 40–44. IEEE.
+Alexander Paulin. 2019.
+Introduction to abstract
+algebra (math 113).
+University of California,
+Berkeley. Available at: https://math. berkeley. edu/˜
+apaulin/AbstractAlgebra. pdf.
+Michael Robinson, Sourya Dey, and Shauna Sweet.
+2024. The structure of the token space for large
+language models. arXiv preprint arXiv:2410.08993.
+Sara Rosenthal, Noura Farra, and Preslav Nakov. 2017.
+Semeval-2017 task 4: Sentiment analysis in twitter.
+In Proceedings of the 11th international workshop
+on semantic evaluation (SemEval-2017), pages 502–
+518.
+Ron Rubinstein, Michael Zibulevsky, and Michael Elad.
+2008. Efficient implementation of the k-svd algo-
+rithm using batch orthogonal matching pursuit. Cs
+Technion, 40(8):1–15.
+9
+
+Walter Rudin et al. 1964. Principles of mathematical
+analysis, volume 3. McGraw-hill New York.
+Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz,
+Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff
+Dean. 2017. Outrageously large neural networks:
+The sparsely-gated mixture-of-experts layer. arXiv
+preprint arXiv:1701.06538.
+Richard Socher, Alex Perelygin, Jean Wu, Jason
+Chuang, Christopher D. Manning, Andrew Ng, and
+Christopher Potts. 2013. Recursive deep models for
+semantic compositionality over a sentiment treebank.
+In Proceedings of the 2013 Conference on Empiri-
+cal Methods in Natural Language Processing, pages
+1631–1642, Seattle, Washington, USA. Association
+for Computational Linguistics.
+Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier
+Martinet, Marie-Anne Lachaux, Timothée Lacroix,
+Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal
+Azhar, et al. 2023a.
+Llama:
+Open and effi-
+cient foundation language models. arXiv preprint
+arXiv:2302.13971.
+Hugo Touvron, Louis Martin, Kevin Stone, Peter Al-
+bert, Amjad Almahairi, Yasmine Babaei, Nikolay
+Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti
+Bhosale, et al. 2023b.
+Llama 2: Open founda-
+tion and fine-tuned chat models.
+arXiv preprint
+arXiv:2307.09288.
+A Vaswani. 2017. Attention is all you need. Advances
+in Neural Information Processing Systems.
+Alex Wang. 2018. Glue: A multi-task benchmark and
+analysis platform for natural language understanding.
+arXiv preprint arXiv:1804.07461.
+Xiang Zhang, Junbo Jake Zhao, and Yann LeCun. 2015.
+Character-level convolutional networks for text clas-
+sification. In NIPS.

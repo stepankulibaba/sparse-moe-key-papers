@@ -1,0 +1,230 @@
+
+Alan Ansell, Edoardo Maria Ponti, Anna Korhonen,
+and Ivan Vuli´c. 2021.
+Composable sparse fine-
+tuning for cross-lingual transfer.
+arXiv preprint
+arXiv:2110.07560.
+Jacob Austin, Augustus Odena, Maxwell Nye, Maarten
+Bosma, Henryk Michalewski, David Dohan, Ellen
+Jiang, Trevor Cai, Anselm Levskaya, Charles Sutton,
+et al. 2021. Program synthesis with large language
+models. arXiv preprint arXiv:2108.07732.
+Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan,
+Maarten Dehghani, Pieter Abbeel, Deepak Pathak,
+Brandon Sanders, Vishal Katarkar, Zareen Xu, et al.
+2021. Evaluating large language models trained on
+code. In NeurIPS.
+Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot,
+Ashish Sabharwal, Carissa Schoenick, and Oyvind
+Tafjord. 2018. Think you have solved question an-
+swering? try arc, the AI2 reasoning challenge. CoRR,
+abs/1803.05457.
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian,
+Jacob Hilton, Reiichiro Nakano, Christopher Hesse,
+and John Schulman. 2021. Gsm8k: A dataset for
+grade school math problem solving. In NeurIPS.
+Damai Dai, Chengqi Deng, Chenggang Zhao, R. X.
+Xu, Huazuo Gao, Deli Chen, Jiashi Li, Wangding
+Zeng, Xingkai Yu, Y. Wu, Zhenda Xie, Y. K. Li,
+Panpan Huang, Fuli Luo, Chong Ruan, Zhifang Sui,
+and Wenfeng Liang. 2024. Deepseekmoe: Towards
+ultimate expert specialization in mixture-of-experts
+language models. CoRR, abs/2401.06066.
+Damai Dai, Li Dong, Shuming Ma, Bo Zheng, Zhifang
+Sui, Baobao Chang, and Furu Wei. 2022. Stable-
+moe: Stable routing strategy for mixture of experts.
+In Proceedings of the 60th Annual Meeting of the
+Association for Computational Linguistics (Volume
+1: Long Papers), ACL 2022, Dublin, Ireland, May
+22-27, 2022, pages 7085–7095. Association for Com-
+putational Linguistics.
+Databricks. 2024. Dbrx: Resources and code examples.
+DeepSeek. 2024. Deepseek-v2: A strong, economi-
+cal, and efficient mixture-of-experts language model.
+CoRR, abs/2405.04434.
+Ning Ding, Xingtai Lv, Qiaosen Wang, Yulin Chen,
+Bowen Zhou, Zhiyuan Liu, and Maosong Sun. 2023.
+Sparse low-rank adaptation of pre-trained language
+models. arXiv preprint arXiv:2311.11696.
+William Fedus, Barret Zoph, and Noam Shazeer. 2021.
+Switch transformers: Scaling to trillion parameter
+models with simple and efficient sparsity. CoRR,
+abs/2101.03961.
+Vlad Fomenko, Han Yu, Jongho Lee, Stanley Hsieh,
+and Weizhu Chen. 2024. A note on lora. arXiv
+preprint arXiv:2404.05086.
+Mozhdeh Gheini, Xiang Ren, and Jonathan May. 2021.
+Cross-attention is all you need: Adapting pretrained
+transformers for machine translation. arXiv preprint
+arXiv:2104.08771.
+Demi Guo, Alexander M Rush, and Yoon Kim. 2020.
+Parameter-efficient transfer learning with diff prun-
+ing. arXiv preprint arXiv:2012.07463.
+Zeyu Han, Chao Gao, Jinyang Liu, Jeff Zhang, and
+Sai Qian Zhang. 2024.
+Parameter-efficient fine-
+tuning for large models: A comprehensive survey.
+CoRR, abs/2403.14608.
+Haoyu He, Jianfei Cai, Jing Zhang, Dacheng Tao,
+and Bohan Zhuang. 2023. Sensitivity-aware visual
+parameter-efficient fine-tuning. In Proceedings of
+the IEEE/CVF International Conference on Com-
+puter Vision, pages 11825–11835.
+Junxian He, Chunting Zhou, Xuezhe Ma, Taylor Berg-
+Kirkpatrick, and Graham Neubig. 2021. Towards a
+unified view of parameter-efficient transfer learning.
+arXiv preprint arXiv:2110.04366.
+Dan Hendrycks, Collin Burns, Steven Basart, Andy
+Zou, Mantas Mazeika, Dawn Song, and Jacob Stein-
+hardt. 2021a.
+Measuring mathematical problem
+solving with the math dataset.
+arXiv preprint
+arXiv:2103.03874.
+Dan Hendrycks, Collin Burns, Steven Basart, et al.
+2021b. Measuring massive multitask language under-
+standing. In International Conference on Learning
+Representations (ICLR).
+
+Neil Houlsby, Andrei Giurgiu, Stanislaw Jastrzebski,
+Bruna Morrone, Quentin De Laroussilhe, Andrea
+Gesmundo, Mona Attariyan, and Sylvain Gelly. 2019.
+Parameter-efficient transfer learning for nlp. In In-
+ternational Conference on Machine Learning, pages
+2790–2799. PMLR.
+Edward J Hu, Yelong Shen, Phillip Wallis, Zeyuan
+Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang,
+and Weizhu Chen. 2021.
+Lora: Low-rank adap-
+tation of large language models.
+arXiv preprint
+arXiv:2106.09685.
+Yuzhen Huang, Yuzhuo Bai, Zhihao Zhu, Junlei
+Zhang, Jinghan Zhang, Tangjun Su, Junteng Liu,
+Chuancheng Lv, Yikai Zhang, Jiayi Lei, et al. 2023.
+C-Eval: A multi-level multi-discipline chinese eval-
+uation suite for foundation models. arXiv preprint
+arXiv:2305.08322.
+Mandar Joshi, Eunsol Choi, Daniel Weld, and Luke
+Zettlemoyer. 2017. triviaqa: A Large Scale Distantly
+Supervised Challenge Dataset for Reading Compre-
+hension. arXiv e-prints, arXiv:1705.03551.
+Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu,
+Dehao Chen, Orhan Firat, Yanping Huang, Maxim
+Krikun, Noam Shazeer, and Zhifeng Chen. 2021.
+Gshard: Scaling giant models with conditional com-
+putation and automatic sharding. In 9th International
+Conference on Learning Representations, ICLR 2021.
+OpenReview.net.
+Brian Lester, Rami Al-Rfou, and Noah Constant. 2021.
+The power of scale for parameter-efficient prompt
+tuning. arXiv preprint arXiv:2104.08691.
+Xiang Lisa Li and Percy Liang. 2021.
+Prefix-
+tuning: Optimizing continuous prompts for genera-
+tion. arXiv preprint arXiv:2101.00190.
+Baohao Liao, Yan Meng, and Christof Monz. 2023.
+Parameter-efficient fine-tuning without introducing
+new latency. arXiv preprint arXiv:2305.16742.
+Yang Lin, Xinyu Ma, Xu Chu, Yujie Jin, Zhibang Yang,
+Yasha Wang, and Hong Mei. 2024. Lora dropout as
+a sparsity regularizer for overfitting control. arXiv
+preprint arXiv:2404.09610.
+Qidong Liu, Xian Wu, Xiangyu Zhao, Yuanshao Zhu,
+Derong Xu, Feng Tian, and Yefeng Zheng. 2023.
+Moelora: An moe-based parameter efficient fine-
+tuning method for multi-task medical applications.
+arXiv preprint arXiv:2310.18339.
+Xiao Liu, Kaixuan Ji, Yicheng Fu, Weng Lam Tam,
+Zhengxiao Du, Zhilin Yang, and Jie Tang. 2021. P-
+tuning v2: Prompt tuning can be comparable to fine-
+tuning universally across scales and tasks. arXiv
+preprint arXiv:2110.07602.
+Ziyang Luo, Can Xu, Pu Zhao, Qingfeng Sun, Xi-
+ubo Geng, Wenxiang Hu, Chongyang Tao, Jing Ma,
+Qingwei Lin, and Daxin Jiang. 2023. Wizardcoder:
+Empowering code large language models with evol-
+instruct.
+Meta. 2023a. Llama 2: Open foundation and fine-tuned
+chat models. CoRR, abs/2307.09288.
+Meta. 2023b. Llama: Open and efficient foundation
+language models. arXiv preprint arXiv:2302.13971.
+Meta. 2024. Llama 3 model card.
+Mistral. 2024a. Cheaper, better, faster, stronger: Con-
+tinuing to push the frontier of ai and making it acces-
+sible to all.
+Mistral. 2024b.
+Mixtral of experts.
+CoRR,
+abs/2401.04088.
+Jonas Pfeiffer, Aishwarya Kamath, Andreas Rücklé,
+Kyunghyun Cho,
+and Iryna Gurevych. 2020.
+Adapterfusion: Non-destructive task composition for
+transfer learning. arXiv preprint arXiv:2005.00247.
+Qwen. 2024. Introducing qwen1.5.
+Stephen Roller, Sainbayar Sukhbaatar, Arthur Szlam,
+and Jason Weston. 2021. Hash layers for large sparse
+models. CoRR, abs/2106.04426.
+Yikang Shen, Zhen Guo, Tianle Cai, and Zengyi Qin.
+2024. Jetmoe: Reaching llama2 performance with
+0.1m dollars. CoRR, abs/2404.07413.
+Yi-Lin Sung, Varun Nair, and Colin A Raffel. 2021.
+Training neural networks with fixed sparse masks.
+Advances in Neural Information Processing Systems,
+34:24193–24205.
+Danilo Vucetic, Mohammadreza Tayaranian, Maryam
+Ziaeefard, James J Clark, Brett H Meyer, and War-
+ren J Gross. 2022. Efficient fine-tuning of bert mod-
+els on the edge. In 2022 IEEE International Sympo-
+sium on Circuits and Systems (ISCAS), pages 1838–
+1842. IEEE.
+Yaqing Wang, Subhabrata Mukherjee, Xiaodong Liu,
+Jing Gao, Ahmed Hassan Awadallah, and Jian-
+feng Gao. 2022. Adamix: Mixture-of-adapter for
+parameter-efficient tuning of large language models.
+arXiv preprint arXiv:2205.12410, 1(2):4.
+XAI. 2024. Grok open release.
+Liang Xu, Hai Hu, Xuanwei Zhang, et al. 2020. Clue:
+A chinese language understanding evaluation bench-
+mark. arXiv preprint arXiv:2004.05986.
+Runxin Xu, Fuli Luo, Zhiyuan Zhang, Chuanqi Tan,
+Baobao Chang, Songfang Huang, and Fei Huang.
+2021. Raise a child in large language model: To-
+wards effective and generalizable fine-tuning. arXiv
+preprint arXiv:2109.05687.
+Longhui Yu, Weisen Jiang, Han Shi, Jincheng Yu,
+Zhengying Liu, Yu Zhang, James T Kwok, Zhen-
+guo Li, Adrian Weller, and Weiyang Liu. 2023.
+Metamath: Bootstrap your own mathematical ques-
+tions for large language models.
+arXiv preprint
+arXiv:2309.12284.
+
+Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali
+Farhadi, and Yejin Choi. 2019. HellaSwag: Can a
+machine really finish your sentence? In Proceedings
+of the 57th Conference of the Association for Com-
+putational Linguistics, ACL 2019, Florence, Italy,
+July 28- August 2, 2019, Volume 1: Long Papers,
+pages 4791–4800. Association for Computational
+Linguistics.
+Qingru Zhang, Minshuo Chen, Alexander Bukharin,
+Pengcheng He, Yu Cheng, Weizhu Chen, and
+Tuo Zhao. 2023a.
+Adaptive budget allocation
+for parameter-efficient fine-tuning. arXiv preprint
+arXiv:2303.10512.
+Shiyue Zhang, Benjamin Frey, and Mohit Bansal. 2020.
+Chren: Cherokee-english machine translation for
+endangered language revitalization. In EMNLP2020.
+Zhen-Ru Zhang, Chuanqi Tan, Haiyang Xu, Chengyu
+Wang, Jun Huang, and Songfang Huang. 2023b.
+Towards adaptive prefix tuning for parameter-
+efficient language model fine-tuning. arXiv preprint
+arXiv:2305.15212.
+Jeffrey Zhou, Tianjian Lu, Swaroop Mishra, Siddhartha
+Brahma, Sujoy Basu, Yi Luan, Denny Zhou, and
+Le Hou. 2023. Instruction-following evaluation for
+large language models. Preprint, arXiv:2311.07911.

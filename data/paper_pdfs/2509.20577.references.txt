@@ -1,0 +1,237 @@
+
+[1] Y. Yang and J. Ma, A Single Loop EM Algorithm for the Mixture of
+Experts Architecture.
+Springer Berlin Heidelberg, 2009, p. 959–968.
+[Online]. Available: http://dx.doi.org/10.1007/978-3-642-01510-6 109
+[2] R. Redhead and M. Heywood, “Evaluation of cluster combination
+functions
+for
+mixture
+of
+experts,”
+in
+Proceedings.
+2005
+IEEE
+International
+Joint
+Conference
+on
+Neural
+Networks,
+2005.,
+ser.
+IJCNN-05,
+vol.
+2.
+IEEE,
+p.
+1154–1159.
+[Online].
+Available:
+http://dx.doi.org/10.1109/ijcnn.2005.1556016
+[3] S. Masoudnia, M. Rostami, M. Tabassian, A. Sajedin, and R. Ebr,
+“Evidence-based mixture of mlp-experts,” in The 2010 International
+Joint Conference on Neural Networks (IJCNN).
+IEEE, Jul. 2010, p.
+1–7. [Online]. Available: http://dx.doi.org/10.1109/ijcnn.2010.5596928
+[4] B.
+Peralta,
+A.
+Saavedra,
+L.
+Caro,
+and
+A.
+Soto,
+“Mixture
+of
+experts with entropic regularization for data classification,” Entropy,
+vol.
+21,
+no.
+2,
+p.
+190,
+Feb.
+2019.
+[Online].
+Available:
+http:
+//dx.doi.org/10.3390/e21020190
+[5] G.
+Armano
+and
+N.
+Hatami,
+An
+Improved
+Mixture
+of
+Experts
+Model: Divide and Conquer Using Random Prototypes.
+Springer
+Berlin
+Heidelberg,
+2011,
+p.
+217–231.
+[Online].
+Available:
+http:
+//dx.doi.org/10.1007/978-3-642-22910-7 13
+[6] A. Alboody and R. Slama, “Ept-moe: Toward efficient parallel
+transformers with mixture-of-experts for 3d hand gesture recognition,” in
+Proceedings of the 10th World Congress on Electrical Engineering and
+Computer Systems and Science, ser. EECSS 2024.
+Avestia Publishing,
+Aug. 2024. [Online]. Available: http://dx.doi.org/10.11159/mvml24.105
+[7] X. Chen and D. Zou, “What can transformer learn with varying depth?
+case studies on sequence learning tasks,” 2024. [Online]. Available:
+https://arxiv.org/abs/2404.01601
+[8] Q. Huang, Z. An, N. Zhuang, M. Tao, C. Zhang, Y. Jin, K. Xu, L. Chen,
+S. Huang, and Y. Feng, “Harder tasks need more experts: Dynamic
+routing in moe models,” arXiv preprint arXiv:2403.07652, 2024.
+[9] M.
+A.
+Aghdam,
+H.
+Jin,
+and
+Y.
+Wu,
+“Da-moe:
+Towards
+dy-
+namic expert allocation for mixture-of-experts models,” arXiv preprint
+arXiv:2409.06669, 2024.
+[10] K. Rajaraman, S. Rajamanickam, and W. Shi, “Investigating transformer-
+guided chaining for interpretable natural logic reasoning,” in Findings
+of the Association for Computational Linguistics: ACL 2023, 2023, pp.
+9240–9253.
+[11] G. Rizzoli, D. Shenaj, and P. Zanuttigh, “Source-free domain adaptation
+for rgb-d semantic segmentation with vision transformers,” in 2024
+IEEE/CVF Winter Conference on Applications of Computer Vision
+Workshops (WACVW).
+IEEE, Jan. 2024, p. 607–616. [Online].
+Available: http://dx.doi.org/10.1109/wacvw60836.2024.00070
+[12] M.
+S.
+Ward,
+D.
+S.
+Taubman,
+and
+R.
+K.
+Mathew,
+“Spatial
+induction policies for scalable depth coding,” in 2015 Picture Coding
+Symposium (PCS).
+IEEE, May 2015, p. 45–49. [Online]. Available:
+http://dx.doi.org/10.1109/pcs.2015.7170044
+[13] T. Sherstinova, E. Ushakova, and A. Melnik, “Measures of syntactic
+complexity and their change over time (the case of russian),” in 2020
+27th Conference of Open Innovations Association (FRUCT).
+IEEE,
+Sep. 2020, p. 221–229. [Online]. Available: http://dx.doi.org/10.23919/
+fruct49677.2020.9211027
+[14] C. Cao, W. Cao, and F. Tian, A Quantitative Study on the Measure
+Index of Syntactic Complexity in Textbooks for Chinese as a Second
+Language.
+Springer International Publishing, 2022, p. 233–245.
+[Online]. Available: http://dx.doi.org/10.1007/978-3-031-06547-7 19
+[15] I. S. Naumov and V. S. Vykhovanets, “Using syntactic text analysis
+to estimate educational tasks’ difficulty and complexity,” Automation
+and Remote Control, vol. 77, no. 1, p. 159–178, Jan. 2016. [Online].
+Available: http://dx.doi.org/10.1134/s0005117916010100
+[16] M. Dascalu, L. L. Stavarache, S. Trausan-Matu, P. Dessus, and
+M.
+Bianco,
+“Reflecting
+comprehension
+through
+french
+textual
+complexity factors,” in 2014 IEEE 26th International Conference
+on Tools with Artificial Intelligence.
+IEEE, Nov. 2014, p. 615–619.
+[Online]. Available: http://dx.doi.org/10.1109/ictai.2014.97
+[17] T. A. Ileni, A. S. Darabant, D. L. Borza, and A. I. Marinescu,
+“Dynk-hydra: improved dynamic architecture ensembling for efficient
+inference,”
+Complex
+&
+Intelligent
+Systems,
+vol.
+9,
+no.
+2,
+p.
+2177–2188, Nov. 2022. [Online]. Available: http://dx.doi.org/10.1007/
+s40747-022-00897-1
+[18] Y. Liu, F. Meng, J. Zhou, Y. Chen, and J. Xu, “Faster depth-adaptive
+transformers,” Proceedings of the AAAI Conference on Artificial
+Intelligence, vol. 35, no. 15, p. 13424–13432, May 2021. [Online].
+Available: http://dx.doi.org/10.1609/aaai.v35i15.17584
+[19] Y. Sun, J. Li, and X. Xu, Meta-GF: Training Dynamic-Depth Neural Net-
+works Harmoniously.
+Springer Nature Switzerland, 2022, p. 691–708.
+[Online]. Available: http://dx.doi.org/10.1007/978-3-031-20083-0 41
+[20] M.
+Scheutz
+and
+V.
+Andronache,
+“Architectural
+mechanisms
+for
+dynamic changes of behavior selection strategies in behavior-based
+systems,” IEEE Transactions on Systems, Man and Cybernetics, Part
+B (Cybernetics), vol. 34, no. 6, p. 2377–2395, Dec. 2004. [Online].
+Available: http://dx.doi.org/10.1109/tsmcb.2004.837309
+[21] E. Gelenbe and M. Gellman, “Oscillations in a bio-inspired routing
+algorithm,” in 2007 IEEE Internatonal Conference on Mobile Adhoc
+and Sensor Systems.
+IEEE, Oct. 2007, p. 1–7. [Online]. Available:
+http://dx.doi.org/10.1109/mobhoc.2007.4428681
+[22] G. Huang, Y. Li, S. Jameel, Y. Long, and G. Papanastasiou,
+“From explainable to interpretable deep learning for natural language
+processing in healthcare: How far from reality?” Computational and
+Structural Biotechnology Journal, vol. 24, p. 362–373, Dec. 2024.
+[Online]. Available: http://dx.doi.org/10.1016/j.csbj.2024.05.004
+[23] E. A. Alontseva, E. V. Cherkasova, and V. V. Kozlov, Digital Model
+for a Multidisciplinary Educational Base for Training a Multi-skilled
+
+Specialist.
+Springer International Publishing, Nov. 2021, p. 423–434.
+[Online]. Available: http://dx.doi.org/10.1007/978-3-030-83175-2 53
+[24] D. Plinere and Y. Merkurvev, “Designing a multi-agent system
+for improving supply chain performance,” in 2019 IEEE 7th IEEE
+Workshop on Advances in Information, Electronic and Electrical
+Engineering (AIEEE).
+IEEE, Nov. 2019, p. 1–7. [Online]. Available:
+http://dx.doi.org/10.1109/aieee48629.2019.8976926
+[25] S.
+Islam,
+H.
+Elmekki,
+A.
+Elsebai,
+J.
+Bentahar,
+N.
+Drawel,
+G. Rjoub, and W. Pedrycz, “A comprehensive survey on applications
+of
+transformers
+for
+deep
+learning
+tasks,”
+Expert
+Systems
+with
+Applications, vol. 241, p. 122666, May 2024. [Online]. Available:
+http://dx.doi.org/10.1016/j.eswa.2023.122666

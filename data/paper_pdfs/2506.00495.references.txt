@@ -1,0 +1,968 @@
+
+[1] Takuya Akiba, Shotaro Sano, Toshihiko Yanase, Takeru Ohta, and Masanori Koyama. Optuna: A next-
+generation hyperparameter optimization framework. In The 25th ACM SIGKDD International Conference
+on Knowledge Discovery & Data Mining, pages 2623–2631, 2019.
+[2] Alignment-Lab-AI. Lawyer-instruct, 2024.
+[3] Ilias Chalkidis, Nicolas Garneau, Catalina Goanta, Daniel Martin Katz, and Anders Søgaard. Lexfiles
+and legallama: Facilitating english multinational legal language model development. arXiv preprint
+arXiv:2305.07507, 2023.
+[4] Sahil Chaudhary. Code alpaca: An instruction-following llama model for code generation. https:
+//github.com/sahil280114/codealpaca, 2023.
+[5] Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira Pinto, Jared Kaplan,
+Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, et al. Evaluating large language models
+trained on code. arXiv preprint arXiv:2107.03374, 2021.
+[6] Yukang Chen, Shengju Qian, Haotian Tang, Xin Lai, Zhijian Liu, Song Han, and Jiaya Jia. Longlora:
+Efficient fine-tuning of long-context large language models. arXiv preprint arXiv:2309.12307, 2023.
+[7] Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias
+Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, and John Schulman. Training
+verifiers to solve math word problems. arXiv preprint arXiv:2110.14168, 2021.
+[8] Ning Ding, Xingtai Lv, Qiaosen Wang, Yulin Chen, Bowen Zhou, Zhiyuan Liu, and Maosong Sun. Sparse
+low-rank adaptation of pre-trained language models. arXiv preprint arXiv:2311.11696, 2023.
+[9] Shihan Dou, Enyu Zhou, Yan Liu, Songyang Gao, Jun Zhao, Wei Shen, Yuhao Zhou, Zhiheng Xi, Xiao
+Wang, Xiaoran Fan, et al. Loramoe: Alleviate world knowledge forgetting in large language models via
+moe-style plugin. arXiv preprint arXiv:2312.09979, 2023.
+[10] Mostafa Elhoushi, Akshat Shrivastava, Diana Liskovich, Basil Hosmer, Bram Wasti, Liangzhen Lai, Anas
+Mahmoud, Bilge Acun, Saurabh Agarwal, Ahmed Roman, et al. Layer skip: Enabling early exit inference
+and self-speculative decoding. arXiv preprint arXiv:2404.16710, 2024.
+[11] Elias Frantar and Dan Alistarh. Sparsegpt: Massive language models can be accurately pruned in one-shot.
+In International Conference on Machine Learning, pages 10323–10337. PMLR, 2023.
+[12] Chongyang Gao, Kezhen Chen, Jinmeng Rao, Ruibo Liu, Baochen Sun, Yawen Zhang, Daiyi Peng,
+Xiaoyuan Guo, and Vs Subrahmanian. MoLA: MoE LoRA with layer-wise expert allocation. In Luis
+Chiruzzo, Alan Ritter, and Lu Wang, editors, Findings of the Association for Computational Linguistics:
+NAACL 2025, pages 5097–5112, Albuquerque, New Mexico, April 2025. Association for Computational
+Linguistics.
+[13] Soufiane Hayou, Nikhil Ghosh, and Bin Yu. Lora+: Efficient low rank adaptation of large models. arXiv
+preprint arXiv:2402.12354, 2024.
+[14] Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and Jacob
+Steinhardt. Measuring massive multitask language understanding. arXiv preprint arXiv:2009.03300, 2020.
+[15] Edward J Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, and
+Weizhu Chen. Lora: Low-rank adaptation of large language models. arXiv preprint arXiv:2106.09685,
+2021.
+[16] Chengsong Huang, Qian Liu, Bill Yuchen Lin, Tianyu Pang, Chao Du, and Min Lin. Lorahub: Efficient
+cross-task generalization via dynamic lora composition. arXiv preprint arXiv:2307.13269, 2023.
+[17] Robert A Jacobs, Michael I Jordan, Steven J Nowlan, and Geoffrey E Hinton. Adaptive mixtures of local
+experts. Neural computation, 3(1):79–87, 1991.
+[18] Fengqing Jiang. Identifying and mitigating vulnerabilities in llm-integrated applications. Master’s thesis,
+University of Washington, 2024.
+10
+
+[19] Ting Jiang, Shaohan Huang, Shengyue Luo, Zihan Zhang, Haizhen Huang, Furu Wei, Weiwei Deng, Feng
+Sun, Qi Zhang, Deqing Wang, et al. Mora: High-rank updating for parameter-efficient fine-tuning. arXiv
+preprint arXiv:2405.12130, 2024.
+[20] Gal Kaplun, Andrey Gurevich, Tal Swisa, Mazor David, Shai Shalev-Shwartz, and Eran Malach. Less is
+more: Selective layer finetuning with subtuning. arXiv preprint arXiv:2302.06354, 2023.
+[21] Dawid J Kopiczko, Tijmen Blankevoort, and Yuki M Asano. Vera: Vector-based random matrix adaptation.
+arXiv preprint arXiv:2310.11454, 2023.
+[22] Yann LeCun, John Denker, and Sara Solla. Optimal brain damage. In D. Touretzky, editor, Advances in
+Neural Information Processing Systems, volume 2. Morgan-Kaufmann, 1989.
+[23] Yoonho Lee, Annie S Chen, Fahim Tajwar, Ananya Kumar, Huaxiu Yao, Percy Liang, and Chelsea Finn.
+Surgical fine-tuning improves adaptation to distribution shifts. arXiv preprint arXiv:2210.11466, 2022.
+[24] Tao Lei, Junwen Bai, Siddhartha Brahma, Joshua Ainslie, Kenton Lee, Yanqi Zhou, Nan Du, Vincent Zhao,
+Yuexin Wu, Bo Li, et al. Conditional adapters: Parameter-efficient transfer learning with fast inference.
+Advances in Neural Information Processing Systems, 36:8152–8172, 2023.
+[25] Brian Lester, Rami Al-Rfou, and Noah Constant. The power of scale for parameter-efficient prompt tuning.
+arXiv preprint arXiv:2104.08691, 2021.
+[26] Xiang Lisa Li and Percy Liang. Prefix-tuning: Optimizing continuous prompts for generation. arXiv
+preprint arXiv:2101.00190, 2021.
+[27] Yunxiang Li, Zihan Li, Kai Zhang, Ruilong Dan, Steve Jiang, and You Zhang. Chatdoctor: A medical chat
+model fine-tuned on a large language model meta-ai (llama) using medical domain knowledge. Cureus,
+15(6), 2023.
+[28] Haokun Liu, Derek Tam, Mohammed Muqeeth, Jay Mohta, Tenghao Huang, Mohit Bansal, and Colin A
+Raffel. Few-shot parameter-efficient fine-tuning is better and cheaper than in-context learning. Advances
+in Neural Information Processing Systems, 35:1950–1965, 2022.
+[29] Shih-Yang Liu, Chien-Yi Wang, Hongxu Yin, Pavlo Molchanov, Yu-Chiang Frank Wang, Kwang-
+Ting Cheng, and Min-Hung Chen. Dora: Weight-decomposed low-rank adaptation. arXiv preprint
+arXiv:2402.09353, 2024.
+[30] Xiao Liu, Kaixuan Ji, Yicheng Fu, Weng Lam Tam, Zhengxiao Du, Zhilin Yang, and Jie Tang. P-tuning
+v2: Prompt tuning can be comparable to fine-tuning universally across scales and tasks. arXiv preprint
+arXiv:2110.07602, 2021.
+[31] Xiao Liu, Yanan Zheng, Zhengxiao Du, Ming Ding, Yujie Qian, Zhilin Yang, and Jie Tang. Gpt understands,
+too. AI Open, 5:208–215, 2024.
+[32] Zequan Liu, Jiawen Lyn, Wei Zhu, Xing Tian, and Yvette Graham. Alora: Allocating low-rank adaptation
+for fine-tuning large language models. arXiv preprint arXiv:2403.16187, 2024.
+[33] Shayne Longpre, Le Hou, Tu Vu, Albert Webson, Hyung Won Chung, Yi Tay, Denny Zhou, Quoc V Le,
+Barret Zoph, Jason Wei, et al. The flan collection: Designing data and methods for effective instruction
+tuning. In International Conference on Machine Learning, pages 22631–22648. PMLR, 2023.
+[34] Xinyin Ma, Gongfan Fang, and Xinchao Wang. Llm-pruner: On the structural pruning of large language
+models. Advances in neural information processing systems, 36:21702–21720, 2023.
+[35] Fanxu Meng, Zhaohui Wang, and Muhan Zhang. Pissa: principal singular values and singular vectors
+adaptation of large language models. arXiv preprint arXiv:2404.02948, 2024.
+[36] C Mike, H Matt, M Ankit, X Jianwei, W Jun, S Sam, G Ali, W Patrick, Z Matei, and X Reynold. Free
+dolly: Introducing the world’s first truly open instruction-tuned llm, 2023.
+[37] Lucas Page-Caccia, Edoardo Maria Ponti, Zhan Su, Matheus Pereira, Nicolas Le Roux, and Alessandro
+Sordoni. Multi-head adapter routing for cross-task generalization. Advances in Neural Information
+Processing Systems, 36, 2024.
+[38] Rui Pan, Xiang Liu, Shizhe Diao, Renjie Pi, Jipeng Zhang, Chi Han, and Tong Zhang. Lisa: Lay-
+erwise importance sampling for memory-efficient large language model fine-tuning. arXiv preprint
+arXiv:2403.17919, 2024.
+11
+
+[39] Adithya Renduchintala, Tugrul Konuk, and Oleksii Kuchaiev. Tied-lora: Enhacing parameter efficiency of
+lora with weight tying. arXiv preprint arXiv:2311.09578, 2023.
+[40] Hassan Sajjad, Fahim Dalvi, Nadir Durrani, and Preslav Nakov. On the effect of dropping layers of
+pre-trained transformer models. Computer Speech & Language, 77:101429, 2023.
+[41] Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff
+Dean. Outrageously large neural networks: The sparsely-gated mixture-of-experts layer. arXiv preprint
+arXiv:1701.06538, 2017.
+[42] Mirac Suzgun, Nathan Scales, Nathanael Schärli, Sebastian Gehrmann, Yi Tay, Hyung Won Chung,
+Aakanksha Chowdhery, Quoc V Le, Ed H Chi, Denny Zhou, , and Jason Wei. Challenging big-bench tasks
+and whether chain-of-thought can solve them. arXiv preprint arXiv:2210.09261, 2022.
+[43] Gemma Team, Morgane Riviere, Shreya Pathak, Pier Giuseppe Sessa, Cassidy Hardin, Surya Bhupatiraju,
+Léonard Hussenot, Thomas Mesnard, Bobak Shahriari, Alexandre Ramé, et al. Gemma 2: Improving open
+language models at a practical size. arXiv preprint arXiv:2408.00118, 2024.
+[44] Chunlin Tian, Zhan Shi, Zhijiang Guo, Li Li, and Chengzhong Xu. Hydralora: An asymmetric lora
+architecture for efficient fine-tuning. arXiv preprint arXiv:2404.19245, 2024.
+[45] Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay
+Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, et al. Llama 2: Open foundation and
+fine-tuned chat models. arXiv preprint arXiv:2307.09288, 2023.
+[46] Mojtaba Valipour, Mehdi Rezagholizadeh, Ivan Kobyzev, and Ali Ghodsi. Dylora: Parameter efficient tun-
+ing of pre-trained models using dynamic search-free low-rank adaptation. arXiv preprint arXiv:2210.07558,
+2022.
+[47] Chaoqi Wang, Roger Grosse, Sanja Fidler, and Guodong Zhang. Eigendamage: Structured pruning in
+the kronecker-factored eigenbasis. In International conference on machine learning, pages 6566–6575.
+PMLR, 2019.
+[48] Yaqing Wang, Subhabrata Mukherjee, Xiaodong Liu, Jing Gao, Ahmed Hassan Awadallah, and Jianfeng
+Gao. Adamix: Mixture-of-adapter for parameter-efficient tuning of large language models. arXiv preprint
+arXiv:2205.12410, 1(2):4, 2022.
+[49] Jason Wei, Maarten Bosma, Vincent Y. Zhao, Kelvin Guu, Adams Wei Yu, Brian Lester, Nan Du, Andrew M.
+Dai, and Quoc V. Le. Finetuned language models are zero-shot learners. In The Tenth International
+Conference on Learning Representations, ICLR 2022, Virtual Event, April 25-29, 2022. OpenReview.net,
+2022.
+[50] Kaiyan Zhang, Ning Ding, Biqing Qi, Xuekai Zhu, Xinwei Long, and Bowen Zhou. Crash: Clus-
+tering, removing, and sharing enhance fine-tuning without full large language model. arXiv preprint
+arXiv:2310.15477, 2023.
+[51] Longteng Zhang, Lin Zhang, Shaohuai Shi, Xiaowen Chu, and Bo Li. Lora-fa: Memory-efficient low-rank
+adaptation for large language models fine-tuning. arXiv preprint arXiv:2308.03303, 2023.
+[52] Qingru Zhang, Minshuo Chen, Alexander Bukharin, Nikos Karampatziakis, Pengcheng He, Yu Cheng,
+Weizhu Chen, and Tuo Zhao. Adalora: Adaptive budget allocation for parameter-efficient fine-tuning.
+arXiv preprint arXiv:2303.10512, 2023.
+A
+Datasets and Baselines
+A.1
+Datasets
+Single domain includes:
+• General: we fine-tune with Databricks-Dolly-15K dataset [36] for general knowledge mastering
+and evaluate with all tasks in MMLU [14].
+• Medical: we fine-tune with GenMedGPT and Clinic-10K from ChatDoctor [27] for medi-
+cal applications and evaluate with 3 medical tasks in MMLU, including clinical knowledge,
+professional medicine and college medicine.
+12
+
+• Legal: we fine-tune with Lawyer-Instruct [2] and US-Terms [3] for legal applications and evalu-
+ate with 3 legal tasks in MMLU, including jurisprudence, international law and professional
+law.
+• Code Generation: we fine-tuned with CodeAlpaca [4] and evaluate with HumanEval [5].
+• Mathematics: we fine-tune with the training split of GSM8K [7] for mathematical reasoning and
+evaluate with the test split.
+Multi domain includes:
+• FLANv2: we construct the training dataset by sampling equal-proportion subsets from each of
+the 46 tasks in FLANv2 [49] and evaluate on BBH benchmark [42].
+A.2
+Baselines
+Baselines for PEFT:
+• Full Fine-Tuning: the default adaptation strategy involves initializing the model with pre-trained
+weights and updating all parameters via gradient descent. The number of trainable parameters
+equals the number of pretrained parameters.
+• Prompt Tuning [25]: adds manually-designed task-specific prompts to the input. The fine-tuning
+process only updates the prompt parameters while keeping the pre-trained parameters frozen.
+• P-Tuning [31]: a prompt adds learnable prompt tokens to the input, optimized by a prompt
+encoder to find a better prompt. The prompt tokens can be added anywhere in the input sequence.
+• LoRA [15]: decomposes weight updates into low-rank matrices, enabling efficient adaptation
+with significantly fewer trainable parameters while preserving model performance.
+• AdaLoRA [52]: dynamically allocates trainable parameters across weight matrices and layers,
+prioritizing important components instead of uniformly distributing resources as in LoRA.
+• DoRA [29]: decomposes pre-trained weights into magnitude and direction components, and
+apply LoRA on the direction component.
+• HydraLoRA [44]: incorporating asymmetric LoRA adapters across all layers.
+Baselines for layer selection policy:
+• Random Selection: layers are chosen uniformly at random during training (with a fixed random
+seed 42), serving as a naive baseline to assess the necessity of structured selection.
+• Weight Norm Selection [38]: layers are prioritized based on the L2-norm of their weights,
+under the hypothesis that layers with larger norms contribute more significantly to the model’s
+predictions.
+Baselines for multi-LoRA architecture:
+• LoRAMoE [9]: combines lightweight experts (LoRA) with MoE architecture for high efficiency,
+generalizing to new tasks without prior knowledge.
+• LoraHub [16]: employs black-box optimization to learn weights of 20 randomly selected LoRAs
+for new tasks, using weighted averaging without needing gradient calculations.
+B
+Hyperparameter Settings
+Table 6: Hyperparameter settings for our experiments and LoRA-based baseline methods. MSL indicates the
+max sequence length, BSZ indicates the batch size. All methods use the AdamW optimizer. The weight decay is
+set to 0.
+Parameter
+Rank
+α
+Dropout
+MSL
+Warmup Ratio
+BSZ
+Epochs
+LR
+Seed
+Where
+FLoE
+8
+32
+0.05
+512
+0.03
+1
+1
+2e-4
+42
+Up,Down,Gate
+HydraLoRA
+8
+32
+0.05
+1024
+0.03
+2
+1
+2e-4
+41
+Up,Down,Gate
+LoRA
+8
+32
+0.05
+1024
+0.03
+2
+1
+2e-4
+41
+Up,Down,Gate
+AdaLoRA
+8
+16
+0.05
+512
+0.1
+2
+3
+1e-3
+41
+Up,Down,Gate
+DoRA
+8
+32
+0.05
+1024
+0.03
+2
+1.5
+2e-4
+41
+Q,K,V,Up,Down
+13
+
+C
+Ablation Study
+The FLoE layer selection algorithm comprises three steps: (i) determination stage for coarse-grained
+binary mask value initialization, (ii) refinement stage implementing a swapping protocol that ex-
+changes mask values between each pair of masked and unmasked parameters within the same layer,
+and (iii) tuning stage to relax the binary mask values into continuous values using a reconstruc-
+tion objective. To validate the necessity of refinement stage, we compare the model performance
+with and without the refinement stage. We first fine-tune a full-layer LLaMA2-7B model with
+Databricks-Dolly-15K, and using FLoE to get the layer importance rankings which is shown in
+Figure 6. Empirical results reveal that disabling this stage leads to a performance degradation as
+shown in Table 7.
+0
+4
+8
+12
+16
+20
+24
+28
+Transformer Layer Index
+0
+5
+10
+15
+20
+25
+30
+Importance Ranking
+(Higher Value = More Important)
+=2 =1 =3
+=1 =1
+=12
+=1
+=13
+w/ refinement
+w/o refinement
+Figure 6: Layer importance rankings with or without refinement stage. The difference starts at the rank 14 (i.e.
+the former 15 layers. The 14-th layer is layer 10 in the w/o refinement rankings and layer 8 in the w/ refinement
+rankings) and ends at the rank 16 (i.e. the former 17 layers has the same set of layer indexes). Similarly, we only
+need to evaluate the former 21, 24 and 25 layers in the subsequent rankings. Both rankings and layer indexes
+start at 0. The range is 0-31.
+Table 7: Evaluation results on MMLU with the former 15, 16, 21, 24, 25 layers fine-tuned (in the ranking
+order).
+Fine-tuned Layers
+15
+16
+21
+24
+25
+w/o refinement
+45.11
+45.14
+45.52
+45.48
+45.61
+w/ refinement
+45.36↑0.25
+45.33↑0.19
+45.56↑0.04
+45.43↓0.05
+45.66↑0.05
+D
+Analysis for Layer Selection
+As FLoE layer selection algorithm need to run on an already fine-tuned model, we decrease the
+preparation overhead via reducing the size and category of training data. For single domain fine-
+tuning, we first fine-tune a model on a general knowledge dataset, then run FLoE on that model. If
+this general dataset is too large, we reduce its size by randomly selecting a partial of the training data.
+Note that we can use the selection results for other single domain fine-tuning including medical, law,
+code and mathematics.
+Different Size of Sample Dataset. To investigate the impact of training data quantity on layer
+selection, we conduct a comparative study using MoE-based LoRA for LLaMA2-7B fine-tuning.
+We evaluate layer importance rankings across three training scenarios: full-data (100%), moderately
+reduced (70%), and substantially reduced (30%) subsets of the Databricks-Dolly-15K dataset.
+Figure 7 illustrates the stability of layer rankings under these varying data regimes. Our analysis
+reveals that the refinement stage exhibits minimal sensitivity to training data quantity in terms of
+rank consistency. Across all three configurations, layers 0-2 and layers 10-14 demonstrate strong
+agreement in stability rankings. However, notable discrepancies emerge in the final layers (22-28),
+suggesting that deeper layers show higher variability in importance assessment when trained with
+14
+
+reduced data. This observation indicates that for a safe consideration, we should choose at least 50%
+layers for subsequent fine-tuning on the target dataset. For a more careful layer selection, we should
+enlarge the sample dataset size.
+0
+5
+10
+15
+20
+25
+30
+Layer Index
+0
+5
+10
+15
+20
+25
+30
+Rank (0 = Most Important)
+w/ refinement
+Min-Max Range
+Mean ± SD
+0
+5
+10
+15
+20
+25
+30
+Layer Index
+0
+5
+10
+15
+20
+25
+30
+Rank (0 = Most Important)
+w/o refinement
+Min-Max Range
+Mean ± SD
+Figure 7: Rank stability comparison of layers with (left) and without (right) refinement stage. The plots show
+layer importance rankings (lower rank indicate higher importance) across three training data ratios (100%, 70%,
+30%). The shaded regions depict min-max ranges of the rank on different ratios.
+Fine-tune on Different Target Datasets. After ranking layers on the sample dataset, we apply
+the ranking results to selectively fine-tune the base model on the target datasets. Note that the
+target dataset can be different from the sample dataset. To evaluate the generalization capability of
+FLoE, we compare its fine-tuning performance with two single domain datasets (Clinic-10K and
+CodeAlpaca). For each dataset, we implement two layer selection strategies: one using the general
+knowledge dataset (Databricks-Dolly-15K) as the sample dataset, and the other using the target
+dataset itself as the sample dataset. Figure 8 shows that although the misalignment between the
+sample and target datasets has little impact on the best achievable performance, it may affect the
+number of layers required to reach that performance.
+8
+12
+16
+20
+24
+26
+Number of Layers
+45.5
+46.0
+46.5
+47.0
+47.5
+48.0
+48.5
+49.0
+Performance (%)
+Medical
+8
+12
+16
+20
+24
+26
+Number of Layers
+13.50
+13.75
+14.00
+14.25
+14.50
+14.75
+15.00
+15.25
+Performance (%)
+Code (Pass@1)
+8
+12
+16
+20
+24
+26
+Number of Layers
+28
+29
+30
+31
+Performance (%)
+Code (Pass@10)
+Data Type
+Sample
+Target
+Figure 8: Illustration of performance under different layer importance rankings.
+E
+Proof of Eq. 16
+The tuning stage is designed to minimize the layer-wise reconstruction error between the masked and
+unmasked versions of the adapted model. The goal is to optimize mk such that the squared L2-norm
+of the residual activation difference is minimized:
+arg min
+˜
+mk
+∥x′ + lk(x′; mk) −(x + lk(x; 1))∥2
+2 .
+(17)
+Let Wi represent the i-th head or neuron weight of layer lk. The output of lk(·; mk) is:
+lk(x; mk) =
+N
+X
+i=1
+mk,iWix,
+(18)
+15
+
+where N denote the number of heads (for MHA) or neurons (for FFN). Let ∆x = x′ −x, then the
+residual difference in Eq. 17 becomes:
+x′ +
+N
+X
+i=1
+mk,iWix′ −x −
+N
+X
+i=1
+1iWix = ∆x +
+N
+X
+i=1
+mk,iWi(x + ∆x) −
+N
+X
+i=1
+1iWix
+(19)
+=
+N
+X
+i=1
+(mk,i −1i)Wix + (
+N
+X
+i=1
+mk,iWi + 1)∆x.
+Let A = [W1x, . . . , WNx], b = −(PN
+i=1 mk,iWi + 1)∆x, and uk = mk −1. Then Eq. 17 can
+be transformed into a linear least-square problem:
+arg min
+uk
+∥Auk −b∥2
+2 .
+(20)
+Assume A⊤A is invertible. The closed-form solution to Eq. 20 is given by:
+u∗
+k = (A⊤A)−1A⊤b.
+(21)
+Finally, the optimal mask can be recovered by:
+m∗
+k = u∗
+k + 1.
+(22)
+F
+More Results
+Algorithm 2 Joint Mask Refinement
+1: Input: Initial masks M∗
+h, M∗
+f, budget C, Fisher/Taylor scores.
+2: Compute initial loss L∗and used budget Cused = C −
+P
+i/∈M∗
+h th + P
+j /∈M∗
+f tf
+
+3: while improvement do
+4:
+Generate all valid swaps (p, q) where ∆Cp→q ≥0
+5:
+Select swap (p∗, q∗) = arg max(p,q) ∆Lp→q
+6:
+if ∆Lp∗→q∗> 0 then
+7:
+Update M∗
+h, M∗
+f, L∗←L∗−∆Lp∗→q∗
+8:
+Update Cused ←Cused + ∆Cp∗→q∗
+9:
+else
+10:
+break
+11:
+end if
+12: end while
+13: Output: Refined masks M∗
+h, M∗
+f
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+Transformer Layer
+Salience
+*
+*
+*
+*
+*
+Gemma Layer Importance Heatmap
+0
+500
+1000
+1500
+2000
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+Transformer Layer
+Salience
+*
+*
+*
+*
+*
+Mistral Layer Importance Heatmap
+0
+1000
+2000
+3000
+4000
+Figure 9: Layer importance heatmaps for Gemma2-2B (top) and Mistral-7B (bottom), highlighting critical
+adaptation layers (8-17 for Gemma2-2B; 27-31 for Mistral-7B). Saliency values reflect the contribution of each
+layer, with darker hues indicating higher importance.
+16
+
+Table 8: Detailed results of BBH evaluation with LLaMA2-7B as the base LLM (3-shot).
+HydraLoRA
+Ours (FLoE)
+Task
+Base
+LoRA
+L=32
+L=28
+L=24
+L=20
+L=16
+L=12
+L=8
+Boolean Expressions
+73.60
+74.40
+75.20
+77.20
+76.01
+76.40
+77.60
+74.07
+71.35
+Causal Judgement
+47.06
+54.90
+57.22
+56.15
+50.72
+57.14
+50.27
+55.08
+59.89
+Date Understanding
+37.60
+40.00
+44.80
+55.60
+54.77
+56.40
+57.20
+59.60
+60.80
+Disambiguation QA
+34.80
+45.20
+56.80
+60.00
+65.60
+64.00
+64.40
+53.17
+66.00
+Dyck Languages
+10.80
+13.20
+14.40
+15.60
+13.20
+14.06
+14.92
+14.49
+14.00
+Formal Fallacies
+44.80
+46.00
+46.80
+46.40
+46.80
+47.60
+48.00
+47.15
+49.20
+Geometric Shapes
+9.70
+10.20
+15.20
+14.40
+25.60
+19.60
+12.40
+12.77
+12.00
+Hyperbaton
+30.80
+40.00
+48.40
+48.80
+48.40
+52.00
+53.20
+48.40
+49.20
+Logical Deduction (five objects)
+22.80
+33.30
+45.60
+46.80
+45.13
+45.53
+46.34
+43.10
+46.00
+Logical Deduction (seven objects)
+16.00
+22.40
+32.00
+31.60
+30.80
+32.40
+30.40
+30.00
+29.60
+Logical Deduction (three objects)
+35.20
+41.40
+44.40
+68.40
+59.60
+61.20
+52.00
+56.40
+69.60
+Movie Recommendation
+53.50
+63.05
+68.67
+69.88
+66.51
+69.08
+68.27
+65.72
+65.72
+Multistep Arithmetic
+0.80
+0.80
+1.20
+1.60
+1.36
+1.26
+1.26
+1.26
+1.20
+Navigate
+42.40
+52.70
+57.10
+54.40
+54.40
+62.80
+62.80
+58.40
+65.20
+Object Counting
+40.10
+44.00
+42.40
+44.00
+45.20
+46.00
+44.80
+46.00
+50.00
+Penguins in a Table
+21.70
+22.60
+26.03
+28.08
+33.56
+28.08
+28.77
+33.56
+48.63
+Reasoning about Colored Objects
+19.40
+27.20
+35.60
+40.00
+36.59
+42.00
+41.60
+42.40
+37.60
+Ruin Names
+25.40
+28.70
+30.65
+33.47
+31.92
+37.90
+34.68
+34.27
+29.03
+Salient Translation Error Detection
+11.20
+25.20
+26.80
+26.00
+27.95
+32.40
+32.00
+32.00
+30.40
+Snarks
+44.00
+44.00
+46.63
+48.31
+46.63
+46.63
+47.19
+46.63
+46.63
+Sports Understanding
+50.00
+57.20
+65.60
+67.20
+58.00
+57.60
+54.80
+55.20
+58.00
+Temporal Sequences
+21.10
+32.60
+33.20
+33.60
+34.80
+32.90
+32.90
+33.60
+36.40
+Tracking Shuffled Objects (five objects)
+21.90
+31.20
+37.20
+37.60
+38.40
+40.00
+38.80
+38.40
+39.20
+Tracking Shuffled Objects (seven objects)
+14.80
+14.00
+26.00
+27.60
+29.60
+26.40
+28.80
+28.40
+27.60
+Tracking Shuffled Objects (three objects)
+41.20
+51.20
+71.20
+71.60
+72.80
+70.00
+69.20
+67.60
+65.60
+Web of Lies
+48.80
+51.20
+50.80
+50.00
+51.97
+52.80
+51.20
+53.20
+50.40
+Word Sorting
+22.00
+21.20
+22.40
+20.40
+22.00
+22.40
+24.40
+23.60
+22.00
+Avg Performance (EM)
+31.17
+36.59
+41.57
+43.51
+42.73
+44.24
+43.27
+42.76
+44.49
+# of A/B for training/inference
+0/0
+1/1
+1/6
+1/6
+1/6
+1/6
+1/6
+1/6
+1/6
+% Params
+-
+0.062
+0.205
+0.179
+0.153
+0.128
+0.102
+0.077
+0.051
+G
+Broader Impacts
+Positive Societal Impacts. The proposed FLoE framework, with its Fisher information-aware layer
+selection and Bayesian optimization-driven dynamic rank allocation, advances the accessibility and
+efficiency of LLMs. By optimizing layer-specific adaptation and minimizing parameter growth, FLoE
+reduces computational barriers, enabling researchers and organizations with limited resources to
+deploy LLMs effectively in specialized domains. This could accelerate innovation in critical fields
+such as healthcare, education, and climate science, where domain-specific adaptation is essential.
+Furthermore, FLoE’s parameter-efficient design significantly lowers energy consumption during
+fine-tuning, aligning with sustainable AI practices and reducing the environmental footprint of
+model development. Finally, by isolating task-specific features and mitigating domain interference,
+FLoE enhances the reliability of LLMs in multi-task scenarios, paving the way for safer and more
+trustworthy AI systems.
+Negative Societal Impacts. While FLoE improves the efficiency of LLM adaptation, its broader
+deployment may amplify existing risks associated with AI technologies. By lowering the barrier for
+domain-specific fine-tuning, it empowers not only beneficial applications but also the rapid creation
+of sophisticated misinformation by malicious actors. Although FLoE itself does not directly introduce
+these issues, its efficiency in adapting LLMs underscores the urgent need for careful scrutiny and
+responsible use.
+17

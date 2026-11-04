@@ -1,0 +1,268 @@
+
+[1] Sanjeev Arora, Nadav Cohen, and Elad Hazan. On the optimization of deep networks: Implicit
+acceleration by overparameterization. arXiv preprint arXiv:1802.06509, 2018.
+[2] Jonathan Frankle and Michael Carbin. The lottery ticket hypothesis: Finding sparse, trainable
+neural networks. arXiv preprint arXiv:1803.03635, 2018.
+[3] Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B Brown, Benjamin Chess, Rewon Child,
+Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. Scaling laws for neural language
+models. arXiv preprint arXiv:2001.08361, 2020.
+[4] Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. Bert: Pre-training of
+deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805,
+2018.
+[5] Dhruv Mahajan, Ross Girshick, Vignesh Ramanathan, Kaiming He, Manohar Paluri, Yixuan Li,
+Ashwin Bharambe, and Laurens van der Maaten. Exploring the limits of weakly supervised
+pretraining. In Proceedings of the European Conference on Computer Vision (ECCV), pages
+181–196, 2018.
+[6] Tom B Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal,
+Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, et al. Language models are
+few-shot learners. arXiv preprint arXiv:2005.14165, 2020.
+[7] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image
+recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition,
+pages 770–778, 2016.
+[8] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Identity mappings in deep residual
+networks. In European conference on computer vision, pages 630–645. Springer, 2016.
+[9] Golnaz Ghiasi, Tsung-Yi Lin, and Quoc V Le. Nas-fpn: Learning scalable feature pyramid
+architecture for object detection. In Proceedings of the IEEE Conference on Computer Vision
+and Pattern Recognition, pages 7036–7045, 2019.
+[10] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez,
+Lukasz Kaiser, and Illia Polosukhin. Attention is all you need, 2017.
+[11] Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena,
+Yanqi Zhou, Wei Li, and Peter J. Liu. Exploring the limits of transfer learning with a uniﬁed
+text-to-text transformer, 2019.
+[12] Tom B Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal,
+Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, et al. Language models are
+few-shot learners. arXiv preprint arXiv:2005.14165, 2020.
+[13] Alexis Conneau, Kartikay Khandelwal, Naman Goyal, Vishrav Chaudhary, Guillaume Wen-
+zek, Francisco Guzmán, Edouard Grave, Myle Ott, Luke Zettlemoyer, and Veselin Stoyanov.
+Unsupervised cross-lingual representation learning at scale, 2019.
+[14] Naveen Arivazhagan, Ankur Bapna, Orhan Firat, Dmitry Lepikhin, Melvin Johnson, Maxim
+Krikun, Mia Xu Chen, Yuan Cao, George Foster, Colin Cherry, Wolfgang Macherey, Zhifeng
+Chen, and Yonghui Wu. Massively multilingual neural machine translation in the wild: Findings
+and challenges, 2019.
+[15] Yanping Huang, Youlong Cheng, Ankur Bapna, Orhan Firat, Dehao Chen, Mia Chen, Hy-
+oukJoong Lee, Jiquan Ngiam, Quoc V Le, Yonghui Wu, and Zhifeng Chen. Gpipe: Efﬁcient
+training of giant neural networks using pipeline parallelism. Advances in Neural Information
+Processing Systems 32, pages 103–112, 2019.
+26
+
+[16] Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton,
+and Jeff Dean. Outrageously large neural networks: The sparsely-gated mixture-of-experts
+layer. arXiv preprint arXiv:1701.06538, 2017.
+[17] Madhu S. Advani and Andrew M. Saxe. High-dimensional dynamics of generalization error in
+neural networks, 2017.
+[18] Joel Hestness, Sharan Narang, Newsha Ardalani, Gregory Diamos, Heewoo Jun, Hassan
+Kianinejad, Md. Mostofa Ali Patwary, Yang Yang, and Yanqi Zhou. Deep learning scaling is
+predictable, empirically, 2017.
+[19] Joel Hestness, Newsha Ardalani, and Gregory Diamos. Beyond human-level accuracy. Pro-
+ceedings of the 24th Symposium on Principles and Practice of Parallel Programming, Feb
+2019.
+[20] Mario Geiger, Arthur Jacot, Stefano Spigler, Franck Gabriel, Levent Sagun, Stéphane d’ Ascoli,
+Giulio Biroli, Clément Hongler, and Matthieu Wyart. Scaling description of generalization
+with number of parameters in deep learning. Journal of Statistical Mechanics: Theory and
+Experiment, 2020(2):023401, Feb 2020.
+[21] Martín Abadi, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis, Jeffrey Dean, Matthieu
+Devin, Sanjay Ghemawat, Geoffrey Irving, Michael Isard, et al. Tensorﬂow: a system for
+large-scale machine learning. In OSDI, volume 16, pages 265–283, 2016.
+[22] Adam Paszke, Sam Gross, Soumith Chintala, Gregory Chanan, Edward Yang, Zachary DeVito,
+Zeming Lin, Alban Desmaison, Luca Antiga, and Adam Lerer. Automatic differentiation in
+pytorch. 2017.
+[23] Noam Shazeer, Youlong Cheng, Niki Parmar, Dustin Tran, Ashish Vaswani, Penporn Koanan-
+takool, Peter Hawkins, HyoukJoong Lee, Mingsheng Hong, Cliff Young, et al. Mesh-tensorﬂow:
+Deep learning for supercomputers. In Advances in Neural Information Processing Systems,
+pages 10414–10423, 2018.
+[24] Aaron Harlap, Deepak Narayanan, Amar Phanishayee, Vivek Seshadri, Nikhil Devanur, Greg
+Ganger, and Phil Gibbons. Pipedream: Fast and efﬁcient pipeline parallel dnn training. arXiv
+preprint arXiv:1806.03377, 2018.
+[25] Emmanuel Bengio, Pierre-Luc Bacon, Joelle Pineau, and Doina Precup. Conditional computa-
+tion in neural networks for faster models, 2015.
+[26] Maha Elbayad, Jiatao Gu, Edouard Grave, and Michael Auli. Depth-adaptive transformer.
+ArXiv, abs/1910.10073, 2020.
+[27] Ankur Bapna, Naveen Arivazhagan, and Orhan Firat. Controlling computation versus quality
+for neural sequence models, 2020.
+[28] XLA: Optimizing Compiler for TensorFlow. https://www.tensorflow.org/xla, 2019.
+Online; accessed 1 June 2020.
+[29] Vinod Nair and Geoffrey E. Hinton.
+Rectiﬁed linear units improve restricted boltzmann
+machines. In ICML, 2010.
+[30] Albert Einstein. Die grundlage der allgemeinen relativitätstheorie. In Das Relativitätsprinzip,
+pages 81–124. Springer, 1923.
+[31] Jonathan Shen, Patrick Nguyen, Yonghui Wu, Zhifeng Chen, Mia Xu Chen, Ye Jia, Anjuli
+Kannan, Tara Sainath, Yuan Cao, Chung-Cheng Chiu, et al. Lingvo: a modular and scalable
+framework for sequence-to-sequence modeling. arXiv preprint arXiv:1902.08295, 2019.
+[32] Youlong Cheng, HyoukJoong Lee, and Tamas Berghammer.
+Train ML models on
+large images and 3D volumes with spatial partitioning on Cloud TPUs.
+https:
+//cloud.google.com/blog/products/ai-machine-learning/train-ml-models-
+on-large-images-and-3d-volumes-with-spatial-partitioning-on-cloud-tpus,
+2019. Online; accessed 12 June 2020.
+27
+
+[33] ONNX: Open Neural Network Exchange. https://github.com/onnx/onnx, 2019. Online;
+accessed 1 June 2020.
+[34] Jared Roesch, Steven Lyubomirsky, Logan Weber, Josh Pollock, Marisa Kirisame, Tianqi Chen,
+and Zachary Tatlock. Relay: a new ir for machine learning frameworks. Proceedings of the 2nd
+ACM SIGPLAN International Workshop on Machine Learning and Programming Languages -
+MAPL 2018, 2018.
+[35] Nadav Rotem, Jordan Fix, Saleem Abdulrasool, Garret Catron, Summer Deng, Roman
+Dzhabarov, Nick Gibson, James Hegeman, Meghan Lele, Roman Levenstein, Jack Mont-
+gomery, Bert Maher, Satish Nadathur, Jakob Olesen, Jongsoo Park, Artem Rakhov, Misha
+Smelyanskiy, and Man Wang. Glow: Graph lowering compiler techniques for neural networks,
+2018.
+[36] MPI Forum. MPI: A Message-Passing Interface Standard. Version 2.2, September 4th 2009.
+available at: http://www.mpi-forum.org (Dec. 2009).
+[37] Minsik Cho, Ulrich Finkler, and David Kung. BlueConnect: Decomposing All-Reduce for
+Deep Learning on Heterogeneous Network Hierarchy. In Proceedings of the Conference on
+Systems and Machine Learning (SysML), Palo Alto, CA, 2019.
+[38] Lynn Elliot Cannon. A Cellular Computer to Implement the Kalman Filter Algorithm. PhD
+thesis, USA, 1969. AAI7010025.
+[39] Orhan Firat, Kyunghyun Cho, and Yoshua Bengio. Multi-way, multilingual neural machine
+translation with a shared attention mechanism. Proceedings of the 2016 Conference of the
+North American Chapter of the Association for Computational Linguistics: Human Language
+Technologies, 2016.
+[40] Melvin Johnson, Mike Schuster, Quoc V. Le, Maxim Krikun, Yonghui Wu, Zhifeng Chen,
+Nikhil Thorat, Fernanda Viégas, Martin Wattenberg, Greg Corrado, and et al.
+Google’s
+multilingual neural machine translation system: Enabling zero-shot translation. Transactions of
+the Association for Computational Linguistics, 5:339–351, Dec 2017.
+[41] Roee Aharoni, Melvin Johnson, and Orhan Firat. Massively multilingual neural machine
+translation. CoRR, abs/1903.00089, 2019.
+[42] Exploring massively multilingual, massive neural machine translation.
+https://ai.
+googleblog.com/2019/10/exploring-massively-multilingual.html.
+Accessed:
+2020-06-05.
+[43] Recent advances in google translate.
+https://ai.googleblog.com/2020/06/recent-
+advances-in-google-translate.html. Accessed: 2020-06-05.
+[44] Timothy T Baldwin and J Kevin Ford. Transfer of training: A review and directions for future
+research. Personnel psychology, 41(1):63–105, 1988.
+[45] Yoshua Bengio, Nicholas Léonard, and Aaron Courville. Estimating or propagating gradients
+through stochastic neurons for conditional computation, 2013.
+[46] Andrew Davis and Itamar Arel. Low-rank approximations for conditional feedforward compu-
+tation in deep neural networks, 2013.
+[47] Jakob Uszkoreit, Jay M. Ponte, Ashok C. Popat, and Moshe Dubiner. Large scale parallel
+document mining for machine translation. In Proceedings of the 23rd International Conference
+on Computational Linguistics, COLING ’10, page 1101–1109, USA, 2010. Association for
+Computational Linguistics.
+[48] Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu. Bleu: a method for automatic
+evaluation of machine translation. In Proceedings of the 40th annual meeting on association for
+computational linguistics, pages 311–318. Association for Computational Linguistics, 2002.
+[49] Ankur Bapna, Mia Chen, Orhan Firat, Yuan Cao, and Yonghui Wu. Training deeper neural
+machine translation models with transparent attention. Proceedings of the 2018 Conference on
+Empirical Methods in Natural Language Processing, 2018.
+28
+
+[50] Kazuki Irie, Albert Zeyer, Ralf Schlüter, and Hermann Ney. Language modeling with deep
+transformers. Interspeech 2019, Sep 2019.
+[51] Qiang Wang, Bei Li, Tong Xiao, Jingbo Zhu, Changliang Li, Derek F. Wong, and Lidia S. Chao.
+Learning deep transformer models for machine translation. Proceedings of the 57th Annual
+Meeting of the Association for Computational Linguistics, 2019.
+[52] David R. So, Chen Liang, and Quoc V. Le. The evolved transformer, 2019.
+[53] Using bﬂoat16 with TensorFlow models.
+https://cloud.google.com/tpu/docs/
+bfloat16, 2020. Online; accessed 12 June 2020.
+[54] Heng-Tze Cheng, Mustafa Ispir, Rohan Anil, Zakaria Haque, Lichan Hong, Vihan Jain, Xiaobing
+Liu, Hemal Shah, Levent Koc, Jeremiah Harmsen, and et al. Wide and deep learning for
+recommender systems. Proceedings of the 1st Workshop on Deep Learning for Recommender
+Systems - DLRS 2016, 2016.
+[55] Andrew K. Lampinen and Surya Ganguli. An analytic theory of generalization dynamics and
+transfer learning in deep linear networks, 2018.
+[56] Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper, and Bryan
+Catanzaro. Megatron-lm: Training multi-billion parameter language models using gpu model
+parallelism. arXiv preprint arXiv:1909.08053, 2019.
+[57] Alex Krizhevsky, Ilya Sutskever, and Geoffrey E Hinton. ImageNet classiﬁcation with deep
+convolutional neural networks. In Advances in neural information processing systems, pages
+1097–1105, 2012.
+[58] Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir Anguelov,
+Dumitru Erhan, Vincent Vanhoucke, and Andrew Rabinovich. Going deeper with convolutions.
+In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 1–9,
+2015.
+[59] Ilya Sutskever, Oriol Vinyals, and Quoc V Le. Sequence to sequence learning with neural
+networks. In Advances in neural information processing systems, pages 3104–3112, 2014.
+[60] Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. Neural machine translation by jointly
+learning to align and translate. arXiv preprint arXiv:1409.0473, 2014.
+[61] Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V Le, Mohammad Norouzi, Wolfgang
+Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, et al. Google’s neural machine
+translation system: Bridging the gap between human and machine translation. arXiv preprint
+arXiv:1609.08144, 2016.
+[62] Geoffrey Hinton, Li Deng, Dong Yu, George E Dahl, Abdel-rahman Mohamed, Navdeep
+Jaitly, Andrew Senior, Vincent Vanhoucke, Patrick Nguyen, Tara N Sainath, et al. Deep neural
+networks for acoustic modeling in speech recognition: The shared views of four research groups.
+IEEE Signal processing magazine, 29(6):82–97, 2012.
+[63] William Chan, Navdeep Jaitly, Quoc Le, and Oriol Vinyals. Listen, attend and spell: A neural
+network for large vocabulary conversational speech recognition. In 2016 IEEE International
+Conference on Acoustics, Speech and Signal Processing (ICASSP), pages 4960–4964. IEEE,
+2016.
+[64] Chung-Cheng Chiu, Tara N Sainath, Yonghui Wu, Rohit Prabhavalkar, Patrick Nguyen, Zhifeng
+Chen, Anjuli Kannan, Ron J Weiss, Kanishka Rao, Ekaterina Gonina, et al. State-of-the-art
+speech recognition with sequence-to-sequence models. In 2018 IEEE International Conference
+on Acoustics, Speech and Signal Processing (ICASSP), pages 4774–4778. IEEE, 2018.
+[65] Aaron van den Oord, Sander Dieleman, Heiga Zen, Karen Simonyan, Oriol Vinyals, Alex
+Graves, Nal Kalchbrenner, Andrew Senior, and Koray Kavukcuoglu. Wavenet: A generative
+model for raw audio. arXiv preprint arXiv:1609.03499, 2016.
+29
+
+[66] Jonathan Shen, Ruoming Pang, Ron J Weiss, Mike Schuster, Navdeep Jaitly, Zongheng Yang,
+Zhifeng Chen, Yu Zhang, Yuxuan Wang, Rj Skerrv-Ryan, et al. Natural tts synthesis by
+conditioning wavenet on mel spectrogram predictions. In 2018 IEEE International Conference
+on Acoustics, Speech and Signal Processing (ICASSP), pages 4779–4783. IEEE, 2018.
+[67] Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, and Oriol Vinyals. Understanding
+deep learning requires rethinking generalization. 2017.
+[68] Behnam Neyshabur, Srinadh Bhojanapalli, David McAllester, and Nathan Srebro. Exploring
+generalization in deep learning, 2017.
+[69] Paolo Ienne, Thierry Cornu, and Gary Kuhn. Special-purpose digital hardware for neural
+networks: An architectural survey. Journal of VLSI signal processing systems for signal, image
+and video technology, 13(1):5–25, 1996.
+[70] Rajat Raina, Anand Madhavan, and Andrew Y Ng. Large-scale deep unsupervised learning
+using graphics processors. In Proceedings of the 26th annual international conference on
+machine learning, pages 873–880, 2009.
+[71] Dan Claudiu Cire¸san, Ueli Meier, Luca Maria Gambardella, and Jürgen Schmidhuber. Deep, big,
+simple neural nets for handwritten digit recognition. Neural computation, 22(12):3207–3220,
+2010.
+[72] Norman P Jouppi, Cliff Young, Nishant Patil, David Patterson, Gaurav Agrawal, Raminder
+Bajwa, Sarah Bates, Suresh Bhatia, Nan Boden, Al Borchers, et al. In-datacenter performance
+analysis of a tensor processing unit. In Proceedings of the 44th Annual International Symposium
+on Computer Architecture, pages 1–12, 2017.
+[73] 2019 recent trends in GPU price per FLOPS. https://aiimpacts.org/2019-recent-
+trends-in-gpu-price-per-flops/. Accessed: 2020-06-05.
+[74] Yifan Sun, Nicolas Bohm Agostini, Shi Dong, and David Kaeli. Summarizing cpu and gpu
+design trends with product data. arXiv preprint arXiv:1911.11313, 2019.
+[75] Jeffrey Dean, Greg Corrado, Rajat Monga, Kai Chen, Matthieu Devin, Mark Mao, Marc’aurelio
+Ranzato, Andrew Senior, Paul Tucker, Ke Yang, et al. Large scale distributed deep networks. In
+Advances in neural information processing systems, pages 1223–1231, 2012.
+[76] Frédéric Bastien, Pascal Lamblin, Razvan Pascanu, James Bergstra, Ian Goodfellow, Arnaud
+Bergeron, Nicolas Bouchard, David Warde-Farley, and Yoshua Bengio. Theano: new features
+and speed improvements. arXiv preprint arXiv:1211.5590, 2012.
+[77] Adam Paszke, Sam Gross, Soumith Chintala, Gregory Chanan, Edward Yang, Zachary DeVito,
+Zeming Lin, Alban Desmaison, Luca Antiga, and Adam Lerer. Automatic differentiation in
+pytorch. 2017.
+[78] John Nickolls, Ian Buck, Michael Garland, and Kevin Skadron. Scalable parallel programming
+with cuda. Queue, 6(2):40–53, 2008.
+[79] James Bradbury, Roy Frostig, Peter Hawkins, Matthew James Johnson, Chris Leary, Dougal
+Maclaurin, and Skye Wanderman-Milne. JAX: composable transformations of Python+NumPy
+programs. 2018.
+[80] Roy Frostig, Matthew Johnson, and Chris Leary. Compiling machine learning programs via
+high-level tracing. In Machine Learning and Systems (MLSys), 2018.
+[81] Zhihao Jia, Matei Zaharia, and Alex Aiken. Beyond Data and Model Parallelism for Deep
+Neural Networks. In Proceedings of the Conference on Systems and Machine Learning (SysML),
+Palo Alto, CA, 2019.
+[82] Yuanzhong Xu, HyoukJoong Lee, Dehao Chen, Hongjun Choi, Blake Hechtman, and Shibo
+Wang. Automatic cross-replica sharding of weight update in data-parallel training, 2020.
+30
+
+[83] Samyam Rajbhandari, Jeff Rasley, Olatunji Ruwase, and Yuxiong He. Zero: Memory op-
+timization towards training a trillion parameter models. arXiv preprint arXiv:1910.02054,
+2019.
+[84] Loren Lugosch, Derek Nowrouzezahrai, and Brett H. Meyer. Surprisal-triggered conditional
+computation with neural networks, 2020.
+[85] Chunyuan Li, Heerad Farkhoor, Rosanne Liu, and Jason Yosinski. Measuring the intrinsic
+dimension of objective landscapes, 2018.
+[86] Wesley J. Maddox, Gregory Benton, and Andrew Gordon Wilson. Rethinking parameter
+counting in deep models: Effective dimensionality revisited, 2020.
+[87] Noam Shazeer. Fast transformer decoding: One write-head is all you need. arXiv preprint
+arXiv:1911.02150, 2019.
+[88] Noam Shazeer and Mitchell Stern. Adafactor: Adaptive learning rates with sublinear memory
+cost. ArXiv, abs/1804.04235, 2018.
+[89] Taku Kudo and John Richardson. Sentencepiece: A simple and language independent subword
+tokenizer and detokenizer for neural text processing. In EMNLP, 2018.

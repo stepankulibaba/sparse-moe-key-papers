@@ -1,0 +1,267 @@
+
+Samuel K Ainsworth, Jonathan Hayase, and Siddhartha
+Srinivasa. 2022.
+Git re-basin: Merging models
+modulo permutation symmetries.
+arXiv preprint
+arXiv:2209.04836.
+Yonatan Bisk, Rowan Zellers, Jianfeng Gao, Yejin Choi,
+and 1 others. 2020. Piqa: Reasoning about physical
+commonsense in natural language. In Proceedings
+of the AAAI conference on artificial intelligence, vol-
+ume 34, pages 7432–7439.
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie
+Subbiah, Jared D Kaplan, Prafulla Dhariwal, Arvind
+Neelakantan, Pranav Shyam, Girish Sastry, Amanda
+Askell, and 1 others. 2020. Language models are
+few-shot learners. Advances in neural information
+processing systems, 33:1877–1901.
+Mingyu Cao, Gen Li, Jie Ji, Jiaqi Zhang, Xiaolong Ma,
+Shiwei Liu, and Lu Yin. 2024. Condense, don’t just
+prune: Enhancing efficiency and performance in moe
+layer pruning. arXiv preprint arXiv:2412.00069.
+I Chen, Hsu-Shen Liu, Wei-Fang Sun, Chen-Hao
+Chao, Yen-Chang Hsu, Chun-Yi Lee, and 1 others.
+2024. Retraining-free merging of sparse mixture-of-
+experts via hierarchical clustering. arXiv preprint
+arXiv:2410.08589.
+Tianyu Chen, Shaohan Huang, Yuan Xie, Binx-
+ing Jiao, Daxin Jiang, Haoyi Zhou, Jianxin Li,
+and Furu Wei. 2022.
+Task-specific expert prun-
+ing for sparse mixture-of-experts. arXiv preprint
+arXiv:2206.00277.
+Zewen Chi, Li Dong, Shaohan Huang, Damai Dai,
+Shuming Ma, Barun Patra, Saksham Singhal, Payal
+Bajaj, Xia Song, Xian-Ling Mao, and 1 others. 2022.
+On the representation collapse of sparse mixture of
+experts. Advances in Neural Information Processing
+Systems, 35:34600–34613.
+Mohammed Nowaz Rabbani Chowdhury, Meng Wang,
+Kaoutar El Maghraoui, Naigang Wang, Pin-Yu
+Chen, and Christopher Carothers. 2024.
+A prov-
+ably effective method for pruning experts in fine-
+tuned sparse mixture-of-experts.
+arXiv preprint
+arXiv:2405.16646.
+Christopher Clark, Kenton Lee, Ming-Wei Chang,
+Tom Kwiatkowski, Michael Collins, and Kristina
+Toutanova. 2019. Boolq: Exploring the surprising
+difficulty of natural yes/no questions. arXiv preprint
+arXiv:1905.10044.
+Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot,
+Ashish Sabharwal, Carissa Schoenick, and Oyvind
+Tafjord. 2018. Think you have solved question an-
+swering? try arc, the ai2 reasoning challenge. arXiv
+preprint arXiv:1803.05457.
+OpenCompass Contributors. 2023.
+Opencompass:
+A universal evaluation platform for foundation
+models.
+https://github.com/open-compass/
+opencompass.
+Damai Dai, Chengqi Deng, Chenggang Zhao, RX Xu,
+Huazuo Gao, Deli Chen, Jiashi Li, Wangding Zeng,
+Xingkai Yu, Yu Wu, and 1 others. 2024. Deepseek-
+moe:
+Towards ultimate expert specialization in
+mixture-of-experts language models. arXiv preprint
+arXiv:2401.06066.
+Inderjit S Dhillon and Dharmendra S Modha. 2001.
+Concept decompositions for large sparse text data
+using clustering. Machine learning, 42:143–175.
+Yubo Dong and Hehe Fan. 2025. Enhancing large lan-
+guage models through structured reasoning. arXiv
+preprint arXiv:2506.20241.
+William Fedus, Barret Zoph, and Noam Shazeer. 2022.
+Switch transformers: Scaling to trillion parameter
+models with simple and efficient sparsity. Journal of
+Machine Learning Research, 23(120):1–39.
+
+Hao Gu, Wei Li, Lujun Li, Qiyuan Zhu, Mark Lee,
+Shengjie Sun, Wei Xue, and Yike Guo. 2025. Delta
+decompression for moe-based llms compression.
+arXiv preprint arXiv:2502.17298.
+Shwai He, Daize Dong, Liang Ding, and Ang Li.
+2024. Demystifying the compression of mixture-of-
+experts through a unified framework. arXiv preprint
+arXiv:2406.02500.
+Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou,
+Mantas Mazeika, Dawn Song, and Jacob Steinhardt.
+2020. Measuring massive multitask language under-
+standing. arXiv preprint arXiv:2009.03300.
+Zhaolin Hu, Yixiao Zhou, Zhongan Wang, Xin Li,
+Weimin Yang, Hehe Fan, and Yi Yang. 2025. Osda
+agent: Leveraging large language models for de novo
+design of organic structure directing agents. In The
+International Conference on Learning Representa-
+tions.
+Wei Huang, Yue Liao, Jianhui Liu, Ruifei He, Haoru
+Tan, Shiming Zhang, Hongsheng Li, Si Liu, and Xi-
+aojuan Qi. 2024. Mc-moe: Mixture compressor for
+mixture-of-experts llms gains more. arXiv preprint
+arXiv:2410.06270.
+Albert Q Jiang, Alexandre Sablayrolles, Antoine
+Roux, Arthur Mensch, Blanche Savary, Chris Bam-
+ford, Devendra Singh Chaplot, Diego de las Casas,
+Emma Bou Hanna, Florian Bressand, and 1 oth-
+ers. 2024.
+Mixtral of experts.
+arXiv preprint
+arXiv:2401.04088.
+Woosuk Kwon, Zhuohan Li, Siyuan Zhuang, Ying
+Sheng, Lianmin Zheng, Cody Hao Yu, Joseph E.
+Gonzalez, Hao Zhang, and Ion Stoica. 2023. Effi-
+cient memory management for large language model
+serving with pagedattention. In Proceedings of the
+ACM SIGOPS 29th Symposium on Operating Systems
+Principles.
+Pingzhi Li, Zhenyu Zhang, Prateek Yadav, Yi-Lin Sung,
+Yu Cheng, Mohit Bansal, and Tianlong Chen. 2023.
+Merge, then compress: Demystify efficient smoe
+with hints from its routing policy. arXiv preprint
+arXiv:2310.01334.
+Wei Li, Hehe Fan, Yongkang Wong, Mohan Kankan-
+halli, and Yi Yang. 2024a. Cat-llm: Context-aware
+training enhanced large language models for multi-
+modal contextual image retrieval.
+Wei Li, Hehe Fan, Yongkang Wong, Mohan Kankan-
+halli, and Yi Yang. 2024b. Topa: Extending large
+language models for video understanding via text-
+only pre-alignment. Advances in Neural Information
+Processing Systems, 37:5697–5738.
+Wei Li, Hehe Fan, Yongkang Wong, Yi Yang, and Mo-
+han Kankanhalli. 2024c. Improving context under-
+standing in multimodal large language models via
+multimodal composition learning. In Forty-first In-
+ternational Conference on Machine Learning.
+Yuqi Li, Yao Lu, Zeyu Dong, Chuanguang Yang, Yihao
+Chen, and Jianping Gou. 2024d. Sglp: A similarity
+guided fast layer partition pruning for compressing
+large deep models. arXiv preprint arXiv:2410.14720.
+Xun Liang, Hanyu Wang, Huayi Lai, Simin Niu,
+Shichao Song, Jiawei Yang, Jihao Zhao, Feiyu Xiong,
+Bo Tang, and Zhiyu Li. 2025. Seap: Training-free
+sparse expert activation pruning unlock the brain-
+power of large language models.
+arXiv preprint
+arXiv:2503.07605.
+Aixin Liu, Bei Feng, Bing Xue, Bingxuan Wang,
+Bochao Wu, Chengda Lu, Chenggang Zhao, Chengqi
+Deng, Chenyu Zhang, Chong Ruan, and 1 others.
+2024a. Deepseek-v3 technical report. arXiv preprint
+arXiv:2412.19437.
+Enshu Liu, Junyi Zhu, Zinan Lin, Xuefei Ning,
+Matthew B Blaschko, Shengen Yan, Guohao Dai,
+Huazhong Yang, and Yu Wang. 2024b. Efficient ex-
+pert pruning for sparse mixture-of-experts language
+models: Enhancing performance and reducing infer-
+ence costs. arXiv preprint arXiv:2407.00945.
+Ka Man Lo, Zeyu Huang, Zihan Qiu, Zili Wang,
+and Jie Fu. 2024. A closer look into mixture-of-
+experts in large language models. arXiv preprint
+arXiv:2406.18219.
+Xudong Lu, Qi Liu, Yuhui Xu, Aojun Zhou, Siyuan
+Huang, Bo Zhang, Junchi Yan, and Hongsheng Li.
+2024a. Not all experts are equal: Efficient expert
+pruning and skipping for mixture-of-experts large
+language models. arXiv preprint arXiv:2402.14800.
+Yao Lu, Hao Cheng, Yujie Fang, Zeyu Wang, Jiaheng
+Wei, Dongwei Xu, Qi Xuan, Xiaoniu Yang, and
+Zhaowei Zhu. 2024b.
+Reassessing layer pruning
+in llms: New insights and methods. arXiv preprint
+arXiv:2411.15558.
+Yao Lu, Yutao Zhu, Yuqi Li, Dongwei Xu, Yun Lin,
+Qi Xuan, and Xiaoniu Yang. 2024c. A generic layer
+pruning method for signal modulation recognition
+deep learning models. IEEE Transactions on Cogni-
+tive Communications and Networking.
+Xinyin Ma, Gongfan Fang, and Xinchao Wang. 2023.
+Llm-pruner: On the structural pruning of large lan-
+guage models. Advances in neural information pro-
+cessing systems, 36:21702–21720.
+Todor Mihaylov, Peter Clark, Tushar Khot, and Ashish
+Sabharwal. 2018. Can a suit of armor conduct elec-
+tricity? a new dataset for open book question answer-
+ing. arXiv preprint arXiv:1809.02789.
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine
+Lee, Sharan Narang, Michael Matena, Yanqi Zhou,
+Wei Li, and Peter J Liu. 2020. Exploring the lim-
+its of transfer learning with a unified text-to-text
+transformer. Journal of machine learning research,
+21(140):1–67.
+
+Wei Ruan, Tianze Yang, Yifan Zhou, Tianming Liu, and
+Jin Lu. 2025. From task-specific models to unified
+systems: A review of model merging approaches.
+arXiv preprint arXiv:2503.08998.
+Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavat-
+ula, and Yejin Choi. 2021. Winogrande: An adver-
+sarial winograd schema challenge at scale. Commu-
+nications of the ACM, 64(9):99–106.
+Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz,
+Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff
+Dean. 2017. Outrageously large neural networks:
+The sparsely-gated mixture-of-experts layer. arXiv
+preprint arXiv:1701.06538.
+Mingjie Sun, Zhuang Liu, Anna Bair, and J Zico
+Kolter. 2023. A simple and effective pruning ap-
+proach for large language models. arXiv preprint
+arXiv:2306.11695.
+Chao Wang, Hehe Fan, Ruijie Quan, Lina Yao, and
+Yi Yang. 2025. Protchatgpt: Towards understand-
+ing proteins with hybrid representation and large
+language models.
+In Proceedings of the 48th In-
+ternational ACM SIGIR Conference on Research and
+Development in Information Retrieval, pages 1076–
+1086.
+Yanyue Xie, Zhi Zhang, Ding Zhou, Cong Xie, Ziang
+Song, Xin Liu, Yanzhi Wang, Xue Lin, and An Xu.
+2024. Moe-pruner: Pruning mixture-of-experts large
+language model using the hints from its router. arXiv
+preprint arXiv:2410.12013.
+An Yang, Baosong Yang, Binyuan Hui, Bo Zheng,
+Bowen Yu, Chang Zhou, Chengpeng Li, Chengyuan
+Li, Dayiheng Liu, Fei Huang, Guanting Dong, Hao-
+ran Wei, Huan Lin, Jialong Tang, Jialin Wang, Jian
+Yang, Jianhong Tu, Jianwei Zhang, Jianxin Ma, and
+43 others. 2024a. Qwen2 technical report. Preprint,
+arXiv:2407.10671.
+Cheng Yang, Yang Sui, Jinqi Xiao, Lingyi Huang,
+Yu Gong, Yuanlin Duan, Wenqi Jia, Miao Yin,
+Yu Cheng, and Bo Yuan. 2024b.
+Moe-i2: Com-
+pressing mixture of experts models through inter-
+expert pruning and intra-expert low-rank decomposi-
+tion. arXiv preprint arXiv:2411.01016.
+Jinluan Yang, Dingnan Jin, Anke Tang, Li Shen, Didi
+Zhu, Zhengyu Chen, Ziyu Zhao, Daixin Wang, Qing
+Cui, Zhiqiang Zhang, and 1 others. 2025. Mix data
+or merge models? balancing the helpfulness, honesty,
+and harmlessness of large language model via model
+merging. arXiv preprint arXiv:2502.06876.
+Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali
+Farhadi, and Yejin Choi. 2019. Hellaswag: Can a
+machine really finish your sentence? arXiv preprint
+arXiv:1905.07830.
+Yue Zhang, Hehe Fan, Wei Ji, Yongkang Wong, Roger
+Zimmermann, and Yi Yang. 2025. Prompt-aware
+adapter: Learning adaptive visual tokens for multi-
+modal large language models. IEEE Transactions on
+Artificial Intelligence.
+Ziyu Zhao, Tao Shen, Didi Zhu, Zexi Li, Jing Su, Xuwu
+Wang, Kun Kuang, and Fei Wu. 2024.
+Merging
+loras like playing lego: Pushing the modularity of
+lora to extremes through rank-wise clustering. arXiv
+preprint arXiv:2409.16167.
+Ziyu Zhao, Yixiao Zhou, Zhi Zhang, Didi Zhu, Tao
+Shen, Zexi Li, Jinluan Yang, Xuwu Wang, Jing
+Su, Kun Kuang, and 1 others. 2025.
+Each rank
+could be an expert: Single-ranked mixture of ex-
+perts lora for multi-task learning. arXiv preprint
+arXiv:2501.15103.

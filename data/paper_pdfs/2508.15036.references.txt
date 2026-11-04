@@ -1,0 +1,510 @@
+
+[1] Martin Abadi, Andy Chu, Ian Goodfellow, H. Brendan McMahan, Ilya Mironov,
+Kunal Talwar, and Li Zhang. 2016. Deep Learning with Differential Privacy. In
+Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications
+Security. ACM, Vienna Austria, 308–318. doi:10.1145/2976749.2978318
+[2] Mahya Morid Ahmadi, Lilas Alrahis, Ozgur Sinanoglu, and Muhammad Shafique.
+2023. Dnn-alias: Deep neural network protection against side-channel attacks
+via layer balancing. arXiv preprint arXiv:2303.06746 (2023).
+[3] Damai Dai, Chengqi Deng, Chenggang Zhao, R. X. Xu, Huazuo Gao, Deli Chen,
+Jiashi Li, Wangding Zeng, Xingkai Yu, Y. Wu, Zhenda Xie, Y. K. Li, Panpan Huang,
+Fuli Luo, Chong Ruan, Zhifang Sui, and Wenfeng Liang. 2024. DeepSeekMoE:
+Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models.
+doi:10.48550/arXiv.2401.06066 arXiv:2401.06066 [cs].
+[4] Tri Dao. 2023. FlashAttention-2: Faster Attention with Better Parallelism and
+Work Partitioning. doi:10.48550/arXiv.2307.08691 arXiv:2307.08691 [cs].
+[5] Tri Dao, Daniel Y. Fu, Stefano Ermon, Atri Rudra, and Christopher Ré. 2022.
+FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness.
+doi:10.48550/arXiv.2205.14135 arXiv:2205.14135 [cs].
+[6] Deepseek-AI. 2025. DeepEP. https://github.com/deepseek-ai/DeepEP. GitHub
+repository; accessed April 2025.
+[7] Bang Di, Daokun Hu, Zhen Xie, Jianhua Sun, Hao Chen, Jinkui Ren, and Dong Li.
+2021. Tlb-pilot: Mitigating TLB contention attack on gpus with microarchitecture-
+aware scheduling. ACM Transactions on Architecture and Code Optimization
+(TACO) 19, 1 (2021), 1–23.
+[8] Cynthia Dwork. 2006. Differential Privacy. In Automata, Languages and Pro-
+gramming, Michele Bugliesi, Bart Preneel, Vladimiro Sassone, and Ingo Wegener
+(Eds.). Springer, Berlin, Heidelberg, 1–12. doi:10.1007/11787006_1
+[9] DeepSeek-AI et al. 2024. DeepSeek LLM: Scaling Open-Source Language Models
+with Longtermism. doi:10.48550/arXiv.2401.02954 arXiv:2401.02954 [cs].
+[10] DeepSeek-AI et al. 2024.
+DeepSeek-V2: A Strong, Economical, and Effi-
+cient Mixture-of-Experts Language Model.
+doi:10.48550/arXiv.2405.04434
+arXiv:2405.04434 [cs].
+[11] DeepSeek-AI et al. 2024. DeepSeek-VL2: Mixture-of-Experts Vision-Language
+Models for Advanced Multimodal Understanding. doi:10.48550/arXiv.2412.10302
+arXiv:2412.10302 [cs].
+[12] DeepSeek-AI et al. 2025.
+DeepSeek-R1: Incentivizing Reasoning Capabil-
+ity in LLMs via Reinforcement Learning.
+doi:10.48550/arXiv.2501.12948
+arXiv:2501.12948 [cs].
+[13] Yansong Gao, Huming Qiu, Zhi Zhang, Binghui Wang, Hua Ma, Alsharif
+Abuadbba, Minhui Xue, Anmin Fu, and Surya Nepal. 2024. Deeptheft: Stealing
+dnn model architectures through power side channel. In 2024 IEEE Symposium
+on Security and Privacy (SP). IEEE, 3311–3326.
+[14] Suyu Ge, Yunan Zhang, Liyuan Liu, Minjia Zhang, Jiawei Han, and Jianfeng Gao.
+2024. Model Tells You What to Discard: Adaptive KV Cache Compression for
+LLMs. doi:10.48550/arXiv.2310.01801 arXiv:2310.01801 [cs].
+[15] Google Gemini Team. 2024.
+Gemini 1.5: Unlocking multimodal under-
+standing across millions of tokens of context. doi:10.48550/arXiv.2403.05530
+arXiv:2403.05530 [cs.CL] arXiv:2403.05530 [cs.CL].
+[16] Benjamin Jun Gilbert Goodwill, Josh Jaffe, Pankaj Rohatgi, et al. 2011. A testing
+methodology for side-channel resistance validation. In NIST non-invasive attack
+testing workshop, Vol. 7. 115–136.
+[17] Cheng Gongye, Yunsi Fei, and Thomas Wahl. 2020. Reverse-engineering deep
+neural networks using floating-point timing side-channels. In 2020 57th ACM/IEEE
+Design Automation Conference (DAC). IEEE, 1–6.
+[18] Cheng Gongye, Yukui Luo, Xiaolin Xu, and Yunsi Fei. 2024. Side-channel-assisted
+reverse-engineering of encrypted DNN hardware accelerator IP and attack surface
+exploration. In 2024 IEEE Symposium on Security and Privacy (SP). IEEE, 4678–
+4695.
+[19] Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernhard Nessler, and
+Sepp Hochreiter. 2017. Gans trained by a two time-scale update rule converge to
+a local nash equilibrium. Advances in neural information processing systems 30
+(2017).
+[20] Alain Hore and Djemel Ziou. 2010. Image quality metrics: PSNR vs. SSIM. In
+2010 20th international conference on pattern recognition. IEEE, 2366–2369.
+[21] Robert A. Jacobs, Michael I. Jordan, Steven J. Nowlan, and Geoffrey E. Hinton.
+1991. Adaptive Mixtures of Local Experts. Neural Computation 3, 1 (March 1991),
+79–87. doi:10.1162/neco.1991.3.1.79 Conference Name: Neural Computation.
+[22] Albert Q. et al. Jiang. 2024. Mixtral of Experts. doi:10.48550/arXiv.2401.04088
+arXiv:2401.04088 [cs].
+[23] Zhen Hang Jiang, Yunsi Fei, and David Kaeli. 2017. A novel side-channel timing
+attack on GPUs. In Proceedings of the Great Lakes Symposium on VLSI 2017. 167–
+172.
+[24] Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B. Brown, Benjamin
+Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei.
+2020. Scaling Laws for Neural Language Models. doi:10.48550/arXiv.2001.08361
+arXiv:2001.08361 [cs].
+[25] Salman Khan, Muzammal Naseer, Munawar Hayat, Syed Waqas Zamir, Fa-
+had Shahbaz Khan, and Mubarak Shah. 2022. Transformers in Vision: A Survey.
+ACM Comput. Surv. 54, 10s (Sept. 2022), 200:1–200:41. doi:10.1145/3505244
+[26] R. Killick, P. Fearnhead, and I. A. Eckley. 2012. Optimal detection of changepoints
+with a linear computational cost. J. Amer. Statist. Assoc. 107, 500 (Dec. 2012),
+1590–1598. doi:10.1080/01621459.2012.737745 arXiv:1101.1438 [stat].
+[27] kvcache ai. 2025. ktransformers. https://github.com/kvcache-ai/ktransformers.
+GitHub repository; accessed April 2025.
+[28] Chanyeong Kwak and Alan Clayton-Matthews. 2002. Multinomial logistic re-
+gression. Nursing research 51, 6 (2002), 404–410.
+[29] Woosuk Kwon, Zhuohan Li, Siyuan Zhuang, Ying Sheng, Lianmin Zheng,
+Cody Hao Yu, Joseph E. Gonzalez, Hao Zhang, and Ion Stoica. 2023. Efficient Mem-
+ory Management for Large Language Model Serving with PagedAttention. In
+Proceedings of the ACM SIGOPS 29th Symposium on Operating Systems Principles.
+[30] Bin Lin, Zhenyu Tang, Yang Ye, Jinfa Huang, Junwu Zhang, Yatian Pang, Peng Jin,
+Munan Ning, Jiebo Luo, and Li Yuan. 2024. MoE-LLaVA: Mixture of Experts for
+Large Vision-Language Models. doi:10.48550/arXiv.2401.15947 arXiv:2401.15947
+[cs].
+[31] Ji Lin, Jiaming Tang, Haotian Tang, Shang Yang, Wei-Ming Chen, Wei-Chen
+Wang, Guangxuan Xiao, Xingyu Dang, Chuang Gan, and Song Han. 2024.
+AWQ: Activation-aware Weight Quantization for On-Device LLM Compres-
+sion and Acceleration. Proceedings of Machine Learning and Systems 6 (May
+2024), 87–100.
+https://proceedings.mlsys.org/paper_files/paper/2024/hash/
+42a452cbafa9dd64e9ba4aa95cc1ef21-Abstract-Conference.html
+[32] Tianyang Lin, Yuxin Wang, Xiangyang Liu, and Xipeng Qiu. 2022. A survey of
+transformers. AI Open 3 (Jan. 2022), 111–132. doi:10.1016/j.aiopen.2022.10.001
+
+MoEcho: Exploiting Side-Channel Attacks to Compromise User Privacy in Mixture-of-Experts LLMs
+Conference’17, July 2017, Washington, DC, USA
+[33] Ziwei Liu, Ping Luo, Xiaogang Wang, and Xiaoou Tang. 2015. Deep Learning Face
+Attributes in the Wild. In Proceedings of International Conference on Computer
+Vision (ICCV).
+[34] Zhibo Liu, Yuanyuan Yuan, Yanzuo Chen, Sihang Hu, Tianxiang Li, and Shuai
+Wang. 2024. Deepcache: Revisiting cache side-channel attacks in deep neural
+networks executables. In Proceedings of the 2024 on ACM SIGSAC Conference on
+Computer and Communications Security. 4495–4508.
+[35] Meta. 2025. Llama-4-Scout-17B-16E-Original. Hugging Face. Computer soft-
+ware. Available at: https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-
+Original.
+[36] Ajay Nayak, Vinod Ganapathy, and Arkaprava Basu. 2021. (mis) managed: A
+novel tlb-based covert channel on gpus. In Proceedings of the 2021 ACM Asia
+Conference on Computer and Communications Security. 872–885.
+[37] Reiner Pope, Sholto Douglas, Aakanksha Chowdhery, Jacob Devlin, James Brad-
+bury, Jonathan Heek, Kefan Xiao, Shivani Agrawal, and Jeff Dean. 2023. Efficiently
+scaling transformer inference. Proceedings of Machine Learning and Systems 5
+(2023), 606–624.
+[38] Reiner Pope, Sholto Douglas, Aakanksha Chowdhery, Jacob Devlin, James Brad-
+bury, Anselm Levskaya, Jonathan Heek, Kefan Xiao, Shivani Agrawal, and Jeff
+Dean. 2022. Efficiently Scaling Transformer Inference. doi:10.48550/arXiv.2211.
+05102 arXiv:2211.05102 [cs].
+[39] Prasad. 2022. Healthcare Dataset. https://www.kaggle.com/datasets/prasad22/
+healthcare-dataset.
+https://www.kaggle.com/datasets/prasad22/healthcare-
+dataset Accessed: 2025-04-12.
+[40] Olaf Ronneberger, Philipp Fischer, and Thomas Brox. 2015. U-net: Convolu-
+tional networks for biomedical image segmentation. In Medical image computing
+and computer-assisted intervention–MICCAI 2015: 18th international conference,
+Munich, Germany, October 5-9, 2015, proceedings, part III 18. Springer, 234–241.
+[41] Yousef Saeedian. 2023. Financial Q&A 10K. https://www.kaggle.com/datasets/
+yousefsaeedian/financial-q-and-a-10k. Accessed: 2025-04-11.
+[42] Zeyang Sha and Yang Zhang. 2024. Prompt stealing attacks against large language
+models. arXiv preprint arXiv:2402.12959 (2024).
+[43] Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le,
+Geoffrey Hinton, and Jeff Dean. 2017. Outrageously Large Neural Networks:
+The Sparsely-Gated Mixture-of-Experts Layer. doi:10.48550/arXiv.1701.06538
+arXiv:1701.06538 [cs].
+[44] Linke Song, Zixuan Pang, Wenhao Wang, Zihao Wang, XiaoFeng Wang, Hongbo
+Chen, Wei Song, Yier Jin, Dan Meng, and Rui Hou. 2024. The early bird catches
+the leak: Unveiling timing side channels in llm serving systems. arXiv preprint
+arXiv:2409.20002 (2024).
+[45] Yi Tay, Mostafa Dehghani, Dara Bahri, and Donald Metzler. 2022. Efficient
+Transformers: A Survey. ACM Comput. Surv. 55, 6 (Dec. 2022), 109:1–109:28.
+doi:10.1145/3530811
+[46] Qwen Team. 2024. Qwen1.5-MoE: Matching 7B Model Performance with 1/3
+Activated Parameters". https://qwenlm.github.io/blog/qwen-moe/
+[47] thedevastator. 2023. Comprehensive Medical Q&A Dataset. https://www.kaggle.
+com/datasets/thedevastator/comprehensive-medical-q-a-dataset.
+Accessed:
+2025-04-11.
+[48] TheDrCat. 2024. LLM Prompt Recovery Data. https://www.kaggle.com/datasets/
+thedrcat/llm-prompt-recovery-data. Accessed: 2025-04-11.
+[49] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+Aidan N Gomez, Ł ukasz Kaiser, and Illia Polosukhin. 2017.
+Attention is
+All you Need. In Advances in Neural Information Processing Systems, Vol. 30.
+Curran Associates, Inc.
+https://proceedings.neurips.cc/paper/2017/hash/
+3f5ee243547dee91fbd053c1c4a845aa-Abstract.html
+[50] Junyi Wei, Yicheng Zhang, Zhe Zhou, Zhou Li, and Mohammad Abdullah
+Al Faruque. 2020. Leaky dnn: Stealing deep-learning model secret with gpu
+context-switching side-channel. In 2020 50th Annual IEEE/IFIP International Con-
+ference on Dependable Systems and Networks (DSN). IEEE, 125–137.
+[51] Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue,
+Anthony Moi, Pierric Cistac, Tim Rault, Remi Louf, Morgan Funtowicz, Joe
+Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine Jernite, Julien Plu,
+Canwen Xu, Teven Le Scao, Sylvain Gugger, Mariama Drame, Quentin Lhoest,
+and Alexander Rush. 2020. Transformers: State-of-the-Art Natural Language
+Processing. In Proceedings of the 2020 Conference on Empirical Methods in Natural
+Language Processing: System Demonstrations, Qun Liu and David Schlangen (Eds.).
+Association for Computational Linguistics, Online, 38–45. doi:10.18653/v1/2020.
+emnlp-demos.6
+[52] Bichen Wu, Chenfeng Xu, Xiaoliang Dai, Alvin Wan, Peizhao Zhang, Zhicheng
+Yan, Masayoshi Tomizuka, Joseph Gonzalez, Kurt Keutzer, and Peter Vajda. 2020.
+Visual Transformers: Token-based Image Representation and Processing for
+Computer Vision. doi:10.48550/arXiv.2006.03677 arXiv:2006.03677 [cs].
+[53] Guanlong Wu, Zheng Zhang, Yao Zhang, Weili Wang, Jianyu Niu, Ye Wu, and
+Yinqian Zhang. 2025. I Know What You Asked: Prompt Leakage via KV-Cache
+Sharing in Multi-Tenant LLM Serving. In 32nd Annual Network and Distributed
+System Security Symposium, NDSS.
+[54] xAI. 2023. Grok-1. https://github.com/xai-org/grok-1. Accessed: 2025-04-03.
+[55] Peng Xu, Xiatian Zhu, and David A. Clifton. 2023. Multimodal Learning With
+Transformers: A Survey. IEEE Transactions on Pattern Analysis and Machine
+Intelligence 45, 10 (Oct. 2023), 12113–12132. doi:10.1109/TPAMI.2023.3275156
+Conference Name: IEEE Transactions on Pattern Analysis and Machine Intelli-
+gence.
+[56] Mengjia Yan, Christopher W Fletcher, and Josep Torrellas. 2020. Cache telepathy:
+Leveraging shared resource attacks to learn {DNN} architectures. In 29th USENIX
+Security Symposium (USENIX Security 20). 2003–2020.
+[57] An Yang, Baosong Yang, Binyuan Hui, Bo Zheng, Bowen Yu, Chang Zhou, Cheng-
+peng Li, et al. 2024. Qwen2 technical report. arXiv preprint arXiv:2407.10671
+(2024).
+[58] Yong Yang, Xuhong Zhang, Yi Jiang, Xi Chen, Haoyu Wang, Shouling Ji, and
+Zonghui Wang. 2024. Prsa: Prompt reverse stealing attacks against large language
+models. arXiv e-prints (2024), arXiv–2402.
+[59] Yuval Yarom and Katrina Falkner. 2014. {FLUSH+ RELOAD}: A high resolution,
+low noise, l3 cache {Side-Channel} attack. In 23rd USENIX security symposium
+(USENIX security 14). 719–732.
+[60] Itay Yona, Ilia Shumailov, Jamie Hayes, and Nicholas Carlini. 2024.
+Steal-
+ing User Prompts from Mixture of Experts.
+doi:10.48550/arXiv.2410.22884
+arXiv:2410.22884 [cs].
+[61] Honggang Yu, Haocheng Ma, Kaichen Yang, Yiqiang Zhao, and Yier Jin. 2020.
+Deepem: Deep neural networks model recovery through em side-channel in-
+formation leakage. In 2020 IEEE International Symposium on Hardware Oriented
+Security and Trust (HOST). IEEE, 209–218.
+[62] Zhenkai Zhang, Tyler Allen, Fan Yao, Xing Gao, and Rong Ge. 2023. T unne L s
+for B ootlegging: Fully Reverse-Engineering GPU TLBs for Challenging Isolation
+Guarantees of NVIDIA MIG. In Proceedings of the 2023 ACM SIGSAC Conference
+on Computer and Communications Security. 960–974.
+[63] Zhenkai Zhang, Kunbei Cai, Yanan Guo, Fan Yao, and Xing Gao. 2024.
+{Invalidate+ Compare}: A {Timer-Free}{GPU} Cache Attack Primitive. In
+33rd USENIX Security Symposium (USENIX Security 24). 2101–2118.
+[64] Yilong Zhao, Chien-Yu Lin, Kan Zhu, Zihao Ye, Lequn Chen, Size Zheng,
+Luis
+Ceze,
+Arvind
+Krishnamurthy,
+Tianqi
+Chen,
+and
+Baris
+Kasikci.
+2024.
+Atom: Low-Bit Quantization for Efficient and Accurate LLM
+Serving.
+Proceedings of Machine Learning and Systems 6 (May 2024),
+196–209.
+https://proceedings.mlsys.org/paper_files/paper/2024/hash/
+5edb57c05c81d04beb716ef1d542fe9e-Abstract-Conference.html
+[65] Lianmin Zheng, Liangsheng Yin, Zhiqiang Xie, Chuyue Sun, Jeff Huang,
+Cody Hao Yu, Shiyi Cao, Christos Kozyrakis, Ion Stoica, Joseph E Gonzalez,
+et al. 2024. Sglang: Efficient execution of structured language model programs,
+2024. URL https://arxiv. org/abs/2312.07104 (2024).
+[66] Barret Zoph, Irwan Bello, Sameer Kumar, Nan Du, Yanping Huang, Jeff Dean,
+Noam Shazeer, and William Fedus. 2022. ST-MoE: Designing Stable and Trans-
+ferable Sparse Expert Models. doi:10.48550/arXiv.2202.08906 arXiv:2202.08906
+[cs].
+
+Conference’17, July 2017, Washington, DC, USA
+Ruyi Ding, Tianhong Xu, Xinyi Shen, Aidong Adam Ding, and Yunsi Fei
+A
+Implementation of DeepSeekMoE
+Code Snippet 1: DeepSeek MoE Inference
+1
+func moe_infer(x, topk_ids, topk_weight):
+2
+// 1. Count tokens for each expert
+3
+tokens_per_expert = count_tokens(topk_ids)
+4
+5
+// 2. Sequentially call each expert
+6
+outputs = []
+7
+for expert_index in range(num_experts):
+8
+num_tokens = tokens_per_expert[expert_index]
+9
+if num_tokens == 0:
+10
+continue
+11
+12
+// Get tokens for this expert
+13
+expert_in = get_tokens(x, expert_index)
+14
+// Call experts sequentially.
+15
+expert_out = run_expert(expert_index, expert_in)
+16
+outputs.append(expert_out)
+17
+18
+// 3. Aggregate outputs
+19
+final_output = aggregate(outputs, topk_weight)
+20
+return final_output
+This is a simplified forward function for DeepSeekMoE [3]. The
+inputs to the function includes x–a tensor contains the input to-
+ken(s), topk_ids, which are the top-k indices of experts given
+each token (i.e., I in Section 2), and topk_weights, which are
+the weight to aggregate all experts for each token (i.e., 𝑔𝑖,𝑡). Func-
+tion count_tokens counts the expert load for each experts and
+then the experts modules are execution in a sequential manner
+(the for loop). When we get_tokens for current expert, we will
+run_expert for all its input tokens. If the model is deployed on
+a CPU, run_expert will be sequential, while for the single GPU-
+deployment, all tokens in expert_in will run in parallel. In the end,
+the model will collect the output and aggregate them as the real
+output. Therefore, the key takeaway from the code snippet is that
+the experts are run one after another, and function run_expert may
+take various computational resources, leading to the SCA leakage
+of MoEcho.
+B
+Diagram of Four Proposed Attacks
+Attacker
+Victim
+MoE LLM
+Input prompts
+I need medical advice for a {50}
+year old {male} patient. His
+blood type is {O}. He has been
+diagnosed with diabetes.
+SCA
+Attributes
+Age: 50;
+Gender: Male; 
+Blood Type: O;
+Illness: Diabetes…
+Query
+Infer
+Figure 16: Prompt Inference Attack: the attacker aims to
+infer the user’s input (i.e., private keywords).
+Response Reconstruction
+For xx-year-old male patients with 
+blood type O and a diagnosis of 
+diabetes, manage should focus on 
+lifestyle modifications.
+System Response
+For 50-year-old male patients with 
+blood type O and a diagnosis of 
+diabetes, management should 
+focus on lifestyle modifications.
+Response
+Victim
+Reconstruct
+Attacker
+MoE LLM
+SCA
+Figure 17: Response Reconstruction Attack: the attacker
+aims to recover the system response to the users.
+Text Input
+Please describe this image.
+What is shown in the image?
+….
+Query
+Image input
+Infer
+Victim
+Attributes
+ID: Who is she?
+Gender: Female; 
+Hair: Brown;
+Smile: Yes
+…
+Attacker
+MoE LLM
+SCA
+Figure 18: Visual
+Inference
+Attack: in a MOE-Vision-
+language model, the attacker aims to infer attributes of visual
+inputs.
+Text input
+Victim
+Add mosaic to this face
+Swap this face
+Add mask to this face
+Query
+Image input
+Inpainting
+Attacker
+MoE LLM
+SCA
+Figure 19: Visual Reconstruction Attack: the attacker aims
+to reconstruct the user’s input with partial knowledge.
+C
+Model Structures Used in Attacks
+As shown in Table 11, for PIA, RRA, and VIA, we adopt a simple
+classification model including MLP and Logistic Regression, which
+can already achieve a very high accuracy. For VRA, we adopt a
+U-Net–style architecture that encodes the masker image via suc-
+cessive downsampling layers to a compact feature representation.
+And then this latent vector is combined with a noise vector and
+condition features from MoEcho through a fully connected layer,
+refined by a self-attention mechanism at the bottleneck, and finally
+decoded with conditional upsampling blocks and skip connections
+to reconstruct a 32 × 32 inpainted image.
+Table 11: Model Structures used in Attacks
+Attack
+Model
+Description
+PIA and VIA
+3-Layer MLP
+The model used has the hidden size
+[𝑖𝑛𝑝𝑢𝑡, 1024, 512,𝑜𝑢𝑡𝑝𝑢𝑡]
+RRA
+Logistic Regression
+i.e., 1-layer MLP
+VRA
+Conditional Unet[40]
+Unet with 4 × 4 latent feature with the
+condition latent space size of 128
+D
+Templates of Healthcare Datasets
+The templates used in the PIA attack are shown in Table 12.
+
+MoEcho: Exploiting Side-Channel Attacks to Compromise User Privacy in Mixture-of-Experts LLMs
+Conference’17, July 2017, Washington, DC, USA
+Table 12: Templates Used in PIA Attacks
+Template
+Length
+"I need medical advice for a [Age] year old [Gender] patient. His blood type is [Blood Type]. He has been diagnosed with [Illness]. He is covered by [Insurance], and the latest treatment bill was
+[Billing Amount]. What recommendations do you have for his condition and ongoing care?"
+Short
+"A [Age] year old [Gender] patient with blood type [Blood Type] has been diagnosed with [Illness]. The patient is insured under [Insurance], and the treatment cost was [Billing Amount]. What
+are the best management strategies for his condition?"
+Short
+"Can you provide medical guidance for a [Age] year old [Gender] patient? He has blood type [Blood Type] and has been diagnosed with [Illness]. His insurance is with [Insurance], and the latest
+billing amount was [Billing Amount]. What treatment plans would be suitable?"
+Short
+"A [Age] year old [Gender] with blood type [Blood Type] is dealing with [Illness]. His insurance provider is [Insurance], and the treatment expenses totaled [Billing Amount]. What care options
+should be considered?"
+Short
+"Seeking expert advice for a [Age] year old [Gender] with blood type [Blood Type]. Diagnosed with [Illness], insured by [Insurance], and the latest medical expenses amounted to [Billing
+Amount]. How should this case be managed?"
+Short
+"I am consulting for a [Age] year old [Gender] patient whose blood type is [Blood Type]. He has been diagnosed with [Illness], is insured by [Insurance], and his latest treatment costs were
+[Billing Amount]. What would be the optimal medical approach?"
+Short
+"A patient, [Age] years old and [Gender], has blood type [Blood Type] and has recently been diagnosed with [Illness]. His insurance is with [Insurance], and his latest hospital bill was [Billing
+Amount]. What would be the recommended course of action?"
+Short
+"Medical consultation is needed for a [Age] year old [Gender] patient with blood type [Blood Type]. He is diagnosed with [Illness] and is covered by [Insurance]. The last treatment charge was
+[Billing Amount]. What steps should be taken for effective care?"
+Short
+"A [Age] year old [Gender] patient with [Blood Type] blood type has been diagnosed with [Illness]. He is insured through [Insurance], and the medical bill was [Billing Amount]. Could you
+guide on the best treatment options and follow-up care?"
+Short
+"I am looking for expert medical recommendations for a [Age] year old [Gender] patient. His blood type is [Blood Type], and he has been diagnosed with [Illness]. He is insured under [Insurance],
+with a recent hospital bill of [Billing Amount]. What should be the next steps in his treatment plan?"
+Short
+"I am requesting comprehensive medical recommendations for a [Age]-year-old [Gender] patient who presents with blood type [Blood Type]. The patient was recently diagnosed with [Illness], a
+condition that has begun to significantly impact his daily life and overall well-being. He is currently insured under the [Insurance] plan, which has provided partial coverage for treatments to date.
+The most recent treatment bill totaled [Billing Amount], and we are evaluating both clinical and financial options moving forward. Given the complexity of the condition and the patient’s age, we are
+seeking a balanced, evidence-based treatment approach that not only addresses immediate symptoms but also ensures sustainable long-term management. What therapies, interventions, or monitoring
+strategies would you recommend for this patient profile? Additionally, are there any recent guidelines or best practices that could inform our next steps? Please advise on both pharmacological and
+non-pharmacological options."
+Long
+"A [Gender] patient, aged [Age], with blood type [Blood Type], has been diagnosed with [Illness] and is now under active medical review. He is covered by [Insurance], which has been helpful in
+managing the expenses, the most recent being [Billing Amount]. However, considering the progressive nature of the illness, we are seeking updated and detailed medical input. Our primary goal is to
+establish a tailored, multidisciplinary treatment plan that takes into account the patient’s medical history, age, and overall health status. We’re particularly interested in understanding how to structure
+care to reduce the risk of complications and improve prognosis. What diagnostic evaluations should be prioritized? Are there specific treatment algorithms or clinical pathways you would recommend
+based on current standards of care? Your insights into both acute and maintenance therapy strategies will be greatly appreciated."
+Long
+"We are evaluating the best possible treatment strategies for a [Age] year old [Gender] patient recently diagnosed with [Illness]. His blood type is [Blood Type], and he is enrolled in a healthcare
+plan under [Insurance]. The most recent billing from treatment was [Billing Amount], and while insurance has covered a portion, cost-effective yet evidence-based care is a priority. This condition
+presents unique challenges in patients of his demographic profile, and we are looking for expert recommendations on how to proceed. Could you provide guidance on current medical standards for
+managing [Illness] in a patient with these characteristics? We are open to both conventional and advanced treatment options, including lifestyle interventions, medication plans, and any recommended
+follow-up protocols. Furthermore, if there are any emerging therapies, trials, or alternative treatment approaches that have shown efficacy, we would be eager to consider them as well."
+Long
+"A [Age]-year-old [Gender] patient with blood type [Blood Type] has recently been diagnosed with [Illness], and we are reviewing potential care strategies. The patient has health insurance
+through [Insurance], and the latest billing from his treatment was [Billing Amount]. Given the complexity of this condition, we are aiming for a personalized, comprehensive management plan that
+goes beyond symptom control. What would be the most effective treatment modalities to consider for a patient with this profile? In particular, we are interested in guidance around early-stage
+interventions, lifestyle modifications, and long-term monitoring strategies. Could you also advise on how to prioritize treatment if financial resources become constrained despite partial insurance
+coverage? Additionally, what warning signs should we monitor that may necessitate urgent reevaluation or hospitalization? A thorough breakdown of both short-term and longitudinal care options
+would be highly valuable."
+Long
+"This inquiry concerns a [Gender] patient, aged [Age], with a confirmed diagnosis of [Illness] and blood type [Blood Type]. The patient is insured via [Insurance], with the latest treatment bill
+totaling [Billing Amount]. Our clinical team is seeking expert advice to guide the next phase of medical management. The patient has shown both expected and unexpected responses to initial
+treatment, and we now face several options for continued care. We would appreciate an expert opinion on which therapeutic pathways have the highest success rates in similar patient populations. Are
+there any advanced diagnostic tools, imaging, or biomarkers that could provide further clarity? Additionally, how should we structure follow-ups, and what supportive care measures should be
+considered? We also welcome recommendations regarding patient education, lifestyle adaptation, and psychosocial support, as these are integral to our holistic care strategy."
+Long
+"Could you offer detailed medical advice for a [Age]-year-old [Gender] patient who has recently been diagnosed with [Illness]? His blood type is [Blood Type], and he is currently insured through
+[Insurance]. The last treatment bill amounted to [Billing Amount]. The patient’s condition is currently stable but may progress without timely and targeted intervention. Our goal is to ensure an
+evidence-based care plan is implemented that will improve his quality of life and minimize risks over time. Given the patient’s age and the nature of [Illness], what treatment modalities, both medical
+and behavioral, would be appropriate? Additionally, could you provide insights into how comorbidities or risk factors may alter the recommended treatment course? Please include any relevant
+updates to clinical guidelines or innovative approaches being used in similar cases."
+Long
+"We are managing care for a [Age] year old [Gender] patient with blood type [Blood Type], who has been diagnosed with [Illness]. The patient is insured by [Insurance], which has partially
+reimbursed a recent medical expense of [Billing Amount]. In light of the diagnosis, we are carefully planning a management protocol that takes into account both clinical efficacy and cost-efficiency.
+Given your expertise, could you share recommendations regarding the optimal sequence of treatments for this condition? Should we consider combination therapies, and are there particular drugs or
+devices that have shown promise in similar patient cohorts? Furthermore, are there specific clinical milestones we should monitor during the treatment process to evaluate effectiveness or guide
+adjustment? Your input will be used to refine a personalized and sustainable treatment plan for this individual."
+Long
+"A [Gender] patient, age [Age], has been diagnosed with [Illness] and has blood type [Blood Type]. The individual is currently covered by [Insurance], and their latest treatment expenses totaled
+[Billing Amount]. The patient has begun exhibiting symptoms consistent with the condition’s progression, and we are now in the process of reviewing updated treatment protocols. Our team
+would appreciate expert insight into current standards of care, particularly for patients in this age group. We are especially interested in strategies that balance efficacy, accessibility, and long-term
+health outcomes. What baseline evaluations should be revisited at this stage? Which medications or therapeutic techniques have demonstrated consistent success, and are there non-pharmacological
+alternatives worth considering in parallel? Additionally, are there psychosocial or lifestyle considerations that may impact adherence and outcomes?"
+Long
+"This case involves a [Age]-year-old [Gender] patient who has been diagnosed with [Illness]. His blood type is [Blood Type], and he is covered under [Insurance]. The most recent medical
+invoice came to [Billing Amount], and our care team is looking for advice on designing the most effective treatment roadmap moving forward. Given the patient’s demographics and diagnosis,
+what would constitute the best practices in current medical literature? Could you advise on any known prognostic indicators, early warning signs, or escalation triggers we should be monitoring?
+We are particularly interested in integrative strategies that involve both pharmaceutical and lifestyle interventions. Also, if there are any screening tools or checklists you recommend for ensuring
+comprehensive care, we’d greatly appreciate access to such frameworks."
+Long
+"I am reaching out on behalf of a [Age]-year-old [Gender] patient diagnosed with [Illness], whose blood type is [Blood Type]. He is currently under a healthcare plan from [Insurance], and the
+most recent treatment invoice was [Billing Amount]. While initial evaluations and stabilization were successful, we are now developing a full-scale treatment plan for ongoing care. What guidelines
+or evidence-based practices should inform our decisions at this stage? Specifically, we are looking for advice on medication choice, monitoring frequency, and any supportive therapies that should
+be concurrently deployed. Furthermore, we seek insights into patient-centered care models that could improve adherence and outcomes, especially in patients of this age and health profile. If any
+peer-reviewed case studies or clinical trials have explored similar cases, we’d be very interested in applying those learnings."
+Long

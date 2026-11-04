@@ -1,0 +1,1227 @@
+
+Yossi Adi, Einat Kermany, Yonatan Belinkov, Ofer Lavi, and Yoav Goldberg. Fine-grained analysis
+of sentence embeddings using auxiliary prediction tasks. arXiv preprint arXiv:1608.04207, 2016.
+Roy Bar-Haim, Ido Dagan, Bill Dolan, Lisa Ferro, and Danilo Giampiccolo. The second pascal
+recognising textual entailment challenge. Proceedings of the Second PASCAL Challenges Work-
+shop on Recognising Textual Entailment, 01 2006.
+Yonatan Belinkov and James Glass. Analysis methods in neural language processing: A survey.
+Transactions of the Association for Computational Linguistics, 7:49–72, 2019.
+Yonatan Belinkov, Nadir Durrani, Fahim Dalvi, Hassan Sajjad, and James Glass. What do neu-
+ral machine translation models learn about morphology? In Regina Barzilay and Min-Yen Kan
+(eds.), Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics
+(Volume 1: Long Papers), pp. 861–872, Vancouver, Canada, July 2017. Association for Com-
+putational Linguistics. doi: 10.18653/v1/P17-1080. URL https://aclanthology.org/
+P17-1080.
+Yonatan Belinkov, Llu´ıs M`arquez, Hassan Sajjad, Nadir Durrani, Fahim Dalvi, and James Glass.
+Evaluating layers of representation in neural machine translation on part-of-speech and semantic
+tagging tasks. arXiv preprint arXiv:1801.07772, 2018.
+Luisa Bentivogli, Bernardo Magnini, Ido Dagan, Hoa Trang Dang, and Danilo Giampiccolo.
+The fifth PASCAL recognizing textual entailment challenge.
+In Proceedings of the Second
+Text Analysis Conference, TAC 2009, Gaithersburg, Maryland, USA, November 16-17, 2009.
+NIST, 2009.
+URL https://tac.nist.gov/publications/2009/additional.
+papers/RTE5_overview.proceedings.pdf.
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla Dhariwal,
+Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, et al. Language models are
+few-shot learners. Advances in neural information processing systems, 33:1877–1901, 2020.
+Daniel Cer, Mona Diab, Eneko Agirre, I˜nigo Lopez-Gazpio, and Lucia Specia.
+SemEval-2017
+task 1: Semantic textual similarity multilingual and crosslingual focused evaluation. In Steven
+Bethard, Marine Carpuat, Marianna Apidianaki, Saif M. Mohammad, Daniel Cer, and David Ju-
+rgens (eds.), Proceedings of the 11th International Workshop on Semantic Evaluation (SemEval-
+2017), pp. 1–14, Vancouver, Canada, August 2017. Association for Computational Linguistics.
+doi: 10.18653/v1/S17-2001. URL https://aclanthology.org/S17-2001.
+Aakanksha Chowdhery, Sharan Narang, Jacob Devlin, Maarten Bosma, Gaurav Mishra, Adam
+Roberts, Paul Barham, Hyung Won Chung, Charles Sutton, Sebastian Gehrmann, et al. Palm:
+Scaling language modeling with pathways. Journal of Machine Learning Research, 24(240):
+1–113, 2023.
+Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick,
+and Oyvind Tafjord.
+Think you have solved question answering? try arc, the ai2 reasoning
+challenge. ArXiv, abs/1803.05457, 2018. URL https://api.semanticscholar.org/
+CorpusID:3922816.
+11
+
+Published as a conference paper at ICLR 2025
+Alexis Conneau and Douwe Kiela. SentEval: An evaluation toolkit for universal sentence repre-
+sentations. In Nicoletta Calzolari, Khalid Choukri, Christopher Cieri, Thierry Declerck, Sara
+Goggi, Koiti Hasida, Hitoshi Isahara, Bente Maegaard, Joseph Mariani, H´el`ene Mazo, Asun-
+cion Moreno, Jan Odijk, Stelios Piperidis, and Takenobu Tokunaga (eds.), Proceedings of
+the Eleventh International Conference on Language Resources and Evaluation (LREC 2018),
+Miyazaki, Japan, May 2018. European Language Resources Association (ELRA). URL https:
+//aclanthology.org/L18-1269.
+Alexis Conneau, German Kruszewski, Guillaume Lample, Lo¨ıc Barrault, and Marco Baroni. What
+you can cram into a single $&!#* vector: Probing sentence embeddings for linguistic properties.
+In Iryna Gurevych and Yusuke Miyao (eds.), Proceedings of the 56th Annual Meeting of the
+Association for Computational Linguistics (Volume 1: Long Papers), pp. 2126–2136, Melbourne,
+Australia, July 2018. Association for Computational Linguistics. doi: 10.18653/v1/P18-1198.
+URL https://aclanthology.org/P18-1198.
+Ido Dagan, Oren Glickman, and Bernardo Magnini. The pascal recognising textual entailment chal-
+lenge. In Joaquin Qui˜nonero-Candela, Ido Dagan, Bernardo Magnini, and Florence d’Alch´e Buc
+(eds.), Machine Learning Challenges. Evaluating Predictive Uncertainty, Visual Object Classi-
+fication, and Recognising Tectual Entailment, pp. 177–190, Berlin, Heidelberg, 2006. Springer
+Berlin Heidelberg.
+Fahim Dalvi, Nadir Durrani, Hassan Sajjad, Yonatan Belinkov, and Stephan Vogel. Understand-
+ing and improving morphological learning in the neural machine translation decoder. In Greg
+Kondrak and Taro Watanabe (eds.), Proceedings of the Eighth International Joint Conference on
+Natural Language Processing (Volume 1: Long Papers), pp. 142–151, Taipei, Taiwan, November
+2017. Asian Federation of Natural Language Processing. URL https://aclanthology.
+org/I17-1015.
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. Bert: Pre-training of deep
+bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805, 2018.
+George Doddington.
+Automatic evaluation of machine translation quality using n-gram co-
+occurrence statistics. In Proceedings of the Second International Conference on Human Language
+Technology Research, HLT ’02, pp. 138–145, San Francisco, CA, USA, 2002. Morgan Kaufmann
+Publishers Inc.
+William B. Dolan and Chris Brockett. Automatically constructing a corpus of sentential paraphrases.
+In Proceedings of the Third International Workshop on Paraphrasing (IWP2005), 2005. URL
+https://aclanthology.org/I05-5002.
+Nan Du, Yanping Huang, Andrew M Dai, Simon Tong, Dmitry Lepikhin, Yuanzhong Xu, Maxim
+Krikun, Yanqi Zhou, Adams Wei Yu, Orhan Firat, Barret Zoph, Liam Fedus, Maarten P Bosma,
+Zongwei Zhou, Tao Wang, Emma Wang, Kellie Webster, Marie Pellat, Kevin Robinson, Kathleen
+Meier-Hellstern, Toju Duke, Lucas Dixon, Kun Zhang, Quoc Le, Yonghui Wu, Zhifeng Chen,
+and Claire Cui. GLaM: Efficient scaling of language models with mixture-of-experts. In Ka-
+malika Chaudhuri, Stefanie Jegelka, Le Song, Csaba Szepesvari, Gang Niu, and Sivan Sabato
+(eds.), Proceedings of the 39th International Conference on Machine Learning, volume 162 of
+Proceedings of Machine Learning Research, pp. 5547–5569. PMLR, 17–23 Jul 2022.
+URL
+https://proceedings.mlr.press/v162/du22c.html.
+William Fedus, Barret Zoph, and Noam Shazeer. Switch transformers: Scaling to trillion parameter
+models with simple and efficient sparsity. Journal of Machine Learning Research, 23(120):1–39,
+2022.
+Mudasir A Ganaie, Minghui Hu, Ashwani Kumar Malik, Muhammad Tanveer, and Ponnuthurai N
+Suganthan. Ensemble deep learning: A review. Engineering Applications of Artificial Intelli-
+gence, 115:105151, 2022.
+Danilo Giampiccolo, Bernardo Magnini, Ido Dagan, and Bill Dolan. The third PASCAL recogniz-
+ing textual entailment challenge. In Satoshi Sekine, Kentaro Inui, Ido Dagan, Bill Dolan, Danilo
+Giampiccolo, and Bernardo Magnini (eds.), Proceedings of the ACL-PASCAL Workshop on Tex-
+tual Entailment and Paraphrasing, pp. 1–9, Prague, June 2007. Association for Computational
+Linguistics. URL https://aclanthology.org/W07-1401.
+12
+
+Published as a conference paper at ICLR 2025
+Yoav Goldberg. Assessing bert’s syntactic abilities. arXiv preprint arXiv:1901.05287, 2019.
+K Gulordava.
+Colorless green recurrent networks dream hierarchically.
+arXiv preprint
+arXiv:1803.11138, 2018.
+Neha Gupta, Jamie Smith, Ben Adlam, and Zelda Mariet. Ensembling over classifiers: a bias-
+variance perspective. arXiv preprint arXiv:2206.10566, 2022.
+Karen Hambardzumyan, Hrant Khachatrian, and Jonathan May. WARP: Word-level Adversarial
+ReProgramming. In Chengqing Zong, Fei Xia, Wenjie Li, and Roberto Navigli (eds.), Proceed-
+ings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th
+International Joint Conference on Natural Language Processing (Volume 1: Long Papers), pp.
+4921–4933, Online, August 2021. Association for Computational Linguistics. doi: 10.18653/v1/
+2021.acl-long.381. URL https://aclanthology.org/2021.acl-long.381.
+Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Xiaodong
+Song, and Jacob Steinhardt.
+Measuring massive multitask language understanding.
+ArXiv,
+abs/2009.03300,
+2020.
+URL https://api.semanticscholar.org/CorpusID:
+221516475.
+John Hewitt and Christopher D. Manning. A structural probe for finding syntax in word repre-
+sentations. In Jill Burstein, Christy Doran, and Thamar Solorio (eds.), Proceedings of the 2019
+Conference of the North American Chapter of the Association for Computational Linguistics: Hu-
+man Language Technologies, Volume 1 (Long and Short Papers), pp. 4129–4138, Minneapolis,
+Minnesota, June 2019. Association for Computational Linguistics. doi: 10.18653/v1/N19-1419.
+URL https://aclanthology.org/N19-1419.
+Neil Houlsby, Andrei Giurgiu, Stanislaw Jastrzebski, Bruna Morrone, Quentin De Laroussilhe, An-
+drea Gesmundo, Mona Attariyan, and Sylvain Gelly. Parameter-efficient transfer learning for nlp.
+In International conference on machine learning, pp. 2790–2799. PMLR, 2019.
+Edward J Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang,
+and Weizhu Chen.
+Lora: Low-rank adaptation of large language models.
+arXiv preprint
+arXiv:2106.09685, 2021.
+Dieuwke Hupkes, Sara Veldhoen, and Willem Zuidema. Visualisation and ‘diagnostic classifiers’
+reveal how recurrent and recursive neural networks process hierarchical structure. J. Artif. Int.
+Res., 61(1):907–926, January 2018. ISSN 1076-9757.
+Ganesh Jawahar, Benoˆıt Sagot, and Djam´e Seddah. What does bert learn about the structure of
+language? In ACL 2019-57th Annual Meeting of the Association for Computational Linguistics,
+2019.
+Mihir Kale and Abhinav Rastogi. Text-to-text pre-training for data-to-text tasks. arXiv preprint
+arXiv:2005.10433, 2020.
+Aran Komatsuzaki, Joan Puigcerver, James Lee-Thorp, Carlos Riquelme Ruiz, Basil Mustafa,
+Joshua Ainslie, Yi Tay, Mostafa Dehghani, and Neil Houlsby.
+Sparse upcycling: Training
+mixture-of-experts from dense checkpoints. arXiv preprint arXiv:2212.05055, 2022.
+Kenichi Kumatani, Robert Gmyr, Felipe Cruz Salinas, Linquan Liu, Wei Zuo, Devang Patel, Eric
+Sun, and Yu Shi. Building a great multi-lingual teacher with sparsely-gated mixture of experts for
+speech recognition. arXiv preprint arXiv:2112.05820, 2021.
+Alon Lavie and Abhaya Agarwal. METEOR: An automatic metric for MT evaluation with high lev-
+els of correlation with human judgments. In Chris Callison-Burch, Philipp Koehn, Cameron Shaw
+Fordyce, and Christof Monz (eds.), Proceedings of the Second Workshop on Statistical Machine
+Translation, pp. 228–231, Prague, Czech Republic, June 2007. Association for Computational
+Linguistics. URL https://aclanthology.org/W07-0734.
+Neal Lawton, Anoop Kumar, Govind Thattai, Aram Galstyan, and Greg Ver Steeg. Neural archi-
+tecture search for parameter-efficient fine-tuning of large pre-trained language models. arXiv
+preprint arXiv:2305.16597, 2023.
+13
+
+Published as a conference paper at ICLR 2025
+Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu, Dehao Chen, Orhan Firat, Yanping Huang,
+Maxim Krikun, Noam Shazeer, and Zhifeng Chen. {GS}hard: Scaling giant models with condi-
+tional computation and automatic sharding. In International Conference on Learning Represen-
+tations, 2021. URL https://openreview.net/forum?id=qrwe7XHTmYb.
+Brian Lester, Rami Al-Rfou, and Noah Constant. The power of scale for parameter-efficient prompt
+tuning. arXiv preprint arXiv:2104.08691, 2021.
+Xiang Lisa Li and Percy Liang.
+Prefix-tuning: Optimizing continuous prompts for generation.
+In Chengqing Zong, Fei Xia, Wenjie Li, and Roberto Navigli (eds.), Proceedings of the 59th
+Annual Meeting of the Association for Computational Linguistics and the 11th International Joint
+Conference on Natural Language Processing (Volume 1: Long Papers), pp. 4582–4597, Online,
+August 2021. Association for Computational Linguistics. doi: 10.18653/v1/2021.acl-long.353.
+URL https://aclanthology.org/2021.acl-long.353.
+Chin-Yew Lin. ROUGE: A package for automatic evaluation of summaries. In Text Summarization
+Branches Out, pp. 74–81, Barcelona, Spain, July 2004. Association for Computational Linguis-
+tics. URL https://aclanthology.org/W04-1013.
+Zhaojiang Lin, Andrea Madotto, and Pascale Fung. Exploring versatile generative language model
+via parameter-efficient transfer learning. In Trevor Cohn, Yulan He, and Yang Liu (eds.), Findings
+of the Association for Computational Linguistics: EMNLP 2020, pp. 441–459, Online, Novem-
+ber 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.findings-emnlp.41.
+URL https://aclanthology.org/2020.findings-emnlp.41.
+Tal Linzen, Emmanuel Dupoux, and Yoav Goldberg. Assessing the ability of lstms to learn syntax-
+sensitive dependencies. Transactions of the Association for Computational Linguistics, 4:521–
+535, 2016.
+Nelson F. Liu, Matt Gardner, Yonatan Belinkov, Matthew E. Peters, and Noah A. Smith. Linguistic
+knowledge and transferability of contextual representations. In Jill Burstein, Christy Doran, and
+Thamar Solorio (eds.), Proceedings of the 2019 Conference of the North American Chapter of
+the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long
+and Short Papers), pp. 1073–1094, Minneapolis, Minnesota, June 2019. Association for Com-
+putational Linguistics. doi: 10.18653/v1/N19-1112. URL https://aclanthology.org/
+N19-1112.
+Xiao Liu, Yanan Zheng, Zhengxiao Du, Ming Ding, Yujie Qian, Zhilin Yang, and Jie Tang. Gpt
+understands, too. AI Open, 2023.
+Y Liu.
+Multilingual denoising pre-training for neural machine translation.
+arXiv preprint
+arXiv:2001.08210, 2020.
+Yang Liu and Mirella Lapata.
+Text summarization with pretrained encoders.
+In Kentaro Inui,
+Jing Jiang, Vincent Ng, and Xiaojun Wan (eds.), Proceedings of the 2019 Conference on Em-
+pirical Methods in Natural Language Processing and the 9th International Joint Conference on
+Natural Language Processing (EMNLP-IJCNLP), pp. 3730–3740, Hong Kong, China, Novem-
+ber 2019. Association for Computational Linguistics.
+doi: 10.18653/v1/D19-1387.
+URL
+https://aclanthology.org/D19-1387.
+Yinhan Liu.
+Roberta:
+A robustly optimized bert pretraining approach.
+arXiv preprint
+arXiv:1907.11692, 2019.
+I Loshchilov. Decoupled weight decay regularization. arXiv preprint arXiv:1711.05101, 2017.
+Rebecca Marvin.
+Targeted syntactic evaluation of language models.
+arXiv preprint
+arXiv:1808.09031, 2018.
+B.W. Matthews.
+Comparison of the predicted and observed secondary structure of t4 phage
+lysozyme.
+Biochimica et Biophysica Acta (BBA) - Protein Structure, 405(2):442–451, 1975.
+ISSN 0005-2795. doi: https://doi.org/10.1016/0005-2795(75)90109-9. URL https://www.
+sciencedirect.com/science/article/pii/0005279575901099.
+14
+
+Published as a conference paper at ICLR 2025
+Eric Mitchell, Charles Lin, Antoine Bosselut, Chelsea Finn, and Christopher D Manning. Fast
+model editing at scale. In International Conference on Learning Representations, 2022. URL
+https://openreview.net/forum?id=0DcZxeWfOPt.
+Aviv Navon, Aviv Shamsian, Idan Achituve, Ethan Fetaya, Gal Chechik, and Haggai Maron. Equiv-
+ariant architectures for learning in deep weight spaces. In International Conference on Machine
+Learning, pp. 25790–25816. PMLR, 2023.
+Viet Dung Nguyen, Minh Nguyen Hoang, Luc Nguyen, Rachel Teo, Tan Minh Nguyen, and
+Linh Duy Tran. CAMEx: Curvature-aware merging of experts. In The Thirteenth International
+Conference on Learning Representations, 2025. URL https://openreview.net/forum?
+id=nT2u0M0nf8.
+Stefan Nielsen, Rachel Teo, Laziz Abdullaev, and Tan Minh Nguyen. Tight clusters make specialized
+experts. In The Thirteenth International Conference on Learning Representations, 2025. URL
+https://openreview.net/forum?id=Pu3c0209cx.
+Jekaterina Novikova, Ondˇrej Duˇsek, and Verena Rieser.
+The E2E dataset: New challenges for
+end-to-end generation. In Kristiina Jokinen, Manfred Stede, David DeVault, and Annie Louis
+(eds.), Proceedings of the 18th Annual SIGdial Meeting on Discourse and Dialogue, pp. 201–
+206, Saarbr¨ucken, Germany, August 2017a. Association for Computational Linguistics. doi: 10.
+18653/v1/W17-5525. URL https://aclanthology.org/W17-5525.
+Jekaterina Novikova, Ondˇrej Duˇsek, and Verena Rieser. The e2e dataset: New challenges for end-
+to-end generation. arXiv preprint arXiv:1706.09254, 2017b.
+Denis Paperno, Germ´an Kruszewski, Angeliki Lazaridou, Quan Ngoc Pham, Raffaella Bernardi,
+Sandro Pezzelle, Marco Baroni, Gemma Boleda, and Raquel Fern´andez. The lambada dataset:
+Word prediction requiring a broad discourse context. arXiv preprint arXiv:1606.06031, 2016.
+Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu. Bleu: a method for automatic
+evaluation of machine translation. In Pierre Isabelle, Eugene Charniak, and Dekang Lin (eds.),
+Proceedings of the 40th Annual Meeting of the Association for Computational Linguistics, pp.
+311–318, Philadelphia, Pennsylvania, USA, July 2002. Association for Computational Linguis-
+tics. doi: 10.3115/1073083.1073135. URL https://aclanthology.org/P02-1040.
+Matthew E. Peters, Mark Neumann, Luke Zettlemoyer, and Wen-tau Yih.
+Dissecting contex-
+tual word embeddings: Architecture and representation.
+In Ellen Riloff, David Chiang, Ju-
+lia Hockenmaier, and Jun’ichi Tsujii (eds.), Proceedings of the 2018 Conference on Empir-
+ical Methods in Natural Language Processing, pp. 1499–1509, Brussels, Belgium, October-
+November 2018. Association for Computational Linguistics. doi: 10.18653/v1/D18-1179. URL
+https://aclanthology.org/D18-1179.
+Jonas Pfeiffer, Aishwarya Kamath, Andreas R¨uckl´e, Kyunghyun Cho, and Iryna Gurevych. Adapter-
+Fusion: Non-destructive task composition for transfer learning.
+In Paola Merlo, Jorg Tiede-
+mann, and Reut Tsarfaty (eds.), Proceedings of the 16th Conference of the European Chapter
+of the Association for Computational Linguistics: Main Volume, pp. 487–503, Online, April
+2021. Association for Computational Linguistics. doi: 10.18653/v1/2021.eacl-main.39. URL
+https://aclanthology.org/2021.eacl-main.39.
+Wang Qi, Yu-Ping Ruan, Yuan Zuo, and Taihao Li. Parameter-efficient tuning on layer normalization
+for pre-trained language models. arXiv preprint arXiv:2211.08682, 2022.
+Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever, et al. Language
+models are unsupervised multitask learners. OpenAI blog, 1(8):9, 2019.
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi
+Zhou, Wei Li, and Peter J. Liu. Exploring the limits of transfer learning with a unified text-to-
+text transformer. Journal of Machine Learning Research, 21(140):1–67, 2020a. URL http:
+//jmlr.org/papers/v21/20-074.html.
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi
+Zhou, Wei Li, and Peter J Liu. Exploring the limits of transfer learning with a unified text-to-text
+transformer. Journal of machine learning research, 21(140):1–67, 2020b.
+15
+
+Published as a conference paper at ICLR 2025
+Pranav Rajpurkar, Robin Jia, and Percy Liang. Know what you don’t know: Unanswerable ques-
+tions for SQuAD. In Iryna Gurevych and Yusuke Miyao (eds.), Proceedings of the 56th An-
+nual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), pp.
+784–789, Melbourne, Australia, July 2018. Association for Computational Linguistics.
+doi:
+10.18653/v1/P18-2124. URL https://aclanthology.org/P18-2124.
+Carlos Riquelme, Joan Puigcerver, Basil Mustafa, Maxim Neumann, Rodolphe Jenatton, Andr´e
+Susano Pinto, Daniel Keysers, and Neil Houlsby. Scaling vision with sparse mixture of experts.
+Advances in Neural Information Processing Systems, 34:8583–8595, 2021.
+Andreas R¨uckl´e, Gregor Geigle, Max Glockner, Tilman Beck, Jonas Pfeiffer, Nils Reimers, and
+Iryna Gurevych. AdapterDrop: On the efficiency of adapters in transformers. In Marie-Francine
+Moens, Xuanjing Huang, Lucia Specia, and Scott Wen-tau Yih (eds.), Proceedings of the 2021
+Conference on Empirical Methods in Natural Language Processing, pp. 7930–7946, Online
+and Punta Cana, Dominican Republic, November 2021. Association for Computational Linguis-
+tics. doi: 10.18653/v1/2021.emnlp-main.626. URL https://aclanthology.org/2021.
+emnlp-main.626.
+Rico Sennrich. How grammatical is character-level neural machine translation? assessing MT qual-
+ity with contrastive translation pairs. In Mirella Lapata, Phil Blunsom, and Alexander Koller
+(eds.), Proceedings of the 15th Conference of the European Chapter of the Association for Com-
+putational Linguistics: Volume 2, Short Papers, pp. 376–382, Valencia, Spain, April 2017. Asso-
+ciation for Computational Linguistics. URL https://aclanthology.org/E17-2060.
+Noam Shazeer, *Azalia Mirhoseini, *Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hin-
+ton, and Jeff Dean.
+Outrageously large neural networks:
+The sparsely-gated mixture-of-
+experts layer. In International Conference on Learning Representations, 2017. URL https:
+//openreview.net/forum?id=B1ckMDqlg.
+Anton Sinitsin, Vsevolod Plokhotnyuk, Dmitry Pyrkin, Sergei Popov, and Artem Babenko. Editable
+neural networks. In International Conference on Learning Representations, 2020. URL https:
+//openreview.net/forum?id=HJedXaEtvS.
+Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher D. Manning, Andrew Ng, and
+Christopher Potts. Recursive deep models for semantic compositionality over a sentiment tree-
+bank. In David Yarowsky, Timothy Baldwin, Anna Korhonen, Karen Livescu, and Steven Bethard
+(eds.), Proceedings of the 2013 Conference on Empirical Methods in Natural Language Process-
+ing, pp. 1631–1642, Seattle, Washington, USA, October 2013. Association for Computational
+Linguistics. URL https://aclanthology.org/D13-1170.
+Asa Cooper Stickland, Xian Li, and Marjan Ghazvininejad. Recipes for adapting pre-trained mono-
+lingual and multilingual models to machine translation. arXiv preprint arXiv:2004.14911, 2020.
+Ian Tenney, Patrick Xia, Berlin Chen, Alex Wang, Adam Poliak, R Thomas McCoy, Najoung Kim,
+Benjamin Van Durme, Samuel R Bowman, Dipanjan Das, et al. What do you learn from con-
+text?
+probing for sentence structure in contextualized word representations.
+arXiv preprint
+arXiv:1905.06316, 2019.
+Rachel Teo and Tan Minh Nguyen. MomentumSMoe: Integrating momentum into sparse mixture
+of experts. In The Thirty-eighth Annual Conference on Neural Information Processing Systems,
+2024. URL https://openreview.net/forum?id=y929esCZNJ.
+Hoang Tran, Thieu Vo, Tho Huu, Tan Nguyen, et al. Monomial matrix group equivariant neu-
+ral functional networks. Advances in Neural Information Processing Systems, 37:48628–48665,
+2025a.
+Hoang V. Tran, Thieu Vo, An Nguyen The, Tho Tran Huu, Minh-Khoi Nguyen-Nhat, Thanh Tran,
+Duy-Tung Pham, and Tan Minh Nguyen. Equivariant neural functional networks for transformers.
+In The Thirteenth International Conference on Learning Representations, 2025b. URL https:
+//openreview.net/forum?id=uBai0ukstY.
+16
+
+Published as a conference paper at ICLR 2025
+Ramakrishna Vedantam, C. Lawrence Zitnick, and Devi Parikh. Cider: Consensus-based image
+description evaluation. In 2015 IEEE Conference on Computer Vision and Pattern Recognition
+(CVPR), pp. 4566–4575, 2015. doi: 10.1109/CVPR.2015.7299087.
+Thieu N Vo, Viet-Hoang Tran, Tho Tran Huu, An Nguyen The, Thanh Tran, Minh-Khoi Nguyen-
+Nhat, Duy-Tung Pham, and Tan Minh Nguyen. Equivariant polynomial functional networks.
+arXiv preprint arXiv:2410.04213, 2024.
+Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel Bowman. GLUE:
+A multi-task benchmark and analysis platform for natural language understanding. In Tal Linzen,
+Grzegorz Chrupała, and Afra Alishahi (eds.), Proceedings of the 2018 EMNLP Workshop Black-
+boxNLP: Analyzing and Interpreting Neural Networks for NLP, pp. 353–355, Brussels, Belgium,
+November 2018. Association for Computational Linguistics. doi: 10.18653/v1/W18-5446. URL
+https://aclanthology.org/W18-5446.
+Alex Warstadt, Amanpreet Singh, and Samuel R. Bowman. Neural network acceptability judgments.
+Transactions of the Association for Computational Linguistics, 7:625–641, 2019. doi: 10.1162/
+tacl a 00290. URL https://aclanthology.org/Q19-1040.
+Adina Williams, Nikita Nangia, and Samuel Bowman.
+A broad-coverage challenge corpus for
+sentence understanding through inference.
+In Marilyn Walker, Heng Ji, and Amanda Stent
+(eds.), Proceedings of the 2018 Conference of the North American Chapter of the Association
+for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers), pp.
+1112–1122, New Orleans, Louisiana, June 2018. Association for Computational Linguistics. doi:
+10.18653/v1/N18-1101. URL https://aclanthology.org/N18-1101.
+Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi,
+Pierric Cistac, Tim Rault, Remi Louf, Morgan Funtowicz, Joe Davison, Sam Shleifer, Patrick
+von Platen, Clara Ma, Yacine Jernite, Julien Plu, Canwen Xu, Teven Le Scao, Sylvain Gugger,
+Mariama Drame, Quentin Lhoest, and Alexander Rush. Transformers: State-of-the-art natural
+language processing. In Qun Liu and David Schlangen (eds.), Proceedings of the 2020 Confer-
+ence on Empirical Methods in Natural Language Processing: System Demonstrations, pp. 38–
+45, Online, October 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.
+emnlp-demos.6. URL https://aclanthology.org/2020.emnlp-demos.6.
+Lingling Xu, Haoran Xie, Si-Zhao Joe Qin, Xiaohui Tao, and Fu Lee Wang. Parameter-efficient
+fine-tuning methods for pretrained language models: A critical review and assessment. arXiv
+preprint arXiv:2312.12148, 2023.
+Elad Ben Zaken, Shauli Ravfogel, and Yoav Goldberg. Bitfit: Simple parameter-efficient fine-tuning
+for transformer-based masked language-models. arXiv preprint arXiv:2106.10199, 2021.
+Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, and Yejin Choi. Hellaswag: Can a ma-
+chine really finish your sentence? In Annual Meeting of the Association for Computational Lin-
+guistics, 2019. URL https://api.semanticscholar.org/CorpusID:159041722.
+Yizhe Zhang, Siqi Sun, Michel Galley, Yen-Chun Chen, Chris Brockett, Xiang Gao, Jianfeng Gao,
+Jingjing Liu, and Bill Dolan. DIALOGPT : Large-scale generative pre-training for conversational
+response generation. In Asli Celikyilmaz and Tsung-Hsien Wen (eds.), Proceedings of the 58th
+Annual Meeting of the Association for Computational Linguistics: System Demonstrations, pp.
+270–278, Online, July 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.
+acl-demos.30. URL https://aclanthology.org/2020.acl-demos.30.
+Zhen-Ru Zhang, Chuanqi Tan, Haiyang Xu, Chengyu Wang, Jun Huang, and Songfang Huang.
+Towards adaptive prefix tuning for parameter-efficient language model fine-tuning. arXiv preprint
+arXiv:2305.15212, 2023.
+Ming Zhong, Pengfei Liu, Yiran Chen, Danqing Wang, Xipeng Qiu, and Xuanjing Huang. Extractive
+summarization as text matching. In Dan Jurafsky, Joyce Chai, Natalie Schluter, and Joel Tetreault
+(eds.), Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics,
+pp. 6197–6208, Online, July 2020. Association for Computational Linguistics. doi: 10.18653/v1/
+2020.acl-main.552. URL https://aclanthology.org/2020.acl-main.552.
+17
+
+Published as a conference paper at ICLR 2025
+Wanjun Zhong, Ruixiang Cui, Yiduo Guo, Yaobo Liang, Shuai Lu, Yanlin Wang, Amin Saied,
+Weizhu Chen, and Nan Duan. AGIEval: A human-centric benchmark for evaluating foundation
+models. In Kevin Duh, Helena Gomez, and Steven Bethard (eds.), Findings of the Association
+for Computational Linguistics: NAACL 2024, pp. 2299–2314, Mexico City, Mexico, June 2024.
+Association for Computational Linguistics.
+doi: 10.18653/v1/2024.findings-naacl.149.
+URL
+https://aclanthology.org/2024.findings-naacl.149.
+Allan Zhou, Kaien Yang, Kaylee Burns, Adriano Cardace, Yiding Jiang, Samuel Sokota, J Zico
+Kolter, and Chelsea Finn. Permutation equivariant neural functionals. Advances in neural infor-
+mation processing systems, 36:24966–24992, 2023a.
+Allan Zhou, Kaien Yang, Yiding Jiang, Kaylee Burns, Winnie Xu, Samuel Sokota, J Zico Kolter,
+and Chelsea Finn. Neural functional transformers. Advances in neural information processing
+systems, 36:77485–77502, 2023b.
+Yanqi Zhou, Nan Du, Yanping Huang, Daiyi Peng, Chang Lan, Da Huang, Siamak Shakeri,
+David So, Andrew M. Dai, Yifeng Lu, Zhifeng Chen, Quoc V Le, Claire Cui, James Laudon,
+and Jeff Dean.
+Brainformers: Trading simplicity for efficiency.
+In Andreas Krause, Emma
+Brunskill, Kyunghyun Cho, Barbara Engelhardt, Sivan Sabato, and Jonathan Scarlett (eds.),
+Proceedings of the 40th International Conference on Machine Learning, volume 202 of Pro-
+ceedings of Machine Learning Research, pp. 42531–42542. PMLR, 23–29 Jul 2023c.
+URL
+https://proceedings.mlr.press/v202/zhou23c.html.
+Jinhua Zhu, Yingce Xia, Lijun Wu, Di He, Tao Qin, Wengang Zhou, Houqiang Li, and Tie-Yan Liu.
+Incorporating bert into neural machine translation. arXiv preprint arXiv:2002.06823, 2020.
+Yukun Zhu. Aligning books and movies: Towards story-like visual explanations by watching movies
+and reading books. arXiv preprint arXiv:1506.06724, 2015.
+18
+
+Published as a conference paper at ICLR 2025
+Supplement to “MoLEx: Mixture of Layer Experts for
+Finetuning with Sparse Upcycling”
+Table of Contents
+A Proofs
+19
+A.1
+Proof of Theorem 1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+A.2
+Proof of Corollary 1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+A.3
+Proof of Corollary 2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+B
+Additional Experimental Details
+21
+B.1
+Natural Language Understanding: GLUE
+. . . . . . . . . . . . . . . . . . . . . .
+21
+B.2
+Natural Language Generation: E2E . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+C Additional Empirical Analysis Details
+23
+C.1
+Probing Tasks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+C.2
+Implementation Details . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+C.3
+Full results of Section 4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+C.4
+Linguistic Properties Captured by RoBERTa . . . . . . . . . . . . . . . . . . . . .
+24
+D Ablation Study
+25
+E
+Additional Experimental Results and Efficency Analysis
+25
+E.1
+Full parameter fine-tuning for RoBERTa . . . . . . . . . . . . . . . . . . . . . . .
+25
+E.2
+Fine-tuning Llama-3.2-1B using LoRA
+. . . . . . . . . . . . . . . . . . . . . . .
+25
+E.3
+Detailed Efficiency Analysis on Llama-3.2-1B . . . . . . . . . . . . . . . . . . . .
+26
+A
+PROOFS
+A.1
+PROOF OF THEOREM 1
+We restate the theorem below for convenience.
+Theorem 1 (Linear ensembles are more robust than base models). For a data point (x, y) ∈
+(X, Y ), and M linear base models, fj(x) = W ⊤
+j x such that ∀yi and Wj,
+1.
+1
+ϵ (ey −eyi)⊤fj(x) ≥∥Wj(ey −eyi)∥2
+2. Wj(ey −eyi) are not colinear,
+an ensemble classifier model, with a classification head H, FM = H(PM−1
+j=0 cjfj) is ϵ′-robust at x
+with ϵ′ > ϵ.
+Proof. For a linear ensemble classifier, FM to be robust, from Lemma 1, we require that ∀yi ∈
+[C], yi̸ = y, min˜x∈B(x,ϵ)
+PM−1
+j=0 cj(fj(˜x)y −fj(˜x)yi) ≥0. Expanding this, with ey being the
+19
+
+Published as a conference paper at ICLR 2025
+standard basis vector with 1 in the y-th position,
+min
+˜x∈B(x,ϵ)
+M−1
+X
+j=0
+cj(fj(˜x)y −fj(˜x)yi)
+=
+min
+˜x∈B(x,ϵ)
+M−1
+X
+j=0
+cj(ey −eyi)⊤fj(˜x)
+=
+min
+˜x∈B(x,ϵ)
+M−1
+X
+j=0
+cj(ey −eyi)⊤(W ⊤
+j x + W ⊤
+j (˜x −x))
+=
+M−1
+X
+j=0
+cj(ey −eyi)⊤fj(x) +
+min
+˜x∈B(x,ϵ)(ey −eyi)⊤(
+M−1
+X
+j=0
+cjW ⊤
+j )(˜x −x)
+=
+M−1
+X
+j=0
+cj(ey −eyi)⊤fj(x) +
+min
+˜x∈B(x,ϵ)( ¯
+W (ey −eyi))⊤(˜x −x)
+≥
+M−1
+X
+j=0
+cj(ey −eyi)⊤fj(x) −ϵ∥¯
+W (ey −eyi)∥2
+where the last inequality holds by the Cauchy-Schwartz inequality and we denote
+¯
+W ⊤
+:=
+(PM−1
+j=0 cjfj) = PM−1
+j=0 cjW ⊤
+j to represent our ensemble function. Hence, if the following holds,
+M−1
+X
+j=0
+cj(ey −eyi)⊤fj(x) −ϵ∥¯
+W (ey −eyi)∥2 ≥0 ⇐⇒1
+ϵ
+M−1
+X
+j=0
+cj(ey −eyi)⊤fj(x) ≥∥¯
+W (ey −eyi)∥2,
+then FM is robust. Since, in our assumption 2, ∀yi and Wj, Wj(ey −eyi) are not colinear, from
+triangle inequality and assumption 1, we have
+∥¯
+W (ey −eyi)∥2 = ∥
+M−1
+X
+j=0
+cjWj(ey −eyi)∥2 <
+M−1
+X
+j=0
+cj∥Wj(ey −eyi)∥2
+≤1
+ϵ
+M−1
+X
+j=0
+cj(ey −eyi)⊤fj(x)
+As the inequality holds strictly, we can always find an ϵ′ > ϵ such that the inequality still holds.
+Hence, FM is ϵ′-robust.
+A.2
+PROOF OF COROLLARY 1
+We restate the corollary below for convenience.
+Corollary 1 (Sufficient conditions for ϵ-robustness). For a data point (x, y) ∈(X, Y ), if a clas-
+sifier model F = H(f) with prediction function, f(x) = W ⊤x satisfies 1
+ϵ (ey −eyi)⊤f(x) ≥
+∥W (ey −eyi)∥2, then F is ϵ-robust at x.
+Proof. This result follows directly from the proof of Theorem 1, with M = 1.
+A.3
+PROOF OF COROLLARY 2
+We restate the corollary below for convenience.
+Corollary 2 (Linear MoLEx is more robust than sequential model). If the base models of MoLEx
+fj = uit ◦uit−1 ◦...◦ui0 satisfies assumptions 1 and 2 in Theorem 1 above, then zt+1 = Pnt
+j=0 cjfj
+is more robust than f[0:t].
+Proof. In each layer t of MoLEx, as one layer expert is always fixed to be the original pre-trained
+layer ut, the sequential model, f[0:t] will always be one of the base models. Then, by Corollary 1
+and assumption 1, f[0:t] is ϵ-robust. The rest of the corollary follows as a consequence of Theorem
+1 as zt+1 will be ϵ′-robust with ϵ′ > ϵ.
+20
+
+Published as a conference paper at ICLR 2025
+B
+ADDITIONAL EXPERIMENTAL DETAILS
+B.1
+NATURAL LANGUAGE UNDERSTANDING: GLUE
+Tasks: CoLA (Warstadt et al., 2019) consists of sequences of words taken from books and journal
+articles on linguistic theory with labels to determine if they are grammatically acceptable or not.
+SST-2 (Socher et al., 2013) comprises of movie reviews and the task is to predict their sentiments as
+positive or negative. MRPC (Dolan & Brockett, 2005) is a corpus of pairs of sentences pulled from
+online news sources and annotated by humans whether they are semantically equivalent. The QQP2
+dataset was collated from the community question-answering website Quora. It contains question
+pairs and simlar to MRPC, the goal is to determine if they are labelled to be semantically equivalent.
+STS-B (Cer et al., 2017) is another sentence pair similarity task extracted from news headlines, video
+and image captions, and natural language inference data. However, it differs from the previous tasks
+in not using binary labels and instead each examples is accompanied by a similarity score from 1
+to 5. MNLI (Williams et al., 2018) uses pairs of premise and hypothesis sentences that have been
+collected from ten different sources, including transcribed speech, fiction, and government reports.
+The objective is to predict whether the premise entails the hypothesis (entailment), contradicts the
+hypothesis (contradiction), or neither (neutral). QNLI (Rajpurkar et al., 2018) is a task to determine
+if the context sentence in a question-sentence pair contains the answer to the question. The sentences
+were taken from paragraphs in Wikipedia and the questions were annotated by humans. Lastly, we
+have RTE (Dagan et al., 2006; Bar-Haim et al., 2006; Giampiccolo et al., 2007; Bentivogli et al.,
+2009), a compilation of datasets from a series of annual textual entailment challenges. Similar to
+MNLI, the objective is to determine if the sentence pairs contain an entailment or not. The classes
+for contradiction and neutral as in MNLI are collapsed into a single non-entailment class.
+Metrics: All tasks in GLUE are classification tasks, except for STS-B which is a regression task.
+Therefore, the metric reported for STS-B is the Pearson correlation coefficient as is standard prac-
+tise. We report the overall accuracy for MNLI which includes both matched and mismatched data.
+These correspond to evaluations on pairs of sentences within the same domain or cross-domain re-
+spectively. On CoLA, we use the Matthews correlation coefficient (Matthews, 1975) for evaluation
+due to the unbalanced binary classification data. This metric ranges from -1 to 1, with 0 indicating
+random guessing. For all other tasks, we present their accuracy for evaluation. Across all metrics, a
+higher number reflects stronger performance.
+Model: We use the pre-trained RoBERTa-base and RoBERTa-large model (Liu, 2019) from the
+HuggingFace Transformers library (Wolf et al., 2020) for evaluation on the GLUE task. RoBERTa
+is an optimized version of the original pre-training recipe proposed in BERT (Devlin et al., 2018).
+RoBERTa-base has 125M parameters with 12 layers, 12 attention heads and 768 hidden dimensions
+while RoBERTa-large has 355M parameters with 24 layers, 16 attention heads and 1024 hidden
+dimensions.
+Implementation details: We follow the same fine-tuning set up as in the original LoRA (Hu et al.,
+2021) paper for all GLUE experiments using the their publicly available code https://github.
+com/microsoft/LoRA. We use the same setting for fine-tuning on the pre-trained model and
+from an MNLI checkpoint. For each task, we also optimize the hyperparameters of the gate used
+in deciding the layer experts to be used for mixing. These settings can be found in Table 7 and for
+all gates, we use the same optimizer, AdamW (Loshchilov, 2017), as the LoRA parameters with a
+learning rate of 0.1 and weight decay of 0.01. We report the mean and standard deviation over 5
+random seeds for all results and the result for each run is taken from the best epoch.
+While we employ batch routing in the mixture of layers, each token will have a different choice of
+layer to be routed to as every token is processed by the gate. In deciding the overall batch’s decision,
+we use 2 different aggregates. The first is a majority-takes-all scheme where we route the batch to
+the layer which majority of tokens have chosen. The second is to use the maximum over the mean
+probability vector of all the tokens choices. These are referred to as Mode and Mean respectively
+under Batch Agg in the table. For gate types with suffix ”Sig” we use a sigmoid activation before
+taking TopK values and the default is a softmax activation. For almost all gates, if they do not have
+an ”Indv Gate”, this means that we use the same gate for all layers to decide the mixing layers. On
+RTE and STS-B, we use individual gates, which means that each layer has its own linear gating
+function and mixing weights instead of sharing one between all the layers. For all tasks, if the
+mixing weights are fixed, we use α = 0.95 as defined in Eqn. 4.
+21
+
+Published as a conference paper at ICLR 2025
+Table 7: Hyperparameter settings for LoRA and MoLEx on each GLUE task when fine-tuning RoBERTa-base
+and RoBERTa-large.
+Method
+Dataset
+MNLI
+SST-2
+MRPC
+CoLA
+QNLI
+QQP
+RTE
+STS-B
+Optimizer
+AdamW
+Warmup Ratio
+0.06
+LR Schedule
+Linear
+RoBERTa-base
+LoRA
+Batch Size
+16
+16
+16
+32
+32
+16
+32
+16
+# Epochs
+30
+60
+30
+80
+25
+25
+80
+40
+Learning Rate
+5E-04
+5E-04
+4E-04
+4E-04
+4E-04
+5E-04
+5E-04
+4E-04
+LoRA Config.
+rq = rv = 8
+LoRA α
+8
+Max Seq. Len.
+512
+RoBERTa-base
+MoLEx gate
+Gate Type
+Cos-Sig
+Cos
+Linear
+Linear
+Cos
+Cos-Sig
+Linear
+Linear
+Projection Dim
+416
+128
+-
+-
+96
+384
+-
+-
+Indv Gate
+×
+×
+×
+×
+×
+×
+✓
+✓
+Batch Agg
+Mode
+Mode
+Mode
+Mode
+Mean
+Mode
+Mean
+Mean
+Mixing Weights
+Learn
+Learn
+Learn
+Fix
+Learn
+Learn
+Fix
+Fix
+Load Balance
+0.005
+0.01
+0.0
+0.01
+0.001
+0.001
+0.001
+0.006
+RoBERTa-large
+LoRA
+Batch Size
+4
+4
+4
+4
+4
+4
+8
+8
+# Epochs
+10
+10
+20
+20
+10
+20
+20
+30
+Learning Rate
+3E-04
+4E-04
+3E-04
+2E-04
+2E-04
+3E-04
+4E-04
+2E-04
+LoRA Config.
+rq = rv = 8
+LoRA α
+16
+Max Seq. Len.
+128
+128
+512
+128
+512
+512
+512
+512
+RoBERTa-large
+MoLEx gate
+Gate Type
+Cos
+Cos
+Linear
+Linear
+Cos
+Cos-Sig
+Linear
+Linear
+Projection Dim
+416
+64
+-
+-
+256
+384
+-
+-
+Indv Gate
+×
+×
+✓
+×
+×
+×
+✓
+✓
+Batch Agg
+Mode
+Mode
+Mode
+Mode
+Mean
+Mode
+Mode
+Mode
+Mixing Weights
+Fix
+Fix
+Fix
+Fix
+Fix
+Learn
+Fix
+Fix
+Load Balance
+0.0001
+0.0
+0.0001
+0.01
+0.001
+0.001
+0.0
+0.0
+B.2
+NATURAL LANGUAGE GENERATION: E2E
+Dataset:
+The E2E NLG dataset approximately consists of more than 50,000 examples from the
+restaurant domain and there is a 76.5-8.5-15 split of the dataset into a training, validation and test
+set respectively. The E2E dataset is commonly used for the evaluation of data-to-text tasks and
+brings new challenges such as open vocabulary, complex syntactic structures and diverse discourse
+phenomena. Every data input consists of a meaning representation (MR) that includes a sequence
+of attribute-value pairs and a corresponding target, a natural language (NL) reference text.
+Metrics: We report the same metrics as in (Novikova et al., 2017b), namely BLEU (Papineni et al.,
+2002), NIST (Doddington, 2002), METEOR (Lavie & Agarwal, 2007), ROUGE-L (Lin, 2004) and
+CIDEr (Vedantam et al., 2015). BLEU is a method to evaluate the quality of automated machine
+translations that scales the geometric mean of the precision scores of the n-grams in a generated
+text by an exponential brevity penalty factor. Similarly, NIST is based on BLEU with some slight
+changes. NIST uses weighted precision scores of the n-grams determined by how informative each
+of them are, instead of an equal weighting as in BLEU, and loosens the brevity penalty for small
+variations. METEOR evaluates the quality of the generated text at a segment level. It constructs
+a word alignment between strings and scores them using a parameterized harmonic mean of their
+unigram precision and recall. ROGUE-L is a metric that naturally captures sentence level structures
+by only awarding scores to in-sequence co-occurrences in the predicted and reference text. Lastly,
+CIDEr is a measure for how well the generated text matches the consensus of a set of reference image
+descriptors. It scores the frequency of n-grams in the generated text that occurs in the reference
+sentences and discounts n-grams that appear commonly across all images in the dataset.
+Model: We use the pre-trained GPT-2 medium (Radford et al., 2019) from the HuggingFace Trans-
+formers library (Wolf et al., 2020) for evaluation on the E2E dataset. GPT-2 medium contains 355M
+parameters with 24 layers, 16 attention heads and 1,024 hidden dimensions.
+22
+
+Published as a conference paper at ICLR 2025
+Table 8: Hyperparameter settings for LoRA and MoLEx on the E2E NLG task when fine-tuning GPT-2 medium
+(M).
+GPT-2 M
+LoRA
+Dataset
+E2E
+Training
+Optimizer
+AdamW
+Weight Decay
+0.01
+Dropout Prob
+0.1
+Batch Size
+8
+# Epoch
+5
+Warmup Steps
+500
+Learning Rate Schedule
+Linear
+Label Smooth
+0.1
+Learning Rate
+0.0002
+Adaptation
+rq = rv = 4
+LoRA α
+32
+GPT-2 M
+MoLEx gate
+Gate Type
+Linear
+Layers with MoLEx
+0 to 11 (inclusive)
+Indv Gate
+×
+Batch Agg
+Mode
+Mixing Weights
+Fixed
+Load Balance
+0.01
+Inference
+Beam Size
+10
+Length Penalty
+0.9
+No Repeat Ngram Size
+4
+Implementation details: We follow the same fine-tuning setup as in Li & Liang (2021) and LoRA
+(Hu et al., 2021) using their publicly available code https://github.com/microsoft/
+LoRA. We also optimize the hyperparameters of the gate used in deciding the layer experts to
+be used for mixing. These settings can be found in Table 8 and we use the same optimizer, AdamW
+(Loshchilov, 2017), as the LoRA parameters with a learning rate of 0.1 and weight decay of 0.01.
+We report the mean and standard deviation over 5 random seeds for all results and the result for each
+run is taken from the best epoch.
+While we employ batch routing in MoLEx, each token will have a different choice of layer to be
+routed to as every token is processed by the gate. In deciding the overall batch’s decision for GPT-2,
+we use a majority-takes-all scheme where we route the batch to the layer which majority of tokens
+have chosen (Mode). We use a linear gating function with a softmax activation and only implement
+MoLEx in the first 12 layers of the model. The mixing weights are fixed and we use a value of
+α = 0.95 as defined in Eqn. 4. All layers share the same gate for routing.
+C
+ADDITIONAL EMPIRICAL ANALYSIS DETAILS
+C.1
+PROBING TASKS
+Probing (or diagonostic) tasks (Adi et al., 2016; Hupkes et al., 2018; Conneau et al., 2018) aid us in
+the discovery of linguistic features potentially encoded in a deep learning model. Specifically, in the
+hidden representations of the input in each layer. In order to understand these representations using
+a probe, an auxiliary classification task is set up where the representations are used as features to
+predict certain linguistic properties of interest. The better the performance of the classifier, the more
+likely that the layer’s hidden embedding encodes for that particular property. Using the 10 probing
+tasks developed by (Conneau et al., 2018) and inspired by (Jawahar et al., 2019), who had done a
+similar analysis on BERT, we evaluate each layer of RoBERTa and present the results in Table 4.
+In each tasks’s dataset, there are 100K training sentences and 10K-sentence validation and test sets.
+All sets are equally balance among the target classes. These datasets were constructed by (Conneau
+et al., 2018) from the Toronto Book Corpus (Zhu, 2015; Paperno et al., 2016).
+23
+
+Published as a conference paper at ICLR 2025
+Surface Information: SentLen is a task to predict the length of a sentence, which is considered to
+be the number of words in the sentence. It is converted into a 6-way classification task by grouping
+sentence lengths into 6 equal-width bins. WC is a classification task with 1000 classes. Each class is
+a word and each input is a sentence that contains one and only one of the words within those classes.
+The task is to predict which word is contained within the input sentence.
+Syntactic Information: BShift is a binary classification task where half the dataset has sentences
+intact and another half has sentences with 2 random adjacent words inverted. The goal is to predict if
+the sentence has a legal word order or if it has been inverted. TreeD assesses whether the hierarchical
+structure of sentences can be inferred from the hidden layer’s embedding. The task is to determine
+the depth of the longest path from root to any leaf in the sentence, with possible depths ranging from
+5 to 12. Hence, resulting in a 8-way classification task. TopConst is a 20-class task where 19 classes
+represent the most frequent top constituent sequence and the last class is for all the others. The
+classifier has to identify which sequence of top constituents immediately follow the input sentence
+node, which is illustrative of the latent syntactic structures captured by each layer’s representation.
+Semantic Information: The goal of the Tense task is to identify the tense of the main-clause verb in
+the input sentence. For the SubjNum and ObjNum tasks, both focus on the number of the subject and
+respectively, direct object, of the main clause. In the SOMO dataset, sentences are modified through
+the replacement of a random noun or verb with another in a challenging way. The bigrams containing
+these noun or verb replacements will have a comparable corpus frequency with the original, making
+the task all the more difficult. The last task, the CoordInv dataset comprises of sentences with pairs
+of coordinate clauses, of which some orders have been inverted. The classifier is meant to identify
+if the sentences are intact or inverted as a binary classification task.
+C.2
+IMPLEMENTATION DETAILS
+We use the SentEval toolkit (Conneau & Kiela, 2018), available publicly at https://github.
+com/facebookresearch/SentEval, and the same set up as (Jawahar et al., 2019) for our
+probe analysis.
+We send each of the datasets in the 10 probing tasks through the pre-trained
+RoBERTA-base model that we use for fine-tuning and extract the feature representations from each
+layer. Next, we train classifiers, that are simple MLPs with a sigmoid activation, on these features
+as input. We use the recommended hyperparameter search space of {50, 100, 200} hidden units and
+{0.0, 0.1, 0.2} dropout for each task and an additional logistic regression model for the word content
+(WC) task as it contains 1,000 classes. We report the best classifier’s results in Table 4.
+C.3
+FULL RESULTS OF SECTION 4
+We present the full results of the different layer experts being mixed at inference time for all GLUE
+tasks when fine-tuning RoBERTa-base with MoLEx in Figure 3. Interestingly, for QQP and MNLI,
+there is a heavy emphasis on the middle layers. As the middle layers encode for syntactic informa-
+tion, MNLI as an inference task does require that structural information to understand the logical
+implications of the input. However, as QQP is a semantic similarity classification task, it is not ob-
+vious why it would require more syntactic information. Indeed, if we look at MRPC, a similar task
+on sentences instead of questions, it mainly chooses the earlier layers for surface level information
+which does make sense for sentence similarity. The main distinction between the 2 tasks is that
+the inputs are either questions or sentences. A plausible explanation is that questions require more
+syntactic information to be understood, resulting in our findings.
+C.4
+LINGUISTIC PROPERTIES CAPTURED BY ROBERTA
+In this section we will discuss the linguistic properties captured by RoBERTa as revealed through
+our probe analysis. We observe in Table 4 that across almost all probes, layer 11 does particularly
+well, suggesting that the last layer of the model encodes a considerable amount of general linguistic
+information. This is the main contrast to the probe analysis performed on BERT in (Jawahar et al.,
+2019) and could be an unintended consequence of the optimized training recipe in RoBERTa, high-
+lighting how various training protocols can influence the learning outcomes of a model. It is also
+worth noting that all probes on RoBERTa, except for WC, performs roughly on the same scale as
+BERT while WC is much poorer in comparison, even with logistic regression. This could suggest
+that this surface level information is not relevant to the NLP in the model.
+The remainder of the analysis corroborates with the probe analysis on BERT whereby the early lay-
+ers contain superficial information, the middle layers, syntactic information and later layers, seman-
+24
+
+Published as a conference paper at ICLR 2025
+Layer
+Layer
+%
+SST2
+MRPC
+QNLI
+QQP
+MNLI
+CoLA
+STS-B
+RTE
+Figure 3: Plots of heat maps to visualize the percentage of time each layer expert is chosen at every layer of
+MoLEx when fine-tuning RoBERTa-base on all GLUE tasks. As one expert is fixed to be the original layer,
+the x-axis corresponds to the sequential layer while the y-axis corresponds to the layer experts. The darker a
+square is, the more often that layer is chosen by the gate during inference. For example, when fine-tuning on
+CoLA, layer 9 mixes with layer 2, 100% of the time. The grids are partitioned into thirds along the x-axis and
+y-axis for easy visualization of early, middle and later layers.
+Table 9: Comparison of RoBERTa-base on GLUE tasks, CoLA, QQP and SST-2 when fine-tuned with MoLEx
+using Top-1 and Top-2 routing. We report accuracy for all tasks in the table below.
+Method
+CoLA
+QQP
+SST-2
+MoLEx (Top1)
+64.8 ±.5
+91.0 ±.0
+95.4 ±.2
+MoLEx (Top2)
+63.7 ±.4
+90.7 ±.0
+95.0 ±.3
+tic. This further aligns with the intuition that more complex structures within the data are revealed
+deeper in the model as it undergoes more processing as discussed in Section 2.2.
+D
+ABLATION STUDY
+Table 9 compares results on 3 GLUE tasks, CoLA, QQP, and SST-2 when using Top1 and Top2
+routing. We observe that Top1 yields more improvement. Thus, we use a Top1 routing for our
+MoLEx models.
+E
+ADDITIONAL EXPERIMENTAL RESULTS AND EFFICENCY ANALYSIS
+E.1
+FULL PARAMETER FINE-TUNING FOR ROBERTA
+We conduct additional experiments for RoBERTa-base using full parameter fine-tuning on the
+GLUE benchmark. We present the results in Table 10 below. Our MoLEx model consistently
+outperforms the full parameter fine-tuning across all tasks. These findings further confirm MoLEx’s
+adaptability to different models and training methods.
+E.2
+FINE-TUNING LLAMA-3.2-1B USING LORA
+We conduct additional experiments to fine-tune Llama-3.2-1B on the Alpaca dataset using LoRA.
+We use the publicly available repository https://github.com/meta-llama/llama3 for
+our experiments and employ MoLEx to fine-tune the model in comparison with LoRA. As shown
+25
+
+Published as a conference paper at ICLR 2025
+Table 10: RoBERTa-base with full parameter fine-tuning and with MoLEx when fine-tuned on the GLUE
+benchmark. We report accuracy for all tasks except for, Pearson correlation for STS-B, Matthew’s correlation
+for CoLA and the overall (matched and mismatched) accuracy for MNLI. A higher value reflects a better
+performance of the model.
+Method
+RTE
+MRPC
+STS-B
+CoLA
+MNLI
+QNLI
+SST-2
+QQP
+Ave.
+RoBERTa (full parameter)
+80.1
+88.7
+90.9
+62.6
+87.7
+92.9
+95.0
+91.8
+86.2
+RoBERTa (MoLEx)
+80.9
+89.5
+91.1
+63.3
+87.8
+93.1
+95.1
+91.8
+86.6
+Table 11: Train and validation perplexity (PPL) when fine-tuning Llama-3.2-1B on Alpaca using LoRA and
+LoRA + MoLEx. Lower PPL is indicative of better performance.
+Method
+Train PPL (↓)
+Validation PPL (↓)
+LoRA
+4.18
+4.11
+MoLEx
+4.05
+4.02
+Table 12: Accuracy when evaluating Llama-3.2-1B on MMLU, AGIEval English, Hellaswag, and ARC-
+Challenge using LoRA and LoRA + MoLEx. A higher value is indicative of better performance.
+Method
+MMLU
+AGIEval English
+Hellaswag
+ARC-Challenge
+LoRA
+30.42
+19.16
+47.14
+36.69
+MoLEx
+31.51
+19.81
+48.23
+37.80
+Table 13: Efficiency analysis of Llama-3.2-1B fine-tuned using LoRA during inference on the Alpaca dataset
+with and without MoLEx implemented.
+Method
+Total
+Trainable
+Trainable
+Memory
+Flop/
+Sec/
+Flop/
+Min/
+Parameters
+Parameters
+Parameters (%)
+(MB)
+Sample
+Sample
+Sec
+Epoch
+LoRA
+1,236,666,368
+851,968
+0.0689
+10,442
+12.329 T
+0.506
+24.366 T
+4:59
+MoLEx
+1,236,699,152
+884,752
+0.0715
+10,442
+22.511 T
+0.557
+40.415 T
+6:00
+in Table 11, on this task with Llama-3.2-1B, MoLEx achieves better train and validation PPL than
+LoRA, demonstrating the effectiveness of MoLEx in large language models.
+Further, we evaluate each model on the standard MMLU (Hendrycks et al., 2020), AGIEval English
+(Zhong et al., 2024), Hellaswag (Zellers et al., 2019), and ARC-Challenge dataset Clark et al. (2018)
+and report their results in Table 12. Consistent with our results on Alpaca, MoLEx improves over
+the naive LoRA model, confirming its advantage.
+E.3
+DETAILED EFFICIENCY ANALYSIS ON LLAMA-3.2-1B
+While more resources are required during inference in MoLEx as compared to the naive PEFT
+model, these can be accelerated during inference time through parallization. In this section, we
+include a more detailed efficiency analysis when implementing MoLEx in Llama-3.2-1B and using
+LoRA for fine-tuning on the Alpaca dataset.
+As computational efficiency refers to the amount of time required for a given step in a calculation,
+we maintain that MoLEx is as efficient as the original method used without MoLEx. While MoLEx
+almost doubles the overall computational load (flops), there is only a minimal increase in inference
+time due to parallelization of the forward computations through two layers. We present our analysis
+in the Table 13 for a more detailed comparison with naive PEFT models.
+26

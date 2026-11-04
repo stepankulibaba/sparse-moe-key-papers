@@ -1,0 +1,308 @@
+
+Armen Aghajanyan, Akshat Shrivastava, Anchit Gupta, Naman Goyal, Luke Zettlemoyer, and Sonal
+Gupta. Better ﬁne-tuning by reducing representational collapse. In International Conference on
+Learning Representations, 2021. URL https://openreview.net/forum?id=OQ08SN70M1V.
+Mikel Artetxe, Sebastian Ruder, and Dani Yogatama. On the cross-lingual transferability of monolin-
+gual representations. In Proceedings of the 58th Annual Meeting of the Association for Computa-
+tional Linguistics, pages 4623–4637, Online, July 2020. Association for Computational Linguis-
+tics. doi: 10.18653/v1/2020.acl-main.421. URL https://www.aclweb.org/anthology/2020.
+acl-main.421.
+Mikel Artetxe, Shruti Bhosale, Naman Goyal, Todor Mihaylov, Myle Ott, Sam Shleifer, Xi Victoria
+Lin, Jingfei Du, Srinivasan Iyer, Ramakanth Pasunuru, et al. Efﬁcient large scale language
+modeling with mixtures of experts. arXiv preprint arXiv:2112.10684, 2021.
+Hangbo Bao, Li Dong, Songhao Piao, and Furu Wei. BEiT: BERT pre-training of image transformers.
+In International Conference on Learning Representations, 2022. URL https://openreview.
+net/forum?id=p-BhZSz59o4.
+Emmanuel Bengio, Pierre-Luc Bacon, Joelle Pineau, and Doina Precup. Conditional computation in
+neural networks for faster models. arXiv preprint arXiv:1511.06297, 2015.
+10
+
+Yoshua Bengio, Nicholas Léonard, and Aaron Courville. Estimating or propagating gradients through
+stochastic neurons for conditional computation. arXiv preprint arXiv:1308.3432, 2013.
+Xinlei Chen and Kaiming He. Exploring simple siamese representation learning. In Proceedings
+of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 15750–15758,
+2021.
+Zewen Chi, Li Dong, Bo Zheng, Shaohan Huang, Xian-Ling Mao, Heyan Huang, and Furu Wei.
+Improving pretrained cross-lingual language models via self-labeled word alignment. In Pro-
+ceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the
+11th International Joint Conference on Natural Language Processing (Volume 1: Long Pa-
+pers), pages 3418–3430, Online, August 2021. Association for Computational Linguistics. doi:
+10.18653/v1/2021.acl-long.265. URL https://aclanthology.org/2021.acl-long.265.
+Aidan Clark, Diego de las Casas, Aurelia Guy, Arthur Mensch, Michela Paganini, Jordan Hoffmann,
+Bogdan Damoc, Blake Hechtman, Trevor Cai, Sebastian Borgeaud, et al. Uniﬁed scaling laws for
+routed language models. arXiv preprint arXiv:2202.01169, 2022.
+Jonathan H. Clark, Eunsol Choi, Michael Collins, Dan Garrette, Tom Kwiatkowski, Vitaly Nikolaev,
+and Jennimaria Palomaki. TyDi QA: A benchmark for information-seeking question answering in
+typologically diverse languages. Transactions of the Association for Computational Linguistics,
+8:454–470, 2020. doi: 10.1162/tacl_a_00317. URL https://www.aclweb.org/anthology/
+2020.tacl-1.30.
+Alexis Conneau and Guillaume Lample. Cross-lingual language model pretraining. In Advances in
+Neural Information Processing Systems 32: Annual Conference on Neural Information Processing
+Systems 2019, NeurIPS 2019, pages 7057–7067, 2019. URL https://proceedings.neurips.
+cc/paper/2019/hash/c04c19c2c2474dbf5f7ac4372c5b9af1-Abstract.html.
+Alexis Conneau, Ruty Rinott, Guillaume Lample, Adina Williams, Samuel Bowman, Holger Schwenk,
+and Veselin Stoyanov. XNLI: Evaluating cross-lingual sentence representations. In Proceedings of
+the 2018 Conference on Empirical Methods in Natural Language Processing, pages 2475–2485,
+Brussels, Belgium, October-November 2018. Association for Computational Linguistics. doi:
+10.18653/v1/D18-1269. URL https://www.aclweb.org/anthology/D18-1269.
+Alexis Conneau, Kartikay Khandelwal, Naman Goyal, Vishrav Chaudhary, Guillaume Wenzek,
+Francisco Guzmán, Edouard Grave, Myle Ott, Luke Zettlemoyer, and Veselin Stoyanov. Un-
+supervised cross-lingual representation learning at scale. In Proceedings of the 58th Annual
+Meeting of the Association for Computational Linguistics, ACL 2020, pages 8440–8451. As-
+sociation for Computational Linguistics, 2020. doi: 10.18653/v1/2020.acl-main.747. URL
+https://doi.org/10.18653/v1/2020.acl-main.747.
+Damai Dai, Li Dong, Shuming Ma, Bo Zheng, Zhifang Sui, Baobao Chang, and Furu Wei. StableMoE:
+Stable routing strategy for mixture of experts. In Proceedings of the 60th Annual Meeting of the
+Association for Computational Linguistics (Volume 1: Long Papers), pages 7085–7095, Dublin,
+Ireland, May 2022. Association for Computational Linguistics. URL https://aclanthology.
+org/2022.acl-long.489.
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+BERT: pre-training of
+deep bidirectional transformers for language understanding. In Proceedings of the 2019 Confer-
+ence of the North American Chapter of the Association for Computational Linguistics: Human
+Language Technologies, NAACL-HLT 2019, Volume 1 (Long and Short Papers), pages 4171–
+4186. Association for Computational Linguistics, 2019. doi: 10.18653/v1/n19-1423. URL
+https://doi.org/10.18653/v1/n19-1423.
+Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas
+Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit,
+and Neil Houlsby. An image is worth 16x16 words: Transformers for image recognition at scale.
+In International Conference on Learning Representations, 2021. URL https://openreview.
+net/forum?id=YicbFdNTTy.
+11
+
+Nan Du, Yanping Huang, Andrew M Dai, Simon Tong, Dmitry Lepikhin, Yuanzhong Xu, Maxim
+Krikun, Yanqi Zhou, Adams Wei Yu, Orhan Firat, et al. Glam: Efﬁcient scaling of language models
+with mixture-of-experts. arXiv preprint arXiv:2112.06905, 2021.
+Aleksandr Ermolov, Aliaksandr Siarohin, Enver Sangineto, and Nicu Sebe. Whitening for self-
+supervised representation learning. In Marina Meila and Tong Zhang, editors, Proceedings of
+the 38th International Conference on Machine Learning, volume 139 of Proceedings of Machine
+Learning Research, pages 3015–3024. PMLR, 18–24 Jul 2021. URL https://proceedings.
+mlr.press/v139/ermolov21a.html.
+William Fedus, Barret Zoph, and Noam Shazeer. Switch transformers: Scaling to trillion parameter
+models with simple and efﬁcient sparsity. arXiv preprint arXiv:2101.03961, 2021.
+Junjie Hu, Sebastian Ruder, Aditya Siddhant, Graham Neubig, Orhan Firat, and Melvin Johnson.
+XTREME: A massively multilingual multi-task benchmark for evaluating cross-lingual generaliza-
+tion. arXiv preprint arXiv:2003.11080, 2020.
+Robert A Jacobs, Michael I Jordan, Steven J Nowlan, and Geoffrey E Hinton. Adaptive mixtures of
+local experts. Neural computation, 3(1):79–87, 1991.
+Li Jing, Pascal Vincent, Yann LeCun, and Yuandong Tian. Understanding dimensional collapse in
+contrastive self-supervised learning. In International Conference on Learning Representations,
+2022. URL https://openreview.net/forum?id=YevsQ05DEN7.
+Michael I Jordan and Robert A Jacobs. Hierarchical mixtures of experts and the em algorithm. Neural
+computation, 6(2):181–214, 1994.
+Taku Kudo and John Richardson. SentencePiece: A simple and language independent subword
+tokenizer and detokenizer for neural text processing. In Proceedings of the 2018 Conference
+on Empirical Methods in Natural Language Processing: System Demonstrations, pages 66–71,
+Brussels, Belgium, November 2018. Association for Computational Linguistics. doi: 10.18653/v1/
+D18-2012. URL https://www.aclweb.org/anthology/D18-2012.
+Kenichi Kumatani, Robert Gmyr, Felipe Cruz Salinas, Linquan Liu, Wei Zuo, Devang Patel, Eric
+Sun, and Yu Shi. Building a great multi-lingual teacher with sparsely-gated mixture of experts for
+speech recognition. arXiv preprint arXiv:2112.05820, 2021.
+Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu, Dehao Chen, Orhan Firat, Yanping Huang,
+Maxim Krikun, Noam Shazeer, and Zhifeng Chen. {GS}hard: Scaling giant models with condi-
+tional computation and automatic sharding. In International Conference on Learning Representa-
+tions, 2021. URL https://openreview.net/forum?id=qrwe7XHTmYb.
+Mike Lewis, Shruti Bhosale, Tim Dettmers, Naman Goyal, and Luke Zettlemoyer. Base layers:
+Simplifying training of large, sparse models. In International Conference on Machine Learning,
+pages 6265–6274. PMLR, 2021.
+Patrick Lewis, Barlas Oguz, Ruty Rinott, Sebastian Riedel, and Holger Schwenk. MLQA: Evaluating
+cross-lingual extractive question answering. In Proceedings of the 58th Annual Meeting of the
+Association for Computational Linguistics, pages 7315–7330, Online, July 2020. Association for
+Computational Linguistics. URL https://www.aclweb.org/anthology/2020.acl-main.
+653.
+Leland McInnes, John Healy, and James Melville. Umap: Uniform manifold approximation and
+projection for dimension reduction. arXiv preprint arXiv:1802.03426, 2018.
+Xiaoman Pan, Boliang Zhang, Jonathan May, Joel Nothman, Kevin Knight, and Heng Ji. Cross-lingual
+name tagging and linking for 282 languages. In Proceedings of the 55th Annual Meeting of the
+Association for Computational Linguistics (Volume 1: Long Papers), pages 1946–1958, Vancouver,
+Canada, July 2017. Association for Computational Linguistics. doi: 10.18653/v1/P17-1178. URL
+https://www.aclweb.org/anthology/P17-1178.
+Vardan Papyan, XY Han, and David L Donoho. Prevalence of neural collapse during the terminal
+phase of deep learning training. Proceedings of the National Academy of Sciences, 117(40):
+24652–24663, 2020.
+12
+
+Zhiliang Peng, Li Dong, Hangbo Bao, Qixiang Ye, and Furu Wei. BEiT v2: Masked image modeling
+with vector-quantized visual tokenizers. ArXiv, abs/2208.06366, 2022.
+Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and Ilya Sutskever. Language
+models are unsupervised multitask learners. OpenAI blog, 2019. URL http://www.persagen.
+com/files/misc/radford2019language.pdf.
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena,
+Yanqi Zhou, Wei Li, and Peter J. Liu. Exploring the limits of transfer learning with a uniﬁed
+text-to-text transformer. Journal of Machine Learning Research, 21(140):1–67, 2020. URL
+http://jmlr.org/papers/v21/20-074.html.
+Afshin Rahimi, Yuan Li, and Trevor Cohn. Massively multilingual transfer for NER. In Proceedings
+of the 57th Annual Meeting of the Association for Computational Linguistics, pages 151–164,
+Florence, Italy, July 2019. Association for Computational Linguistics. doi: 10.18653/v1/P19-1015.
+URL https://www.aclweb.org/anthology/P19-1015.
+Carlos Riquelme, Joan Puigcerver, Basil Mustafa, Maxim Neumann, Rodolphe Jenatton, André
+Susano Pinto, Daniel Keysers, and Neil Houlsby. Scaling vision with sparse mixture of experts.
+Advances in Neural Information Processing Systems, 34, 2021.
+Stephen Roller, Sainbayar Sukhbaatar, Jason Weston, et al. Hash layers for large sparse models.
+Advances in Neural Information Processing Systems, 34, 2021.
+Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, and
+Jeff Dean. Outrageously large neural networks: The sparsely-gated mixture-of-experts layer. In
+International Conference on Learning Representations, 2017. URL https://openreview.net/
+forum?id=B1ckMDqlg.
+Tom Tirer and Joan Bruna. Extended unconstrained features model for exploring deep neural collapse.
+arXiv preprint arXiv:2202.08087, 2022.
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez,
+Lukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Advances in Neural In-
+formation Processing Systems 30: Annual Conference on Neural Information Processing Sys-
+tems 2017, pages 5998–6008, 2017. URL https://proceedings.neurips.cc/paper/2017/
+hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html.
+Wenhui Wang, Hangbo Bao, Li Dong, Johan Bjorck, Zhiliang Peng, Qiang Liu, Kriti Aggarwal,
+Owais Mohammed, Saksham Singhal, Subhojit Som, and Furu Wei. Image as a foreign language:
+BEiT pretraining for all vision and vision-language tasks. ArXiv, abs/2208.10442, 2022.
+Yiren Wang, ChengXiang Zhai, and Hany Hassan. Multi-task learning for multilingual neural machine
+translation. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language
+Processing (EMNLP), pages 1022–1034, Online, November 2020. Association for Computational
+Linguistics. doi: 10.18653/v1/2020.emnlp-main.75. URL https://aclanthology.org/2020.
+emnlp-main.75.
+Guillaume Wenzek, Marie-Anne Lachaux, Alexis Conneau, Vishrav Chaudhary, Francisco Guzman,
+Armand Joulin, and Edouard Grave. CCNet: Extracting high quality monolingual datasets from
+web crawl data. arXiv preprint arXiv:1911.00359, 2019.
+Linting Xue, Noah Constant, Adam Roberts, Mihir Kale, Rami Al-Rfou, Aditya Siddhant, Aditya
+Barua, and Colin Raffel. mT5: A massively multilingual pre-trained text-to-text transformer. arXiv
+preprint arXiv:2010.11934, 2020.
+Yinfei Yang, Yuan Zhang, Chris Tar, and Jason Baldridge. PAWS-X: A cross-lingual adversarial
+dataset for paraphrase identiﬁcation. In Proceedings of the 2019 Conference on Empirical Methods
+in Natural Language Processing and the 9th International Joint Conference on Natural Language
+Processing (EMNLP-IJCNLP), pages 3687–3692, Hong Kong, China, November 2019. Association
+for Computational Linguistics. doi: 10.18653/v1/D19-1382. URL https://www.aclweb.org/
+anthology/D19-1382.
+13
+
+Daniel Zeman, Joakim Nivre, Mitchell Abrams, and et al. Universal dependencies 2.5, 2019.
+URL http://hdl.handle.net/11234/1-3105. LINDAT/CLARIAH-CZ digital library at the
+Institute of Formal and Applied Linguistics (ÚFAL), Faculty of Mathematics and Physics, Charles
+University.
+Yanqi Zhou, Tao Lei, Han-Chu Liu, Nan Du, Yanping Huang, Vincent Zhao, Andrew M. Dai, Zhifeng
+Chen, Quoc Le, and James Laudon. Mixture-of-experts with expert choice routing. arXiv preprint
+arXiv:2202.09368, 2022.
+Zhihui Zhu, Tianyu DING, Jinxin Zhou, Xiao Li, Chong You, Jeremias Sulam, and Qing Qu. A
+geometric analysis of neural collapse with unconstrained features. In A. Beygelzimer, Y. Dauphin,
+P. Liang, and J. Wortman Vaughan, editors, Advances in Neural Information Processing Systems,
+2021. URL https://openreview.net/forum?id=KRODJAa6pzE.
+Barret Zoph, Irwan Bello, Sameer Kumar, Nan Du, Yanping Huang, Jeff Dean, Noam Shazeer, and
+William Fedus. Designing effective sparse expert models. arXiv preprint arXiv:2202.08906, 2022.
+14
+
+A
+Model Hyperparameters
+Table 8 presents the model hyperparameters of X-MOE. The gating temperature τ0 is initialized as
+0.3 and 0.07 for the softmax gating and sigmoid gating, respectively. We use the same vocabulary
+as XLM-R (Conneau et al., 2020) with 250K subwords tokenized by SentencePiece (Kudo and
+Richardson, 2018).
+Table 8: Model hyperparameters of X-MOE.
+Hyperparameters
+Value
+FFNs in X-MOE layer
+3
+Number of experts
+32
+Expert embedding dimension
+16
+Initialized gating temperature τ0
+0.3 / 0.07
+Transformer blocks
+12
+Hidden size
+768
+FFN inner hidden size
+3,072
+Attention heads
+12
+B
+Hyperparameters for Pre-training
+Table 9 presents the hyperparameters for pre-training.
+Table 9: Hyperparameters for pre-training.
+Hyperparameters
+Value
+Optimizer
+Adam
+Training steps
+125,000
+Batch tokens per task
+1M
+Adam ϵ
+1e-6
+Adam β
+(0.9, 0.98)
+Maximum learning rate
+5e-4
+Learning rate schedule
+Linear decay
+Warmup steps
+10,000
+Weight decay
+0.01
+Transformer dropout
+0.1
+X-MOE dropout
+0
+Load balancing coefﬁcient
+1e-2
+C
+Hyperparameters for Fine-tuning
+Table 10 presents the hyperparameters for ﬁne-tuning.
+Table 10: Hyperparameters for ﬁne-tuning on the XTREME downstream tasks.
+Hyperparameters
+POS
+NER
+XQuAD
+MLQA
+TyDiQA
+XNLI
+PAWS-X
+Batch size
+8
+8
+32
+32
+32
+32
+32
+Learning rate
+{1,2,3}e-5
+{5,...,9}e-6
+{2,3,4}e-5
+{2,3,4}e-5
+{2,3,4}e-5
+2e-5
+{1,2}e-5
+LR schedule
+Linear decay
+Linear decay
+Linear decay
+Linear decay
+Linear decay
+Linear decay
+Linear decay
+Warmup
+10%
+10%
+10%
+10%
+10%
+20%
+10%
+Weight decay
+0
+0
+0
+0
+0
+1e-2
+0
+Epochs
+10
+10
+{2,3,4}
+{2,3,4}
+{10,20,40}
+5
+10
+Load balancing
+0,1e{-3,-2,-1} 0,1e{-3,-2,-1} 0,1e{-3,-2,-1} 0,1e{-3,-2,-1} 0,1e{-3,-2,-1} 0,1e{-3,-2,-1} 0,1e{-3,-2,-1}
+15

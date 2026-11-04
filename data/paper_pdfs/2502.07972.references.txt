@@ -1,0 +1,651 @@
+
+Chen, J., Xiao, S., Zhang, P., Luo, K., Lian, D., and
+Liu, Z.
+Bge m3-embedding:
+Multi-lingual, multi-
+functionality, multi-granularity text embeddings through
+self-knowledge distillation, 2024.
+URL https://
+arxiv.org/abs/2402.03216.
+Conneau, A., Khandelwal, K., Goyal, N., Chaudhary, V.,
+Wenzek, G., Guzm´an, F., Grave, E., Ott, M., Zettle-
+moyer, L., and Stoyanov, V. Unsupervised cross-lingual
+representation learning at scale, 2020. URL https:
+//arxiv.org/abs/1911.02116.
+Devlin, J., Chang, M.-W., Lee, K., and Toutanova, K. Bert:
+Pre-training of deep bidirectional transformers for lan-
+guage understanding, 2019.
+Fedus, W., Zoph, B., and Shazeer, N. Switch transformers:
+Scaling to trillion parameter models with simple and ef-
+ficient sparsity, 2022. URL https://arxiv.org/
+abs/2101.03961.
+Gale, T., Narayanan, D., Young, C., and Zaharia, M.
+Megablocks: Efficient sparse training with mixture-of-
+experts, 2022.
+URL https://arxiv.org/abs/
+2211.15841.
+Gumma, V., Chitale, P. A., and Bali, K. Towards induc-
+ing document-level abilities in standard multilingual neu-
+ral machine translation models, 2024.
+URL https:
+//arxiv.org/abs/2408.11382.
+G¨unther, M., Milliken, L., Geuter, J., Mastrapas, G., Wang,
+B., and Xiao, H. Jina embeddings: A novel set of high-
+performance sentence embedding models, 2023.
+G¨unther, M., Ong, J., Mohr, I., Abdessalem, A., Abel, T.,
+Akram, M. K., Guzman, S., Mastrapas, G., Sturua, S.,
+Wang, B., Werk, M., Wang, N., and Xiao, H. Jina embed-
+dings 2: 8192-token general-purpose text embeddings for
+long documents, 2024.
+Hallee, L., Kapur, R., Patel, A., Gleghorn, J. P., and
+Khomtchouk, B. Contrastive learning and mixture of
+experts enables precise vector embeddings, 2024. URL
+https://arxiv.org/abs/2401.15713.
+Hochreiter, S. and Schmidhuber, J. Long Short-Term Mem-
+ory.
+Neural Computation, 9(8):1735–1780, 11 1997.
+ISSN 0899-7667.
+doi: 10.1162/neco.1997.9.8.1735.
+8
+
+Training Sparse Mixture Of Experts Text Embedding Models
+URL https://doi.org/10.1162/neco.1997.
+9.8.1735.
+Jiang, A. Q., Sablayrolles, A., Mensch, A., Bamford, C.,
+Chaplot, D. S., de las Casas, D., Bressand, F., Lengyel,
+G., Lample, G., Saulnier, L., Lavaud, L. R., Lachaux, M.-
+A., Stock, P., Scao, T. L., Lavril, T., Wang, T., Lacroix,
+T., and Sayed, W. E. Mistral 7b, 2023.
+Komatsuzaki, A., Puigcerver, J., Lee-Thorp, J., Ruiz, C. R.,
+Mustafa, B., Ainslie, J., Tay, Y., Dehghani, M., and
+Houlsby, N.
+Sparse upcycling: Training mixture-of-
+experts from dense checkpoints, 2023. URL https:
+//arxiv.org/abs/2212.05055.
+Krajewski, J., Ludziejewski, J., Adamczewski, K., Pi´oro,
+M., Krutul, M., Antoniak, S., Ciebiera, K., Kr´ol, K.,
+Odrzyg´o´zd´z, T., Sankowski, P., Cygan, M., and Jaszczur,
+S. Scaling laws for fine-grained mixture of experts, 2024.
+URL https://arxiv.org/abs/2402.07871.
+Kusupati, A., Bhatt, G., Rege, A., Wallingford, M., Sinha,
+A., Ramanujan, V., Howard-Snyder, W., Chen, K.,
+Kakade, S., Jain, P., and Farhadi, A. Matryoshka represen-
+tation learning, 2024. URL https://arxiv.org/
+abs/2205.13147.
+Kwiatkowski, T., Palomaki, J., Redfield, O., Collins, M.,
+Parikh, A., Alberti, C., Epstein, D., Polosukhin, I., Kel-
+cey, M., Devlin, J., Lee, K., Toutanova, K. N., Jones,
+L., Chang, M.-W., Dai, A., Uszkoreit, J., Le, Q., and
+Petrov, S. Natural questions: a benchmark for question
+answering research. Transactions of the Association of
+Computational Linguistics, 2019.
+Lee, C., Roy, R., Xu, M., Raiman, J., Shoeybi, M., Catan-
+zaro, B., and Ping, W. Nv-embed: Improved techniques
+for training llms as generalist embedding models. arXiv
+preprint arXiv:2405.17428, 2024a.
+Lee, C., Roy, R., Xu, M., Raiman, J., Shoeybi, M., Catan-
+zaro, B., and Ping, W. Nv-embed: Improved techniques
+for training llms as generalist embedding models, 2024b.
+URL https://arxiv.org/abs/2405.17428.
+Lee, J., Dai, Z., Ren, X., Chen, B., Cer, D., Cole, J. R.,
+Hui, K., Boratko, M., Kapadia, R., Ding, W., Luan, Y.,
+Duddu, S. M. K., Abrego, G. H., Shi, W., Gupta, N.,
+Kusupati, A., Jain, P., Jonnalagadda, S. R., Chang, M.-W.,
+and Naim, I. Gecko: Versatile text embeddings distilled
+from large language models, 2024c. URL https://
+arxiv.org/abs/2403.20327.
+Lepikhin, D., Lee, H., Xu, Y., Chen, D., Firat, O., Huang, Y.,
+Krikun, M., Shazeer, N., and Chen, Z. Gshard: Scaling
+giant models with conditional computation and automatic
+sharding, 2020. URL https://arxiv.org/abs/
+2006.16668.
+Li, Z. and Zhou, T. Your mixture-of-experts llm is secretly
+an embedding model for free, 2024. URL https://
+arxiv.org/abs/2410.10814.
+Li, Z., Zhang, X., Zhang, Y., Long, D., Xie, P., and Zhang,
+M. Towards general text embeddings with multi-stage
+contrastive learning, 2023.
+Liu, X., Yan, H., Zhang, S., An, C., Qiu, X., and Lin, D.
+Scaling laws of rope-based extrapolation, 2024. URL
+https://arxiv.org/abs/2310.05209.
+Liu, Y., Ott, M., Goyal, N., Du, J., Joshi, M., Chen, D.,
+Levy, O., Lewis, M., Zettlemoyer, L., and Stoyanov, V.
+Roberta: A robustly optimized bert pretraining approach,
+2019.
+Merrick, L., Xu, D., Nuti, G., and Campos, D. Arctic-
+embed: Scalable, efficient, and accurate text embedding
+models, 2024.
+URL https://arxiv.org/abs/
+2405.05374.
+Moreira, G. d. S. P., Osmulski, R., Xu, M., Ak, R., Schif-
+ferer, B., and Oldridge, E. Nv-retriever: Improving text
+embedding models with effective hard-negative mining.
+arXiv preprint arXiv:2407.15831, 2024.
+Muennighoff, N., Tazi, N., Magne, L., and Reimers, N.
+Mteb: Massive text embedding benchmark, 2023.
+Muennighoff, N., Su, H., Wang, L., Yang, N., Wei, F., Yu, T.,
+Singh, A., and Kiela, D. Generative representational in-
+struction tuning, 2024. URL https://arxiv.org/
+abs/2402.09906.
+Nussbaum, Z., Morris, J. X., Duderstadt, B., and Mulyar, A.
+Nomic embed: Training a reproducible long context text
+embedder, 2024. URL https://arxiv.org/abs/
+2402.01613.
+Rajpurkar, P., Zhang, J., Lopyrev, K., and Liang, P. SQuAD:
+100,000+ questions for machine comprehension of text.
+In Su, J., Duh, K., and Carreras, X. (eds.), Proceed-
+ings of the 2016 Conference on Empirical Methods in
+Natural Language Processing, pp. 2383–2392, Austin,
+Texas, November 2016. Association for Computational
+Linguistics. doi: 10.18653/v1/D16-1264. URL https:
+//aclanthology.org/D16-1264.
+Reimers, N. and Gurevych, I. Sentence-bert: Sentence
+embeddings using siamese bert-networks, 2019.
+Reimers, N. and Gurevych, I. Making monolingual sen-
+tence embeddings multilingual using knowledge distilla-
+tion, 2020. URL https://arxiv.org/abs/2004.
+09813.
+9
+
+Training Sparse Mixture Of Experts Text Embedding Models
+Ruder, S., Constant, N., Botha, J., Siddhant, A., Firat, O., Fu,
+J., Liu, P., Hu, J., Garrette, D., Neubig, G., and Johnson,
+M. Xtreme-r: Towards more challenging and nuanced
+multilingual evaluation, 2021. URL https://arxiv.
+org/abs/2104.07412.
+Shazeer, N., Mirhoseini, A., Maziarz, K., Davis, A., Le, Q.,
+Hinton, G., and Dean, J. Outrageously large neural net-
+works: The sparsely-gated mixture-of-experts layer, 2017.
+URL https://arxiv.org/abs/1701.06538.
+Su, H., Shi, W., Kasai, J., Wang, Y., Hu, Y., Ostendorf,
+M., tau Yih, W., Smith, N. A., Zettlemoyer, L., and Yu,
+T. One embedder, any task: Instruction-finetuned text
+embeddings, 2023a.
+Su, J., Lu, Y., Pan, S., Murtadha, A., Wen, B., and Liu,
+Y. Roformer: Enhanced transformer with rotary position
+embedding, 2023b.
+Thakur, N., Reimers, N., R¨uckl´e, A., Srivastava, A., and
+Gurevych, I. Beir: A heterogenous benchmark for zero-
+shot evaluation of information retrieval models, 2021.
+van den Oord, A., Li, Y., and Vinyals, O. Representation
+learning with contrastive predictive coding, 2019.
+Wang, A., Singh, A., Michael, J., Hill, F., Levy, O., and
+Bowman, S. R. GLUE: A multi-task benchmark and anal-
+ysis platform for natural language understanding. 2019.
+In the Proceedings of ICLR.
+Wang, L., Yang, N., Huang, X., Jiao, B., Yang, L., Jiang, D.,
+Majumder, R., and Wei, F. Text embeddings by weakly-
+supervised contrastive pre-training, 2022.
+Wang, L., Yang, N., Huang, X., Yang, L., Majumder, R., and
+Wei, F. Improving text embeddings with large language
+models, 2023.
+Wang, L., Yang, N., Huang, X., Jiao, B., Yang, L., Jiang, D.,
+Majumder, R., and Wei, F. Text embeddings by weakly-
+supervised contrastive pre-training, 2024a. URL https:
+//arxiv.org/abs/2212.03533.
+Wang, L., Yang, N., Huang, X., Yang, L., Majumder, R.,
+and Wei, F. Multilingual e5 text embeddings: A techni-
+cal report, 2024b. URL https://arxiv.org/abs/
+2402.05672.
+Xiao, S., Liu, Z., Zhang, P., and Muennighoff, N. C-pack:
+Packaged resources to advance general chinese embed-
+ding, 2023.
+Xiao, S., Liu, Z., Zhang, P., Muennighoff, N., Lian, D.,
+and Nie, J.-Y. C-pack: Packed resources for general
+chinese embeddings, 2024. URL https://arxiv.
+org/abs/2309.07597.
+Xiong, W., Liu, J., Molybog, I., Zhang, H., Bhargava, P.,
+Hou, R., Martin, L., Rungta, R., Sankararaman, K. A.,
+Oguz, B., Khabsa, M., Fang, H., Mehdad, Y., Narang,
+S., Malik, K., Fan, A., Bhosale, S., Edunov, S., Lewis,
+M., Wang, S., and Ma, H. Effective long-context scaling
+of foundation models, 2023. URL https://arxiv.
+org/abs/2309.16039.
+Xue, L., Constant, N., Roberts, A., Kale, M., Al-Rfou, R.,
+Siddhant, A., Barua, A., and Raffel, C. mt5: A massively
+multilingual pre-trained text-to-text transformer, 2021.
+URL https://arxiv.org/abs/2010.11934.
+Yu, P., Merrick, L., Nuti, G., and Campos, D. Arctic-embed
+2.0: Multilingual retrieval without compromise, 2024.
+URL https://arxiv.org/abs/2412.04506.
+Zhang, D., Li, J., Zeng, Z., and Wang, F.
+Jasper and
+stella: distillation of sota embedding models, 2025. URL
+https://arxiv.org/abs/2412.19048.
+Zhang, X., Thakur, N., Ogundepo, O., Kamalloo, E.,
+Alfonso-Hermelo, D., Li, X., Liu, Q., Rezagholizadeh,
+M., and Lin, J. Making a miracl: Multilingual infor-
+mation retrieval across a continuum of languages, 2022.
+URL https://arxiv.org/abs/2210.09984.
+Zhang, X., Zhang, Y., Long, D., Xie, W., Dai, Z., Tang,
+J., Lin, H., Yang, B., Xie, P., Huang, F., Zhang, M., Li,
+W., and Zhang, M. mgte: Generalized long-context text
+representation and reranking models for multilingual text
+retrieval, 2024. URL https://arxiv.org/abs/
+2407.19669.
+Zoph, B., Bello, I., Kumar, S., Du, N., Huang, Y., Dean, J.,
+Shazeer, N., and Fedus, W. St-moe: Designing stable and
+transferable sparse expert models, 2022. URL https:
+//arxiv.org/abs/2202.08906.
+10
+
+Training Sparse Mixture Of Experts Text Embedding Models
+A. Weakly Supervised Contrastive Pretraining Dataset Distribution
+The full pretraining dataset distribution can be see in Table A.
+Table 10. Dataset Distribution of 1.6B pairs for weakly supervised contrastive pretraining
+Code
+Language
+Pairs
+Code
+Language
+Pairs
+Code
+Language
+Pairs
+en
+English
+234,553,344
+be
+Belarusian
+589,824
+my
+Burmese
+147,456
+es
+Spanish
+210,010,112
+ml
+Malayalam
+557,056
+km
+Khmer
+131,072
+fr
+French
+172,769,280
+kn
+Kannada
+524,288
+mg
+Malagasy
+131,072
+de
+German
+169,426,944
+mk
+Macedonian
+425,984
+pa
+Punjabi
+131,072
+it
+Italian
+104,251,392
+ur
+Urdu
+409,600
+ru-Latn
+Russian (Latin)
+131,072
+pt
+Portuguese
+87,982,080
+fy
+Frisian
+393,216
+sn
+Shona
+131,072
+pl
+Polish
+63,209,472
+fil
+Filipino
+360,448
+zh-Latn
+Chinese (Latin)
+131,072
+nl
+Dutch
+50,118,656
+te
+Telugu
+360,448
+ha
+Hausa
+98,304
+tr
+Turkish
+49,053,696
+eu
+Basque
+344,064
+he
+Hebrew
+98,304
+ja
+Japanese
+43,433,984
+sw
+Swahili
+327,680
+hmn
+Hmong
+98,304
+vi
+Vietnamese
+40,058,880
+so
+Somali
+294,912
+ht
+Haitian
+98,304
+ru
+Russian
+38,731,776
+sd
+Sindhi
+262,144
+ja-Latn
+Japanese (Latin)
+98,304
+id
+Indonesian
+36,470,784
+uz
+Uzbek
+262,144
+su
+Sundanese
+98,304
+ar
+Arabic
+33,800,192
+co
+Corsican
+245,760
+bg-Latn
+Bulgarian (Latin)
+65,536
+cs
+Czech
+29,966,336
+hr
+Croatian
+245,760
+gd
+Scots Gaelic
+65,536
+ro
+Romanian
+24,772,608
+gu
+Gujarati
+229,376
+ny
+Nyanja
+65,536
+sv
+Swedish
+24,608,768
+hi-Latn
+Hindi (Latin)
+229,376
+ps
+Pashto
+65,536
+el
+Greek
+22,773,760
+ceb
+Cebuano
+196,608
+ku
+Kurdish
+49,152
+uk
+Ukrainian
+19,841,024
+eo
+Esperanto
+196,608
+sh
+Serbo-Croatian
+49,152
+zh
+Chinese
+18,661,376
+jv
+Javanese
+196,608
+am
+Amharic
+32,768
+hu
+Hungarian
+18,448,384
+la
+Latin
+196,608
+ig
+Igbo
+32,768
+da
+Danish
+14,548,992
+zu
+Zulu
+196,608
+lo
+Lao
+32,768
+no
+Norwegian
+12,812,288
+mn
+Mongolian
+180,224
+mi
+Maori
+32,768
+hi
+Hindi
+12,713,984
+si
+Sinhala
+180,224
+nn
+Norwegian Nynorsk
+32,768
+fi
+Finnish
+12,697,600
+el-Latn
+Greek (Latin)
+163,840
+sm
+Samoan
+32,768
+bg
+Bulgarian
+12,042,240
+ga
+Irish
+163,840
+yi
+Yiddish
+32,768
+ko
+Korean
+10,354,688
+ky
+Kyrgyz
+163,840
+st
+Sotho
+16,384
+sk
+Slovak
+8,962,048
+tg
+Tajik
+163,840
+tl
+Tagalog
+16,384
+th
+Thai
+7,602,176
+xh
+Xhosa
+16,384
+iw
+Hebrew
+5,783,552
+yo
+Yoruba
+16,384
+ca
+Catalan
+5,701,632
+lt
+Lithuanian
+5,242,880
+fa
+Persian
+5,177,344
+ms
+Malay
+4,325,376
+sl
+Slovenian
+4,259,840
+lv
+Latvian
+3,211,264
+mr
+Marathi
+2,588,672
+bn
+Bengali
+2,457,600
+sq
+Albanian
+2,113,536
+cy
+Welsh
+2,048,000
+B. Contrastive Finetuning Dataset Distribution
+Full finetuning data distribution can be found in Table C. We train on the training sets of BEIR and MIRACL as well as
+SQuAD and Stackoverflow.
+C. BEIR Retrieval Performance
+The full BEIR results broken down by task can be found in Table C. Nomic Embed v2 at 256 dimensions performs
+competitively to full dimensionality.
+11
+
+Training Sparse Mixture Of Experts Text Embedding Models
+Table 11. Contrastive finetuning data distribution
+Dataset
+Number of Samples
+English Datasets
+MSMARCO
+485,120
+Stack
+249,856
+SQuAD
+87,552
+HotPot
+82,432
+NQ
+57,856
+FEVER
+28,672
+MIRACL Train Datasets
+Russian
+4,608
+Indonesian
+3,840
+Arabic
+3,328
+Japanese
+3,328
+Telugu
+3,328
+Finnish
+2,816
+Thai
+2,816
+English
+2,560
+Spanish
+2,048
+Persian
+2,048
+Swahili
+1,792
+Bengali
+1,536
+Chinese
+1,280
+French
+1,024
+Hindi
+1,024
+Korean
+768
+Total
+1,029,632
+Table 12. BEIR Retrieval Performance
+Dataset
+Nomic Embed v2
+Nomic Embed v2 256
+Average
+52.86
+49.63
+ArguAna
+55.73
+51.97
+ClimateFEVER
+33.38
+29.58
+CQADupstack
+42.64
+40.25
+DBPedia
+41.44
+37.51
+FEVER
+87.17
+84.64
+FiQA2018
+38.74
+35.71
+HotpotQA
+68.53
+63.67
+MSMARCO
+40.89
+38.90
+NFCorpus
+34.60
+31.29
+NQ
+60.41
+56.12
+QuoraRetrieval
+87.95
+87.49
+SCIDOCS
+19.25
+17.71
+SciFact
+72.89
+66.31
+TRECCOVID
+78.78
+74.22
+Touche2020
+30.55
+29.03
+12

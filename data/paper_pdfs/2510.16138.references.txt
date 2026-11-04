@@ -1,0 +1,2068 @@
+
+Loubna Ben allal, Anton Lozhkov, Elie Bakouch, Gabriel Martin Blazquez, Guilherme Penedo,
+Lewis Tunstall, Andrés Marafioti, Agustín Piqueres Lajarín, Hynek Kydlíˇcek, Vaibhav Srivastav,
+Joshua Lochner, Caleb Fahlgren, Xuan Son NGUYEN, Ben Burtenshaw, Clémentine Fourrier,
+Haojun Zhao, Hugo Larcher, Mathieu Morlon, Cyril Zakka, Colin Raffel, Leandro Von Werra,
+and Thomas Wolf. SmolLM2: When smol goes big — data-centric training of a fully open
+small language model. In Second Conference on Language Modeling, 2025. URL https:
+//openreview.net/forum?id=3JiCl2A14H.
+Robert J Aumann and Sergiu Hart. Handbook of game theory with economic applications, volume 2.
+Elsevier, 1992.
+Jackie Baek and Vivek Farias. Fair exploration via axiomatic bargaining. In M. Ranzato, A. Beygelz-
+imer, Y. Dauphin, P.S. Liang, and J. Wortman Vaughan (eds.), Advances in Neural Information
+Processing Systems, volume 34, pp. 22034–22045. Curran Associates, Inc., 2021.
+D Bertsekas. Nonlinear Programming. Athena Scientific, 2008.
+Ruisi Cai, Zhenyu Zhang, and Zhangyang Wang. Robust weight signatures: Gaining robustness
+as easy as patching weights?
+In Andreas Krause, Emma Brunskill, Kyunghyun Cho, Barbara
+Engelhardt, Sivan Sabato, and Jonathan Scarlett (eds.), Proceedings of the 40th International
+Conference on Machine Learning, volume 202 of Proceedings of Machine Learning Research, pp.
+3495–3506. PMLR, 23–29 Jul 2023. URL https://proceedings.mlr.press/v202/
+cai23f.html.
+Daniel Cer, Mona Diab, Eneko Agirre, Iñigo Lopez-Gazpio, and Lucia Specia. SemEval-2017 task
+1: Semantic textual similarity multilingual and crosslingual focused evaluation. In Proceedings of
+the 11th International Workshop on Semantic Evaluation (SemEval-2017), pp. 1–14, Vancouver,
+Canada, August 2017. Association for Computational Linguistics. doi: 10.18653/v1/S17-2001.
+Zixiang Chen, Yihe Deng, Yue Wu, Quanquan Gu, and Yuanzhi Li. Towards understanding the
+mixture-of-experts layer in deep learning. In Alice H. Oh, Alekh Agarwal, Danielle Belgrave,
+and Kyunghyun Cho (eds.), Advances in Neural Information Processing Systems, 2022. URL
+https://openreview.net/forum?id=MaYzugDmQV.
+Mohammed Nowaz Rabbani Chowdhury, Shuai Zhang, Meng Wang, Sijia Liu, and Pin-Yu Chen.
+Patch-level routing in mixture-of-experts is provably sample-efficient for convolutional neural
+networks. In Andreas Krause, Emma Brunskill, Kyunghyun Cho, Barbara Engelhardt, Sivan Sabato,
+and Jonathan Scarlett (eds.), Proceedings of the 40th International Conference on Machine Learning,
+volume 202 of Proceedings of Machine Learning Research, pp. 6074–6114. PMLR, 23–29 Jul 2023.
+URL https://proceedings.mlr.press/v202/chowdhury23a.html.
+11
+
+Published as a conference paper at ICLR 2026
+Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, and
+Oyvind Tafjord. Think you have solved question answering? try ARC, the AI2 reasoning challenge.
+arXiv preprint arXiv:1803.05457, 2018. URL https://arxiv.org/abs/1803.05457.
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias
+Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, and John Schulman.
+Training verifiers to solve math word problems. arXiv preprint arXiv:2110.14168, 2021. URL
+https://arxiv.org/abs/2110.14168.
+Ido Dagan, Oren Glickman, and Bernardo Magnini. The pascal recognizing textual entailment
+challenge. In Proceedings of the First PASCAL Challenges Workshop on Recognising Textual
+Entailment, 2006.
+Damai Dai, Li Dong, Shuming Ma, Bo Zheng, Zhifang Sui, Baobao Chang, and Furu Wei. StableMoE:
+Stable routing strategy for mixture of experts. In Proceedings of the 60th Annual Meeting of the
+Association for Computational Linguistics (Volume 1: Long Papers), pp. 7085–7095, Dublin, Ireland,
+May 2022. Association for Computational Linguistics. doi: 10.18653/v1/2022.acl-long.489.
+Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. Imagenet: A large-scale
+hierarchical image database. In 2009 IEEE conference on computer vision and pattern recognition,
+pp. 248–255. Ieee, 2009.
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. Bert: Pre-training of deep
+bidirectional transformers for language understanding. In North American Chapter of the Associ-
+ation for Computational Linguistics, 2019. URL https://api.semanticscholar.org/
+CorpusID:52967399.
+Truong Giang Do, Le Huy Khiem, Quang Pham, TrungTin Nguyen, Thanh-Nam Doan, Binh T.
+Nguyen, Chenghao Liu, Savitha Ramasamy, Xiaoli Li, and Steven HOI. Hyperrouter: Towards
+efficient training and inference of sparse mixture of experts. In The 2023 Conference on Empirical
+Methods in Natural Language Processing, 2023. URL https://openreview.net/forum?
+id=fL8AKDvELp.
+William B Dolan and Chris Brockett. Automatically constructing a corpus of sentential paraphrases.
+In Proceedings of the Third International Workshop on Paraphrasing (IWP2005), 2005.
+Jean-Antoine Désidéri. Multiple-gradient descent algorithm (mgda) for multiobjective optimiza-
+tion. Comptes Rendus Mathematique, 350(5):313–318, 2012. ISSN 1631-073X. doi: https://doi.
+org/10.1016/j.crma.2012.03.014. URL https://www.sciencedirect.com/science/
+article/pii/S1631073X12000738.
+William Fedus, Barret Zoph, and Noam Shazeer. Switch transformers: scaling to trillion parameter
+models with simple and efficient sparsity. J. Mach. Learn. Res., 23(1), 2022. ISSN 1532-4435.
+Simon Foucart.
+Matrix norm and spectral radius.
+https://www.math.drexel.edu/
+~foucart/TeachingFiles/F12/M504Lect6.pdf, 2012. Accessed: 2020-05-21.
+Matsusaburô Fujiwara. Über die obere schranke des absoluten betrages der wurzeln einer algebraischen
+gleichung. Tohoku Mathematical Journal, 10:167–171, 1916.
+Gauthier Gidel, Reyhane Askari Hemmat, Mohammad Pezeshki, Rémi Le Priol, Gabriel Huang, Simon
+Lacoste-Julien, and Ioannis Mitliagkas. Negative momentum for improved game dynamics. In
+The 22nd International Conference on Artificial Intelligence and Statistics, pp. 1802–1811. PMLR,
+2019.
+Hussein Hazimeh, Zhe Zhao, Aakanksha Chowdhery, Maheswaran Sathiamoorthy, and Rahul
+Mazumder. Dselect-k: Differentiable selection in the mixture of experts with applications to
+multi-task learning. In Advances in Neural Information Processing Systems (NeurIPS), 2021.
+Shwai He, Run-Ze Fan, Liang Ding, Li Shen, Tianyi Zhou, and Dacheng Tao. Merging experts into one:
+Improving computational efficiency of mixture of experts. In Proceedings of the 2023 Conference
+on Empirical Methods in Natural Language Processing, pp. 14685–14691, Singapore, December
+2023. Association for Computational Linguistics. doi: 10.18653/v1/2023.emnlp-main.907.
+12
+
+Published as a conference paper at ICLR 2026
+Dan Hendrycks, Steven Basart, Norman Mu, Saurav Kadavath, Frank Wang, Evan Dorundo, Rahul
+Desai, Tyler Zhu, Samyak Parajuli, Mike Guo, et al. The many faces of robustness: A critical analysis
+of out-of-distribution generalization. In Proceedings of the IEEE/CVF International Conference on
+Computer Vision, pp. 8340–8349, 2021a.
+Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and Ja-
+cob Steinhardt. Measuring massive multitask language understanding. In International Confer-
+ence on Learning Representations, 2021b. URL https://openreview.net/forum?id=
+d7KBjmI3GmQ.
+Dan Hendrycks, Kevin Zhao, Steven Basart, Jacob Steinhardt, and Dawn Song. Natural adversarial
+examples. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,
+pp. 15262–15271, 2021c.
+Changho Hwang, Wei Cui, Yifan Xiong, Ziyue Yang, Ze Liu, Han Hu, Zilong Wang, Rafael Salas,
+Jithin Jose, Prabhat Ram, et al. Tutel: Adaptive mixture-of-experts at scale. Proceedings of Machine
+Learning and Systems, 5:269–287, 2023.
+Gabriel Ilharco, Mitchell Wortsman, Samir Yitzhak Gadre, Shuran Song, Hannaneh Hajishirzi, Simon
+Kornblith, Ali Farhadi, and Ludwig Schmidt. Patching open-vocabulary models by interpolating
+weights. Advances in Neural Information Processing Systems, 35:29262–29277, 2022.
+Robert A. Jacobs, Michael I. Jordan, Steven J. Nowlan, and Geoffrey E. Hinton. Adaptive mixtures of
+local experts. Neural Computation, 3(1):79–87, 1991. doi: 10.1162/neco.1991.3.1.79.
+Xisen Jin, Xiang Ren, Daniel Preotiuc-Pietro, and Pengxiang Cheng. Dataless knowledge fusion
+by merging weights of language models. In The Eleventh International Conference on Learning
+Representations, 2023. URL https://openreview.net/forum?id=FCnohuR6AnM.
+Ehud Kalai and Meir Smorodinsky. Other solutions to nash’s bargaining problem. Econometrica:
+Journal of the Econometric Society, pp. 513–518, 1975.
+Aran Komatsuzaki, Joan Puigcerver, James Lee-Thorp, Carlos Riquelme Ruiz, Basil Mustafa, Joshua
+Ainslie, Yi Tay, Mostafa Dehghani, and Neil Houlsby. Sparse upcycling: Training mixture-of-experts
+from dense checkpoints. In The Eleventh International Conference on Learning Representations,
+2023.
+Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu, Dehao Chen, Orhan Firat, Yanping Huang,
+Maxim Krikun, Noam Shazeer, and Zhifeng Chen. Gshard: Scaling giant models with conditional
+computation and automatic sharding. In International Conference on Learning Representations
+(ICLR), 2021a.
+Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu, Dehao Chen, Orhan Firat, Yanping Huang, Maxim
+Krikun, Noam Shazeer, and Zhifeng Chen. {GS}hard: Scaling giant models with conditional
+computation and automatic sharding. In International Conference on Learning Representations,
+2021b. URL https://openreview.net/forum?id=qrwe7XHTmYb.
+Mike Lewis, Sharan Bhosale, Luke Zettlemoyer, and Marc’Aurelio Ranzato. Base layers: Simplifying
+training of large, sparse models. In International Conference on Machine Learning (ICML), 2021.
+Pingzhi Li, Zhenyu Zhang, Prateek Yadav, Yi-Lin Sung, Yu Cheng, Mohit Bansal, and Tianlong Chen.
+Merge, then compress: Demystify efficient SMoe with hints from its routing policy. In The Twelfth
+International Conference on Learning Representations, 2024. URL https://openreview.
+net/forum?id=eFWG9Cy3WK.
+Aixin Liu, Bei Feng, Bin Wang, Bingxuan Wang, Bo Liu, Chenggang Zhao, Chengqi Dengr, Chong
+Ruan, Damai Dai, Daya Guo, et al. Deepseek-v2: A strong, economical, and efficient mixture-of-
+experts language model. arXiv preprint arXiv:2405.04434, 2024a.
+Aixin Liu, Bei Feng, Bing Xue, Bingxuan Wang, Bochao Wu, Chengda Lu, Chenggang Zhao,
+Chengqi Deng, Chenyu Zhang, Chong Ruan, et al. Deepseek-v3 technical report. arXiv preprint
+arXiv:2412.19437, 2024b.
+13
+
+Published as a conference paper at ICLR 2026
+Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, and Baining Guo.
+Swin transformer: Hierarchical vision transformer using shifted windows. In Proceedings of the
+IEEE/CVF International Conference on Computer Vision (ICCV), 2021.
+Ka Man Lo, Zeyu Huang, Zihan Qiu, Zili Wang, and Jie Fu. A closer look into mixture-of-experts
+in large language models. In Luis Chiruzzo, Alan Ritter, and Lu Wang (eds.), Findings of the
+Association for Computational Linguistics: NAACL 2025, pp. 4427–4447, Albuquerque, New
+Mexico, April 2025. Association for Computational Linguistics. ISBN 979-8-89176-195-7. URL
+https://aclanthology.org/2025.findings-naacl.251/.
+Jonathan P Lorraine, David Acuna, Paul Vicol, and David Duvenaud. Complex momentum for
+optimization in games. In International Conference on Artificial Intelligence and Statistics, pp.
+7742–7765. PMLR, 2022.
+Zhenyi Lu, Chenghao Fan, Wei Wei, Xiaoye Qu, Dangyang Chen, and Yu Cheng. Twin-merging:
+Dynamic integration of modular expertise in model merging. In The Thirty-eighth Annual Conference
+on Neural Information Processing Systems, 2024. URL https://openreview.net/forum?
+id=81YIt63TTn.
+Michael S Matena and Colin A Raffel. Merging models with fisher-weighted averaging. Advances in
+Neural Information Processing Systems, 35:17703–17716, 2022.
+Stephen Merity, Caiming Xiong, James Bradbury, and Richard Socher. Pointer sentinel mixture models.
+In International Conference on Learning Representations, 2017. URL https://openreview.
+net/forum?id=Byj72udxe.
+Mohammed Muqeeth, Haokun Liu, and Colin Raffel. Soft merging of experts with adaptive rout-
+ing.
+Transactions on Machine Learning Research, 2024.
+ISSN 2835-8856.
+URL https:
+//openreview.net/forum?id=7I199lc54z. Featured Certification.
+Abhinay Muthoo. Bargaining Theory with Applications. Cambridge University Press, 1999.
+John Nash. Two-person cooperative games. Econometrica: Journal of the Econometric Society, pp.
+128–140, 1953.
+John F. Nash. The bargaining problem. Econometrica, 18(2):155–162, 1950. ISSN 00129682,
+14680262. URL http://www.jstor.org/stable/1907266.
+Aviv Navon, Aviv Shamsian, Idan Achituve, Haggai Maron, Kenji Kawaguchi, Gal Chechik, and
+Ethan Fetaya. Multi-task learning as a bargaining game. In Kamalika Chaudhuri, Stefanie Jegelka,
+Le Song, Csaba Szepesvari, Gang Niu, and Sivan Sabato (eds.), Proceedings of the 39th International
+Conference on Machine Learning, volume 162 of Proceedings of Machine Learning Research, pp.
+16428–16446. PMLR, 17–23 Jul 2022. URL https://proceedings.mlr.press/v162/
+navon22a.html.
+Yurii Nesterov. A method for solving the convex programming problem with convergence rate o (1/k2).
+In Dokl akad nauk Sssr, volume 269, pp. 543, 1983.
+Nghia Nguyen, Tan Minh Nguyen, Vo Thuc Khanh Huyen, Stanley Osher, and Thieu Vo. Improving
+neural ordinary differential equations with nesterov’s accelerated gradient method. In Alice H. Oh,
+Alekh Agarwal, Danielle Belgrave, and Kyunghyun Cho (eds.), Advances in Neural Information Pro-
+cessing Systems, 2022a. URL https://openreview.net/forum?id=-OfK_B9Q5hI.
+Tan Nguyen, Richard Baraniuk, Andrea Bertozzi, Stanley Osher, and Bao Wang. Momentumrnn:
+Integrating momentum into recurrent neural networks. In H. Larochelle, M. Ranzato, R. Hadsell,
+M.F. Balcan, and H. Lin (eds.), Advances in Neural Information Processing Systems, volume 33, pp.
+1924–1936. Curran Associates, Inc., 2020.
+Tan Minh Nguyen, Richard Baraniuk, Robert Kirby, Stanley Osher, and Bao Wang. Momentum
+transformer: Closing the performance gap between self-attention and its linearization. In Bin
+Dong, Qianxiao Li, Lei Wang, and Zhi-Qin John Xu (eds.), Proceedings of Mathematical and
+Scientific Machine Learning, volume 190 of Proceedings of Machine Learning Research, pp.
+189–204. PMLR, 15–17 Aug 2022b. URL https://proceedings.mlr.press/v190/
+nguyen22a.html.
+14
+
+Published as a conference paper at ICLR 2026
+Viet Dung Nguyen, Minh Nguyen Hoang, Rachel Teo, Luc Nguyen, Tan Minh Nguyen, and Linh Duy
+Tran. CAMEx: Curvature-aware merging of experts. In The Thirteenth International Confer-
+ence on Learning Representations, 2025. URL https://openreview.net/forum?id=
+nT2u0M0nf8.
+Stefan Nielsen, Rachel Teo, Laziz Abdullaev, and Tan Minh Nguyen. Tight clusters make specialized
+experts. In The Thirteenth International Conference on Learning Representations, 2025. URL
+https://openreview.net/forum?id=Pu3c0209cx.
+Satish Penmatsa and Anthony T Chronopoulos. Game-theoretic static load balancing for distributed
+systems. Journal of Parallel and Distributed Computing, 71(4):537–555, 2011.
+Quang Pham, Giang Do, Huy Nguyen, TrungTin Nguyen, Chenghao Liu, Mina Sartipi, Binh T.
+Nguyen, Savitha Ramasamy, Xiaoli Li, Steven Hoi, and Nhat Ho. Competesmoe: Effective training
+of sparse mixture of experts via competition. arXiv preprint arXiv:2402.02526, 2024. URL
+https://arxiv.org/abs/2402.02526.
+Boris T Polyak. Some methods of speeding up the convergence of iteration methods. USSR Computa-
+tional Mathematics and Mathematical Physics, 4(5):1–17, 1964.
+Joan Puigcerver, Carlos Riquelme Ruiz, Basil Mustafa, and Neil Houlsby. From sparse to soft mixtures
+of experts. In The Twelfth International Conference on Learning Representations, 2024a. URL
+https://openreview.net/forum?id=jxpsAj7ltE.
+Joan Puigcerver, Carlos Riquelme Ruiz, Basil Mustafa, and Neil Houlsby. From sparse to soft mixtures
+of experts. In The Twelfth International Conference on Learning Representations, 2024b. URL
+https://openreview.net/forum?id=jxpsAj7ltE.
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi
+Zhou, Wei Li, and Peter J. Liu. Exploring the limits of transfer learning with a unified text-to-
+text transformer. Journal of Machine Learning Research, 21(140):1–67, 2020. URL http:
+//jmlr.org/papers/v21/20-074.html.
+Alexandre Ramé, Kartik Ahuja, Jianyu Zhang, Matthieu Cord, Léon Bottou, and David Lopez-Paz.
+Model ratatouille: Recycling diverse models for out-of-distribution generalization. In ICML, pp.
+28656–28679, 2023. URL https://proceedings.mlr.press/v202/rame23a.html.
+Mustafa Jahangoshai Rezaee, Milad Eshkevari, Morteza Saberi, and Omar Hussain. Gbk-means
+clustering algorithm: An improvement to the k-means algorithm based on the bargaining game.
+Knowledge-Based Systems, 213:106672, 2021.
+Stephen Roller, Sainbayar Sukhbaatar, Arthur Szlam, and Jason Weston. Hash layers for large sparse
+models. In Advances in Neural Information Processing Systems (NeurIPS), 2021.
+Carlos Riquelme Ruiz, Joan Puigcerver, Basil Mustafa, Maxim Neumann, Rodolphe Jenatton, An-
+dré Susano Pinto, Daniel Keysers, and Neil Houlsby. Scaling vision with sparse mixture of
+experts. In A. Beygelzimer, Y. Dauphin, P. Liang, and J. Wortman Vaughan (eds.), Advances in
+Neural Information Processing Systems, 2021. URL https://openreview.net/forum?
+id=NGPmH3vbAA_.
+Aviv Shamsian, Aviv Navon, Neta Glazer, Kenji Kawaguchi, Gal Chechik, and Ethan Fetaya. Auxiliary
+learning as an asymmetric bargaining game. In Andreas Krause, Emma Brunskill, Kyunghyun Cho,
+Barbara Engelhardt, Sivan Sabato, and Jonathan Scarlett (eds.), Proceedings of the 40th International
+Conference on Machine Learning, volume 202 of Proceedings of Machine Learning Research, pp.
+30689–30705. PMLR, 23–29 Jul 2023. URL https://proceedings.mlr.press/v202/
+shamsian23a.html.
+Noam Shazeer, *Azalia Mirhoseini, *Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, and
+Jeff Dean. Outrageously large neural networks: The sparsely-gated mixture-of-experts layer. In
+International Conference on Learning Representations, 2017. URL https://openreview.
+net/forum?id=B1ckMDqlg.
+15
+
+Published as a conference paper at ICLR 2026
+Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher D Manning, Andrew Y Ng, and
+Christopher Potts. Recursive deep models for semantic compositionality over a sentiment treebank.
+In Proceedings of the 2013 conference on empirical methods in natural language processing, pp.
+1631–1642, 2013.
+Ilya Sutskever, James Martens, George Dahl, and Geoffrey Hinton. On the importance of initialization
+and momentum in deep learning. In International conference on machine learning, pp. 1139–1147.
+PMLR, 2013.
+Rachel Teo and Tan Minh Nguyen. MomentumSMoe: Integrating momentum into sparse mixture of
+experts. In The Thirty-eighth Annual Conference on Neural Information Processing Systems, 2024.
+URL https://openreview.net/forum?id=y929esCZNJ.
+Rachel Teo and Tan Minh Nguyen. MoLEx: Mixture of layer experts for fine-tuning with sparse
+upcycling. In The Thirteenth International Conference on Learning Representations, 2025. URL
+https://openreview.net/forum?id=rWui9vLhOc.
+Viet-Hoang Tran, Van-Hoan Trinh, Khanh Vinh Bui, and Tan Minh Nguyen. On linear mode connectiv-
+ityofmixture-of-expertsarchitectures. InTheThirty-ninthAnnualConferenceonNeuralInformation
+Processing Systems, 2025. URL https://openreview.net/forum?id=RF3miSqdXa.
+Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel R Bowman. Glue:
+A multi-task benchmark and analysis platform for natural language understanding. EMNLP 2018,
+pp. 353, 2018.
+Bao Wang, Tan Minh Nguyen, Tao Sun, Andrea Bertozzi, Richard Baraniuk, and Stanley Osher.
+Scheduled restart momentum for accelerated stochastic gradient descent, 2021. URL https:
+//openreview.net/forum?id=4xzY5yod28y.
+Bao Wang, Hedi Xia, Tan M. Nguyen, and Stanley J. Osher. How does momentum benefit deep neural
+networks architecture design? a few case studies. Research in the Mathematical Sciences, 2022.
+Lean Wang, Huazuo Gao, Chenggang Zhao, Xu Sun, and Damai Dai. Auxiliary-loss-free load
+balancing strategy for mixture-of-experts, 2025. URL https://openreview.net/forum?
+id=y1iU5czYpE.
+Alex Warstadt, Amanpreet Singh, and Samuel R Bowman. Neural network acceptability judgments. In
+Proceedings of the 33rd AAAI Conference on Artificial Intelligence, pp. 6732–6739, 2019.
+Adina Williams, Nikita Nangia, and Samuel R Bowman. A broad-coverage challenge corpus for
+sentence understanding through inference. In Proceedings of the 2018 Conference of the North
+American Chapter of the Association for Computational Linguistics: Human Language Technologies,
+Volume 1 (Long Papers), pp. 1112–1122, 2018.
+Hedi Xia, Vai Suliafu, Hangjie Ji, Tan M. Nguyen, Andrea L. Bertozzi, Stanley J. Osher, and Bao Wang.
+Heavy ball neural ordinary differential equations. In Advances in Neural Information Processing
+Systems (NeurIPS), 2021.
+Prateek Yadav, Derek Tam, Leshem Choshen, Colin Raffel, and Mohit Bansal. Resolving interference
+when merging models. In NeurIPS, New Orleans, USA, 2023. Proceedings of Machine Learning
+Research.
+An Yang, Baosong Yang, Binyuan Hui, Bo Zheng, Bowen Yu, Chang Zhou, Chengpeng Li, Chengyuan
+Li, Dayiheng Liu, Fei Huang, Guanting Dong, Haoran Wei, Huan Lin, Jialong Tang, Jialin Wang,
+Jian Yang, Jianhong Tu, Jianwei Zhang, Jianxin Ma, Jin Xu, Jingren Zhou, Jinze Bai, Jinzheng He,
+Junyang Lin, Kai Dang, Keming Lu, Keqin Chen, Kexin Yang, Mei Li, Mingfeng Xue, Na Ni, Pei
+Zhang, Peng Wang, Ru Peng, Rui Men, Ruize Gao, Runji Lin, Shijie Wang, Shuai Bai, Sinan Tan,
+Tianhang Zhu, Tianhao Li, Tianyu Liu, Wenbin Ge, Xiaodong Deng, Xiaohuan Zhou, Xingzhang
+Ren, Xinyu Zhang, Xipin Wei, Xuancheng Ren, Yang Fan, Yang Yao, Yichang Zhang, Yu Wan,
+Yunfei Chu, Yuqiong Liu, Zeyu Cui, Zhenru Zhang, and Zhihao Fan. Qwen2 technical report. arXiv
+preprint arXiv:2407.10671, 2024.
+16
+
+Published as a conference paper at ICLR 2026
+Le Yu, Bowen Yu, Haiyang Yu, Fei Huang, and Yongbin Li. Language models are super mario:
+absorbing abilities from homologous models as a free lunch. In Proceedings of the 41st International
+Conference on Machine Learning, ICML’24. JMLR.org, 2024.
+Jian Zhang and Ioannis Mitliagkas. Yellowfin and the art of momentum tuning. arXiv preprint
+arXiv:1706.03471, 2017.
+Zexuan Zhong, Mengzhou Xia, Danqi Chen, and Mike Lewis. Lory: Fully differentiable mixture-of-
+experts for autoregressive language model pre-training. In First Conference on Language Modeling,
+2024. URL https://openreview.net/forum?id=LKEJPySnlt.
+17
+
+Published as a conference paper at ICLR 2026
+Supplement to “Expert Merging in Sparse Mixture of Experts with
+Nash Bargaining”
+Table of Contents
+A Notation
+19
+B
+Related Work
+19
+C Proofs of the Main Results
+20
+C.1
+Lemma 3.2 Proof Sketch
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+C.2
+Convergence guarantee for NAMEx-Momentum
+. . . . . . . . . . . . . . . . . .
+20
+C.3
+Propostion 3.5 Proof Sketch . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+D Additional Details on Datasets
+23
+D.1 WikiText-103 Language Modeling . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+D.2
+GLUE Text Classification . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+D.3
+ImageNet-1k Image Classification
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+E
+More experimental details
+24
+E.1
+WikiText-103 Language Modeling . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+E.2
+GLUE Benchmark Fine-Tuning . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+E.3
+ImageNet-1k and Corrupted Variants . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+E.4
+Implementation and Infrastructure
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+F
+Additional Experimental Results
+25
+F.1
+Zero-shot and Finetuning on Qwen1.5-MoE (14B parameters) . . . . . . . . . . . .
+25
+G Additional Empirical Analysis
+25
+G.1
+Overhead and Scalability . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+G.2
+Convergence Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+G.3
+Swin - MoE - S: 90 - Epoch Fine - Tuning . . . . . . . . . . . . . . . . . . . . . . .
+26
+G.4
+Other Results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+26
+H Broader Impacts
+28
+18
+
+Published as a conference paper at ICLR 2026
+A
+NOTATION
+Table 9: Notation
+α=[α1,α2,...,αN]
+The Nash coefficients for merging experts.
+x,y,z,···∈Cn
+Vectors
+X,Y ,Z,···∈Cn×n
+Matrices
+X⊤
+The transpose of matrix X
+I
+The identity matrix
+ℜ(z),ℑ(z)
+The real or imaginary component of z ∈C
+i
+The imaginary unit. z ∈C =⇒z =ℜ(z)+iℑ(z)
+¯z
+The complex conjugate of z ∈C
+|z|:=√z¯z
+The magnitude or modulus of z ∈C
+arg(z)
+The argument or phase of z ∈C =⇒z =|z|exp(iarg(z))
+E(l)
+m ∈Rd
+Parameters of the base experts at the l-th layer of the network
+El
+i ∈Rd
+Parameters of the i-th experts at the l-th layer of the network
+τ (l)
+i
+=E(l)
+i −E(l)
+m
+The domain-vector of the i-th experts at the l-th layer of the network
+∆E ∈Rd
+Aggregation of the domain-vector for updating the base expert.
+E(0)
+m ∈Rd
+The initial base expert parameter at the first layer
+γ ∈R+
+The step size for the base expert propagation
+η∈R+
+The step size for creating the ˆE(l)
+m expert that is responsible for processing input
+β ∈C
+The momentum coefficient
+µ∈Cd
+The momentum buffer
+λ∈C
+Notation for an arbitrary eigenvalue
+B
+RELATED WORK
+Sparse Mixture of Experts. SMoE scales efficiently by activating only a subset of parameters per
+token, favoring horizontal over deep expansion (Shazeer et al., 2017; Lepikhin et al., 2021b; Fedus
+et al., 2022; Tran et al., 2025; Teo & Nguyen, 2025), and improves Transformer efficiency without loss.
+In parallel, model merging has gained traction for combining open-source models (Ilharco et al., 2022;
+Matena & Raffel, 2022; Yadav et al., 2023; Ramé et al., 2023; Cai et al., 2023; Lu et al., 2024), with
+curvature-aware methods like Fisher Information (Matena & Raffel, 2022; Jin et al., 2023) improving
+quality but at high cost. But, most merging approaches assume shared initialization (Yadav et al., 2023;
+Ilharco et al., 2022), conflicting with SMoE’s independently initialized experts and making merging
+more difficult.
+Nash Bargaining Game. Originally introduced by (Nash, 1950; 1953), the Nash bargaining frame-
+work has been widely studied (Kalai & Smorodinsky, 1975) and recently applied to multi-task learn-
+ing (Navon et al., 2022; Shamsian et al., 2023). It has also shown success in diverse domains such
+as multi-armed bandits (Baek & Farias, 2021), clustering (Rezaee et al., 2021), distributed comput-
+ing (Penmatsa & Chronopoulos, 2011), and economics (Aumann & Hart, 1992; Muthoo, 1999).
+Momentum in Deep Learning. Momentum-based optimization has been widely studied, from its ori-
+gins in classical methods (Polyak, 1964; Nesterov, 1983) to its adaptation for deep learning (Sutskever
+et al., 2013; Zhang & Mitliagkas, 2017; Nguyen et al., 2022b; Teo & Nguyen, 2024). Beyond
+optimization, momentum has also been examined from dynamical and architectural perspectives.
+Continuous-time interpretations such as Heavy Ball Neural ODE (Xia et al., 2021) and Nesterov
+Neural ODE (Nguyen et al., 2022a) connect accelerated methods to second-order differential equations,
+while Nguyen et al. (2020) incorporates momentum dynamics directly into recurrent architectures.
+Scheduled Restart Momentum (Wang et al., 2021) studies restart schemes for accelerated stochastic
+gradient descent, and recent empirical analyses (Sutskever et al., 2013; Wang et al., 2022) investi-
+gate how momentum shapes representation learning and architectural behavior in deep networks. In
+game-theoretic settings, Gidel et al. (2019) explored negative momentum for games, and Lorraine et al.
+(2022) introduced complex momentum, extending momentum methods to differentiable games using
+complex-valued updates.
+19
+
+Published as a conference paper at ICLR 2026
+C
+PROOFS OF THE MAIN RESULTS
+Assumption
+C.1.
+We
+assume
+a
+SMoE
+architecture
+of
+infinite
+SMoE
+layers
+with
+{E(l)
+m ,E(l)
+1 ,E(l)
+2 ,...,E(l)
+N } being the epxerts parameters at l-th layer.
+Assumption C.2. The norm of experts parameters is bounded, that is:
+∥E(l)
+i ∥≤B
+∀l∈{1,2,...,∞}
+∀i∈{m,1,...,N}
+(12)
+C.1
+LEMMA 3.2 PROOF SKETCH
+Proof. The derivative of the objective function is
+N
+X
+i=1
+1
+∆E⊤τi
+τi.
+For all ∆E such that ∆E⊤τi > 0 for all i, the utilities increase monotonically with the norm of ∆E.
+Hence, by Nash’s Pareto optimality axiom, the optimal solution must lie on the boundary of Bϵ. At the
+optimal point, the gradient
+N
+X
+i=1
+1
+∆E⊤τi
+τi
+must be in the radial direction, i.e.,
+N
+X
+i=1
+1
+∆E⊤τi
+τi ∝∆E.
+Equivalently, there exists λ>0 such that
+N
+X
+i=1
+1
+∆E⊤τi
+τi =λ∆E.
+Since the gradients τi are linearly independent, we can express ∆E as ∆E =PN
+i=1αiτi. Substituting
+this into the alignment condition, we obtain
+1
+∆E⊤τi
+=λαi
+∀i.
+This implies ∆E⊤τi =
+1
+λαi . As ∆E⊤τi > 0 for a descent direction, we deduce λ > 0. Setting λ = 1
+gives the direction of ∆E. Thus, finding the Nash bargaining solution reduces to finding α∈RN
++ such
+that
+∆E⊤τi =
+N
+X
+j=1
+αjτ ⊤
+j τi = 1
+αi
+∀i.
+This is equivalent to solving G⊤Gα=1/α, where 1/α is the element-wise reciprocal.
+C.2
+CONVERGENCE GUARANTEE FOR NAMEX-MOMENTUM
+We first have that:
+∆E(l) =
+N
+X
+i=1
+αi∗τ (l)
+i
+=
+N
+X
+i=1
+αiE(l)
+i −
+ N
+X
+i=1
+αi
+!
+E(l)
+m .
+(13)
+Given the analogy between expert merging and gradient descent, we apply the formulation of momen-
+tum into Eqn. 7:
+
+
+
+
+
+E(l+1)
+m
+=E(l)
+m +γ∆E(l)+β(E(l)
+m −E(l−1)
+m
+),
+ˆE(l+1)
+m
+=E(l+1)
+m
++η
+N
+X
+i=1
+Mi·(s(l+1)
+i
+∗τ (l+1)
+i
+).
+(14)
+Expanding the parameter updates with the Cartesian components of γ and β is key for Theorem C.3,
+which characterizes the convergence rate:
+µ(l+1) =βµ(l)+∆E(l) ⇐⇒
+ℜ(µ(l+1))=ℜ(β)ℜ(µ(l))−ℑ(β)ℑ(µ(l))+ℜ(∆E(l))
+=ℜ(β)ℜ(µ(l))−ℑ(β)ℑ(µ(l))+
+N
+X
+i=1
+αiE(l)
+i −
+ N
+X
+i=1
+αi
+!
+E(l)
+m ,
+(15)
+ℑ(µ(l+1))=ℑ(β)ℜ(µ(l))+ℜ(β)ℑ(µ(l))
+(16)
+20
+
+Published as a conference paper at ICLR 2026
+E(l+1)
+m
+=E(l)
+m +ℜ(γµ(l+1))
+(17)
+E(l+1)
+m
+=E(l)
+m +γ∆E(l)+ℜ(γβ)ℜ(µ(l))−ℑ(γβ)ℑ(µ(l))
+=E(l)
+m +γ
+N
+X
+i=1
+αiE(l)
+i −γ
+ N
+X
+i=1
+αi
+!
+E(l)
+m +ℜ(γβ)ℜ(µ(l))−ℑ(γβ)ℑ(µ(l))
+(18)
+Setting α=
+N
+X
+i=1
+αi, we have
+R=
+" ℜ(β)I
+−ℑ(β)I
+−αI
+ℑ(β)I
+ℜ(β)I
+0
+ℜ(γβ)I
+−ℑ(γβ)I
+I−γαI
+#
+and
+q(l) =
+" N
+X
+i=1
+αiE(l)
+i
+0
+γ
+N
+X
+i=1
+αiE(l)
+i
+#⊤
+(19)
+Our parameters evolve with expert-propagation merging via:
+[ℜ(µ(l+1)),ℑ(µ(l+1)),E(l+1)]⊤=R[ℜ(µ(l)),ℑ(µ(l)),E(l)]⊤+q(l)⊤
+(20)
+We can bound convergence rates by looking at the spectral radius of R with Theorem C.3.
+Theorem C.3 (Consequence of Prop. 4.4.1 (Bertsekas, 2008)). If the spectral radius ρ(R)<1, then,
+for [µ,Em] in a neighborhood of [µ∗,E∗
+m], the distance of [µ(l),E(l)] to the stationary point [µ∗,E∗
+m]
+converges at a linear rate O((ρ(R)+ϵ)l),∀ϵ>0.
+Proof. We have:
+
+
+ℜ(µ(l+1))
+ℑ(µ(l+1))
+E(l+1)
+
+=R
+
+
+ℜ(µ(l))
+ℑ(µ(l))
+E(l)
+
++q(l)
+(21)
+By telescoping the recurrence for the lth layer:
+
+
+ℜ(µ(l))
+ℑ(µ(l))
+E(l)
+
+=Rl
+
+
+ℜ(µ(0))
+ℑ(µ(0))
+E(0)
+
++
+l−1
+X
+i=0
+Riq(i)
+(22)
+We can compare µl and
+l−1
+X
+i=0
+Riq(i) with the values µ∗and q∗they converge to which exists if R is
+contractive. We do the same with E. Because µ∗=Rµ∗+q∗=Rlµ∗+
+∞
+X
+i=1
+Riq(i):
+
+
+ℜ(µ(l))−ℜ(µ∗)
+ℑ(µ(l))−ℑ(µ∗)
+E(l)−E∗
+
+=Rl
+
+
+ℜ(µ(0))−ℜ(µ∗)
+ℑ(µ(0))−ℑ(µ∗)
+E(0)−E∗
+
++
+l−1
+X
+i=0
+Rlq(i)−
+∞
+X
+l=1
+Riq(i)
+(23)
+By taking norms:
+
+
+
+ℜ(µ(l))−ℜ(µ∗)
+ℑ(µ(l))−ℑ(µ∗)
+E(l)−E∗
+
+
+
+=
+
+Rl
+
+
+ℜ(µ(0))−ℜ(µ∗)
+ℑ(µ(0))−ℑ(µ∗)
+E(0)−E∗
+
+−
+∞
+X
+i=l
+Riq(i)
+
+(24)
+=⇒
+
+
+
+ℜ(µ(l))−ℜ(µ∗)
+ℑ(µ(l))−ℑ(µ∗)
+E(l)−E∗
+
+
+
+≤
+Rl
+
+
+
+ℜ(µ(0))−ℜ(µ∗)
+ℑ(µ(0))−ℑ(µ∗)
+E(0)−E∗
+
+
+
++
+
+∞
+X
+i=l
+Riq(i)
+
+(25)
+≤
+Rl
+
+
+
+ℜ(µ(0))−ℜ(µ∗)
+ℑ(µ(0))−ℑ(µ∗)
+E(0)−E∗
+
+
+
++
+
+∞
+X
+i=l
+Ri
+B
+(26)
+With Lemma 11 from (Foucart, 2012), we have there exists a matrix norm ∀ϵ>0 such that:
+∥Rl∥≤D(ρ(R)+ϵ)l
+(27)
+21
+
+Published as a conference paper at ICLR 2026
+We also have
+0<
+
+∞
+X
+i=0
+Ri
+<C
+(28)
+if R is contractive. Combining Equation (27) and Equation (28) we have:
+
+
+
+ℜ(µ(l))−ℜ(µ∗)
+ℑ(µ(l))−ℑ(µ∗)
+E(l)−E∗
+
+
+
+≤D(ρ(R)+ϵ)l
+
+
+
+ℜ(µ(0))−ℜ(µ∗)
+ℑ(µ(0))−ℑ(µ∗)
+E(0)−E∗
+
+
+
++BC
+(29)
+So, we have:
+
+
+
+ℜ(µ(l))−ℜ(µ∗)
+ℑ(µ(l))−ℑ(µ∗)
+E(l)−E∗
+
+
+
+=O((ρ(R)+ϵ)l)
+(30)
+Thus, we converge linearly with a rate of O(ρ(R)+ϵ).
+C.3
+PROPOSTION 3.5 PROOF SKETCH
+Proposition 3.5(Convergence rate of NAMEx-Momentum). There exist γ ∈R+,β ∈C so Algorithm 2
+converges for Expert-Propagation NAMEx Momentum.
+Proof. We want to show that we can select γ >0 and β ∈C so that R is contractive. That is, the spectral
+radius of R is less than 1. Recall that,
+R=
+" ℜ(β)I
+−ℑ(β)I
+−αI
+ℑ(β)I
+ℜ(β)I
+0
+ℜ(γβ)I
+−ℑ(γβ)I
+I−γαI
+#
+(31)
+Set β =r+ui, we have:
+det(R−xI)=det
+ "
+r−x
+−u
+−α
+u
+r−x
+0
+γr
+−u
+1−γα−x
+#
+⊗I
+!
+=det
+ "
+r−x
+−u
+−α
+u
+r−x
+0
+γr
+−u
+1−γα−x
+#!d
+(32)
+
+r−x
+−u
+−α
+u
+r−x
+0
+γr
+−u
+1−γα−x
+=r2+αu2−γαu2+u2−x3−γαx2+2rx2+x2−r2x+γαrx−2rx−u2x
+(33)
+=−x3+(−γα+2r+1)x2+(−r2+γαr−2r−u2)x+r2+(α−γα+1)u2
+(34)
+We can further simplify this by choosing γ = ˆγ
+α to get the following polynomial,
+P(x)=−x3+(1+2r−ˆγ)x2+(−r2+ˆγr−2r−u2)x+
+ r2+(1+α−ˆγ)u2
+(35)
+Using Fujiwara’s bound (Fujiwara, 1916) we can determine one condition for ρ(R)<1, that is
+|x|≤2max
+(
+|1+2r−ˆγ|,
+p
+|−r2+ˆγr−2r−u2|,
+3
+s
+r2+(1+α−ˆγ)u2
+2
+
+)
+<1
+(36)
+22
+
+Published as a conference paper at ICLR 2026
+1.5
+1.0
+0.5
+0.0
+0.5
+1.0
+1.5
+r
+1.5
+1.0
+0.5
+0.0
+0.5
+1.0
+1.5
+ u
+1
+2 < 1 + 2r
+< 1
+2
+1
+4 < r2
+r + 2r + u2 < 1
+4
+1
+4 < r2 + (1 +
+)u2 < 1
+4
+Intersection
+Figure 4: Graph of system of inequality (37) when α=0.5 and γ =2.
+⇒
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+−1
+2 <1+2r−ˆγ < 1
+2
+−1
+4 <r2−ˆγr+2r+u2 < 1
+4
+−1
+4 <r2+(1+α−ˆγ)u2 < 1
+4
+(37)
+⇔
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+−1
+4 + ˆγ
+2 −1
+2 <r< 1
+4 + ˆγ
+2 −1
+2
+−1
+4 −r2−ˆγr−2r<u2 < 1
+4 −r2−ˆγr−2r
+−1−4r2
+1+α−ˆγ <u2 < 1−4r2
+1+α−ˆγ
+(38)
+We can consider the case when α = 0.5 and γ = 2. Figure 4 shows the region of (r,u) that satisfies
+inequality system (37).
+D
+ADDITIONAL DETAILS ON DATASETS
+This section outlines the datasets and evaluation metrics employed in the experiments discussed in
+Section 4.
+D.1
+WIKITEXT-103 LANGUAGE MODELING
+The WikiText-103 dataset contains a collection of Wikipedia articles designed to capture long-range
+contextual dependencies. It includes a training set with 28,475 articles, amounting to around 103 million
+words. The validation and test sets consist of 217,646 and 245,569 words, respectively, distributed
+across 60 articles per set.
+Model and baselines We use the small and medium size Transformer as the baseline SMoE models. Our
+implementation is based on the codebase developed by (Pham et al., 2024) and (Teo & Nguyen, 2024).
+All model variants—SMoE, CAMEx, and NAMEx—employ 16 experts per layer, with SMoE utilizing
+top-1 (k=1) expert selection for each input. The models share a unified sparse routing mechanism,
+consisting of a linear layer to process the input, followed by Top-K and Softmax functions. Training is
+performed over 60 epochs for small models and 80 epochs for medium and large SMoE models.
+23
+
+Published as a conference paper at ICLR 2026
+D.2
+GLUE TEXT CLASSIFICATION
+The GLUE benchmark includes SST-2 (Socher et al., 2013) for sentiment analysis, MRPC (Dolan
+& Brockett, 2005) for paraphrase detection and sentence similarity, CoLA (Warstadt et al., 2019) for
+evaluating grammatical acceptability, STS-B (Cer et al., 2017) for sentence similarity measurement,
+RTE (Dagan et al., 2006) for logical reasoning, QNLI (Wang et al., 2018) for question-answer
+classification, and MNLI (Williams et al., 2018) for assessing entailment between sentence pairs.
+Model and baselines We scale up T5 (Raffel et al., 2020) using SMoE upcycling (Komatsuzaki et al.,
+2023). For each task, we conduct a comprehensive hyperparameter search, exploring batch sizes {8, 16,
+32, 64} and learning rates {3e−4, 1e−4, 3e−5, 1e−5} to identify the optimal fine-tuned configuration.
+D.3
+IMAGENET-1K IMAGE CLASSIFICATION
+ImageNet-1k, introduced by (Deng et al., 2009), is a widely used benchmark dataset comprising 1.28
+million images for training and 50,000 images for validation across 1,000 categories. Performance is
+evaluated using top-1 and top-5 accuracy metrics.
+For robustness evaluation, we utilize several specialized subsets. ImageNet-A (Hendrycks et al.,
+2021c) focuses on 200 challenging classes from ImageNet-1k, specifically curated to fool classifiers,
+highlighting their vulnerability to real-world adversarial examples. ImageNet-O (Hendrycks et al.,
+2021c) contains out-of-distribution (OOD) samples derived from ImageNet-22k, carefully selected as
+instances that a ResNet-50 model misclassifies with high confidence. The primary evaluation metric for
+ImageNet-O is the area under the precision-recall curve (AUPR). Lastly, ImageNet-R (Hendrycks et al.,
+2021a) consists of 30,000 artistic renditions representing 200 classes from ImageNet-1k, designed to
+assess model robustness to non-standard visual representations.
+Model and baselines For each MoE layer, we use Algorithm 2 to merge all experts into a base expert,
+except in the first MoE layer, where a base expert is initialized instead. Training configurations follow
+Swin-MoE (Liu et al., 2021), and the code is publicly available on https://github.com/microsoft/Swin-
+Transformer/. For NAMEx variants, we start with checkpoints pretrained on ImageNet-22k and
+fine-tune them on ImageNet-1k for 30 epochs.
+E
+MORE EXPERIMENTAL DETAILS
+This section provides additional details on the experimental setup, including model configurations,
+dataset processing, and training strategies used in our evaluation.
+E.1
+WIKITEXT-103 LANGUAGE MODELING
+We follow the setup from (Pham et al., 2024) and (Teo & Nguyen, 2024), using both small and medium-
+scale Transformer architectures with 16 experts per layer. All variants (SMoE, CAMEx, EP-CAMEx,
+NAMEx) use Top-1 routing and share the same sparse gating mechanism. Training is conducted for 60
+epochs (small) and 80 epochs (medium) with AdamW optimizer and cosine learning rate scheduling.
+E.2
+GLUE BENCHMARK FINE-TUNING
+For text classification, we fine-tune T5-base models upcycled with SMoE layers. We conduct grid
+searches over batch sizes 8, 16, 32, 64 and learning rates 3×10−5, 1×10−4, 3×10−4. Each result is
+averaged over five seeds to ensure statistical stability. All SMoE variants employ 8 experts per layer
+and share the same routing logic.
+E.3
+IMAGENET-1K AND CORRUPTED VARIANTS
+For vision experiments, we fine-tune Swin-MoE-Small on ImageNet-1k for 30 epochs using batch
+size 96 and learning rate 1×10−4. NAMEx variants initialize Em in the first MoE layer and perform
+merging across all others via Algorithm 1 or Algorithm 2. For robustness, we evaluate zero-shot
+generalization on ImageNet-A, ImageNet-O, and ImageNet-R. All reported results are averaged over
+three runs.
+E.4
+IMPLEMENTATION AND INFRASTRUCTURE
+Experiments are implemented in PyTorch and trained on 4–8 A100 GPUs depending on model size. We
+use automatic mixed precision (AMP) for memory efficiency. All hyperparameters, data augmentations,
+and merging schedules are described in Appendix D.
+24
+
+Published as a conference paper at ICLR 2026
+F
+ADDITIONAL EXPERIMENTAL RESULTS
+F.1
+ZERO-SHOT AND FINETUNING ON QWEN1.5-MOE (14B PARAMETERS)
+To assess scalability, we integrate NAMEx-Full into Qwen1.5-MoE (14B) and evaluate it on three
+challenging benchmarks: MMLU (Hendrycks et al., 2021b), GSM8K (Cobbe et al., 2021), and ARC
+(Clark et al., 2018) in both zero-shot and fine-tuned settings. In the fine-tuned setting, all models are
+fine-tuned on the SmolTalk (allal et al., 2025) dataset before evaluation. As reported in Tables 10 and 11,
+NAMEx-Full consistently outperforms both the baseline and EP-CAMEx across routing schemes and
+tasks, highlighting its robustness, scalability, and architectural generality.
+Table 10: Zero - shot results for Qwen1.5 - MoE variants.
+Routing Strategy
+Model
+MMLU
+GSM8K
+ARC
+Linear
+Qwen1.5 - MoE
+61.28
+60.12
+50.77
+EP - CAMEX
+61.54
+60.23
+50.83
+NAMEX - Full
+61.87
+60.55
+50.95
+Cosine
+Qwen1.5 - MoE
+61.10
+59.88
+50.60
+EP - CAMEX
+61.40
+60.00
+50.68
+NAMEX - Full
+61.85
+60.52
+50.93
+Stable - MoE
+Qwen1.5 - MoE
+61.35
+60.22
+50.81
+EP - CAMEX
+61.60
+60.35
+50.89
+NAMEX - Full
+61.90
+60.60
+50.96
+Table 11: Results after fine-tuning on SmolTalk.
+Routing Strategy
+Model
+MMLU
+GSM8K
+ARC
+Linear
+Qwen1.5-MoE
+61.50
+60.52
+51.12
+EP-CAMEx
+61.74
+60.63
+51.23
+NAMEx-Full
+62.10
+61.00
+51.35
+Cosine
+Qwen1.5-MoE
+61.30
+60.28
+50.95
+EP-CAMEx
+61.60
+60.50
+51.10
+NAMEx-Full
+62.05
+60.95
+51.30
+Stable-MoE Routing
+Qwen1.5-MoE
+61.60
+60.65
+51.20
+EP-CAMEx
+61.85
+60.80
+51.30
+NAMEx-Full
+62.15
+61.10
+51.45
+G
+ADDITIONAL EMPIRICAL ANALYSIS
+G.1
+OVERHEAD AND SCALABILITY
+Table 12: Impact of NBS update frequency (∆ℓ). Per - batch wall - clock.
+∆ℓ
+SST - 2
+MRPC
+STS - B
+RTE
+Mean Batch (s)
+% NBS Time
+1
+94.88
+92.85
+90.32
+77.26
+4.70
+85.96%
+2
+94.95
+92.38
+90.37
+76.89
+2.29
+71.18%
+5
+95.18
+92.09
+90.13
+77.98
+1.14
+42.11%
+L (first layer)
+94.46
+92.01
+90.12
+75.09
+0.69
+4.35%
+Table 13: Training compute and throughput. Inference is unchanged relative to baselines.
+Model
+Train TFLOPs
+Infer TFLOPs
+Train Throughput (tok/s)
+SMOE
+13.95
+4.65
+22,236
+SMOE (Top-2)
+18.32
+7.44
+17,898
+SMEAR
+13.95
+4.65
+22,236
+CAMEX
+14.30
+4.65
+21,982
+EP - CAMEX
+14.25
+4.65
+21,982
+NAMEX
+14.25
+4.65
+21,995
+NAMEX - Full
+14.25
+4.65
+21,897
+EP - CAMEx - Mom
+14.25
+4.65
+21,872
+NAMEX - Full - Mom
+14.25
+4.65
+21,783
+In Tab. 12, we provide a detailed runtime cost analysis, “Mean Batch Runtime (sec)” includes the entire
+forward/backward pass and NBS step. "% NBS Occupied" isolates the share of time spent solving
+NBS.
+25
+
+Published as a conference paper at ICLR 2026
+In Tab. 13, we provide a comparison of training TFLOPs, inference TFLOPs, and training through-
+put across baselines and our proposed variants in Table 2 below. Notably, NAMEx-Full achieves
+competitive throughput (21,897 tokens/sec), closely matching CAMEx and EP-CAMEx despite the
+added complexity of solving the Nash system.
+While NAMEx and NAMEx-Mom show slightly
+lower throughput due to the large number of NBS iterations (20 iters), NAMEx-Full-Mom restores
+much of the efficiency by reducing the number of NBS iterations (2 iters per layer). Currently, the
+main overhead arises from transferring data to the CPU for solving the Nash Bargaining update step.
+However, this implementation detail is orthogonal to the algorithm itself and can be optimized via
+GPU-native solvers or batching strategies. Overall, the results demonstrate that NAMEx introduces
+minimal overhead and remains practical for large-scale MoE training, supporting its applicability to
+future deployments involving more experts per layer.
+G.2
+CONVERGENCE ANALYSIS
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+Step
+20
+25
+30
+35
+40
+45
+50
+L2 distance
+NAMEx-Mom
+NAMEx
+EP-CAMEx
+Figure 5: L2 distance between expert updates across training steps (T5-Base, 12 MoE layers). Lower values
+indicate better stability. The figure shows that NAMEx converges faster and more stably than EP-CAMEx.
+To validate the motivation for complex momentum, we provide empirical convergence analysis in
+Fig. 5, which tracks the L2 distance between updates of base experts across training steps (T5-Base,
+12 MoE layers). As illustrated, NAMEx–with or without momentum–shows a noticeably steeper
+decline in update distances, indicating faster convergence and more stable expert updates compared to
+EP-CAMEx. This directly supports our hypothesis that complex momentum enhances convergence
+stability and efficiency during expert merging.
+G.3
+SWIN - MOE - S: 90 - EPOCH FINE - TUNING
+Table 14: ImageNet - 1K Top - 1 from epochs 86–90. Our best final performance is 85.046%.
+Epoch
+NAMEX - Mom
+NAMEX
+EP - CAMEX - Mom
+EP - CAMEX
+NAMEX - Full
+NAMEX - Full - Mom
+Swin - MoE
+86
+84.466
+84.264
+83.862
+82.238
+84.722
+85.022
+83.435
+87
+84.504
+84.252
+83.868
+82.286
+84.728
+85.028
+83.400
+88
+84.502
+84.240
+83.854
+82.234
+84.734
+85.034
+83.379
+89
+84.540
+84.228
+83.860
+82.282
+84.740
+85.040
+83.413
+90
+84.518
+84.216
+83.806
+82.230
+84.746
+85.046
+83.415
+Tab. 14 summarizes the top-1 accuracy on ImageNet-1K from epochs 86 to 90, these results confirm
+that our models continue to improve with more training, and that Namex-full-Mom reaches a final top-1
+accuracy of 85.046%. This demonstrates both competitive final performance and strong convergence
+behavior. Note that due to the difference in number of GPU being used, it seems that we could not
+reproduce the 84.5% result as reported by the official repo of Swin-MoE.
+G.4
+OTHER RESULTS
+Figure 7 presents the evaluation perplexity on WikiText-103 during training. NAMEx-Mom achieves
+the lowest validation and test perplexities in both small- and medium-scale pre-training, outperforming
+26
+
+Published as a conference paper at ICLR 2026
+e1
+e2
+e3
+e4
+e5
+e6
+e7
+e8
+1.00
+0.75
+0.50
+0.25
+0.00
+0.25
+0.50
+0.75
+1.00
+Layer 1
+e1
+e2
+e3
+e4
+e5
+e6
+e7
+e8
+e8          e7        e6          e5        e4          e3         e2         e1  
+Layer 3 
+e1
+e2
+e3
+e4
+e5
+e6
+e7
+e8
+Layer 5
+e1
+e2
+e3
+e4
+e5
+e6
+e7
+e8
+Layer 7
+e1
+e2
+e3
+e4
+e5
+e6
+e7
+e8
+Layer 9
+e1
+e2
+e3
+e4
+e5
+e6
+e7
+e8
+Layer 11
+e8          e7        e6          e5        e4          e3         e2         e1  
+1.00
+0.75
+0.50
+0.25
+0.00
+0.25
+0.50
+0.75
+1.00
+Figure 6: Cosine similarity between expert outputs in Switch-Transformers.
+20
+40
+60
+80
+Epochs
+40
+50
+60
+70
+80
+Perplexity
+CAMEx
+EP-CAMEx-Mom
+SMoE
+EP-CAMEx
+NAMEx
+NAMEx-Mom
+Figure 7: 5-Period Moving Average of Perplexity of different Transformers-medium variants on WikiText-103
+e1
+e2
+e3
+e4
+e5
+e6
+e7
+e8
+Layer 2
+e1
+e2
+e3
+e4
+e5
+e6
+e7
+e8
+Layer 5
+e8          e7        e6          e5        e4          e3         e2         e1  
+e1
+e2
+e3
+e4
+e5
+e6
+e7
+e8
+Layer 0
+e1
+e2
+e3
+e4
+e5
+e6
+e7
+e8
+Layer 1
+e1
+e2
+e3
+e4
+e5
+e6
+e7
+e8
+Layer 3
+e8          e7        e6          e5        e4          e3         e2         e1  
+e1
+e2
+e3
+e4
+e5
+e6
+e7
+e8
+Layer 4
+e1
+e2
+e3
+e4
+e5
+e6
+e7
+e8
+Layer 6
+e8          e7        e6          e5        e4          e3         e2         e1  
+e1
+e2
+e3
+e4
+e5
+e6
+e7
+e8
+Layer 7
+1.00
+0.75
+0.50
+0.25
+0.00
+0.25
+0.50
+0.75
+1.00
+Layer 8
+e1
+e2
+e3
+e4
+e5
+e6
+e7
+e8
+1.00
+0.75
+0.50
+0.25
+0.00
+0.25
+0.50
+0.75
+1.00
+1.00
+0.75
+0.50
+0.25
+0.00
+0.25
+0.50
+0.75
+1.00
+Figure 8: Cosine similarity between expert outputs in Swin-MoE.
+SMoE and CAMEx-based methods. Across all settings, Nash variants, including NAMEx and NAMEx-
+Mom, consistently surpass their counterparts, demonstrating the effectiveness of Nash bargaining and
+momentum mechanisms.
+Figure 6 and Figure 8 visualize the cosine similarity between experts ouput at all SMoE layers indicating
+a complex dynamic of how experts at progressive layers interact with each other. This observation
+suggests that the behavior of experts cannot be captured optimally by using simple averaging as of
+the previous work. Instead, a more effective strategy for determining the merging coefficients should
+account for the experts’ dynamics at each specific layer.
+27
+
+Published as a conference paper at ICLR 2026
+Figure 9: We compared expert interaction patterns under three settings: with Load Balancing loss, without Load
+Balancing loss, and loss-free balancing (in the sense of (Wang et al., 2025)).
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+gamma
+55
+60
+65
+70
+75
+80
+Accuracy
+RTE
+NAMEx-Mom
+NAMEx
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+gamma
+82
+84
+86
+88
+90
+92
+F1-Score
+MRPC
+NAMEx-Mom
+NAMEx
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+gamma
+87.5
+88.0
+88.5
+89.0
+89.5
+90.0
+90.5
+Spearman correlation
+STSB
+NAMEx-Mom
+NAMEx
+Figure 10: Impact of different values of step-size γ on NAMEx and NAMEx-Mom performance. Overall, the
+optimal setting lies within the range [0.5,2]. For γ >2, the performance drops significantly, which may indicate an
+overshooting phenomenon.
+Table 15: Pretraining and zero-shot results for NAMEx vs. ACMoE Top-1/Top-2 on ImageNet-1k and corrupted
+variants.
+Model
+Params
+Acc@1
+Acc@5
+INet-O
+INet-A
+INet-R
+ACMoE-Top 1
+280M
+75.39
+92.56
+18.45
+7.13
+30.85
+ACMoE-Top 2
+280M
+76.31
+93.14
+19.55
+9.42
+32.35
+NAMEx
+280M
+76.85
+93.40
+20.11
+9.90
+32.93
+NAMEx-Full
+280M
+77.42
+93.85
+20.69
+10.46
+33.44
+NAMEx-Full-Mom
+280M
+78.15
+94.23
+21.16
+11.02
+33.95
+As shown in Figure 9, the cooperative/competitive dynamics (as reflected in the off-diagonal correlation
+values) are much more visible when expert load is balanced–either through Load Balancing loss or
+loss-free mechanisms. In contrast, when training without Load Balancing loss, many experts appear
+less specialized, and the interaction patterns become weaker and less structured.
+One hypothesis is that, without balanced token routing, some experts may be underused or even
+become inactive, which diminishes the emergence of meaningful cooperative or competitive behavior.
+Therefore, balanced expert load is not only important for preventing dead experts but also plays a
+crucial role in making such dynamics observable and analyzable.
+In Table 15, across all ImageNet variants, the NAMEx-based models consistently outperform the
+ACMoE Top-1 and Top-2 baselines. In particular, NAMEx-Full and NAMEx-Full-Mom set new best
+accuracies on both in-distribution metrics (Acc@1 and Acc@5) and out-of-distribution benchmarks
+(INet-O, INet-A, INet-R). This underlines the strong generalization ability of NAMEx. Even with
+the same parameter budget, NAMEx variants deliver better robustness to corruptions and distribution
+shifts.
+H
+BROADER IMPACTS
+NAMEx proposes a principled, game-theoretic approach to expert merging in Sparse Mixture-of-
+Experts (SMoE) models, addressing key limitations of heuristic and curvature-based methods. By
+28
+
+Published as a conference paper at ICLR 2026
+0
+500
+1000
+1500
+2000
+2500
+3000
+3500
+4000
+u1
+0
+500
+1000
+1500
+2000
+2500
+u2
+0
+500
+1000
+1500
+2000
+2500
+3000
+u3
+Layer 3
+0
+1000
+2000
+3000
+4000
+u1
+0
+500
+1000
+1500
+2000
+u2
+0
+500
+1000
+1500
+2000
+2500
+u3
+Layer 5
+0
+1000
+2000
+3000
+4000
+u1
+0
+500
+1000
+1500
+2000
+2500
+u2
+0
+500
+1000
+1500
+2000
+2500
+u3
+Layer 7
+0
+250
+500
+750
+1000
+1250
+1500
+1750
+u1
+0
+1000
+2000
+3000
+4000
+u2
+0
+500
+1000
+1500
+2000
+2500
+u3
+Layer 10
+0
+1000
+2000
+3000
+4000
+u1
+0
+500
+1000
+1500
+2000
+2500
+u2
+0
+250
+500
+750
+1000
+1250
+1500
+1750
+2000
+u3
+Layer 13
+0
+1000
+2000
+3000
+4000
+u1
+0 250500
+750
+1000
+1250
+1500
+1750
+u2
+0
+250
+500
+750
+1000
+1250
+1500
+1750
+2000
+u3
+Layer 16
+Pareto Surface
+Nash Solution
+Linear Average Solution
+Figure 11: Visualization of expert utility trade-offs accross multiple SMoE layers. Each subplot corresponds to
+a different layer, with arrows indicating merging directions in the 3D utility space. The blue arrow represents
+the Nash Bargaining solution (NAMEx), while the red arrow denotes the average-based merging direction. The
+hemispherical surface is uniformly sampled to illustrate the feasible utility region. Across layers, the Nash
+direction consistently steers toward more balanced expert cooperation compared to the naive average.
+Table 16: Performance comparison across number of NBS solving iterations for the Linear router in NAMEx-Full
+config (Qwen1.5-MoE). All results to be filled; we keep the same marginal-gap setup. Throughout experiments,
+use 2 CCP iterations per layer for NAMEx-Full (chosen config below).
+Model
+No. Iterations
+Zero-Shot
+Fine-tuned (SmolTalk)
+MMLU
+GSM8K
+ARC
+MMLU
+GSM8K
+ARC
+Qwen1.5-MoE
+2 (Chosen Config)
+61.87
+60.55
+50.95
+62.10
+61.00
+51.35
+5
+61.70
+60.55
+50.94
+62.20
+61.05
+51.31
+20
+61.94
+60.57
+50.96
+62.14
+61.03
+51.34
+40
+61.92
+60.62
+51.01
+62.22
+61.05
+51.46
+60
+61.81
+60.48
+51.08
+62.15
+60.98
+51.39
+Table 17: Performance comparison across routing strategies and models on MMLU, GSM8K, and ARC bench-
+marks for Qwen1.5 - MoE variants. Left: zero-shot results. Right: fine-tuned NAMEX - Full variants on SmolTalk.
+Routing Strategy
+Model
+Zero-Shot
+Fine-tuned (SmolTalk)
+MMLU
+GSM8K
+ARC
+MMLU
+GSM8K
+ARC
+Linear
+Qwen1.5 - MoE
+61.28
+60.12
+50.77
+61.50
+60.52
+51.12
+EP - CAMEX
+61.54
+60.23
+50.83
+61.74
+60.63
+51.23
+NAMEX - Full (0 disagreement point)
+61.87
+60.55
+50.95
+62.10
+61.00
+51.35
+NAMEX - Full (mean disagreement point)
+61.78
+60.57
+51.23
+61.67
+61.04
+51.25
+Cosine
+Qwen1.5 - MoE
+61.10
+59.88
+50.60
+61.30
+60.28
+50.95
+EP - CAMEX
+61.40
+60.00
+50.68
+61.60
+60.50
+51.10
+NAMEX - Full (0 disagreement point)
+61.85
+60.52
+50.93
+62.05
+60.95
+51.30
+NAMEX - Full (mean disagreement point)
+61.86
+60.45
+50.77
+62.01
+60.81
+51.37
+Stable-MoE
+Qwen1.5 - MoE
+61.35
+60.22
+50.81
+61.60
+60.65
+51.20
+EP - CAMEX
+61.60
+60.35
+50.89
+61.85
+60.80
+51.30
+NAMEX - Full (0 disagreement point)
+61.90
+60.60
+50.96
+62.15
+61.10
+51.45
+NAMEX - Full (mean disagreement point)
+61.88
+60.64
+51.03
+62.15
+61.11
+51.35
+leveraging Nash Bargaining, it enables more balanced and interpretable parameter integration, par-
+ticularly in settings with conflicting or specialized expert knowledge. This has direct implications
+for scalable deployment, as NAMEx can reduce the memory and compute footprint of large SMoE
+models while preserving performance. The addition of complex momentum enhances convergence
+stability during expert propagation, offering a robust framework for layered expert interaction. These
+contributions may prove valuable for future research in modular deep learning, federated optimization,
+and transfer learning, where efficient and fair expert combination is critical.
+29

@@ -1,0 +1,170 @@
+
+[1] Mikel Artetxe, Shruti Bhosale, Naman Goyal, Todor Mi-
+haylov, Myle Ott, Sam Shleifer, Xi Victoria Lin, Jingfei Du,
+Srinivasan Iyer, Ramakanth Pasunuru, et al. Efﬁcient large
+scale language modeling with mixtures of experts.
+arXiv
+preprint arXiv:2112.10684, 2021. 5
+[2] John D Bransford, Ann L Brown, and Rodney R Cocking.
+How people learn: Brain, mind, experience, and school. Na-
+tional Academy Press, 1999. 1
+[3] Patrick CHen, Hsiang-Fu Yu, Inderjit S Dhillon, and Cho-Jui
+Hsieh. DRONE: Data-aware low-rank compression for large
+NLP models. In A. Beygelzimer, Y. Dauphin, P. Liang, and
+J. Wortman Vaughan, editors, Advances in Neural Informa-
+tion Processing Systems, 2021. 4
+[4] Ekin D Cubuk, Barret Zoph, Jonathon Shlens, and Quoc V
+Le.
+Randaugment:
+Practical automated data augmenta-
+tion with a reduced search space.
+In Proceedings of the
+IEEE/CVF Conference on Computer Vision and Pattern
+Recognition Workshops, pages 702–703, 2020. 6
+[5] Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li,
+and Li Fei-Fei. Imagenet: A large-scale hierarchical image
+database. In 2009 IEEE conference on computer vision and
+pattern recognition, pages 248–255. Ieee, 2009. 5
+[6] Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina
+Toutanova. BERT: Pre-training of deep bidirectional trans-
+formers for language understanding. In Proceedings of the
+2019 Conference of the North American Chapter of the As-
+sociation for Computational Linguistics: Human Language
+Technologies, Volume 1 (Long and Short Papers), pages
+4171–4186, Minneapolis, Minnesota, June 2019. Associa-
+tion for Computational Linguistics. 7, 12
+[7] Nan Du, Yanping Huang, Andrew M Dai, Simon Tong,
+Dmitry Lepikhin, Yuanzhong Xu, Maxim Krikun, Yanqi
+Zhou, Adams Wei Yu, Orhan Firat, et al. Glam: Efﬁcient
+scaling of language models with mixture-of-experts. arXiv
+preprint arXiv:2112.06905, 2021. 8
+[8] William Fedus, Barret Zoph, and Noam Shazeer.
+Switch
+transformers: Scaling to trillion parameter models with sim-
+ple and efﬁcient sparsity. arXiv preprint arXiv:2101.03961,
+2021. 1, 2, 3, 5, 12, 13
+[9] Geoffrey Hinton, Oriol Vinyals, and Jeff Dean.
+Distill-
+ing the knowledge in a neural network.
+arXiv preprint
+arXiv:1503.02531, 2015. 2, 3, 5, 8, 12
+[10] Alex Krizhevsky, Geoffrey Hinton, et al. Learning multiple
+layers of features from tiny images. 2009. 5
+[11] Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin
+Gimpel, Piyush Sharma, and Radu Soricut. Albert: A lite
+bert for self-supervised learning of language representations.
+arXiv preprint arXiv:1909.11942, 2019. 7, 12
+[12] Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu, Dehao
+Chen, Orhan Firat, Yanping Huang, Maxim Krikun, Noam
+Shazeer, and Zhifeng Chen. Gshard: Scaling giant models
+with conditional computation and automatic sharding. arXiv
+preprint arXiv:2006.16668, 2020. 2, 12
+[13] Mike Lewis, Shruti Bhosale, Tim Dettmers, Naman Goyal,
+and Luke Zettlemoyer. Base layers: Simplifying training of
+large, sparse models. In ICML, 2021. 3
+[14] Yuxuan Lou, Fuzhao Xue, Zangwei Zheng, and Yang You.
+Sparse-mlp: A fully-mlp architecture with conditional com-
+putation. arXiv preprint arXiv:2109.02008, 2021. 1, 12
+[15] Yujia Qin, Yankai Lin, Jing Yi, Jiajie Zhang, Xu Han,
+Zhengyan Zhang, Yusheng Su, Zhiyuan Liu, Peng Li,
+Maosong Sun, et al. Knowledge inheritance for pre-trained
+language models. arXiv preprint arXiv:2105.13880, 2021.
+13
+[16] Samyam Rajbhandari, Conglong Li, Zhewei Yao, Minjia
+Zhang, Reza Yazdani Aminabadi, Ammar Ahmad Awan,
+Jeff Rasley, and Yuxiong He.
+Deepspeed-moe: Advanc-
+ing mixture-of-experts inference and training to power next-
+generation ai scale. arXiv preprint arXiv:2201.05596, 2022.
+2
+[17] Pranav Rajpurkar, Robin Jia, and Percy Liang. Know what
+you don’t know: Unanswerable questions for SQuAD. In
+Proceedings of the 56th Annual Meeting of the Association
+for Computational Linguistics (Volume 2: Short Papers),
+pages 784–789, Melbourne, Australia, July 2018. Associa-
+tion for Computational Linguistics. 7
+[18] Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, and
+Percy Liang. SQuAD: 100,000+ questions for machine com-
+prehension of text. In Proceedings of the 2016 Conference on
+Empirical Methods in Natural Language Processing, pages
+2383–2392, Austin, Texas, Nov. 2016. Association for Com-
+putational Linguistics. 7
+[19] Carlos Riquelme Ruiz, Joan Puigcerver, Basil Mustafa,
+Maxim Neumann, Rodolphe Jenatton, Andr´e Susano Pinto,
+Daniel Keysers, and Neil Houlsby.
+Scaling vision with
+sparse mixture of experts. In A. Beygelzimer, Y. Dauphin, P.
+Liang, and J. Wortman Vaughan, editors, Advances in Neural
+Information Processing Systems, 2021. 12
+[20] Victor Sanh,
+Lysandre Debut,
+Julien Chaumond,
+and
+Thomas Wolf. Distilbert, a distilled version of bert: smaller,
+faster, cheaper and lighter. arXiv preprint arXiv:1910.01108,
+2019. 7
+[21] Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy
+Davis, Quoc Le, Geoffrey Hinton, and Jeff Dean. Outra-
+geously large neural networks: The sparsely-gated mixture-
+of-experts layer. arXiv preprint arXiv:1701.06538, 2017. 2
+[22] Yu Sun, Shuohuan Wang, Yukun Li, Shikun Feng, Xuyi
+Chen, Han Zhang, Xin Tian, Danxiang Zhu, Hao Tian, and
+Hua Wu. Ernie: Enhanced representation through knowledge
+integration. arXiv preprint arXiv:1904.09223, 2019. 13
+[23] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jon
+Shlens, and Zbigniew Wojna. Rethinking the inception archi-
+tecture for computer vision. In Proceedings of the IEEE con-
+ference on computer vision and pattern recognition, pages
+2818–2826, 2016. 6
+[24] Hugo Touvron, Matthieu Cord, Matthijs Douze, Francisco
+Massa, Alexandre Sablayrolles, and Herve Jegou. Training
+data-efﬁcient image transformers & distillation through at-
+tention. In International Conference on Machine Learning,
+volume 139, pages 10347–10357, July 2021. 5, 8, 12
+[25] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszko-
+reit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia
+Polosukhin. Attention is all you need. In Advances in neural
+information processing systems, pages 5998–6008, 2017. 12
+9
+
+[26] Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill,
+Omer Levy, and Samuel Bowman.
+GLUE: A multi-task
+benchmark and analysis platform for natural language un-
+derstanding. In Proceedings of the 2018 EMNLP Workshop
+BlackboxNLP: Analyzing and Interpreting Neural Networks
+for NLP, pages 353–355, Brussels, Belgium, Nov. 2018. As-
+sociation for Computational Linguistics. 7
+[27] Fuzhao Xue, Ziji Shi, Futao Wei, Yuxuan Lou, Yong Liu,
+and Yang You.
+Go wider instead of deeper.
+ArXiv,
+abs/2107.11817, 2021. 1, 6, 7, 12
+[28] Yang You, Jing Li, Sashank Reddi, Jonathan Hseu, Sanjiv
+Kumar, Srinadh Bhojanapalli, Xiaodan Song, James Dem-
+mel, Kurt Keutzer, and Cho-Jui Hsieh. Large batch optimiza-
+tion for deep learning: Training bert in 76 minutes. arXiv
+preprint arXiv:1904.00962, 2019. 6
+[29] Li Yuan, Francis EH Tay, Guilin Li, Tao Wang, and Jiashi
+Feng. Revisiting knowledge distillation via label smoothing
+regularization. In Proceedings of the IEEE/CVF Conference
+on Computer Vision and Pattern Recognition, pages 3903–
+3911, 2020. 6
+[30] Hongyi Zhang, Moustapha Cisse, Yann N Dauphin, and
+David Lopez-Paz. mixup: Beyond empirical risk minimiza-
+tion. arXiv preprint arXiv:1710.09412, 2017. 6
+[31] Zhengyan Zhang, Yuxian Gu, Xu Han, Shengqi Chen, Chao-
+jun Xiao, Zhenbo Sun Yuan Yao, Fanchao Qi, Jian Guan, Pei
+Ke, Yanzheng Cai, et al. Cpm-2: Large-scale cost-effective
+pre-trained language models. AI Open, 2022. 13
+[32] Zhengyan Zhang, Yankai Lin, Zhiyuan Liu, Peng Li,
+Maosong Sun, and Jie Zhou. Moeﬁcation: Conditional com-
+putation of transformer models for efﬁcient inference. arXiv
+preprint arXiv:2110.01786, 2021. 13
+[33] Yukun Zhu, Ryan Kiros, Rich Zemel, Ruslan Salakhutdinov,
+Raquel Urtasun, Antonio Torralba, and Sanja Fidler. Align-
+ing books and movies: Towards story-like visual explana-
+tions by watching movies and reading books. In Proceed-
+ings of the IEEE international conference on computer vi-
+sion, pages 19–27, 2015. 7
+10

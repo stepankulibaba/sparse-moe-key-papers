@@ -1,0 +1,1788 @@
+
+Armen Aghajanyan, Akshat Shrivastava, Anchit Gupta,
+Naman Goyal, Luke Zettlemoyer, and Sonal Gupta.
+2020. Better fine-tuning by reducing representational
+collapse. arXiv preprint arXiv:2008.03156.
+Samy Bengio, Oriol Vinyals, Navdeep Jaitly, and Noam
+Shazeer. 2015. Scheduled sampling for sequence
+prediction with recurrent neural networks. In Pro-
+ceedings of the 28th International Conference on
+Neural Information Processing Systems - Volume 1,
+NIPS’15, page 1171–1179, Cambridge, MA, USA.
+MIT Press.
+Sumanta Bhattacharyya, Amirmohammad Rooshenas,
+Subhajit Naskar, Simeng Sun, Mohit Iyyer, and An-
+drew McCallum. 2021.
+Energy-based reranking:
+Improving neural machine translation using energy-
+based models. In Proceedings of the 59th Annual
+Meeting of the Association for Computational Lin-
+guistics and the 11th International Joint Conference
+on Natural Language Processing (Volume 1: Long
+Papers), pages 4528–4537, Online. Association for
+Computational Linguistics.
+Eugene Charniak and Mark Johnson. 2005. Coarse-to-
+fine n-best parsing and maxent discriminative rerank-
+ing. In Proceedings of the 43rd Annual Meeting
+of the Association for Computational Linguistics
+(ACL’05), pages 173–180.
+Arman Cohan, Franck Dernoncourt, Doo Soon Kim,
+Trung Bui, Seokhwan Kim, Walter Chang, and Nazli
+Goharian. 2018. A discourse-aware attention model
+for abstractive summarization of long documents. In
+Proceedings of the 2018 Conference of the North
+American Chapter of the Association for Computa-
+tional Linguistics: Human Language Technologies,
+Volume 2 (Short Papers), pages 615–621, New Or-
+leans, Louisiana. Association for Computational Lin-
+guistics.
+Michael Collins and Terry Koo. 2005. Discriminative
+reranking for natural language parsing. Computa-
+tional Linguistics, 31(1):25–70.
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and
+Kristina Toutanova. 2019. BERT: Pre-training of
+deep bidirectional transformers for language under-
+standing. In Proceedings of the 2019 Conference of
+the North American Chapter of the Association for
+Computational Linguistics: Human Language Tech-
+nologies, Volume 1 (Long and Short Papers), pages
+4171–4186, Minneapolis, Minnesota. Association for
+Computational Linguistics.
+Zi-Yi Dou, Pengfei Liu, Hiroaki Hayashi, Zhengbao
+Jiang, and Graham Neubig. 2021. GSum: A gen-
+eral framework for guided neural abstractive summa-
+rization. In Proceedings of the 2021 Conference of
+the North American Chapter of the Association for
+Computational Linguistics: Human Language Tech-
+nologies, pages 4830–4842, Online. Association for
+Computational Linguistics.
+Alexander R Fabbri, Wojciech Kry´sci´nski, Bryan Mc-
+Cann, Caiming Xiong, Richard Socher, and Dragomir
+Radev. 2021. Summeval: Re-evaluating summariza-
+tion evaluation. Transactions of the Association for
+Computational Linguistics, 9:391–409.
+Angela Fan, Mike Lewis, and Yann Dauphin. 2018.
+Hierarchical neural story generation. In Proceedings
+of the 56th Annual Meeting of the Association for
+Computational Linguistics (Volume 1: Long Papers),
+pages 889–898, Melbourne, Australia. Association
+for Computational Linguistics.
+Xavier Glorot, Antoine Bordes, and Yoshua Bengio.
+2011. Deep sparse rectifier neural networks. In Pro-
+ceedings of the fourteenth international conference
+on artificial intelligence and statistics, pages 315–
+323. JMLR Workshop and Conference Proceedings.
+Karl Moritz Hermann, Tomas Kocisky, Edward Grefen-
+stette, Lasse Espeholt, Will Kay, Mustafa Suleyman,
+and Phil Blunsom. 2015. Teaching machines to read
+and comprehend. Advances in neural information
+processing systems, 28:1693–1701.
+Ari Holtzman, Jan Buys, Li Du, Maxwell Forbes, and
+Yejin Choi. 2019. The curious case of neural text
+degeneration. arXiv preprint arXiv:1904.09751.
+Srinivasan Iyer, Sewon Min, Yashar Mehdad, and Wen-
+tau Yih. 2021. RECONSIDER: Improved re-ranking
+using span-focused cross-attention for open domain
+question answering.
+In Proceedings of the 2021
+Conference of the North American Chapter of the
+Association for Computational Linguistics: Human
+Language Technologies, pages 1280–1287, Online.
+Association for Computational Linguistics.
+Byeongchang Kim, Hyunwoo Kim, and Gunhee Kim.
+2019. Abstractive summarization of Reddit posts
+with multi-level memory networks. In Proceedings
+of the 2019 Conference of the North American Chap-
+ter of the Association for Computational Linguistics:
+Human Language Technologies, Volume 1 (Long and
+Short Papers), pages 2519–2531, Minneapolis, Min-
+nesota. Association for Computational Linguistics.
+Fajri Koto, Jey Han Lau, and Timothy Baldwin. 2021.
+Evaluating the efficacy of summarization evaluation
+across languages. arXiv preprint arXiv:2106.01478.
+Bernhard Kratzwald, Anna Eigenmann, and Stefan
+Feuerriegel. 2019. RankQA: Neural question an-
+swering with answer re-ranking. In Proceedings of
+the 57th Annual Meeting of the Association for Com-
+putational Linguistics, pages 6076–6085, Florence,
+Italy. Association for Computational Linguistics.
+Bernhard Kratzwald and Stefan Feuerriegel. 2018.
+Adaptive document retrieval for deep question an-
+swering. In Proceedings of the 2018 Conference on
+Empirical Methods in Natural Language Processing,
+pages 576–581, Brussels, Belgium. Association for
+Computational Linguistics.
+
+Wojciech Kryscinski, Nitish Shirish Keskar, Bryan Mc-
+Cann, Caiming Xiong, and Richard Socher. 2019.
+Neural text summarization: A critical evaluation. In
+Proceedings of the 2019 Conference on Empirical
+Methods in Natural Language Processing and the 9th
+International Joint Conference on Natural Language
+Processing (EMNLP-IJCNLP), pages 540–551, Hong
+Kong, China. Association for Computational Linguis-
+tics.
+Mike Lewis, Yinhan Liu, Naman Goyal, Marjan
+Ghazvininejad, Abdelrahman Mohamed, Omer Levy,
+Veselin Stoyanov, and Luke Zettlemoyer. 2020.
+BART: Denoising sequence-to-sequence pre-training
+for natural language generation, translation, and com-
+prehension. In Proceedings of the 58th Annual Meet-
+ing of the Association for Computational Linguistics,
+pages 7871–7880, Online. Association for Computa-
+tional Linguistics.
+Chin-Yew Lin. 2004. ROUGE: A package for auto-
+matic evaluation of summaries. In Text Summariza-
+tion Branches Out, pages 74–81, Barcelona, Spain.
+Association for Computational Linguistics.
+Chin-Yew Lin and Eduard Hovy. 2003.
+Automatic
+evaluation of summaries using n-gram co-occurrence
+statistics. In Proceedings of the 2003 Human Lan-
+guage Technology Conference of the North American
+Chapter of the Association for Computational Lin-
+guistics, pages 150–157.
+Xi Lin, Hui-Ling Zhen, Zhenhua Li, Qing-Fu Zhang,
+and Sam Kwong. 2019. Pareto multi-task learning.
+Advances in neural information processing systems,
+32:12060–12070.
+Xiang Lin, Simeng Han, and Shafiq Joty. 2021. Straight
+to the gradient: Learning to use novel tokens for neu-
+ral text generation. In Proceedings of the 38th Inter-
+national Conference on Machine Learning, volume
+139 of Proceedings of Machine Learning Research,
+pages 6642–6653. PMLR.
+Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Man-
+dar Joshi, Danqi Chen, Omer Levy, Mike Lewis,
+Luke Zettlemoyer, and Veselin Stoyanov. 2019.
+Roberta: A robustly optimized bert pretraining ap-
+proach. arXiv preprint arXiv:1907.11692.
+Yixin Liu, Zi-Yi Dou, and Pengfei Liu. 2021. RefSum:
+Refactoring neural summarization. In Proceedings
+of the 2021 Conference of the North American Chap-
+ter of the Association for Computational Linguistics:
+Human Language Technologies, pages 1437–1448,
+Online. Association for Computational Linguistics.
+Yixin Liu and Pengfei Liu. 2021. SimCLS: A sim-
+ple framework for contrastive learning of abstractive
+summarization. In Proceedings of the 59th Annual
+Meeting of the Association for Computational Lin-
+guistics and the 11th International Joint Conference
+on Natural Language Processing (Volume 2: Short
+Papers), pages 1065–1072, Online. Association for
+Computational Linguistics.
+Ramesh Nallapati. 2004. Discriminative models for
+information retrieval. In Proceedings of the 27th
+annual international ACM SIGIR conference on Re-
+search and development in information retrieval,
+pages 64–71.
+Ramesh Nallapati, Bowen Zhou, Cicero dos Santos,
+Ça˘glar G˙ulçehre, and Bing Xiang. 2016. Abstrac-
+tive text summarization using sequence-to-sequence
+RNNs and beyond.
+In Proceedings of The 20th
+SIGNLL Conference on Computational Natural Lan-
+guage Learning, pages 280–290, Berlin, Germany.
+Association for Computational Linguistics.
+Shashi Narayan, Shay B. Cohen, and Mirella Lapata.
+2018. Don’t give me the details, just the summary!
+topic-aware convolutional neural networks for ex-
+treme summarization. In Proceedings of the 2018
+Conference on Empirical Methods in Natural Lan-
+guage Processing, pages 1797–1807, Brussels, Bel-
+gium. Association for Computational Linguistics.
+Rodrigo Nogueira and Kyunghyun Cho. 2019. Pas-
+sage
+re-ranking
+with
+bert.
+arXiv
+preprint
+arXiv:1901.04085.
+Vinay Pandramish and Dipti Misra Sharma. 2020.
+Checkpoint reranking: An approach to select bet-
+ter hypothesis for neural machine translation systems.
+In Proceedings of the 58th Annual Meeting of the
+Association for Computational Linguistics: Student
+Research Workshop, pages 286–291, Online. Associ-
+ation for Computational Linguistics.
+Weizhen Qi, Yeyun Gong, Yu Yan, Can Xu, Bolun Yao,
+Bartuer Zhou, Biao Cheng, Daxin Jiang, Jiusheng
+Chen, Ruofei Zhang, Houqiang Li, and Nan Duan.
+2021. ProphetNet-X: Large-scale pre-training mod-
+els for English, Chinese, multi-lingual, dialog, and
+code generation. In Proceedings of the 59th Annual
+Meeting of the Association for Computational Lin-
+guistics and the 11th International Joint Conference
+on Natural Language Processing: System Demon-
+strations, pages 232–239, Online. Association for
+Computational Linguistics.
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine
+Lee, Sharan Narang, Michael Matena, Yanqi Zhou,
+Wei Li, and Peter J Liu. 2019. Exploring the limits
+of transfer learning with a unified text-to-text trans-
+former. arXiv preprint arXiv:1910.10683.
+Abigail See, Peter J. Liu, and Christopher D. Manning.
+2017. Get to the point: Summarization with pointer-
+generator networks. In Proceedings of the 55th An-
+nual Meeting of the Association for Computational
+Linguistics (Volume 1: Long Papers), pages 1073–
+1083, Vancouver, Canada. Association for Computa-
+tional Linguistics.
+Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz,
+Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff
+Dean. 2017. Outrageously large neural networks:
+The sparsely-gated mixture-of-experts layer. arXiv
+preprint arXiv:1701.06538.
+
+Noam Shazeer and Mitchell Stern. 2018. Adafactor:
+Adaptive learning rates with sublinear memory cost.
+In International Conference on Machine Learning,
+pages 4596–4604. PMLR.
+Shichao Sun and Wenjie Li. 2021. Alleviating expo-
+sure bias via contrastive learning for abstractive text
+summarization. arXiv preprint arXiv:2108.11846.
+Ashwin K Vijayakumar, Michael Cogswell, Ram-
+prasath R Selvaraju, Qing Sun, Stefan Lee, David
+Crandall, and Dhruv Batra. 2016.
+Diverse beam
+search: Decoding diverse solutions from neural se-
+quence models. arXiv preprint arXiv:1610.02424.
+Ronald J Williams and David Zipser. 1989. A learn-
+ing algorithm for continually running fully recurrent
+neural networks. Neural computation, 1(2):270–280.
+Thomas Wolf, Lysandre Debut, Victor Sanh, Julien
+Chaumond, Clement Delangue, Anthony Moi, Pier-
+ric Cistac, Tim Rault, Remi Louf, Morgan Funtow-
+icz, Joe Davison, Sam Shleifer, Patrick von Platen,
+Clara Ma, Yacine Jernite, Julien Plu, Canwen Xu,
+Teven Le Scao, Sylvain Gugger, Mariama Drame,
+Quentin Lhoest, and Alexander Rush. 2020. Trans-
+formers: State-of-the-art natural language processing.
+In Proceedings of the 2020 Conference on Empirical
+Methods in Natural Language Processing: System
+Demonstrations, pages 38–45, Online. Association
+for Computational Linguistics.
+Weizhe Yuan, Graham Neubig, and Pengfei Liu. 2021.
+Bartscore: Evaluating generated text as text genera-
+tion. arXiv preprint arXiv:2106.11520.
+Jingqing Zhang, Yao Zhao, Mohammad Saleh, and Pe-
+ter Liu. 2020. Pegasus: Pre-training with extracted
+gap-sentences for abstractive summarization. In In-
+ternational Conference on Machine Learning, pages
+11328–11339. PMLR.
+Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q Wein-
+berger, and Yoav Artzi. 2019a.
+Bertscore: Eval-
+uating text generation with bert.
+arXiv preprint
+arXiv:1904.09675.
+Zhengyan Zhang, Xu Han, Zhiyuan Liu, Xin Jiang,
+Maosong Sun, and Qun Liu. 2019b. ERNIE: En-
+hanced language representation with informative en-
+tities. In Proceedings of the 57th Annual Meeting of
+the Association for Computational Linguistics, pages
+1441–1451, Florence, Italy. Association for Compu-
+tational Linguistics.
+Wei Zhao, Maxime Peyrard, Fei Liu, Yang Gao, Chris-
+tian M. Meyer, and Steffen Eger. 2019a. MoverScore:
+Text generation evaluating with contextualized em-
+beddings and earth mover distance. In Proceedings
+of the 2019 Conference on Empirical Methods in
+Natural Language Processing and the 9th Interna-
+tional Joint Conference on Natural Language Pro-
+cessing (EMNLP-IJCNLP), pages 563–578, Hong
+Kong, China. Association for Computational Lin-
+guistics.
+Zhe Zhao, Lichan Hong, Li Wei, Jilin Chen, Aniruddh
+Nath, Shawn Andrews, Aditee Kumthekar, Mah-
+eswaran Sathiamoorthy, Xinyang Yi, and Ed Chi.
+2019b. Recommending what video to watch next: a
+multitask ranking system. In Proceedings of the 13th
+ACM Conference on Recommender Systems, pages
+43–51.
+
+A
+Hyper Parameters & Packages
+For evaluation metrics, we used the following pack-
+ages:
+• For ROUGE metrics (Lin and Hovy, 2003),
+we used the public rouge-score package from
+Google Research:
+https://github.com/
+google-research/
+google-research/tree/master/
+rouge
+• For BERTScore (Zhang et al., 2019a), we
+used the public bert-score package shared by
+the authors:
+https://github.com/Tiiiger/
+bert_score
+• For BARTScore (Yuan et al., 2021), we used
+the public code shared by the authors:
+https://github.com/neulab/
+BARTScore
+Dataset
+Model
+LR
+Epochs
+Opt.
+BS
+LS
+MP
+Source
+tokens
+Summary
+tokens
+CNN/DM
+PEGASUS
+5e-5
+10
+Adafactor
+256
+0.1
+No
+1024
+128
+BART
+3e-5
+10
+Adam
+80
+0.1
+Yes
+1024
+128
+XSum
+PEGASUS
+5e-5
+10
+Adafactor
+256
+0.1
+No
+512
+64
+BART
+3e-5
+10
+Adam
+80
+0.1
+Yes
+512
+64
+Reddit TIFU
+PEGASUS
+1e-4
+15
+Adafactor
+256
+0.1
+No
+512
+128
+BART
+3e-5
+15
+Adam
+80
+0.1
+Yes
+512
+128
+Table 7: Hyper-parameters for fine-tuning the base
+models. LR designates the learning rate, Epochs is
+the number of epochs, Opt. is the optimizer, BS is the
+batch size, LS means label smoothing, and MP means
+mixed precision. Source tokens is the maximum size
+of the input document, Summary tokens the maximum
+size of the output summary.
+Dataset
+Model
+Source
+tokens
+Summary
+tokens
+Length
+penalty
+Repetition
+penalty
+Trigram
+blocking
+CNN/DM
+PEGASUS
+1024
+128
+0.8
+1.0
+No
+BART
+1024
+128
+0.8
+1.0
+No
+XSum
+PEGASUS
+512
+64
+0.8
+1.0
+Yes
+BART
+512
+64
+0.8
+1.0
+Yes
+Reddit TIFU
+PEGASUS
+512
+128
+0.6
+1.0
+Yes
+BART
+512
+128
+1.0
+1.0
+Yes
+Table 8: Hyper-parameters for the summary candi-
+dates generation with the base models.
+B
+Oracle Scores
+Decoding methods
+# Summary
+candidates
+R-1
+R-2
+R-L
+BS
+BaS
+Beam search (top beam)
+1
+47.33
+24.75
+39.43
+92.01
+-1.92
+Beam search
+15
+56.07
+33.80
+48.33
+93.19
+-1.82
+Diverse beam search
+15
+57.82
+35.28
+50.95
+93.65
+-1.63
+Top-k sampling
+15
+55.57
+32.54
+48.35
+93.18
+-1.86
+Top-p sampling
+15
+56.74
+33.94
+49.60
+93.40
+-1.77
+All four above
+60
+62.30
+40.84
+55.92
+94.24
+-1.48
+Table 9: Oracle scores for four popular decoding meth-
+ods and five summarization evaluation measures for a
+base PEGASUS model on XSum.
+Decoding methods
+# Summary
+candidates
+R-1
+R-2
+R-L
+BS
+BaS
+Beam search (top beam)
+1
+26.28
+9.01
+21.52
+87.34
+-3.46
+Beam search
+15
+36.08
+14.93
+29.70
+88.64
+-2.89
+Diverse beam search
+15
+36.70
+15.22
+30.88
+89.08
+-2.81
+Top-k sampling
+15
+36.76
+14.37
+29.49
+88.53
+-3.14
+Top-p sampling
+15
+37.54
+15.24
+30.50
+88.69
+-3.03
+All four above
+60
+43.25
+20.70
+36.41
+89.71
+-2.58
+Table 10: Oracle scores for four popular decoding meth-
+ods and five summarization evaluation measures for a
+base PEGASUS model on Reddit TIFU.
+Observations from Table 9 and Table 10 are con-
+sistent with the ones made in Table 1: oracle scores
+are widely above the top beam baseline, and keep
+increasing when mixing several decoding meth-
+ods.
+
+C
+Unique Candidates Scores
+Scoring metric
+Dataset
+Model
+Generation
+method
+R-1
+R-2
+R-L
+BS
+BaS
+CNN/DM
+PEGASUS
+{1}
+11.51
+10.87
+11.54
+14.96
+14.96
+{2}
+14.34
+14.09
+14.34
+14.99
+14.99
+{3}
+14.65
+14.40
+14.65
+14.99
+14.99
+{4}
+14.68
+14.41
+14.69
+15.00
+15.00
+BART
+{1}
+11.51
+10.90
+11.54
+14.93
+14.95
+{2}
+13.89
+13.71
+13.89
+14.80
+14.79
+XSum
+PEGASUS
+{1}
+8.90
+7.91
+8.56
+14.99
+14.99
+{2}
+12.05
+10.92
+12.11
+14.97
+14.98
+BART
+{1}
+8.70
+7.57
+8.33
+14.99
+15.00
+{2}
+7.37
+6.63
+7.37
+14.59
+14.99
+Reddit TIFU
+PEGASUS
+{1}
+9.19
+6.31
+8.85
+14.99
+14.99
+{2}
+7.84
+5.06
+7.77
+14.89
+14.97
+BART
+{1}
+7.73
+5.15
+7.56
+14.99
+14.99
+{2}
+7.42
+3.92
+7.38
+14.89
+14.97
+Table 11: Number of unique scores among pools of 15
+candidates generated on different datasets (CNN/DM,
+XSum, Reddit TIFU) with different base models (PE-
+GASUS, BART) and different decoding methods ({1}
+stands for beam search, {2} is diverse beam search, {3}
+is top-p sampling and {4} top-k sampling). The lowest
+possible score of 1 indicates that all 15 candidates are
+assigned the same score under the metric being consid-
+ered, while the highest of 15 means that all candidates
+are assigned a different score.
+In Table 11, BERTScore (BS) and BARTScore
+(BaS) have results closer to 15, indicating that it is
+unlikely that two summary candidates share the ex-
+act metric score. This is understandable given that
+both these metrics are based on embeddings from
+pre-trained language models (BERT and BART, re-
+spectively), and embeddings values will vary when-
+ever the input text is different, making it unlikely to
+have two candidates collude on the same score. In
+contrast, ROUGE measures n-gram overlaps, and
+two different summary candidates might get the
+same ROUGE score with the target summary (for
+instance if they only differ by n-grams not present
+in the target).
+D
+Identical Candidates Scores
+Scoring metric
+Dataset
+Model
+Generation
+method
+R-1
+R-2
+R-L
+BS
+BaS
+CNN/DM
+PEGASUS
+{1}
+0.00
+0.50
+0.00
+0.00
+0.00
+{2}
+0.00
+0.03
+0.00
+0.00
+0.00
+{3}
+0.03
+0.06
+0.03
+0.03
+0.00
+{4}
+0.00
+0.03
+0.00
+0.00
+0.00
+BART
+{1}
+0.00
+0.47
+0.00
+0.00
+0.00
+{2}
+0.00
+0.05
+0.00
+0.00
+0.00
+XSum
+PEGASUS
+{1}
+0.06
+3.34
+0.10
+0.00
+0.00
+{2}
+0.04
+1.11
+0.04
+0.00
+0.00
+BART
+{1}
+0.17
+4.31
+0.19
+0.00
+0.00
+{2}
+0.04
+2.59
+0.04
+0.00
+0.00
+Reddit TIFU
+PEGASUS
+{1}
+2.04
+21.15
+2.04
+0.00
+0.00
+{2}
+1.52
+17.03
+1.52
+0.00
+0.00
+BART
+{1}
+2.32
+24.14
+2.32
+0.00
+0.00
+{2}
+1.73
+21.60
+1.73
+0.00
+0.00
+Table 12: Fraction of sets of candidates with all iden-
+tical scores (%) for pools of 15 candidates generated
+on different datasets (CNN/DM, XSum, Reddit TIFU)
+with different base models (PEGASUS, BART) and dif-
+ferent decoding methods ({1} stands for beam search,
+{2} is diverse beam search, {3} is top-p sampling and
+{4} top-k sampling.
+We note that cases where all scores are identical
+are a small minority. ROUGE-2 is more likely
+than other metrics to lead to such a scenario of all
+identical scores.
+
+E
+Metrics Correlation
+R-1
+R-2
+R-L
+BS
+BaS
+R-1
+1.000
+0.888
+0.905
+0.850
+0.657
+R-2
+0.888
+1.000
+0.911
+0.790
+0.628
+R-L
+0.905
+0.911
+1.000
+0.847
+0.620
+BS
+0.850
+0.790
+0.847
+1.000
+0.690
+BaS
+0.657
+0.628
+0.620
+0.690
+1.000
+Table 13: Pearson correlation coefficient between the
+five evaluation metrics {R-1, R-2, R-L, BS, BaS} for a
+base PEGASUS decoded with beam search on XSum.
+R-1
+R-2
+R-L
+BS
+BaS
+R-1
+1.000
+0.806
+0.927
+0.766
+0.600
+R-2
+0.806
+1.000
+0.856
+0.679
+0.524
+R-L
+0.927
+0.856
+1.000
+0.768
+0.564
+BS
+0.766
+0.679
+0.768
+1.000
+0.646
+BaS
+0.600
+0.524
+0.564
+0.656
+1.000
+Table 14: Pearson correlation coefficient between the
+five evaluation metrics {R-1, R-2, R-L, BS, BaS} for a
+base PEGASUS decoded with beam search on Reddit
+TIFU.
+Metrics correlation from Table 13 and Table 14
+follow the same pattern as in Table 2.
+F
+Base Setup Results
+Model
+Model
+stage
+Decoding
+methods (D)
+R-1
+R-2
+R-L
+Gain
+(%)
+PEGASUS - 1st half
+1
+{1}
+46.02
+23.38
+38.10
+_
+PEGASUS - 1st half
+1
+{2}
+45.41
+22.37
+37.22
+_
+PEGASUS - 2nd half
+1
+{1}
+46.26
+23.45
+38.22
+_
+PEGASUS - 2nd half
+1
+{2}
+45.53
+22.42
+37.31
+_
+BART - 1st half
+1
+{1}
+42.76
+20.22
+35.00
+_
+BART - 1st half
+1
+{2}
+40.93
+18.75
+33.44
+_
+BART - 2nd half
+1
+{1}
+42.63
+20.22
+35.08
+_
+BART - 2nd half
+1
+{2}
+40.65
+18.65
+33.38
+_
+PEGASUS - 1st half + SR
+2
+{1}
+45.01
+22.06
+36.92
+-3.63
+PEGASUS - 1st half + SR
+2
+{2}
+46.35
+22.64
+38.05
+0.83
+PEGASUS - 2nd half + SR
+2
+{1}
+45.25
+22.10
+36.96
+-3.77
+PEGASUS - 2nd half + SR
+2
+{2}
+46.25
+22.50
+37.93
+1.17
+BART - 1st half + SR
+2
+{1}
+44.09
+20.71
+35.86
+2.67
+BART - 1st half + SR
+2
+{2}
+43.70
+19.90
+35.21
+6.07
+BART - 2nd half + SR
+2
+{1}
+44.30
+20.88
+36.23
+3.50
+BART - 2nd half + SR
+2
+{2}
+43.96
+20.03
+35.49
+7.27
+PEGASUS - 1st half + SR
+2
+{1, 2}
+46.74
+23.10
+38.35
+0.37
+PEGASUS - 2nd half + SR
+2
+{1, 2}
+47.00
+23.30
+38.54
+0.60
+BART - 1st half + SR
+2
+{1, 2}
+44.52
+20.59
+35.93
+2.87
+BART - 2nd half + SR
+2
+{1, 2}
+44.68
+20.76
+36.20
+3.57
+Table 15: Base setup results for SummaReranker ap-
+plied to PEGASUS and BART on the XSum dataset.
+SR refers to SummaReranker. Decoding method {1} is
+beam search, {2} is diverse beam search. Best scores
+for each type of model are in bold. Gain represents the
+mean relative gain over {R-1, R-2, R-L} compared to
+the best decoding method.
+Model
+Model
+stage
+Decoding
+methods (D)
+R-1
+R-2
+R-L
+Gain
+(%)
+PEGASUS - 1st half
+1
+{1}
+24.83
+8.29
+20.38
+_
+PEGASUS - 1st half
+1
+{2}
+23.77
+7.38
+19.37
+_
+PEGASUS - 2nd half
+1
+{1}
+25.16
+8.42
+20.53
+_
+PEGASUS - 2nd half
+1
+{2}
+24.18
+7.53
+19.68
+_
+BART - 1st half
+1
+{1}
+28.38
+9.60
+22.44
+_
+BART - 1st half
+1
+{2}
+28.60
+8.96
+22.49
+_
+BART - 2nd half
+1
+{1}
+26.94
+9.13
+21.65
+_
+BART - 2nd half
+1
+{2}
+25.83
+8.38
+20.97
+_
+PEGASUS - 1st half + SR
+2
+{1}
+28.78
+9.20
+22.74
+12.83
+PEGASUS - 1st half + SR
+2
+{2}
+28.63
+8.71
+22.71
+18.53
+PEGASUS - 2nd half + SR
+2
+{1}
+28.87
+9.24
+22.73
+11.70
+PEGASUS - 2nd half + SR
+2
+{2}
+28.41
+8.46
+22.44
+14.63
+BART - 1st half + SR
+2
+{1}
+28.98
+9.62
+22.96
+1.53
+BART - 1st half + SR
+2
+{2}
+28.89
+8.70
+22.40
+-0.77
+BART - 2nd half + SR
+2
+{1}
+27.93
+9.48
+22.45
+3.73
+BART - 2nd half + SR
+2
+{2}
+28.24
+8.77
+22.43
+6.98
+PEGASUS - 1st half + SR
+2
+{1, 2}
+29.93
+9.40
+23.50
+16.37
+PEGASUS - 2nd half + SR
+2
+{1, 2}
+29.65
+9.24
+23.22
+13.53
+BART - 1st half + SR
+2
+{1, 2}
+29.00
+8.78
+22.32
+-2.63
+BART - 2nd half + SR
+2
+{1, 2}
+29.15
+9.11
+22.96
+4.70
+Table 16: Base setup results for SummaReranker ap-
+plied to PEGASUS and BART on the Reddit TIFU
+dataset.
+Tables Table 15 and Table 16 complement the
+base setup results exposed in Table 4.
+
+G
+Recall Curves
+Threshold k
+k=1
+k=2
+k=3
+k=4
+k=5
+CNN-DailyMail - Random baseline
+6.75
+13.49
+20.20
+26.91
+33.60
+CNN-DailyMail - PEGASUS
+8.57
+15.93
+22.76
+29.43
+35.94
+CNN-DailyMail - PEGASUS + SR
+14.97
+25.40
+35.00
+43.46
+50.84
+XSum - Random baseline
+8.05
+15.81
+23.33
+30.62
+37.72
+XSum - PEGASUS
+14.60
+24.40
+32.70
+40.23
+47.17
+XSum - PEGASUS + SR
+16.57
+28.60
+39.53
+48.78
+56.71
+Reddit TIFU - Random baseline
+11.39
+21.22
+30.35
+38.83
+46.70
+Reddit TIFU - PEGASUS
+14.54
+24.11
+33.16
+40.10
+48.11
+Reddit TIFU - PEGASUS + SR
+16.70
+27.07
+37.42
+46.02
+53.34
+Table 17: Values of recall curves plotted in Fig. 3.
+H
+Human Evaluation
+Tie
+Base model
+SummaReranker
+Mean
+Std
+Mean
+Std
+Mean
+Std
+CNN/DM
+18.67
+9.50
+32.00
+6.00
+49.33
+12.20
+XSum
+42.00
+16.33
+28.00
+10.20
+30.00
+7.12
+Reddit TIFU
+16.00
+4.32
+28.00
+2.82
+58.00
+4.32
+Table 18: Numbers of the human evaluation in Fig. 5.
+I
+Candidate Selection
+Dataset
+Model
+Generation
+method
+SR pick
+the base
+candidate (%)
+SR pick
+the best
+candidate (%)
+CNN/DM
+PEGASUS
+{1}
+3.57
+14.81
+{2}
+11.11
+15.00
+BART
+{1}
+2.75
+15.51
+{2}
+6.67
+13.54
+XSum
+PEGASUS
+{1}
+4.86
+9.97
+{2}
+20.73
+16.57
+BART
+{1}
+8.01
+18.19
+{2}
+22.23
+23.80
+Reddit TIFU
+PEGASUS
+{1}
+6.16
+18.21
+{2}
+16.82
+23.09
+BART
+{1}
+3.22
+24.04
+{2}
+3.32
+32.88
+Table 19: Re-ranking overlap with base and best can-
+didates. Fraction of time that the re-ranked summary
+coincides with the base model one (left), and one of the
+best ones (oracle scores) among generated candidates
+(right). SR is SummaReranker.
+In Table 19, we observe that SummaReranker is
+more likely to stick to the base model candidate
+with diverse beam search. Results in bold represent
+the most ideal scenario: SummaReranker differs
+the most from the base setup (lowest scores of the
+left column), and matches the most one of the best
+candidates (highest scores of the right column).
+
+J
+Speed/Performance Trade-off
+Figure 7: ROUGE-1 on CNN/DM for k sampled candidates at inference time, with k ∈{1, . . . , 15}. SR stands for
+SummaReranker, BS and DBS refer to beam search and diverse beam search, respectively.
+In Fig. 8, we observe a failure mode of SummaReranker: on XSum and with PEGASUS when
+training the re-ranking with beam search candidates, performance decreases. However, the problem
+vanishes when SummaReranker is trained on a mixture of beam search and diverse beam search candidates.
+Fig. 9 top left (PEGASUS with beam search) represents a curious case: re-ranking a single candidate
+is better than the top beam baseline. Since re-ranking a single candidate is equivalent to randomly
+sampling one candidate, this means that the top beam baseline is on average lower than sampling a random
+candidate. We observed that such cases are rare and usually the top beam baseline is better than the
+random baseline. When the top beam baseline is lower, it is of utmost importance to keep all candidate
+and use a second-stage method to identify a better one.
+
+Figure 8: ROUGE-1 on XSum for k sampled candidates at inference time, with k ∈{1, . . . , 15}. SR stands for
+SummaReranker, BS and DBS refer to beam search and diverse beam search, respectively.
+Figure 9: ROUGE-1 on Reddit TIFU for k sampled candidates at inference time, with k ∈{1, . . . , 15}. SR stands
+for SummaReranker, BS and DBS refer to beam search and diverse beam search, respectively.
+
+K
+Re-ranking Examples
+CNN/DM
+Source
+Is this confirmation that Angel Di Maria is happy as a Manchester United player? The 27-year-old has endured a mixed start to his United
+career on-and-off the pitch since joining the club last summer - which has included an attempted burglary at his family home in Cheshire back
+in February. The midfielder has been linked with a move away from Old Trafford as a result, but speculation about his future could be squashed
+following his latest tattoo. Angel Di Maria (left) has a new No 7 tattoo which stands out among others on his left arm . Di Maria wears the No 7
+shirt at Manchester United following his £60million from Real Madrid last summer. A new picture has been revealed on Twitter of Di Maria’s
+latest piece of body art - the number seven which stands out strongly among others on his left arm. United’s club record £60million signing
+of course adorns the No 7 shirt at the Red Devils - so could his latest tattoo suggest he’s committed to Louis van Gaal’s side for the long haul?
+However, before United fans get too carried away it must be noted that the former Real Madrid star does also wear the No 7 jersey for Argentina
+too. As well as adorning the No 7 shirt at United, 27-year-old (right) also wears that number for Argentina too.
+Beam #1
+Summary
+Angel Di Maria has revealed his latest tattoo on Twitter. The 27-year-old has the No 7 shirt at Manchester United on his left arm. The Argentine has
+endured a mixed start to his United career. He has been linked with a move away from Old Trafford as a result.
+Reference scores
+R-1: 38.6364, R-2: 18.6047, R-L: 34.0909 // Rank: 15
+Re-ranking
+SummaReranker score: 0.1577 // SummaReranker score rank: 15
+Beam #2
+Summary
+Angel Di Maria has a new tattoo of the No 7 shirt at Manchester United. The 27-year-old has endured a mixed start to his United career. The midfielder
+has been linked with a move away from Old Trafford. Di Maria also wears the No 7shirt for Argentina too.
+Reference scores
+R-1: 59.0909, R-2: 34.8837, R-L: 56.8182 // Rank: 5
+Re-ranking
+SummaReranker score: 0.3905 // SummaReranker rank: 6
+Beam #3
+Summary
+Angel Di Maria has had a new No 7 tattoo on his left arm. The number stands out strongly among others on his arm. The 27-year-old joined Manchester
+United for a club record £60million last summer. Di Maria also wears the No 7 shirt for Argentina.
+Reference scores
+R-1: 61.1765, R-2: 33.7349, R-L: 58.8235 // Rank: 4
+Re-ranking
+SummaReranker score: 0.4447 // SummaReranker rank: 5
+Beam #4
+Summary
+Manchester United’s record signing has a new No 7 tattoo on his left arm. Angel Di Maria wears the number seven shirt at Old Trafford. The 27-year-old
+has endured a mixed start to his United career. He has been linked with a move away from Old Trafford as a result.
+Reference scores
+R-1: 37.7778, R-2: 15.9091, R-L: 37.7778 // Rank: 14
+Re-ranking
+SummaReranker score: 0.2528 // SummaReranker score: 10
+Beam #5
+Summary
+Angel di Maria’s latest tattoo shows him with the No 7 shirt at Manchester United. The 27-year-old has endured a mixed start to his United career.
+The midfielder has been linked with a move away from Old Trafford. Di Maria joined United for a club record £60million from Real Madrid.
+Reference scores
+R-1: 53.3333, R-2: 27.2727, R-L: 48.8889 // Rank: 10
+Re-ranking
+SummaReranker score: 0.2377 // SummaReranker rank: 12
+Beam #6
+Summary
+Argentina star Angel Di Maria has a new No 7 tattoo on his left arm. The number stands out strongly among others on his arm. Di Maria joined
+Manchester United for a club record £60million last summe$. The 27-year-old does also wear the No 7 shirt for Argentina too.
+Reference scores
+R-1: 61.3636, R-2: 37.2093, R-L: 59.0909 // Rank: 2
+Re-ranking
+SummaReranker score: 0.3058 // SummaReranker rank: 8
+Beam #7
+Summary
+Manchester United’s Angel Di Maria has had a new No 7 tattoo on his left arm. The 27-year-old’s latest body art was revealed on Twitter.
+Di Maria wears the No 7 shirt at Old Trafford following his £60million move from Real Madrid last summer.
+Reference scores
+R-1: 56.4706, R-2: 31.3253, R-L: 47.0588 // Rank: 8
+Re-ranking
+SummaReranker score: 0.8853 // SummaReranker rank: 2
+Beam #8
+Summary
+The Manchester United star has revealed his latest tattoo on Twitter. Angel Di Maria has been linked with a move away from Old Trafford
+in recent weeks. Di Maria wears the No 7 shirt at United following his £60million move from Real Madrid last summer.
+Reference scores
+R-1: 48.7805, R-2: 25.0000, R-L: 43.9024 // Rank: 12
+Re-ranking
+SummaReranker score: 0.2473 // SummaReranker rank: 11
+Beam #9
+Summary
+Manchester United’s Angel Di Maria has had a new No 7 tattoo on his left arm. The 27-year-old’s latest body art was revealed on Twitter.
+Di Maria wears the No 7 shirt at Old Trafford following his £60million move from Real Madrid last summer. The Argentine also wears the number
+for Argentina too.
+Reference scores
+R-1: 61.7021, R-2: 34.7826, R-L: 53.1915 // Rank: 6
+Re-ranking
+SummaReranker score: 0.9135 // SummaReranker rank: 1
+Beam #10
+Summary
+The Manchester United star has revealed his latest tattoo on Twitter. Angel Di Maria has been linked with a move away from Old Trafford in recent weeks.
+Di Maria wears the No 7 shirt at United following his £60million move from Real Madrid last summer. The Argentine also wears the number for Argentina too.
+Reference scores
+R-1: 54.9451, R-2: 29.2135, R-L: 50.5495 // Rank: 9
+Re-ranking
+SummaReranker score: 0.1829 // SummaReranker rank: 14
+Beam #11
+Summary
+Man Utd star Angel Di Maria has revealed his latest tattoo on Twitter. The 27-year-old has the No 7 shirt at Manchester United on his left arm.
+Di Maria joined United for a club record £60million from Real Madrid last summer. The Argentine also wears the No 7 shirt for Argentina too.
+Reference scores
+R-1: 68.1319, R-2: 40.4494, R-L: 61.5385 // Rank: 1
+Re-ranking
+SummaReranker score: 0.3383 // SummaReranker rank: 7
+Beam #12
+Summary
+Manchester United star Angel Di Maria has had a new No 7 tattoo. The number stands out strongly among others on his left arm.
+Di Maria wears the No 7 shirt at Old Trafford following his £60million move. The Argentine also wears the number for his country too.
+Reference scores
+R-1: 54.1176, R-2: 24.0964, R-L: 42.3529 // Rank: 11
+Re-ranking
+SummaReranker score: 0.2172 // SummaReranker rank: 13
+Beam #13
+Summary
+Manchester United midfielder Angel Di Maria has a new tattoo of the No 7 shirt at the club on his left arm. The 27-year-old has endured a mixed
+start to his United career on-and-off the pitch since joining the club last summer. Di Maria has been linked with a move away from Old Trafford as a result.
+Reference scores
+R-1: 40.8163, R-2: 20.8333, R-L: 36.7347 // Rank: 13
+Re-ranking
+SummaReranker score: 0.2782 // SummaReranker rank: 9
+Beam #14
+Summary
+Angel Di Maria has revealed his latest tattoo on Twitter. The 27-year-old has the number seven inked on his left arm. Di Maria joined Manchester
+United for a club record £60million last summer. The Argentine also wears the No 7 shirt for Argentina.
+Reference scores
+R-1: 58.5366, R-2: 35.0000, R-L: 56.0976 // Rank: 7
+Re-ranking
+SummaReranker score: 0.7447 // SummaReranker rank: 3
+Beam #15
+Summary
+Angel di Maria has a new No 7 tattoo on his left arm. The number seven is among others on his left arm. The 27-year-old wears the No 7 shirt at
+Manchester United. Di Maria joined United for a club record £60million from Real Madrid last summer.
+Reference scores
+R-1: 62.7907, R-2: 33.3333, R-L: 58.1395 // Rank: 3
+Re-ranking
+SummaReranker score: 0.4988 // SummaReranker rank: 4
+Reference
+Angel di Maria joined Manchester United from Real Madrid for £60million. Di Maria took the No 7 shirt upon his arrival at the English giants.
+27-year-old also wears the No 7 jersey for Argentina too.
+Table 20: Diverse beam search summary candidates of a base PEGASUS and their ground truth and SummaR-
+eranker re-ranking scores on CNN/DM.
+
+XSum
+Source
+Female officers will be able to wear a headscarf under their caps or berets, provided it is plain and is the same colour as the uniform. Headscarf bans on
+university campuses and state institutions - except for the judiciary, military and police - have also been lifted in recent years. The garment has been
+controversial in Turkey for years. Secularists regard it as a symbol of religious conservatism. Since the 1920s, Turkey has had a secular constitution
+with no state religion. The opposition have accused President Recep Tayyip Erdogan and his Islamist-rooted Justice and Development Party (AKP)
+of trying to reinterpret secularism. However, public debate has also evolved to accept the hijab as an expression of individual liberties, correspondents say.
+No strong opposition has been voiced against this latest move. President Erdogan has long embraced Turks’ right to express their religious beliefs openly,
+but he says he is committed to secularism. In 2010, the country’s universities abandoned an official ban on Muslim headscarves. Three years later, women
+were allowed to wear headscarves in state institutions - with the exception of the judiciary, military and police. That year, four MPs wore headscarves
+in parliament. Most people in Turkey are Sunni Muslims.
+Beam #1
+Summary
+The Turkish authorities have lifted a ban on female police officers wearing headscarves.
+Reference scores
+R-1: 50.0000, R-2: 27.2727, R-L: 41.6667 // Rank: 11
+Re-ranking
+SummaReranker score: 0.6553 // SummaReranker rank: 12
+Beam #2
+Summary
+Turkey has lifted a ban on female police officers wearing headscarves, the interior ministry says.
+Reference scores
+R-1: 61.5385, R-2: 41.6667, R-L: 61.5385 // Rank: 2
+Re-ranking
+SummaReranker score: 0.8562 // SummaReranker rank: 2
+Beam #3
+Summary
+The Turkish authorities have lifted a ban on female police officers wearing headscarves, state media report.
+Reference scores
+R-1: 53.8462, R-2: 25.0000, R-L: 53.8462 // Rank: 8
+Re-ranking
+SummaReranker score: 0.5605 // SummaReranker rank: 1
+Beam #4
+Summary
+Turkey has lifted its ban on female police officers wearing headscarves, the interior ministry says.
+Reference scores
+R-1: 53.8462, R-2: 25.0000, R-L: 53.8462 // Rank: 8
+Re-ranking
+SummaReranker score: 0.7049 // SummaReranker rank: 9
+Beam #5
+Summary
+The Turkish government has lifted a ban on female police officers wearing headscarves.
+Reference scores
+R-1: 58.3333, R-2: 36.3636, R-L: 50.0000 // Rank: 5
+Re-ranking
+SummaReranker score: 0.7104 // SummaReranker rank: 8
+Beam #6
+Summary
+The Turkish authorities have lifted a ban on police officers wearing headscarves.
+Reference scores
+R-1: 52.1739, R-2: 28.5714, R-L: 43.4783 // Rank: 10
+Re-ranking
+SummaReranker score: 0.7503 // SummaReranker rank: 7
+Beam #7
+Summary
+Turkey has lifted a ban on female police officers wearing headscarves.
+Reference scores
+R-1: 63.6364, R-2: 50.0000, R-L: 63.6364 // Rank: 1
+Re-ranking
+SummaReranker score: 0.9019 // SummaReranker rank: 1
+Beam #8
+Summary
+Turkey’s police force has lifted its ban on female officers wearing headscarves.
+Reference scores
+R-1: 50.0000, R-2: 18.1818, R-L: 50.0000 // Rank: 12
+Re-ranking
+SummaReranker score: 0.6919 // SummaReranker rank: 10
+Beam #9
+Summary
+Turkey’s police force has lifted a ban on female officers wearing headscarves.
+Reference scores
+R-1: 58.3333, R-2: 36.3636, R-L: 58.3333 // Rank: 4
+Re-ranking
+SummaReranker score: 0.8103 // SummaReranker rank: 5
+Beam #10
+Summary
+Turkey’s police force has lifted its ban on female officers wearing headscarves, officials say.
+Reference scores
+R-1: 46.1538, R-2: 16.6667, R-L: 46.1538 // Rank: 13
+Re-ranking
+SummaReranker score: 0.5066 // SummaReranker rank: 15
+Beam #11
+Summary
+The Turkish government has lifted a ban on female police officers wearing headscarves, state media report.
+Reference scores
+R-1: 51.8519, R-2: 32.0000, R-L: 44.4444 // Rank: 9
+Re-ranking
+SummaReranker score: 0.6522 // SummaReranker rank: 13
+Beam #12
+Summary
+Turkey’s police force has lifted a ban on female officers wearing headscarves, state media report.
+Reference scores
+R-1: 51.8519, R-2: 32.0000, R-L: 51.8519 // Rank: 7
+Re-ranking
+SummaReranker score: 0.7819 // SummaReranker rank: 6
+Beam #13
+Summary
+Turkey has lifted its ban on female police officers wearing headscarves.
+Reference scores
+R-1: 54.5455, R-2: 30.0000, R-L: 54.5455 // Rank: 6
+Re-ranking
+SummaReranker score: 0.8140 // SummaReranker rank: 4
+Beam #14
+Summary
+Turkey has lifted a ban on female police officers wearing headscarves, the interior ministry has said.
+Reference scores
+R-1: 59.2593, R-2: 40.0000, R-L: 59.2593 // Rank: 3
+Re-ranking
+SummaReranker score: 0.8298 // SummaReranker rank: 3
+Beam #15
+Summary
+Turkey’s police force has lifted its ban on female officers wearing headscarves, state media report.
+Reference scores
+R-1: 44.4444, R-2: 16.0000, R-L: 44.4444 // Rank: 15
+Re-ranking
+SummaReranker score: 0.6728 // SummaReranker rank: 11
+Reference
+Turkey has lifted a ban on police women wearing the Islamic headscarf.
+Table 21: Beam search summary candidates of a base PEGASUS and their ground truth and SummaReranker
+re-ranking scores on XSum.
+
+Reddit TIFU
+Source
+here’s my reconstruction of the fuck-up: during the visa application, i’m sifting through pages and pages of documentation with 15 tabs open on my browser
+and i arrive at a page with the title english requirement. it says something like "here’s a list of approved test providers and you have to score a minimum cefr
+level of b1 to meet the english requirement." as someone who has taken many english exams such as toefl, ielts and pearson, i wonder what the hell a cefr level
+is, how come i’ve never heard of this and start popping new pages. turns out you have to score that much from ielts or this much from pearson or that much
+from other exams. cool. i’m thinking, currently i have 2 valid ielts exams that meet the criteria and a pearson’s from which i’ve scored 90/90, sweet! i’ll just submit
+pearson’s and done. so i pay 2000aud and get an appointment, submit my documents and come back home. "hey wifey, it was really easy, let’s do the same for
+you and get it done quickly." pay another 2000aud and my wife submits her application. 3 days after my submission, i get an e-mail saying a decision has been
+made, yay? more like nay, refused because we don’t accept pearson’s. 2 days later, wife gets refuses as well because we refused your husband. 2000 down the
+drain, luckily they are refunding the healthcare extras. turns out i failed to go back to that webpage and click on the link to get access to the most ridiculous list
+of approved english tests. there’s not a mention of pearson, what’s more, it doesn’t have idp melbourne so my ielts exams are useless as well. on the plus side,
+i learn there are other ways to meet the requirement. if you have a diploma from an australian uni, just submit your diploma and you’re good to go? why didn’t
+you give me a call or send me an email and say "hey, you made a mistake silly" and i’d be like here’s my diploma or something, wtf is refusing? this will stick
+to our international travel cv like a fucking bug. plus, i had to ask my future employer for another certificate, which takes another two weeks and makes me
+look like an idiot. then i’ll have to submit another application, pay another 4000 and yada yada. A bit of background: we are turkish citizens living in australia
+as permanent residents obtained by using the same pearson’s test. i’m working as a post-doctoral researcher and hopefully starting another post-doctoral position
+in scotland, not giving up!
+Beam #1
+Summary
+i didn’t go back to the page that says you have to score a cefr level of b1 to meet the english requirement.
+Reference scores
+R-1: 4.4444, R-2: 0.0000, R-L: 4.4444 // Rank: 12
+Re-ranking
+SummaReranker score: 0.8117 // SummaReranker rank: 12
+Beam #2
+Summary
+i’m an idiot.
+Reference scores
+R-1: 0.0000, R-2: 0.0000, R-L: 0.0000 // Rank: 15
+Re-ranking
+SummaReranker score: 0.0612 // SummaReranker rank: 15
+Beam #3
+Summary
+i didn’t go back to the page that says you have to score a minimum cefr level of b1 to meet the english requirement.
+Reference scores
+R-1: 4.3478, R-2: 0.0000, R-L: 4.3478 // Rank: 13
+Re-ranking
+SummaReranker score: 0.7396 // SummaReranker rank: 14
+Beam #4
+Summary
+i didn’t go back to the page that says you have to score a cefr level of b1 to meet the english requirement
+Reference scores
+R-1: 4.4444, R-2: 0.0000, R-L: 4.4444 // Rank: 11
+Re-ranking
+SummaReranker score: 0.7940 // SummaReranker rank: 13
+Beam #5
+Summary
+i didn’t go back to the page where i found out i had to score a minimum cefr level of b1 to meet the english requirement.
+Reference scores
+R-1: 4.1667, R-2: 0.0000, R-L: 4.1667 // Rank: 14
+Re-ranking
+SummaReranker score: 0.8320 // SummaReranker rank: 11
+Beam #6
+Summary
+i didn’t go back to the page that says you have to score a cefr level of b1 to meet the english requirement and now i’m stuck in australia.
+Reference scores
+R-1: 7.6923, R-2: 0.0000, R-L: 7.6923 // Rank: 7
+Re-ranking
+SummaReranker score: 0.8954 // SummaReranker rank: 5
+Beam #7
+Summary
+i didn’t go back to the page that says you have to score a minimum cefr level of b1 to meet the english requirement and now i’m stuck in australia.
+Reference scores
+R-1: 7.5472, R-2: 0.0000, R-L: 7.5472 // Rank: 8
+Re-ranking
+SummaReranker score: 0.8890 // SummaReranker rank: 8
+Beam #8
+Summary
+i didn’t go back to the page that says you have to score a minimum cefr level of b1 to meet the english requirement and now i’m stuck in a foreign country.
+Reference scores
+R-1: 7.2727, R-2: 0.0000, R-L: 7.2727 // Rank: 10
+Re-ranking
+SummaReranker score: 0.8889 // SummaReranker rank: 9
+Beam #9
+Summary
+i didn’t go back to the page that says you have to score a cefr level of b1 to meet the english requirement on my visa application and now i’m stuck in australia.
+Reference scores
+R-1: 7.2727, R-2: 0.0000, R-L: 7.2727 // Rank: 10
+Re-ranking
+SummaReranker score: 0.8941 // SummaReranker rank: 7
+Beam #10
+Summary
+i didn’t go back to the page that says you have to score a minimum cefr level of b1 to meet the english requirement on my visa application and
+now i’m stuck in australia.
+Reference scores
+R-1: 21.4286, R-2: 3.7037, R-L: 17.8571 // Rank: 1
+Re-ranking
+SummaReranker score: 0.9052 // SummaReranker rank: 1
+Beam #11
+Summary
+i didn’t go back to the page that says you have to score a minimum cefr level of b1 to meet the english requirement on my visa application and now i’m
+stuck in australia.
+Reference scores
+R-1: 21.0526, R-2: 3.6364, R-L: 17.5439 // Rank: 2
+Re-ranking
+SummaReranker score: 0.9045 // SummaReranker rank: 2
+Beam #12
+Summary
+i didn’t go back to the page that says you have to score a minimum cefr level of b1 to meet the english requirement and now i’ll have to submit another
+application, pay 4000 and look like an idiot.
+Reference scores
+R-1: 12.9032, R-2: 0.0000, R-L: 12.9032 // Rank: 6
+Re-ranking
+SummaReranker score: 0.8861 // SummaReranker ran: 10
+Beam #13
+Summary
+i didn’t go back to the page that says you have to score a cefr level of b1 to meet the english requirement and now i’m going to have to submit another application
+and pay 4000.
+Reference scores
+R-1: 13.5593, R-2: 0.0000, R-L: 13.5593 // Rank: 3
+Re-ranking
+SummaReranker score: 0.8994 // SummaReranker rank: 3
+Beam #14
+Summary
+i didn’t go back to the page that says you have to score a minimum cefr level of b1 to meet the english requirement and now i’m going to have to submit another
+application and pay 4000.
+Reference scores
+R-1: 13.3333, R-2: 0.0000, R-L: 13.3333 // Rank: 4
+Re-ranking
+SummaReranker score: 0.8947 // SummaReranker rank: 6
+Beam #15
+Summary
+i didn’t go back to the page that says you have to score a minimum cefr level of b1 to meet the english requirement and now i’m going to have to submit another
+application and pay 4000 dollars.
+Reference scores
+R-1: 13.1148, R-2: 0.0000, R-L: 13.1148 // Rank: 5
+Re-ranking
+SummaReranker score: 0.8964 // SummaReranker rank: 4
+Reference
+made a silly mistake and got refused on 2x tier 2 uk visa applications for me and my partner costing 2000aud.
+Table 22: Beam search summary candidates of a base PEGASUS and their ground truth and SummaReranker
+re-ranking scores on Reddit TIFU.

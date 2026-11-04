@@ -1,0 +1,712 @@
+
+[1] Maryam Akhavan Aghdam, Hongpeng Jin, and Yanzhao Wu.
+Da-moe: Towards dynamic expert allocation for mixture-of-
+experts models. arXiv preprint arXiv:2409.06669, 2024. 3
+[2] Inclusion AI, Biao Gong, Cheng Zou, Chuanyang Zheng,
+Chunluan Zhou, Canxiang Yan, Chunxiang Jin, Chunjie
+Shen, Dandan Zheng, Fudong Wang, et al.
+Ming-omni:
+A unified multimodal model for perception and generation.
+arXiv preprint arXiv:2506.09344, 2025. 5
+[3] Inclusion AI, Bowen Ma, Cheng Zou, Canxiang Yan, Chunx-
+iang Jin, Chunjie Shen, Dandan Zheng, Fudong Wang,
+Furong Xu, GuangMing Yao, Jun Zhou, Jingdong Chen,
+Jianing Li, Jianxin Sun, Jiajia Liu, Jianjiang Zhu, Jianping
+Jiang, Jun Peng, Kaixiang Ji, Kaimeng Ren, Libin Wang,
+Lixiang Ru, Longhua Tan, Lan Wang, Mochen Bai, Ning
+Gao, Qingpei Guo, Qinglong Zhang, Qiang Xu, Rui Liu,
+Ruijie Xiong, Ruobing Zheng, Sirui Gao, Tianqi Li, Ting-
+hao Liu, Weilong Chai, Xinyu Xiao, Xiaomei Wang, Xiao-
+long Wang, Xiao Lu, Xiaoyu Li, Xingning Dong, Xuzheng
+Yu, Yi Yuan, Yuting Gao, Yuting Xiao, Yunxiao Sun, Yipeng
+Chen, Yifan Mao, Yifei Wu, Yongjie Lyu, Ziping Ma,
+Zhiqiang Fang, Zhihao Qiu, Ziyuan Huang, Zizheng Yang,
+and Zhengyu He. Ming-flash-omni: A sparse, unified archi-
+tecture for multimodal perception and generation, 2025. 1
+[4] Shuai Bai, Keqin Chen, Xuejing Liu, Jialin Wang, Wenbin
+Ge, Sibo Song, Kai Dang, Peng Wang, Shijie Wang, Jun
+Tang, et al. Qwen2. 5-vl technical report. arXiv preprint
+arXiv:2502.13923, 2025. 1
+[5] Hui Bu, Jiayu Du, Xingyu Na, Bengu Wu, and Hao Zheng.
+Aishell-1: An open-source mandarin speech corpus and a
+speech recognition baseline. In 2017 20th conference of the
+oriental chapter of the international coordinating committee
+on speech databases and speech I/O systems and assessment
+(O-COCOSDA), pages 1–5. IEEE, 2017. 6
+[6] Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot,
+Ashish Sabharwal, Carissa Schoenick, and Oyvind Tafjord.
+Think you have solved question answering?
+try arc, the
+ai2 reasoning challenge. arXiv preprint arXiv:1803.05457,
+2018. 6
+[7] Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark
+Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry
+Tworek, Jacob Hilton, Reiichiro Nakano, et al.
+Train-
+ing verifiers to solve math word problems. arXiv preprint
+arXiv:2110.14168, 2021. 6
+[8] Damai Dai, Chengqi Deng, Chenggang Zhao, RX Xu,
+Huazuo Gao, Deli Chen, Jiashi Li, Wangding Zeng, Xingkai
+Yu, Yu Wu, et al. Deepseekmoe: Towards ultimate expert
+specialization in mixture-of-experts language models. arXiv
+preprint arXiv:2401.06066, 2024. 1, 2
+[9] Jiayu Du, Xingyu Na, Xuechen Liu, and Hui Bu. Aishell-
+2: Transforming mandarin asr research into industrial scale.
+arXiv preprint arXiv:1808.10583, 2018. 6
+[10] William Fedus, Barret Zoph, and Noam Shazeer.
+Switch
+transformers: Scaling to trillion parameter models with sim-
+ple and efficient sparsity. Journal of Machine Learning Re-
+search, 23(120):1–39, 2022. 2
+[11] Chaoyou Fu, Yuhan Dai, Yongdong Luo, Lei Li, Shuhuai
+Ren, Renrui Zhang, Zihan Wang, Chenyu Zhou, Yunhang
+Shen, Mengdan Zhang, et al.
+Video-mme: The first-ever
+comprehensive evaluation benchmark of multi-modal llms in
+video analysis. In Proceedings of the Computer Vision and
+Pattern Recognition Conference, pages 24108–24118, 2025.
+6
+[12] Tuomo Hiippala, Malihe Alikhani, Jonas Haverinen, Timo
+Kalliokoski, Evanfiya Logacheva, Serafina Orekhova, Aino
+Tuomainen, Matthew Stone, and John A Bateman. Ai2d-
+rst: a multimodal corpus of 1000 primary school science dia-
+grams. Language Resources and Evaluation, 55(3):661–688,
+2021. 6
+[13] Quzhe Huang, Zhenwei An, Nan Zhuang, Mingxu Tao, Chen
+Zhang, Yang Jin, Kun Xu, Liwei Chen, Songfang Huang, and
+Yansong Feng. Harder tasks need more experts: Dynamic
+routing in moe models. arXiv preprint arXiv:2403.07652,
+2024. 2
+[14] Albert Q Jiang, Alexandre Sablayrolles, Antoine Roux,
+Arthur Mensch, Blanche Savary, Chris Bamford, Deven-
+dra Singh Chaplot, Diego de las Casas, Emma Bou Hanna,
+Florian Bressand, et al. Mixtral of experts. arXiv preprint
+arXiv:2401.04088, 2024. 2
+[15] Peng
+Jin,
+Bo
+Zhu,
+Li
+Yuan,
+and
+Shuicheng
+Yan.
+Moe++: Accelerating mixture-of-experts methods with zero-
+computation experts.
+arXiv preprint arXiv:2410.07348,
+2024. 2, 3
+[16] Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu, Dehao
+Chen, Orhan Firat, Yanping Huang, Maxim Krikun, Noam
+Shazeer, and Zhifeng Chen. Gshard: Scaling giant models
+with conditional computation and automatic sharding. arXiv
+preprint arXiv:2006.16668, 2020. 2
+[17] Ang Li, Ben Liu, Binbin Hu, Bing Li, Bingwei Zeng,
+Borui Ye, Caizhi Tang, Changxin Tian, Chao Huang, Chao
+Zhang, et al. Every activation boosted: Scaling general rea-
+soner to 1 trillion open language foundation. arXiv preprint
+arXiv:2510.22115, 2025. 5
+[18] Bo Li, Yifei Shen, Jingkang Yang, Yezhen Wang, Jiawei
+Ren, Tong Che, Jun Zhang, and Ziwei Liu. Sparse mixture-
+of-experts are domain generalizable learners. arXiv preprint
+arXiv:2206.04046, 2022. 1
+[19] Bo Li, Yuanhan Zhang, Dong Guo, Renrui Zhang, Feng Li,
+Hao Zhang, Kaichen Zhang, Peiyuan Zhang, Yanwei Li, Zi-
+wei Liu, et al. Llava-onevision: Easy visual task transfer.
+arXiv preprint arXiv:2408.03326, 2024. 1
+
+[20] Bayan Li, Qiyuan Duan, Xuemiao Zhang, Bei Li, Jiajun
+Yang, Ran Meng, Xueyuan Hao, Bingye Lei, Jiaming Wang,
+Rongxiang Weng, et al. Longcat-flash technical report. arXiv
+preprint arXiv:2509.01322, 2025. 3
+[21] Kunchang Li, Yali Wang, Yinan He, Yizhuo Li, Yi Wang,
+Yi Liu, Zun Wang, Jilan Xu, Guo Chen, Ping Luo, et al.
+Mvbench: A comprehensive multi-modal video understand-
+ing benchmark. In Proceedings of the IEEE/CVF Conference
+on Computer Vision and Pattern Recognition, pages 22195–
+22206, 2024. 6
+[22] Yunxin Li, Shenyuan Jiang, Baotian Hu, Longyue Wang,
+Wanqi Zhong, Wenhan Luo, Lin Ma, and Min Zhang. Uni-
+moe: Scaling unified multimodal llms with mixture of ex-
+perts. IEEE Transactions on Pattern Analysis and Machine
+Intelligence, 2025. 2
+[23] Bin Lin, Yang Ye, Bin Zhu, Jiaxi Cui, Munan Ning, Peng
+Jin, and Li Yuan. Video-llava: Learning united visual repre-
+sentation by alignment before projection. In Proceedings of
+the 2024 Conference on Empirical Methods in Natural Lan-
+guage Processing, pages 5971–5984, 2024. 1
+[24] Yuan Liu, Haodong Duan, Yuanhan Zhang, Bo Li, Songyang
+Zhang, Wangbo Zhao, Yike Yuan, Jiaqi Wang, Conghui He,
+Ziwei Liu, et al. Mmbench: Is your multi-modal model an
+all-around player? In European conference on computer vi-
+sion, pages 216–233. Springer, 2024. 6
+[25] Yuliang Liu, Zhang Li, Mingxin Huang, Biao Yang, Wenwen
+Yu, Chunyuan Li, Xu-Cheng Yin, Cheng-Lin Liu, Lianwen
+Jin, and Xiang Bai. Ocrbench: on the hidden mystery of
+ocr in large multimodal models. Science China Information
+Sciences, 67(12):220102, 2024. 6
+[26] Pan Lu, Hritik Bansal, Tony Xia, Jiacheng Liu, Chunyuan Li,
+Hannaneh Hajishirzi, Hao Cheng, Kai-Wei Chang, Michel
+Galley, and Jianfeng Gao. Mathvista: Evaluating mathemat-
+ical reasoning of foundation models in visual contexts. arXiv
+preprint arXiv:2310.02255, 2023. 6
+[27] Ahmed Masry, Do Xuan Long, Jia Qing Tan, Shafiq Joty,
+and Enamul Hoque. Chartqa: A benchmark for question an-
+swering about charts with visual and logical reasoning. arXiv
+preprint arXiv:2203.10244, 2022. 6
+[28] Junbo Niu, Yifei Li, Ziyang Miao, Chunjiang Ge, Yuanhang
+Zhou, Qihao He, Xiaoyi Dong, Haodong Duan, Shuangrui
+Ding, Rui Qian, et al. Ovo-bench: How far is your video-
+llms from real-world online video understanding?
+In Pro-
+ceedings of the Computer Vision and Pattern Recognition
+Conference, pages 18902–18913, 2025. 6
+[29] Vassil Panayotov, Guoguo Chen, Daniel Povey, and Sanjeev
+Khudanpur. Librispeech: an asr corpus based on public do-
+main audio books. In 2015 IEEE international conference
+on acoustics, speech and signal processing (ICASSP), pages
+5206–5210. IEEE, 2015. 6
+[30] David Rein, Betty Li Hou, Asa Cooper Stickland, Jackson
+Petty, Richard Yuanzhe Pang, Julien Dirani, Julian Michael,
+and Samuel R Bowman. Gpqa: A graduate-level google-
+proof q&a benchmark.
+In First Conference on Language
+Modeling, 2024. 6
+[31] Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy
+Davis, Quoc Le, Geoffrey Hinton, and Jeff Dean. Outra-
+geously large neural networks: The sparsely-gated mixture-
+of-experts layer. arXiv preprint arXiv:1701.06538, 2017. 2
+[32] Amanpreet Singh, Vivek Natarajan, Meet Shah, Yu Jiang,
+Xinlei Chen, Dhruv Batra, Devi Parikh, and Marcus
+Rohrbach. Towards vqa models that can read. In Proceedings
+of the IEEE/CVF conference on computer vision and pattern
+recognition, pages 8317–8326, 2019. 6
+[33] Kimi Team, Angang Du, Bohong Yin, Bowei Xing, Bowen
+Qu, Bowen Wang, Cheng Chen, Chenlin Zhang, Chen-
+zhuang Du, Chu Wei, et al. Kimi-vl technical report. arXiv
+preprint arXiv:2504.07491, 2025. 1
+[34] Peng Wang, Shuai Bai, Sinan Tan, Shijie Wang, Zhihao Fan,
+Jinze Bai, Keqin Chen, Xuejing Liu, Jialin Wang, Wenbin
+Ge, et al. Qwen2-vl: Enhancing vision-language model’s
+perception of the world at any resolution.
+arXiv preprint
+arXiv:2409.12191, 2024. 1
+[35] Xun Wu, Shaohan Huang, Wenhui Wang, Shuming Ma,
+Li Dong, and Furu Wei.
+Multi-head mixture-of-experts.
+Advances in Neural Information Processing Systems, 37:
+94073–94096, 2024. 2
+[36] Jin Xu, Zhifang Guo, Hangrui Hu, Yunfei Chu, Xiong Wang,
+Jinzheng He, Yuxuan Wang, Xian Shi, Ting He, Xinfa
+Zhu, et al.
+Qwen3-omni technical report.
+arXiv preprint
+arXiv:2509.17765, 2025. 1
+[37] An Yang, Anfeng Li, Baosong Yang, Beichen Zhang,
+Binyuan Hui, Bo Zheng, Bowen Yu, Chang Gao, Chengen
+Huang, Chenxu Lv, et al. Qwen3 technical report. arXiv
+preprint arXiv:2505.09388, 2025. 2
+[38] Yuanhang Yang, Shiyi Qi, Wenchao Gu, Chaozheng Wang,
+Cuiyun Gao, and Zenglin Xu. Xmoe: Sparse models with
+fine-grained and adaptive expert selection.
+arXiv preprint
+arXiv:2403.18926, 2024. 2
+[39] Shukang Yin, Chaoyou Fu, Sirui Zhao, Ke Li, Xing Sun,
+Tong Xu, and Enhong Chen.
+A survey on multimodal
+large language models.
+National Science Review, 11(12):
+nwae403, 2024. 1
+[40] Weihao Yu, Zhengyuan Yang, Linjie Li, Jianfeng Wang,
+Kevin Lin, Zicheng Liu, Xinchao Wang, and Lijuan Wang.
+Mm-vet: Evaluating large multimodal models for integrated
+capabilities. arXiv preprint arXiv:2308.02490, 2023. 6
+[41] Xiang Yue, Yuansheng Ni, Kai Zhang, Tianyu Zheng, Ruoqi
+Liu, Ge Zhang, Samuel Stevens, Dongfu Jiang, Weiming
+Ren, Yuxuan Sun, et al. Mmmu: A massive multi-discipline
+multimodal understanding and reasoning benchmark for ex-
+pert agi.
+In Proceedings of the IEEE/CVF Conference
+on Computer Vision and Pattern Recognition, pages 9556–
+9567, 2024. 6
+[42] Duzhen Zhang, Yahan Yu, Jiahua Dong, Chenxing Li, Dan
+Su, Chenhui Chu, and Dong Yu.
+Mm-llms: Recent ad-
+vances in multimodal large language models. arXiv preprint
+arXiv:2401.13601, 2024. 1
+[43] Barret Zoph, Irwan Bello, Sameer Kumar, Nan Du, Yanping
+Huang, Jeff Dean, Noam Shazeer, and William Fedus. St-
+moe: Designing stable and transferable sparse expert mod-
+els. arXiv preprint arXiv:2202.08906, 2022. 2
+
+AnyExperts: On-Demand Expert Allocation for Multimodal Language Models
+with Mixture of Experts
+Supplementary Material
+In this appendix, we provide supplementary results and
+analyses omitted from the main paper due to page con-
+straints. Specifically, Section 6 validates that a 10% reduc-
+tion in average activated experts (from 8.0 to 7.2) preserves
+accuracy across all modalities, as noted in Table 1; Sec-
+tion 7 includes the sensitivity analysis for audio understand-
+ing, omitted from Figure 3 due to its robustness to expert
+budget changes; Section 8 provides per-benchmark perfor-
+mance details underlying the averaged scores reported ex-
+periment part; Finally, Section 9 provides more visualiza-
+tion examples.
+6. Comp-Acc Trade-off
+In this section, we present the full performance of AnyEx-
+perts on multimodal benchmarks under two expert activa-
+tion budgets: the default Avg-K = 8.0 and a reduced Avg-
+K = 7.2 (a 10% decrease). As shown in Table 8, the model
+maintains consistently strong results across all modalities
+(general vision-language, OCR, NLP, speech, and video),
+when using fewer activated experts. In most cases, perfor-
+mance remains nearly unchanged, and in some benchmarks
+(e.g., MMVet, OvOBench), it even slightly improves. The
+average scores across each modality category show negli-
+gible degradation (or minor gains), confirming that AnyEx-
+perts achieves high efficiency without sacrificing accuracy.
+This validates our claim in the main paper that a modest re-
+duction in expert usage preserves overall capability, making
+the model more computationally economical while retain-
+ing robustness.
+7. Audio Robustness
+In this section, we present a detailed ablation on the num-
+ber of activated experts for audio understanding, which was
+omitted from Figure 3 due to its robustness to expert bud-
+get variations. As shown in Table 7, the Word Error Rate
+(WER) remains largely stable across different activation
+budgets, both for our dynamic AnyExperts (with average
+Avg-K) and static top-K baselines. This insensitivity sug-
+gests that the audio modality in AnyExperts is particularly
+robust to routing granularity, in contrast to other modalities
+that exhibit stronger dependence on expert allocation.
+8. Per-Benchmark Results
+In this section, we provide per-benchmark performance de-
+tails underlying the averaged scores reported in the main
+Table 7. Ablation on the number of activated experts (Audio-only
+results). Gray rows: our dynamic AnyExperts model with aver-
+age activation count (Avg-K). White rows: static top-K routing
+baseline with fixed K per token.
+Experts / Token
+Audio (WER ↓)
+Dynamic (AnyExperts, Ours)
+Avg-K=4.8
+2.99
+Avg-K=5.6
+2.92
+Avg-K=6.4
+2.88
+Avg-K=7.2
+2.82
+Avg-K=8.0
+2.82
+Avg-K=8.8
+2.78
+Avg-K=9.6
+2.78
+Static (Top-K Routing Baseline)
+K=4
+2.98
+K=6
+2.82
+K=8
+2.84
+K=10
+2.78
+ablation study.
+The Table 9 includes variants that re-
+move HSM or IAR, as well as sensitivity analyses over hy-
+perparameters α, βmax, and alternative MLP architectures
+(WildMLP and DeepMLP).
+9. More Visualization
+We performed further visualization analyses on multi-
+modal data across diverse task types. For the general task in
+Figure 6, we evaluated the model’s performance in target
+spatial localization, color, position, category recognition,
+and common sense reasoning. Specifically, in the sample
+of the first column, the model successfully localized two
+guitars; in the third column sample, it identified that the
+brightest regions lie in the two lower sub-figures; and in the
+sixth column sample, it accurately recognized two bananas
+and four apples.
+In the chart understanding task (Figure 7), the model pre-
+dominantly concentrated on text-bearing regions of the ta-
+ble in the first two columns of samples, with negligible at-
+tention paid to blank areas. For the latter two columns, it
+effectively captured the extension trend of curves and key
+text on the coordinate axes.
+Regarding the mathematics and science tasks in Figure 8,
+the model attended to the shapes of figures in the first two
+columns of math samples, prioritizing the positions of ver-
+tices and numerical values. In science tasks, it exhibited
+high attention to the entire circuit image (third column) ow-
+ing to the sample’s comparative complexity; for the subse-
+
+Table 8. Performance of AnyExperts on multimodal benchmarks with default expert activation budget (Avg-K=8.0).
+General ↑
+OCR ↑
+NLP ↑
+Speech ↓
+Video ↑
+Bench
+8.0
+7.2
+Bench
+8.0
+7.2
+Bench
+8.0
+7.2
+Bench
+8.0
+7.2
+Bench
+8.0
+7.2
+MMBench 79.73 79.73 ChartQA
+83.04 82.64 ARC-C
+90.17 91.19 Aishell1
+1.70 1.68 MVBench
+66.40 66.00
+AI2D
+81.19 81.19 TextVQA
+73.42 73.08 GSM8k
+84.76 84.61 Aishell2-ios
+2.78 2.78 VideoMME 60.59 60.30
+MMMU
+49.11 48.67 OCRBench 85.10 85.00 GPQA
+41.92 38.87 Aishell2-android
+2.76 2.78 OvOBench
+44.83 46.22
+MMVet
+66.15 66.97
+Librispeech-other 3.01 3.00
+MathVista
+66.70 66.63
+Librispeech-clean 1.38 1.38
+MMStar
+60.48 60.90
+Average
+67.22 67.35 Average
+80.52 80.24 Average 72.28 71.56 Average
+2.32 2.32 Average
+57.27 57.51
+Table 9. Ablation study of AnyExperts. Column groups correspond to:
+Ours (baseline model),
+w/o HSM,
+w/o IAR,
+α-
+ablation (α = 0.005, 0.05, 0.1),
+βmax-ablation, and
+MLP variants, WMLP denote WildMLP and DMLP represent DeepMLP. ↑:
+higher is better; ↓: lower is better.
+Modality
+Benchmark
+Ours w/o HSM w/o IAR α = 0.005 α = 0.05 α = 0.1 βmax = 0.1 βmax = 0.25 WMLP DMLP
+General (↑) MMBench
+66.84
+61.17
+60.13
+61.08
+66.15
+65.12
+60.91
+62.63
+65.89
+61.00
+AI2D
+67.88
+65.71
+66.13
+65.64
+68.17
+68.85
+67.58
+66.39
+68.20
+67.23
+MMMU
+41.89
+42.11
+40.78
+41.44
+45.22
+43.22
+44.56
+35.56
+44.11
+44.11
+MMVet
+56.38
+55.09
+54.77
+58.12
+56.24
+53.90
+56.15
+55.87
+59.45
+55.37
+MathVista
+49.07
+49.83
+47.10
+51.20
+47.87
+48.40
+48.90
+52.10
+50.43
+49.27
+MMStar
+46.25
+45.04
+45.85
+47.20
+43.54
+47.47
+45.20
+46.39
+46.28
+44.11
+Avg.
+54.72
+53.16
+52.46
+54.11
+54.53
+54.49
+53.88
+53.16
+55.73
+53.52
+OCR (↑)
+ChartQA
+73.32
+71.56
+73.16
+72.32
+72.12
+73.60
+71.96
+72.76
+72.52
+74.24
+TextVQA
+66.19
+64.48
+64.39
+65.83
+66.37
+64.11
+63.05
+65.55
+65.51
+64.58
+OCRBench
+74.00
+72.10
+72.30
+73.10
+74.30
+72.30
+73.00
+71.70
+73.20
+72.80
+Avg.
+71.17
+69.38
+69.95
+70.42
+70.93
+70.00
+69.34
+70.00
+70.41
+70.54
+Video (↑)
+MVBench
+46.03
+45.40
+42.85
+40.88
+46.43
+46.05
+44.78
+47.23
+46.00
+44.60
+VideoMME
+52.67
+50.37
+47.41
+46.52
+51.30
+52.96
+49.96
+51.56
+51.33
+51.63
+OvOBench
+40.09
+38.12
+36.82
+35.57
+40.61
+36.70
+39.38
+37.39
+36.71
+37.21
+Avg.
+46.26
+44.63
+42.36
+40.99
+46.11
+45.24
+44.71
+45.39
+44.68
+44.48
+Speech (↓) Aishell1
+2.24
+2.16
+2.06
+2.17
+2.17
+2.11
+2.11
+2.12
+2.60
+2.24
+Aishell2-ios
+3.06
+3.12
+3.17
+3.05
+3.13
+3.11
+3.11
+3.09
+3.16
+3.22
+Aishell2-android
+3.13
+3.17
+3.22
+3.09
+3.10
+3.12
+3.23
+3.17
+3.23
+3.30
+Librispeech-other 3.83
+3.81
+3.87
+3.72
+3.78
+3.77
+3.88
+3.79
+3.80
+4.04
+Librispeech-clean 1.82
+1.77
+1.83
+1.81
+1.78
+1.78
+1.76
+1.84
+1.87
+1.96
+Avg.
+2.82
+2.81
+2.83
+2.77
+2.79
+2.78
+2.82
+2.80
+2.93
+2.95
+NLP (↑)
+ARC-C
+89.15
+87.80
+90.51
+86.10
+85.76
+87.12
+89.83
+48.14
+88.81
+87.46
+GSM8k
+81.58
+82.18
+85.29
+80.67
+80.36
+83.02
+79.68
+83.09
+81.50
+81.80
+GPQA
+41.92
+36.36
+33.84
+37.88
+42.93
+40.40
+36.36
+40.40
+41.92
+37.37
+Avg.
+70.88
+68.78
+69.88
+68.22
+69.68
+70.18
+68.62
+57.21
+70.74
+68.88
+quent simpler leaf image, it maintained a sharp focus on the
+target object. In the final two geography samples, the model
+noted the number of targets in sub-figures and the process
+transformations illustrated.
+Furthermore, across the three figures above, the model’s
+attention to different tokens in the text modality is highly
+discriminative. It shows extremely high attention to terms
+denoting key targets, while non-critical terms such as ”the”
+and ”a” receive generally low attention.
+Finally, we present additional video–text examples in
+Figure 9 and Figure 10 that further illustrate our model’s
+temporal adaptivity. On frames highly relevant to the ques-
+tion, the model assigns higher importance scores and con-
+sequently activates significantly more experts; in contrast,
+less informative frames receive lower importance scores
+and exhibit reduced average expert activation.
+This dy-
+
+Figure 6. Token importance heatmaps for more text–image samples in general tasks. In heatmaps, redder regions indicate higher impor-
+tance; bluer regions indicate lower importance. In prompts, areas with deeper green indicate high importance score.
+Figure 7. Token importance heatmaps for text–image samples in chart recognition task.
+namic, content-aware routing enables the model to allocate
+computational resources more effectively by prioritizing se-
+mantically critical information across time.
+In summary, it is clear that our model can devote more
+computational resources to the critical content across differ-
+ent modalities, thus yielding promising performance.
+
+Figure 8. Token importance heatmaps for text–image samples in math and science tasks.
+Figure 9. Token importance analysis for text–video samples.
+Figure 10. Token importance analysis for text–video samples.

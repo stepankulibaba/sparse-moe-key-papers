@@ -1,0 +1,272 @@
+
+[1] Inclusion AI, Biao Gong, Cheng Zou, Chuanyang Zheng,
+Chunluan Zhou, Canxiang Yan, Chunxiang Jin, Chunjie Shen,
+Dandan Zheng, Fudong Wang, et al. Ming-omni: A uni-
+fied multimodal model for perception and generation. arXiv
+preprint arXiv:2506.09344, 2025. 2, 5
+[2] Lisa Anne Hendricks, Oliver Wang, Eli Shechtman, Josef
+Sivic, Trevor Darrell, and Bryan Russell. Localizing moments
+in video with natural language. In Proceedings of the IEEE
+international conference on computer vision, pages 5803–
+5812, 2017. 6
+[3] Shuai Bai, Keqin Chen, Xuejing Liu, Jialin Wang, Wenbin
+Ge, Sibo Song, Kai Dang, Peng Wang, Shijie Wang, Jun
+Tang, et al. Qwen2. 5-vl technical report. arXiv preprint
+arXiv:2502.13923, 2025. 1
+[4] Hui Bu, Jiayu Du, Xingyu Na, Bengu Wu, and Hao Zheng.
+Aishell-1: An open-source mandarin speech corpus and a
+speech recognition baseline. In 2017 20th conference of the
+oriental chapter of the international coordinating committee
+on speech databases and speech I/O systems and assessment
+(O-COCOSDA), pages 1–5. IEEE, 2017. 6
+[5] Lin Chen, Jinsong Li, Xiaoyi Dong, Pan Zhang, Yuhang Zang,
+Zehui Chen, Haodong Duan, Jiaqi Wang, Yu Qiao, Dahua
+Lin, et al. Are we on the right way for evaluating large
+vision-language models? Advances in Neural Information
+Processing Systems, 37:27056–27087, 2024. 6
+[6] Gheorghe Comanici, Eric Bieber, Mike Schaekermann, Ice
+Pasupat, Noveen Sachdeva, Inderjit Dhillon, Marcel Blistein,
+Ori Ram, Dan Zhang, Evan Rosen, et al. Gemini 2.5: Pushing
+the frontier with advanced reasoning, multimodality, long con-
+text, and next generation agentic capabilities. arXiv preprint
+arXiv:2507.06261, 2025. 1
+[7] Damai Dai, Chengqi Deng, Chenggang Zhao, RX Xu, Huazuo
+Gao, Deli Chen, Jiashi Li, Wangding Zeng, Xingkai Yu, Yu
+Wu, et al. Deepseekmoe: Towards ultimate expert specializa-
+tion in mixture-of-experts language models. arXiv preprint
+arXiv:2401.06066, 2024. 2
+[8] Chaoyou Fu, Yuhan Dai, Yongdong Luo, Lei Li, Shuhuai
+Ren, Renrui Zhang, Zihan Wang, Chenyu Zhou, Yunhang
+Shen, Mengdan Zhang, et al. Video-mme: The first-ever
+comprehensive evaluation benchmark of multi-modal llms in
+video analysis. In Proceedings of the Computer Vision and
+Pattern Recognition Conference, pages 24108–24118, 2025.
+6
+[9] Robert A Jacobs, Michael I Jordan, Steven J Nowlan, and Ge-
+offrey E Hinton. Adaptive mixtures of local experts. Neural
+computation, 3(1):79–87, 1991. 2
+[10] Albert Q Jiang, Alexandre Sablayrolles, Antoine Roux,
+Arthur Mensch, Blanche Savary, Chris Bamford, Deven-
+dra Singh Chaplot, Diego de las Casas, Emma Bou Hanna,
+Florian Bressand, et al. Mixtral of experts. arXiv preprint
+arXiv:2401.04088, 2024. 2
+[11] Aniruddha Kembhavi, Mike Salvato, Eric Kolve, Minjoon
+Seo, Hannaneh Hajishirzi, and Ali Farhadi. A diagram is
+worth a dozen images. In European conference on computer
+vision, pages 235–251. Springer, 2016. 6
+[12] Aonian Li, Bangwei Gong, Bo Yang, Boji Shan, Chang Liu,
+Cheng Zhu, Chunhao Zhang, Congchao Guo, Da Chen, Dong
+Li, et al. Minimax-01: Scaling foundation models with light-
+ning attention. arXiv preprint arXiv:2501.08313, 2025. 2
+[13] Ang Li, Ben Liu, Binbin Hu, Bing Li, Bingwei Zeng, Borui
+Ye, Caizhi Tang, Changxin Tian, Chao Huang, Chao Zhang,
+et al. Every activation boosted: Scaling general reasoner
+to 1 trillion open language foundation.
+arXiv preprint
+arXiv:2510.22115, 2025. 5
+[14] Kunchang Li, Yali Wang, Yinan He, Yizhuo Li, Yi Wang,
+Yi Liu, Zun Wang, Jilan Xu, Guo Chen, Ping Luo, et al.
+Mvbench: A comprehensive multi-modal video understand-
+ing benchmark. In Proceedings of the IEEE/CVF Conference
+on Computer Vision and Pattern Recognition, pages 22195–
+22206, 2024. 6
+[15] Bin Lin, Zhenyu Tang, Yang Ye, Jiaxi Cui, Bin Zhu, Peng
+Jin, Jinfa Huang, Junwu Zhang, Yatian Pang, Munan Ning,
+et al. Moe-llava: Mixture of experts for large vision-language
+models. arXiv preprint arXiv:2401.15947, 2024. 2
+[16] Yuliang Liu, Zhang Li, Mingxin Huang, Biao Yang, Wenwen
+Yu, Chunyuan Li, Xu-Cheng Yin, Cheng-Lin Liu, Lianwen
+Jin, and Xiang Bai. Ocrbench: on the hidden mystery of
+ocr in large multimodal models. Science China Information
+Sciences, 67(12):220102, 2024. 6
+[17] Pan Lu, Hritik Bansal, Tony Xia, Jiacheng Liu, Chunyuan Li,
+Hannaneh Hajishirzi, Hao Cheng, Kai-Wei Chang, Michel
+Galley, and Jianfeng Gao. Mathvista: Evaluating mathemati-
+cal reasoning of foundation models in visual contexts. arXiv
+preprint arXiv:2310.02255, 2023. 6
+[18] Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo Almeida, Car-
+roll Wainwright, Pamela Mishkin, Chong Zhang, Sandhini
+Agarwal, Katarina Slama, Alex Ray, et al. Training language
+models to follow instructions with human feedback. Advances
+in neural information processing systems, 35:27730–27744,
+2022. 1, 2
+[19] Shangpin Peng, Senqiao Yang, Li Jiang, and Zhuotao Tian.
+Mitigating object hallucinations via sentence-level early inter-
+vention. arXiv preprint arXiv:2507.12455, 2025. 2
+[20] Rafael Rafailov, Archit Sharma, Eric Mitchell, Christopher D
+Manning, Stefano Ermon, and Chelsea Finn. Direct prefer-
+ence optimization: Your language model is secretly a reward
+model. Advances in neural information processing systems,
+36:53728–53741, 2023. 1, 2
+[21] Pritam Sarkar, Sayna Ebrahimi, Ali Etemad, Ahmad Beirami,
+Sercan Ö Arık, and Tomas Pfister. Data-augmented phrase-
+
+level alignment for mitigating object hallucination. arXiv
+preprint arXiv:2405.18654, 2(3):4, 2024. 2
+[22] Kimi Team, Angang Du, Bohong Yin, Bowei Xing, Bowen
+Qu, Bowen Wang, Cheng Chen, Chenlin Zhang, Chenzhuang
+Du, Chu Wei, et al. Kimi-vl technical report. arXiv preprint
+arXiv:2504.07491, 2025. 2
+[23] Fei Wang, Wenxuan Zhou, James Y Huang, Nan Xu, Sheng
+Zhang, Hoifung Poon, and Muhao Chen. mdpo: Conditional
+preference optimization for multimodal large language mod-
+els. arXiv preprint arXiv:2406.11839, 2024. 1, 2
+[24] Haoning Wu, Dongxu Li, Bei Chen, and Junnan Li.
+Longvideobench: A benchmark for long-context interleaved
+video-language understanding. Advances in Neural Informa-
+tion Processing Systems, 37:28828–28857, 2024. 6
+[25] Wenyi Xiao, Ziwei Huang, Leilei Gan, Wanggui He, Haoyuan
+Li, Zhelun Yu, Fangxun Shu, Hao Jiang, and Linchao Zhu.
+Detecting and mitigating hallucination in large vision lan-
+guage models via fine-grained ai feedback. In Proceedings of
+the AAAI Conference on Artificial Intelligence, pages 25543–
+25551, 2025. 2
+[26] An Yang, Anfeng Li, Baosong Yang, Beichen Zhang, Binyuan
+Hui, Bo Zheng, Bowen Yu, Chang Gao, Chengen Huang,
+Chenxu Lv, et al. Qwen3 technical report. arXiv preprint
+arXiv:2505.09388, 2025. 2
+[27] Pinci Yang, Xin Wang, Xuguang Duan, Hong Chen, Runze
+Hou, Cong Jin, and Wenwu Zhu. Avqa: A dataset for audio-
+visual question answering on videos. In Proceedings of the
+30th ACM International Conference on Multimedia, pages
+3480–3491, 2022. 6
+[28] Dokyoon Yoon, Youngsook Song, and Woomyoung Park.
+Stop learning it all to mitigate visual hallucination, focus
+on the hallucination target. In Proceedings of the Computer
+Vision and Pattern Recognition Conference, pages 4200–4208,
+2025. 2
+[29] Weihao Yu, Zhengyuan Yang, Linjie Li, Jianfeng Wang,
+Kevin Lin, Zicheng Liu, Xinchao Wang, and Lijuan Wang.
+Mm-vet: Evaluating large multimodal models for integrated
+capabilities. arXiv preprint arXiv:2308.02490, 2023. 6
+[30] Xiang Yue, Yuansheng Ni, Kai Zhang, Tianyu Zheng, Ruoqi
+Liu, Ge Zhang, Samuel Stevens, Dongfu Jiang, Weiming Ren,
+Yuxuan Sun, et al. Mmmu: A massive multi-discipline multi-
+modal understanding and reasoning benchmark for expert agi.
+In Proceedings of the IEEE/CVF Conference on Computer
+Vision and Pattern Recognition, pages 9556–9567, 2024. 6
+[31] Albert Zeyer, André Merboldt, Wilfried Michel, Ralf Schlüter,
+and Hermann Ney.
+Librispeech transducer model with
+internal language model prior correction.
+arXiv preprint
+arXiv:2104.03006, 2021. 6
+[32] Zhiyuan Zhao, Bin Wang, Linke Ouyang, Xiaoyi Dong, Jiaqi
+Wang, and Conghui He. Beyond hallucinations: Enhancing
+lvlms through hallucination-aware direct preference optimiza-
+tion. arXiv preprint arXiv:2311.16839, 2023. 2
+[33] Yiyang Zhou, Chenhang Cui, Rafael Rafailov, Chelsea Finn,
+and Huaxiu Yao. Aligning modalities in vision large lan-
+guage models via preference fine-tuning.
+arXiv preprint
+arXiv:2402.11411, 2024. 2
+
+OrdMoE: Preference Alignment via Hierarchical Expert Group Ranking in
+Multimodal Mixture-of-Experts LLMs
+Supplementary Material
+6. Training Details
+6.1. Multimodal Corpus
+Section 4.3 of the main text reports experimental results
+across all modalities. Here, we provide additional details on
+the data scale underlying our full training pipeline. Specifi-
+cally, pretraining is conducted on 0.11 trillion multimodal
+tokens, followed by supervised fine-tuning on a curated
+instruction-following dataset consisting of 3 million im-
+age–text pairs, 1 million video–text pairs, and 23 hours of
+speech–text data.
+6.2. Training Setup
+The details of the training hyperparameters used in our train-
+ing are presented in Tab. 9.
+Table 9. Training hyperparameters used in our experiments.
+Setting
+Model
+Ming-Lite-Omni
+LLM
+Ling-lite
+Vision encoder
+Qwen2.5-vl visual backbone
+Projector
+mlp2x_gelu
+Initial Learning rate
+2e-5
+Batch size per GPU
+16
+Trainable parameters
+all parameters
+Learning rate scheduler
+Cosine
+Optimizer
+AdamW
+6.3. Evaluation Benchmarks
+This study employs a series of widely recognized bench-
+marks to comprehensively evaluate the model’s multimodal
+capabilities. The benchmarks are categorized as follows:
+• Comprehensive VQA (MMStar, MMVet): assessing
+complex multimodal understanding and holistic task-
+solving in diverse scenarios. MMStar uses Accuracy while
+MM-Vet employs GPT-4 based comprehensive scoring.
+• OCR (OCRBench): evaluating text recognition robust-
+ness across various scenarios.
+• Visual Reasoning (MathVista): evaluating visual mathe-
+matical reasoning capabilities.
+• Visual multi-discipline (AI2D, MMMU): evaluating vi-
+sual understanding across scientific and multi-disciplinary
+domains.
+• Video Understanding:
+– LongVideoBench: evaluating long-form video under-
+standing with extended temporal dependencies.
+– DiDeMo: testing text-to-video temporal localization for
+moment retrieval.
+– AVQA: assessing audio-visual question answering
+across visual and auditory modalities.
+– MVBench: evaluating comprehensive video reasoning
+across multiple task types.
+– Video-MME: assessing multi-dimensional capabilities
+spanning perception and reasoning.
+• Speech Recognition (Aishell1, LibriSpeech): evaluating
+speech recognition capabilities in both Mandarin Chinese
+and English. Aishell1 uses character error rate (CER)
+while LibriSpeech employs word error rate (WER) for
+performance assessment.
+7. Additional Case Studies
+In this section, we present additional case studies to further
+illustrate the effectiveness of OrdMoE in addressing key
+weaknesses of the base model and enhancing generalization.
+To ensure a fair comparison, both the baseline and our Ord-
+MoE use greedy decoding for all results. In the first example
+(top row), OrdMoE correctly identifies the desk lamp posi-
+tioned next to the laptop. In the first case of the second row,
+OrdMoE demonstrates fine-grained visual understanding by
+accurately recognizing the structure as a skyscraper. The sec-
+ond case in the same row shows a substantial improvement
+in OCR capability, with the model precisely identifying the
+specific coffee variety.
+
+On the right desk, what is to the left of the 
+laptop?
+Ming-Lite-Omni (OrdMoE)
+Ming-Lite-Omni (Baseline)
+On the right desk, there is a laptop 
+positioned towards the right side. To the 
+left of the laptop, there is a lamp with a 
+dark shade. The lamp is placed on the 
+desk, slightly behind the laptop. Therefore, 
+the item to the left of the laptop is the 
+lamp.
+The image shows a desk with a laptop and a 
+lamp. To the left of the laptop, there is a 
+small blue object that appears to be a 
+coaster or a small container
+What is the predominant feature in the image? 
+Options: A: Cars, B: People, C: Building, D: Skyscrapers 
+Ming-Lite-Omni (OrdMoE)
+Ming-Lite-Omni (Baseline)
+D
+C
+What type of coffie is This?
+Ming-Lite-Omni (OrdMoE)
+Ming-Lite-Omni (Baseline)
+Espresso
+superior
+Figure 3. Comparing results between OrdMoE and Baseline. Our method effectively enhances the general performance of the base model,
+demonstrating significant improvements in localization precision, fine-grained recognition, and OCR capabilities.

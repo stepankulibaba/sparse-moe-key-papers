@@ -1,0 +1,133 @@
+
+Achiam, J.; Adler, S.; Agarwal, S.; Ahmad, L.; Akkaya, I.;
+Aleman, F. L.; Almeida, D.; Altenschmidt, J.; Altman, S.;
+Anadkat, S.; et al. 2023.
+Gpt-4 technical report.
+arXiv
+preprint arXiv:2303.08774.
+Bai, S.; Chen, K.; Liu, X.; Wang, J.; Ge, W.; Song, S.; Dang,
+K.; Wang, P.; Wang, S.; Tang, J.; et al. 2025. Qwen2. 5-vl
+technical report. arXiv preprint arXiv:2502.13923.
+Baltrusaitis, T.; Zadeh, A.; Lim, Y.; and Morency, L. 2018.
+OpenFace 2.0: Facial Behavior Analysis Toolkit. In 2018
+13th IEEE International conference on automatic face &
+gesture recognition (FG 2018), 59–66.
+Chen, Y.-F.; and Huang, S.-H. 2021. Sentiment-influenced
+trading system based on multimodal deep reinforcement
+learning. Applied Soft Computing, 112: 107788.
+Cheng, C.; Xu, T.; Feng, Z.; Wu, X.; Tang, Z.; Li, H.; Zhang,
+Z.; Atito, S.; Awais, M.; and Kittler, J. 2025. One Model for
+ALL: Low-Level Task Interaction Is a Key to Task-Agnostic
+Image Fusion. In Proceedings of the Computer Vision and
+Pattern Recognition Conference, 28102–28112.
+Dao, T.; and Gu, A. 2024. Transformers are SSMs: Gener-
+alized Models and Efficient Algorithms Through Structured
+State Space Duality. In International Conference on Ma-
+chine Learning (ICML).
+Devlin, J.; Chang, M.-W.; Lee, K.; and Toutanova, K. 2019.
+Bert: Pre-training of deep bidirectional transformers for lan-
+guage understanding. In Proceedings of the 2019 conference
+of the North American chapter of the association for compu-
+tational linguistics: human language technologies, volume 1
+(long and short papers), 4171–4186.
+Feng, X.; Lin, Y.; He, L.; Li, Y.; Chang, L.; and Zhou, Y.
+2024. Knowledge-Guided Dynamic Modality Attention Fu-
+sion Framework for Multimodal Sentiment Analysis.
+In
+Findings of the Association for Computational Linguistics:
+EMNLP 2024, 14755–14766.
+Gu, A.; and Dao, T. 2023. Mamba: Linear-Time Sequence
+Modeling with Selective State Spaces.
+arXiv preprint
+arXiv:2312.00752.
+Lian, Z.; Chen, H.; Chen, L.; Sun, H.; Sun, L.; Ren, Y.;
+Cheng, Z.; Liu, B.; Liu, R.; Peng, X.; et al. 2025. AffectGPT:
+A New Dataset, Model, and Benchmark for Emotion Under-
+standing with Multimodal Large Language Models. ICML
+(Spotlight).
+Liu, Y.; Yuan, Z.; Mao, H.; Liang, Z.; Yang, W.; Qiu, Y.;
+Cheng, T.; Li, X.; Xu, H.; and Gao, K. 2022. Make acoustic
+and visual cues matter: Ch-sims v2. 0 dataset and av-mixup
+consistent module. In Proceedings of the 2022 international
+conference on multimodal interaction, 247–258.
+McFee, B.; Raffel, C.; Liang, D.; Ellis, D.; McVicar, M.;
+Battenberg, E.; and Nieto, O. 2015. librosa: Audio and Mu-
+sic Signal Analysis in Python. In Proceedings of the 14th
+Python in Science Conference, 18—24. SciPy.
+Park, J.; Kim, M.-H.; and Choi, D.-G. 2021.
+Correspon-
+dence learning for deep multi-modal recognition and fraud
+detection. Electronics, 10(7): 800.
+Qiu, Z.; Wang, Z.; Zheng, B.; Huang, Z.; Wen, K.; Yang, S.;
+Men, R.; Yu, L.; Huang, F.; Huang, S.; et al. 2025. Gated At-
+tention for Large Language Models: Non-linearity, Sparsity,
+and Attention-Sink-Free. arXiv preprint arXiv:2505.06708.
+Ren, W.; Ma, L.; Zhang, J.; Pan, J.; Cao, X.; Liu, W.; and
+Yang, M.-H. 2018. Gated fusion network for single image
+dehazing. In Proceedings of the IEEE conference on com-
+puter vision and pattern recognition, 3253–3261.
+Rozanska, A.; and Podpora, M. 2019.
+Multimodal senti-
+ment analysis applied to interaction between patients and a
+humanoid robot Pepper. IFAC-PapersOnLine, 52(27): 411–
+414.
+Shah, A. M.; Yan, X.; Shah, S. A. A.; and Mamirkulova, G.
+2020. Mining patient opinion to evaluate the service quality
+in healthcare: a deep-learning approach. Journal of Ambient
+Intelligence and Humanized Computing, 11(7): 2925–2942.
+Shazeer, N.; Mirhoseini, A.; Maziarz, K.; Davis, A.; Le, Q.;
+Hinton, G.; and Dean, J. 2017. Outrageously Large Neural
+Networks: The Sparsely-Gated Mixture-of-Experts Layer.
+In International Conference on Learning Representations.
+Touvron, H.; Lavril, T.; Izacard, G.; Martinet, X.; Lachaux,
+M.-A.; Lacroix, T.; Rozi`ere, B.; Goyal, N.; Hambro, E.;
+Azhar, F.; et al. 2023. Llama: Open and efficient founda-
+tion language models. arXiv preprint arXiv:2302.13971.
+Vaswani, A.; Shazeer, N.; Parmar, N.; Uszkoreit, J.; Jones,
+L.; Gomez, A. N.; Kaiser, Ł.; and Polosukhin, I. 2017. At-
+tention is all you need. Advances in neural information pro-
+cessing systems, 30.
+Wang, Z.; Bao, R.; Wu, Y.; Taylor, J.; Xiao, C.; Zheng,
+F.; Jiang, W.; Gao, S.; and Zhang, Y. 2024.
+Unlocking
+Memorization in Large Language Models with Dynamic
+Soft Prompting. In Proceedings of the 2024 Conference on
+Empirical Methods in Natural Language Processing, 9782–
+9796.
+Wu, S.; He, D.; Wang, X.; Wang, L.; and Dang, J. 2025.
+Enriching Multimodal Sentiment Analysis through Textual
+Emotional Descriptions of Visual-Audio Content. In Pro-
+ceedings of the AAAI Conference on Artificial Intelligence,
+volume 39, 1601–1609.
+Yu, W.; Xu, H.; Meng, F.; Zhu, Y.; Ma, Y.; Wu, J.; Zou, J.;
+and Yang, K. 2020. Ch-sims: A chinese multimodal senti-
+ment analysis dataset with fine-grained annotation of modal-
+ity. In Proceedings of the 58th annual meeting of the asso-
+ciation for computational linguistics, 3718–3727.
+Zadeh, A.; Zellers, R.; Pincus, E.; and Morency, L.-P. 2016.
+Multimodal sentiment intensity analysis in videos: Facial
+gestures and verbal messages.
+IEEE Intelligent Systems,
+31(6): 82–88.
+Zadeh, A. B.; Liang, P. P.; Poria, S.; Cambria, E.; and
+Morency, L.-P. 2018. Multimodal language analysis in the
+wild: Cmu-mosei dataset and interpretable dynamic fusion
+graph. In Proceedings of the 56th Annual Meeting of the
+Association for Computational Linguistics (Volume 1: Long
+Papers), 2236–2246.
+Zhang, B.; Li, K.; Cheng, Z.; Hu, Z.; Yuan, Y.; Chen,
+G.; Leng, S.; Jiang, Y.; Zhang, H.; Li, X.; et al. 2025.
+
+VideoLLaMA 3: Frontier Multimodal Foundation Mod-
+els for Image and Video Understanding.
+arXiv preprint
+arXiv:2501.13106.
+Zhang, H.; Wang, Y.; Yin, G.; Liu, K.; Liu, Y.; and Yu, T.
+2023. Learning Language-guided Adaptive Hyper-modality
+Representation for Multimodal Sentiment Analysis. In Pro-
+ceedings of the 2023 Conference on Empirical Methods in
+Natural Language Processing, 756–767.
+Zhang, Y.; Chen, T.; Zhang, Y.; and Fu, Z. 2024. Enhanced
+Multimodal Hate Video Detection via Channel-wise and
+Modality-wise Fusion. In 2024 IEEE International Confer-
+ence on Data Mining Workshops (ICDMW), 183–190. IEEE.

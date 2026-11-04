@@ -1,0 +1,348 @@
+
+[1] Davide Abati, Jakub Tomczak, Tijmen Blankevoort, Simone Calderara, Rita Cucchiara, and
+Babak Ehteshami Bejnordi. Conditional channel gated networks for task-aware continual
+learning. In CVPR, pages 3930–3939. Computer Vision Foundation / IEEE, 2020.
+9
+
+[2] Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla Dhariwal,
+Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel
+Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel Ziegler,
+Jeffrey Wu, Clemens Winter, Chris Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott
+Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya
+Sutskever, and Dario Amodei. In Advances in Neural Information Processing Systems.
+[3] Kyunghyun Cho and Yoshua Bengio. Exponentially increasing the capacity-to-computation
+ratio for conditional computation in deep learning, 2014.
+[4] Zihang Dai, Hanxiao Liu, Quoc V. Le, and Mingxing Tan. CoAtNet: Marrying convolution and
+attention for all data sizes. In Advances in Neural Information Processing Systems, 2021.
+[5] Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc Le, and Ruslan Salakhutdinov.
+Transformer-XL: Attentive language models beyond a ﬁxed-length context. In Proceedings of
+the 57th Annual Meeting of the Association for Computational Linguistics, Florence, Italy, July
+2019. Association for Computational Linguistics.
+[6] Yann N. Dauphin, Angela Fan, Michael Auli, and David Grangier. Language modeling with
+gated convolutional networks. In Proceedings of the 34th International Conference on Machine
+Learning - Volume 70, ICML’17, page 933–941. JMLR.org, 2017.
+[7] Nan Du, Yanping Huang, Andrew M. Dai, Simon Tong, Dmitry Lepikhin, Yuanzhong Xu,
+Maxim Krikun, Yanqi Zhou, Adams Wei Yu, Orhan Firat, Barret Zoph, Liam Fedus, Maarten
+Bosma, Zongwei Zhou, Tao Wang, Yu Emma Wang, Kellie Webster, Marie Pellat, Kevin
+Robinson, Kathy Meier-Hellstern, Toju Duke, Lucas Dixon, Kun Zhang, Quoc V Le, Yonghui
+Wu, Zhifeng Chen, and Claire Cui. Glam: Efﬁcient scaling of language models with mixture-
+of-experts, 2021.
+[8] Dheeru Dua, Shruti Bhosale, Vedanuj Goswami, James Cross, Mike Lewis, and Angela Fan.
+Tricks for training sparse translation models, 2021.
+[9] Richard L Dykstra. An iterative procedure for obtaining i-projections onto the intersection of
+convex sets. The annals of Probability, pages 975–984, 1985.
+[10] William Fedus, Barret Zoph, and Noam Shazeer. Switch transformers: Scaling to trillion
+parameter models with simple and efﬁcient sparsity, 2021.
+[11] Golnaz Ghiasi, Tsung-Yi Lin, and Quoc V. Le. NAS-FPN: learning scalable feature pyramid
+architecture for object detection. In CVPR, pages 7036–7045. Computer Vision Foundation /
+IEEE, 2019.
+[12] Sam Gross, Marc’Aurelio Ranzato, and Arthur Szlam. Hard mixtures of experts for large scale
+weakly supervised vision, 2017.
+[13] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image
+recognition. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR),
+pages 770–778, 2016.
+[14] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Identity mappings in deep residual
+networks. In Bastian Leibe, Jiri Matas, Nicu Sebe, and Max Welling, editors, Computer Vision –
+ECCV 2016, pages 630–645, Cham, 2016. Springer International Publishing.
+[15] Dan Hendrycks and Kevin Gimpel. Gaussian error linear units (GELUs), 2016.
+[16] Joel Hestness, Sharan Narang, Newsha Ardalani, Gregory Diamos, Heewoo Jun, Hassan
+Kianinejad, Md. Mostofa Ali Patwary, Yang Yang, and Yanqi Zhou. Deep learning scaling is
+predictable, empirically, 2017.
+[17] Ping Huang, Zuocheng Xing, Tianran Wang, Qiang Wei, Hongyan Wang, and Guitao Fu. A
+brief survey on power gating design. In 2010 10th IEEE International Conference on Solid-State
+and Integrated Circuit Technology, pages 788–790, 2010.
+10
+
+[18] Yanping Huang, Youlong Cheng, Ankur Bapna, Orhan Firat, Dehao Chen, Mia Xu Chen,
+HyoukJoong Lee, Jiquan Ngiam, Quoc V. Le, Yonghui Wu, and Zhifeng Chen. Gpipe: Efﬁcient
+training of giant neural networks using pipeline parallelism. In Hanna M. Wallach, Hugo
+Larochelle, Alina Beygelzimer, Florence d’Alché-Buc, Emily B. Fox, and Roman Garnett,
+editors, Advances in Neural Information Processing Systems 32: Annual Conference on Neural
+Information Processing Systems 2019, NeurIPS 2019, December 8-14, 2019, Vancouver, BC,
+Canada, pages 103–112, 2019.
+[19] Norman P. Jouppi, Doe Hyun Yoon, George Kurian, Sheng Li, Nishant Patil, James Laudon,
+Cliff Young, and David A. Patterson. A domain-speciﬁc supercomputer for training deep neural
+networks. Commun. ACM, 63(7):67–78, 2020.
+[20] Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B. Brown, Benjamin Chess, Rewon Child,
+Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. Scaling laws for neural language
+models, 2020.
+[21] Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu, Dehao Chen, Orhan Firat, Yanping Huang,
+Maxim Krikun, Noam Shazeer, and Zhifeng Chen. GShard: Scaling giant models with condi-
+tional computation and automatic sharding. In International Conference on Learning Represen-
+tations, 2021.
+[22] Mike Lewis, Shruti Bhosale, Tim Dettmers, Naman Goyal, and Luke Zettlemoyer. Base
+layers: Simplifying training of large, sparse models.
+In Marina Meila and Tong Zhang,
+editors, Proceedings of the 38th International Conference on Machine Learning, volume 139 of
+Proceedings of Machine Learning Research, pages 6265–6274. PMLR, 18–24 Jul 2021.
+[23] Min Lin, Jie Fu, and Yoshua Bengio. Conditional computation for continual learning, 2019.
+[24] Deepak Narayanan, Aaron Harlap, Amar Phanishayee, Vivek Seshadri, Nikhil R. Devanur,
+Gregory R. Ganger, Phillip B. Gibbons, and Matei Zaharia. Pipedream: Generalized pipeline
+parallelism for dnn training. New York, NY, USA, 2019. Association for Computing Machinery.
+[25] Joan Puigcerver, Carlos Riquelme Ruiz, Basil Mustafa, Cédric Renggli, André Susano Pinto,
+Sylvain Gelly, Daniel Keysers, and Neil Houlsby. Scalable transfer learning with expert models.
+In ICLR. OpenReview.net, 2021.
+[26] Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. Improving language
+understanding by generative pre-training. 2018.
+[27] Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena,
+Yanqi Zhou, Wei Li, and Peter J. Liu. Exploring the limits of transfer learning with a uniﬁed
+text-to-text transformer. J. Mach. Learn. Res., 21:140:1–140:67, 2020.
+[28] Stephen Roller, Sainbayar Sukhbaatar, Arthur Szlam, and Jason Weston. Hash layers for large
+sparse models, 2021.
+[29] Roy Schwartz, Jesse Dodge, Noah A. Smith, and Oren Etzioni. Green ai, 2019.
+[30] Noam Shazeer, Youlong Cheng, Niki Parmar, Dustin Tran, Ashish Vaswani, Penporn Koanan-
+takool, Peter Hawkins, HyoukJoong Lee, Mingsheng Hong, Cliff Young, Ryan Sepassi, and
+Blake Hechtman. Mesh-tensorﬂow: Deep learning for supercomputers. In Proceedings of
+the 32nd International Conference on Neural Information Processing Systems, NIPS’18, page
+10435–10444, Red Hook, NY, USA, 2018. Curran Associates Inc.
+[31] Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc V. Le, Geoffrey E.
+Hinton, and Jeff Dean. Outrageously large neural networks: The sparsely-gated mixture-of-
+experts layer. In ICLR (Poster). OpenReview.net, 2017.
+[32] Noam Shazeer and Mitchell Stern. Adafactor: Adaptive learning rates with sublinear memory
+cost. In Jennifer Dy and Andreas Krause, editors, Proceedings of the 35th International
+Conference on Machine Learning, volume 80 of Proceedings of Machine Learning Research,
+pages 4596–4604. PMLR, 10–15 Jul 2018.
+11
+
+[33] Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper, and Bryan
+Catanzaro. Megatron-lm: Training multi-billion parameter language models using model
+parallelism, 2020.
+[34] Alex Wang, Yada Pruksachatkun, Nikita Nangia, Amanpreet Singh, Julian Michael, Felix
+Hill, Omer Levy, and Samuel Bowman. Superglue: A stickier benchmark for general-purpose
+language understanding systems. In H. Wallach, H. Larochelle, A. Beygelzimer, F. d'Alché-Buc,
+E. Fox, and R. Garnett, editors, Advances in Neural Information Processing Systems. Curran
+Associates, Inc.
+[35] Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel Bowman.
+GLUE: A multi-task benchmark and analysis platform for natural language understanding.
+In Proceedings of the 2018 EMNLP Workshop BlackboxNLP: Analyzing and Interpreting
+Neural Networks for NLP, Brussels, Belgium, November 2018. Association for Computational
+Linguistics.
+[36] Yuanzhong Xu, HyoukJoong Lee, Dehao Chen, Blake A. Hechtman, Yanping Huang, Rahul
+Joshi, Maxim Krikun, Dmitry Lepikhin, Andy Ly, Marcello Maggioni, Ruoming Pang, Noam
+Shazeer, Shibo Wang, Tao Wang, Yonghui Wu, and Zhifeng Chen. GSPMD: general and
+scalable parallelization for ML computation graphs. CoRR, abs/2105.04663, 2021.
+7
+Checklist
+(a) Do the main claims made in the abstract and introduction accurately reﬂect the paper’s contribu-
+tions and scope? Yes
+(b) Have you read the ethics review guidelines and ensured that your paper conforms to them? Yes
+(c) Did you discuss any potential negative societal impacts of your work? N/A. Not any.
+(d) Did you describe the limitations of your work? Yes
+(a) Did you include the code, data, and instructions needed to reproduce the main experimental
+results? Yes. We include details in the experiment setup to help reproduce the main results.
+(b) Did you specify all the training details? Yes
+(c) Did you report error bars? Yes
+(d) Did you include the amount of compute and the type of resources used (e.g., type of GPUs,
+internal cluster, or cloud provider)? Yes
+(a) If your work uses existing assets, did you cite the creators? Yes
+(b) Did you mention the license of the assets? No. The used dataset is not released yet.
+(c) Did you include any new assets either in the supplemental material or as a URL? No. The dataset
+is not released yet.
+(d) Did you discuss whether and how consent was obtained from people whose data you’re using/cu-
+rating? No. Not using persons’ data.
+(e) Did you discuss whether the data you are using/curating contains personally identiﬁable in-
+formation or offensive content? Yes. The dataset does not contain any personally identiﬁable
+information or offensive content.
+12
+
+A
+Comparison on Fine-tuning with a Dense Model
+Our 8B MoE model achieves stronger pre-training perplexity than its dense counterpart. However,
+a better perplexity does not always directly translate to downstream performance as demonstrated
+in Section 4.4. To this end, we compare ﬁne-tuning performance of the 8B dense model and MoE
+model in Table 1. As shown in the table, our MoE model using expert choice routing consistently
+outperforms the dense model across the 11 tasks in GLUE and SuperGLUE.
+Model
+BoolQ CB CoLA MNLI MRPC QNLI QQP RTE SST2 WiC WNLI Avg
+Dense 8B
+88.2
+100
+86.4
+91.3
+86.7
+94.7
+91.2
+92.2
+97.2
+75.6
+78.1
+89.2
+EC-CF2 8B/64E 89.2
+100
+89.1
+91.1
+90.6
+95.0
+93.8
+95.2
+97.7
+83.8
+92.8
+92.6
+Table 1: Comparison between Dense 8B and Expert Choice (EC-CF2) 8B/64E models: Our method
+signiﬁcantly outperforms the dense model in downstream tasks.
+B
+Capacity Factor
+We evaluate the downstream task ﬁne-tuning performance by varying the capacity factors. Note that
+a capacity factor of n indicates on average how many experts each token can be received. EC-CF2 is
+our baseline expert choice, which matches GShard top-2 gating computational footprint. EC-CF1,
+however, matches Switch Transformer top-1 gating computational footprint. EC-CF0.5 further
+veriﬁes that an aggressively lowered capacity factor can provide strong enough performance, that
+almost matches the top-2 gating baseline.
+Model
+BoolQ
+CB
+CoLA MNLI MRPC QNLI QQP RTE SST2 WiC WNLI
+Avg
+Top-2
+78.1
+87.0
+88.3
+85.0
+82.6
+90.1
+90.7
+81.6
+94.7
+68.2
+67.2
+83.0±0.3
+EC-CAP2
+78.2
+88.0
+88.5
+85.7
+83.0
+90.8
+91.1
+80.0
+95.4
+70.4
+64.1
+83.2±0.4
+EC-CAP3
+78.5
+91.7
+89.3
+86.3
+83.5
+90.9
+91.1
+81.8
+94.9
+70.0
+65.6
+84.0±0.4
+EC-CF2
+79.1
+89.6
+89.3
+86.8
+84.3
+91.3
+91.2
+81.1
+95.2
+68.1
+68.0
+84.0±0.2
+EC-CF1
+77.4
+90.6
+88.0
+85.5
+83.6
+90.3
+91.2
+79.8
+95.3
+66.5
+64.9
+83.0±0.2
+EC-CF0.5
+77.4
+89.6
+86.3
+85.2
+82.7
+91.7
+91.0
+79.6
+94.9
+67.3
+63.5
+83.0 ±0.05
+Hash Layers 76.1
+85.2
+86.7
+83.4
+82.5
+90.0
+90.3
+75.7
+94.0
+67.4
+63.3
+81.3±1.0
+Table 2: Comparison between different routing methods in ﬁne-tuning of 100M/64E models. We
+perform 3 independent ﬁne-tuning runs for each method and report the average results. This gives
+more accurate difference between the variants of expert choice method, since they achieve close
+ﬁne-tuning results. We do not report averaged results in other experiments.
+C
+Capped Expert Choice
+As described in Section 4.5, the maximum number of experts each token is assigned can be capped
+by an entropy-regularized linear programming. Figure 1 compares the validation perplexity when
+training the 100M/64E models using the base expert choice method (EC-BASE), expert choice capped
+by two experts per token (EC-CAP2), expert choice capped by three experts per token (EC-CAP3),
+and GShard top-2 gating.
+As shown in the ﬁgure, restricting the number of experts to 2 degrades the perplexity compared to
+the base expert choice method. This suggests that a more ﬂexible allocation of experts (e.g. more
+than 2 experts for a token) can enhance model expressiveness. On the other hand, our EC-CAP2
+and EC-CAP3 methods still outperform the top-2 gating method by a clear margin. We believe this
+conﬁrms the effectiveness of a load balanced training, provided by our method. Finally, EC-CAP3
+obtains comparable perplexity to EC-BASE. As indicated by Figure 3, only a little fraction of tokens
+use more than 3 experts therefore we see little or no difference between EC-BASE and EC-CAP3
+variants. We present the ﬁne-tuning results of these methods in Table 2.
+1
+arXiv:2202.09368v2  [cs.LG]  14 Oct 2022
+
+0
+100
+200
+300
+400
+500
+600
+700
+10K Steps
+2.65
+2.70
+2.75
+2.80
+2.85
+Eval Perplexity
+Comparison with Capped Expert Choice
+EC_BASE
+EC_CAP2
+EC_CAP3
+GS_TOP2
+Figure 1: Validation perplexity during pre-training using various expert choice methods and top-2
+gating.
+D
+Comparison with Hash Layer
+In this section, we compare our method with Hash Layers [? ]. We use
+mod x to map a token
+ID to an expert ID. This in some way ensures load balance and generates specialized experts. The
+ﬁne-tuning results are presented in the last row in Table 2. Hashing based routing performs much
+worse than expert choice in terms of average scores and variance.
+E
+Fine-tuning Details
+We did a hyperparameter search for both baseline models and expert choice method. For ﬁne-tuning
+of the 8B dense model, we use a constant learning rate of 0.0001 and a dropout rate of 0.1. We freeze
+the attention layer and feed-forward layer while leaving the embedding and layer normalization
+trainable. This setting has been found optimal for the 8B dense model. For MoE 8B/64E models
+including GShard top-2 gating and expert choice, we found continuing the learning rate from the
+pre-trained model while using a square root learning rate decay works better. In addition, we do not
+apply parameter freezing for ﬁne-tuning MoE models. For models with 100M expert size, we use a
+constant learning rate of 0.0001 and no dropout is used.
+2

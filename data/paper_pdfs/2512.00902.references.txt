@@ -1,0 +1,381 @@
+
+Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya, Florencia Leoni Ale-
+man, Diogo Almeida, Janko Altenschmidt, Sam Altman, Shyamal Anadkat, et al. Gpt-4 technical
+report. arXiv preprint arXiv:2303.08774, 2023.
+Jinze Bai, Shuai Bai, Yunfei Chu, Zeyu Cui, Kai Dang, Xiaodong Deng, Yang Fan, Wenbin Ge,
+Yu Han, Fei Huang, et al. Qwen technical report. arXiv preprint arXiv:2309.16609, 2023.
+Jieming Bian, Yuanzhe Peng, Lei Wang, Yin Huang, and Jie Xu. A survey on parameter-efficient
+fine-tuning for foundation models in federated learning. arXiv preprint arXiv:2504.21099, 2025.
+Dongqi Cai, Yaozong Wu, Shangguang Wang, and Mengwei Xu. Fedadapter: Efficient federated
+learning for mobile nlp. In Proceedings of the ACM Turing Award Celebration Conference-China
+2023, pp. 27–28, 2023.
+Yae Jee Cho, Luyang Liu, Zheng Xu, Aldi Fahrezi, and Gauri Joshi. Heterogeneous lora for feder-
+ated fine-tuning of on-device foundation models. arXiv preprint arXiv:2401.06432, 2024.
+Luyu Gao, Aman Madaan, Shuyan Zhou, Uri Alon, Pengfei Liu, Yiming Yang, Jamie Callan, and
+Graham Neubig. Pal: Program-aided language models. In International Conference on Machine
+Learning, pp. 10764–10799. PMLR, 2023.
+Daya Guo, Dejian Yang, Haowei Zhang, Junxiao Song, Ruoyu Zhang, Runxin Xu, Qihao Zhu,
+Shirong Ma, Peiyi Wang, Xiao Bi, et al. Deepseek-r1: Incentivizing reasoning capability in llms
+via reinforcement learning. arXiv preprint arXiv:2501.12948, 2025.
+Edward J Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang,
+Weizhu Chen, et al. Lora: Low-rank adaptation of large language models. ICLR, 1(2):3, 2022.
+Chengsong Huang, Qian Liu, Bill Yuchen Lin, Tianyu Pang, Chao Du, and Min Lin. Lorahub: Effi-
+cient cross-task generalization via dynamic lora composition. arXiv preprint arXiv:2307.13269,
+2023.
+Gabriel Ilharco, Marco Tulio Ribeiro, Mitchell Wortsman, Suchin Gururangan, Ludwig Schmidt,
+Hannaneh Hajishirzi, and Ali Farhadi.
+Editing models with task arithmetic.
+arXiv preprint
+arXiv:2212.04089, 2022.
+Viet Lai, Chien Nguyen, Nghia Ngo, Thuat Nguyen, Franck Dernoncourt, Ryan Rossi, and Thien
+Nguyen. Okapi: Instruction-tuned large language models in multiple languages with reinforce-
+ment learning from human feedback. In Proceedings of the 2023 Conference on Empirical Meth-
+ods in Natural Language Processing: System Demonstrations, pp. 318–327, 2023.
+Brendan McMahan, Eider Moore, Daniel Ramage, Seth Hampson, and Blaise Aguera y Arcas.
+Communication-efficient learning of deep networks from decentralized data. In Artificial intelli-
+gence and statistics, pp. 1273–1282. PMLR, 2017.
+David Patterson, Joseph Gonzalez, Quoc Le, Chen Liang, Lluis-Miquel Munguia, Daniel Rothchild,
+David So, Maud Texier, and Jeff Dean. Carbon emissions and large neural network training. arXiv
+preprint arXiv:2104.10350, 2021.
+Akshara Prabhakar, Yuanzhi Li, Karthik Narasimhan, Sham Kakade, Eran Malach, and Samy
+Jelassi.
+Lora soups:
+Merging loras for practical skill composition tasks.
+arXiv preprint
+arXiv:2410.13025, 2024.
+10
+
+Freda Shi, Mirac Suzgun, Markus Freitag, Xuezhi Wang, Suraj Srivats, Soroush Vosoughi,
+Hyung Won Chung, Yi Tay, Sebastian Ruder, Denny Zhou, et al. Language models are multi-
+lingual chain-of-thought reasoners. arXiv preprint arXiv:2210.03057, 2022.
+Chiyu Song, Zhanchao Zhou, Jianhao Yan, Yuejiao Fei, Zhenzhong Lan, and Yue Zhang. Dynamics
+of instruction fine-tuning for chinese large language models. In Proceedings of the 31st Interna-
+tional Conference on Computational Linguistics, pp. 10345–10366, 2025.
+Chunlin Tian, Li Li, Kahou Tam, Yebo Wu, and Cheng-Zhong Xu. Breaking the memory wall
+for heterogeneous federated learning via model splitting. IEEE Transactions on Parallel and
+Distributed Systems, 2024a.
+Chunlin Tian, Zhan Shi, Zhijiang Guo, Li Li, and Cheng-Zhong Xu. Hydralora: An asymmetric
+lora architecture for efficient fine-tuning. Advances in Neural Information Processing Systems,
+37:9565–9584, 2024b.
+Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Niko-
+lay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, et al. Llama 2: Open founda-
+tion and fine-tuned chat models. arXiv preprint arXiv:2307.09288, 2023.
+Hanqing Wang, Bowen Ping, Shuo Wang, Xu Han, Yun Chen, Zhiyuan Liu, and Maosong Sun.
+Lora-flow: Dynamic lora fusion for large language models in generative tasks. arXiv preprint
+arXiv:2402.11455, 2024a.
+Jie Wang, Yebo Wu, Erwu Liu, Xiaolong Wu, Xinyu Qu, Yuanzhe Geng, and Hanfu Zhang. Fedins2:
+A federated-edge-learning-based inertial navigation system with segment fusion. IEEE Internet
+of Things Journal, 2023a.
+Jie Wang, Xiaolong Wu, Jindong Tian, Erwu Liu, Yebo Wu, Rucong Lai, and Yong Tian.
+In-
+door localization fusing inertial navigation with monocular depth estimation in federated learning
+framework with data heterogeneity. IEEE Transactions on Instrumentation and Measurement,
+2025.
+Ke Wang, Houxing Ren, Aojun Zhou, Zimu Lu, Sichun Luo, Weikang Shi, Renrui Zhang, Linqi
+Song, Mingjie Zhan, and Hongsheng Li. Mathcoder: Seamless code integration in llms for en-
+hanced mathematical reasoning. arXiv preprint arXiv:2310.03731, 2023b.
+Yan Wang, Xiaojiang Liu, and Shuming Shi.
+Deep neural solver for math word problems.
+In
+Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing, pp.
+845–854, 2017.
+Ziyao Wang, Zheyu Shen, Yexiao He, Guoheng Sun, Hongyi Wang, Lingjuan Lyu, and Ang Li.
+Flora: Federated fine-tuning large language models with heterogeneous low-rank adaptations.
+arXiv preprint arXiv:2409.05976, 2024b.
+Yuxiang Wei, Zhe Wang, Jiawei Liu, Yifeng Ding, and Lingming Zhang. Magicoder: Source code
+is all you need. arXiv preprint arXiv:2312.02120, 3, 2023.
+Xun Wu, Shaohan Huang, and Furu Wei. Mixture of lora experts. arXiv preprint arXiv:2404.13628,
+2024a.
+Yebo Wu, Li Li, Chunlin Tian, Tao Chang, Chi Lin, Cong Wang, and Cheng-Zhong Xu.
+Heterogeneity-aware memory efficient federated learning via progressive layer freezing.
+In
+2024 IEEE/ACM 32nd International Symposium on Quality of Service (IWQoS), pp. 1–10. IEEE,
+2024b.
+Yebo Wu, Li Li, Chunlin Tian, Dubing Chen, and Chengzhong Xu. Neulite: Memory-efficient
+federated learning via elastic progressive training. arXiv preprint arXiv:2408.10826, 2024c.
+Yebo Wu, Jingguang Li, Zhijiang Guo, and Li Li. Learning like humans: Resource-efficient fed-
+erated fine-tuning through cognitive developmental stages.
+arXiv preprint arXiv:2508.00041,
+2025a.
+11
+
+Yebo Wu, Jingguang Li, Chunlin Tian, Zhijiang Guo, and Li Li. Memory-efficient federated fine-
+tuning of large language models via layer pruning. arXiv preprint arXiv:2508.17209, 2025b.
+Yebo Wu, Li Li, and Cheng-zhong Xu. Breaking the memory wall for heterogeneous federated learn-
+ing via progressive training. In Proceedings of the 31st ACM SIGKDD Conference on Knowledge
+Discovery and Data Mining V. 1, pp. 1623–1632, 2025c.
+Yebo Wu, Chunlin Tian, Jingguang Li, He Sun, Kahou Tam, Li Li, and Chengzhong Xu. A survey
+on federated fine-tuning of large language models. arXiv preprint arXiv:2503.12016, 2025d.
+Binqian Xu, Xiangbo Shu, Haiyang Mei, Zechen Bai, Basura Fernando, Mike Zheng Shou, and
+Jinhui Tang. Dofit: Domain-aware federated instruction tuning with alleviated catastrophic for-
+getting.
+In The Thirty-eighth Annual Conference on Neural Information Processing Systems,
+2024.
+Mengwei Xu, Dongqi Cai, Yaozong Wu, Xiang Li, and Shangguang Wang. Fwdllm: Efficient fedllm
+using forward gradient. arXiv preprint arXiv:2308.13894, 2023.
+Rui Ye, Wenhao Wang, Jingyi Chai, Dihan Li, Zexi Li, Yinda Xu, Yaxin Du, Yanfeng Wang, and
+Siheng Chen. Openfedllm: Training large language models on decentralized private data via fed-
+erated learning. In Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery
+and Data Mining, pp. 6137–6147, 2024.
+Longhui Yu, Weisen Jiang, Han Shi, Jincheng Yu, Zhengying Liu, Yu Zhang, James T Kwok, Zhen-
+guo Li, Adrian Weller, and Weiyang Liu. Metamath: Bootstrap your own mathematical questions
+for large language models. arXiv preprint arXiv:2309.12284, 2023.
+Shichen Zhan, Yebo Wu, Chunlin Tian, Yan Zhao, and Li Li. Heterogeneity-aware coordination
+for federated learning via stitching pre-trained blocks. In 2024 IEEE/ACM 32nd International
+Symposium on Quality of Service (IWQoS), pp. 1–10. IEEE, 2024.
+Jianyi Zhang, Saeed Vahidian, Martin Kuo, Chunyuan Li, Ruiyi Zhang, Tong Yu, Guoyin Wang, and
+Yiran Chen. Towards building the federatedgpt: Federated instruction tuning. In ICASSP 2024-
+2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp.
+6915–6919. IEEE, 2024.
+Jinghan Zhang, Junteng Liu, Junxian He, et al. Composing parameter-efficient modules with arith-
+metic operation. Advances in Neural Information Processing Systems, 36:12589–12610, 2023a.
+Qingru Zhang, Minshuo Chen, Alexander Bukharin, Nikos Karampatziakis, Pengcheng He,
+Yu Cheng, Weizhu Chen, and Tuo Zhao. Adalora: Adaptive budget allocation for parameter-
+efficient fine-tuning. arXiv preprint arXiv:2303.10512, 2023b.
+A
+ACQUISITION OF SKILL-SPECIFIC LORA MODULES
+In this section, we detail the task-specific LoRA modules employed in our experiments. For different
+skill-composition tasks, we utilize different types of LoRA modules:
+• Chinese+Math task: Chinese Chat LoRA and English Math LoRA;
+• Chinese+Code task: Chinese Chat LoRA and English Code LoRA;
+• Math+Code task: English Math LoRA and English Code LoRA.
+The acquisition process for these LoRA modules is as follows:
+• Chinese Chat LoRA: We utilize the dataset released by (Lai et al., 2023), comprising
+52K training examples, to train a LoRA module capable of understanding and generating
+Chinese text.
+• English Math LoRA: This LoRA module is trained on a dataset of 395K mathematical
+problems in English, constructed by (Yu et al., 2023).
+12
+
+Query
+Value
+(a) Chinese + Code Task.
+Query
+Value
+(b) Math + Code Task.
+Figure 11: Distribution of expert quotas across different tasks in LLaMA2-7B.
+• English Code LoRA: We train this LoRA module using the Magicoder dataset (Wei et al.,
+2023), which contains 186K code generation problems in English.
+We integrate LoRA into the Query and Value matrices within attention modules. The LoRA rank
+r is set to 32 and the scaling factor α is set to 64. We use the cosine warmup schedule and the peak
+learning rate is 1e-4. Each LoRA module is trained for 3 epochs with a warmup ratio of 0.04.
+B
+MORE IMPLEMENTATION DETAILS
+Different from traditional FL (Zhan et al., 2024; Wang et al., 2025; 2023a; Wu et al., 2025c), we
+establish a client pool comprising 20 devices following OpenFedLLM (Ye et al., 2024). For the
+Chinese mathematical reasoning task (Chinese+Math), we partition the Math23K dataset (Wang
+et al., 2017) across these devices, allocating approximately 1K samples to each device. For the
+Chinese code generation task (Chinese+Code), we partition the DoIT dataset (Song et al., 2025)
+across the devices. To ensure a fair comparison, we expand DoIT (Song et al., 2025) to 20K samples
+through web crawling, followed by manual verification using GPT-4 (Achiam et al., 2023), providing
+sufficient training data for participating devices. This expanded dataset is then evenly distributed,
+resulting in approximately 1K samples per device. Similarly, for experiments on hard math–word
+problems (Math+Code), we partition the MathCodeInstruct dataset (Wang et al., 2023b) among the
+devices, with each device receiving approximately 1K samples.
+In each training round, we randomly sample 10% of the devices to participate in the federated fine-
+tuning process, with each device performing 10 local update steps (Wu et al., 2025a;b). The training
+process continues for 20 rounds. The batch size is set to 16, the learning rate is 5e-4, and K is set
+to 32. For the Chinese mathematical reasoning task, we use MGSM (Shi et al., 2022) as the testing
+set. For the Chinese code generation task, we use DoIT (Song et al., 2025) as the testing set. For
+the hard math-word problems, we use GSM-Hard (Gao et al., 2023) as the testing set. We report the
+accuracy on MGSM, pass@1 on DoIT, and execution accuracy on GSM-Hard. For other baselines,
+the federated fine-tuning process continues until model convergence is achieved.
+C
+MORE EXPERIMENTAL RESULTS
+C.1
+QUOTA ALLOCATION ACROSS PARAMETER MATRICES
+In this section, we present comprehensive analyses of expert quota allocation patterns across dif-
+ferent parameter matrices under various models and tasks. Figure 11 illustrates the expert quota
+distribution for LLaMA2-7B on Chinese+Code and Math+Code tasks, while Figure 12 and Fig-
+ure 13 demonstrate the allocation patterns for LLaMA2-13B and Qwen2-7B across three tasks,
+respectively. Our analysis reveals distinct distribution patterns that vary significantly across param-
+eter matrix types, layers, tasks, and model architectures. These heterogeneous allocation patterns
+validate the effectiveness of our proposed EEQA, which adaptively identifies crucial experts and
+consequently enhances knowledge utilization.
+13
+
+Query
+Value
+(a) Chinese + Math Task.
+Query
+Value
+(b) Chinese + Code Task.
+Query
+Value
+(c) Math + Code Task.
+Figure 12: Distribution of expert quotas across different tasks in LLaMA2-13B.
+Query
+Value
+(a) Chinese + Math Task.
+Query
+Value
+(b) Chinese + Code Task.
+Query
+Value
+(c) Math + Code Task.
+Figure 13: Distribution of expert quotas across different tasks in Qwen2-7B.
+Carl's favorite food is cheese. This week, he eats a sandwich for lunch every day, using 2 slices of cheese per 
+sandwich. On 3 days of the week, he has cheese and omelet for breakfast, with each omelet using 1 more 
+slice of cheese than each sandwich. He made a large portion of mac and cheese for several dinners this week, 
+using 8 slices of cheese. How many slices of cheese did he use in total?
+User Input
+Carl eats sandwiches all 7 days of the week, using 
+2 slices of cheese per sandwich, so sandwiches 
+used 7 * 2 = 14 slices of cheese in total. He had 
+omelets on 3 days, with each omelet using 1 more 
+slice than a sandwich, which means 2 + 1 = 3 
+slices, so omelets used 3 * 3 = 9 slices of cheese 
+in total. The mac and cheese used 8 slices of 
+cheese. In total, he used 14 + 9 + 8 = 31 slices of 
+cheese this week. \n#### 31\n The answer is: 31
+SmartFed Output:
+Carl eats sandwiches 5 days a week, using 2 slices 
+of cheese per sandwich, so sandwiches used 5 * 2 
+= 10 slices of cheese in total. He had omelets on 3 
+days, with each omelet using 1 more slice than a 
+sandwich, which means 2 + 1 = 3 slices, so 
+omelets used 3 * 3 = 9 slices of cheese in total. 
+The mac and cheese used 8 slices of cheese. In 
+total, he used 10 + 9 + 8 = 27 slices of cheese this 
+week. \n#### 27\n The answer is: 27
+MoLE Output:
+Figure 14: Case study on the Chinese+Math task (LLaMA2-7B). Chinese query and responses are
+translated to English for presentation clarity.
+14
+
+C.2
+CASE STUDY
+To further demonstrate the effectiveness of SMARTFED, we present a case study on the Chi-
+nese+Math task using LLaMA2-7B (Figure 14). This example illustrates how fine-grained knowl-
+edge fusion enables more precise comprehension of user queries. Unlike MoLE, which treats each
+LoRA module as a whole and assigns uniform weights, SMARTFED employs rank-wise experts
+to selectively integrate knowledge from task-related subspaces. This enhanced granularity allows
+SMARTFED to capture subtle semantic nuances, resulting in precise solutions. In contrast, MoLE
+exhibits significant hallucinations—notably misinterpreting fundamental facts like the number of
+days in a week—highlighting the limitations of coarse-grained fusion approaches.
+4
+8
+12
+16
+20
+24
+28
+32
+0.00
+0.25
+0.50
+0.75
+1.00
+(a) Math LoRA.
+Fusion Weight
+MoRE
+MoLE
+4
+8
+12
+16
+20
+24
+28
+32
+0.00
+0.25
+0.50
+0.75
+1.00
+(b) Code LoRA.
+Fusion Weight
+MoRE
+MoLE
+Figure 15: Average fusion weights of rank-wise
+components in the Query matrix at the third layer
+for the Math+Code task (LLaMA2-7B).
+Furthermore, Figure 16 presents an illustrative
+example from the Math+Code task, where Fig-
+ure 15 demonstrates the average fusion weights
+of rank-wise components for this sample. We
+observe that MoLE fails to retain crucial user-
+provided information, resulting in inaccurate
+auxiliary program generation and consequently
+erroneous solutions. In contrast, SMARTFED,
+through a more flexible knowledge reuse strat-
+egy, exhibits enhanced comprehension of user
+requirements and robust information retention.
+This, in turn, facilitates the generation of precise programs and accurate solutions, demonstrating
+SMARTFED’s capability to handle complex mathematical problems with high fidelity. Overall, these
+results underscore the advantages of SMARTFED in delivering more reliable and precise responses
+through fine-grained knowledge integration.
+D
+THE USE OF LARGE LANGUAGE MODELS
+During manuscript preparation, a large language model (LLM) was occasionally employed as an
+auxiliary assistant to refine language expression, such as improving sentence fluency and enhancing
+readability. The model was not involved in generating original research contributions: it did not
+participate in formulating research questions, designing methodologies, conducting experiments,
+analyzing results, or drafting substantive scientific content. All core intellectual work, including the
+development of ideas, execution of experiments, and interpretation of findings, was carried out in-
+dependently by the authors. Any linguistic suggestions offered by the LLM were critically reviewed
+and selectively incorporated, ensuring that accuracy, originality, and scholarly integrity were fully
+maintained. The authors alone bear responsibility for the research content and conclusions, and the
+LLM is not listed as a contributor or author.
+15
+
+Martha is knitting winter wear for her 2189997 grandchildren. They're triplets, so they're all the same size. She wants to 
+make a hat, scarf, sweater, mittens, and socks for each of them. It takes 2 skeins of wool to make a hat, 4 for a scarf, 12 
+for a sweater, 1 for a pair of mittens, and 2 for a pair of socks. How many skeins of wool will she need to buy?
+User Input
+Code:"
+def solution():
+    \"\"\"Martha is knitting winter wear for her 2189997 
+grandchildren. They're triplets, so they're all the same 
+size. She wants to make a hat, scarf, sweater, mittens, 
+and socks for each of them. It takes 2 skeins of wool to 
+make a hat, 4 for a scarf, 12 for a sweater, 1 for a pair 
+of mittens, and 2 for a pair of socks. How many skeins 
+of wool will she need to buy?\"\"\"
+    num_grandchildren = 2189997
+    skeins_per_hat = 2
+    skeins_per_scarf = 4
+    skeins_per_sweater = 12
+    skeins_per_mittens = 1
+    skeins_per_socks = 2
+    skeins_per_grandchild = skeins_per_hat + 
+skeins_per_scarf + skeins_per_sweater + 
+skeins_per_mittens + skeins_per_socks
+ 
+    total_skeins = num_grandchildren * 
+skeins_per_grandchild
+    
+    result = total_skeins
+    return result
+"
+Answer: 45989937.0
+SmartFed Output:
+ Code:"
+def solution():
+    \"\"\"Martha is knitting winter wear for her 2189997 
+grandchildren. They're triplets, so they're all the same 
+size. She wants to make a hat, scarf, sweater, mittens, 
+and socks for each of them. It takes 2 skeins of wool to 
+make a hat, 4 for a scarf, 12 for a sweater, 1 for a pair 
+of mittens, and 2 for a pair of socks. How many skeins 
+of wool will she need to buy?\"\"\"
+    num_grandchildren = 2189997
+    skeins_per_hat = 2
+    skeins_per_scarf = 4
+    skeins_per_sweater = 12
+    skeins_per_mittens = 1
+    
+skeins_per_grandchild = skeins_per_hat + 
+skeins_per_scarf + skeins_per_sweater + 
+skeins_per_mittens
+    
+    total_skeins = num_grandchildren * 
+skeins_per_grandchild
+    
+    result = total_skeins
+    return result
+"
+Answer:41609943.0
+MoLE Output:
+Figure 16: Case study on the Math+Code task (LLaMA2-7B).
+16

@@ -1,0 +1,45 @@
+
+1. Z. Zhang et al. "MoEfication: Transformer Feed-
+forward 
+Layers 
+are 
+Mixtures 
+of 
+Experts."
+arXiv:2110.01786, 2021. Link
+2. Y. Zhang et al. "CMoE: Converting Mixture-of-Experts
+from 
+Dense 
+to 
+Accelerate 
+LLM 
+Inference."
+arXiv:2410.22048, 2024. Link
+3. S. Gao et al. "ToMoE: Converting Dense Large
+Language Models to Mixture-of-Experts through
+Dynamic Structural Pruning." arXiv:2407.12055, 2024.
+Link
+4. Y. Shen et al. "MoORE: SVD-based Model MoE-
+ization for Conflict- and Oblivion-Resistant Multi-Task
+Adaptation." arXiv:2506.14436, 2025. Link
+5. T. Blevins et al. "Branch-Train-Merge: Embarrassingly
+Parallel Training of Expert Language Models."
+arXiv:2208.03306, 2022. Link
+6. Y. Yang et al. "Branch-Train-MiX: Mixing Expert
+LLMs 
+into 
+a 
+Mixture-of-Experts 
+LLM."
+arXiv:2403.07816, 2024. Link
+7. K. Zhang et al. "TwIST: Rigging the Lottery in
+Transformers with Independent Subnetwork Training."
+arXiv:2405.15128, 2024. Link
+8. N. Narayanan et al. "Megatron-LM: Training Multi-
+Billion Parameter Language Models Using Model
+Parallelism." arXiv:2104.04473, 2021. Link
+9. Qwen Team. "Qwen2.5 Models." Hugging Face, 2024.
+Link
+10. DeepSeek-AI. 
+"DeepSeek-R1-Distill-Llama-8B."
+Hugging Face, 2024. Link

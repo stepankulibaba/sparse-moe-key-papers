@@ -1,0 +1,218 @@
+
+[1] Samyam Rajbhandari, Conglong Li, Zhewei Yao, Minjia Zhang, Reza Yazdani Aminabadi,
+Ammar Ahmad Awan, JeﬀRasley, and Yuxiong He. DeepSpeed-MoE: Advancing mixture-
+of-experts inference and training to power next-generation AI scale. In Kamalika Chaud-
+huri, Stefanie Jegelka, Le Song, Csaba Szepesvari, Gang Niu, and Sivan Sabato, editors,
+Proceedings of the 39th International Conference on Machine Learning, volume 162 of
+Proceedings of Machine Learning Research, pages 18332–18346. PMLR, 17–23 Jul 2022.
+[2] Nvidia.
+Using
+DeepSpeed
+and
+Megatron
+to
+Train
+Megatron-Turing
+NLG
+530B,
+the
+World’s
+Largest
+and
+Most
+Powerful
+Generative
+Language
+Model.
+https://developer.nvidia.com/blog/using-deepspeed-and-megatron-to-train-
+megatron-turing-nlg-530b-the-worlds-largest-and-most-powerful-generative-
+language-model/, 2021.
+[3] Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoﬀrey
+Hinton, and JeﬀDean. Outrageously large neural networks: The sparsely-gated mixture-
+of-experts layer. arXiv preprint arXiv:1701.06538, 2017.
+[4] Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu, Dehao Chen, Orhan Firat, Yanping
+Huang, Maxim Krikun, Noam Shazeer, and Zhifeng Chen. Gshard: Scaling giant models
+with conditional computation and automatic sharding. arXiv preprint arXiv:2006.16668,
+2020.
+[5] William Fedus, Barret Zoph, and Noam Shazeer. Switch transformers: Scaling to trillion
+parameter models with simple and eﬃcient sparsity.
+arXiv preprint arXiv:2101.03961,
+2021.
+[6] Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B Brown, Benjamin Chess, Rewon
+Child, Scott Gray, Alec Radford, Jeﬀrey Wu, and Dario Amodei. Scaling laws for neural
+language models. arXiv preprint arXiv:2001.08361, 2020.
+[7] Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: Pre-training
+of deep bidirectional transformers for language understanding. In NAACL-HLT (1), 2019.
+[8] Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Russ R Salakhutdinov, and
+Quoc V Le. Xlnet: Generalized autoregressive pretraining for language understanding. In
+Advances in neural information processing systems, pages 5753–5763, 2019.
+[9] Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy,
+Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov. Roberta: A robustly optimized bert
+pretraining approach. arXiv preprint arXiv:1907.11692, 2019.
+27
+
+[10] Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma, and
+Radu Soricut. ALBERT: A lite bert for self-supervised learning of language representations.
+In International Conference on Learning Representations, 2019.
+[11] Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. Improving language
+understanding by generative pre-training. OpenAI Blog, 2018.
+[12] Alec Radford, Jeﬀrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever, et al.
+Language models are unsupervised multitask learners. OpenAI blog, 1(8):9, 2019.
+[13] Corby Rosset. Turing-nlg: A 17-billion-parameter language model by microsoft. Microsoft
+Blog, 1:2, 2020.
+[14] Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper, and
+Bryan Catanzaro. Megatron-LM: Training multi-billion parameter language models using
+gpu model parallelism. arXiv preprint arXiv:1909.08053, 2019.
+[15] Colin Raﬀel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael
+Matena, Yanqi Zhou, Wei Li, and Peter J Liu. Exploring the limits of transfer learn-
+ing with a uniﬁed text-to-text transformer. arXiv preprint arXiv:1910.10683, 2019.
+[16] Denis Paperno, Germ´an Kruszewski, Angeliki Lazaridou, Quan Ngoc Pham, Raﬀaella
+Bernardi, Sandro Pezzelle, Marco Baroni, Gemma Boleda, and Raquel Fern´andez. The
+lambada dataset: Word prediction requiring a broad discourse context. arXiv preprint
+arXiv:1606.06031, 2016.
+[17] Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel R Bow-
+man. Glue: A multi-task benchmark and analysis platform for natural language under-
+standing. arXiv preprint arXiv:1804.07461, 2018.
+[18] Alex Wang, Yada Pruksachatkun, Nikita Nangia, Amanpreet Singh, Julian Michael, Felix
+Hill, Omer Levy, and Samuel R Bowman. Superglue: A stickier benchmark for general-
+purpose language understanding systems. arXiv preprint arXiv:1905.00537, 2019.
+[19] Nasrin Mostafazadeh, Nathanael Chambers, Xiaodong He, Devi Parikh, Dhruv Batra,
+Lucy Vanderwende, Pushmeet Kohli, and James Allen. A corpus and evaluation framework
+for deeper understanding of commonsense stories. arXiv preprint arXiv:1604.01696, 2016.
+[20] Jonathan Berant, Andrew Chou, Roy Frostig, and Percy Liang.
+Semantic parsing on
+freebase from question-answer pairs. In Proceedings of the 2013 conference on empirical
+methods in natural language processing, pages 1533–1544, 2013.
+[21] Mandar Joshi, Eunsol Choi, Daniel S Weld, and Luke Zettlemoyer. Triviaqa: A large
+scale distantly supervised challenge dataset for reading comprehension.
+arXiv preprint
+arXiv:1705.03551, 2017.
+[22] Tom B Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla
+Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, et al. Lan-
+guage models are few-shot learners. arXiv preprint arXiv:2005.14165, 2020.
+[23] Samyam Rajbhandari, JeﬀRasley, Olatunji Ruwase, and Yuxiong He. Zero: Memory op-
+timizations toward training trillion parameter models. In SC20: International Conference
+for High Performance Computing, Networking, Storage and Analysis, pages 1–16. IEEE,
+2020.
+28
+
+[24] Saeed Masoudnia and Reza Ebrahimpour. Mixture of experts: a literature survey. Artiﬁcial
+Intelligence Review, 42(2):275–293, 2014.
+[25] Sepp Hochreiter and J¨urgen Schmidhuber. Long short-term memory. Neural computation,
+9(8):1735–1780, 1997.
+[26] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N
+Gomez, Lukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Advances in
+neural information processing systems, pages 5998–6008, 2017.
+[27] Junyang Lin, An Yang, Jinze Bai, Chang Zhou, Le Jiang, Xianyan Jia, Ang Wang, Jie
+Zhang, Yong Li, Wei Lin, et al. M6-10t: A sharing-delinking paradigm for eﬃcient multi-
+trillion parameter pretraining. arXiv preprint arXiv:2110.03888, 2021.
+[28] Young Jin Kim, Ammar Ahmad Awan, Alexandre Muzio, Andres Felipe Cruz Salinas,
+Liyang Lu, Amr Hendy, Samyam Rajbhandari, Yuxiong He, and Hany Hassan Awadalla.
+Scalable and eﬃcient moe training for multitask multilingual models.
+arXiv preprint
+arXiv:2109.10465, 2021.
+[29] Simiao Zuo, Xiaodong Liu, Jian Jiao, Young Jin Kim, Hany Hassan, Ruofei Zhang, Tuo
+Zhao, and Jianfeng Gao. Taming sparsely activated transformer with stochastic experts.
+arXiv preprint arXiv:2110.04260, 2021.
+[30] Nan Du, Yanping Huang, Andrew M Dai, Simon Tong, Dmitry Lepikhin, Yuanzhong Xu,
+Maxim Krikun, Yanqi Zhou, Adams Wei Yu, Orhan Firat, et al. Glam: Eﬃcient scaling
+of language models with mixture-of-experts. arXiv preprint arXiv:2112.06905, 2021.
+[31] Mikel Artetxe, Shruti Bhosale, Naman Goyal, Todor Mihaylov, Myle Ott, Sam Shleifer,
+Xi Victoria Lin, Jingfei Du, Srinivasan Iyer, Ramakanth Pasunuru, Giri Anantharaman,
+Xian Li, Shuohui Chen, Halil Akin, Mandeep Baines, Louis Martin, Xing Zhou, Punit Singh
+Koura, Brian O’Horo, JeﬀWang, Luke Zettlemoyer, Mona Diab, Zornitsa Kozareva, and
+Ves Stoyanov. Eﬃcient large scale language modeling with mixtures of experts. arXiv
+preprint arXiv:2112.10684, 2021.
+[32] Young Jin Kim,
+Ammar Ahmad Awan,
+Alexandre Muzio,
+Andr´es Felipe Cruz-
+Salinas, Liyang Lu, Amr Hendy, Samyam Rajbhandari, Yuxiong He, and Hany Hassan
+Awadalla. Scalable and eﬃcient moe training for multitask multilingual models. CoRR,
+abs/2109.10465, 2021.
+[33] Jiaao He, Jiezhong Qiu, Aohan Zeng, Zhilin Yang, Jidong Zhai, and Jie Tang. Fastmoe:
+A fast mixture-of-expert training system. CoRR, abs/2103.13262, 2021.
+[34] Microsoft.
+Tutel: An eﬃcient mixture-of-experts implementation for large dnn model
+training.
+https://www.microsoft.com/en-us/research/blog/tutel-an-efficient-
+mixture-of-experts-implementation-for-large-dnn-model-training/, 2021.
+[35] Yonatan Bisk, Rowan Zellers, Jianfeng Gao, Yejin Choi, et al. Piqa: Reasoning about
+physical commonsense in natural language. In Proceedings of the AAAI Conference on
+Artiﬁcial Intelligence, volume 34, pages 7432–7439, 2020.
+[36] Guokun Lai, Qizhe Xie, Hanxiao Liu, Yiming Yang, and Eduard Hovy. Race: Large-scale
+reading comprehension dataset from examinations. arXiv preprint arXiv:1704.04683, 2017.
+29
+
+[37] Matthew D Zeiler and Rob Fergus. Visualizing and understanding convolutional networks.
+In European conference on computer vision, pages 818–833. Springer, 2014.
+[38] Jason Yosinski, JeﬀClune, Yoshua Bengio, and Hod Lipson. How transferable are features
+in deep neural networks? arXiv preprint arXiv:1411.1792, 2014.
+[39] Sheng Shen, Zhen Dong, Jiayu Ye, Linjian Ma, Zhewei Yao, Amir Gholami, Michael W.
+Mahoney, and Kurt Keutzer. Q-BERT: hessian based ultra low precision quantization of
+BERT. In The Thirty-Fourth AAAI Conference on Artiﬁcial Intelligence, AAAI 2020, The
+Thirty-Second Innovative Applications of Artiﬁcial Intelligence Conference, IAAI 2020,
+The Tenth AAAI Symposium on Educational Advances in Artiﬁcial Intelligence, EAAI
+2020, New York, NY, USA, February 7-12, 2020, pages 8815–8821. AAAI Press, 2020.
+[40] Zhen Dong, Zhewei Yao, Amir Gholami, Michael W. Mahoney, and Kurt Keutzer. HAWQ:
+hessian aware quantization of neural networks with mixed-precision. In 2019 IEEE/CVF
+International Conference on Computer Vision, ICCV 2019, Seoul, Korea (South), October
+27 - November 2, 2019, pages 293–302. IEEE, 2019.
+[41] Zhen Dong, Zhewei Yao, Daiyaan Arfeen, Amir Gholami, Michael W. Mahoney, and Kurt
+Keutzer. HAWQ-V2: hessian aware trace-weighted quantization of neural networks. In
+Hugo Larochelle, Marc’Aurelio Ranzato, Raia Hadsell, Maria-Florina Balcan, and Hsuan-
+Tien Lin, editors, Advances in Neural Information Processing Systems 33: Annual Con-
+ference on Neural Information Processing Systems 2020, NeurIPS 2020, December 6-12,
+2020, virtual, 2020.
+[42] Rewon Child, Scott Gray, Alec Radford, and Ilya Sutskever. Generating long sequences
+with sparse transformers. CoRR, abs/1904.10509, 2019.
+[43] Fran¸cois Lagunas, Ella Charlaix, Victor Sanh, and Alexander M. Rush. Block pruning
+for faster transformers. In Marie-Francine Moens, Xuanjing Huang, Lucia Specia, and
+Scott Wen-tau Yih, editors, Proceedings of the 2021 Conference on Empirical Methods
+in Natural Language Processing, EMNLP 2021, Virtual Event / Punta Cana, Domini-
+can Republic, 7-11 November, 2021, pages 10619–10629. Association for Computational
+Linguistics, 2021.
+[44] Geoﬀrey E. Hinton, Oriol Vinyals, and Jeﬀrey Dean. Distilling the knowledge in a neural
+network. CoRR, abs/1503.02531, 2015.
+[45] Victor Sanh, Lysandre Debut, Julien Chaumond, and Thomas Wolf. Distilbert, a distilled
+version of BERT: smaller, faster, cheaper and lighter. CoRR, abs/1910.01108, 2019.
+[46] Siqi Sun, Yu Cheng, Zhe Gan, and Jingjing Liu. Patient knowledge distillation for BERT
+model compression. In Kentaro Inui, Jing Jiang, Vincent Ng, and Xiaojun Wan, editors,
+Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing
+and the 9th International Joint Conference on Natural Language Processing, EMNLP-
+IJCNLP 2019, Hong Kong, China, November 3-7, 2019, pages 4322–4331. Association for
+Computational Linguistics, 2019.
+[47] Wenhui Wang, Furu Wei, Li Dong, Hangbo Bao, Nan Yang, and Ming Zhou. Minilm: Deep
+self-attention distillation for task-agnostic compression of pre-trained transformers.
+In
+Hugo Larochelle, Marc’Aurelio Ranzato, Raia Hadsell, Maria-Florina Balcan, and Hsuan-
+Tien Lin, editors, Advances in Neural Information Processing Systems 33: Annual Con-
+ference on Neural Information Processing Systems 2020, NeurIPS 2020, December 6-12,
+2020, virtual, 2020.
+30
+
+[48] Zhiqing Sun, Hongkun Yu, Xiaodan Song, Renjie Liu, Yiming Yang, and Denny Zhou.
+Mobilebert: a compact task-agnostic BERT for resource-limited devices. In Dan Jurafsky,
+Joyce Chai, Natalie Schluter, and Joel R. Tetreault, editors, Proceedings of the 58th Annual
+Meeting of the Association for Computational Linguistics, ACL 2020, Online, July 5-10,
+2020, pages 2158–2170. Association for Computational Linguistics, 2020.
+[49] William Fedus, Barret Zoph, and Noam Shazeer. Switch transformers: Scaling to trillion
+parameter models with simple and eﬃcient sparsity. CoRR, abs/2101.03961, 2021.
+[50] Dong Yu, Kaisheng Yao, Hang Su, Gang Li, and Frank Seide. Kl-divergence regularized
+deep neural network adaptation for improved large vocabulary speech recognition.
+In
+IEEE International Conference on Acoustics, Speech and Signal Processing, ICASSP 2013,
+Vancouver, BC, Canada, May 26-31, 2013, pages 7893–7897. IEEE, 2013.
+[51] Reza Yazdani Aminabadi, Samyam Rajbhandari, Minjia Zhang, Ammar Ahmad Awan,
+Cheng Li, Du Li, Elton Zheng, JeﬀRasley, Shaden Smith, Olatunji Ruwase, and Yuxiong
+He. Deepspeed inference: Enabling eﬃcient inference of transformer models at unprece-
+dented scale. https://arxiv.org/abs/2207.00032, 2022.
+[52] Zixian Cai, Zhengyang Liu, Saeed Maleki, Madan Musuvathi, Todd Mytkowicz, Jacob
+Nelson, and Olli Saarikivi. SCCL: Synthesizing Optimal Collective Algorithms. CoRR,
+abs/2008.08708, 2020.
+[53] DeepSpeed Team, Rangan Majumder, and Andrey Proskurin. DeepSpeed: Accelerating
+large-scale model inference and training via system optimizations and compression.
+https://www.microsoft.com/en-us/research/blog/deepspeed-accelerating-
+large-scale-model-inference-and-training-via-system-optimizations-and-
+compression/, 2021. [Online].
+31

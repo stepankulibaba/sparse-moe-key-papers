@@ -326,9 +326,9 @@
     }
   ],
   "input_sha256": {
-    "data/corpus.json": "dea1bbeb5b83bd82d031a059c12655c8bd0ed83dba869c1039a578f07a27d247",
+    "data/corpus.json": "d215d6ead872d43331023efd19dbf75570647e362e95ac06f7c3b7476131db2c",
     "data/scope_audit.csv": "deee2231f84168f8137306b378d81035b62ac6035066c266b3e5887af71afb94",
-    "data/bibliographies.json": "22e262c79821fcd172ccd788050136c94402b5cceb851c72c68598da2a6f5efd",
+    "data/bibliographies.json": "36416ae02547d390e0f4cc2d4a7513f2558d50680277b265d54cf649a7793dbb",
     "data/contexts.csv": "df8d57bb23f09efe9168471a4fa29c4056b1d370a308c743f3f91e53da6681b7",
     "data/context_coverage.csv": "5df62852575a3005aa73f15a30379012bcb06e0a691b83a04a861ab1352c9453"
   }

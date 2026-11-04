@@ -1,0 +1,748 @@
+﻿id,title,accepted,rule,has_abstract,queries
+https://openalex.org/W2568046622,Layered VS 2 Nanosheet‐Based Aqueous Zn Ion Battery Cathode,False,insufficient_topic_evidence,True,base
+https://openalex.org/W2577467065,Diagnosing the ADHD Using a Mixture of Expert Fuzzy Models,False,application_outside_architecture_scope,False,mixture_cited
+https://openalex.org/W2581624817,Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer,True,MoE_and_language_or_transformer_terms,True,mixture_cited;sparse_experts
+https://openalex.org/W2602624663,A Single-Phase Buck Matrix Converter With High-Frequency Transformer Isolation and Reduced Switch Count,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W2604324863,High performance manganese-based layered oxide cathodes: overcoming the challenges of sodium ion batteries,False,insufficient_topic_evidence,True,base
+https://openalex.org/W2606560062,The Sarmatia megablock as a fragment of the Vaalbara supercontinent: Correlation of geological events at the Archean‒Paleoproterozoic transition,False,insufficient_topic_evidence,True,megablocks
+https://openalex.org/W2607192651,Remote epitaxy through graphene enables two-dimensional material-based layer transfer,False,insufficient_topic_evidence,False,base
+https://openalex.org/W2607338772,Transient Electromagnetic Disturbance Induced on the Ports of Intelligent Component of Electronic Instrument Transformer Due to Switching Operations in 500 kV GIS Substations,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W2608696608,Double-layer nanoparticle-based coatings for efficient terrestrial radiative cooling,False,insufficient_topic_evidence,False,base
+https://openalex.org/W2613790680,Moving beyond sparsity by transferring expert knowledge,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W2619336812,Soft-Switching Solid-State Transformer (S4T),False,insufficient_topic_evidence,True,switch
+https://openalex.org/W2620920129,An adaptive optimization strategy based on mixture of experts for wing aerodynamic design optimization,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W2729523528,Iodide management in formamidinium-lead-halide–based perovskite layers for efficient solar cells,False,insufficient_topic_evidence,True,base
+https://openalex.org/W2730546798,Skew t mixture of experts,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W2737077177,Learning multimodal models for robot dynamics online with a mixture of Gaussian process experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W2741017450,"Learned Experts' Assessment-based Reconstruction Network (""LEARN"") for Sparse-data CT.",False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W2741222190,"Mafic dykes of Ingul megablock (Ukrainian Shield): relationship of surface and deep structures of the lithosphere, fault tectonics and geodynamics",False,insufficient_topic_evidence,True,megablocks
+https://openalex.org/W2745352774,The presence of a stable “Megablock” in the southwestern North American Proterozoic craton in northern Mexico,False,insufficient_topic_evidence,False,megablocks
+https://openalex.org/W2750802273,Design of a 10-kV·A Soft-Switching Solid-State Transformer (S4T),False,insufficient_topic_evidence,True,switch
+https://openalex.org/W2751111769,"Steered mixture-of-experts for light field coding, depth estimation, and processing",False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W2767249220,Earth’s crust composition of the Ingul megablock of the Ukrainian Shield (types of crust) and patterns of location of ore mineral resources,False,insufficient_topic_evidence,True,megablocks
+https://openalex.org/W2768049733,Density heterogeneity of the Earth’s crust of the Ingul megablock of the Ukrainian Shield according to the data of three-dimensional gravity modeling,False,insufficient_topic_evidence,True,megablocks
+https://openalex.org/W2769127768,Hierarchical Hollow Nanoprisms Based on Ultrathin Ni‐Fe Layered Double Hydroxide Nanosheets with Enhanced Electrocatalytic Activity towards Oxygen Evolution,False,insufficient_topic_evidence,True,base
+https://openalex.org/W2770320004,High‐Performance Aqueous Zinc–Ion Battery Based on Layered H2V3O8 Nanowire Cathode,False,insufficient_topic_evidence,True,base
+https://openalex.org/W2770713894,Combination Analysis and Switching Method of a Cascaded H-Bridge Multilevel Inverter Based on Transformers With the Different Turns Ratio for Increasing the Voltage Level,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W2772414229,Image super-resolution using nonlocally centralized sparse representation and fields of experts priors,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W2779568594,An Improved DC Solid State Transformer Based on Switched Capacitor and Multiple-Phase-Shift Shoot-Through Modulation for Integration of LVDC Energy Storage System and MVDC Distribution Grid,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W2781720065,Robust memristors based on layered two-dimensional materials,False,insufficient_topic_evidence,False,base
+https://openalex.org/W2783064835,Ultrahigh-flux and fouling-resistant membranes based on layered silver/MXene (Ti 3 C 2 T x ) nanosheets,False,insufficient_topic_evidence,True,base
+https://openalex.org/W2785957819,Sparse Linear Method Based Top-N Course Recommendation System with Expert Knowledge and L 0 Regularization,False,insufficient_topic_evidence,False,sparse_experts
+https://openalex.org/W2793419304,LEARN: Learned Experts’ Assessment-Based Reconstruction Network for Sparse-Data CT,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W2794347841,Practical and theoretical aspects of mixture‐of‐experts modeling: An overview,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W2794683874,An Original Transformer and Switched-Capacitor (T & SC)-Based Extension for DC-DC Boost Converter for High-Voltage/Low-Current Renewable Energy Applications: Hardware Implementation of a New T & SC Boost Converter,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W2799354869,Investigating Switching Transformers for Common Mode EMI Reduction to Remove Common Mode EMI Filters and Y-Capacitors in Flyback Converters,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W2801641374,Expert CF: Solving Data Matrix Sparsity and Computation Complexity Problems,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W2801873804,MEGAN: Mixture of Experts of Generative Adversarial Networks for Multimodal Image Generation,False,insufficient_topic_evidence,True,alias_batch_002;mixture_cited
+https://openalex.org/W2802180552,"Tectonics and Paleomagnetic Rotation Pattern of Yunnan (24°N–25°N, China): Gaoligong Fault Shear Versus Megablock Drift",False,insufficient_topic_evidence,True,megablocks
+https://openalex.org/W2804512968,Granger-Causal Attentive Mixtures of Experts: Learning Important Features with Neural Networks,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W2806145570,Zero-Voltage Switching Operation of Transformer Class-E Inverter at Any Coupling Coefficient,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W2808994128,MoE-SPNet: A mixture-of-experts scene parsing network,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W2809290718,Modeling Task Relationships in Multi-task Learning with Multi-gate Mixture-of-Experts,False,insufficient_topic_evidence,True,alias_batch_002;mixture_cited
+https://openalex.org/W2809353022,The Stages of Early Paleoproterozoic Collision Granitoids Magmatism and Metamorphism on the Azov and Middle-Dnieper Megablocks of the Ukrainian Shield,False,insufficient_topic_evidence,False,megablocks
+https://openalex.org/W2809666375,Mixtures of Experts Models,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W2887643731,Prediction of paroxysmal Atrial Fibrillation: A machine learning based approach using combined feature vector and mixture of expert classification on HRV signal,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W2890711913,Regularized Gradient Descent Training of Steered Mixture of Experts for Sparse Image Representation,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W2891436153,"Layered Double Hydroxide‐Based Catalysts: Recent Advances in Preparation, Structure, and Applications",False,insufficient_topic_evidence,True,base
+https://openalex.org/W2891691791,Multi-Source Domain Adaptation with Mixture of Experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W2895555270,Effects of layer-interface properties on mechanical performance of concrete elements produced by extrusion-based 3D-printing,False,insufficient_topic_evidence,False,base
+https://openalex.org/W2903487413,Hierarchical Learning of Sparse Image Representations Using Steered Mixture-of-Experts,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W2905719241,Dropout regularization in hierarchical mixture of experts,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W2908692794,Doubly Sparse: Sparse Mixture of Sparse Experts for Efficient Softmax Inference,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W2911467077,GEOCHRONOLOGY OF LITHIUM-BEARING GRANITOIDS OF INGUL MEGABLOCK (UKRAINIAN SHIELD),False,insufficient_topic_evidence,True,megablocks
+https://openalex.org/W2913583284,Application of the SeDeM Expert System in Studies for Direct Compression Suitability on Mixture of Rhodiola Extract and an Excipient,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W2921275416,Convolutional mixture of experts model: A comparative study on automatic macular diagnosis in retinal optical coherence tomography imaging,False,application_outside_architecture_scope,True,mixture_cited
+https://openalex.org/W2921486051,Sparse Bayesian Hierarchical Mixture of Experts and Variational Inference,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W2941761872,A Mixture-of-Experts Prediction Framework for Evolutionary Dynamic Multiobjective Optimization,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W2945637015,A mixture of experts approach to handle ambiguities in parameter identification problems in material modeling,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W2945786757,"Gravitational sliding of the carbonate megablocks in the Vipava Valley, SW Slovenia",False,insufficient_topic_evidence,True,megablocks
+https://openalex.org/W2951510753,Granger-causal Attentive Mixtures of Experts: Learning Important Features with Neural Networks,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W2954214015,Deep Learning for EEG motor imagery classification based on multi-layer CNNs feature fusion,False,insufficient_topic_evidence,False,base
+https://openalex.org/W2963187078,Language Modeling with Sparse Product of Sememe Experts,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W2963254338,Hard Mixtures of Experts for Large Scale Weakly Supervised Vision,False,insufficient_topic_evidence,True,alias_batch_003;mixture_cited
+https://openalex.org/W2963327853,Learning to Compose Topic-Aware Mixture of Experts for Zero-Shot Video Captioning,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W2965252765,Steered Mixture-of-Experts for Light Field Images and Video: Representation and Coding,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W2966327190,Deep Mixture of Experts via Shallow Embedding,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W2967947684,Approximation results regarding the multiple-output Gaussian gated mixture of linear experts model,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W2970873268,Variational Mixture-of-Experts Autoencoders for Multi-Modal Deep Generative Models,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W2971556193,A CLASS OF MIXTURE OF EXPERTS MODELS FOR GENERAL INSURANCE: APPLICATION TO CORRELATED CLAIM FREQUENCIES,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W2972539100,A Multi-Accent Acoustic Model Using Mixture of Experts for Speech Recognition,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W2973952056,Learning Sparse Mixture of Experts for Visual Question Answering,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W2974516669,"On the Functional Equivalence of TSK Fuzzy Systems to Neural Networks, Mixture of Experts, CART, and Stacking Ensemble Regression",False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W2974520378,On the Design of a High-Performance mm-Wave VCO With Switchable Triple-Coupled Transformer,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W2977986876,A class of mixture of experts models for general insurance: Theoretical developments,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W2978766169,Layered Transition Metal Dichalcogenide‐Based Nanomaterials for Electrochemical Energy Storage,False,insufficient_topic_evidence,True,base
+https://openalex.org/W2979433804,A Single-Phase Transformer-Less Grid-Tied Inverter Based on Switched Capacitor for PV Application,False,insufficient_topic_evidence,False,switch
+https://openalex.org/W2980960706,Prospects for discovery of industrial concentrations of rare and rare-earth elements in the Alekseevsko-Lysogorskiy uranium-ore area of Ingulskiy megablock of the Ukrainian shield,False,insufficient_topic_evidence,True,megablocks
+https://openalex.org/W2989706252,Reduction of Three-Phase Transformer Inrush Currents Using Controlled Switching,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W2996343321,Non-contact voltage relay for switching windings of a boost transformer,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W2997855655,MoEVC: A Mixture-of-experts Voice Conversion System with Sparse Gating Mechanism for Accelerating Online Computation,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W2998367160,A Unified Framework for Knowledge Intensive Gradient Boosting: Leveraging Human Experts for Noisy Sparse Domains,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W2999340876,High-nickel layered oxide cathodes for lithium-based automotive batteries,False,insufficient_topic_evidence,False,base
+https://openalex.org/W3002910430,"Corrigendum to “A novel sparse representation model for pedestrian abnormal trajectory understanding” [Expert Systems with Applications, Volume 138, 30 December 2019, 112753]",False,insufficient_topic_evidence,False,sparse_experts
+https://openalex.org/W3005793341,Ensemble of Sparse Gaussian Process Experts for Implicit Surface Mapping with Streaming Data,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W3009073662,Learning a Mixture of Granularity-Specific Experts for Fine-Grained Categorization,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W3016309009,Entities as Experts: Sparse Memory Access with Entity Supervision,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W3034709327,Video Recommendation with Multi-gate Mixture of Experts Soft Actor Critic,False,insufficient_topic_evidence,True,alias_batch_004;mixture_cited
+https://openalex.org/W3034744380,Recommendation for New Users and New Items via Randomized Training and Mixture-of-Experts Transformation,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W3034768012,Resonant LLC DC–DC Converter Employing Fixed Switching Frequency Based on Dual-Transformer With Wide Input-Voltage Range,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W3035792319,Using Mixture of Expert Models to Gain Insights into Semantic Segmentation,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W3040573126,GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding,True,named_architecture_or_system,True,gshard
+https://openalex.org/W3043149527,A Broadband Switched-Transformer Digital Power Amplifier for Deep Back-Off Efficiency Enhancement,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W3049367286,MIXCAPS: A capsule network-based mixture of experts for lung nodule malignancy prediction,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W3080189354,Multitask Mixture of Sequential Experts for User Activity Streams,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W3094233933,Soft-Switching Solid-State Transformer With Reduced Conduction Loss,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W3094361660,Efficient bifurcation and tabulation of multi-dimensional combustion manifolds using deep mixture of experts: An a priori study,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W3094490485,A Family of Transformer-Less Single-Switch Dual-Inductor High Voltage Gain Boost Converters With Reduced Voltage and Current Stresses,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W3096122506,Bi-Encoder Transformer Network for Mandarin-English Code-Switching Speech Recognition Using Mixture of Experts,False,insufficient_topic_evidence,False,mixture_cited;switch
+https://openalex.org/W3097306574,Multi-Encoder-Decoder Transformer for Code-Switching Speech Recognition,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W3097911996,Sparse Mixture of Local Experts for Efficient Speech Enhancement,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W3097981861,Towards Crowdsourced Training of Large Neural Networks using Decentralized Mixture-of-Experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W3098030703,FPGA-Based Submicrosecond-Level Real-Time Simulation of Solid-State Transformer With a Switching Frequency of 50 kHz,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W3099486454,Two-dimensional Ruddlesden–Popper layered perovskite solar cells based on phase-pure thin films,False,insufficient_topic_evidence,False,base
+https://openalex.org/W3114202091,Credit Risk and Limits Forecasting in E-Commerce Consumer Lending Service via Multi-view-aware Mixture-of-experts Nets,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W3115104721,Mixture-of-Experts Variational Autoencoder for clustering and generating from similarity-based representations on single cell data,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W3116514216,Geological structure and magmatism of the Shchuchinsky megablock (Polar Urals),False,insufficient_topic_evidence,True,megablocks
+https://openalex.org/W3118376159,Why and how the brain weights contributions from a mixture of experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W3119866685,Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity,True,named_architecture_or_system,True,switch
+https://openalex.org/W3122317902,GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding,True,named_architecture_or_system,True,gshard
+https://openalex.org/W3125134520,Mixture of linear experts model for censored data: A novel approach with scale-mixture of normal distributions,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W3129931824,MiCE: Mixture of Contrastive Experts for Unsupervised Image Clustering,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W3134077887,MoEVC: A Mixture of Experts Voice Conversion System With Sparse Gating Mechanism for Online Computation Acceleration,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W3134579367,Application of Design-Expert Response Surface Methodology for the Optimization of Recycled Asphalt Mixture with Waste Engine Oil,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W3135671251,Three-Phase Transformer Inrush Current Reduction Strategy Based on Prefluxing and Controlled Switching,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W3138895808,FastMoE: A Fast Mixture-of-Expert Training System,True,named_architecture_or_system,True,fastmoe;mixture_cited
+https://openalex.org/W3139444565,SiC-Based 5-kV Universal Modular Soft-Switching Solid-State Transformer (M-S4T) for Medium-Voltage DC Microgrids and Distribution Grids,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W3143127118,Ultra-high-voltage Ni-rich layered cathodes in practical Li metal batteries enabled by a sulfonamide-based electrolyte,False,insufficient_topic_evidence,False,base
+https://openalex.org/W3147546546,An Artificial Polyacrylonitrile Coating Layer Confining Zinc Dendrite Growth for Highly Reversible Aqueous Zinc‐Based Batteries,False,insufficient_topic_evidence,True,base
+https://openalex.org/W3156323585,Mixture of Informed Experts for Multilingual Speech Recognition,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W3160447812,"Submarine landslide megablocks show half of Anak Krakatau island failed on December 22nd, 2018",False,insufficient_topic_evidence,True,megablocks
+https://openalex.org/W3166104088,Exploring Sparse Expert Models and Beyond,False,insufficient_topic_evidence,True,alias_batch_006;sparse_experts
+https://openalex.org/W3169663396,Single-Image Super-Resolution Using a Sparsely Gated Mixture of Experts,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W3170943566,Scaling Vision with Sparse Mixture of Experts,False,"scope_audit: Pure vision scaling; language is background motivation, not the studied modality.",True,alias_batch_006;mixture_cited;sparse_experts
+https://openalex.org/W3171188212,DSelect-k: Differentiable Selection in the Mixture of Experts with Applications to Multi-Task Learning,False,insufficient_topic_evidence,True,alias_batch_006;mixture_cited
+https://openalex.org/W3171262638,MoËT: Mixture of Expert Trees and its application to verifiable reinforcement learning,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W3173909755,Generalizable Person Re-identification with Relevance-aware Mixture of Experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W3176022823,"Layered double hydroxide-based electrocatalysts for the oxygen evolution reaction: identification and tailoring of active sites, and superaerophobic nanoarray electrode assembly",False,insufficient_topic_evidence,True,base
+https://openalex.org/W3177558017,Conditional information gain networks as sparse mixture of experts,False,insufficient_topic_evidence,False,sparse_experts
+https://openalex.org/W3188997291,Mixture of Experts Approach for Piecewise Modeling and Linearization of RF Power Amplifiers,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W3192523796,M6-T: Exploring Sparse Expert Models and Beyond,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W3192566355,Sparse Gated Mixture-of-Experts to Separate and Interpret Patient Heterogeneity in EHR data,False,application_outside_architecture_scope,True,sparse_experts
+https://openalex.org/W3194211893,SPMoE: Generate Multiple Pattern-Aware Outputs with Sparse Pattern Mixture of Experts,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W3196950043,SpeechMoE: Scaling to Large Acoustic Models with Dynamic Routing Mixture of Experts,False,insufficient_topic_evidence,True,alias_batch_006;mixture_cited
+https://openalex.org/W3198563652,PFL-MoE: Personalized Federated Learning Based on Mixture of Experts,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W3199464215,Universal Simultaneous Machine Translation with Mixture-of-Experts Wait-k Policy,True,MoE_and_language_or_transformer_terms,True,mixture_cited
+https://openalex.org/W3201518044,A mixture-of-experts deep generative model for integrated analysis of single-cell multiomics data,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W3205964985,Enhancing Mixture-of-Experts by Leveraging Attention for Fine-Grained Recognition,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W3205972749,Taming Sparsely Activated Transformer with Stochastic Experts,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W3207645655,Beyond Distillation: Task-level Mixture-of-Experts for Efficient Inference,False,insufficient_topic_evidence,True,alias_batch_007;mixture_cited
+https://openalex.org/W3211392937,Switching Transition Analysis and Optimization for Bidirectional CLLC Resonant DC Transformer,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W3215427016,Speechmoe2: Mixture-of-Experts Model with Improved Routing,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4200634402,GLaM: Efficient Scaling of Language Models with Mixture-of-Experts,True,named_architecture_or_system,True,glam;mixture_cited
+https://openalex.org/W4200634592,Building a great multi-lingual teacher with sparsely-gated mixture of experts for speech recognition,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4205362751,Uranium-Lead Age of Granites of Kirovohrad Massif of the Inhul Megablock of the Ukrainian Shield,False,insufficient_topic_evidence,True,megablocks
+https://openalex.org/W4205656692,An Interleaved High Step-Up DC-DC Converter Based on Integration of Coupled Inductor and Built-in-Transformer With Switched-Capacitor Cells for Renewable Energy Applications,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W4210683159,A half-wave superconducting transformer-rectifier flux pump using J c(B) switches,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W4212767839,MoESR: Blind Super-Resolution using Kernel-Aware Mixture of Experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4213308114,Estimating elastic parameters from digital rock images based on multi-task learning with multi-gate mixture-of-experts,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W4220949333,Fitting Censored and Truncated Regression Data Using the Mixture of Experts Models,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W4221156865,One Student Knows All Experts Know: From Sparse to Dense,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4221163578,SummaReranker: A Multi-Task Mixture-of-Experts Re-ranking Framework for Abstractive Summarization,True,MoE_and_language_or_transformer_terms,True,mixture_cited
+https://openalex.org/W4224211001,On the Representation Collapse of Sparse Mixture of Experts,True,MoE_and_language_or_transformer_terms,True,mixture_cited;sparse_experts
+https://openalex.org/W4224277951,Mixture of relevance vector regression experts for reservoir properties prediction,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W4224296706,MoEBERT: from BERT to Mixture-of-Experts via Importance-Guided Adaptation,False,insufficient_topic_evidence,True,alias_batch_007;mixture_cited
+https://openalex.org/W4224299101,StableMoE: Stable Routing Strategy for Mixture of Experts,True,MoE_and_language_or_transformer_terms,True,mixture_cited
+https://openalex.org/W4224902962,Sparsely Activated Mixture-of-Experts are Robust Multi-Task Learners,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4225390052,ST-MoE: Designing Stable and Transferable Sparse Expert Models,True,named_architecture_or_system,True,sparse_experts;stmoe
+https://openalex.org/W4226151629,Diversifying Content Generation for Commonsense Reasoning with Mixture of Knowledge Graph Experts,True,MoE_and_language_or_transformer_terms,True,mixture_cited
+https://openalex.org/W4226515448,DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale,True,named_architecture_or_system,True,deepspeed;mixture_cited
+https://openalex.org/W4237547491,Mixture of Experts Models,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4281660037,A Sparse Mixture-of-Experts Model With Screening of Genetic Associations to Guide Disease Subtyping,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4281776465,Task-Specific Expert Pruning for Sparse Mixture-of-Experts,False,insufficient_topic_evidence,True,alias_batch_007;sparse_experts
+https://openalex.org/W4281901479,Patcher: Patch Transformers with Mixture of Experts for Precise Medical Image Segmentation,False,application_outside_architecture_scope,False,mixture_cited
+https://openalex.org/W4281922990,Tutel: Adaptive Mixture-of-Experts at Scale,False,insufficient_topic_evidence,True,alias_batch_007;mixture_cited
+https://openalex.org/W4285077484,Learning Large-scale Universal User Representation with Sparse Mixture of Experts,False,scope_audit: User recommendation representations rather than language models.,True,sparse_experts
+https://openalex.org/W4285134706,MoEfication: Transformer Feed-forward Layers are Mixtures of Experts,False,insufficient_topic_evidence,True,alias_batch_008;mixture_cited
+https://openalex.org/W4289533849,Multi-Task Learning with Calibrated Mixture of Insightful Experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4289656058,Interpretable Transformer Model for Capturing Regime Switching Effects of Real-Time Electricity Prices,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W4289828103,Designing Effective Sparse Expert Models,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4290055971,Towards Understanding Mixture of Experts in Deep Learning,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4290061682,Simplifying Sparse Expert Recommendation by Revisiting Graph Diffusion,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4293704666,Modeling Task Relationships in Multivariate Soft Sensor With Balanced Mixture-of-Experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4297631950,A Review of Sparse Expert Models in Deep Learning,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4297841441,Parameter-Efficient Conformers via Sharing Sparsely-Gated Experts for End-to-End Speech Recognition,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4300973453,Sparse Mixture-of-Experts are Domain Generalizable Learners,False,insufficient_topic_evidence,True,mixture_cited;sparse_experts
+https://openalex.org/W4304092679,Adaptive Mixture of Experts Learning for Generalizable Face Anti-Spoofing,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4304697563,EvoMoE: An Evolutional Mixture-of-Experts Training Framework via Dense-To-Sparse Gate,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4308964749,"Effect of Various Electron and Hole Transport Layers on the Performance of CsPbI 3 -Based Perovskite Solar Cells: A Numerical Investigation in DFT, SCAPS-1D, and wxAMPS Frameworks",False,insufficient_topic_evidence,True,base
+https://openalex.org/W4309128996,Handling Trade-Offs in Speech Separation with Sparsely-Gated Mixture of Experts,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4309472895,Towards overcoming data scarcity in materials science: unifying models and datasets with a mixture of experts framework,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4310510250,MegaBlocks: Efficient Sparse Training with Mixture-of-Experts,True,named_architecture_or_system,True,megablocks;mixture_cited;sparse_experts
+https://openalex.org/W4311252752,Sparse Upcycling: Training Mixture-of-Experts from Dense Checkpoints,True,named_architecture_or_system,True,sparse_experts;sparse_upcycling
+https://openalex.org/W4312404674,Application of Mixture of Experts in Machine Learning-Based Controlling of DC-DC Power Electronics Converter,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4312421564,NeurMiPs: Neural Mixture of Planar Experts for View Synthesis,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4312711444,AGE OF THE HANNIVKA GRANITE (MIDDLE-DNIEPER MEGABLOCK OF THE UKRAINIAN SHIELD),False,insufficient_topic_evidence,True,megablocks
+https://openalex.org/W4313180946,Asymmetric Topology Design and Quasi-Zero-Loss Switching Composite Modulation for IGCT-Based High-Capacity DC Transformer,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W4318020634,Correlated product of experts for sparse Gaussian process regression,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4320491231,An extensive study on multiple ETL and HTL layers to design and simulation of high-performance lead-free CsSnCl3-based perovskite solar cells,False,insufficient_topic_evidence,True,base
+https://openalex.org/W4372349677,MoLE : Mixture Of Language Experts For Multi-Lingual Automatic Speech Recognition,False,insufficient_topic_evidence,True,alias_batch_008;mixture_cited
+https://openalex.org/W4376269829,Multi-Task Reinforcement Learning With Attention-Based Mixture of Experts,False,insufficient_topic_evidence,True,alias_batch_009;mixture_cited
+https://openalex.org/W4376652719,A Hybrid Tensor-Expert-Data Parallelism Approach to Optimize Mixture-of-Experts Training,False,insufficient_topic_evidence,True,alias_batch_009;mixture_cited
+https://openalex.org/W4378473852,Mixture-of-Experts Meets Instruction Tuning:A Winning Combination for Large Language Models,True,MoE_and_language_or_transformer_terms,True,mixture_cited
+https://openalex.org/W4379530973,Sparse video representation using steered mixture-of-experts with global motion compensation,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4380301730,BotBuster: Multi-Platform Bot Detection Using a Mixture of Experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4381191914,Temporal-Weighted Bipartite Graph Model for Sparse Expert Recommendation in Community Question Answering,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4381741171,A Lightweight Multi-View Learning Approach for Phishing Attack Detection Using Transformer with Mixture of Experts,False,scope_audit: Phishing classification application; outside architecture and language-model scope.,True,mixture_cited
+https://openalex.org/W4382138768,An Improvement in Dynamic Behavior of Single Phase PM Brushless DC Motor Using Deep Neural Network and Mixture of Experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4382239503,ADMoE: Anomaly Detection with Mixture-of-Experts from Noisy Labels,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4382311055,A New Soft-Switched High Step-Up Trans-Inverse DC/DC Converter Based on Built-In Transformer,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W4383108473,Safe Real-World Autonomous Driving by Learning to Predict and Plan with a Mixture of Experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4384103851,Fault detection and diagnostics in the context of sparse multimodal data and expert knowledge assistance: Application to hydrogenerators,False,application_outside_architecture_scope,False,sparse_experts
+https://openalex.org/W4384208869,Combining expert knowledge of a threatened trout distribution with sparse occupancy data for climate-related projection,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4384828840,BotMoE: Twitter Bot Detection with Community-Aware Mixtures of Modal-Specific Experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4385482627,Sparsely-gated Mixture-of-Expert Layers for CNN Interpretability,False,scope_audit: CNN interpretability without a language-model architecture.,True,sparse_experts
+https://openalex.org/W4385567093,Efficient Large Scale Language Modeling with Mixtures of Experts,False,insufficient_topic_evidence,True,alias_batch_009;mixture_cited
+https://openalex.org/W4385739734,Identifying multiple soil pollutions of potentially contaminated sites based on multi-gate mixture-of-experts network,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W4385822875,Language-Routing Mixture of Experts for Multilingual and Code-Switching Speech Recognition,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4385823078,Mixture-of-Expert Conformer for Streaming Multilingual ASR,False,insufficient_topic_evidence,True,alias_batch_009;mixture_cited
+https://openalex.org/W4385968027,From Sparse to Soft Mixtures of Experts,False,insufficient_topic_evidence,True,alias_batch_009;mixture_cited;sparse_experts
+https://openalex.org/W4386075639,ERNIE-ViLG 2.0: Improving Text-to-Image Diffusion Model with Knowledge-Enhanced Mixture-of-Denoising-Experts,False,insufficient_topic_evidence,True,alias_batch_009;mixture_cited
+https://openalex.org/W4386076285,Castling-ViT: Compressing Self-Attention via Switching Towards Linear-Angular Attention at Vision Transformer Inference,False,insufficient_topic_evidence,True,switch
+https://openalex.org/W4386076670,Mod-Squad: Designing Mixtures of Experts As Modular Multi-Task Learners,False,insufficient_topic_evidence,True,alias_batch_009;mixture_cited
+https://openalex.org/W4386260498,PipeMoE: Accelerating Mixture-of-Experts through Adaptive Pipelining,True,MoE_and_language_or_transformer_terms,True,mixture_cited
+https://openalex.org/W4386396242,Janus: A Unified Distributed Training Framework for Sparse Mixture-of-Experts Models,False,insufficient_topic_evidence,True,alias_batch_009;mixture_cited;sparse_experts
+https://openalex.org/W4386409288,"Atoll islets reshaping processes induced by extreme cyclonic waves and calm weather. Evidence from two centuries of megablocks emergences and coral rubble displacements in Anaa, Rangiroa and Tikehau atolls (western Tuamotu archipelago - French Polynesia)",False,insufficient_topic_evidence,False,megablocks
+https://openalex.org/W4386621109,Mobile V-MoEs: Scaling Down Vision Transformers via Sparse Mixture-of-Experts,False,scope_audit: Pure vision transformer compression.,True,alias_batch_009;sparse_experts
+https://openalex.org/W4386996055,"New Insights into the Genesis of Dibrova U-Th-REE Mineral Deposit (West Azov Megablock, Ukraine) Using Monazite Chemistry",False,insufficient_topic_evidence,True,megablocks
+https://openalex.org/W4387075868,Statistical Perspective of Top-K Sparse Softmax Gating Mixture of Experts,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4387846171,Multi-modal Mixture of Experts Represetation Learning for Sequential Recommendation,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4387846662,ST-MoE: Spatio-Temporal Mixture-of-Experts for Debiasing in Traffic Prediction,False,insufficient_topic_evidence,True,mixture_cited;stmoe
+https://openalex.org/W4387964229,HyperRouter: Towards Efficient Training and Inference of Sparse Mixture of Experts,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4388092923,SiDA-MoE: Sparsity-Inspired Data-Aware Serving for Efficient and Scalable Large Mixture-of-Experts Models,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4388157614,Learning Robust and Scalable Motion Matching with Lipschitz Continuity and Sparse Mixture of Experts,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4389076527,A Temporal Multi-Gate Mixture-of-Experts Approach for Vehicle Trajectory and Driving Intention Prediction,False,insufficient_topic_evidence,True,alias_batch_010;mixture_cited
+https://openalex.org/W4389162698,Edge-MoE: Memory-Efficient Multi-Task Vision Transformer Architecture with Task-Level Sparsity via Mixture-of-Experts,False,insufficient_topic_evidence,True,alias_batch_010;mixture_cited;sparse_experts
+https://openalex.org/W4389520274,Scaling Vision-Language Models with Sparse Mixture of Experts,True,MoE_and_language_or_transformer_terms,True,mixture_cited;sparse_experts
+https://openalex.org/W4389523943,HyperRouter: Towards Efficient Training and Inference of Sparse Mixture of Experts,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4389687998,Improving speech emotion recognition by fusing self-supervised learning and spectral features via mixture of experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4389832124,A MLP-Mixer and mixture of expert model for remaining useful life prediction of lithium-ion batteries,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4389917048,"MINERALOGICAL AND GEOCHEMICAL CHARACTERISTICS OF THE HURIVKA COMPLEX P-U-TR ORE OCCURRENCE, INHUL MEGABLOCK, UKRAINIAN SHIELD",False,insufficient_topic_evidence,True,megablocks
+https://openalex.org/W4389993435,ChatGPT and Deepseek: Can They Predict the Stock Market and Macroeconomy?,False,insufficient_topic_evidence,False,deepseek
+https://openalex.org/W4390214750,Aurora:Activating Chinese chat capability for Mixtral-8x7B sparse Mixture-of-Experts through Instruction-Tuning,True,MoE_and_language_or_transformer_terms,True,mixtral;sparse_experts
+https://openalex.org/W4390357039,Sparsely Gated Mixture of Experts Neural Network For Linearization of RF Power Amplifiers,False,insufficient_topic_evidence,True,alias_batch_010;mixture_cited;sparse_experts
+https://openalex.org/W4390413798,Multimodal Gated Mixture of Experts Using Whole Slide Image and Flow Cytometry for Multiple Instance Learning Classification of Lymphoma,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4390470873,I2-FaçadeNet: An Illumination-invariant Façade Recognition Network Leveraging Sparsely Gated Mixture of Multi-color Space Experts for Aerial Oblique Imagery,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4390690464,DeepSeek LLM: Scaling Open-Source Language Models with Longtermism,False,insufficient_topic_evidence,True,alias_batch_010;deepseek
+https://openalex.org/W4390723179,MoE-Mamba: Efficient Selective State Space Models with Mixture of Experts,True,MoE_and_language_or_transformer_terms,True,mixture_cited
+https://openalex.org/W4390723197,Mixtral of Experts,True,named_architecture_or_system,True,mixtral
+https://openalex.org/W4390833687,DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models,True,named_architecture_or_system,True,mixture_cited
+https://openalex.org/W4390872608,TaskExpert: Dynamically Assembling Multi-Task Representations with Memorial Mixture-of-Experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4390872954,Enhancing NeRF akin to Enhancing LLMs: Generalizable NeRF Transformer with Mixture-of-View-Experts,False,scope_audit: NeRF and 3D reconstruction; LLMs are an analogy in the title.,True,mixture_cited
+https://openalex.org/W4390873360,AdaMV-MoE: Adaptive Multi-Task Vision Mixture-of-Experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4390874259,Multi-modal Gated Mixture of Local-to-Global Experts for Dynamic Image Fusion,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4390874353,Robust Mixture-of-Expert Training for Convolutional Neural Networks,False,insufficient_topic_evidence,True,alias_batch_010;mixture_cited
+https://openalex.org/W4391021440,LAE-ST-MOE: Boosted Language-Aware Encoder Using Speech Translation Auxiliary Task for E2E Code-Switching ASR,False,insufficient_topic_evidence,True,stmoe
+https://openalex.org/W4391272793,DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4391272939,MoE-Infinity: Efficient MoE Inference on Personal Machines with Sparsity-Aware Expert Cache,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4391420732,LLaVA-MoLE: Sparse Mixture of LoRA Experts for Mitigating Data Conflicts in Instruction Finetuning MLLMs,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4391591172,CompeteSMoE -- Effective Training of Sparse Mixture of Experts via Competition,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4391629624,AttMoE: Attention with Mixture of Experts for remaining useful life prediction of lithium-ion batteries,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W4391642537,Unraveling complex data diversity in underwater acoustic target recognition through convolution-based mixture of experts,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W4392221200,Exploiting Activation Sparsity with Dense to Dynamic-k Mixture-of-Experts Conversion,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4392488480,Rethinking LLM Language Adaptation: A Case Study on Chinese Mixtral,True,MoE_and_language_or_transformer_terms,True,mixtral
+https://openalex.org/W4392678661,DeepSeek-VL: Towards Real-World Vision-Language Understanding,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4392746077,20.8 Space-Mate: A 303.5mW Real-Time Sparse Mixture-of-Experts-Based NeRF-SLAM Processor for Mobile Spatial Computing,False,insufficient_topic_evidence,True,mixture_cited;sparse_experts
+https://openalex.org/W4392823160,Unleashing the Power of Meta-tuning for Few-shot Generalization Through Sparse Interpolated Experts,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4393149604,Frequency-Adaptive Pan-Sharpening with Mixture of Experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4393160139,Efficient Deweahter Mixture-of-Experts with Uncertainty-Aware Feature-Wise Linear Modulation,False,insufficient_topic_evidence,True,alias_batch_010;mixture_cited
+https://openalex.org/W4393190377,Making motion matching stable and fast with Lipschitz-continuous neural networks and Sparse Mixture of Experts,False,insufficient_topic_evidence,False,sparse_experts
+https://openalex.org/W4393284681,Generalization Error Analysis for Sparse Mixture-of-Experts: A Preliminary Study,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4394586630,ST-MoE: Spatio-Temporal Mixture of Experts for Multivariate Time Series Forecasting,False,insufficient_topic_evidence,True,stmoe
+https://openalex.org/W4394672851,SEER-MoE: Sparse Expert Efficiency through Regularization for Mixture-of-Experts,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4394673388,"Dense Training, Sparse Inference: Rethinking Training of Mixture-of-Experts Language Models",True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4394773033,Sparse Mixtures of Shallow Linear Experts for Interpretable and Fast Outcome Prediction,False,insufficient_topic_evidence,False,sparse_experts
+https://openalex.org/W4394867654,MING-MOE: Enhancing Medical Multi-Task Learning in Large Language Models with Sparse Mixture of Low-Rank Adapter Experts,False,application_outside_architecture_scope,True,sparse_experts
+https://openalex.org/W4394923534,ScheMoE: An Extensible Mixture-of-Experts Distributed Training System with Tasks Scheduling,False,insufficient_topic_evidence,True,alias_batch_011;mixture_cited
+https://openalex.org/W4396732458,An adaptive multi-scale feature fusion and adaptive mixture-of-experts multi-task model for industrial equipment health status assessment and remaining useful life prediction,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W4396815229,"DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",True,named_architecture_or_system,True,deepseek;mixture_cited
+https://openalex.org/W4396817294,MoESys: A Distributed and Efficient Mixture-of-Experts Training and Inference System for Internet Services,False,insufficient_topic_evidence,True,alias_batch_011;mixture_cited
+https://openalex.org/W4396820856,M 3 oE: Multi-Domain Multi-Task Mixture-of Experts Recommendation Framework,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4398777692,"X-LoRA: Mixture of low-rank adapter experts, a flexible framework for large language models with applications in protein mechanics and molecular design",True,MoE_and_language_or_transformer_terms,True,mixture_cited
+https://openalex.org/W4399115676,Decomposing the Neurons: Activation Sparsity via Mixture of Experts for Continual Test Time Adaptation,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4399150953,A Provably Effective Method for Pruning Experts in Fine-tuned Sparse Mixture-of-Experts,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4399704004,CA-MoEiT: Generalizable Face Anti-spoofing via Dual Cross-Attention and Semi-fixed Mixture-of-Expert,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W4399795085,$\texttt{MoE-RBench}$: Towards Building Reliable Language Models with Sparse Mixture-of-Experts,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4399836663,DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence,True,MoE_and_language_or_transformer_terms,True,deepseek
+https://openalex.org/W4399975443,Graph transformer embedded deep learning for short-term passenger flow prediction in urban rail transit systems: A multi-gate mixture-of-experts model,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W4400341518,Efficient Expert Pruning for Sparse Mixture-of-Experts Language Models: Enhancing Performance and Reducing Inference Costs,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4400341941,Investigating the potential of Sparse Mixtures-of-Experts for multi-domain neural machine translation,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4400445270,A Survey on Mixture of Experts,True,MoE_and_language_or_transformer_terms,True,mixture_cited
+https://openalex.org/W4400455100,METRIC-BASED COMPARISON OF FINE-TUNED LLAMA 2 AND MIXTRAL LARGE LANGUAGE MODELS FOR INSTRUCTION TASKS,False,insufficient_topic_evidence,True,mixtral
+https://openalex.org/W4400458824,Advancing robust underwater acoustic target recognition through multitask learning and multi-gate mixture of experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4400702670,Diversifying the Expert Knowledge for Task-Agnostic Pruning in Sparse Mixture-of-Experts,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4400728363,Mixture of Experts for Intelligent Networks: A Large Language Model-enabled Approach,True,MoE_and_language_or_transformer_terms,True,mixture_cited
+https://openalex.org/W4401211627,Pre-gated MoE: An Algorithm-System Co-Design for Fast and Scalable Mixture-of-Expert Inference,True,MoE_and_language_or_transformer_terms,True,mixture_cited
+https://openalex.org/W4401857088,Interpretable Cascading Mixture-of-Experts for Urban Traffic Congestion Prediction,False,insufficient_topic_evidence,True,alias_batch_011;mixture_cited
+https://openalex.org/W4402351149,Efficient Routing in Sparse Mixture-of-Experts,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4402473936,Spatial-Frequency Adaptive Remote Sensing Image Dehazing With Mixture of Experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4402473949,Generative AI Agents With Large Language Model for Satellite Networks via a Mixture of Experts Transmission,False,application_outside_architecture_scope,True,alias_batch_012;mixture_cited
+https://openalex.org/W4402475785,Space-Mate: A 303.5mW Real-Time NeRF SLAM Processor with Sparse-Mixture-of-Experts-based Acceleration,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4402670023,XMoE: Sparse Models with Fine-grained and Adaptive Expert Selection,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4402671637,Not All Experts are Equal: Efficient Expert Pruning and Skipping for Mixture-of-Experts Large Language Models,True,MoE_and_language_or_transformer_terms,True,mixture_cited
+https://openalex.org/W4402671950,DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models,True,named_architecture_or_system,True,mixture_cited
+https://openalex.org/W4402673279,Coaching a Robotic Sonographer: Learning Robotic Ultrasound With Sparse Expert’s Feedback,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4402698548,SMILE: Zero-Shot Sparse Mixture of Low-Rank Experts Construction From Pre-Trained Foundation Models,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4402702936,Boosting Continual Learning of Vision-Language Models via Mixture-of-Experts Adapters,True,MoE_and_language_or_transformer_terms,True,mixture_cited
+https://openalex.org/W4402703100,Omni-SMoLA: Boosting Generalist Multimodal Models with Soft Mixture of Low-Rank Experts,False,insufficient_topic_evidence,True,alias_batch_012;mixture_cited
+https://openalex.org/W4402704566,Multi-Task Dense Prediction via Mixture of Low-Rank Experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4402770349,High Performance Breast Cancer Diagnosis From Mammograms Using Mixture of Experts With EfficientNet Features (MoEffNet),False,application_outside_architecture_scope,True,mixture_cited
+https://openalex.org/W4402915913,MoE-AGIQA: Mixture-of-Experts Boosted Visual Perception-Driven and Semantic-Aware Quality Assessment for AI-Generated Images,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4403067074,SAM-Med3D-MoE: Towards a Non-Forgetting Segment Anything Model via Mixture of Experts for 3D Medical Image Segmentation,False,application_outside_architecture_scope,False,mixture_cited
+https://openalex.org/W4403182179,Toward Scalable Generative Ai via Mixture of Experts in Mobile Edge Networks,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4403322029,EC-DIT: Scaling Diffusion Transformers with Adaptive Expert-Choice Routing,False,insufficient_topic_evidence,True,routing
+https://openalex.org/W4403365573,MoME: Mixture of Multimodal Experts for Cancer Survival Prediction,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W4403570876,Moirai-MoE: Empowering Time Series Foundation Models with Sparse Mixture of Experts,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4403649782,M4oE: A Foundation Model for Medical Multimodal Image Segmentation with Mixture of Experts,False,application_outside_architecture_scope,False,mixture_cited
+https://openalex.org/W4403938692,Sparse Mixture of Experts Language Models Excel in Knowledge Distillation,True,MoE_and_language_or_transformer_terms,False,sparse_experts
+https://openalex.org/W4403995397,Sparse Mixture-of-Experts for Compositional Generalization: Empirical Evidence and Theoretical Foundations of Optimal Sparsity,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4404133759,MoNDE: Mixture of Near-Data Experts for Large-Scale Sparse Models,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4404313098,Exploring structure–property relationships in sparse data environments using mixture-of-experts models,False,insufficient_topic_evidence,False,sparse_experts
+https://openalex.org/W4404404222,scMoE: single-cell Multi-Modal Multi-Task Learning via Sparse Mixture-of-Experts,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4404449863,Sparse Upcycling: Inference Inefficient Finetuning,True,MoE_and_language_or_transformer_terms,True,sparse_upcycling
+https://openalex.org/W4404506273,Estimation and group-feature selection in sparse mixture-of-experts with diverging number of parameters,False,insufficient_topic_evidence,False,sparse_experts
+https://openalex.org/W4404648711,MERLOT: A Distilled LLM-based Mixture-of-Experts Framework for Scalable Encrypted Traffic Classification,False,scope_audit: Encrypted network traffic classification; LLM is a distilled source.,True,mixture_recent
+https://openalex.org/W4404781019,BiMediX: Bilingual Medical Mixture of Experts LLM,False,application_outside_architecture_scope,True,mixture_cited
+https://openalex.org/W4404781870,Med-MoE: Mixture of Domain-Specific Experts for Lightweight Medical Vision-Language Models,False,application_outside_architecture_scope,True,mixture_cited
+https://openalex.org/W4404782031,LLaMA-MoE: Building Mixture-of-Experts from LLaMA with Continual Pre-Training,True,MoE_and_language_or_transformer_terms,True,mixture_cited
+https://openalex.org/W4404782838,Parameter-Efficient Sparsity Crafting from Dense to Mixture-of-Experts for Instruction Tuning on General Tasks,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4404783367,MMoE: Enhancing Multimodal Models with Mixtures of Multimodal Interaction Experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4404783368,Let the Expert Stick to His Last: Expert-Specialized Fine-Tuning for Sparse Architectural Large Language Models,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4404889670,Switch Diffusion Transformer: Synergizing Denoising Tasks with Sparse Mixture-of-Experts,False,insufficient_topic_evidence,False,alias_batch_012;sparse_experts
+https://openalex.org/W4404955001,"Duplex: A Device for Large Language Models with Mixture of Experts, Grouped Query Attention, and Continuous Batching",True,MoE_and_language_or_transformer_terms,True,mixture_cited
+https://openalex.org/W4404986726,LLaMA-MoE v2: Exploring Sparsity of LLaMA from Perspective of Mixture-of-Experts with Post-Training,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4405030634,On the Role of Discrete Representation in Sparse Mixture of Experts,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4405326435,Simultaneous estimation of multiple soil properties from vis-NIR spectra using a multi-gate mixture-of-experts with data augmentation,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4405424324,ST-MoE-BERT: A Spatial-Temporal Mixture-of-Experts Framework for Long-Term Cross-City Mobility Prediction,False,insufficient_topic_evidence,True,stmoe
+https://openalex.org/W4405434026,DeepSeek-VL2: Mixture-of-Experts Vision-Language Models for Advanced Multimodal Understanding,True,MoE_and_language_or_transformer_terms,True,deepseek;mixture_cited
+https://openalex.org/W4405845035,SparseFormer: A Credible Dual-CNN Expert-Guided Transformer for Remote Sensing Image Segmentation With Sparse Point Annotation,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4405903187,DeepSeek-V3 Technical Report,True,named_architecture_or_system,True,deepseek
+https://openalex.org/W4406059434,Discussion: Effective and Interpretable Outcome Prediction by Training Sparse Mixtures of Linear Experts,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4406178148,Efficient scaling of large language models with mixture of experts and 3D analog in-memory computing,True,MoE_and_language_or_transformer_terms,False,mixture_cited
+https://openalex.org/W4406322060,Enhancing Physical Layer Communication Security Through Generative AI with Mixture of Experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4406703768,FSMoE: A Flexible and Scalable Training System for Sparse Mixture-of-Experts Models,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4406755530,Parameters vs FLOPs: Scaling Laws for Optimal Sparsity for Mixture-of-Experts Language Models,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4406758414,"China’s cheap, open AI model DeepSeek thrills scientists",False,insufficient_topic_evidence,False,alias_batch_012;deepseek
+https://openalex.org/W4406857323,HotMoE: Exploring Sparse Mixture-of-Experts for Hyperspectral Object Tracking,False,insufficient_topic_evidence,True,mixture_cited;sparse_experts
+https://openalex.org/W4406911809,Overcoming language barriers via machine translation with sparse Mixture-of-Experts fusion of large language models,True,MoE_and_language_or_transformer_terms,False,mixture_cited;sparse_experts
+https://openalex.org/W4406925062,Scientists flock to DeepSeek: how they’re using the blockbuster AI model,False,insufficient_topic_evidence,False,deepseek
+https://openalex.org/W4406936679,Comparative Evaluation of Advanced AI Reasoning Models in Pediatric Clinical Decision Support: ChatGPT O1 vs. DeepSeek-R1,False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4406944050,Mixture of experts leveraging Informer and LSTM variants for enhanced daily streamflow forecasting,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W4406983611,How China created AI model DeepSeek and shocked the world,False,insufficient_topic_evidence,False,deepseek
+https://openalex.org/W4407006310,Daily briefing: The pros and cons of DeepSeek,False,insufficient_topic_evidence,False,deepseek
+https://openalex.org/W4407007789,Robustifying Routers Against Input Perturbations for Sparse Mixture-of-Experts Vision Transformers,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4407078453,DeepSeek vs. ChatGPT: Comparative Efficacy in Reasoning for Adults’ Second Language Acquisition Analysis,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4407209588,DEEPSEEK LARGE - SCALE MODEL: TECHNICAL ANALYSIS AND DEVELOPMENT PROSPECT,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4407243444,Multi-task model of adaptive multi-scale feature fusion and adaptive mixture-of-experts for equipment remaining useful life prediction and fault diagnosis,False,application_outside_architecture_scope,False,mixture_cited
+https://openalex.org/W4407312842,From GPT to DeepSeek: Significant gaps remain in realizing AI in healthcare,False,application_outside_architecture_scope,False,deepseek
+https://openalex.org/W4407345301,"Highlighting DeepSeek-R1: Architecture, Features and Future Implications",False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4407390808,A Foundation Model for Lesion Segmentation on Brain MRI With Mixture of Modality Experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4407398327,Reflections on DeepSeek's breakthrough,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4407413809,DeepSeek versus ChatGPT: Multimodal artificial intelligence revolutionizing scientific discovery. From language editing to autonomous content generation—Redefining innovation in research and practice,False,insufficient_topic_evidence,False,deepseek
+https://openalex.org/W4407451021,Uni-MoE: Scaling Unified Multimodal LLMs With Mixture of Experts,True,MoE_and_language_or_transformer_terms,True,mixture_cited
+https://openalex.org/W4407569679,Training Sparse Mixture Of Experts Text Embedding Models,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4407598658,ChatGPT and DeepSeek Evaluate One Another for Science Education,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4407637379,DeepSeek: Is it the End of Generative AI Monopoly or the Mark of the Impending Doomsday?,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4407677270,"China made waves with Deepseek, but its real ambition is AI-driven industrial innovation",False,insufficient_topic_evidence,False,deepseek
+https://openalex.org/W4407680459,DeepSeek is open-access and the next AI disrupter for radiology,False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4407696986,DeepSeek in Healthcare: Revealing Opportunities and Steering Challenges of a New Open-Source Artificial Intelligence Frontier,False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4407759863,Finedeep: Mitigating Sparse Activation in Dense LLMs via Multi-Layer Fine-Grained Experts,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4407764395,Unraveling the Localized Latents: Learning Stratified Manifold Structures in LLM Embedding Space with Sparse Mixture-of-Experts,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4407776787,"Comprehensive Analysis of Transparency and Accessibility of ChatGPT, DeepSeek, And other SoTA Large Language Models",False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4407799564,The rise of AI in healthcare education: DeepSeek and GPT-4o take on the 2024 Taiwan Pharmacist Exam,False,application_outside_architecture_scope,False,deepseek
+https://openalex.org/W4408013606,"DeepSeek Vs. ChatGPT: A Comparative Evaluation of AI Tools in Composition, Business Writing, and Communication Tasks",False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4408034389,The rise of DeepSeek: technology calls for the “catfish effect”,False,insufficient_topic_evidence,False,deepseek
+https://openalex.org/W4408034517,DeepSeek: the “Watson” to doctors—from assistance to collaboration,False,insufficient_topic_evidence,False,deepseek
+https://openalex.org/W4408068632,PAMoE-MSA: polarity-aware mixture of experts network for multimodal sentiment analysis,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W4408145414,RS-MoE: A Vision–Language Model With Mixture of Experts for Remote Sensing Image Captioning and Visual Question Answering,True,MoE_and_language_or_transformer_terms,True,mixture_cited
+https://openalex.org/W4408271957,DeepSeek: Another step forward in the diagnosis of oral lesions,False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4408302864,Mapping GLAMs: creating a national dataset of GLAMs to develop a categorical climate-change risk assessment scale,False,insufficient_topic_evidence,True,glam
+https://openalex.org/W4408325468,WDMoE: Wireless Distributed Large Language Models with Mixture of Experts,True,MoE_and_language_or_transformer_terms,True,mixture_cited
+https://openalex.org/W4408350385,Improving Deep Learning Performance with Mixture of Experts and Sparse Activation,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4408354307,Mixture of Experts Fusion for Fake Audio Detection Using Frozen wav2vec 2.0,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4408397944,Evaluating AI-generated patient education materials for spinal surgeries: Comparative analysis of readability and DISCERN quality across ChatGPT and deepseek models,False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4408413603,"Emotion-Aware Embedding Fusion in Large Language Models (Flan-T5, Llama 2, DeepSeek-R1, and ChatGPT 4) for Intelligent Response Generation",False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4408442223,DenseFormer-MoE: A Dense Transformer Foundation Model With Mixture of Experts for Multi-Task Brain Image Analysis,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4408442871,"Breaking Bones, Breaking Barriers: ChatGPT, DeepSeek, and Gemini in Hand Fracture Management",False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4408666062,DeepSeek vs. ChatGPT vs. Claude: A comparative study for scientific computing and scientific machine learning tasks,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4408666997,Brief analysis of DeepSeek R1 and its implications for Generative AI,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4408672772,"Performance of DeepSeek, Qwen 2.5 MAX, and ChatGPT Assisting in Diagnosis of Corneal Eye Diseases, Glaucoma, and Neuro-Ophthalmology Diseases Based on Clinical Case Reports",False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4408858386,A Survey on Mixture of Experts in Large Language Models,True,MoE_and_language_or_transformer_terms,True,mixture_cited
+https://openalex.org/W4408875840,Transformer with Sparse Mixture of Experts for Time-Series Data Prediction in Industrial IoT Systems,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4408876550,"A Comprehensive Review of DeepSeek: Performance, Architecture and Capabilities",True,MoE_and_language_or_transformer_terms,True,deepseek
+https://openalex.org/W4408903192,MoC-System: Efficient Fault Tolerance for Sparse Mixture-of-Experts Model Training,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4408905240,DeepSeek and Grok in the Spotlight After ChatGPT in English Education: A Review Study,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4409110242,"DeepSeek-V3, GPT-4, Phi-4, and LLaMA-3.3 Generate Correct Code for LoRaWAN-Related Engineering Tasks",False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4409133775,"Leveraging the DeepSeek large model: A framework for AI-assisted disaster prevention, mitigation, and emergency response systems",False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4409196537,A multi-energy load forecasting method based on the Mixture-of-Experts model and dynamic multilevel attention mechanism,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W4409218224,User Intent to Use DeepSeek for Health Care Purposes and Their Trust in the Large Language Model: Multinational Survey Study,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4409260121,Chinese generative AI models (DeepSeek and Qwen) rival ChatGPT-4 in ophthalmology queries with excellent performance in Arabic and English,False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4409271295,"Evaluating the Accuracy and Reliability of Large Language Models (ChatGPT, Claude, DeepSeek, Gemini, Grok, and Le Chat) in Answering Item-Analyzed Multiple-Choice Questions on Blood Physiology",False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4409347397,MapExpert: Online HD Map Construction with Simple and Efficient Sparse Map Element Expert,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4409350346,"Sparse, Scalable, Specialized: The Role of Mixture of Experts in Modern LLMs",True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4409363008,Mixture of Experts as Representation Learner for Deep Multi-View Clustering,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4409363856,SMoSE: Sparse Mixture of Shallow Experts for Interpretable Reinforcement Learning in Continuous Control Tasks,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4409364385,Graph Mixture of Experts and Memory-augmented Routers for Multivariate Time Series Anomaly Detection,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4409366324,DeMo: Decoupled Feature-Based Mixture of Experts for Multi-Modal Object Re-Identification,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4409368496,PSReg: Prior-guided Sparse Mixture of Experts for Point Cloud Registration,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4409573279,Enhancing Cybersecurity with Distributed Models and Sparse Mixture of Experts,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4409591707,DeepSeek Versus GPT: Evaluation of Large Language Model Chatbots’ Responses on Orofacial Clefts,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4409598799,AI competition and firm value: Evidence from DeepSeek’s disruption,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4409670839,Hierarchical Time-Aware Mixture of Experts for Multi-Modal Sequential Recommendation,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4409671571,Modality Interactive Mixture-of-Experts for Fake News Detection,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4409695426,Benchmark evaluation of DeepSeek large language models in clinical decision-making,False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4409695450,Comparative benchmarking of the DeepSeek large language model on medical tasks and clinical reasoning,False,application_outside_architecture_scope,False,deepseek
+https://openalex.org/W4409748472,Performance of GPT-4o and DeepSeek-R1 in the Polish Infectious Diseases Specialty Exam,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4409752444,DeepSeek Deployed in 90 Chinese Tertiary Hospitals: How Artificial Intelligence Is Transforming Clinical Practice,False,application_outside_architecture_scope,False,deepseek
+https://openalex.org/W4409814635,Can deepseek and ChatGPT be used in the diagnosis of oral pathologies?,False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4409884417,DeepSeek’s “Low-Cost” Adoption Across China’s Hospital Systems,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4409917476,Sparse Mixture-of-Experts for Non-Uniform Noise Reduction in MRI Images,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4410090311,Federated weakly-supervised video anomaly detection with mixture of local-to-global experts,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W4410104997,Evaluating advanced AI reasoning models: ChatGPT-4.0 and DeepSeek-R1 diagnostic performance in otolaryngology: a comparative analysis,False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4410215944,Sparse mixture of experts for acoustic vector DOA estimation in hybrid noise environments,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4410233043,"DeepSeek-R1 outperforms Gemini 2.0 Pro, OpenAI o1, and o3-mini in bilingual complex ophthalmology reasoning",False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4410331119,DeepSeek vs ChatGPT: a comparison study of their performance in answering prostate cancer radiotherapy questions in multiple languages,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4410394431,"Exploring DeepSeek: A Survey on Advances, Applications, Challenges and Future Directions",False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4410427444,DeepSeek: Paradigm Shifts and Technical Evolution in Large AI Models,True,MoE_and_language_or_transformer_terms,True,deepseek
+https://openalex.org/W4410458143,Continual learning for unknown domain fault diagnosis in rotating machinery via Diffusion-Integrated Dynamic Mixture Experts,False,application_outside_architecture_scope,False,mixture_cited
+https://openalex.org/W4410612872,"Comparing the performance of ChatGPT 4o, DeepSeek R1, and Gemini 2 Pro in answering fixed prosthodontics questions over time",False,insufficient_topic_evidence,False,deepseek
+https://openalex.org/W4410915681,"Comparative evaluation of responses from DeepSeek-R1, ChatGPT-o1, ChatGPT-4, and dental GPT chatbots to patient inquiries about dental and maxillofacial prostheses",False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4410936371,"Evaluating DeepResearch and DeepThink in anterior cruciate ligament surgery patient education: ChatGPT‐4o excels in comprehensiveness, DeepSeek R1 leads in clarity and readability of orthopaedic information",False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4411004403,Performance of DeepSeek-R1 and ChatGPT-4o on the Chinese National Medical Licensing Examination: A Comparative Study,False,application_outside_architecture_scope,False,deepseek
+https://openalex.org/W4411120585,MoEMoE: Question Guided Dense and Scalable Sparse Mixture-of-Expert for Multi-source Multi-modal Answering,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4411157972,CAG-MoE: Multimodal Emotion Recognition with Cross-Attention Gated Mixture of Experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4411196709,SFUDNet: Underwater object detection via spatial-frequency domain modulation with mixture of experts,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W4411218570,Evaluating Artificial Intelligence in Patient Education: DeepSeek ‐ V3 Versus ChatGPT ‐4o in Answering Common Questions on Laparoscopic Cholecystectomy,False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4411231027,DeepSeek-R1 and GPT-4 are comparable in a complex diagnostic challenge: a historical control study,False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4411333242,ChatGPT versus DeepSeek in head and neck cancer staging and treatment planning: guideline-based study,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4411394707,Medical reasoning in LLMs: an in-depth analysis of DeepSeek R1,False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4411394954,Plant disease classification in the wild using vision transformers and mixture of experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4411460855,Assessing the reliability and relevance of DeepSeek in EFL writing evaluation: a generalizability theory approach,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4411463172,DeepSeek vs. ChatGPT: prospects and challenges,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4411486231,Insights into DeepSeek-V3: Scaling Challenges and Reflections on Hardware for AI Architectures,True,MoE_and_language_or_transformer_terms,True,deepseek
+https://openalex.org/W4411550938,Exploring and Enhancing Advanced MoE Models: From Deepspeed-MoE to DeepSeek-V3,True,MoE_and_language_or_transformer_terms,True,deepspeed
+https://openalex.org/W4411580557,DeepSeek-assisted LI-RADS classification: AI-driven precision in hepatocellular carcinoma diagnosis,False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4411792008,"Exploring the role of DeepSeek-R1, ChatGPT-4, and Google Gemini in medical education: How valid and reliable are they?",False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4411856062,"A comparative analysis of DeepSeek R1, DeepSeek-R1-Lite, OpenAi o1 Pro, and Grok 3 performance on ophthalmology board-style questions",False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4411864997,Sparse Mixture‑of‑Experts Transformer Performance for Initial MRI Alzheimer's Detection (Preprint),False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4411904494,Diagnostic Performance of ChatGPT‐4o and DeepSeek‐3 Differential Diagnosis of Complex Oral Lesions: A Multimodal Imaging and Case Difficulty Analysis,False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4412047077,ChatGPT-4.0 and DeepSeek-R1 does not yet provide clinically supported answers for knee osteoarthritis,False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4412088642,"Comparative analysis of the performance of the large language models DeepSeek-V3, DeepSeek-R1, open AI-O3 mini and open AI-O3 mini high in urology",False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4412201666,"Performance of Advanced Artificial Intelligence Models in Traumatic Dental Injuries in Primary Dentition: A Comparative Evaluation of ChatGPT-4 Omni, DeepSeek, Gemini Advanced, and Claude 3.7 in Terms of Accuracy, Completeness, Response Time, and Readability",False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4412413253,"Infrastructure Economics of Sparse Mixture-of-Experts in Cloud-Native NLP: Benchmarking Cost, Accuracy, and Performance",True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4412488953,A DeepSeek-powered locally deployed closed-loop system for enhancing quality control in electronic nursing documentation: development and clinical validation,False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4412567246,Long Short-Term Financial Time Series Forecasting Based on Residual Multiscale TCN Sparse Expert Network and Informer,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4412583712,Battle of the artificial intelligence: a comprehensive comparative analysis of DeepSeek and ChatGPT for urinary incontinence-related questions,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4412604178,Performance of DeepSeek-R1 in ophthalmology: an evaluation of clinical decision-making and cost-effectiveness,False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4412653595,"Who Knows Anatomy Best? A Comparative Study of ChatGPT ‐4o, DeepSeek , Gemini, and Claude",False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4412725690,"A multi-dimensional performance evaluation of large language models in dental implantology: comparison of ChatGPT, DeepSeek, Grok, Gemini and Qwen across diverse clinical scenarios",False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4412868340,"Speculative futures of education: utopian and dystopian scenarios envisioned by Chatgpt, Gemini, and Deepseek",False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4412888953,Diversifying the Expert Knowledge for Task-Agnostic Pruning in Sparse Mixture-of-Experts,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4412945078,Automatic Expert Discovery in LLM Upcycling via Sparse Interpolated Mixture-of-Experts,True,MoE_and_language_or_transformer_terms,True,sparse_experts;sparse_upcycling
+https://openalex.org/W4412988532,"Comparative evaluation of ChatGPT and DeepSeek across key NLP tasks: Strengths, weaknesses, and domain-specific performance",False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4413055579,Structured Report Generation for Breast Cancer Imaging Based on Large Language Modeling: A Comparative Analysis of GPT-4 and DeepSeek,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4413116746,Assessing the Role of Large Language Models Between ChatGPT and DeepSeek in Asthma Education for Bilingual Individuals: Comparative Study,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4413145206,SPMTrack: Spatio-Temporal Parameter-Efficient Fine-Tuning with Mixture of Experts for Scalable Visual Tracking,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4413145967,CL-MoE: Enhancing Multimodal Large Language Model with Dual Momentum Mixture-of-Experts for Continual Visual Question Answering,True,MoE_and_language_or_transformer_terms,True,mixture_cited
+https://openalex.org/W4413210148,LightCurve MoE: A Dynamic Sparse Routing Mixture-of-Experts Architecture for Efficient Stellar Light Curve Classification,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4413422755,"Performance of Advanced Artificial Intelligence Models in Pulp Therapy for Immature Permanent Teeth: A Comparison of ChatGPT-4 Omni, DeepSeek, and Gemini Advanced in Accuracy, Completeness, Response Time, and Readability",False,insufficient_topic_evidence,False,deepseek
+https://openalex.org/W4413446393,"Evaluation of deepseek, gemini, ChatGPT-4o, and perplexity in responding to salivary gland cancer",False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4413757113,MegaScale-Infer: Efficient Mixture-of-Experts Model Serving with Disaggregated Expert Parallelism,True,MoE_and_language_or_transformer_terms,True,mixture_cited
+https://openalex.org/W4413822025,MoE-FFD: Mixture of Experts for Generalized and Parameter-Efficient Face Forgery Detection,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4413848956,"Comparative evaluation of AI platforms “Google Gemini 2.5 Flash, Google Gemini 2.0 Flash, DeepSeek V3 and ChatGPT 4o” in solving multiple-choice questions from different subtopics of anatomy",False,insufficient_topic_evidence,False,deepseek
+https://openalex.org/W4413883386,"Performance of ChatGPT, Gemini and DeepSeek for non-critical triage support using real-world conversations in emergency department",False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4414131939,ViSMoE: Visual-Aware Sparse Mixture-of-Experts for Embodied Referring Expression Grounding,False,insufficient_topic_evidence,False,sparse_experts
+https://openalex.org/W4414281281,DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning,False,insufficient_topic_evidence,True,alias_batch_013;deepseek
+https://openalex.org/W4414304175,Mixture of experts (MoE): A big data perspective,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W4414360696,FairSMOE: Mitigating Multi-Attribute Fairness Problem with Sparse Mixture-of-Experts,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4414376111,AGE OF GRANITES OF THE KROPYVNYTSKO-BOBRYNETSKY MASSIF (INGUL MEGABLOCK OF THE UKRAINIAN SHIELD),False,insufficient_topic_evidence,True,megablocks
+https://openalex.org/W4414397517,Quality and Readability Analysis of Artificial Intelligence-Generated Medical Information Related to Prostate Cancer: A Cross-Sectional Study of ChatGPT and DeepSeek,False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4414404847,Zero-Shot Sparse Mixture of Low-Rank Experts Construction From Pre-Trained Foundation Models,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4414594256,Exploring Expert Specialization through Unsupervised Training in Sparse Mixture of Experts,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4414601490,Can large language models follow guidelines? A comparative study of ChatGPT-4o and DeepSeek AI in clavicle fracture management based on AAOS recommendations,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4414752316,Application of DeepSeek-assisted problem-based learning in hematology residency training,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4414769284,Improving Routing in Sparse Mixture of Experts with Graph of Tokens,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4414890866,FLoE: Fisher-Based Layer Selection for Efficient Sparse Adaptation of Low-Rank Experts,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4414900349,DeepSeek-Inspired Exploration of RL-Based LLMs and Synergy with Wireless Networks: A Survey,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4415014409,Distilled large language model-driven dynamic sparse expert activation mechanism,True,MoE_and_language_or_transformer_terms,False,sparse_experts
+https://openalex.org/W4415065327,"Comparative analysis based on DeepSeek, ChatGPT, and Google Gemini: Features, techniques, performance, future prospects",False,scope_audit: General comparison of chatbot products rather than a sparse architecture or system.,True,deepseek
+https://openalex.org/W4415095228,MambaMoE: Mixture-of-spectral-spatial-experts state space model for hyperspectral image classification,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W4415267925,Sparse-MoE: Syntax-Aware Multi-view Mixture of Experts for Long-Sequence Software Vulnerability Detection,False,insufficient_topic_evidence,False,sparse_experts
+https://openalex.org/W4415336588,One-Prompt Strikes Back: Sparse Mixture of Experts for Prompt-based Continual Learning,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4415338603,More In Less: Dynamic Sparse Attention andMixture-of-Experts for Iterative Vision Reasoning,False,insufficient_topic_evidence,False,sparse_experts
+https://openalex.org/W4415433585,A-SMiLE: Affective Sparse Mixture-of-Experts Adapter with Multi-Task Learning for Spoken Dialogue Models,False,insufficient_topic_evidence,False,sparse_experts
+https://openalex.org/W4415594223,Space-Mate: A 303.5-mW Real-Time Sparse Mixture-of-Experts-Based NeRF-SLAM Processor for Mobile Spatial Computing,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4415796026,MoVA: Adapting Mixture of Vision Experts to Multimodal Context,True,MoE_and_language_or_transformer_terms,True,mixture_cited
+https://openalex.org/W4415796399,Flex-MoE: Modeling Arbitrary Modality Combination via the Flexible Mixture-of-Experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4415796600,Once Read is Enough: Domain-specific Pretraining-free Language Models with Cluster-guided Sparse Experts for Long-tail Domain Knowledge,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4415796971,ProxyFusion: Face Feature Aggregation Through Sparse Experts,False,insufficient_topic_evidence,False,sparse_experts
+https://openalex.org/W4415797268,FuseMoE: Mixture-of-Experts Transformers for Fleximodal Fusion,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4415797941,Exploiting Activation Sparsity with Dense to Dynamic-k Mixture-of-Experts Conversion,False,insufficient_topic_evidence,False,sparse_experts
+https://openalex.org/W4415798206,MomentumSMoE: Integrating Momentum into Sparse Mixture of Experts,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4415823172,"Evaluating the Readability and Quality of Bladder Cancer Information from AI Chatbots: A Comparative Study Between ChatGPT, Google Gemini, Grok, Claude and DeepSeek",False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4415949773,Expert Merging in Sparse Mixture of Experts with Nash Bargaining,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4415953277,Modeling Expert Interactions in Sparse Mixture of Experts via Graph Structures,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4415958678,ViMoE: An Empirical Study of Designing Vision Mixture-of-Experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W4416017526,Token-Fusion: A Sparse Expert Routing Method for Multi-task Data Matching,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4416019931,POEMS: Product of Experts for Interpretable Multi-omic Integration using Sparse Decoding,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4416034175,CLIP-UP: A Simple and Efficient Mixture-of-Experts CLIP Training Recipe with Sparse Upcycling,False,insufficient_topic_evidence,True,sparse_experts;sparse_upcycling
+https://openalex.org/W4416034341,"Dropping Experts, Recombining Neurons: Retraining-Free Pruning for Sparse Mixture-of-Experts LLMs",True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4416035879,"Bag of Tricks for Sparse Mixture-of-Experts: A Benchmark Across Reasoning, Efficiency, and Safety",True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4416044846,Drop-Upcycling: Training Sparse Mixture of Experts with Partial Re-initialization,False,insufficient_topic_evidence,True,sparse_experts;sparse_upcycling
+https://openalex.org/W4416045997,Pangu Pro MoE: Mixture of Grouped Experts for Efficient Sparsity,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4416156702,Beyond Redundancy: Diverse and Specialized Multi-Expert Sparse Autoencoder,False,scope_audit: Sparse autoencoder experts rather than conditional computation in a language model.,True,sparse_experts
+https://openalex.org/W4416203820,TT-LoRA MoE: Using Parameter-Efficient Fine-Tuning and Sparse Mixture-Of-Experts,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4416222729,Evaluating the Performance of DeepSeek-R1 and DeepSeek-V3 Versus OpenAI Models in the Chinese National Medical Licensing Examination: Cross-Sectional Comparative Study,False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4416235697,Selective Sinkhorn Routing for Improved Sparse Mixture of Experts,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4416260964,DRAMoE: Boosting Adversarial Robustness with Adversarial Training and Adaptive Mixture of Experts,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W4416261746,Hecto: Modular Sparse Experts for Adaptive and Interpretable Reasoning,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4416283406,Exploring Sparse Adapters for Scalable Merging of Parameter Efficient Experts,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4416290438,Mixture of Experts Enhanced Heterogeneous Graph Transformer,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W4416290728,Ant Colony Sampling with Mixture of Experts for Combinatorial Optimization,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W4416321905,Uncertainty Mixture of Experts Model for Long Tail Crop Type Mapping,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4416325878,Dynamic multi-scale deep learning with mixture of experts for differentiating iNPH and PSP using MRI,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W4416367231,Domain-Generalized Prognostics of Rotating Machinery via Multi-Task Foundation Model with Sparse Experts,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4416379557,Bidirectional Mamba network with multi-scale feature fusion and sparse-channel mixture of experts for battery state of charge estimation,False,insufficient_topic_evidence,False,mixture_recent;sparse_experts
+https://openalex.org/W4416389293,Cross-modal privacy-preserving synthesis and mixture-of-experts ensemble for robust ASD prediction,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4416421422,Personalized federated learning with mixture of experts and conformal prediction for household energy forecasting,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W4416513318,MoE-INR: Implicit Neural Representation with Mixture-of-Experts for Time-Varying Volumetric Data Compression,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4416531278,Mixture-of-Experts Transformers for Faithfully Deorbitalized Meta-GGA Density Functionals,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4416532856,How Do Shared Experts Dynamically Adapt to Routing Constraints in Mixture-of-Experts?,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W4416543101,Unsupervised SAM-guided mixture-of-multimodal-experts fusion network for medical image diagnosis,False,application_outside_architecture_scope,False,mixture_recent
+https://openalex.org/W4416548913,MegaBlocks: Breaking the Logarithmic I/O-Overhead Barrier for Oblivious RAM,False,insufficient_topic_evidence,True,megablocks
+https://openalex.org/W4416549316,MoEcho: Exploiting Side-Channel Attacks to Compromise User Privacy in Mixture-of-Experts LLMs,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W4416588934,YOLO Meets Mixture-of-Experts: Adaptive Expert Routing for Robust Object Detection,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4416598432,Sparse Mixture-of-Experts for Multi-Channel Imaging: Are All Channel Interactions Required?,False,insufficient_topic_evidence,True,mixture_recent;sparse_experts
+https://openalex.org/W4416605078,MoE-D2AN: a mixture-of-experts surrogate and dual-branch data assimilation network for spatiotemporal dam deformation modeling,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W4416631595,Mixture of experts-driven deep data mining for electrolyte additive design in zinc–iodine flow batteries,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W4416683961,MammoMix: Leveraging Mixture of Experts for Robust Mammogram Breast Detection,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W4416683989,Price Equilibrium Routing: A Lightweight Framework for Expert Selection in Mixture-of-Experts,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W4416690888,MDM-DTA: Message Passing Neural Network with molecular descriptors and Mixture of Experts for drug–target affinity prediction,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W4416692015,Addressing corner cases in autonomous driving: A world model-based approach with mixture of experts and LLMs,False,scope_audit: Driving world-model application rather than language-model architecture.,False,mixture_recent
+https://openalex.org/W4416707357,HybridMoE: LoRA-Based LLMs Fine-Tune With Hybrid Mixture of Experts,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W4416719054,Mixture-of-Experts Transformers for Faithfully Deorbitalized Meta-GGA Density Functionals,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4416728213,Sparse-Enhanced Dynamic Fusion Experts Network for Multi-Modal Object Detection,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4416746076,Smart CSWin-UNet: Integrating prototype attention gate and mixture-of-experts skip connections for medical image segmentation,False,application_outside_architecture_scope,False,mixture_recent
+https://openalex.org/W4416748560,Optimizing Generative AI Networking: A Dual Perspective With Multi-Agent Systems and Mixture of Experts,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4416784163,MLPMoE: Zero-Shot Architectural Metamorphosis of Dense LLM MLPs into Static Mixture-of-Experts,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W4416798076,Adaptive Momentum Mixture-of-Experts for Continual Visual Question Answering,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W4416798129,FLUXLog: A Federated Mixture-of-Experts Framework for Unified Log Anomaly Detection,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4416934729,Hamisfera: Sistem Rekomendasi Progresi Chord Berbasis Sentimen Lirik Melalui Studi Komparatif Arsitektur Transformer dan Mixture of Experts,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4416956407,Elastic Mixture of Rank-Wise Experts for Knowledge Reuse in Federated Fine-Tuning,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W4416959386,Efficient Training of Diffusion Mixture-of-Experts Models: A Practical Recipe,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W4416975453,MoE3D: Mixture of Experts meets Multi-Modal 3D Understanding,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4416997606,"Comparing Artificial Intelligence (ChatGPT, Gemini, DeepSeek) and Oral Surgeons in Detecting Clinically Relevant Drug–Drug Interactions in Dental Therapy",False,application_outside_architecture_scope,True,deepseek
+https://openalex.org/W4416999557,Ada-MoGE: Adaptive Mixture of Gaussian Expert Model for Time Series Forecasting,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4417001730,Fuzzy Mixture-of-Experts Aggregation for Organoid Identification With Multiscale State Space Features,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4417006825,SkyMoE: A Vision-Language Foundation Model for Enhancing Geospatial Interpretation with Mixture of Experts,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W4417006854,DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4417054053,Sparse Combination of Mixture of Experts: An Optimized Text Classification Approach for Natural Language Processing,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4417068622,S2MoE: Robust Sparse Mixture of Experts via Stochastic Learning,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4417073213,Mixture of Group Experts for Learning Invariant Representations,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W4417073365,Uni-IL: Unified Incremental Learning of Vision-Language Models via Mixture of Attribute-Guided Experts,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W4417080420,GLAM: Efficient Continual Learning at Scale via Grouped LoRA Adapter Merging,False,insufficient_topic_evidence,True,glam
+https://openalex.org/W4417086284,"Explainable Sentiment Analysis With DeepSeek-R1: Performance, Efficiency, and Few-Shot Learning",False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W4417089127,Dense Backpropagation Improves Training for Sparse Mixture-of-Experts,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W4417094349,"MoE-CAP: Benchmarking Cost, Accuracy and Performance of Sparse Mixture-of-Experts Systems",True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W4417122478,AcidProNet: Acidophilic Protein Classification via DCGAN-GP-Based Data Augmentation and Parameter-Shared Mixture-of-Experts Transformer,False,scope_audit: Protein classification; natural language is background motivation.,True,mixture_recent
+https://openalex.org/W4417130747,Mixture of Experts for Decentralized Generative AI and Reinforcement Learning in Wireless Networks: A Comprehensive Survey,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W4417143276,HiMoE-VLA: Hierarchical Mixture-of-Experts for Generalist Vision-Language-Action Policies,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W4417147748,Multivariate variational mode decomposition combined with discrete Fourier transform and lightweight Mixture-of-Experts models for predicting multivariate time series with strong volatility,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W4417158195,Towards Digital Twins in Prostate Cancer: A Mixture-of-Experts Framework for Multitask Prognostics in Hospital Admissions,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4417201569,State-Dependent Neural Decoding of Complex Handwriting via Mixture of Experts With Recurrent Routing,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4417201791,Mixture of Cluster-Guided Experts for Retrieval-Augmented Label Placement,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4417220214,MoE-Aquatic: research on a mixture-of-experts for cross-lingual entity alignment method in aquaculture,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W4417225718,Bayesian-optimized hierarchical mixture of experts for steel corrosion-rate prediction in cementitious mortars,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4417246865,MoE-World: A Mixture-of-Experts Architecture for Multi-Task World Models,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4417261331,MCMoE: Completing Missing Modalities with Mixture of Experts for Incomplete Multimodal Action Quality Assessment,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4417266127,MSFMoE: A multi-scale frequency filtering network with mixture of experts for time series forecasting,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W4417284093,MoLEx: Mixture of Layer Experts for Finetuning with Sparse Upcycling,True,MoE_and_language_or_transformer_terms,True,sparse_experts;sparse_upcycling
+https://openalex.org/W4417287601,Cost efficient mixture of experts,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W4417292536,M3Net: A Multi-Metric Mixture of Experts Network Digital Twin with Graph Neural Networks,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4417305260,RingMoE: Mixture-of-Modality-Experts Multi-Modal Foundation Models for Universal Remote Sensing Image Interpretation,False,insufficient_topic_evidence,True,mixture_cited;mixture_recent
+https://openalex.org/W4417309779,Architectural Diversity in Mixture of Experts: A Comparative Study,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4417313032,Fine-tuning CLIP with mixture of experts and cross-modal alignment via contrastive learning for multimodal sentiment analysis,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W4417337016,SAM Translator: Self-Paced Learning And Mixture-of-Experts for Cross-Lingual Text-to-Speech Translation,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W4417413219,EPMORE: Explainable Process Mixture-of-Experts,False,scope_audit: Process modelling outside the selected language-model scope.,True,mixture_recent
+https://openalex.org/W4417421834,Mixture of checkpoint experts for explainable seizure detection using wearable devices,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4417422768,The Rise of Sparse Mixture-of-Experts: A Survey from Algorithmic Foundations to Decentralized Architectures and Vertical Domain Applications,False,scope_audit: Metadata year conflicts with primary source arXiv:2602.08019 (2026); outside 2017-2025 window.,True,mixture_recent;sparse_experts
+https://openalex.org/W4417438447,PRISM-Occ: Path-Routed Integrated Sparse Mixture-of-Experts for Multi-Modal BEV Occupancy Prediction,False,insufficient_topic_evidence,True,mixture_recent;sparse_experts
+https://openalex.org/W4417438926,LiteDenseMoE: An Explainable Lightweight Densely Connected Mixture-of-Experts Network for Aerial Scene Recognition in Low Contrast Remote Sensing Images,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4417439990,DiffMoE-UNet: A differential transformer with Mixture-of-Experts for accurate medical image segmentation,False,application_outside_architecture_scope,False,mixture_recent
+https://openalex.org/W4417447158,Distributionally-Robust Gradient Routing: A Bilevel Sparse Optimization Problem for Compute-Aware Mixture-of-Experts Training,False,insufficient_topic_evidence,True,mixture_recent;sparse_experts
+https://openalex.org/W4417466532,Degradation-Aware Mixture-of-Experts for Real-World Image Super-Resolution,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W4417470016,Fusion of Mixture of Experts and Generative Artificial Intelligence in Mobile Edge Metaverse,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4417470553,MoEGAD: A Mixture-of-Experts Framework With Pseudo-Anomaly Generation for Graph-Level Anomaly Detection,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4417471602,Optimizing Mixture-of-Experts Inference Time via Model Deployment and Communication Scheduling,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4417491017,A Survey on Accelerated Technologies for Mixture-of-Experts Model Training Systems,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W4417525765,Mixture of Sparse Attention: Content-Based Learnable Sparse Attention via Expert-Choice Routing,True,MoE_and_language_or_transformer_terms,True,routing;sparse_experts
+https://openalex.org/W4417530298,PoseMoE: Mixture-of-Experts Network for Monocular 3D Human Pose Estimation,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W4417530573,SNAKE: A sustainable and multi-functional traffic analysis system utilizing specialized large-scale models with a mixture of experts architecture,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W7104651683,PuzzleMoE: Efficient Compression of Large Mixture-of-Experts Models via Sparse Expert Merging and Bit-packed inference,True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W7105854612,DiffMoECom: Diffusion Mixture of Experts for Channel-Adaptive Semantic Image Communications,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7106132537,MoMoE: A Mixture of Expert Agent Model for Financial Sentiment Analysis,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7106155626,SMGeo: Cross-View Object Geo-Localization with Grid-Level Mixture-of-Experts,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7106266829,Dynamic Expert Quantization for Scalable Mixture-of-Experts Inference,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W7106330638,MoDES: Accelerating Mixture-of-Experts Multimodal Large Language Models via Dynamic Expert Skipping,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W7106648447,Generalizable and Efficient Automated Scoring with a Knowledge-Distilled Multi-Task Mixture-of-Experts,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7106673403,OrdMoE: Preference Alignment via Hierarchical Expert Group Ranking in Multimodal Mixture-of-Experts LLMs,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W7106680726,Dynamic Mixture of Experts Against Severe Distribution Shifts,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7106696798,Unified Class and Domain Incremental Learning with Mixture of Experts for Indoor Localization,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7106698664,AnyExperts: On-Demand Expert Allocation for Multimodal Language Models with Mixture of Expert,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W7106795566,DeepDESmelt: A Composition-Aware Mixture-of-Experts Model for Melting Point Prediction of Deep Eutectic Solvents,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7106798325,CLIP-UP: A Simple and Efficient Mixture-of-Experts CLIP Training Recipe with Sparse Upcycling,False,insufficient_topic_evidence,True,sparse_experts;sparse_upcycling
+https://openalex.org/W7106801895,Mosaic Pruning: A Hierarchical Framework for Generalizable Pruning of Mixture-of-Experts Models,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W7106816842,"Bag of Tricks for Sparse Mixture-of-Experts: A Benchmark Across Reasoning, Efficiency, and Safety",True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W7106828944,"Dropping Experts, Recombining Neurons: Retraining-Free Pruning for Sparse Mixture-of-Experts LLMs",True,MoE_and_language_or_transformer_terms,True,sparse_experts
+https://openalex.org/W7106834995,History-Augmented Contrastive Learning With Soft Mixture of Experts for Blind Super-Resolution of Planetary Remote Sensing Images,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7108077938,Architectural Diversity in Mixture of Experts: A Comparative Study,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W7108079302,"Datasets for ""Tray Expert: Generative AI learns tray column hydrodynamics from sparse data for cross-tray modeling""",False,insufficient_topic_evidence,False,sparse_experts
+https://openalex.org/W7108080809,"Datesets for ""Tray Expert: Generative AI learns tray column hydrodynamics from sparse data for cross-tray modeling""",False,insufficient_topic_evidence,False,sparse_experts
+https://openalex.org/W7108221443,"They are fake and faulty, abusing UK's systems. Media manipulation and Muslims' manipulation. Moe evils I came to know of: have been doing as their evil natured beings as they are, been doing evil against me as against UK. . Sabine Ali Pakistani family in St Barnard rd B90 been evil as she was for decade.",False,insufficient_topic_evidence,False,stmoe
+https://openalex.org/W7108611776,Emergent Routing for Dynamic Expert Specialization in Scalable Mixture of Experts,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7108632724,Scaling Laws for Mixture-of-Experts: Emergence of Specialization and Routing Efficiency in Deep Learning,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7108639814,Beyond Sparsity: Rethinking Mixture of Experts for Robust Generalization,False,insufficient_topic_evidence,True,mixture_recent;sparse_experts
+https://openalex.org/W7108915128,Neural Expert Orchestration: Dynamic Specialization and Load Balancing for Scalable Mixture-of-Experts,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7108959160,Context-Aware Mixture-of-Experts Inference on CXL-Enabled GPU-NDP Systems,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W7109177304,Contextual Expert Discovery: Dynamic Specialization and Robust Routing in Mixture-of-Experts,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7109538232,Multi-Regime CFD Surrogate Modeling Using Mixture-of-Experts (MoE): A Unified Framework for Complex Aerodynamic Regimes,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7110039740,Shift Happens: Mixture of Experts based Continual Adaptation in Federated Learning,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7110824539,MIDG: Mixture of Invariant Experts with knowledge injection for Domain Generalization in Multimodal Sentiment Analysis,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7110946202,Stable-MoE: Lyapunov-based Token Routing for Distributed Mixture-of-Experts Training over Edge Networks,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7110988844,Enhancing Medical Cross-Modal Hashing Retrieval using Dropout-Voting Mixture-of-Experts Fusion,False,application_outside_architecture_scope,True,mixture_recent
+https://openalex.org/W7111030984,Probabilistic Regime-Aware Mixture-of-Experts for Convective Precipitation Forecasting in Thailand,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7111397987,TrajMoE: Scene-Adaptive Trajectory Planning with Mixture of Experts and Reinforcement Learning,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7113767252,On the Role of Discrete Representation in Sparse Mixture of Experts,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W7114794062,What really matters for person re-identification? A Mixture-of-Experts Framework for Semantic Attribute Importance,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7114813218,"Ask, Answer, and Detect: Role-Playing LLMs for Personality Detection with Question-Conditioned Mixture-of-Experts",True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W7114889503,Mixture of Lookup Key-Value Experts,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W7114910048,TIDES: Traffic Intelligence With DeepSeek-Enhanced Spatial–Temporal Prediction,False,insufficient_topic_evidence,True,deepseek
+https://openalex.org/W7114917725,Human Mobility Prediction via Sparse Mixture-of-Experts and Hybrid Multi-Scale Encoding,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W7114921895,IPKE-MoE: Mixture-of-Experts with Iterative Prompts and Knowledge-Enhanced LLM for Chinese Sensitive Words Detection,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W7114993799,ПРИМЕНЕНИЕ И ОПТИМИЗАЦИЯ АРХИТЕКТУРЫ MIXTURE OF EXPERTS (MOE) ДЛЯ РАЗЛИЧНЫХ ЗАДАЧ,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W7115026304,GateBreaker: Gate-Guided Attacks on Mixture-of-Expert LLMs,True,MoE_and_language_or_transformer_terms,False,mixture_recent
+https://openalex.org/W7115064010,A mixture of experts model for shallow crustal earthquake ground motion prediction in Japan,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W7115073479,Expert Count as a Structural Constant in Mixture-of-Experts Latency Scaling,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7115932449,Dual Routing Mixture-of-Experts for Multi-Scale Representation Learning in Multimodal Emotion Recognition,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7115940286,A multi-task mixture-of-experts CNN based on time-resolved LIBS for qualitative and quantitative collaborative analysis of milk powder adulteration,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W7116069576,MoGL: A mixture of heterogeneous experts for collaborative graph learning,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W7116091860,SocialNav-MoE: A Mixture-of-Experts Vision Language Model for Socially Compliant Navigation with Reinforcement Fine-Tuning,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W7116632709,DA-MoE: A Domain-Adaptive Mixture of Experts Framework with Reinforcement-Aware Optimization for Multi-Domain Image Dehazing and Object Recognition,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W7116666918,Convergence Rates for Softmax Gating Mixture of Experts,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7116666922,RSynLLM: A risk-aware routing mixture-of-experts large language model for multi-energy load forecasting in large-scale distribution networks,False,scope_audit: Energy load forecasting application.,False,mixture_recent
+https://openalex.org/W7116838534,Self-Referencing Digital Twin for Thermal and Task Management in Package Stacked ESP32-S3 Microcontrollers with Mixture-of-Experts and Neural Networks,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7116959745,Spatial Context-Aware Dynamic Fusion With Mixture-of-Experts for Wireless Localization,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7116972716,Bandwidth-Efficient Adaptive Mixture-of-Experts via Low-Rank Compensation,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7117103346,Attention-enhanced Gating for Mixture of Expert LLM,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W7117105899,Benchmarking the benchmarks: A mixture-of-experts model of heterogeneous reference points in laptop choice,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7117108127,Secret mixtures of experts inside your LLM,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W7117113998,Tempo as the Stable Cue: Hierarchical Mixture of Tempo and Beat Experts for Music to 3D Dance Generation,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7117137758,DEVELOPMENT OF AN AUTOMATION MODEL FOR A MEDICAL DIAGNOSTIC SYSTEM BASED ON THE MIXTURE OF EXPERTS (MOE) ARCHITECTURE,False,application_outside_architecture_scope,True,mixture_recent
+https://openalex.org/W7117141671,A Kolmogorov–Arnold-Network-centric mixture of experts transfer learning strategy for underwater target detection,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W7117243211,MoE-DiffuSeq: Enhancing Long-Document Diffusion Models with Sparse Attention and Mixture of Experts,True,MoE_and_language_or_transformer_terms,True,mixture_recent;sparse_experts
+https://openalex.org/W7117255874,Mixture-of-Experts with Gradient Conflict-Driven Subspace Topology Pruning for Emergent Modularity,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7117258161,How Many Experts Are Enough? Towards Optimal Semantic Specialization for Mixture-of-Experts,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7117295597,Characterizing heterogeneous atrophy patterns of Alzheimer's disease dementia with mixture‐of‐experts (MOE) for joint classification and clustering,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7117305111,A Day-Ahead Wind Power Dynamic Explainable Prediction Method Based on SHAP Analysis and Mixture of Experts,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7117305506,"Nemotron 3 Nano: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning",True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W7117311619,RevFFN: Memory-Efficient Full-Parameter Fine-Tuning of Mixture-of-Experts LLMs with Reversible Blocks,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W7117311629,GateBreaker: Gate-Guided Attacks on Mixture-of-Expert LLMs,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W7117319002,Divided We Fall: Defending Against Adversarial Attacks via Soft-Gated Fractional Mixture-of-Experts with Randomized Adversarial Training,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7117450792,SMOES: A Sparse Mixture of Experts System With Temporal Attention for Human-Like Car-Following Policy Learning in Vehicular Consumer Electronics,False,insufficient_topic_evidence,True,mixture_recent;sparse_experts
+https://openalex.org/W7117458621,Two-Step Pansharpening: A High-Frequency-Guided Spatial–Spectral Enhancement Network Based on Mixture of Experts,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7117466219,BuildFunc-MoE: An Adaptive Multimodal Mixture-of-Experts Network for Fine-Grained Building Function Identification,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7117488470,Uncertainty quantification for joint demand prediction of multi-modal ride-sourcing services using spatiotemporal Mixture-of-Expert neural network,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W7117532107,MMCTOP: A Multimodal Textualization and Mixture-of-Experts Framework for Clinical Trial Outcome Prediction,False,application_outside_architecture_scope,True,mixture_recent
+https://openalex.org/W7117532757,InstructMoLE: Instruction-Guided Mixture of Low-rank Experts for Multi-Conditional Image Generation,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7117561630,Taming Sparse Giants: Deploying Mixture-of-Experts on 3D Heterogeneous Compute-in-Memory Systems,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W7117578615,A novel robust mixture-of-experts model with causal priors for interpretable water quality diagnosis,False,application_outside_architecture_scope,False,mixture_recent
+https://openalex.org/W7117581105,Spatiotemporal-Untrammelled Mixture of Experts for Multi-Person Motion Prediction,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7117655689,"Single LLM Debate, MoLaCE: Mixture of Latent Concept Experts Against Confirmation Bias",False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7117673786,Sparse Mixture-of-Experts LLMs for Efficient ICD Code Prediction in Clinical Outcome Modeling,False,application_outside_architecture_scope,True,sparse_experts
+https://openalex.org/W7117685307,Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W7117711339,Hybrid Quantum-Classical Mixture of Experts: Unlocking Topological Advantage via Interference-Based Routing,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7117715385,A Federated Recommendation System Framework Based on Variational Autoencoder With Mixture of Experts,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7117719783,FLEX-MoE: Federated Mixture-of-Experts with Load-balanced Expert Assignment for Edge Computing,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7117744027,IoT Network Security Threat Detection Algorithm Integrating Symmetric Routing and a Sparse Mixture-of-Experts Model,False,insufficient_topic_evidence,True,mixture_recent;sparse_experts
+https://openalex.org/W7117780235,CL-ViME: Contrastive Learning and Vision Mixture of Experts for Encrypted Traffic Classification,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7117786643,Spatially Gated Mixture of Experts for Missing Data Imputation in Pavement Management Systems,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7117787973,Text-Routed Sparse Mixture-of-Experts Model with Explanation and Temporal Alignment for Multi-Modal Sentiment Analysis,True,MoE_and_language_or_transformer_terms,True,mixture_recent;sparse_experts
+https://openalex.org/W7117897674,Gated transformer network for multivariate security patch identification with mixture-of-experts,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W7118005390,RepetitionCurse: Measuring and Understanding Router Imbalance in Mixture-of-Experts LLMs under DoS Stress,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W7118018016,RUL-QMoE: Multiple Non-crossing Quantile Mixture-of-Experts for Probabilistic Remaining Useful Life Predictions of Varying Battery Materials,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7118574348,Hierarchical Mixture-of-Experts for Multi-Task Sensor Analytics with Automatic Task Routing,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7118653790,Mixtral of Experts,True,named_architecture_or_system,False,mixtral
+https://openalex.org/W7118767378,Distillation-based Scenario-Adaptive Mixture-of-Experts for the Matching Stage of Multi-scenario Recommendation,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7123335098,Learning a Mixture of Experts Approximation of a Model Predictive Controller with Guarantees,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7124149196,An Efficient Online AlltoAll Scheduling Framework for Mixture-of-Experts,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7124179532,HAP: Hybrid Adaptive Parallelism for Efficient Mixture-of-Experts Inference,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7124844907,A Multi-Scale Temporal Mixture-of-Experts Framework for Dynamic Sluice Scheduling Recommendation,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7125613496,Early Detection of Chronic Heart Diseases Using Cross-Modal Tokenization and Sparse Mixture-of-Experts Fusion,False,insufficient_topic_evidence,False,sparse_experts
+https://openalex.org/W7125934283,Adaptive Aggregation of Medical Foundation Models for Computational Pathology via Mixture-of-Experts Framework,False,application_outside_architecture_scope,True,mixture_recent
+https://openalex.org/W7125972004,PASSMOPE: A Trawling Guessing Model Based on Mixture of Password Experts,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7126016193,Polyp-MoE: Modeling Temporal Consistency and Structural Priors via Mixture-of-Experts for Video Polyp Segmentation,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7126023820,Attention-Based Graph Net with Mixture of Experts for Emotion Recognition Under Sleep Deprivation,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7126032498,scMoE: Integrating Heterogeneous Single-Cell and Molecular Foundation Models Using a Mixture-of-Experts Framework,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7126069120,A Mixture-of-Expert Model for Cross-Subject Motor Imagery Decoding,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7126069871,DALE: Semantically Disentangled LoRA Expert Mixture for Depression Detection in Psychiatric Dialogue,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7126072864,Improving Cancer Gene Identification via Mixture-of-Experts-Based Graph Representation Learning,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7126078058,GastroHMOE: A Scalable Heterogeneous Mixture of Experts Framework for Gastrointestinal Endoscopy Diagnosis,False,application_outside_architecture_scope,True,mixture_recent
+https://openalex.org/W7126078299,SHMoAReg: Spark Deformable Image Registration via Spatial Heterogeneous Mixture of Experts and Attention Heads,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7126175485,A Survey of DeepSeek Models,True,MoE_and_language_or_transformer_terms,True,deepseek
+https://openalex.org/W7129601941,Context-Aware Short-Term Solar PV Power Forecasting using Seasonal Mixture of Experts,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7130314283,MossNet: Mixture of State-Space Experts is a Multi-Head Attention,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W7130377356,TaCL-CoMoE: Task-adaptive Contrastive Learning with Cooperative Mixture of Experts for Multi-task Social Media Analysis,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W7131081452,Robust Experts: the Effect of Adversarial Training on CNNs with Sparse Mixture-of-Experts Layers,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W7131105311,Mixture of Experts on Fused Representations in VQA: Comparing Vision and Language Encoders for the Visually Impaired,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7131251314,MOEVIL: Poisoning Experts to Compromise the Safety of Mixture-of-Experts LLMs,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W7131334071,Hyperbolic-Enhanced Mixture-of-Experts Mamba for Sequential Recommendation,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7131639508,Soft-Masked Mixture of Experts for Point-Cloud Denoising,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7131853768,Accelerating Cross-Spine AllToAll Communication via Bandwidth-Adaptive Allocation across Multiple Paths for Mixture-of-Expert Model Training,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7131859976,Semantic-Syntactic Feature Fusion via Mixture of Experts for Code Smell Detection,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7133187299,VLMo: Unified Vision-Language Pre-Training with Mixture-Of-Modality-Experts,True,MoE_and_language_or_transformer_terms,True,mixture_cited
+https://openalex.org/W7133193424,On the Representation Collapse of Sparse Mixture of Experts,False,insufficient_topic_evidence,False,mixture_cited;sparse_experts
+https://openalex.org/W7133194400,Meta-DMoE: Adapting to Domain Shift by Meta-Distillation from Mixture-Of-Experts,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W7133198209,Mixture-Of-Experts with Expert Choice Routing,True,named_architecture_or_system,True,mixture_cited;routing
+https://openalex.org/W7133200090,M3ViT: Mixture-Of-Experts Vision Transformer for Efficient Multi-Task Learning with Model-Accelerator Co-Design,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W7133227004,Multimodal Contrastive Learning with LIMoE: The Language-Image Mixture of Experts,False,insufficient_topic_evidence,True,alias_batch_014;mixture_cited
+https://openalex.org/W7133237023,Towards Understanding the Mixture-Of-Experts Layer in Deep Learning,False,insufficient_topic_evidence,False,mixture_cited
+https://openalex.org/W7133237890,Graph Mixture of Experts: Learning on Large-Scale Graphs with Explicit Diversity Modeling,False,insufficient_topic_evidence,True,mixture_cited
+https://openalex.org/W7133740958,Moe-Tsqformer: Dynamic Context-Aware Query Generation for Multi-Label Animal Behavior Recognition Via Mixture of Experts,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7134174937,iTransformer-LSTM-MoE: A Dual-Branch Mixture-of-Experts Framework for Disk Failure Prediction,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W7134183775,Dynamic Reasoning Chains Through Depth-Specialized Mixture-of-Experts in Transformer Architectures,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W7134186586,Mitigating Negative Transfer in Continual Test-Time Adaptation Via Orthogonal Dual-Path Mixture of LoRa Experts,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W7134189531,Mixture-of-Experts Liquid Financial Mamba Framework for Portfolio Management Based on Deep Reinforcement Learning,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W7134189568,Text-Guided Sparse Mixture of Experts for Degradation-Robust Multi-Modal Image Fusion,False,insufficient_topic_evidence,False,mixture_recent;sparse_experts
+https://openalex.org/W7134198129,Scalable Task-Oriented Dialogue Systems with Mixture of Experts and Offline Reinforcement Learning,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W7137387917,Cubicpower Agentic Mixture of Experts(AMoE) Framework for Fine-Tuning NLP Tasks Without GPUs,False,scope_audit: Agent framework; not evidence of token-level sparse expert architecture.,True,mixture_recent
+https://openalex.org/W7138927996,LIF-MoE: A Learned Inactive Feature Mixture-of-Experts Critic for Multi-Agent Reinforcement Learning in UAV Swarms,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7139125815,A Runtime- and Cost-Efficient Approach of Deploying Mixture-of-Experts in Edge Networks,True,MoE_and_language_or_transformer_terms,True,mixture_recent
+https://openalex.org/W7140458461,Heterogeneous Mixture-of-Experts with Cooperative Routing for Text-Based Person Search,False,scope_audit: Text-based person retrieval; outside language generation/understanding model scope.,True,mixture_recent
+https://openalex.org/W7140668272,A Mixture-of-Experts and Dual Grid Labeling Based Graph Pairwise Network for Event Causality Extraction,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7143423165,"Architeture hybride d'daptation dynamique des processus de e-learning personnalisé par l'intelligence artificielle: intégration de Mamba, Mixture of Experts, ANFIS",False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W7146439299,Mixture of Small-data Deep-Learning Experts for AI-Aided Diagnosis with Medical Images,False,application_outside_architecture_scope,False,mixture_recent
+https://openalex.org/W7148398150,Omni-Router: Sharing Routing Decisions in Sparse Mixture-of-Experts for Speech Recognition,True,MoE_and_language_or_transformer_terms,True,mixture_recent;sparse_experts
+https://openalex.org/W7148457049,MoLEx: Mixture of LoRA Experts in Speech Self-Supervised Models for Audio Deepfake Detection,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7148616550,Attention-based Mixture of Experts for Robust Speech Deepfake Detection,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7154506036,MoE-HARNet: A Multimodal Mixture-of-Experts Network for Robust Smartphone Behavior Recognition in Complex Indoor Scenarios,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7159798472,“Dynamic Mixture -of -Experts Models for Personalized Financial Advisory : Optimizing Resource Allocation in Robo-Advisors ”,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7160307275,Mixture of Sparse Attention for Learnable Fine Grained Sparse Attention with Expert Choice Routing,False,insufficient_topic_evidence,True,routing;sparse_experts
+https://openalex.org/W7160955744,Ontology-Driven AI Agent Collaboration for Smart Healthcare: Integrating Model Context Protocol with Mixture of Experts,False,application_outside_architecture_scope,False,mixture_recent
+https://openalex.org/W7161061914,Neo-antigen prediction using Mixture of Experts for HLA-peptides interactions with multi-factors incorporated,False,insufficient_topic_evidence,False,mixture_recent
+https://openalex.org/W7162423569,Medvlmoe: sparse mixture of experts vision language model for multi-pathology medical image diagnosis,False,application_outside_architecture_scope,True,sparse_experts
+https://openalex.org/W7162502593,The Epistemic support-point filter (ESPF) and possibilistic hierarchical mixture of experts (PHME) : a bounded possibilistic framework for ordinal state estimation and anthropogenic space object characterization,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7165756366,A Deep Neural Network-Based Multi-Agent Mixture-of-Experts Framework for Generating AI Educational Content in Malagasy Language for Children (5–10),False,scope_audit: Educational content agent application rather than sparse language-model architecture.,True,mixture_recent
+https://openalex.org/W7167578332,pMoEFU: Class-Level Federated Unlearning with Personalized Mixture of Experts,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7167681611,MoE-RoadNet: A Mixture of Experts Framework for Enhanced Road Extraction from Satellite Imagery,False,insufficient_topic_evidence,True,mixture_recent
+https://openalex.org/W7214560061,Sparse Mixture-of-Experts Model for Turnover-Oriented Urban Curbside Parking Forecasting with Meter-Transaction and Camera-Event Fusion,False,insufficient_topic_evidence,True,sparse_experts
+https://openalex.org/W7223773893,Synthetic dataset for end-to-end Relation Extraction of relationships between Organisms and Natural-Products with Mixtral-8x7B-Instruct-v0.1,False,insufficient_topic_evidence,True,mixtral

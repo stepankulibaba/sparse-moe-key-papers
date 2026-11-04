@@ -1,0 +1,21 @@
+{
+  "selection_metric": "branching_descendants",
+  "beta": 0.5,
+  "final_papers": [
+    {
+      "id": "https://openalex.org/W2581624817"
+    },
+    {
+      "id": "https://openalex.org/W3119866685"
+    },
+    {
+      "id": "https://openalex.org/W3040573126"
+    },
+    {
+      "id": "https://openalex.org/W4200634402"
+    },
+    {
+      "id": "https://openalex.org/W7133198209"
+    }
+  ]
+}

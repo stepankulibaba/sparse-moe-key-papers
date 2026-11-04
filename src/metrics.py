@@ -1,0 +1,328 @@
+"""Охват U, разнообразие ветвей B, Katz и текстовый пилот R.
+
+U считает каждую достижимую цитирующую статью один раз. B уменьшает оценку,
+если весь охват сосредоточен в одной ветви. Katz считает все пути.
+R использует только сохранённые контексты с разметкой ассистента.
+"""
+
+import csv
+import json
+from collections import Counter, defaultdict
+
+import networkx as nx
+from scipy.stats import spearmanr
+
+from .storage import DATA, ROOT, TABLES, load_contexts, read_json, write_csv
+
+
+def influence(graph, beta=0.5):
+    """Посчитать U, B и Katz на графе без циклов.
+
+    Для каждой оцениваемой статьи идём против стрелок цитирования.
+    supports хранит прямые цитирующие статьи на кратчайших путях;
+    mass делит голос дальнего потомка поровну между этими ветвями.
+    """
+    if not 0 < beta < 1:
+        raise ValueError("beta must be in (0,1)")
+    if not nx.is_directed_acyclic_graph(graph):
+        raise ValueError("Katz path propagation requires the chronological DAG")
+    result = {}
+    katz = dict.fromkeys(graph, 0.0)
+    for u in nx.topological_sort(graph):
+        for v in graph.successors(u):
+            katz[v] += 1 + beta * katz[u]
+    reverse = graph.reverse(copy=False)
+    for v in sorted(graph):
+        distance = nx.single_source_shortest_path_length(reverse, v)
+        supports = {}
+        mass = defaultdict(float)
+        unique = 0.0
+        for u, d in sorted(distance.items(), key=lambda x: (x[1], x[0])):
+            if d == 0:
+                continue
+            if d == 1:
+                supports[u] = {u}
+            else:
+                supports[u] = set().union(
+                    *(
+                        supports[t]
+                        for t in graph.successors(u)
+                        if distance.get(t) == d - 1
+                    )
+                )
+            weight = beta ** (d - 1)
+            unique += weight
+            for first_branch in supports[u]:
+                mass[first_branch] += weight / len(supports[u])
+        concentration = sum((m / unique) ** 2 for m in mass.values()) if unique else 0.0
+        diverse = unique * (1 - concentration) if unique else 0.0
+        result[v] = {
+            "unique_descendants": unique,
+            "branching_descendants": max(0.0, diverse),
+            "effective_branches": 1 / concentration if concentration else 0.0,
+            "katz_paths": katz[v],
+            "direct_children": graph.in_degree(v),
+            "reachable_descendants": len(distance) - 1,
+            "largest_branch_mass": max(mass.values(), default=0.0),
+        }
+        assert abs(sum(mass.values()) - unique) < 1e-8
+        assert -1e-10 <= diverse <= unique + 1e-10
+        assert katz[v] + 1e-9 >= unique
+    return result
+
+
+def build_structural_scores():
+    """Исключить рёбра против хронологии и сравнить три структурные оценки."""
+    papers = json.loads((TABLES / "papers.json").read_text(encoding="utf-8"))
+    by_id = {p["id"]: p for p in papers}
+    graph = nx.DiGraph()
+    graph.add_nodes_from(by_id)
+    removed = []
+    with (TABLES / "edges.csv").open(encoding="utf-8-sig", newline="") as f:
+        for e in csv.DictReader(f):
+            u, v = e["citing"], e["cited"]
+            if by_id[u]["date"] < by_id[v]["date"]:
+                removed.append(e)
+            else:
+                graph.add_edge(u, v)
+    assert nx.is_directed_acyclic_graph(graph)
+    base = influence(graph)
+    rows = []
+    for p in papers:
+        rows.append(
+            {
+                k: p[k]
+                for k in [
+                    "id",
+                    "title",
+                    "year",
+                    "global_citations",
+                    "local_citations",
+                    "pagerank",
+                    "rank_global_citations",
+                    "rank_local_citations",
+                    "rank_pagerank",
+                ]
+            }
+            | base[p["id"]]
+        )
+    metrics = ["unique_descendants", "branching_descendants", "katz_paths"]
+    for metric in metrics:
+        for i, r in enumerate(sorted(rows, key=lambda r: (-r[metric], r["id"])), 1):
+            r["rank_" + metric] = i
+    sensitivity = []
+    for beta in [0.25, 0.5, 0.75]:
+        variant = influence(graph, beta)
+        for metric in metrics:
+            top = sorted(graph, key=lambda u: (-variant[u][metric], u))[:5]
+            base_top = sorted(graph, key=lambda u: (-base[u][metric], u))[:5]
+            sensitivity.append(
+                {
+                    "beta": beta,
+                    "metric": metric,
+                    "top5_ids": top,
+                    "top5_overlap_with_beta_half": len(set(top) & set(base_top)),
+                }
+            )
+    correlations = {}
+    for metric in metrics:
+        correlations[metric] = {
+            comparison: float(
+                spearmanr(
+                    [r[metric] for r in rows], [r[comparison] for r in rows]
+                ).statistic
+            )
+            for comparison in ["local_citations", "pagerank"]
+        }
+    summary = {
+        "status": "calculated_structural_proxies_not_verified_reuse",
+        "vertices": len(graph),
+        "chronological_edges": len(graph.edges),
+        "removed_date_anomaly_edges": len(removed),
+        "beta": 0.5,
+        "correlations": correlations,
+        "sensitivity": sensitivity,
+        "top10": {
+            metric: [
+                r["id"] for r in sorted(rows, key=lambda r: r["rank_" + metric])[:10]
+            ]
+            for metric in metrics
+        },
+        "definitions": {
+            "unique_descendants": "U_beta(v)=sum_{u: d(u,v)>=1} beta^(d(u,v)-1); each reachable citing paper counted once at shortest distance.",
+            "branching_descendants": "B_beta(v)=U_beta(v)*(1-sum_b p_b^2), p_b=M_b/U; allocate each unique descendant vote equally over first-generation branches lying on shortest paths.",
+            "katz_paths": "K_beta(v)=sum_{paths ending at v, length>=1} beta^(length-1); finite on chronological DAG. Standard comparator, not claimed original.",
+        },
+        "limitations": [
+            "Citation paths do not establish idea inheritance.",
+            "B deliberately discounts one concentrated lineage, including important breakthroughs spread through one successor.",
+            "Missing links and corpus selection affect all reachability measures.",
+            "Paper branches are not independently verified research teams.",
+            "No AI-authorship inference or stylistic penalty is used.",
+        ],
+    }
+    write_csv(
+        TABLES / "custom_rankings.csv",
+        sorted(rows, key=lambda r: r["rank_branching_descendants"]),
+    )
+    (TABLES / "custom_rankings.json").write_text(
+        json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    (ROOT / "output/custom_metrics_summary.json").write_text(
+        json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    nx.write_graphml(graph, ROOT / "output/chronological_graph.graphml")
+    for metric in metrics:
+        print("\n" + metric)
+        for r in sorted(rows, key=lambda r: r["rank_" + metric])[:8]:
+            print(r["rank_" + metric], round(r[metric], 3), r["title"])
+
+
+def build_semantic_scores():
+    """Суммировать разметку по парам статей, учитывая сильнейший контекст пары."""
+    contexts = load_contexts()
+    by_context = {r["context_id"]: r for r in contexts}
+    config = read_json(ROOT / "settings.json")["context_review"]
+    labels = {i: label for label, ids in config["labels"].items() for i in ids}
+    assert len(labels) == sum(len(v) for v in config["labels"].values())
+    flagged = {
+        r["context_id"]
+        for r in contexts
+        if r["auto_label"] in ["use_signal", "extension_signal"]
+    }
+    assert set(labels) == flagged, {
+        "unreviewed_flagged": sorted(flagged - set(labels)),
+        "stale_labels": sorted(set(labels) - flagged),
+    }
+    reviewed = []
+    for context_id, label in labels.items():
+        r = by_context[context_id]
+        reviewed.append(
+            r
+            | {
+                "reviewed_label": label,
+                "reviewer": "assistant_context_review",
+                "review_note": config["notes"].get(context_id, ""),
+            }
+        )
+    papers = json.loads((TABLES / "papers.json").read_text(encoding="utf-8"))
+    by_id = {p["id"]: p for p in papers}
+    with (DATA / "context_coverage.csv").open(encoding="utf-8-sig", newline="") as f:
+        coverage = list(csv.DictReader(f))
+    weights = {"extension": 2.0, "method_use": 1.0, "component_use": 0.5}
+    edge_evidence = defaultdict(list)
+    for r in reviewed:
+        edge_evidence[r["citing"], r["cited"]].append(r)
+    accepted_edges = []
+    scores = defaultdict(float)
+    counts = defaultdict(Counter)
+    for (u, v), evidence in sorted(edge_evidence.items()):
+        strongest = max(evidence, key=lambda r: weights.get(r["reviewed_label"], 0))
+        score = weights.get(strongest["reviewed_label"], 0)
+        if score:
+            scores[v] += score
+            counts[v][strongest["reviewed_label"]] += 1
+            accepted_edges.append(
+                {
+                    "citing": u,
+                    "cited": v,
+                    "weight": score,
+                    "label": strongest["reviewed_label"],
+                    "context_id": strongest["context_id"],
+                    "source_url": strongest["source_url"],
+                    "reviewer": "assistant_context_review",
+                    "chronological_anomaly": by_id[u]["date"] < by_id[v]["date"],
+                }
+            )
+    rows = []
+    for p in papers:
+        incoming = [e for e in coverage if e["cited"] == p["id"]]
+        rows.append(
+            {
+                "id": p["id"],
+                "title": p["title"],
+                "pilot_reuse_score": scores[p["id"]],
+                "extension_edges": counts[p["id"]]["extension"],
+                "method_use_edges": counts[p["id"]]["method_use"],
+                "component_use_edges": counts[p["id"]]["component_use"],
+                "incoming_citation_edges": len(incoming),
+                "incoming_edges_with_contexts": sum(
+                    int(e["contexts"]) > 0 for e in incoming
+                ),
+                "reviewed_incoming_edges": sum(v == p["id"] for u, v in edge_evidence),
+                "rank_pagerank": p["rank_pagerank"],
+                "rank_local_citations": p["rank_local_citations"],
+                "status": "partial_assistant_review_not_complete_true_reuse_count",
+            }
+        )
+    for i, r in enumerate(
+        sorted(rows, key=lambda r: (-r["pilot_reuse_score"], r["id"])), 1
+    ):
+        r["rank_pilot_reuse_score"] = i
+    sensitivity = []
+    for extension_weight in [1.0, 1.5, 2.0]:
+        for component_weight in [0.0, 0.5, 1.0]:
+            values = {
+                r["id"]: extension_weight * r["extension_edges"]
+                + r["method_use_edges"]
+                + component_weight * r["component_use_edges"]
+                for r in rows
+            }
+            sensitivity.append(
+                {
+                    "extension_weight": extension_weight,
+                    "component_weight": component_weight,
+                    "top5_ids": sorted(values, key=lambda u: (-values[u], u))[:5],
+                }
+            )
+    summary = {
+        "contexts_extracted": len(contexts),
+        "citation_edges": len(coverage),
+        "edges_with_at_least_one_context": sum(
+            int(e["contexts"]) > 0 for e in coverage
+        ),
+        "reviewed_flagged_contexts": len(reviewed),
+        "reviewed_unique_edges": len(edge_evidence),
+        "positive_method_or_component_or_extension_contexts": sum(
+            r["reviewed_label"] in weights for r in reviewed
+        ),
+        "accepted_reuse_edges": len(accepted_edges),
+        "positive_scoring_papers": sum(r["pilot_reuse_score"] > 0 for r in rows),
+        "review_label_counts": dict(Counter(labels.values())),
+        "flagged_sample_adoption_fraction": sum(
+            r["reviewed_label"] in weights for r in reviewed
+        )
+        / len(reviewed),
+        "score": "R(v)=sum_u max_reviewed_context_weight(u,v); extension=2, method=1, component=0.5; each citing paper counted once.",
+        "sensitivity": sensitivity,
+        "limits": [
+            "Only heuristic-positive contexts were reviewed; recall and a held-out classifier quality are not estimated.",
+            "The assistant made the context judgments; they are not independent human validation.",
+            "Unreviewed or missing contexts are unknown, not confirmed non-use.",
+            "Ranks compare observed evidence under unequal coverage, not complete true semantic influence.",
+            "Weights are explicit modeling choices, not empirically calibrated values.",
+        ],
+    }
+    write_csv(TABLES / "reviewed_citation_contexts.csv", reviewed)
+    write_csv(TABLES / "reuse_edges.csv", accepted_edges)
+    write_csv(
+        TABLES / "semantic_rankings.csv",
+        sorted(rows, key=lambda r: r["rank_pilot_reuse_score"]),
+    )
+    (ROOT / "output/semantic_metrics_summary.json").write_text(
+        json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    print(
+        json.dumps(
+            {k: v for k, v in summary.items() if k not in ["sensitivity", "limits"]},
+            ensure_ascii=False,
+            indent=2,
+        )
+    )
+    for r in sorted(rows, key=lambda r: r["rank_pilot_reuse_score"])[:10]:
+        print(r["rank_pilot_reuse_score"], r["pilot_reuse_score"], r["title"])
+
+
+if __name__ == "__main__":
+    build_structural_scores()
+    build_semantic_scores()

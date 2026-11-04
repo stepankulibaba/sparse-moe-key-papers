@@ -10,12 +10,11 @@ import csv
 import hashlib
 import io
 import json
-from pathlib import Path
 import subprocess
 import sys
 import tarfile
 import tempfile
-
+from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_COMMIT = "527258167d3a1cdad876f5c14a3079c7c120621b"
@@ -139,7 +138,6 @@ def make_snapshot(original):
     )
     settings = {
         "selection": read_json(original / "author_decisions.json"),
-        "scope_exclusions": read_json(original / "scope_exclusions.json"),
         "context_review": read_json(original / "context_review_labels.json"),
     }
     save_json(ROOT / "settings.json", settings)

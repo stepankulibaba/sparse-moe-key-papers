@@ -25,15 +25,3 @@ __pycache__/
 
 # Rebuilt artifacts
 output/
-data/papers.json
-data/papers.csv
-data/edges.csv
-data/corpus_audit.csv
-data/duplicates.csv
-data/temporal_anomalies.csv
-data/custom_rankings.json
-data/custom_rankings.csv
-data/semantic_rankings.csv
-data/reuse_edges.csv
-data/reviewed_citation_contexts.csv
-data/citation_contexts.csv

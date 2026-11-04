@@ -1,0 +1,111 @@
+{
+  "reviewer": "assistant_context_review",
+  "scope": "All 80 contexts flagged as use/extension by the frozen heuristic, inspected in this chat. Not a human gold standard or an independent held-out test.",
+  "labels": {
+    "extension": [
+      "690b1428bb588a62",
+      "14563987c873eaa2",
+      "b75e655ae79c9fe6",
+      "86c8b48fdf1ccbcf",
+      "41a8273d3bac30e9",
+      "a2660df3053d1946"
+    ],
+    "method_use": [
+      "e0427e98084c3af2",
+      "e377e65d60102f62",
+      "69929a77a6dfff00",
+      "c9cd4af25aefffb1",
+      "ddac8d74419078c0",
+      "fe9a76f642c02013",
+      "693269e9c031df4a",
+      "d8c2aa9625bfd6c1",
+      "564d6372c9b991d5",
+      "5cbd722c5beb7c3c",
+      "9567a63c84d97783",
+      "698482864cc9d429",
+      "d70ab64a70b5200e",
+      "e10165d8ee962f34",
+      "f89321a6e0db496a",
+      "f7d65282529126dc",
+      "b6356e3a6d76e18a",
+      "fa3afd8e9720fd10",
+      "604df33cd9c477da",
+      "e23ee18e93850089",
+      "0a9b7bdbdd329143",
+      "aac1a25f6202e16d",
+      "8a278d76e1ac649f",
+      "af92d499c66ad773",
+      "2902b9bbb0a4f88c",
+      "be474be428b41b73",
+      "55c2b7a9b449c0f1",
+      "d343f32fe7c6dd3e",
+      "6a35a18ed2c065f2",
+      "072914906bc80a35"
+    ],
+    "component_use": [
+      "59db96ad56f8f796",
+      "0e046b1a6bf975a6",
+      "9dc3222d85704225",
+      "e6082b742905f1cf",
+      "92b37984b6ebfd3e",
+      "dfdd53c15bbb2c66",
+      "a15fb0af648b9da8",
+      "fa76607cee72b93f",
+      "dd38c0b8b6e64c87",
+      "00f0cbd889f0cbed",
+      "6d6643603d4b7744",
+      "f02ba95445869ea3"
+    ],
+    "configuration_only": [
+      "e985d50e5ca4c99d",
+      "96eaa30d82b3fb98",
+      "dd1e44e69f9ab1e3",
+      "721b46d5c1a197dd",
+      "534e46a3230dd1b7",
+      "e0619e37af885a74",
+      "c45c7c0eb7cdb4de",
+      "f79d31366905b66b",
+      "cdc675c042d1c260",
+      "9c50d2b1ea57f4a4",
+      "9d6f2e8c82b00e6c",
+      "3152bdd8d1bbebbe",
+      "d50f88cf7dffc664"
+    ],
+    "artifact_or_data_use": [
+      "78e4a365641b2944",
+      "a8cfd5ee01dddd7d",
+      "569494d80b1dee3c",
+      "459e619e50bb946c",
+      "425011c9aee27b51"
+    ],
+    "comparison_or_test_subject": [
+      "6c566ce494bee8a2",
+      "a6c58a5b93b31ea0",
+      "6cc4a7f7f7294492",
+      "0b36d77ee722e3ad",
+      "877e9f28f4d4e084",
+      "adf5ff5cc208ad51",
+      "6c694c985022d077",
+      "fe564131055b47ea",
+      "77d275b9017d0925"
+    ],
+    "future_work": [
+      "07d57279f3778b7e"
+    ],
+    "ambiguous_or_different_source": [
+      "bd986b94713a756e",
+      "5b02827451e5808e",
+      "96e23661de764a0f",
+      "766c50c34a995cb9"
+    ]
+  },
+  "notes": {
+    "07d57279f3778b7e": "Future intention to adapt to GLaM is not completed adoption.",
+    "6c566ce494bee8a2": "PDF table and following paragraph were concatenated; Switch is a result comparator.",
+    "cdc675c042d1c260": "Context extension explicitly uses YaRN; this alone does not establish a new extension of the DeepSeek algorithm.",
+    "bd986b94713a756e": "The cited sentence says DeepSeek Chat, not unambiguously the target DeepSeek-V2 algorithm.",
+    "96e23661de764a0f": "The sentence lists Sigmoid/X-MoE/SoftMoE; attribution of a StableMoE idea is ambiguous.",
+    "766c50c34a995cb9": "Generic SMoE router settings do not isolate the MomentumSMoE contribution.",
+    "a2660df3053d1946": "Explicit sparse upcycling adoption plus proposed layer-expert upcycling extension."
+  }
+}

@@ -1,0 +1,4763 @@
+{
+  "retrieved_at_utc": "2026-11-04T06:47:52.627104+00:00",
+  "url": "https://api.openalex.org/works?filter=title.search%3Asparse+upcycling%2Cfrom_publication_date%3A2017-01-01%2Cto_publication_date%3A2025-12-31&sort=cited_by_count%3Adesc&per_page=20&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cpublication_year%2Ccited_by_count%2Creferenced_works%2Ccounts_by_year%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location%2Clocations%2Ctype%2Cids",
+  "status_code": 200,
+  "body": {
+    "meta": {
+      "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+      "count": 7,
+      "db_response_time_ms": 15,
+      "page": 1,
+      "per_page": 20,
+      "groups_count": null,
+      "x_query": {
+        "oql": "get works from 2017-01-01 through 2025-12-31 with (sparse upcycling) in the title, most cited first",
+        "x_new_oql": "get works from 2017-01-01 through 2025-12-31 with (sparse upcycling) in the title, most cited first",
+        "oqo": {
+          "get_rows": "works",
+          "filter_rows": [
+            {
+              "column_id": "display_name.search",
+              "value": "sparse upcycling",
+              "operator": "has"
+            },
+            {
+              "column_id": "from_publication_date",
+              "value": "2017-01-01"
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "2025-12-31"
+            }
+          ],
+          "sort_by": [
+            {
+              "column_id": "cited_by_count",
+              "direction": "desc"
+            }
+          ]
+        },
+        "url": "/works?filter=display_name.search:sparse upcycling,from_publication_date:2017-01-01,to_publication_date:2025-12-31&sort=cited_by_count:desc&per_page=20",
+        "order": "most cited first",
+        "order_default": false
+      },
+      "cost_usd": 0.001
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W4311252752",
+        "doi": "https://doi.org/10.48550/arxiv.2212.05055",
+        "title": "Sparse Upcycling: Training Mixture-of-Experts from Dense Checkpoints",
+        "publication_date": "2022-12-09",
+        "publication_year": 2022,
+        "cited_by_count": 15,
+        "referenced_works": [],
+        "counts_by_year": [
+          {
+            "year": 2025,
+            "cited_by_count": 5
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 3
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 7
+          }
+        ],
+        "abstract_inverted_index": {
+          "Training": [
+            0
+          ],
+          "large,": [
+            1
+          ],
+          "deep": [
+            2
+          ],
+          "neural": [
+            3
+          ],
+          "networks": [
+            4
+          ],
+          "to": [
+            5,
+            36,
+            48,
+            67,
+            87
+          ],
+          "convergence": [
+            6
+          ],
+          "can": [
+            7
+          ],
+          "be": [
+            8
+          ],
+          "prohibitively": [
+            9
+          ],
+          "expensive.": [
+            10
+          ],
+          "As": [
+            11
+          ],
+          "a": [
+            12,
+            16,
+            84,
+            94,
+            100
+          ],
+          "result,": [
+            13
+          ],
+          "often": [
+            14
+          ],
+          "only": [
+            15,
+            133
+          ],
+          "small": [
+            17
+          ],
+          "selection": [
+            18
+          ],
+          "of": [
+            19,
+            56,
+            135,
+            154
+          ],
+          "popular,": [
+            20
+          ],
+          "dense": [
+            21,
+            49,
+            101,
+            126,
+            138,
+            157
+          ],
+          "models": [
+            22,
+            62,
+            114,
+            144,
+            148
+          ],
+          "are": [
+            23,
+            43
+          ],
+          "reused": [
+            24
+          ],
+          "across": [
+            25
+          ],
+          "different": [
+            26
+          ],
+          "contexts": [
+            27
+          ],
+          "and": [
+            28,
+            58,
+            65,
+            111,
+            115,
+            119,
+            130
+          ],
+          "tasks.": [
+            29
+          ],
+          "Increasingly,": [
+            30
+          ],
+          "sparsely": [
+            31,
+            95,
+            106
+          ],
+          "activated": [
+            32,
+            96
+          ],
+          "models,": [
+            33,
+            121
+          ],
+          "which": [
+            34
+          ],
+          "seek": [
+            35
+          ],
+          "decouple": [
+            37
+          ],
+          "model": [
+            38,
+            98
+          ],
+          "size": [
+            39
+          ],
+          "from": [
+            40,
+            69,
+            99,
+            150
+          ],
+          "computation": [
+            41,
+            59,
+            159
+          ],
+          "costs,": [
+            42
+          ],
+          "becoming": [
+            44
+          ],
+          "an": [
+            45
+          ],
+          "attractive": [
+            46
+          ],
+          "alternative": [
+            47
+          ],
+          "models.": [
+            50
+          ],
+          "Although": [
+            51
+          ],
+          "more": [
+            52
+          ],
+          "efficient": [
+            53
+          ],
+          "in": [
+            54,
+            71
+          ],
+          "terms": [
+            55
+          ],
+          "quality": [
+            57
+          ],
+          "cost,": [
+            60
+          ],
+          "sparse": [
+            61,
+            81,
+            147
+          ],
+          "remain": [
+            63
+          ],
+          "data-hungry": [
+            64
+          ],
+          "costly": [
+            66
+          ],
+          "train": [
+            68
+          ],
+          "scratch": [
+            70,
+            151
+          ],
+          "the": [
+            72,
+            136,
+            155
+          ],
+          "large": [
+            73
+          ],
+          "scale": [
+            74
+          ],
+          "regime.": [
+            75
+          ],
+          "In": [
+            76
+          ],
+          "this": [
+            77
+          ],
+          "work,": [
+            78
+          ],
+          "we": [
+            79
+          ],
+          "propose": [
+            80
+          ],
+          "upcycling": [
+            82
+          ],
+          "--": [
+            83
+          ],
+          "simple": [
+            85
+          ],
+          "way": [
+            86
+          ],
+          "reuse": [
+            88
+          ],
+          "sunk": [
+            89,
+            140
+          ],
+          "training": [
+            90
+          ],
+          "costs": [
+            91
+          ],
+          "by": [
+            92
+          ],
+          "initializing": [
+            93
+          ],
+          "Mixture-of-Experts": [
+            97
+          ],
+          "checkpoint.": [
+            102
+          ],
+          "We": [
+            103
+          ],
+          "show": [
+            104
+          ],
+          "that": [
+            105
+          ],
+          "upcycled": [
+            107,
+            143
+          ],
+          "T5": [
+            108
+          ],
+          "Base,": [
+            109
+          ],
+          "Large,": [
+            110
+          ],
+          "XL": [
+            112
+          ],
+          "language": [
+            113
+          ],
+          "Vision": [
+            116
+          ],
+          "Transformer": [
+            117
+          ],
+          "Base": [
+            118
+          ],
+          "Large": [
+            120
+          ],
+          "respectively,": [
+            122
+          ],
+          "significantly": [
+            123
+          ],
+          "outperform": [
+            124,
+            146
+          ],
+          "their": [
+            125
+          ],
+          "counterparts": [
+            127
+          ],
+          "on": [
+            128,
+            152
+          ],
+          "SuperGLUE": [
+            129
+          ],
+          "ImageNet,": [
+            131
+          ],
+          "using": [
+            132
+          ],
+          "~50%": [
+            134
+          ],
+          "initial": [
+            137,
+            156
+          ],
+          "pretraining": [
+            139,
+            158
+          ],
+          "cost.": [
+            141
+          ],
+          "The": [
+            142
+          ],
+          "also": [
+            145
+          ],
+          "trained": [
+            149
+          ],
+          "100%": [
+            153
+          ],
+          "budget.": [
+            160
+          ]
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5029192838",
+              "display_name": "Aran Komatsuzaki",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I1291425158",
+                "display_name": "Google (United States)",
+                "ror": "https://ror.org/00njsd438",
+                "country_code": "US",
+                "type": "company",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I130701444",
+                "display_name": "Georgia Institute of Technology",
+                "ror": "https://ror.org/01zkghx44",
+                "country_code": "US",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I130701444"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Komatsuzaki, Aran",
+            "raw_affiliation_strings": [
+              "Georgia Institute of Technology Google Research Google Research"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Georgia Institute of Technology Google Research Google Research",
+                "institution_ids": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I130701444"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5001091279",
+              "display_name": "Joan Puigcerver",
+              "orcid": "https://orcid.org/0000-0002-1926-2233",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-1926-2233"
+              ]
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I1291425158",
+                "display_name": "Google (United States)",
+                "ror": "https://ror.org/00njsd438",
+                "country_code": "US",
+                "type": "company",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I130701444",
+                "display_name": "Georgia Institute of Technology",
+                "ror": "https://ror.org/01zkghx44",
+                "country_code": "US",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I130701444"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Puigcerver, Joan",
+            "raw_affiliation_strings": [
+              "Georgia Institute of Technology Google Research Google Research"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Georgia Institute of Technology Google Research Google Research",
+                "institution_ids": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I130701444"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5018339854",
+              "display_name": "James Lee-Thorp",
+              "orcid": "https://orcid.org/0000-0001-6445-7155",
+              "observed_orcids": [
+                "https://orcid.org/0000-0001-6445-7155"
+              ]
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I1291425158",
+                "display_name": "Google (United States)",
+                "ror": "https://ror.org/00njsd438",
+                "country_code": "US",
+                "type": "company",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Lee-Thorp, James",
+            "raw_affiliation_strings": [
+              "Google Research Google Research Google Research"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Google Research Google Research Google Research",
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5101675603",
+              "display_name": "Carlos Riquelme",
+              "orcid": "https://orcid.org/0000-0003-4861-8355",
+              "observed_orcids": [
+                "https://orcid.org/0000-0003-4861-8355"
+              ]
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Ruiz, Carlos Riquelme",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5072796087",
+              "display_name": "Basil Mustafa",
+              "orcid": "https://orcid.org/0000-0001-7305-7890",
+              "observed_orcids": [
+                "https://orcid.org/0000-0001-7305-7890"
+              ]
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I1291425158",
+                "display_name": "Google (United States)",
+                "ror": "https://ror.org/00njsd438",
+                "country_code": "US",
+                "type": "company",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Mustafa, Basil",
+            "raw_affiliation_strings": [
+              "Google Research Google Research Google Research"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Google Research Google Research Google Research",
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5072605113",
+              "display_name": "Joshua Ainslie",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I1291425158",
+                "display_name": "Google (United States)",
+                "ror": "https://ror.org/00njsd438",
+                "country_code": "US",
+                "type": "company",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Ainslie, Joshua",
+            "raw_affiliation_strings": [
+              "Google Research Google Research Google Research"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Google Research Google Research Google Research",
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5103069680",
+              "display_name": "Yi Tay",
+              "orcid": "https://orcid.org/0000-0001-6896-4496",
+              "observed_orcids": [
+                "https://orcid.org/0000-0001-6896-4496"
+              ]
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I1291425158",
+                "display_name": "Google (United States)",
+                "ror": "https://ror.org/00njsd438",
+                "country_code": "US",
+                "type": "company",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I130701444",
+                "display_name": "Georgia Institute of Technology",
+                "ror": "https://ror.org/01zkghx44",
+                "country_code": "US",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I130701444"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Tay, Yi",
+            "raw_affiliation_strings": [
+              "Georgia Institute of Technology Google Research Google Research"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Georgia Institute of Technology Google Research Google Research",
+                "institution_ids": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I130701444"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5102906366",
+              "display_name": "Mostafa Dehghani",
+              "orcid": "https://orcid.org/0000-0002-9772-1095",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-9772-1095"
+              ]
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I1291425158",
+                "display_name": "Google (United States)",
+                "ror": "https://ror.org/00njsd438",
+                "country_code": "US",
+                "type": "company",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Dehghani, Mostafa",
+            "raw_affiliation_strings": [
+              "Google Research Google Research Google Research"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Google Research Google Research Google Research",
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5068878643",
+              "display_name": "Neil Houlsby",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I1291425158",
+                "display_name": "Google (United States)",
+                "ror": "https://ror.org/00njsd438",
+                "country_code": "US",
+                "type": "company",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Houlsby, Neil",
+            "raw_affiliation_strings": [
+              "Google Research Google Research Google Research"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Google Research Google Research Google Research",
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ]
+              }
+            ]
+          }
+        ],
+        "primary_location": {
+          "id": "pmh:oai:arXiv.org:2212.05055",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/2212.05055",
+          "pdf_url": "https://arxiv.org/pdf/2212.05055",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        },
+        "locations": [
+          {
+            "id": "pmh:oai:arXiv.org:2212.05055",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "http://arxiv.org/abs/2212.05055",
+            "pdf_url": "https://arxiv.org/pdf/2212.05055",
+            "source": {
+              "id": "https://openalex.org/S4306400194",
+              "display_name": "arXiv (Cornell University)",
+              "issn_l": "2331-8422",
+              "issn": [
+                "2331-8422"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I205783295",
+              "host_organization_name": "Cornell University",
+              "host_organization_lineage": [
+                "https://openalex.org/I205783295"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "text"
+          },
+          {
+            "id": "doi:10.48550/arxiv.2212.05055",
+            "doi": "https://doi.org/10.48550/arxiv.2212.05055",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.48550/arxiv.2212.05055",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306400194",
+              "display_name": "arXiv (Cornell University)",
+              "issn_l": "2331-8422",
+              "issn": [
+                "2331-8422"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I205783295",
+              "host_organization_name": "Cornell University",
+              "host_organization_lineage": [
+                "https://openalex.org/I205783295"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": null,
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "Preprint"
+          }
+        ],
+        "type": "preprint",
+        "ids": {
+          "openalex": "https://openalex.org/W4311252752",
+          "doi": "https://doi.org/10.48550/arxiv.2212.05055"
+        }
+      },
+      {
+        "id": "https://openalex.org/W4416034175",
+        "doi": "https://doi.org/10.18653/v1/2025.findings-emnlp.1156",
+        "title": "CLIP-UP: A Simple and Efficient Mixture-of-Experts CLIP Training Recipe with Sparse Upcycling",
+        "publication_date": "2025-01-01",
+        "publication_year": 2025,
+        "cited_by_count": 1,
+        "referenced_works": [],
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 1
+          }
+        ],
+        "abstract_inverted_index": {
+          "Mixture-of-Experts": [
+            0
+          ],
+          "(MoE)": [
+            1
+          ],
+          "models": [
+            2,
+            17,
+            24
+          ],
+          "are": [
+            3
+          ],
+          "crucial": [
+            4
+          ],
+          "for": [
+            5,
+            130
+          ],
+          "scaling": [
+            6
+          ],
+          "model": [
+            7,
+            44,
+            98
+          ],
+          "capacity": [
+            8
+          ],
+          "while": [
+            9,
+            102
+          ],
+          "controlling": [
+            10
+          ],
+          "inference": [
+            11,
+            108
+          ],
+          "costs.While": [
+            12
+          ],
+          "integrating": [
+            13
+          ],
+          "MoE": [
+            14,
+            48
+          ],
+          "into": [
+            15,
+            45
+          ],
+          "multimodal": [
+            16
+          ],
+          "like": [
+            18
+          ],
+          "CLIP": [
+            19,
+            43,
+            70,
+            96,
+            134
+          ],
+          "improves": [
+            20
+          ],
+          "performance,": [
+            21
+          ],
+          "training": [
+            22,
+            36,
+            64,
+            116
+          ],
+          "these": [
+            23
+          ],
+          "is": [
+            25
+          ],
+          "notoriously": [
+            26
+          ],
+          "challenging": [
+            27
+          ],
+          "and": [
+            28,
+            55,
+            66,
+            82,
+            86,
+            127
+          ],
+          "expensive.We": [
+            29
+          ],
+          "propose": [
+            30
+          ],
+          "CLIP-Upcycling": [
+            31
+          ],
+          "(CLIP-UP),": [
+            32
+          ],
+          "an": [
+            33
+          ],
+          "efficient": [
+            34
+          ],
+          "alternative": [
+            35
+          ],
+          "strategy": [
+            37
+          ],
+          "that": [
+            38,
+            60
+          ],
+          "converts": [
+            39
+          ],
+          "a": [
+            40,
+            46,
+            125
+          ],
+          "pre-trained": [
+            41
+          ],
+          "dense": [
+            42,
+            78
+          ],
+          "sparse": [
+            47,
+            69,
+            122
+          ],
+          "architecture.Through": [
+            49
+          ],
+          "extensive": [
+            50
+          ],
+          "experimentation": [
+            51
+          ],
+          "with": [
+            52,
+            74
+          ],
+          "various": [
+            53
+          ],
+          "settings": [
+            54
+          ],
+          "auxiliary": [
+            56
+          ],
+          "losses,": [
+            57
+          ],
+          "we": [
+            58
+          ],
+          "demonstrate": [
+            59,
+            111
+          ],
+          "CLIP-UP": [
+            61
+          ],
+          "significantly": [
+            62
+          ],
+          "reduces": [
+            63
+          ],
+          "complexity": [
+            65
+          ],
+          "cost.Remarkably,": [
+            67
+          ],
+          "our": [
+            68,
+            115
+          ],
+          "B/16": [
+            71
+          ],
+          "model,": [
+            72
+          ],
+          "trained": [
+            73
+          ],
+          "CLIP-UP,": [
+            75
+          ],
+          "outperforms": [
+            76
+          ],
+          "its": [
+            77
+          ],
+          "counterpart": [
+            79
+          ],
+          "by": [
+            80
+          ],
+          "7.2%": [
+            81
+          ],
+          "6.6%": [
+            83
+          ],
+          "on": [
+            84,
+            99
+          ],
+          "COCO": [
+            85
+          ],
+          "Flickr30k": [
+            87
+          ],
+          "text-toimage": [
+            88
+          ],
+          "Recall@1": [
+            89
+          ],
+          "benchmarks": [
+            90
+          ],
+          "respectively.It": [
+            91
+          ],
+          "even": [
+            92
+          ],
+          "surpasses": [
+            93
+          ],
+          "the": [
+            94,
+            107,
+            112
+          ],
+          "larger": [
+            95
+          ],
+          "L/14": [
+            97
+          ],
+          "this": [
+            100
+          ],
+          "task": [
+            101
+          ],
+          "using": [
+            103
+          ],
+          "only": [
+            104
+          ],
+          "30%": [
+            105
+          ],
+          "of": [
+            106,
+            114
+          ],
+          "FLOPs.We": [
+            109
+          ],
+          "further": [
+            110
+          ],
+          "generalizability": [
+            113
+          ],
+          "recipe": [
+            117
+          ],
+          "across": [
+            118
+          ],
+          "different": [
+            119
+          ],
+          "scales,": [
+            120
+          ],
+          "establishing": [
+            121
+          ],
+          "upcycling": [
+            123
+          ],
+          "as": [
+            124
+          ],
+          "practical": [
+            126
+          ],
+          "scalable": [
+            128
+          ],
+          "approach": [
+            129
+          ],
+          "building": [
+            131
+          ],
+          "efficient,": [
+            132
+          ],
+          "high-performance": [
+            133
+          ],
+          "models.": [
+            135
+          ]
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5021260264",
+              "display_name": "Xinze Wang",
+              "orcid": "https://orcid.org/0000-0002-8233-4260",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-8233-4260"
+              ]
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Xinze Wang",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5104666046",
+              "display_name": "Chen Chen",
+              "orcid": "https://orcid.org/0000-0001-7179-0861",
+              "observed_orcids": [
+                "https://orcid.org/0000-0001-7179-0861"
+              ]
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Chen Chen",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5112593580",
+              "display_name": "Yinfei Yang",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Yinfei Yang",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5012764388",
+              "display_name": "Hong-You Chen",
+              "orcid": "https://orcid.org/0000-0002-8127-5588",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-8127-5588"
+              ]
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Hong-You Chen",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5100385138",
+              "display_name": "Bowen Zhang",
+              "orcid": "https://orcid.org/0000-0002-3581-9476",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-3581-9476"
+              ]
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Bowen Zhang",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": null,
+              "display_name": "Aditya Pal",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Aditya Pal",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5111419785",
+              "display_name": "Xiangxin Zhu",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Xiangxin Zhu",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5017048711",
+              "display_name": "Xianzhi Du",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Xianzhi Du",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          }
+        ],
+        "primary_location": {
+          "id": "doi:10.18653/v1/2025.findings-emnlp.1156",
+          "doi": "https://doi.org/10.18653/v1/2025.findings-emnlp.1156",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.18653/v1/2025.findings-emnlp.1156",
+          "pdf_url": "https://aclanthology.org/2025.findings-emnlp.1156.pdf",
+          "source": {
+            "id": "https://openalex.org/S7407096085",
+            "display_name": "Findings of the Association for Computational Linguistics: EMNLP (Findings of EMNLP)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310320244",
+            "host_organization_name": "Association for Computational Linguistics",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320244"
+            ],
+            "host_organization_lineage_names": [
+              "Association for Computational Linguistics"
+            ],
+            "type": "conference"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+          "raw_type": "proceedings-article"
+        },
+        "locations": [
+          {
+            "id": "doi:10.18653/v1/2025.findings-emnlp.1156",
+            "doi": "https://doi.org/10.18653/v1/2025.findings-emnlp.1156",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.18653/v1/2025.findings-emnlp.1156",
+            "pdf_url": "https://aclanthology.org/2025.findings-emnlp.1156.pdf",
+            "source": {
+              "id": "https://openalex.org/S7407096085",
+              "display_name": "Findings of the Association for Computational Linguistics: EMNLP (Findings of EMNLP)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/P4310320244",
+              "host_organization_name": "Association for Computational Linguistics",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320244"
+              ],
+              "host_organization_lineage_names": [
+                "Association for Computational Linguistics"
+              ],
+              "type": "conference"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+            "raw_type": "proceedings-article"
+          },
+          {
+            "id": "pmh:oai:arXiv.org:2502.00965",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "http://arxiv.org/abs/2502.00965",
+            "pdf_url": "https://arxiv.org/pdf/2502.00965",
+            "source": {
+              "id": "https://openalex.org/S4306400194",
+              "display_name": "arXiv (Cornell University)",
+              "issn_l": "2331-8422",
+              "issn": [
+                "2331-8422"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I205783295",
+              "host_organization_name": "Cornell University",
+              "host_organization_lineage": [
+                "https://openalex.org/I205783295"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-nc-sa",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "text"
+          },
+          {
+            "id": "doi:10.48550/arxiv.2502.00965",
+            "doi": "https://doi.org/10.48550/arxiv.2502.00965",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.48550/arxiv.2502.00965",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306400194",
+              "display_name": "arXiv (Cornell University)",
+              "issn_l": "2331-8422",
+              "issn": [
+                "2331-8422"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I205783295",
+              "host_organization_name": "Cornell University",
+              "host_organization_lineage": [
+                "https://openalex.org/I205783295"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": null,
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "Preprint"
+          }
+        ],
+        "type": "conference-paper",
+        "ids": {
+          "openalex": "https://openalex.org/W4416034175",
+          "doi": "https://doi.org/10.18653/v1/2025.findings-emnlp.1156"
+        }
+      },
+      {
+        "id": "https://openalex.org/W7106798325",
+        "doi": "https://doi.org/10.48448/jna4-gx37",
+        "title": "CLIP-UP: A Simple and Efficient Mixture-of-Experts CLIP Training Recipe with Sparse Upcycling",
+        "publication_date": "2025-10-10",
+        "publication_year": 2025,
+        "cited_by_count": 0,
+        "referenced_works": [],
+        "counts_by_year": [],
+        "abstract_inverted_index": {
+          "Mixture-of-Experts": [
+            0
+          ],
+          "(MoE)": [
+            1
+          ],
+          "models": [
+            2,
+            18,
+            25
+          ],
+          "are": [
+            3
+          ],
+          "crucial": [
+            4
+          ],
+          "for": [
+            5,
+            136
+          ],
+          "scaling": [
+            6
+          ],
+          "model": [
+            7,
+            46,
+            103
+          ],
+          "capacity": [
+            8
+          ],
+          "while": [
+            9,
+            107
+          ],
+          "controlling": [
+            10
+          ],
+          "inference": [
+            11,
+            113
+          ],
+          "costs.": [
+            12
+          ],
+          "While": [
+            13
+          ],
+          "integrating": [
+            14
+          ],
+          "MoE": [
+            15,
+            50
+          ],
+          "into": [
+            16,
+            47
+          ],
+          "multimodal": [
+            17
+          ],
+          "like": [
+            19
+          ],
+          "CLIP": [
+            20,
+            45,
+            74,
+            101,
+            140
+          ],
+          "improves": [
+            21
+          ],
+          "performance,": [
+            22
+          ],
+          "training": [
+            23,
+            38,
+            67,
+            122
+          ],
+          "these": [
+            24
+          ],
+          "is": [
+            26
+          ],
+          "notoriously": [
+            27
+          ],
+          "challenging": [
+            28
+          ],
+          "and": [
+            29,
+            58,
+            69,
+            86,
+            90,
+            133
+          ],
+          "expensive.": [
+            30
+          ],
+          "We": [
+            31,
+            115
+          ],
+          "propose": [
+            32
+          ],
+          "CLIP-Upcycling": [
+            33
+          ],
+          "(CLIP-UP),": [
+            34
+          ],
+          "an": [
+            35
+          ],
+          "efficient": [
+            36
+          ],
+          "alternative": [
+            37
+          ],
+          "strategy": [
+            39
+          ],
+          "that": [
+            40,
+            63
+          ],
+          "converts": [
+            41
+          ],
+          "a": [
+            42,
+            48,
+            131
+          ],
+          "pre-trained": [
+            43
+          ],
+          "dense": [
+            44,
+            82
+          ],
+          "sparse": [
+            49,
+            73,
+            128
+          ],
+          "architecture.": [
+            51
+          ],
+          "Through": [
+            52
+          ],
+          "extensive": [
+            53
+          ],
+          "experimentation": [
+            54
+          ],
+          "with": [
+            55,
+            78
+          ],
+          "various": [
+            56
+          ],
+          "settings": [
+            57
+          ],
+          "auxiliary": [
+            59
+          ],
+          "losses,": [
+            60
+          ],
+          "we": [
+            61
+          ],
+          "demonstrate": [
+            62,
+            117
+          ],
+          "CLIP-UP": [
+            64
+          ],
+          "significantly": [
+            65
+          ],
+          "reduces": [
+            66
+          ],
+          "complexity": [
+            68
+          ],
+          "cost.": [
+            70
+          ],
+          "Remarkably,": [
+            71
+          ],
+          "our": [
+            72,
+            121
+          ],
+          "B/16": [
+            75
+          ],
+          "model,": [
+            76
+          ],
+          "trained": [
+            77
+          ],
+          "CLIP-UP,": [
+            79
+          ],
+          "outperforms": [
+            80
+          ],
+          "its": [
+            81
+          ],
+          "counterpart": [
+            83
+          ],
+          "by": [
+            84
+          ],
+          "7.2%": [
+            85
+          ],
+          "6.6%": [
+            87
+          ],
+          "on": [
+            88,
+            104
+          ],
+          "COCO": [
+            89
+          ],
+          "Flickr30k": [
+            91
+          ],
+          "text-to-image": [
+            92
+          ],
+          "Recall@1": [
+            93
+          ],
+          "benchmarks": [
+            94
+          ],
+          "respectively.": [
+            95
+          ],
+          "It": [
+            96
+          ],
+          "even": [
+            97
+          ],
+          "surpasses": [
+            98
+          ],
+          "the": [
+            99,
+            112,
+            118
+          ],
+          "larger": [
+            100
+          ],
+          "L/14": [
+            102
+          ],
+          "this": [
+            105
+          ],
+          "task": [
+            106
+          ],
+          "using": [
+            108
+          ],
+          "only": [
+            109
+          ],
+          "30%": [
+            110
+          ],
+          "of": [
+            111,
+            120
+          ],
+          "FLOPs.": [
+            114
+          ],
+          "further": [
+            116
+          ],
+          "generalizability": [
+            119
+          ],
+          "recipe": [
+            123
+          ],
+          "across": [
+            124
+          ],
+          "different": [
+            125
+          ],
+          "scales,": [
+            126
+          ],
+          "establishing": [
+            127
+          ],
+          "upcycling": [
+            129
+          ],
+          "as": [
+            130
+          ],
+          "practical": [
+            132
+          ],
+          "scalable": [
+            134
+          ],
+          "approach": [
+            135
+          ],
+          "building": [
+            137
+          ],
+          "efficient,": [
+            138
+          ],
+          "high-performance": [
+            139
+          ],
+          "models.": [
+            141
+          ]
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": null,
+              "display_name": "Association for Computational Linguistics 2025",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Association for Computational Linguistics 2025",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": null,
+              "display_name": "Chen, Hong-You",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I52357470",
+                "display_name": "The Ohio State University",
+                "ror": "https://ror.org/00rs6vg23",
+                "country_code": "US",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I52357470"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Chen, Hong-You",
+            "raw_affiliation_strings": [
+              "The Ohio State University"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "The Ohio State University",
+                "institution_ids": [
+                  "https://openalex.org/I52357470"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": null,
+              "display_name": "Chen, Chen",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Chen, Chen",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": null,
+              "display_name": "Du, Xianzhi",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Du, Xianzhi",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": null,
+              "display_name": "Pal, Aditya",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Pal, Aditya",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": null,
+              "display_name": "Wang, Xinze",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I4210153776",
+                "display_name": "Apple (United States)",
+                "ror": "https://ror.org/059hsda18",
+                "country_code": "US",
+                "type": "company",
+                "lineage": [
+                  "https://openalex.org/I4210153776"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Wang, Xinze",
+            "raw_affiliation_strings": [
+              "Apple"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Apple",
+                "institution_ids": [
+                  "https://openalex.org/I4210153776"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": null,
+              "display_name": "Yang, Yinfei",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I4210153776",
+                "display_name": "Apple (United States)",
+                "ror": "https://ror.org/059hsda18",
+                "country_code": "US",
+                "type": "company",
+                "lineage": [
+                  "https://openalex.org/I4210153776"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Yang, Yinfei",
+            "raw_affiliation_strings": [
+              "Apple, Inc"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Apple, Inc",
+                "institution_ids": [
+                  "https://openalex.org/I4210153776"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": null,
+              "display_name": "Zhang, Bowen",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Zhang, Bowen",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": null,
+              "display_name": "Zhu, Xiangxin",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Zhu, Xiangxin",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          }
+        ],
+        "primary_location": {
+          "id": "doi:10.48448/jna4-gx37",
+          "doi": "https://doi.org/10.48448/jna4-gx37",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.48448/jna4-gx37",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S7407053148",
+            "display_name": "Underline Science Inc.",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "Audiovisual"
+        },
+        "locations": [
+          {
+            "id": "doi:10.48448/jna4-gx37",
+            "doi": "https://doi.org/10.48448/jna4-gx37",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.48448/jna4-gx37",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S7407053148",
+              "display_name": "Underline Science Inc.",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": null,
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "Audiovisual"
+          }
+        ],
+        "type": "other",
+        "ids": {
+          "openalex": "https://openalex.org/W7106798325",
+          "doi": "https://doi.org/10.48448/jna4-gx37"
+        }
+      },
+      {
+        "id": "https://openalex.org/W4417284093",
+        "doi": "https://doi.org/10.48550/arxiv.2503.11144",
+        "title": "MoLEx: Mixture of Layer Experts for Finetuning with Sparse Upcycling",
+        "publication_date": "2025-03-14",
+        "publication_year": 2025,
+        "cited_by_count": 0,
+        "referenced_works": [],
+        "counts_by_year": [],
+        "abstract_inverted_index": {
+          "Large-scale": [
+            0
+          ],
+          "pre-training": [
+            1
+          ],
+          "of": [
+            2,
+            13,
+            20,
+            35,
+            41,
+            89,
+            99,
+            116,
+            131,
+            134,
+            149,
+            157,
+            173,
+            176,
+            223,
+            244,
+            256
+          ],
+          "deep": [
+            3
+          ],
+          "models,": [
+            4
+          ],
+          "followed": [
+            5
+          ],
+          "by": [
+            6,
+            85
+          ],
+          "fine-tuning": [
+            7,
+            179,
+            217,
+            258
+          ],
+          "them,": [
+            8
+          ],
+          "has": [
+            9,
+            26,
+            44
+          ],
+          "become": [
+            10
+          ],
+          "the": [
+            11,
+            38,
+            56,
+            62,
+            67,
+            87,
+            97,
+            100,
+            147,
+            165,
+            182,
+            189,
+            202,
+            211,
+            220,
+            242,
+            261,
+            268
+          ],
+          "cornerstone": [
+            12
+          ],
+          "natural": [
+            14
+          ],
+          "language": [
+            15
+          ],
+          "processing": [
+            16
+          ],
+          "(NLP).": [
+            17
+          ],
+          "The": [
+            18,
+            272
+          ],
+          "prevalence": [
+            19
+          ],
+          "data": [
+            21
+          ],
+          "coupled": [
+            22
+          ],
+          "with": [
+            23,
+            31,
+            184,
+            219,
+            248
+          ],
+          "computational": [
+            24,
+            237
+          ],
+          "resources": [
+            25
+          ],
+          "led": [
+            27,
+            45
+          ],
+          "to": [
+            28,
+            46,
+            59,
+            69,
+            92,
+            180,
+            204,
+            215
+          ],
+          "large": [
+            29
+          ],
+          "models": [
+            30,
+            43
+          ],
+          "a": [
+            32,
+            53,
+            114,
+            153,
+            170,
+            174,
+            206,
+            254
+          ],
+          "considerable": [
+            33
+          ],
+          "number": [
+            34,
+            88,
+            222
+          ],
+          "parameters.": [
+            36,
+            225
+          ],
+          "While": [
+            37,
+            102
+          ],
+          "massive": [
+            39
+          ],
+          "size": [
+            40
+          ],
+          "these": [
+            42
+          ],
+          "remarkable": [
+            47
+          ],
+          "success": [
+            48
+          ],
+          "in": [
+            49,
+            142,
+            164,
+            231
+          ],
+          "many": [
+            50
+          ],
+          "NLP": [
+            51
+          ],
+          "tasks,": [
+            52,
+            259
+          ],
+          "detriment": [
+            54
+          ],
+          "is": [
+            55,
+            274
+          ],
+          "expense": [
+            57
+          ],
+          "required": [
+            58,
+            91
+          ],
+          "retrain": [
+            60
+          ],
+          "all": [
+            61
+          ],
+          "base": [
+            63
+          ],
+          "model's": [
+            64
+          ],
+          "parameters": [
+            65,
+            90
+          ],
+          "for": [
+            66,
+            82,
+            195,
+            210
+          ],
+          "adaptation": [
+            68
+          ],
+          "each": [
+            70
+          ],
+          "task": [
+            71
+          ],
+          "or": [
+            72
+          ],
+          "domain.": [
+            73
+          ],
+          "Parameter": [
+            74
+          ],
+          "Efficient": [
+            75
+          ],
+          "Fine-Tuning": [
+            76
+          ],
+          "(PEFT)": [
+            77
+          ],
+          "provides": [
+            78
+          ],
+          "an": [
+            79,
+            193
+          ],
+          "effective": [
+            80,
+            224
+          ],
+          "solution": [
+            81
+          ],
+          "this": [
+            83,
+            124
+          ],
+          "challenge": [
+            84
+          ],
+          "minimizing": [
+            86
+          ],
+          "be": [
+            93,
+            229
+          ],
+          "fine-tuned": [
+            94
+          ],
+          "while": [
+            95
+          ],
+          "maintaining": [
+            96
+          ],
+          "quality": [
+            98
+          ],
+          "model.": [
+            101,
+            167
+          ],
+          "existing": [
+            103
+          ],
+          "methods": [
+            104,
+            252
+          ],
+          "have": [
+            105
+          ],
+          "achieved": [
+            106
+          ],
+          "impressive": [
+            107
+          ],
+          "results,": [
+            108
+          ],
+          "they": [
+            109
+          ],
+          "mainly": [
+            110
+          ],
+          "focus": [
+            111
+          ],
+          "on": [
+            112,
+            253
+          ],
+          "adapting": [
+            113
+          ],
+          "subset": [
+            115
+          ],
+          "parameters,": [
+            117
+          ],
+          "weight": [
+            118
+          ],
+          "reparameterization,": [
+            119
+          ],
+          "and": [
+            120
+          ],
+          "prompt": [
+            121
+          ],
+          "engineering.": [
+            122
+          ],
+          "In": [
+            123
+          ],
+          "paper,": [
+            125
+          ],
+          "we": [
+            126
+          ],
+          "study": [
+            127
+          ],
+          "layers": [
+            128,
+            163,
+            177
+          ],
+          "as": [
+            129,
+            265,
+            267
+          ],
+          "extractors": [
+            130
+          ],
+          "different": [
+            132
+          ],
+          "types": [
+            133
+          ],
+          "linguistic": [
+            135
+          ],
+          "information": [
+            136,
+            196
+          ],
+          "that": [
+            137
+          ],
+          "are": [
+            138,
+            162
+          ],
+          "valuable": [
+            139
+          ],
+          "when": [
+            140,
+            246
+          ],
+          "used": [
+            141
+          ],
+          "conjunction.": [
+            143
+          ],
+          "We": [
+            144,
+            239
+          ],
+          "then": [
+            145
+          ],
+          "propose": [
+            146
+          ],
+          "Mixture": [
+            148
+          ],
+          "Layer": [
+            150
+          ],
+          "Experts": [
+            151
+          ],
+          "(MoLEx),": [
+            152
+          ],
+          "novel": [
+            154
+          ],
+          "sparse": [
+            155
+          ],
+          "mixture": [
+            156,
+            175
+          ],
+          "experts": [
+            158,
+            161,
+            227
+          ],
+          "(SMoE)": [
+            159
+          ],
+          "whose": [
+            160
+          ],
+          "pre-trained": [
+            166
+          ],
+          "It": [
+            168
+          ],
+          "performs": [
+            169
+          ],
+          "conditional": [
+            171
+          ],
+          "computation": [
+            172
+          ],
+          "during": [
+            178
+          ],
+          "provide": [
+            181
+          ],
+          "model": [
+            183,
+            203
+          ],
+          "more": [
+            185,
+            207
+          ],
+          "structural": [
+            186
+          ],
+          "knowledge": [
+            187
+          ],
+          "about": [
+            188
+          ],
+          "data.": [
+            190
+          ],
+          "By": [
+            191
+          ],
+          "providing": [
+            192
+          ],
+          "avenue": [
+            194
+          ],
+          "exchange": [
+            197
+          ],
+          "between": [
+            198
+          ],
+          "layers,": [
+            199
+          ],
+          "MoLEx": [
+            200,
+            233,
+            245
+          ],
+          "enables": [
+            201
+          ],
+          "make": [
+            205
+          ],
+          "well-informed": [
+            208
+          ],
+          "prediction": [
+            209
+          ],
+          "downstream": [
+            212,
+            257
+          ],
+          "task,": [
+            213
+          ],
+          "leading": [
+            214
+          ],
+          "better": [
+            216
+          ],
+          "results": [
+            218
+          ],
+          "same": [
+            221
+          ],
+          "As": [
+            226
+          ],
+          "can": [
+            228
+          ],
+          "processed": [
+            230
+          ],
+          "parallel,": [
+            232
+          ],
+          "introduces": [
+            234
+          ],
+          "minimal": [
+            235
+          ],
+          "additional": [
+            236
+          ],
+          "overhead.": [
+            238
+          ],
+          "empirically": [
+            240
+          ],
+          "corroborate": [
+            241
+          ],
+          "advantages": [
+            243
+          ],
+          "combined": [
+            247
+          ],
+          "popular": [
+            249,
+            262
+          ],
+          "PEFT": [
+            250
+          ],
+          "baseline": [
+            251
+          ],
+          "variety": [
+            255
+          ],
+          "including": [
+            260
+          ],
+          "GLUE": [
+            263
+          ],
+          "benchmark": [
+            264
+          ],
+          "well": [
+            266
+          ],
+          "End-to-End": [
+            269
+          ],
+          "Challenge": [
+            270
+          ],
+          "(E2E).": [
+            271
+          ],
+          "code": [
+            273
+          ],
+          "publicly": [
+            275
+          ],
+          "available": [
+            276
+          ],
+          "at": [
+            277
+          ],
+          "https://github.com/rachtsy/molex.": [
+            278
+          ]
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5111236250",
+              "display_name": "Rachel S. Y. Teo",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Teo, Rachel S. Y.",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": null,
+              "display_name": "Nguyen, Tan M.",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Nguyen, Tan M.",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          }
+        ],
+        "primary_location": {
+          "id": "pmh:oai:arXiv.org:2503.11144",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/2503.11144",
+          "pdf_url": "https://arxiv.org/pdf/2503.11144",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        },
+        "locations": [
+          {
+            "id": "pmh:oai:arXiv.org:2503.11144",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "http://arxiv.org/abs/2503.11144",
+            "pdf_url": "https://arxiv.org/pdf/2503.11144",
+            "source": {
+              "id": "https://openalex.org/S4306400194",
+              "display_name": "arXiv (Cornell University)",
+              "issn_l": "2331-8422",
+              "issn": [
+                "2331-8422"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I205783295",
+              "host_organization_name": "Cornell University",
+              "host_organization_lineage": [
+                "https://openalex.org/I205783295"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "text"
+          },
+          {
+            "id": "pmh:oai:scholarbank.nus.edu.sg:10635/321197",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://scholarbank.nus.edu.sg/handle/10635/321197",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S7407052290",
+              "display_name": "National University of Singapore",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Elements",
+            "raw_type": "Conference Paper"
+          },
+          {
+            "id": "doi:10.48550/arxiv.2503.11144",
+            "doi": "https://doi.org/10.48550/arxiv.2503.11144",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.48550/arxiv.2503.11144",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306400194",
+              "display_name": "arXiv (Cornell University)",
+              "issn_l": "2331-8422",
+              "issn": [
+                "2331-8422"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I205783295",
+              "host_organization_name": "Cornell University",
+              "host_organization_lineage": [
+                "https://openalex.org/I205783295"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": null,
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "Preprint"
+          }
+        ],
+        "type": "preprint",
+        "ids": {
+          "openalex": "https://openalex.org/W4417284093",
+          "doi": "https://doi.org/10.48550/arxiv.2503.11144"
+        }
+      },
+      {
+        "id": "https://openalex.org/W4416044846",
+        "doi": "https://doi.org/10.48550/arxiv.2502.19261",
+        "title": "Drop-Upcycling: Training Sparse Mixture of Experts with Partial Re-initialization",
+        "publication_date": "2025-02-26",
+        "publication_year": 2025,
+        "cited_by_count": 0,
+        "referenced_works": [],
+        "counts_by_year": [],
+        "abstract_inverted_index": {
+          "The": [
+            0
+          ],
+          "Mixture": [
+            1
+          ],
+          "of": [
+            2,
+            18,
+            81,
+            90,
+            129,
+            131,
+            162
+          ],
+          "Experts": [
+            3
+          ],
+          "(MoE)": [
+            4
+          ],
+          "architecture": [
+            5
+          ],
+          "reduces": [
+            6
+          ],
+          "the": [
+            7,
+            44,
+            58,
+            79,
+            91,
+            101,
+            121,
+            154,
+            163
+          ],
+          "training": [
+            8,
+            45,
+            126,
+            164,
+            172
+          ],
+          "and": [
+            9,
+            27,
+            176,
+            184
+          ],
+          "inference": [
+            10
+          ],
+          "cost": [
+            11
+          ],
+          "significantly": [
+            12,
+            99,
+            114
+          ],
+          "compared": [
+            13
+          ],
+          "to": [
+            14,
+            40,
+            54,
+            148,
+            181
+          ],
+          "a": [
+            15,
+            33,
+            65,
+            136,
+            149
+          ],
+          "dense": [
+            16,
+            35,
+            83,
+            151
+          ],
+          "model": [
+            17,
+            31,
+            140,
+            152,
+            156,
+            174
+          ],
+          "equivalent": [
+            19
+          ],
+          "capacity.": [
+            20
+          ],
+          "Upcycling": [
+            21
+          ],
+          "is": [
+            22
+          ],
+          "an": [
+            23,
+            29
+          ],
+          "approach": [
+            24,
+            94
+          ],
+          "that": [
+            25,
+            67,
+            112
+          ],
+          "initializes": [
+            26
+          ],
+          "trains": [
+            28
+          ],
+          "MoE": [
+            30,
+            102,
+            117,
+            139
+          ],
+          "using": [
+            32
+          ],
+          "pre-trained": [
+            34,
+            82
+          ],
+          "model.": [
+            36
+          ],
+          "While": [
+            37
+          ],
+          "upcycling": [
+            38
+          ],
+          "leads": [
+            39
+          ],
+          "initial": [
+            41
+          ],
+          "performance": [
+            42,
+            56,
+            147
+          ],
+          "gains,": [
+            43
+          ],
+          "progresses": [
+            46
+          ],
+          "slower": [
+            47
+          ],
+          "than": [
+            48
+          ],
+          "when": [
+            49,
+            125
+          ],
+          "trained": [
+            50
+          ],
+          "from": [
+            51
+          ],
+          "scratch,": [
+            52
+          ],
+          "leading": [
+            53
+          ],
+          "suboptimal": [
+            55
+          ],
+          "in": [
+            57,
+            105,
+            120,
+            153
+          ],
+          "long": [
+            59,
+            122
+          ],
+          "term.": [
+            60
+          ],
+          "We": [
+            61
+          ],
+          "propose": [
+            62
+          ],
+          "Drop-Upcycling": [
+            63,
+            72,
+            113
+          ],
+          "-": [
+            64
+          ],
+          "method": [
+            66
+          ],
+          "effectively": [
+            68
+          ],
+          "addresses": [
+            69
+          ],
+          "this": [
+            70
+          ],
+          "problem.": [
+            71
+          ],
+          "combines": [
+            73
+          ],
+          "two": [
+            74
+          ],
+          "seemingly": [
+            75
+          ],
+          "contradictory": [
+            76
+          ],
+          "approaches:": [
+            77
+          ],
+          "utilizing": [
+            78
+          ],
+          "knowledge": [
+            80,
+            106
+          ],
+          "models": [
+            84
+          ],
+          "while": [
+            85,
+            158
+          ],
+          "statistically": [
+            86
+          ],
+          "re-initializing": [
+            87
+          ],
+          "some": [
+            88
+          ],
+          "parts": [
+            89
+          ],
+          "weights.": [
+            92
+          ],
+          "This": [
+            93
+          ],
+          "strategically": [
+            95
+          ],
+          "promotes": [
+            96
+          ],
+          "expert": [
+            97
+          ],
+          "specialization,": [
+            98
+          ],
+          "enhancing": [
+            100
+          ],
+          "model's": [
+            103
+          ],
+          "efficiency": [
+            104
+          ],
+          "acquisition.": [
+            107
+          ],
+          "Extensive": [
+            108
+          ],
+          "large-scale": [
+            109
+          ],
+          "experiments": [
+            110
+          ],
+          "demonstrate": [
+            111
+          ],
+          "outperforms": [
+            115
+          ],
+          "previous": [
+            116
+          ],
+          "construction": [
+            118
+          ],
+          "methods": [
+            119
+          ],
+          "term,": [
+            123
+          ],
+          "specifically": [
+            124
+          ],
+          "on": [
+            127,
+            187
+          ],
+          "hundreds": [
+            128
+          ],
+          "billions": [
+            130
+          ],
+          "tokens": [
+            132
+          ],
+          "or": [
+            133
+          ],
+          "more.": [
+            134
+          ],
+          "As": [
+            135
+          ],
+          "result,": [
+            137
+          ],
+          "our": [
+            138
+          ],
+          "with": [
+            141
+          ],
+          "5.9B": [
+            142
+          ],
+          "active": [
+            143
+          ],
+          "parameters": [
+            144
+          ],
+          "achieves": [
+            145
+          ],
+          "comparable": [
+            146
+          ],
+          "13B": [
+            150
+          ],
+          "same": [
+            155
+          ],
+          "family,": [
+            157
+          ],
+          "requiring": [
+            159
+          ],
+          "approximately": [
+            160
+          ],
+          "1/4": [
+            161
+          ],
+          "FLOPs.": [
+            165
+          ],
+          "All": [
+            166
+          ],
+          "experimental": [
+            167
+          ],
+          "resources,": [
+            168
+          ],
+          "including": [
+            169
+          ],
+          "source": [
+            170
+          ],
+          "code,": [
+            171
+          ],
+          "data,": [
+            173
+          ],
+          "checkpoints": [
+            175
+          ],
+          "logs,": [
+            177
+          ],
+          "are": [
+            178
+          ],
+          "publicly": [
+            179
+          ],
+          "available": [
+            180
+          ],
+          "promote": [
+            182
+          ],
+          "reproducibility": [
+            183
+          ],
+          "future": [
+            185
+          ],
+          "research": [
+            186
+          ],
+          "MoE.": [
+            188
+          ]
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5039154090",
+              "display_name": "Taishi Nakamura",
+              "orcid": "https://orcid.org/0000-0002-1205-3252",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-1205-3252"
+              ]
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Nakamura, Taishi",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5102966470",
+              "display_name": "Takuya Akiba",
+              "orcid": "https://orcid.org/0000-0002-8284-4375",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-8284-4375"
+              ]
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Akiba, Takuya",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5028262563",
+              "display_name": "Kazuki Fujii",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Fujii, Kazuki",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5074541536",
+              "display_name": "Yusuke Oda",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Oda, Yusuke",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5024747717",
+              "display_name": "Rio Yokota",
+              "orcid": "https://orcid.org/0000-0001-7573-7873",
+              "observed_orcids": [
+                "https://orcid.org/0000-0001-7573-7873"
+              ]
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Yokota, Rio",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": null,
+              "display_name": "Suzuki, Jun",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Suzuki, Jun",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          }
+        ],
+        "primary_location": {
+          "id": "pmh:oai:arXiv.org:2502.19261",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/2502.19261",
+          "pdf_url": "https://arxiv.org/pdf/2502.19261",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        },
+        "locations": [
+          {
+            "id": "pmh:oai:arXiv.org:2502.19261",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "http://arxiv.org/abs/2502.19261",
+            "pdf_url": "https://arxiv.org/pdf/2502.19261",
+            "source": {
+              "id": "https://openalex.org/S4306400194",
+              "display_name": "arXiv (Cornell University)",
+              "issn_l": "2331-8422",
+              "issn": [
+                "2331-8422"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I205783295",
+              "host_organization_name": "Cornell University",
+              "host_organization_lineage": [
+                "https://openalex.org/I205783295"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "text"
+          },
+          {
+            "id": "doi:10.48550/arxiv.2502.19261",
+            "doi": "https://doi.org/10.48550/arxiv.2502.19261",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.48550/arxiv.2502.19261",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306400194",
+              "display_name": "arXiv (Cornell University)",
+              "issn_l": "2331-8422",
+              "issn": [
+                "2331-8422"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I205783295",
+              "host_organization_name": "Cornell University",
+              "host_organization_lineage": [
+                "https://openalex.org/I205783295"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": null,
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "Preprint"
+          }
+        ],
+        "type": "preprint",
+        "ids": {
+          "openalex": "https://openalex.org/W4416044846",
+          "doi": "https://doi.org/10.48550/arxiv.2502.19261"
+        }
+      },
+      {
+        "id": "https://openalex.org/W4412945078",
+        "doi": "https://doi.org/10.18653/v1/2025.acl-long.816",
+        "title": "Automatic Expert Discovery in LLM Upcycling via Sparse Interpolated Mixture-of-Experts",
+        "publication_date": "2025-01-01",
+        "publication_year": 2025,
+        "cited_by_count": 0,
+        "referenced_works": [],
+        "counts_by_year": [],
+        "abstract_inverted_index": {
+          "We": [
+            0
+          ],
+          "present": [
+            1
+          ],
+          "Sparse": [
+            2
+          ],
+          "Interpolated": [
+            3
+          ],
+          "Mixture-of-Experts": [
+            4
+          ],
+          "(SIMoE)": [
+            5
+          ],
+          "instruction-tuning,": [
+            6,
+            31
+          ],
+          "an": [
+            7,
+            66,
+            98
+          ],
+          "endto-end": [
+            8
+          ],
+          "algorithm": [
+            9
+          ],
+          "designed": [
+            10
+          ],
+          "to": [
+            11,
+            58,
+            103
+          ],
+          "fine-tune": [
+            12
+          ],
+          "a": [
+            13,
+            21,
+            39,
+            47,
+            72
+          ],
+          "dense": [
+            14
+          ],
+          "pre-trained": [
+            15
+          ],
+          "Large": [
+            16
+          ],
+          "Language": [
+            17
+          ],
+          "Model": [
+            18
+          ],
+          "(LLM)": [
+            19
+          ],
+          "into": [
+            20
+          ],
+          "MoE-style": [
+            22
+          ],
+          "model": [
+            23
+          ],
+          "that": [
+            24,
+            56,
+            83
+          ],
+          "possesses": [
+            25
+          ],
+          "capabilities": [
+            26
+          ],
+          "in": [
+            27
+          ],
+          "multiple": [
+            28,
+            35
+          ],
+          "specialized": [
+            29,
+            36
+          ],
+          "domains.During": [
+            30
+          ],
+          "SIMoE": [
+            32,
+            87
+          ],
+          "automatically": [
+            33
+          ],
+          "identifies": [
+            34
+          ],
+          "experts": [
+            37
+          ],
+          "under": [
+            38
+          ],
+          "specified": [
+            40
+          ],
+          "sparsity": [
+            41
+          ],
+          "constraint,": [
+            42
+          ],
+          "with": [
+            43
+          ],
+          "each": [
+            44
+          ],
+          "expert": [
+            45,
+            68
+          ],
+          "representing": [
+            46
+          ],
+          "structurally": [
+            48
+          ],
+          "sparse": [
+            49
+          ],
+          "subset": [
+            50
+          ],
+          "of": [
+            51
+          ],
+          "the": [
+            52,
+            62
+          ],
+          "seed": [
+            53
+          ],
+          "LLM's": [
+            54
+          ],
+          "parameters": [
+            55
+          ],
+          "correspond": [
+            57
+          ],
+          "domainspecific": [
+            59
+          ],
+          "knowledge": [
+            60,
+            78
+          ],
+          "within": [
+            61
+          ],
+          "data.SIMoE": [
+            63
+          ],
+          "simultaneously": [
+            64
+          ],
+          "learns": [
+            65
+          ],
+          "input-dependent": [
+            67
+          ],
+          "merging": [
+            69
+          ],
+          "strategy": [
+            70
+          ],
+          "via": [
+            71
+          ],
+          "router": [
+            73
+          ],
+          "network,": [
+            74
+          ],
+          "leveraging": [
+            75
+          ],
+          "rich": [
+            76
+          ],
+          "cross-expert": [
+            77
+          ],
+          "for": [
+            79
+          ],
+          "superior": [
+            80
+          ],
+          "downstream": [
+            81
+          ],
+          "generalization": [
+            82
+          ],
+          "surpasses": [
+            84
+          ],
+          "existing": [
+            85
+          ],
+          "baselines.Empirically,": [
+            86
+          ],
+          "consistently": [
+            88
+          ],
+          "achieves": [
+            89
+          ],
+          "state-of-the-art": [
+            90
+          ],
+          "performance": [
+            91
+          ],
+          "on": [
+            92
+          ],
+          "common": [
+            93
+          ],
+          "instruction-tuning": [
+            94
+          ],
+          "benchmarks": [
+            95
+          ],
+          "while": [
+            96
+          ],
+          "maintaining": [
+            97
+          ],
+          "optimal": [
+            99
+          ],
+          "performance-compute": [
+            100
+          ],
+          "trade-off": [
+            101
+          ],
+          "compared": [
+            102
+          ],
+          "all": [
+            104
+          ],
+          "baselines.": [
+            105
+          ]
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5058266998",
+              "display_name": "Shengzhuang Chen",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I4210111299",
+                "display_name": "Thomson Reuters Foundation",
+                "ror": "https://ror.org/01xpmbc27",
+                "country_code": "US",
+                "type": "nonprofit",
+                "lineage": [
+                  "https://openalex.org/I4210111299"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Shengzhuang Chen",
+            "raw_affiliation_strings": [
+              "Thomson Reuters Foundational Research"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Thomson Reuters Foundational Research",
+                "institution_ids": [
+                  "https://openalex.org/I4210111299"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5011883201",
+              "display_name": "Ying Wei",
+              "orcid": "https://orcid.org/0000-0003-1662-4443",
+              "observed_orcids": [
+                "https://orcid.org/0000-0003-1662-4443"
+              ]
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I76130692",
+                "display_name": "Zhejiang University",
+                "ror": "https://ror.org/00a2xv884",
+                "country_code": "CN",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I76130692"
+                ]
+              }
+            ],
+            "countries": [
+              "CN"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Ying Wei",
+            "raw_affiliation_strings": [
+              "Zhejiang University"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Zhejiang University",
+                "institution_ids": [
+                  "https://openalex.org/I76130692"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5012775658",
+              "display_name": "Jonathan Richard Schwarz",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I4210111299",
+                "display_name": "Thomson Reuters Foundation",
+                "ror": "https://ror.org/01xpmbc27",
+                "country_code": "US",
+                "type": "nonprofit",
+                "lineage": [
+                  "https://openalex.org/I4210111299"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Jonathan Richard Schwarz",
+            "raw_affiliation_strings": [
+              "Thomson Reuters Foundational Research"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Thomson Reuters Foundational Research",
+                "institution_ids": [
+                  "https://openalex.org/I4210111299"
+                ]
+              }
+            ]
+          }
+        ],
+        "primary_location": {
+          "id": "doi:10.18653/v1/2025.acl-long.816",
+          "doi": "https://doi.org/10.18653/v1/2025.acl-long.816",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.18653/v1/2025.acl-long.816",
+          "pdf_url": "https://aclanthology.org/2025.acl-long.816.pdf",
+          "source": {
+            "id": "https://openalex.org/S4393915740",
+            "display_name": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+            "issn_l": "0736-587X",
+            "issn": [
+              "0736-587X"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [
+              "norway-1"
+            ],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "conference"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+          "raw_type": "proceedings-article"
+        },
+        "locations": [
+          {
+            "id": "doi:10.18653/v1/2025.acl-long.816",
+            "doi": "https://doi.org/10.18653/v1/2025.acl-long.816",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.18653/v1/2025.acl-long.816",
+            "pdf_url": "https://aclanthology.org/2025.acl-long.816.pdf",
+            "source": {
+              "id": "https://openalex.org/S4393915740",
+              "display_name": "Proceedings of the conference - Association for Computational Linguistics. Meeting",
+              "issn_l": "0736-587X",
+              "issn": [
+                "0736-587X"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [
+                "norway-1"
+              ],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "conference"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+            "raw_type": "proceedings-article"
+          },
+          {
+            "id": "pmh:oai:arXiv.org:2506.12597",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "http://arxiv.org/abs/2506.12597",
+            "pdf_url": "https://arxiv.org/pdf/2506.12597",
+            "source": {
+              "id": "https://openalex.org/S4306400194",
+              "display_name": "arXiv (Cornell University)",
+              "issn_l": "2331-8422",
+              "issn": [
+                "2331-8422"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I205783295",
+              "host_organization_name": "Cornell University",
+              "host_organization_lineage": [
+                "https://openalex.org/I205783295"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "text"
+          },
+          {
+            "id": "doi:10.48550/arxiv.2506.12597",
+            "doi": "https://doi.org/10.48550/arxiv.2506.12597",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.48550/arxiv.2506.12597",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306400194",
+              "display_name": "arXiv (Cornell University)",
+              "issn_l": "2331-8422",
+              "issn": [
+                "2331-8422"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I205783295",
+              "host_organization_name": "Cornell University",
+              "host_organization_lineage": [
+                "https://openalex.org/I205783295"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": null,
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "Preprint"
+          }
+        ],
+        "type": "conference-paper",
+        "ids": {
+          "openalex": "https://openalex.org/W4412945078",
+          "doi": "https://doi.org/10.18653/v1/2025.acl-long.816"
+        }
+      },
+      {
+        "id": "https://openalex.org/W4404449863",
+        "doi": "https://doi.org/10.48550/arxiv.2411.08968",
+        "title": "Sparse Upcycling: Inference Inefficient Finetuning",
+        "publication_date": "2024-11-13",
+        "publication_year": 2024,
+        "cited_by_count": 0,
+        "referenced_works": [],
+        "counts_by_year": [],
+        "abstract_inverted_index": {
+          "Small,": [
+            0
+          ],
+          "highly": [
+            1
+          ],
+          "trained,": [
+            2
+          ],
+          "open-source": [
+            3
+          ],
+          "large": [
+            4
+          ],
+          "language": [
+            5
+          ],
+          "models": [
+            6
+          ],
+          "are": [
+            7
+          ],
+          "widely": [
+            8
+          ],
+          "used": [
+            9
+          ],
+          "due": [
+            10
+          ],
+          "to": [
+            11,
+            86,
+            100,
+            126
+          ],
+          "their": [
+            12,
+            18
+          ],
+          "inference": [
+            13,
+            97,
+            105,
+            119
+          ],
+          "efficiency,": [
+            14,
+            120
+          ],
+          "but": [
+            15
+          ],
+          "further": [
+            16
+          ],
+          "improving": [
+            17
+          ],
+          "quality": [
+            19,
+            117,
+            129
+          ],
+          "remains": [
+            20
+          ],
+          "a": [
+            21,
+            26,
+            31,
+            36,
+            95
+          ],
+          "challenge.": [
+            22
+          ],
+          "Sparse": [
+            23
+          ],
+          "upcycling": [
+            24,
+            56,
+            75
+          ],
+          "is": [
+            25
+          ],
+          "promising": [
+            27
+          ],
+          "approach": [
+            28
+          ],
+          "that": [
+            29,
+            73
+          ],
+          "transforms": [
+            30
+          ],
+          "pretrained": [
+            32
+          ],
+          "dense": [
+            33
+          ],
+          "model": [
+            34,
+            63,
+            116,
+            128
+          ],
+          "into": [
+            35
+          ],
+          "Mixture-of-Experts": [
+            37
+          ],
+          "(MoE)": [
+            38
+          ],
+          "architecture,": [
+            39
+          ],
+          "increasing": [
+            40
+          ],
+          "the": [
+            41,
+            52,
+            113
+          ],
+          "model's": [
+            42
+          ],
+          "parameter": [
+            43
+          ],
+          "count": [
+            44
+          ],
+          "and": [
+            45,
+            67,
+            118,
+            130
+          ],
+          "quality.": [
+            46
+          ],
+          "In": [
+            47
+          ],
+          "this": [
+            48,
+            92
+          ],
+          "work,": [
+            49
+          ],
+          "we": [
+            50
+          ],
+          "compare": [
+            51
+          ],
+          "effectiveness": [
+            53
+          ],
+          "of": [
+            54,
+            82
+          ],
+          "sparse": [
+            55,
+            74
+          ],
+          "against": [
+            57
+          ],
+          "continued": [
+            58
+          ],
+          "pretraining": [
+            59,
+            68
+          ],
+          "(CPT)": [
+            60
+          ],
+          "across": [
+            61
+          ],
+          "different": [
+            62
+          ],
+          "sizes,": [
+            64
+          ],
+          "compute": [
+            65
+          ],
+          "budgets,": [
+            66
+          ],
+          "durations.": [
+            69
+          ],
+          "Our": [
+            70,
+            110
+          ],
+          "experiments": [
+            71
+          ],
+          "show": [
+            72
+          ],
+          "can": [
+            76
+          ],
+          "achieve": [
+            77
+          ],
+          "better": [
+            78
+          ],
+          "quality,": [
+            79
+          ],
+          "with": [
+            80,
+            94
+          ],
+          "improvements": [
+            81
+          ],
+          "over": [
+            83
+          ],
+          "20%": [
+            84
+          ],
+          "relative": [
+            85
+          ],
+          "CPT": [
+            87
+          ],
+          "in": [
+            88,
+            103
+          ],
+          "certain": [
+            89
+          ],
+          "scenarios.": [
+            90
+          ],
+          "However,": [
+            91
+          ],
+          "comes": [
+            93
+          ],
+          "significant": [
+            96
+          ],
+          "cost,": [
+            98
+          ],
+          "leading": [
+            99
+          ],
+          "40%": [
+            101
+          ],
+          "slowdowns": [
+            102
+          ],
+          "high-demand": [
+            104
+          ],
+          "settings": [
+            106
+          ],
+          "for": [
+            107,
+            123
+          ],
+          "larger": [
+            108
+          ],
+          "models.": [
+            109
+          ],
+          "findings": [
+            111
+          ],
+          "highlight": [
+            112
+          ],
+          "trade-off": [
+            114
+          ],
+          "between": [
+            115
+          ],
+          "offering": [
+            121
+          ],
+          "insights": [
+            122
+          ],
+          "practitioners": [
+            124
+          ],
+          "seeking": [
+            125
+          ],
+          "balance": [
+            127
+          ],
+          "deployment": [
+            131
+          ],
+          "constraints.": [
+            132
+          ]
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5009891863",
+              "display_name": "Sasha Doubov",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Doubov, Sasha",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5048231039",
+              "display_name": "Nikhil Sardana",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Sardana, Nikhil",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5077677461",
+              "display_name": "Vitaliy Chiley",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Chiley, Vitaliy",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          }
+        ],
+        "primary_location": {
+          "id": "pmh:oai:arXiv.org:2411.08968",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/2411.08968",
+          "pdf_url": "https://arxiv.org/pdf/2411.08968",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        },
+        "locations": [
+          {
+            "id": "pmh:oai:arXiv.org:2411.08968",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "http://arxiv.org/abs/2411.08968",
+            "pdf_url": "https://arxiv.org/pdf/2411.08968",
+            "source": {
+              "id": "https://openalex.org/S4306400194",
+              "display_name": "arXiv (Cornell University)",
+              "issn_l": "2331-8422",
+              "issn": [
+                "2331-8422"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I205783295",
+              "host_organization_name": "Cornell University",
+              "host_organization_lineage": [
+                "https://openalex.org/I205783295"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "text"
+          },
+          {
+            "id": "doi:10.48550/arxiv.2411.08968",
+            "doi": "https://doi.org/10.48550/arxiv.2411.08968",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.48550/arxiv.2411.08968",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306400194",
+              "display_name": "arXiv (Cornell University)",
+              "issn_l": "2331-8422",
+              "issn": [
+                "2331-8422"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I205783295",
+              "host_organization_name": "Cornell University",
+              "host_organization_lineage": [
+                "https://openalex.org/I205783295"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": null,
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "Preprint"
+          }
+        ],
+        "type": "preprint",
+        "ids": {
+          "openalex": "https://openalex.org/W4404449863",
+          "doi": "https://doi.org/10.48550/arxiv.2411.08968"
+        }
+      }
+    ],
+    "group_by": []
+  }
+}

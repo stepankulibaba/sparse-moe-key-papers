@@ -1,0 +1,718 @@
+{
+  "retrieved_at_utc": "2026-11-04T06:47:46.138085+00:00",
+  "url": "https://api.openalex.org/works?filter=title.search%3Afastmoe%2Cfrom_publication_date%3A2017-01-01%2Cto_publication_date%3A2025-12-31&sort=cited_by_count%3Adesc&per_page=20&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cpublication_year%2Ccited_by_count%2Creferenced_works%2Ccounts_by_year%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location%2Clocations%2Ctype%2Cids",
+  "status_code": 200,
+  "body": {
+    "meta": {
+      "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+      "count": 1,
+      "db_response_time_ms": 13,
+      "page": 1,
+      "per_page": 20,
+      "groups_count": null,
+      "x_query": {
+        "oql": "get works from 2017-01-01 through 2025-12-31 with fastmoe in the title, most cited first",
+        "x_new_oql": "get works from 2017-01-01 through 2025-12-31 with fastmoe in the title, most cited first",
+        "oqo": {
+          "get_rows": "works",
+          "filter_rows": [
+            {
+              "column_id": "display_name.search",
+              "value": "fastmoe",
+              "operator": "has"
+            },
+            {
+              "column_id": "from_publication_date",
+              "value": "2017-01-01"
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "2025-12-31"
+            }
+          ],
+          "sort_by": [
+            {
+              "column_id": "cited_by_count",
+              "direction": "desc"
+            }
+          ]
+        },
+        "url": "/works?filter=display_name.search:fastmoe,from_publication_date:2017-01-01,to_publication_date:2025-12-31&sort=cited_by_count:desc&per_page=20",
+        "order": "most cited first",
+        "order_default": false
+      },
+      "cost_usd": 0.001
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W3138895808",
+        "doi": "https://doi.org/10.48550/arxiv.2103.13262",
+        "title": "FastMoE: A Fast Mixture-of-Expert Training System",
+        "publication_date": "2021-03-24",
+        "publication_year": 2021,
+        "cited_by_count": 44,
+        "referenced_works": [
+          "https://openalex.org/W2606722458",
+          "https://openalex.org/W2900096133",
+          "https://openalex.org/W2950813464",
+          "https://openalex.org/W2952339051",
+          "https://openalex.org/W2953212265",
+          "https://openalex.org/W2963310665",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2963418779",
+          "https://openalex.org/W2965373594",
+          "https://openalex.org/W2973727699",
+          "https://openalex.org/W2990704537",
+          "https://openalex.org/W3001279689",
+          "https://openalex.org/W3030163527",
+          "https://openalex.org/W3040573126",
+          "https://openalex.org/W3082274269",
+          "https://openalex.org/W3119866685"
+        ],
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 1
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 5
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 14
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 10
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 9
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 5
+          }
+        ],
+        "abstract_inverted_index": {
+          "Mixture-of-Expert": [
+            0
+          ],
+          "(MoE)": [
+            1
+          ],
+          "presents": [
+            2
+          ],
+          "a": [
+            3,
+            27,
+            74,
+            88
+          ],
+          "strong": [
+            4
+          ],
+          "potential": [
+            5
+          ],
+          "in": [
+            6,
+            122
+          ],
+          "enlarging": [
+            7,
+            142
+          ],
+          "the": [
+            8,
+            35,
+            41,
+            61,
+            116,
+            143,
+            149
+          ],
+          "size": [
+            9
+          ],
+          "of": [
+            10,
+            15,
+            111,
+            145,
+            151,
+            155
+          ],
+          "language": [
+            11
+          ],
+          "model": [
+            12,
+            94
+          ],
+          "to": [
+            13,
+            60,
+            99
+          ],
+          "trillions": [
+            14
+          ],
+          "parameters.": [
+            16
+          ],
+          "However,": [
+            17
+          ],
+          "training": [
+            18,
+            32,
+            77,
+            117
+          ],
+          "trillion-scale": [
+            19
+          ],
+          "MoE": [
+            20,
+            76,
+            112
+          ],
+          "requires": [
+            21
+          ],
+          "algorithm": [
+            22
+          ],
+          "and": [
+            23,
+            49,
+            54,
+            58,
+            65,
+            96,
+            105
+          ],
+          "system": [
+            24,
+            78,
+            86,
+            130
+          ],
+          "co-design": [
+            25
+          ],
+          "for": [
+            26,
+            91
+          ],
+          "well-tuned": [
+            28
+          ],
+          "high": [
+            29
+          ],
+          "performance": [
+            30
+          ],
+          "distributed": [
+            31,
+            75
+          ],
+          "system.": [
+            33
+          ],
+          "Unfortunately,": [
+            34
+          ],
+          "only": [
+            36
+          ],
+          "existing": [
+            37
+          ],
+          "platform": [
+            38
+          ],
+          "that": [
+            39
+          ],
+          "meets": [
+            40
+          ],
+          "requirements": [
+            42
+          ],
+          "strongly": [
+            43
+          ],
+          "depends": [
+            44
+          ],
+          "on": [
+            45,
+            80,
+            135
+          ],
+          "Google's": [
+            46
+          ],
+          "hardware": [
+            47
+          ],
+          "(TPU)": [
+            48
+          ],
+          "software": [
+            50
+          ],
+          "(Mesh": [
+            51
+          ],
+          "Tensorflow)": [
+            52
+          ],
+          "stack,": [
+            53
+          ],
+          "is": [
+            55,
+            119,
+            157
+          ],
+          "not": [
+            56
+          ],
+          "open": [
+            57
+          ],
+          "available": [
+            59,
+            158
+          ],
+          "public,": [
+            62
+          ],
+          "especially": [
+            63
+          ],
+          "GPU": [
+            64
+          ],
+          "PyTorch": [
+            66,
+            81
+          ],
+          "communities.": [
+            67
+          ],
+          "In": [
+            68
+          ],
+          "this": [
+            69
+          ],
+          "paper,": [
+            70
+          ],
+          "we": [
+            71
+          ],
+          "present": [
+            72
+          ],
+          "FastMoE,": [
+            73
+          ],
+          "based": [
+            79
+          ],
+          "with": [
+            82
+          ],
+          "common": [
+            83
+          ],
+          "accelerators.": [
+            84
+          ],
+          "The": [
+            85,
+            129,
+            153
+          ],
+          "provides": [
+            87
+          ],
+          "hierarchical": [
+            89
+          ],
+          "interface": [
+            90
+          ],
+          "both": [
+            92
+          ],
+          "flexible": [
+            93
+          ],
+          "design": [
+            95
+          ],
+          "easy": [
+            97
+          ],
+          "adaption": [
+            98
+          ],
+          "different": [
+            100,
+            133
+          ],
+          "applications,": [
+            101
+          ],
+          "such": [
+            102
+          ],
+          "as": [
+            103
+          ],
+          "Transformer-XL": [
+            104
+          ],
+          "Megatron-LM.": [
+            106
+          ],
+          "Different": [
+            107
+          ],
+          "from": [
+            108
+          ],
+          "direct": [
+            109
+          ],
+          "implementation": [
+            110
+          ],
+          "models": [
+            113
+          ],
+          "using": [
+            114
+          ],
+          "PyTorch,": [
+            115
+          ],
+          "speed": [
+            118
+          ],
+          "highly": [
+            120
+          ],
+          "optimized": [
+            121
+          ],
+          "FastMoE": [
+            123,
+            156
+          ],
+          "by": [
+            124
+          ],
+          "sophisticated": [
+            125
+          ],
+          "high-performance": [
+            126
+          ],
+          "acceleration": [
+            127
+          ],
+          "skills.": [
+            128
+          ],
+          "supports": [
+            131
+          ],
+          "placing": [
+            132
+          ],
+          "experts": [
+            134,
+            146
+          ],
+          "multiple": [
+            136,
+            139
+          ],
+          "GPUs": [
+            137
+          ],
+          "across": [
+            138
+          ],
+          "nodes,": [
+            140
+          ],
+          "enabling": [
+            141
+          ],
+          "number": [
+            144,
+            150
+          ],
+          "linearly": [
+            147
+          ],
+          "against": [
+            148
+          ],
+          "GPUs.": [
+            152
+          ],
+          "source": [
+            154
+          ],
+          "at": [
+            159
+          ],
+          "https://github.com/laekov/fastmoe": [
+            160
+          ],
+          "under": [
+            161
+          ],
+          "Apache-2": [
+            162
+          ],
+          "license.": [
+            163
+          ]
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5066744881",
+              "display_name": "Jiaao He",
+              "orcid": "https://orcid.org/0000-0001-8578-5158",
+              "observed_orcids": [
+                "https://orcid.org/0000-0001-8578-5158"
+              ]
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "He, Jiaao",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5083333630",
+              "display_name": "Jiezhong Qiu",
+              "orcid": "https://orcid.org/0000-0001-9514-0708",
+              "observed_orcids": [
+                "https://orcid.org/0000-0001-9514-0708"
+              ]
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Qiu, Jiezhong",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5005277155",
+              "display_name": "Aohan Zeng",
+              "orcid": "https://orcid.org/0000-0002-8766-0153",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-8766-0153"
+              ]
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Zeng, Aohan",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5050303775",
+              "display_name": "Zhilin Yang",
+              "orcid": "https://orcid.org/0000-0003-0944-4903",
+              "observed_orcids": [
+                "https://orcid.org/0000-0003-0944-4903",
+                "https://orcid.org/0000-0002-8598-922X"
+              ]
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Yang, Zhilin",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5071200777",
+              "display_name": "Jidong Zhai",
+              "orcid": "https://orcid.org/0000-0002-7656-6428",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-7656-6428"
+              ]
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Zhai, Jidong",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5044791875",
+              "display_name": "Jie Tang",
+              "orcid": "https://orcid.org/0000-0003-3487-4593",
+              "observed_orcids": [
+                "https://orcid.org/0000-0003-3487-4593"
+              ]
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Tang, Jie",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          }
+        ],
+        "primary_location": {
+          "id": "pmh:oai:arXiv.org:2103.13262",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/2103.13262",
+          "pdf_url": "https://arxiv.org/pdf/2103.13262",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        },
+        "locations": [
+          {
+            "id": "pmh:oai:arXiv.org:2103.13262",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "http://arxiv.org/abs/2103.13262",
+            "pdf_url": "https://arxiv.org/pdf/2103.13262",
+            "source": {
+              "id": "https://openalex.org/S4306400194",
+              "display_name": "arXiv (Cornell University)",
+              "issn_l": "2331-8422",
+              "issn": [
+                "2331-8422"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I205783295",
+              "host_organization_name": "Cornell University",
+              "host_organization_lineage": [
+                "https://openalex.org/I205783295"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "text"
+          },
+          {
+            "id": "doi:10.48550/arxiv.2103.13262",
+            "doi": "https://doi.org/10.48550/arxiv.2103.13262",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.48550/arxiv.2103.13262",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306400194",
+              "display_name": "arXiv (Cornell University)",
+              "issn_l": "2331-8422",
+              "issn": [
+                "2331-8422"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I205783295",
+              "host_organization_name": "Cornell University",
+              "host_organization_lineage": [
+                "https://openalex.org/I205783295"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": null,
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "Preprint"
+          }
+        ],
+        "type": "preprint",
+        "ids": {
+          "openalex": "https://openalex.org/W3138895808",
+          "doi": "https://doi.org/10.48550/arxiv.2103.13262",
+          "mag": "3138895808"
+        }
+      }
+    ],
+    "group_by": []
+  }
+}

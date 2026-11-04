@@ -1,0 +1,1731 @@
+{
+  "retrieved_at_utc": "2026-11-04T06:47:33.902595+00:00",
+  "url": "https://api.openalex.org/works?filter=title.search%3Agshard%2Cfrom_publication_date%3A2017-01-01%2Cto_publication_date%3A2025-12-31&sort=cited_by_count%3Adesc&per_page=30&select=id%2Cdoi%2Ctitle%2Cpublication_date%2Cpublication_year%2Ccited_by_count%2Creferenced_works%2Ccounts_by_year%2Cabstract_inverted_index%2Cauthorships%2Cprimary_location%2Clocations%2Ctype%2Cids",
+  "status_code": 200,
+  "body": {
+    "meta": {
+      "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+      "count": 2,
+      "db_response_time_ms": 10,
+      "page": 1,
+      "per_page": 30,
+      "groups_count": null,
+      "x_query": {
+        "oql": "get works from 2017-01-01 through 2025-12-31 with gshard in the title, most cited first",
+        "x_new_oql": "get works from 2017-01-01 through 2025-12-31 with gshard in the title, most cited first",
+        "oqo": {
+          "get_rows": "works",
+          "filter_rows": [
+            {
+              "column_id": "display_name.search",
+              "value": "gshard",
+              "operator": "has"
+            },
+            {
+              "column_id": "from_publication_date",
+              "value": "2017-01-01"
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "2025-12-31"
+            }
+          ],
+          "sort_by": [
+            {
+              "column_id": "cited_by_count",
+              "direction": "desc"
+            }
+          ]
+        },
+        "url": "/works?filter=display_name.search:gshard,from_publication_date:2017-01-01,to_publication_date:2025-12-31&sort=cited_by_count:desc&per_page=30",
+        "order": "most cited first",
+        "order_default": false
+      },
+      "cost_usd": 0.001
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W3040573126",
+        "doi": "https://doi.org/10.48550/arxiv.2006.16668",
+        "title": "GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding",
+        "publication_date": "2020-06-30",
+        "publication_year": 2020,
+        "cited_by_count": 422,
+        "referenced_works": [
+          "https://openalex.org/W1575350781",
+          "https://openalex.org/W1598993252",
+          "https://openalex.org/W1606347560",
+          "https://openalex.org/W1665214252",
+          "https://openalex.org/W2012645943",
+          "https://openalex.org/W2028499920",
+          "https://openalex.org/W2097117768",
+          "https://openalex.org/W2101096097",
+          "https://openalex.org/W2101105183",
+          "https://openalex.org/W2120432001",
+          "https://openalex.org/W2130942839",
+          "https://openalex.org/W2132424367",
+          "https://openalex.org/W2154432883",
+          "https://openalex.org/W2160815625",
+          "https://openalex.org/W2168231600",
+          "https://openalex.org/W2194775991",
+          "https://openalex.org/W2229833550",
+          "https://openalex.org/W2242818861",
+          "https://openalex.org/W2302255633",
+          "https://openalex.org/W2327501763",
+          "https://openalex.org/W2402144811",
+          "https://openalex.org/W2519091744",
+          "https://openalex.org/W2525778437",
+          "https://openalex.org/W2550821151",
+          "https://openalex.org/W2606722458",
+          "https://openalex.org/W2626778328",
+          "https://openalex.org/W2763894180",
+          "https://openalex.org/W2775304348",
+          "https://openalex.org/W2785533664",
+          "https://openalex.org/W2788800397",
+          "https://openalex.org/W2797328513",
+          "https://openalex.org/W2798341898",
+          "https://openalex.org/W2799269579",
+          "https://openalex.org/W2805003733",
+          "https://openalex.org/W2805566098",
+          "https://openalex.org/W2807147113",
+          "https://openalex.org/W2884700152",
+          "https://openalex.org/W2885185669",
+          "https://openalex.org/W2888520903",
+          "https://openalex.org/W2894522208",
+          "https://openalex.org/W2899771611",
+          "https://openalex.org/W2899971035",
+          "https://openalex.org/W2900096133",
+          "https://openalex.org/W2901299405",
+          "https://openalex.org/W2907047316",
+          "https://openalex.org/W2928941594",
+          "https://openalex.org/W2936599103",
+          "https://openalex.org/W2943845043",
+          "https://openalex.org/W2950220847",
+          "https://openalex.org/W2952339051",
+          "https://openalex.org/W2952355681",
+          "https://openalex.org/W2953212265",
+          "https://openalex.org/W2958953787",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2963542740",
+          "https://openalex.org/W2963739978",
+          "https://openalex.org/W2964072166",
+          "https://openalex.org/W2964243274",
+          "https://openalex.org/W2964308564",
+          "https://openalex.org/W2973727699",
+          "https://openalex.org/W2977720775",
+          "https://openalex.org/W2983040767",
+          "https://openalex.org/W2988394319",
+          "https://openalex.org/W2990313413",
+          "https://openalex.org/W2995983533",
+          "https://openalex.org/W3001279689",
+          "https://openalex.org/W3006292807",
+          "https://openalex.org/W3009610697",
+          "https://openalex.org/W3021234081",
+          "https://openalex.org/W3030163527",
+          "https://openalex.org/W3034119625",
+          "https://openalex.org/W3081331745",
+          "https://openalex.org/W3082274269",
+          "https://openalex.org/W3129831491"
+        ],
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 9
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 69
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 88
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 102
+          },
+          {
+            "year": 2022,
+            "cited_by_count": 67
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 66
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 20
+          },
+          {
+            "year": 2019,
+            "cited_by_count": 1
+          }
+        ],
+        "abstract_inverted_index": {
+          "Neural": [
+            0
+          ],
+          "network": [
+            1
+          ],
+          "scaling": [
+            2,
+            29
+          ],
+          "has": [
+            3
+          ],
+          "been": [
+            4
+          ],
+          "critical": [
+            5
+          ],
+          "for": [
+            6,
+            37,
+            148
+          ],
+          "improving": [
+            7
+          ],
+          "the": [
+            8,
+            45,
+            49,
+            77,
+            98,
+            157
+          ],
+          "model": [
+            9,
+            39,
+            100,
+            113,
+            130
+          ],
+          "quality": [
+            10,
+            147
+          ],
+          "in": [
+            11,
+            140
+          ],
+          "many": [
+            12
+          ],
+          "real-world": [
+            13
+          ],
+          "machine": [
+            14,
+            110
+          ],
+          "learning": [
+            15
+          ],
+          "applications": [
+            16
+          ],
+          "with": [
+            17,
+            94,
+            114
+          ],
+          "vast": [
+            18
+          ],
+          "amounts": [
+            19
+          ],
+          "of": [
+            20,
+            28,
+            53,
+            66,
+            69,
+            90
+          ],
+          "training": [
+            21
+          ],
+          "data": [
+            22
+          ],
+          "and": [
+            23,
+            55,
+            73
+          ],
+          "compute.": [
+            24
+          ],
+          "Although": [
+            25
+          ],
+          "this": [
+            26
+          ],
+          "trend": [
+            27
+          ],
+          "is": [
+            30,
+            62
+          ],
+          "affirmed": [
+            31
+          ],
+          "to": [
+            32,
+            76,
+            85,
+            97,
+            105,
+            143,
+            153,
+            156
+          ],
+          "be": [
+            33,
+            133
+          ],
+          "a": [
+            34,
+            63,
+            67,
+            87,
+            128
+          ],
+          "sure-fire": [
+            35
+          ],
+          "approach": [
+            36
+          ],
+          "better": [
+            38
+          ],
+          "quality,": [
+            40
+          ],
+          "there": [
+            41
+          ],
+          "are": [
+            42
+          ],
+          "challenges": [
+            43
+          ],
+          "on": [
+            44,
+            58,
+            135
+          ],
+          "path": [
+            46
+          ],
+          "such": [
+            47,
+            127
+          ],
+          "as": [
+            48
+          ],
+          "computation": [
+            50,
+            92
+          ],
+          "cost,": [
+            51
+          ],
+          "ease": [
+            52
+          ],
+          "programming,": [
+            54
+          ],
+          "efficient": [
+            56
+          ],
+          "implementation": [
+            57
+          ],
+          "parallel": [
+            59,
+            91
+          ],
+          "devices.": [
+            60
+          ],
+          "GShard": [
+            61,
+            102
+          ],
+          "module": [
+            64
+          ],
+          "composed": [
+            65
+          ],
+          "set": [
+            68
+          ],
+          "lightweight": [
+            70
+          ],
+          "annotation": [
+            71
+          ],
+          "APIs": [
+            72
+          ],
+          "an": [
+            74,
+            82
+          ],
+          "extension": [
+            75
+          ],
+          "XLA": [
+            78
+          ],
+          "compiler.": [
+            79
+          ],
+          "It": [
+            80
+          ],
+          "provides": [
+            81
+          ],
+          "elegant": [
+            83
+          ],
+          "way": [
+            84
+          ],
+          "express": [
+            86
+          ],
+          "wide": [
+            88
+          ],
+          "range": [
+            89
+          ],
+          "patterns": [
+            93
+          ],
+          "minimal": [
+            95
+          ],
+          "changes": [
+            96
+          ],
+          "existing": [
+            99
+          ],
+          "code.": [
+            101
+          ],
+          "enabled": [
+            103
+          ],
+          "us": [
+            104
+          ],
+          "scale": [
+            106
+          ],
+          "up": [
+            107
+          ],
+          "multilingual": [
+            108
+          ],
+          "neural": [
+            109
+          ],
+          "translation": [
+            111,
+            149
+          ],
+          "Transformer": [
+            112
+          ],
+          "Sparsely-Gated": [
+            115
+          ],
+          "Mixture-of-Experts": [
+            116
+          ],
+          "beyond": [
+            117
+          ],
+          "600": [
+            118
+          ],
+          "billion": [
+            119
+          ],
+          "parameters": [
+            120
+          ],
+          "using": [
+            121
+          ],
+          "automatic": [
+            122
+          ],
+          "sharding.": [
+            123
+          ],
+          "We": [
+            124
+          ],
+          "demonstrate": [
+            125
+          ],
+          "that": [
+            126
+          ],
+          "giant": [
+            129
+          ],
+          "can": [
+            131
+          ],
+          "efficiently": [
+            132
+          ],
+          "trained": [
+            134
+          ],
+          "2048": [
+            136
+          ],
+          "TPU": [
+            137
+          ],
+          "v3": [
+            138
+          ],
+          "accelerators": [
+            139
+          ],
+          "4": [
+            141
+          ],
+          "days": [
+            142
+          ],
+          "achieve": [
+            144
+          ],
+          "far": [
+            145
+          ],
+          "superior": [
+            146
+          ],
+          "from": [
+            150
+          ],
+          "100": [
+            151
+          ],
+          "languages": [
+            152
+          ],
+          "English": [
+            154
+          ],
+          "compared": [
+            155
+          ],
+          "prior": [
+            158
+          ],
+          "art.": [
+            159
+          ]
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5049203448",
+              "display_name": "Dmitry Lepikhin",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Lepikhin, Dmitry",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5047315031",
+              "display_name": "HyoukJoong Lee",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Lee, HyoukJoong",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5081428852",
+              "display_name": "Yuanzhong Xu",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Xu, Yuanzhong",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5074350356",
+              "display_name": "Dehao Chen",
+              "orcid": "https://orcid.org/0000-0003-4482-0329",
+              "observed_orcids": [
+                "https://orcid.org/0000-0003-4482-0329",
+                "https://orcid.org/0000-0001-5849-7492"
+              ]
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Chen, Dehao",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5035914396",
+              "display_name": "Orhan Fırat",
+              "orcid": "https://orcid.org/0000-0001-5775-2420",
+              "observed_orcids": [
+                "https://orcid.org/0000-0001-5775-2420"
+              ]
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Firat, Orhan",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5033809109",
+              "display_name": "Yanping Huang",
+              "orcid": "https://orcid.org/0000-0002-4430-3965",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-4430-3965"
+              ]
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Huang, Yanping",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5014055962",
+              "display_name": "Maxim Krikun",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Krikun, Maxim",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5021878400",
+              "display_name": "Noam Shazeer",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Shazeer, Noam",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5100715425",
+              "display_name": "Zhifeng Chen",
+              "orcid": "https://orcid.org/0000-0001-8901-1002",
+              "observed_orcids": [
+                "https://orcid.org/0000-0001-8901-1002"
+              ]
+            },
+            "institutions": [],
+            "countries": [],
+            "is_corresponding": false,
+            "raw_author_name": "Chen, Zhifeng",
+            "raw_affiliation_strings": [],
+            "raw_orcid": null,
+            "affiliations": []
+          }
+        ],
+        "primary_location": {
+          "id": "pmh:oai:arXiv.org:2006.16668",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/2006.16668",
+          "pdf_url": "https://arxiv.org/pdf/2006.16668",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        },
+        "locations": [
+          {
+            "id": "pmh:oai:arXiv.org:2006.16668",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "http://arxiv.org/abs/2006.16668",
+            "pdf_url": "https://arxiv.org/pdf/2006.16668",
+            "source": {
+              "id": "https://openalex.org/S4306400194",
+              "display_name": "arXiv (Cornell University)",
+              "issn_l": "2331-8422",
+              "issn": [
+                "2331-8422"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I205783295",
+              "host_organization_name": "Cornell University",
+              "host_organization_lineage": [
+                "https://openalex.org/I205783295"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "text"
+          },
+          {
+            "id": "doi:10.48550/arxiv.2006.16668",
+            "doi": "https://doi.org/10.48550/arxiv.2006.16668",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.48550/arxiv.2006.16668",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306400194",
+              "display_name": "arXiv (Cornell University)",
+              "issn_l": "2331-8422",
+              "issn": [
+                "2331-8422"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I205783295",
+              "host_organization_name": "Cornell University",
+              "host_organization_lineage": [
+                "https://openalex.org/I205783295"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": null,
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "Preprint"
+          }
+        ],
+        "type": "preprint",
+        "ids": {
+          "openalex": "https://openalex.org/W3040573126",
+          "doi": "https://doi.org/10.48550/arxiv.2006.16668",
+          "mag": "3040573126"
+        }
+      },
+      {
+        "id": "https://openalex.org/W3122317902",
+        "doi": null,
+        "title": "GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding",
+        "publication_date": "2021-05-03",
+        "publication_year": 2021,
+        "cited_by_count": 50,
+        "referenced_works": [
+          "https://openalex.org/W1598993252",
+          "https://openalex.org/W1606347560",
+          "https://openalex.org/W2028499920",
+          "https://openalex.org/W2101105183",
+          "https://openalex.org/W2120432001",
+          "https://openalex.org/W2132424367",
+          "https://openalex.org/W2154432883",
+          "https://openalex.org/W2160815625",
+          "https://openalex.org/W2168231600",
+          "https://openalex.org/W2194775991",
+          "https://openalex.org/W2229833550",
+          "https://openalex.org/W2242818861",
+          "https://openalex.org/W2302255633",
+          "https://openalex.org/W2327501763",
+          "https://openalex.org/W2402144811",
+          "https://openalex.org/W2519091744",
+          "https://openalex.org/W2550821151",
+          "https://openalex.org/W2606722458",
+          "https://openalex.org/W2763894180",
+          "https://openalex.org/W2775304348",
+          "https://openalex.org/W2788800397",
+          "https://openalex.org/W2799269579",
+          "https://openalex.org/W2805566098",
+          "https://openalex.org/W2807147113",
+          "https://openalex.org/W2884700152",
+          "https://openalex.org/W2885185669",
+          "https://openalex.org/W2894522208",
+          "https://openalex.org/W2899771611",
+          "https://openalex.org/W2900096133",
+          "https://openalex.org/W2901299405",
+          "https://openalex.org/W2907047316",
+          "https://openalex.org/W2915573484",
+          "https://openalex.org/W2919290281",
+          "https://openalex.org/W2952339051",
+          "https://openalex.org/W2958953787",
+          "https://openalex.org/W2963341956",
+          "https://openalex.org/W2964072166",
+          "https://openalex.org/W2964243274",
+          "https://openalex.org/W2964308564",
+          "https://openalex.org/W2973618001",
+          "https://openalex.org/W2973727699",
+          "https://openalex.org/W2977720775",
+          "https://openalex.org/W2983040767",
+          "https://openalex.org/W2988394319",
+          "https://openalex.org/W2990313413",
+          "https://openalex.org/W3001279689",
+          "https://openalex.org/W3006292807",
+          "https://openalex.org/W3030163527",
+          "https://openalex.org/W3034119625",
+          "https://openalex.org/W3081331745"
+        ],
+        "counts_by_year": [
+          {
+            "year": 2022,
+            "cited_by_count": 2
+          },
+          {
+            "year": 2021,
+            "cited_by_count": 40
+          },
+          {
+            "year": 2020,
+            "cited_by_count": 8
+          }
+        ],
+        "abstract_inverted_index": {
+          "Neural": [
+            0
+          ],
+          "network": [
+            1
+          ],
+          "scaling": [
+            2,
+            29
+          ],
+          "has": [
+            3
+          ],
+          "been": [
+            4
+          ],
+          "critical": [
+            5
+          ],
+          "for": [
+            6,
+            37,
+            161
+          ],
+          "improving": [
+            7
+          ],
+          "the": [
+            8,
+            45,
+            49,
+            71,
+            101,
+            170
+          ],
+          "model": [
+            9,
+            39,
+            129,
+            139
+          ],
+          "quality": [
+            10,
+            160
+          ],
+          "in": [
+            11,
+            153
+          ],
+          "many": [
+            12
+          ],
+          "real-world": [
+            13
+          ],
+          "machine": [
+            14,
+            126
+          ],
+          "learning": [
+            15
+          ],
+          "applications": [
+            16
+          ],
+          "with": [
+            17,
+            109,
+            130,
+            140
+          ],
+          "vast": [
+            18
+          ],
+          "amounts": [
+            19
+          ],
+          "of": [
+            20,
+            28,
+            52,
+            85,
+            90,
+            93,
+            113
+          ],
+          "training": [
+            21
+          ],
+          "data": [
+            22
+          ],
+          "and": [
+            23,
+            54,
+            75,
+            79,
+            97,
+            116
+          ],
+          "compute.": [
+            24
+          ],
+          "Although": [
+            25
+          ],
+          "this": [
+            26,
+            61
+          ],
+          "trend": [
+            27
+          ],
+          "is": [
+            30
+          ],
+          "affirmed": [
+            31
+          ],
+          "to": [
+            32,
+            70,
+            100,
+            104,
+            111,
+            121,
+            156,
+            166,
+            169
+          ],
+          "be": [
+            33,
+            146
+          ],
+          "a": [
+            34,
+            68,
+            87,
+            91,
+            137
+          ],
+          "sure-fire": [
+            35
+          ],
+          "approach": [
+            36
+          ],
+          "better": [
+            38
+          ],
+          "quality,": [
+            40
+          ],
+          "there": [
+            41
+          ],
+          "are": [
+            42
+          ],
+          "challenges": [
+            43
+          ],
+          "on": [
+            44,
+            57,
+            148
+          ],
+          "path": [
+            46
+          ],
+          "such": [
+            47,
+            136
+          ],
+          "as": [
+            48,
+            67
+          ],
+          "computation": [
+            50,
+            66,
+            118
+          ],
+          "cost,ease": [
+            51
+          ],
+          "programming,": [
+            53
+          ],
+          "efficient": [
+            55
+          ],
+          "implementation": [
+            56
+          ],
+          "parallel": [
+            58
+          ],
+          "devices.": [
+            59
+          ],
+          "In": [
+            60
+          ],
+          "paper": [
+            62
+          ],
+          "we": [
+            63
+          ],
+          "demonstrate": [
+            64,
+            76,
+            134
+          ],
+          "conditional": [
+            65,
+            117
+          ],
+          "remedy": [
+            69
+          ],
+          "above": [
+            72
+          ],
+          "mentioned": [
+            73
+          ],
+          "impediments,": [
+            74
+          ],
+          "its": [
+            77
+          ],
+          "efficacy": [
+            78
+          ],
+          "utility.": [
+            80
+          ],
+          "We": [
+            81,
+            133
+          ],
+          "make": [
+            82
+          ],
+          "extensive": [
+            83
+          ],
+          "use": [
+            84
+          ],
+          "GShard,": [
+            86
+          ],
+          "module": [
+            88
+          ],
+          "composed": [
+            89
+          ],
+          "set": [
+            92
+          ],
+          "lightweight": [
+            94
+          ],
+          "annotation": [
+            95
+          ],
+          "APIs": [
+            96
+          ],
+          "an": [
+            98
+          ],
+          "extension": [
+            99
+          ],
+          "XLA": [
+            102
+          ],
+          "compiler": [
+            103
+          ],
+          "enable": [
+            105,
+            119
+          ],
+          "large": [
+            106
+          ],
+          "scale": [
+            107,
+            122
+          ],
+          "models": [
+            108
+          ],
+          "up": [
+            110,
+            123
+          ],
+          "trillions": [
+            112
+          ],
+          "parameters.": [
+            114
+          ],
+          "GShard": [
+            115
+          ],
+          "us": [
+            120
+          ],
+          "multilingual": [
+            124
+          ],
+          "neural": [
+            125
+          ],
+          "translation": [
+            127,
+            162
+          ],
+          "Transformer": [
+            128
+          ],
+          "Sparsely-Gated": [
+            131
+          ],
+          "Mixture-of-Experts.": [
+            132
+          ],
+          "that": [
+            135
+          ],
+          "giant": [
+            138
+          ],
+          "600": [
+            141
+          ],
+          "billion": [
+            142
+          ],
+          "parameters": [
+            143
+          ],
+          "can": [
+            144
+          ],
+          "efficiently": [
+            145
+          ],
+          "trained": [
+            147
+          ],
+          "2048": [
+            149
+          ],
+          "TPU": [
+            150
+          ],
+          "v3": [
+            151
+          ],
+          "cores": [
+            152
+          ],
+          "4": [
+            154
+          ],
+          "days": [
+            155
+          ],
+          "achieve": [
+            157
+          ],
+          "far": [
+            158
+          ],
+          "superior": [
+            159
+          ],
+          "from": [
+            163
+          ],
+          "100": [
+            164
+          ],
+          "languages": [
+            165
+          ],
+          "English": [
+            167
+          ],
+          "compared": [
+            168
+          ],
+          "prior": [
+            171
+          ],
+          "art.": [
+            172
+          ]
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5049203448",
+              "display_name": "Dmitry Lepikhin",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I1291425158",
+                "display_name": "Google (United States)",
+                "ror": "https://ror.org/00njsd438",
+                "country_code": "US",
+                "type": "company",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Dmitry Lepikhin",
+            "raw_affiliation_strings": [
+              "Google,,,,,"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Google,,,,,",
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5047315031",
+              "display_name": "HyoukJoong Lee",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I1291425158",
+                "display_name": "Google (United States)",
+                "ror": "https://ror.org/00njsd438",
+                "country_code": "US",
+                "type": "company",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "HyoukJoong Lee",
+            "raw_affiliation_strings": [
+              "Google,,,,,"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Google,,,,,",
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5081428852",
+              "display_name": "Yuanzhong Xu",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I1291425158",
+                "display_name": "Google (United States)",
+                "ror": "https://ror.org/00njsd438",
+                "country_code": "US",
+                "type": "company",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Yuanzhong Xu",
+            "raw_affiliation_strings": [
+              "Google,,,,,"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Google,,,,,",
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5074350356",
+              "display_name": "Dehao Chen",
+              "orcid": "https://orcid.org/0000-0003-4482-0329",
+              "observed_orcids": [
+                "https://orcid.org/0000-0003-4482-0329",
+                "https://orcid.org/0000-0001-5849-7492"
+              ]
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I1291425158",
+                "display_name": "Google (United States)",
+                "ror": "https://ror.org/00njsd438",
+                "country_code": "US",
+                "type": "company",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Dehao Chen",
+            "raw_affiliation_strings": [
+              "Google,,,,,"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Google,,,,,",
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5035914396",
+              "display_name": "Orhan Fırat",
+              "orcid": "https://orcid.org/0000-0001-5775-2420",
+              "observed_orcids": [
+                "https://orcid.org/0000-0001-5775-2420"
+              ]
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I1291425158",
+                "display_name": "Google (United States)",
+                "ror": "https://ror.org/00njsd438",
+                "country_code": "US",
+                "type": "company",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Orhan Fırat",
+            "raw_affiliation_strings": [
+              "Google,,,,,"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0001-5775-2420",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Google,,,,,",
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5033809109",
+              "display_name": "Yanping Huang",
+              "orcid": "https://orcid.org/0000-0002-4430-3965",
+              "observed_orcids": [
+                "https://orcid.org/0000-0002-4430-3965"
+              ]
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I1291425158",
+                "display_name": "Google (United States)",
+                "ror": "https://ror.org/00njsd438",
+                "country_code": "US",
+                "type": "company",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Yanping Huang",
+            "raw_affiliation_strings": [
+              "Google,,,,,"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0002-4430-3965",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Google,,,,,",
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5014055962",
+              "display_name": "Maxim Krikun",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I1291425158",
+                "display_name": "Google (United States)",
+                "ror": "https://ror.org/00njsd438",
+                "country_code": "US",
+                "type": "company",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Maxim Krikun",
+            "raw_affiliation_strings": [
+              "Google,,,,,"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Google,,,,,",
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5021878400",
+              "display_name": "Noam Shazeer",
+              "orcid": null,
+              "observed_orcids": []
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I170897317",
+                "display_name": "Duke University",
+                "ror": "https://ror.org/00py81415",
+                "country_code": "US",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I170897317"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Noam Shazeer",
+            "raw_affiliation_strings": [
+              "Duke University#TAB#"
+            ],
+            "raw_orcid": null,
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Duke University#TAB#",
+                "institution_ids": [
+                  "https://openalex.org/I170897317"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5100715424",
+              "display_name": "Zhifeng Chen",
+              "orcid": "https://orcid.org/0000-0001-8631-2424",
+              "observed_orcids": [
+                "https://orcid.org/0000-0001-8631-2424"
+              ]
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I1291425158",
+                "display_name": "Google (United States)",
+                "ror": "https://ror.org/00njsd438",
+                "country_code": "US",
+                "type": "company",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ]
+              }
+            ],
+            "countries": [
+              "US"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Zhifeng Chen",
+            "raw_affiliation_strings": [
+              "Google,,,,,"
+            ],
+            "raw_orcid": "https://orcid.org/0000-0001-8631-2424",
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Google,,,,,",
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ]
+              }
+            ]
+          }
+        ],
+        "primary_location": {
+          "id": "mag:3122317902",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://openreview.net/pdf?id=qrwe7XHTmYb",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306419637",
+            "display_name": "International Conference on Learning Representations",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "International Conference on Learning Representations",
+          "raw_type": null
+        },
+        "locations": [
+          {
+            "id": "mag:3122317902",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://openreview.net/pdf?id=qrwe7XHTmYb",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306419637",
+              "display_name": "International Conference on Learning Representations",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "conference"
+            },
+            "license": null,
+            "license_id": null,
+            "version": null,
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "International Conference on Learning Representations",
+            "raw_type": null
+          }
+        ],
+        "type": "conference-paper",
+        "ids": {
+          "openalex": "https://openalex.org/W3122317902",
+          "mag": "3122317902"
+        }
+      }
+    ],
+    "group_by": []
+  }
+}

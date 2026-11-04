@@ -12,35 +12,14 @@ import numpy as np
 from matplotlib.colors import LinearSegmentedColormap
 
 from .metrics import influence
-from .storage import EXPERIMENTS, OUT, ROOT, TABLES, read_json
+from .storage import EXPERIMENTS, OUT, ROOT, TABLES, TEXTS, read_json
 
-NAMES = {
-    "W2581624817": "Sparse MoE (2017)",
-    "W3040573126": "GShard",
-    "W3119866685": "Switch",
-    "W4402671950": "DeepSeekMoE",
-    "W4200634402": "GLaM",
-    "W4390723197": "Mixtral",
-    "W7133198209": "Expert Choice",
-    "W4405903187": "DeepSeek-V3",
-    "W4396815229": "DeepSeek-V2",
-    "W4225390052": "ST-MoE",
-    "W7133187299": "VLMo",
-    "W4408858386": "Cai et al. survey",
-}
+LABELS = TEXTS["figures"]
+NAMES = LABELS["paper_names"]
 
 BLUE, GOLD, INK = "#235789", "#BF8D24", "#192B3C"
 
-SHORT = {
-    "W2581624817": "Sparsely-Gated MoE",
-    "W3040573126": "GShard",
-    "W3119866685": "Switch",
-    "W4200634402": "GLaM",
-    "W4402671950": "DeepSeekMoE",
-    "W7133198209": "Expert Choice",
-    "W4226515448": "DeepSpeed-MoE",
-    "W4225390052": "ST-MoE",
-}
+SHORT = LABELS["short_names"]
 
 
 def label(p):
@@ -68,22 +47,13 @@ def plot_corpus():
     ordered_highlights = sorted(highlights, key=lambda u: (by_id[u]["date"], u))
     for i, u in enumerate(ordered_highlights):
         positions[u] = np.array([-1 + 0.5 * i, -0.65])
-    ordinary = sorted(
-        (u for u in sub if u not in highlights), key=lambda u: (by_id[u]["date"], u)
-    )
+    ordinary = sorted((u for u in sub if u not in highlights), key=lambda u: (by_id[u]["date"], u))
     for i, u in enumerate(ordinary):
         row, col = divmod(i, 10)
         count = min(10, len(ordinary) - row * 10)
-        positions[u] = np.array(
-            [-0.98 + 1.96 * col / max(1, count - 1), 0.12 + 0.4 * row]
-        )
+        positions[u] = np.array([-0.98 + 1.96 * col / max(1, count - 1), 0.12 + 0.4 * row])
     plt.rcParams.update(
-        {
-            "font.family": "DejaVu Sans",
-            "font.size": 10,
-            "axes.spines.top": False,
-            "axes.spines.right": False,
-        }
+        {"font.family": "DejaVu Sans", "font.size": 10, "axes.spines.top": False, "axes.spines.right": False}
     )
     fig, ax = plt.subplots(figsize=(10, 5.4), layout="constrained")
     nx.draw_networkx_edges(
@@ -99,14 +69,7 @@ def plot_corpus():
         connectionstyle="arc3,rad=.05",
     )
     nx.draw_networkx_nodes(
-        sub,
-        positions,
-        nodelist=ordinary,
-        node_size=75,
-        node_color="#376da4",
-        edgecolors="white",
-        linewidths=0.5,
-        ax=ax,
+        sub, positions, nodelist=ordinary, node_size=75, node_color="#376da4", edgecolors="white", linewidths=0.5, ax=ax
     )
     nx.draw_networkx_nodes(
         sub,
@@ -132,7 +95,7 @@ def plot_corpus():
             bbox={"facecolor": "white", "edgecolor": "none", "alpha": 0.87, "pad": 1},
         )
     ax.set_title(
-        f"Срез лидеров PageRank: {sub.number_of_nodes()} вершины, {sub.number_of_edges()} связи",
+        LABELS["graph_title"].format(nodes=sub.number_of_nodes(), edges=sub.number_of_edges()),
         loc="left",
         fontsize=14,
         pad=16,
@@ -140,12 +103,7 @@ def plot_corpus():
     ax.text(
         0,
         -0.04,
-        "Стрелка: цитирующая статья → цитируемая. Позиции условны.\n"
-        + (
-            "Квадраты: итоговый список по показателю B."
-            if final_choice
-            else "Квадраты: алгоритмический top-5; выбор студента ещё не сделан."
-        ),
+        LABELS["graph_direction"] + (LABELS["selected_papers"] if final_choice else LABELS["algorithmic_top5"]),
         transform=ax.transAxes,
         fontsize=10,
     )
@@ -157,18 +115,11 @@ def plot_corpus():
     plt.close(fig)
     # Exact rank values; positions are ordinal with stable ID tie-breaking.
     shown = sorted(papers, key=lambda p: p["rank_pagerank"])[:12]
-    arr = np.array(
-        [
-            [p["rank_local_citations"], p["rank_pagerank"], p["rank_global_citations"]]
-            for p in shown
-        ]
-    )
+    arr = np.array([[p["rank_local_citations"], p["rank_pagerank"], p["rank_global_citations"]] for p in shown])
     fig, ax = plt.subplots(figsize=(9, 5.5), layout="constrained")
     ax.imshow(arr, cmap="Blues_r", vmin=1, vmax=max(20, int(arr.max())), aspect="auto")
     ax.set_yticks(range(len(shown)), [label(p) for p in shown])
-    ax.set_xticks(
-        [0, 1, 2], ["Цитирования в корпусе", "PageRank", "Цитирования OpenAlex"]
-    )
+    ax.set_xticks([0, 1, 2], ["Цитирования в корпусе", "PageRank", "Цитирования OpenAlex"])
     ax.tick_params(length=0, pad=9)
     for i in range(len(shown)):
         for j in range(3):
@@ -181,12 +132,7 @@ def plot_corpus():
                 color="white" if arr[i, j] < arr.max() * 0.42 else "#202020",
                 fontsize=11,
             )
-    ax.set_title(
-        "Места в рейтингах: меньшее число означает более высокое место",
-        loc="left",
-        fontsize=12,
-        pad=14,
-    )
+    ax.set_title(LABELS["ranking_title"], loc="left", fontsize=12, pad=14)
     for spine in ax.spines.values():
         spine.set_visible(False)
     fig.savefig(OUT / "rank_comparison.png", dpi=200, bbox_inches="tight")
@@ -214,35 +160,15 @@ def plot_metrics():
     ax.tick_params(length=0, pad=9)
     for i in range(len(chosen)):
         for j in range(5):
-            ax.text(
-                j,
-                i,
-                str(arr[i, j]),
-                ha="center",
-                va="center",
-                color="white" if arr[i, j] < 8 else "#202020",
-            )
-    ax.set_title(
-        "Места в рейтингах: собственные метрики меняют порядок работ",
-        loc="left",
-        fontsize=13,
-        pad=15,
-    )
+            ax.text(j, i, str(arr[i, j]), ha="center", va="center", color="white" if arr[i, j] < 8 else "#202020")
+    ax.set_title(LABELS["metric_comparison_title"], loc="left", fontsize=13, pad=15)
     for spine in ax.spines.values():
         spine.set_visible(False)
     fig.savefig(OUT / "custom_rank_comparison.png", dpi=200, bbox_inches="tight")
     plt.close(fig)
     specs = [
-        (
-            "Цепочка",
-            [("c", "b"), ("b", "a"), ("a", "v")],
-            {"v": (0, 0), "a": (0, 1), "b": (0, 2), "c": (0, 3)},
-        ),
-        (
-            "Звезда",
-            [("a", "v"), ("b", "v"), ("c", "v")],
-            {"v": (0, 0), "a": (-1, 2), "b": (0, 2.6), "c": (1, 2)},
-        ),
+        ("Цепочка", [("c", "b"), ("b", "a"), ("a", "v")], {"v": (0, 0), "a": (0, 1), "b": (0, 2), "c": (0, 3)}),
+        ("Звезда", [("a", "v"), ("b", "v"), ("c", "v")], {"v": (0, 0), "a": (-1, 2), "b": (0, 2.6), "c": (1, 2)}),
         (
             "Ромб",
             [("a", "v"), ("b", "v"), ("c", "a"), ("c", "b")],
@@ -277,23 +203,15 @@ def plot_metrics():
             fontsize=12,
         )
         ax.set_axis_off()
-    fig.suptitle(
-        "Контрпримеры на синтетических графах, β=0,5; оценивается вершина v",
-        fontsize=13,
-    )
+    fig.suptitle(LABELS["counterexamples_title"], fontsize=13)
     fig.savefig(OUT / "metric_counterexamples.png", dpi=200, bbox_inches="tight")
     plt.close(fig)
 
 
 def short(uid, title):
-    return SHORT.get(
-        uid.rsplit("/", 1)[-1],
-        title.split(":")[0]
-        .replace(
-            "A Strong, Economical, and Efficient Mixture-of-Experts Language Model", ""
-        )
-        .strip(),
-    )
+    full_title = "A Strong, Economical, and Efficient Mixture-of-Experts Language Model"
+    short_title = title.split(":")[0].replace(full_title, "").strip()
+    return SHORT.get(uid.rsplit("/", 1)[-1], short_title)
 
 
 def save(fig, name):
@@ -304,9 +222,7 @@ def save(fig, name):
 
 def plot_rank_comparison(selected, labels, metrics, lookup, cm):
     """Сравнить места лидеров по четырём метрикам."""
-    data = np.array(
-        [[lookup["baseline", m, r["id"]] for m in metrics] for r in selected]
-    )
+    data = np.array([[lookup["baseline", m, r["id"]] for m in metrics] for r in selected])
     fig, ax = plt.subplots(figsize=(12, 5.7))
     ax.imshow(np.maximum(0, 11 - data), cmap=cm, vmin=0, vmax=10, aspect="auto")
     ax.set_yticks(range(len(labels)), labels)
@@ -327,35 +243,21 @@ def plot_rank_comparison(selected, labels, metrics, lookup, cm):
         spine.set_visible(False)
     ax.tick_params(length=0, pad=12)
     fig.subplots_adjust(left=0.26, right=0.98, top=0.86, bottom=0.09)
-    fig.text(
-        0.26,
-        0.02,
-        "8 лидеров PageRank из 140 статей. Меньше = лучше. 5,5 = ничья на местах 5-6.",
-        fontsize=11,
-    )
+    fig.text(0.26, 0.02, LABELS["ranking_caption"], fontsize=11)
     save(fig, "ranking_comparison")
 
 
 def plot_stability(selected, labels, stability, cm):
     """Показать частоты попадания в первую пятёрку при потере данных."""
     scenarios = ["edge_10", "edge_30", "edge_50", "bibliography_30"]
-    freq = {
-        (r["scenario"], r["metric"], r["id"]): float(r["top5_frequency"]) * 100
-        for r in stability
-    }
+    freq = {(r["scenario"], r["metric"], r["id"]): float(r["top5_frequency"]) * 100 for r in stability}
     fig, axes = plt.subplots(1, 2, figsize=(14, 6.3), sharey=True)
-    for ax, metric, label in zip(
-        axes, ["pagerank", "branching"], ["PageRank", "Ветвление B"]
-    ):
-        values = np.array(
-            [[freq[s, metric, r["id"]] for s in scenarios] for r in selected]
-        )
+    for ax, metric, label in zip(axes, ["pagerank", "branching"], ["PageRank", "Ветвление B"]):
+        values = np.array([[freq[s, metric, r["id"]] for s in scenarios] for r in selected])
         ax.imshow(values, cmap=cm, vmin=0, vmax=100, aspect="auto")
         ax.set_title(label, fontsize=17, pad=15, weight="bold")
         ax.set_yticks(range(8), labels)
-        ax.set_xticks(
-            range(4), ["10%\nссылок", "30%\nссылок", "50%\nссылок", "30%\nбиблиогр."]
-        )
+        ax.set_xticks(range(4), ["10%\nссылок", "30%\nссылок", "50%\nссылок", "30%\nбиблиогр."])
         ax.tick_params(length=0, pad=10)
         for i in range(8):
             for j in range(4):
@@ -371,42 +273,20 @@ def plot_stability(selected, labels, stability, cm):
         for spine in ax.spines.values():
             spine.set_visible(False)
     fig.subplots_adjust(left=0.20, right=0.99, top=0.88, bottom=0.17, wspace=0.10)
-    fig.text(
-        0.20,
-        0.015,
-        "Частота попадания в top-5, %. По 500 запусков на сценарий. Это частоты стресс-теста, не вероятность истинности.",
-        fontsize=10,
-    )
+    fig.text(0.20, 0.015, LABELS["stability_caption"], fontsize=10)
     save(fig, "stability_top5")
 
 
 def plot_ablations(selected, labels, lookup, cm):
     """Сравнить исходный граф с тремя способами исключения связей."""
-    variants = [
-        "baseline",
-        "no_observed_shared_authors",
-        "openalex_only",
-        "no_review_outgoing_votes",
-    ]
+    variants = ["baseline", "no_observed_shared_authors", "openalex_only", "no_review_outgoing_votes"]
     fig, axes = plt.subplots(1, 2, figsize=(14, 5.6), sharey=True)
-    for ax, metric, label in zip(
-        axes, ["pagerank", "branching"], ["PageRank", "Ветвление B"]
-    ):
-        values = np.array(
-            [[lookup[v, metric, r["id"]] for v in variants] for r in selected[:6]]
-        )
+    for ax, metric, label in zip(axes, ["pagerank", "branching"], ["PageRank", "Ветвление B"]):
+        values = np.array([[lookup[v, metric, r["id"]] for v in variants] for r in selected[:6]])
         ax.imshow(np.maximum(0, 11 - values), cmap=cm, vmin=0, vmax=10, aspect="auto")
         ax.set_title(label, fontsize=17, pad=15, weight="bold")
         ax.set_yticks(range(6), labels[:6])
-        ax.set_xticks(
-            range(4),
-            [
-                "Исходный",
-                "Без общих\nавторов*",
-                "Только\nOpenAlex",
-                "Без ссылок\nиз обзоров",
-            ],
-        )
+        ax.set_xticks(range(4), ["Исходный", "Без общих\nавторов*", "Только\nOpenAlex", "Без ссылок\nиз обзоров"])
         ax.tick_params(length=0, pad=10)
         for i in range(6):
             for j in range(4):
@@ -422,12 +302,7 @@ def plot_ablations(selected, labels, lookup, cm):
         for spine in ax.spines.values():
             spine.set_visible(False)
     fig.subplots_adjust(left=0.20, right=0.99, top=0.87, bottom=0.20, wspace=0.10)
-    fig.text(
-        0.20,
-        0.025,
-        "*Удалены только 42 связи с наблюдаемым совпадением ID авторов; сведения об авторах неполны.",
-        fontsize=11,
-    )
+    fig.text(0.20, 0.025, LABELS["ablation_caption"], fontsize=11)
     save(fig, "ablation_comparison")
 
 
@@ -438,13 +313,7 @@ def plot_correlations(summary):
     y = np.arange(3)
     for offset, key, color, hatch, label in [
         (-0.17, "vs_local_all140", BLUE, None, "Все 140 статей"),
-        (
-            0.17,
-            "vs_local_base_pagerank_top20",
-            GOLD,
-            "//",
-            "20 лидеров исходного PageRank",
-        ),
+        (0.17, "vs_local_base_pagerank_top20", GOLD, "//", "20 лидеров исходного PageRank"),
     ]:
         values = [r[key] for r in c]
         ax.barh(y + offset, values, height=0.28, color=color, hatch=hatch, label=label)
@@ -463,7 +332,7 @@ def plot_correlations(summary):
     ax.set_yticks(y, ["PageRank", "Ветвление B", "Дробный F"])
     ax.invert_yaxis()
     ax.set_xlim(0, 1.02)
-    ax.set_xlabel("Корреляция Спирмена с числом локальных цитирований c")
+    ax.set_xlabel(LABELS["correlation_axis"])
     ax.legend(loc="lower left", bbox_to_anchor=(0, 1.03), ncol=2, frameon=False)
     for side in ["top", "right"]:
         ax.spines[side].set_visible(False)
@@ -492,9 +361,7 @@ def plot_experiments():
     with (EXPERIMENTS / "stability.csv").open(encoding="utf-8-sig") as f:
         stability = list(csv.DictReader(f))
     summary = json.loads((EXPERIMENTS / "summary.json").read_text(encoding="utf-8"))
-    baseline = [
-        r for r in rows if r["variant"] == "baseline" and r["metric"] == "pagerank"
-    ]
+    baseline = [r for r in rows if r["variant"] == "baseline" and r["metric"] == "pagerank"]
     baseline.sort(key=lambda r: (float(r["midrank"]), r["id"]))
     selected = baseline[:8]
     lookup = {(r["variant"], r["metric"], r["id"]): float(r["midrank"]) for r in rows}
@@ -509,8 +376,6 @@ def plot_experiments():
 
 
 def build_figures(include_stress=True):
-    for plot in [plot_corpus, plot_metrics] + (
-        [plot_experiments] if include_stress else []
-    ):
+    for plot in [plot_corpus, plot_metrics] + ([plot_experiments] if include_stress else []):
         plt.rcdefaults()
         plot()

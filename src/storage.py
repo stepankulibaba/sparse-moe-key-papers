@@ -20,6 +20,9 @@ def read_json(path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+TEXTS = read_json(ROOT / "texts.json")
+
+
 def read_csv(path):
     with path.open(encoding="utf-8-sig", newline="") as stream:
         return list(csv.DictReader(stream))
@@ -30,9 +33,7 @@ def write_csv(path, rows, fields=None):
         raise ValueError(f"Empty table needs explicit columns: {path}")
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8-sig") as stream:
-        writer = csv.DictWriter(
-            stream, fieldnames=fields or list(rows[0]), extrasaction="ignore"
-        )
+        writer = csv.DictWriter(stream, fieldnames=fields or list(rows[0]), extrasaction="ignore")
         writer.writeheader()
         writer.writerows(rows)
 
@@ -56,11 +57,7 @@ def bibliography_edges(papers):
         bibliography = normalize("\n".join(source["lines"]))
         for paper in papers:
             title = normalize(paper["title"])
-            if (
-                paper["id"] != source["id"]
-                and len(title) >= 30
-                and title in bibliography
-            ):
+            if paper["id"] != source["id"] and len(title) >= 30 and title in bibliography:
                 rows.append(
                     {
                         "citing": source["id"],

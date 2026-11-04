@@ -1,0 +1,109 @@
+{
+  "structural_metrics": {
+    "definitions": {
+      "unique_descendants": "U_beta(v)=sum_{u: d(u,v)>=1} beta^(d(u,v)-1); each reachable citing paper counted once at shortest distance.",
+      "branching_descendants": "B_beta(v)=U_beta(v)*(1-sum_b p_b^2), p_b=M_b/U; allocate each unique descendant vote equally over first-generation branches lying on shortest paths.",
+      "katz_paths": "K_beta(v)=sum_{paths ending at v, length>=1} beta^(length-1); finite on chronological DAG. Standard comparator, not claimed original."
+    },
+    "limitations": [
+      "Citation paths do not establish idea inheritance.",
+      "B deliberately discounts one concentrated lineage, including important breakthroughs spread through one successor.",
+      "Missing links and corpus selection affect all reachability measures.",
+      "Paper branches are not independently verified research teams.",
+      "No AI-authorship inference or stylistic penalty is used."
+    ]
+  },
+  "semantic_metrics": {
+    "score": "R(v)=sum_u max_reviewed_context_weight(u,v); extension=2, method=1, component=0.5; each citing paper counted once.",
+    "limits": [
+      "Only heuristic-positive contexts were reviewed; recall and a held-out classifier quality are not estimated.",
+      "The assistant made the context judgments; they are not independent human validation.",
+      "Unreviewed or missing contexts are unknown, not confirmed non-use.",
+      "Ranks compare observed evidence under unequal coverage, not complete true semantic influence.",
+      "Weights are explicit modeling choices, not empirically calibrated values."
+    ]
+  },
+  "experiments": {
+    "tie_policy": "Values rounded to 12 decimals; midranks; remaining top-5 slots divided equally across boundary ties.",
+    "graph_policy": "All 140 nodes retained. B uses chronological edges as before; local, PR and F use all remaining edges.",
+    "fractional_definition": "F(v)=sum_(u->v) 1/outdegree_G(u), using observed in-corpus references, recomputed after deletion.",
+    "interpretation": "Sensitivity frequencies and 5-95 percentile ranges under specified deletion models, NOT confidence intervals or truth probabilities.",
+    "limitations": [
+      "Deletion cannot measure bias from papers absent from the corpus or undetected missing links.",
+      "Shared author IDs are imperfect metadata proxies; non-overlap does not prove independent teams.",
+      "Fractional weighting uses corpus references, not full bibliographies, and can amplify incompletely observed sources.",
+      "No ranking proves method reuse or scientific breakthrough."
+    ],
+    "method_sources": [
+      {
+        "url": "https://arxiv.org/abs/1006.2896",
+        "use": "Fractional counting precedent; our denominator is corpus-local, not the full bibliography."
+      },
+      {
+        "url": "https://help.openalex.org/data/authorships/",
+        "use": "Author IDs and potential byline truncation."
+      }
+    ]
+  },
+  "corpus_verification": {
+    "limitations": [
+      "Exact-title matching can miss changed titles and PDF extraction errors.",
+      "Bibliography title matching is not exhaustive human review of every source.",
+      "Numerical checks do not validate the scientific interpretation of a ranking."
+    ]
+  },
+  "metrics_verification": {
+    "note": "Numerical/provenance checks; no independent validation of semantic annotation or scientific novelty."
+  },
+  "experiment_verification": {
+    "checks": [
+      "frozen inputs",
+      "RNG replay and bibliography masks",
+      "tie-aware ranks and mass conservation",
+      "independent dense PageRank, local and fractional ranks",
+      "baseline agrees with existing artifacts",
+      "all reported frequencies and rank intervals match saved simulations"
+    ]
+  },
+  "snapshot": {
+    "scope": "Frozen normalized corpus. Original collection and filtering are reproducible from source_commit.",
+    "prepared_message": "Prepared 140 papers, selection audit, bibliographies and citation contexts in data/."
+  },
+  "figures": {
+    "paper_names": {
+      "W2581624817": "Sparse MoE (2017)",
+      "W3040573126": "GShard",
+      "W3119866685": "Switch",
+      "W4402671950": "DeepSeekMoE",
+      "W4200634402": "GLaM",
+      "W4390723197": "Mixtral",
+      "W7133198209": "Expert Choice",
+      "W4405903187": "DeepSeek-V3",
+      "W4396815229": "DeepSeek-V2",
+      "W4225390052": "ST-MoE",
+      "W7133187299": "VLMo",
+      "W4408858386": "Cai et al. survey"
+    },
+    "short_names": {
+      "W2581624817": "Sparsely-Gated MoE",
+      "W3040573126": "GShard",
+      "W3119866685": "Switch",
+      "W4200634402": "GLaM",
+      "W4402671950": "DeepSeekMoE",
+      "W7133198209": "Expert Choice",
+      "W4226515448": "DeepSpeed-MoE",
+      "W4225390052": "ST-MoE"
+    },
+    "graph_title": "Срез лидеров PageRank: {nodes} вершины, {edges} связи",
+    "ranking_title": "Места в рейтингах: меньшее число означает более высокое место",
+    "metric_comparison_title": "Места в рейтингах: собственные метрики меняют порядок работ",
+    "counterexamples_title": "Контрпримеры на синтетических графах, β=0,5; оценивается вершина v",
+    "ranking_caption": "8 лидеров PageRank из 140 статей. Меньше = лучше. 5,5 = ничья на местах 5-6.",
+    "stability_caption": "Частота попадания в top-5, %. По 500 запусков на сценарий. Это частоты стресс-теста, не вероятность истинности.",
+    "ablation_caption": "*Удалены только 42 связи с наблюдаемым совпадением ID авторов; сведения об авторах неполны.",
+    "correlation_axis": "Корреляция Спирмена с числом локальных цитирований c",
+    "graph_direction": "Стрелка: цитирующая статья → цитируемая. Позиции условны.\n",
+    "selected_papers": "Квадраты: итоговый список по показателю B.",
+    "algorithmic_top5": "Квадраты: алгоритмический top-5; выбор студента ещё не сделан."
+  }
+}

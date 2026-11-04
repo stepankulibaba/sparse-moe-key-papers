@@ -13,7 +13,7 @@ import numpy as np
 from scipy.stats import rankdata, spearmanr
 
 from .metrics import influence
-from .storage import DATA, ROOT, TABLES, read_json, write_csv
+from .storage import DATA, ROOT, TABLES, TEXTS, read_json, write_csv
 
 OUT = ROOT / "output" / "robustness"
 METRICS = ["local", "pagerank", "branching", "fractional"]
@@ -53,9 +53,7 @@ def ranking(values):
 def scores(graph, ids, papers):
     """Строки матрицы: цитируемость, PageRank, ветви B и дробный подсчёт F."""
     chrono = graph.copy()
-    chrono.remove_edges_from(
-        [(u, v) for u, v in graph.edges if papers[u]["date"] < papers[v]["date"]]
-    )
+    chrono.remove_edges_from([(u, v) for u, v in graph.edges if papers[u]["date"] < papers[v]["date"]])
     structural = influence(chrono)
     pr = nx.pagerank(graph, alpha=0.85, tol=1e-12, max_iter=1000)
     f = fractional(graph)
@@ -84,9 +82,7 @@ def author_evidence(papers):
             "title": p["title"],
             "observed_author_count": len(authors[p["id"]]),
             "author_ids": ";".join(sorted(authors[p["id"]])),
-            "missing_or_potentially_truncated": frozen[p["id"]][
-                "incomplete_author_metadata"
-            ],
+            "missing_or_potentially_truncated": frozen[p["id"]]["incomplete_author_metadata"],
             "raw_sources": ";".join(frozen[p["id"]]["author_evidence_sources"]),
         }
         for p in papers
@@ -128,9 +124,7 @@ def run_simulations(ids, edges, by_id, base_ranks, base_credits):
                     "scenario": scenario,
                     "trial": trial,
                     "retained_edges": int(mask.sum()),
-                    "retained_bibliographies": sum(
-                        perturbed.out_degree(u) > 0 for u in source_ids
-                    ),
+                    "retained_bibliographies": sum(perturbed.out_degree(u) > 0 for u in source_ids),
                 }
             )
         for m, metric in enumerate(METRICS):
@@ -144,8 +138,7 @@ def run_simulations(ids, edges, by_id, base_ranks, base_credits):
                         "base_midrank": base_ranks[m, j],
                         "base_top5_credit": base_credits[m, j],
                         "top5_frequency": credits[:, m, j].mean(),
-                        "monte_carlo_se": credits[:, m, j].std(ddof=1)
-                        / np.sqrt(REPEATS),
+                        "monte_carlo_se": credits[:, m, j].std(ddof=1) / np.sqrt(REPEATS),
                         "rank_p05": np.quantile(ranks[:, m, j], 0.05),
                         "rank_median": np.median(ranks[:, m, j]),
                         "rank_p95": np.quantile(ranks[:, m, j], 0.95),
@@ -154,10 +147,7 @@ def run_simulations(ids, edges, by_id, base_ranks, base_credits):
         all_ranks.append(ranks)
         all_credits.append(credits)
         all_masks.append(masks)
-        print(
-            f"{scenario}: {REPEATS} trials; mean retained edges {masks.sum(axis=1).mean():.1f}",
-            flush=True,
-        )
+        print(f"{scenario}: {REPEATS} trials; mean retained edges {masks.sum(axis=1).mean():.1f}", flush=True)
     write_csv(OUT / "stability.csv", stability)
     write_csv(OUT / "trials.csv", trial_rows)
     np.savez_compressed(
@@ -186,9 +176,7 @@ def main():
     base_ranks = np.array([ranking(v)[0] for v in base])
     base_credits = np.array([ranking(v)[1] for v in base])
     authors, author_rows = author_evidence(papers)
-    uncertain_authors = {
-        r["id"] for r in author_rows if r["missing_or_potentially_truncated"]
-    }
+    uncertain_authors = {r["id"] for r in author_rows if r["missing_or_potentially_truncated"]}
     write_csv(OUT / "author_audit.csv", author_rows)
     audit = []
     for e in edge_rows:
@@ -198,8 +186,7 @@ def main():
             | {
                 "shared_author_ids": ";".join(shared),
                 "observed_overlap": bool(shared),
-                "both_bylines_observed_without_truncation_flag": e["citing"]
-                not in uncertain_authors
+                "both_bylines_observed_without_truncation_flag": e["citing"] not in uncertain_authors
                 and e["cited"] not in uncertain_authors,
             }
         )
@@ -207,24 +194,16 @@ def main():
 
     variants = {"baseline": graph}
     no_shared = graph.copy()
-    no_shared.remove_edges_from(
-        [(e["citing"], e["cited"]) for e in audit if e["observed_overlap"]]
-    )
+    no_shared.remove_edges_from([(e["citing"], e["cited"]) for e in audit if e["observed_overlap"]])
     variants["no_observed_shared_authors"] = no_shared
     oa = graph.copy()
     oa.remove_edges_from(
-        [
-            (e["citing"], e["cited"])
-            for e in edge_rows
-            if "openalex_referenced_works" not in e["sources"]
-        ]
+        [(e["citing"], e["cited"]) for e in edge_rows if "openalex_referenced_works" not in e["sources"]]
     )
     variants["openalex_only"] = oa
     # Freeze the candidate universe; reviews cast no outgoing votes but remain eligible.
     no_review_votes = graph.copy()
-    no_review_votes.remove_edges_from(
-        [(u, v) for u, v in edges if by_id[u]["is_review"]]
-    )
+    no_review_votes.remove_edges_from([(u, v) for u, v in edges if by_id[u]["is_review"]])
     variants["no_review_outgoing_votes"] = no_review_votes
     deterministic = []
     variant_summary = []
@@ -239,9 +218,7 @@ def main():
                     "metric": metric,
                     "edges": g.number_of_edges(),
                     "top5_by_score_then_id": [ids[j] for j in order[:5]],
-                    "top5_membership_mass_retained": float(
-                        np.minimum(base_credits[m], credit).sum()
-                    ),
+                    "top5_membership_mass_retained": float(np.minimum(base_credits[m], credit).sum()),
                 }
             )
             for j, uid in enumerate(ids):
@@ -266,9 +243,7 @@ def main():
             {
                 "metric": metric,
                 "vs_local_all140": float(spearmanr(base[0], base[m]).statistic),
-                "vs_local_base_pagerank_top20": float(
-                    spearmanr(base[0, head], base[m, head]).statistic
-                ),
+                "vs_local_base_pagerank_top20": float(spearmanr(base[0, head], base[m, head]).statistic),
             }
         )
     manifest_paths = [
@@ -276,9 +251,13 @@ def main():
         TABLES / "edges.csv",
         ROOT / "src/metrics.py",
         ROOT / "src/experiments.py",
+        ROOT / "texts.json",
         DATA / "corpus.json",
         DATA / "provenance.json",
     ]
+    input_hashes = {}
+    for path in manifest_paths:
+        input_hashes[path.relative_to(ROOT).as_posix()] = hashlib.sha256(path.read_bytes()).hexdigest()
     summary = {
         "seed": SEED,
         "repeats_per_scenario": REPEATS,
@@ -297,55 +276,20 @@ def main():
         "fractional_total_mass": float(base[3].sum()),
         "variants": variant_summary,
         "correlations": correlations,
-        "scenarios": [
-            {"name": n, "unit": u, "removal_probability": p} for n, u, p in scenarios
-        ],
-        "tie_policy": "Values rounded to 12 decimals; midranks; remaining top-5 slots divided equally across boundary ties.",
-        "graph_policy": "All 140 nodes retained. B uses chronological edges as before; local, PR and F use all remaining edges.",
-        "fractional_definition": "F(v)=sum_(u->v) 1/outdegree_G(u), using observed in-corpus references, recomputed after deletion.",
-        "interpretation": "Sensitivity frequencies and 5-95 percentile ranges under specified deletion models, NOT confidence intervals or truth probabilities.",
-        "limitations": [
-            "Deletion cannot measure bias from papers absent from the corpus or undetected missing links.",
-            "Shared author IDs are imperfect metadata proxies; non-overlap does not prove independent teams.",
-            "Fractional weighting uses corpus references, not full bibliographies, and can amplify incompletely observed sources.",
-            "No ranking proves method reuse or scientific breakthrough.",
-        ],
-        "method_sources": [
-            {
-                "url": "https://arxiv.org/abs/1006.2896",
-                "use": "Fractional counting precedent; our denominator is corpus-local, not the full bibliography.",
-            },
-            {
-                "url": "https://help.openalex.org/data/authorships/",
-                "use": "Author IDs and potential byline truncation.",
-            },
-        ],
-        "input_sha256": {
-            str(p.relative_to(ROOT))
-            .replace("\\", "/"): hashlib.sha256(p.read_bytes())
-            .hexdigest()
-            for p in manifest_paths
-        },
+        "scenarios": [{"name": n, "unit": u, "removal_probability": p} for n, u, p in scenarios],
+        **TEXTS["experiments"],
+        "input_sha256": input_hashes,
     }
-    (OUT / "summary.json").write_text(
-        json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
-    print(
-        json.dumps(
-            {
-                k: summary[k]
-                for k in [
-                    "vertices",
-                    "edges",
-                    "observed_shared_author_edges",
-                    "papers_with_missing_or_potentially_truncated_authors",
-                    "correlations",
-                ]
-            },
-            ensure_ascii=False,
-            indent=2,
-        )
-    )
+    (OUT / "summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
+    display_fields = [
+        "vertices",
+        "edges",
+        "observed_shared_author_edges",
+        "papers_with_missing_or_potentially_truncated_authors",
+        "correlations",
+    ]
+    display_summary = {key: summary[key] for key in display_fields}
+    print(json.dumps(display_summary, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":

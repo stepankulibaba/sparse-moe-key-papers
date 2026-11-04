@@ -12,7 +12,7 @@ from collections import Counter, defaultdict
 import networkx as nx
 from scipy.stats import spearmanr
 
-from .storage import DATA, ROOT, TABLES, load_contexts, read_json, write_csv
+from .storage import DATA, ROOT, TABLES, TEXTS, load_contexts, read_json, write_csv
 
 
 def influence(graph, beta=0.5):
@@ -43,13 +43,7 @@ def influence(graph, beta=0.5):
             if d == 1:
                 supports[u] = {u}
             else:
-                supports[u] = set().union(
-                    *(
-                        supports[t]
-                        for t in graph.successors(u)
-                        if distance.get(t) == d - 1
-                    )
-                )
+                supports[u] = set().union(*(supports[t] for t in graph.successors(u) if distance.get(t) == d - 1))
             weight = beta ** (d - 1)
             unique += weight
             for first_branch in supports[u]:
@@ -127,11 +121,7 @@ def build_structural_scores():
     correlations = {}
     for metric in metrics:
         correlations[metric] = {
-            comparison: float(
-                spearmanr(
-                    [r[metric] for r in rows], [r[comparison] for r in rows]
-                ).statistic
-            )
+            comparison: float(spearmanr([r[metric] for r in rows], [r[comparison] for r in rows]).statistic)
             for comparison in ["local_citations", "pagerank"]
         }
     summary = {
@@ -143,31 +133,12 @@ def build_structural_scores():
         "correlations": correlations,
         "sensitivity": sensitivity,
         "top10": {
-            metric: [
-                r["id"] for r in sorted(rows, key=lambda r: r["rank_" + metric])[:10]
-            ]
-            for metric in metrics
+            metric: [r["id"] for r in sorted(rows, key=lambda r: r["rank_" + metric])[:10]] for metric in metrics
         },
-        "definitions": {
-            "unique_descendants": "U_beta(v)=sum_{u: d(u,v)>=1} beta^(d(u,v)-1); each reachable citing paper counted once at shortest distance.",
-            "branching_descendants": "B_beta(v)=U_beta(v)*(1-sum_b p_b^2), p_b=M_b/U; allocate each unique descendant vote equally over first-generation branches lying on shortest paths.",
-            "katz_paths": "K_beta(v)=sum_{paths ending at v, length>=1} beta^(length-1); finite on chronological DAG. Standard comparator, not claimed original.",
-        },
-        "limitations": [
-            "Citation paths do not establish idea inheritance.",
-            "B deliberately discounts one concentrated lineage, including important breakthroughs spread through one successor.",
-            "Missing links and corpus selection affect all reachability measures.",
-            "Paper branches are not independently verified research teams.",
-            "No AI-authorship inference or stylistic penalty is used.",
-        ],
+        **TEXTS["structural_metrics"],
     }
-    write_csv(
-        TABLES / "custom_rankings.csv",
-        sorted(rows, key=lambda r: r["rank_branching_descendants"]),
-    )
-    (TABLES / "custom_rankings.json").write_text(
-        json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
+    write_csv(TABLES / "custom_rankings.csv", sorted(rows, key=lambda r: r["rank_branching_descendants"]))
+    (TABLES / "custom_rankings.json").write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
     (ROOT / "output/custom_metrics_summary.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"
     )
@@ -185,11 +156,7 @@ def build_semantic_scores():
     config = read_json(ROOT / "settings.json")["context_review"]
     labels = {i: label for label, ids in config["labels"].items() for i in ids}
     assert len(labels) == sum(len(v) for v in config["labels"].values())
-    flagged = {
-        r["context_id"]
-        for r in contexts
-        if r["auto_label"] in ["use_signal", "extension_signal"]
-    }
+    flagged = {r["context_id"] for r in contexts if r["auto_label"] in ["use_signal", "extension_signal"]}
     assert set(labels) == flagged, {
         "unreviewed_flagged": sorted(flagged - set(labels)),
         "stale_labels": sorted(set(labels) - flagged),
@@ -246,18 +213,14 @@ def build_semantic_scores():
                 "method_use_edges": counts[p["id"]]["method_use"],
                 "component_use_edges": counts[p["id"]]["component_use"],
                 "incoming_citation_edges": len(incoming),
-                "incoming_edges_with_contexts": sum(
-                    int(e["contexts"]) > 0 for e in incoming
-                ),
+                "incoming_edges_with_contexts": sum(int(e["contexts"]) > 0 for e in incoming),
                 "reviewed_incoming_edges": sum(v == p["id"] for u, v in edge_evidence),
                 "rank_pagerank": p["rank_pagerank"],
                 "rank_local_citations": p["rank_local_citations"],
                 "status": "partial_assistant_review_not_complete_true_reuse_count",
             }
         )
-    for i, r in enumerate(
-        sorted(rows, key=lambda r: (-r["pilot_reuse_score"], r["id"])), 1
-    ):
+    for i, r in enumerate(sorted(rows, key=lambda r: (-r["pilot_reuse_score"], r["id"])), 1):
         r["rank_pilot_reuse_score"] = i
     sensitivity = []
     for extension_weight in [1.0, 1.5, 2.0]:
@@ -278,47 +241,26 @@ def build_semantic_scores():
     summary = {
         "contexts_extracted": len(contexts),
         "citation_edges": len(coverage),
-        "edges_with_at_least_one_context": sum(
-            int(e["contexts"]) > 0 for e in coverage
-        ),
+        "edges_with_at_least_one_context": sum(int(e["contexts"]) > 0 for e in coverage),
         "reviewed_flagged_contexts": len(reviewed),
         "reviewed_unique_edges": len(edge_evidence),
-        "positive_method_or_component_or_extension_contexts": sum(
-            r["reviewed_label"] in weights for r in reviewed
-        ),
+        "positive_method_or_component_or_extension_contexts": sum(r["reviewed_label"] in weights for r in reviewed),
         "accepted_reuse_edges": len(accepted_edges),
         "positive_scoring_papers": sum(r["pilot_reuse_score"] > 0 for r in rows),
         "review_label_counts": dict(Counter(labels.values())),
-        "flagged_sample_adoption_fraction": sum(
-            r["reviewed_label"] in weights for r in reviewed
-        )
-        / len(reviewed),
-        "score": "R(v)=sum_u max_reviewed_context_weight(u,v); extension=2, method=1, component=0.5; each citing paper counted once.",
+        "flagged_sample_adoption_fraction": sum(r["reviewed_label"] in weights for r in reviewed) / len(reviewed),
+        "score": TEXTS["semantic_metrics"]["score"],
         "sensitivity": sensitivity,
-        "limits": [
-            "Only heuristic-positive contexts were reviewed; recall and a held-out classifier quality are not estimated.",
-            "The assistant made the context judgments; they are not independent human validation.",
-            "Unreviewed or missing contexts are unknown, not confirmed non-use.",
-            "Ranks compare observed evidence under unequal coverage, not complete true semantic influence.",
-            "Weights are explicit modeling choices, not empirically calibrated values.",
-        ],
+        "limits": TEXTS["semantic_metrics"]["limits"],
     }
     write_csv(TABLES / "reviewed_citation_contexts.csv", reviewed)
     write_csv(TABLES / "reuse_edges.csv", accepted_edges)
-    write_csv(
-        TABLES / "semantic_rankings.csv",
-        sorted(rows, key=lambda r: r["rank_pilot_reuse_score"]),
-    )
+    write_csv(TABLES / "semantic_rankings.csv", sorted(rows, key=lambda r: r["rank_pilot_reuse_score"]))
     (ROOT / "output/semantic_metrics_summary.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    print(
-        json.dumps(
-            {k: v for k, v in summary.items() if k not in ["sensitivity", "limits"]},
-            ensure_ascii=False,
-            indent=2,
-        )
-    )
+    display_summary = {key: value for key, value in summary.items() if key not in ["sensitivity", "limits"]}
+    print(json.dumps(display_summary, ensure_ascii=False, indent=2))
     for r in sorted(rows, key=lambda r: r["rank_pilot_reuse_score"])[:10]:
         print(r["rank_pilot_reuse_score"], r["pilot_reuse_score"], r["title"])
 

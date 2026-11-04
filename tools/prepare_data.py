@@ -17,6 +17,7 @@ import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+TEXTS = json.loads((ROOT / "texts.json").read_text(encoding="utf-8"))
 SOURCE_COMMIT = "527258167d3a1cdad876f5c14a3079c7c120621b"
 
 
@@ -25,11 +26,7 @@ def read_json(path):
 
 
 def save_json(path, value):
-    path.write_text(
-        json.dumps(value, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-        newline="\n",
-    )
+    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
 
 
 def save_csv(path, rows):
@@ -40,9 +37,7 @@ def save_csv(path, rows):
 
 
 def restore_original(destination):
-    archive = subprocess.check_output(
-        ["git", "archive", "--format=tar", SOURCE_COMMIT], cwd=ROOT
-    )
+    archive = subprocess.check_output(["git", "archive", "--format=tar", SOURCE_COMMIT], cwd=ROOT)
     with tarfile.open(fileobj=io.BytesIO(archive)) as source:
         for member in source.getmembers():
             if not member.isfile():
@@ -52,23 +47,14 @@ def restore_original(destination):
                 raise ValueError(f"Unexpected archive path: {member.name}")
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_bytes(source.extractfile(member).read())
-    subprocess.run(
-        [sys.executable, "-X", "utf8", "analyze.py"],
-        cwd=destination,
-        check=True,
-        stdout=subprocess.DEVNULL,
-    )
+    subprocess.run([sys.executable, "-X", "utf8", "analyze.py"], cwd=destination, check=True, stdout=subprocess.DEVNULL)
 
 
 def make_snapshot(original):
     data = ROOT / "data"
     data.mkdir(exist_ok=True)
     papers = read_json(original / "data/papers.json")
-    version_to_paper = {
-        version: paper["id"]
-        for paper in papers
-        for version in paper["version_ids"].split(";")
-    }
+    version_to_paper = {version: paper["id"] for paper in papers for version in paper["version_ids"].split(";")}
     authors = {paper["id"]: set() for paper in papers}
     sources = {paper["id"]: set() for paper in papers}
     incomplete = set()
@@ -105,20 +91,15 @@ def make_snapshot(original):
         row = {
             key: value
             for key, value in paper.items()
-            if not key.startswith("rank_")
-            and key not in ("pagerank", "local_citations")
+            if not key.startswith("rank_") and key not in ("pagerank", "local_citations")
         }
         row["observed_author_ids"] = sorted(authors[paper["id"]])
-        row["incomplete_author_metadata"] = (
-            paper["id"] in incomplete or not authors[paper["id"]]
-        )
+        row["incomplete_author_metadata"] = paper["id"] in incomplete or not authors[paper["id"]]
         row["author_evidence_sources"] = sorted(sources[paper["id"]])
         corpus.append(row)
     corpus.sort(key=lambda paper: paper["title"].casefold())
     save_json(data / "corpus.json", corpus)
-    (data / "scope_audit.csv").write_bytes(
-        (original / "data/corpus_audit.csv").read_bytes()
-    )
+    (data / "scope_audit.csv").write_bytes((original / "data/corpus_audit.csv").read_bytes())
 
     bibliographies = []
     for item in read_json(original / "data/pdf_reference_manifest.json"):
@@ -129,46 +110,30 @@ def make_snapshot(original):
         if metadata.exists():
             item.update(read_json(metadata))
         text = Path(str(stem) + ".references.txt")
-        item["lines"] = (
-            text.read_text(encoding="utf-8").split("\n") if text.exists() else []
-        )
+        item["lines"] = text.read_text(encoding="utf-8").split("\n") if text.exists() else []
         bibliographies.append(item)
     save_json(data / "bibliographies.json", bibliographies)
     save_csv(data / "contexts.csv", read_json(original / "data/citation_contexts.json"))
-    (data / "context_coverage.csv").write_bytes(
-        (original / "data/citation_intent_edges.csv").read_bytes()
-    )
+    (data / "context_coverage.csv").write_bytes((original / "data/citation_intent_edges.csv").read_bytes())
     settings = {
         "selection": read_json(original / "author_decisions.json"),
         "context_review": read_json(original / "context_review_labels.json"),
     }
     save_json(ROOT / "settings.json", settings)
+    input_files = ["corpus.json", "scope_audit.csv", "bibliographies.json", "contexts.csv", "context_coverage.csv"]
+    input_hashes = {}
+    for name in input_files:
+        input_hashes[f"data/{name}"] = hashlib.sha256((data / name).read_bytes()).hexdigest()
     provenance = {
         "source_commit": SOURCE_COMMIT,
         "snapshot_date": "2026-11-04",
-        "scope": "Frozen normalized corpus. Original collection and filtering are reproducible from source_commit.",
+        "scope": TEXTS["snapshot"]["scope"],
         "original_corpus_summary": read_json(original / "output/summary.json"),
         "openalex_requests": requests,
-        "input_sha256": {
-            path.relative_to(ROOT)
-            .as_posix(): hashlib.sha256(path.read_bytes())
-            .hexdigest()
-            for path in [
-                data / name
-                for name in (
-                    "corpus.json",
-                    "scope_audit.csv",
-                    "bibliographies.json",
-                    "contexts.csv",
-                    "context_coverage.csv",
-                )
-            ]
-        },
+        "input_sha256": input_hashes,
     }
     save_json(data / "provenance.json", provenance)
-    print(
-        "Prepared 140 papers, selection audit, bibliographies and citation contexts in data/."
-    )
+    print(TEXTS["snapshot"]["prepared_message"])
 
 
 def main():

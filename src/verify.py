@@ -13,15 +13,7 @@ from scipy.stats import rankdata
 
 from .experiments import fractional, ranking
 from .metrics import influence
-from .storage import (
-    DATA,
-    EXPERIMENTS,
-    ROOT,
-    TABLES,
-    normalize,
-    read_csv,
-    read_json,
-)
+from .storage import DATA, EXPERIMENTS, ROOT, TABLES, TEXTS, normalize, read_csv, read_json
 
 
 class InfluenceBehavior(unittest.TestCase):
@@ -69,9 +61,7 @@ def check_corpus():
     assert len({(e["citing"], e["cited"]) for e in edges}) == len(edges)
     matrix = np.zeros((len(ids), len(ids)))
     for e in edges:
-        assert (
-            e["citing"] in index and e["cited"] in index and e["citing"] != e["cited"]
-        )
+        assert e["citing"] in index and e["cited"] in index and e["citing"] != e["cited"]
         matrix[index[e["citing"]], index[e["cited"]]] = 1
     indegrees = matrix.sum(axis=0)
     assert all(p["local_citations"] == int(indegrees[i]) for i, p in enumerate(papers))
@@ -79,49 +69,28 @@ def check_corpus():
     for i in range(len(ids)):
         matrix[i, :] = matrix[i, :] / outdegrees[i] if outdegrees[i] else 1 / len(ids)
     # Solve the stationary equation directly, independently of NetworkX iteration.
-    expected = np.linalg.solve(
-        np.eye(len(ids)) - 0.85 * matrix.T, np.full(len(ids), 0.15 / len(ids))
-    )
+    expected = np.linalg.solve(np.eye(len(ids)) - 0.85 * matrix.T, np.full(len(ids), 0.15 / len(ids)))
     observed = np.array([p["pagerank"] for p in papers])
     max_error = float(np.max(np.abs(expected - observed)))
     assert max_error < 1e-8, max_error
     assert abs(observed.sum() - 1) < 1e-9
-    for metric in [
-        "pagerank",
-        "global_citations",
-        "local_citations",
-        "citations_per_year",
-    ]:
+    for metric in ["pagerank", "global_citations", "local_citations", "citations_per_year"]:
         ordered = sorted(papers, key=lambda p: (-p[metric], p["id"]))
         assert all(p["rank_" + metric] == i for i, p in enumerate(ordered, 1))
     provenance = read_json(DATA / "provenance.json")
     manifest = provenance["openalex_requests"]
     assert len(manifest) == 30
     for path, expected_hash in provenance["input_sha256"].items():
-        assert (
-            hashlib.sha256((ROOT / path).read_bytes()).hexdigest() == expected_hash
-        ), path
+        assert hashlib.sha256((ROOT / path).read_bytes()).hexdigest() == expected_hash, path
     assert all("api_key=" not in item["url"] for item in manifest)
     pdf_edges = read_csv(TABLES / "pdf_edges.csv")
-    bibliographies = {
-        entry["arxiv"]: "\n".join(entry["lines"])
-        for entry in read_json(DATA / "bibliographies.json")
-    }
+    bibliographies = {entry["arxiv"]: "\n".join(entry["lines"]) for entry in read_json(DATA / "bibliographies.json")}
     for edge in pdf_edges:
-        assert normalize(edge["matched_title"]) in normalize(
-            bibliographies[edge["evidence_key"]]
-        )
+        assert normalize(edge["matched_title"]) in normalize(bibliographies[edge["evidence_key"]])
     # Check several high-impact edges directly against saved bibliography evidence.
-    important = [
-        ("W3040573126", "W2581624817"),
-        ("W3119866685", "W2581624817"),
-        ("W4402671950", "W4200634402"),
-    ]
+    important = [("W3040573126", "W2581624817"), ("W3119866685", "W2581624817"), ("W4402671950", "W4200634402")]
     for u, v in important:
-        assert any(e["citing"].endswith(u) and e["cited"].endswith(v) for e in edges), (
-            u,
-            v,
-        )
+        assert any(e["citing"].endswith(u) and e["cited"].endswith(v) for e in edges), (u, v)
     versions = {}
     for package in ["networkx", "numpy", "scipy", "matplotlib"]:
         versions[package] = importlib.metadata.version(package)
@@ -134,17 +103,11 @@ def check_corpus():
         "original_response_hashes_retained": len(manifest),
         "pdf_edge_title_matches_checked": len(pdf_edges),
         "high_impact_edges_checked": len(important),
-        "limitations": [
-            "Exact-title matching can miss changed titles and PDF extraction errors.",
-            "Bibliography title matching is not exhaustive human review of every source.",
-            "Numerical checks do not validate the scientific interpretation of a ranking.",
-        ],
+        "limitations": TEXTS["corpus_verification"]["limitations"],
         "python": platform.python_version(),
         "packages": versions,
     }
-    (ROOT / "output/verification.json").write_text(
-        json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
+    (ROOT / "output/verification.json").write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(result, ensure_ascii=False, indent=2))
 
 
@@ -173,9 +136,7 @@ def check_metrics():
     expected_unique = weighted.sum(axis=0)
     expected_katz = np.linalg.solve(np.eye(n) - 0.5 * a.T, np.ones(n)) - 1
     expected_katz /= 0.5
-    error_u = max(
-        abs(r["unique_descendants"] - expected_unique[i]) for i, r in enumerate(rows)
-    )
+    error_u = max(abs(r["unique_descendants"] - expected_unique[i]) for i, r in enumerate(rows))
     error_k = max(abs(r["katz_paths"] - expected_katz[i]) for i, r in enumerate(rows))
     assert error_u < 1e-9 and error_k < 1e-7, (error_u, error_k)
     for r in rows:
@@ -198,11 +159,9 @@ def check_metrics():
         "katz_independent_linear_system_max_error": float(error_k),
         "branch_score_bounds_checked": len(rows),
         "semantic_edge_dedup_and_score_sum_checked": len(edges),
-        "note": "Numerical/provenance checks; no independent validation of semantic annotation or scientific novelty.",
+        "note": TEXTS["metrics_verification"]["note"],
     }
-    (ROOT / "output/extension_verification.json").write_text(
-        json.dumps(result, indent=2), encoding="utf-8"
-    )
+    (ROOT / "output/extension_verification.json").write_text(json.dumps(result, indent=2), encoding="utf-8")
     print(json.dumps(result, indent=2))
 
 
@@ -210,9 +169,7 @@ class MethodTests(unittest.TestCase):
     def test_one_vote_per_source_and_dangling_nodes(self):
         g = nx.DiGraph([("a", "x"), ("a", "y"), ("b", "x")])
         g.add_node("isolated")
-        self.assertEqual(
-            fractional(g), {"a": 0.0, "x": 1.5, "y": 0.5, "b": 0.0, "isolated": 0.0}
-        )
+        self.assertEqual(fractional(g), {"a": 0.0, "x": 1.5, "y": 0.5, "b": 0.0, "isolated": 0.0})
 
     def test_boundary_ties_have_equal_credit(self):
         ranks, credits = ranking([9, 8, 7, 6, 5, 5, 0])
@@ -226,12 +183,7 @@ def check_experiments():
     for path, expected in s["input_sha256"].items():
         assert hashlib.sha256((ROOT / path).read_bytes()).hexdigest() == expected, path
     with np.load(EXPERIMENTS / "simulations.npz", allow_pickle=False) as z:
-        ids, metrics, scenarios, edges = (
-            z["ids"],
-            z["metrics"],
-            z["scenarios"],
-            z["edges"],
-        )
+        ids, metrics, scenarios, edges = (z["ids"], z["metrics"], z["scenarios"], z["edges"])
         ranks, credits, keep = z["ranks"], z["top5_credit"], z["edge_keep"]
     assert ranks.shape == (4, 500, 4, 140)
     assert keep.shape == (4, 500, 550)
@@ -258,41 +210,24 @@ def check_experiments():
             if included:
                 adjacency[index[u], index[v]] = 1
         counts = adjacency.sum(axis=1)
-        transition = np.divide(
-            adjacency,
-            counts[:, None],
-            out=np.zeros_like(adjacency),
-            where=counts[:, None] != 0,
-        )
+        transition = np.divide(adjacency, counts[:, None], out=np.zeros_like(adjacency), where=counts[:, None] != 0)
         frac = transition.sum(axis=0)
         transition[counts == 0, :] = 1 / len(ids)
-        pr = np.linalg.solve(
-            np.eye(len(ids)) - 0.85 * transition.T, np.full(len(ids), 0.15 / len(ids))
-        )
+        pr = np.linalg.solve(np.eye(len(ids)) - 0.85 * transition.T, np.full(len(ids), 0.15 / len(ids)))
         return adjacency.sum(axis=0), pr, frac
 
     for k in range(4):
         for trial in [0, 499]:
             c, pr, f = independent(keep[k, trial])
             for values, m in [(c, 0), (pr, 1), (f, 3)]:
-                np.testing.assert_array_equal(
-                    rankdata(-np.round(values, 12)), ranks[k, trial, m]
-                )
+                np.testing.assert_array_equal(rankdata(-np.round(values, 12)), ranks[k, trial, m])
 
     with (EXPERIMENTS / "rankings.csv").open(encoding="utf-8-sig") as file:
         rows = list(csv.DictReader(file))
     base = {(r["metric"], r["id"]): r for r in rows if r["variant"] == "baseline"}
     c, pr, f = independent(np.ones(len(edges), dtype=bool))
-    papers = {
-        p["id"]: p
-        for p in json.loads((TABLES / "papers.json").read_text(encoding="utf-8"))
-    }
-    custom = {
-        p["id"]: p
-        for p in json.loads(
-            (TABLES / "custom_rankings.json").read_text(encoding="utf-8")
-        )
-    }
+    papers = {p["id"]: p for p in json.loads((TABLES / "papers.json").read_text(encoding="utf-8"))}
+    custom = {p["id"]: p for p in json.loads((TABLES / "custom_rankings.json").read_text(encoding="utf-8"))}
     for j, uid in enumerate(ids):
         np.testing.assert_allclose(
             [
@@ -305,13 +240,7 @@ def check_experiments():
             rtol=0,
         )
         assert c[j] == papers[uid]["local_citations"]
-        assert (
-            abs(
-                float(base["branching", uid]["score"])
-                - custom[uid]["branching_descendants"]
-            )
-            < 1e-10
-        )
+        assert abs(float(base["branching", uid]["score"]) - custom[uid]["branching_descendants"]) < 1e-10
     assert abs(f.sum() - len(source_ids)) < 1e-10
     with (EXPERIMENTS / "stability.csv").open(encoding="utf-8-sig") as file:
         stability = list(csv.DictReader(file))
@@ -326,10 +255,7 @@ def check_experiments():
         )
     with (EXPERIMENTS / "edge_author_audit.csv").open(encoding="utf-8-sig") as file:
         author_edges = list(csv.DictReader(file))
-    assert (
-        sum(bool(e["shared_author_ids"]) for e in author_edges)
-        == s["observed_shared_author_edges"]
-    )
+    assert sum(bool(e["shared_author_ids"]) for e in author_edges) == s["observed_shared_author_edges"]
     verified = {
         "status": "passed",
         "toy_tests": 2,
@@ -337,18 +263,9 @@ def check_experiments():
         "perturbations_checked": 2000,
         "independent_dense_pagerank_trial_checks": 8,
         "summary_rows_reconciled": len(stability),
-        "checks": [
-            "frozen inputs",
-            "RNG replay and bibliography masks",
-            "tie-aware ranks and mass conservation",
-            "independent dense PageRank, local and fractional ranks",
-            "baseline agrees with existing artifacts",
-            "all reported frequencies and rank intervals match saved simulations",
-        ],
+        "checks": TEXTS["experiment_verification"]["checks"],
     }
-    (EXPERIMENTS / "verification.json").write_text(
-        json.dumps(verified, indent=2), encoding="utf-8"
-    )
+    (EXPERIMENTS / "verification.json").write_text(json.dumps(verified, indent=2), encoding="utf-8")
     print(json.dumps(verified, indent=2))
 
 

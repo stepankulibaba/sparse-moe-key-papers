@@ -4,7 +4,6 @@
 а сама статья и входящие в неё ссылки остаются. Внешние запросы не выполняются.
 """
 
-import csv
 import hashlib
 import json
 
@@ -13,7 +12,7 @@ import numpy as np
 from scipy.stats import rankdata, spearmanr
 
 from .metrics import influence
-from .storage import DATA, ROOT, TABLES, TEXTS, read_json, write_csv
+from .storage import DATA, ROOT, TABLES, TEXTS, read_csv, read_json, write_csv
 
 OUT = ROOT / "output" / "robustness"
 METRICS = ["local", "pagerank", "branching", "fractional"]
@@ -23,8 +22,7 @@ REPEATS = 500
 
 def load_inputs():
     papers = json.loads((TABLES / "papers.json").read_text(encoding="utf-8"))
-    with (TABLES / "edges.csv").open(encoding="utf-8-sig", newline="") as f:
-        edges = list(csv.DictReader(f))
+    edges = read_csv(TABLES / "edges.csv")
     return papers, edges
 
 
@@ -43,6 +41,7 @@ def ranking(values):
     """Средние ранги и равные доли места при ничьей на границе первой пятёрки."""
     values = np.round(np.asarray(values, dtype=float), 12)
     ranks = rankdata(-values, method="average")
+
     threshold = np.sort(values)[-min(5, len(values))]
     credit = (values > threshold).astype(float)
     boundary = values == threshold
@@ -69,10 +68,10 @@ def scores(graph, ids, papers):
 
 
 def author_evidence(papers):
-    """Union observed author IDs over all already merged versions/saved responses.
+    """Объединить наблюдаемые ID авторов по всем версиям и сохранённым ответам.
 
-    This detects observed shared IDs; missing matches do not prove independence.
-    Raw source paths and version IDs remain in the audit.
+    Так находятся только наблюдаемые общие ID. Отсутствие совпадения не доказывает независимость.
+    Исходные файлы и ID версий остаются в аудите.
     """
     frozen = {p["id"]: p for p in read_json(DATA / "corpus.json")}
     authors = {p["id"]: set(frozen[p["id"]]["observed_author_ids"]) for p in papers}
@@ -91,7 +90,7 @@ def author_evidence(papers):
 
 
 def run_simulations(ids, edges, by_id, base_ranks, base_credits):
-    """Удалить связи или целые библиографии, сохранив все 140 кандидатов."""
+    """Удалить связи или целые библиографии, сохранив всех кандидатов."""
     scenarios = [
         ("edge_10", "edge", 0.1),
         ("edge_30", "edge", 0.3),
@@ -102,6 +101,7 @@ def run_simulations(ids, edges, by_id, base_ranks, base_credits):
     source_index = {u: i for i, u in enumerate(source_ids)}
     edge_source_index = np.array([source_index[u] for u, _ in edges])
     rng = np.random.default_rng(SEED)
+
     all_ranks, all_credits, all_masks = [], [], []
     stability, trial_rows = [], []
     for scenario, mode, probability in scenarios:
@@ -110,6 +110,7 @@ def run_simulations(ids, edges, by_id, base_ranks, base_credits):
         else:
             source_mask = rng.random((REPEATS, len(source_ids))) >= probability
             masks = source_mask[:, edge_source_index]
+
         ranks = np.empty((REPEATS, len(METRICS), len(ids)))
         credits = np.empty_like(ranks)
         for trial, mask in enumerate(masks):
@@ -127,6 +128,7 @@ def run_simulations(ids, edges, by_id, base_ranks, base_credits):
                     "retained_bibliographies": sum(perturbed.out_degree(u) > 0 for u in source_ids),
                 }
             )
+
         for m, metric in enumerate(METRICS):
             for j, uid in enumerate(ids):
                 stability.append(
@@ -144,10 +146,12 @@ def run_simulations(ids, edges, by_id, base_ranks, base_credits):
                         "rank_p95": np.quantile(ranks[:, m, j], 0.95),
                     }
                 )
+
         all_ranks.append(ranks)
         all_credits.append(credits)
         all_masks.append(masks)
         print(f"{scenario}: {REPEATS} trials; mean retained edges {masks.sum(axis=1).mean():.1f}", flush=True)
+
     write_csv(OUT / "stability.csv", stability)
     write_csv(OUT / "trials.csv", trial_rows)
     np.savez_compressed(
@@ -169,25 +173,27 @@ def main():
     by_id = {p["id"]: p for p in papers}
     ids = sorted(by_id)
     edges = [(e["citing"], e["cited"]) for e in edge_rows]
+
     graph = nx.DiGraph()
     graph.add_nodes_from(ids)
     graph.add_edges_from(edges)
     base = scores(graph, ids, by_id)
     base_ranks = np.array([ranking(v)[0] for v in base])
     base_credits = np.array([ranking(v)[1] for v in base])
+
     authors, author_rows = author_evidence(papers)
     uncertain_authors = {r["id"] for r in author_rows if r["missing_or_potentially_truncated"]}
     write_csv(OUT / "author_audit.csv", author_rows)
     audit = []
     for e in edge_rows:
         shared = sorted(authors[e["citing"]] & authors[e["cited"]])
+        both_observed = e["citing"] not in uncertain_authors and e["cited"] not in uncertain_authors
         audit.append(
             e
             | {
                 "shared_author_ids": ";".join(shared),
                 "observed_overlap": bool(shared),
-                "both_bylines_observed_without_truncation_flag": e["citing"] not in uncertain_authors
-                and e["cited"] not in uncertain_authors,
+                "both_bylines_observed_without_truncation_flag": both_observed,
             }
         )
     write_csv(OUT / "edge_author_audit.csv", audit)
@@ -201,10 +207,11 @@ def main():
         [(e["citing"], e["cited"]) for e in edge_rows if "openalex_referenced_works" not in e["sources"]]
     )
     variants["openalex_only"] = oa
-    # Freeze the candidate universe; reviews cast no outgoing votes but remain eligible.
+    # Набор кандидатов не меняется. Обзоры не голосуют, но остаются в рейтинге.
     no_review_votes = graph.copy()
     no_review_votes.remove_edges_from([(u, v) for u, v in edges if by_id[u]["is_review"]])
     variants["no_review_outgoing_votes"] = no_review_votes
+
     deterministic = []
     variant_summary = []
     for variant, g in variants.items():
@@ -236,6 +243,7 @@ def main():
     write_csv(OUT / "rankings.csv", deterministic)
 
     scenarios, source_ids = run_simulations(ids, edges, by_id, base_ranks, base_credits)
+
     correlations = []
     head = np.argsort(-base[1], kind="stable")[:20]
     for m, metric in enumerate(METRICS):
@@ -246,6 +254,7 @@ def main():
                 "vs_local_base_pagerank_top20": float(spearmanr(base[0, head], base[m, head]).statistic),
             }
         )
+
     manifest_paths = [
         TABLES / "papers.json",
         TABLES / "edges.csv",
@@ -258,6 +267,7 @@ def main():
     input_hashes = {}
     for path in manifest_paths:
         input_hashes[path.relative_to(ROOT).as_posix()] = hashlib.sha256(path.read_bytes()).hexdigest()
+
     summary = {
         "seed": SEED,
         "repeats_per_scenario": REPEATS,
@@ -281,6 +291,7 @@ def main():
         "input_sha256": input_hashes,
     }
     (OUT / "summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
+
     display_fields = [
         "vertices",
         "edges",

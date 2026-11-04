@@ -47,7 +47,9 @@ def restore_original(destination):
                 raise ValueError(f"Unexpected archive path: {member.name}")
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_bytes(source.extractfile(member).read())
-    subprocess.run([sys.executable, "-X", "utf8", "analyze.py"], cwd=destination, check=True, stdout=subprocess.DEVNULL)
+
+    command = [sys.executable, "-X", "utf8", "analyze.py"]
+    subprocess.run(command, cwd=destination, check=True, stdout=subprocess.DEVNULL)
 
 
 def make_snapshot(original):
@@ -55,6 +57,7 @@ def make_snapshot(original):
     data.mkdir(exist_ok=True)
     papers = read_json(original / "data/papers.json")
     version_to_paper = {version: paper["id"] for paper in papers for version in paper["version_ids"].split(";")}
+
     authors = {paper["id"]: set() for paper in papers}
     sources = {paper["id"]: set() for paper in papers}
     incomplete = set()
@@ -105,7 +108,7 @@ def make_snapshot(original):
     for item in read_json(original / "data/pdf_reference_manifest.json"):
         item = item.copy()
         stem = original / "data/paper_pdfs" / item["arxiv"]
-        # arXiv identifiers contain a dot; append the extension literally.
+        # В ID arXiv есть точка, поэтому расширение дописывается к строке.
         metadata = Path(str(stem) + ".json")
         if metadata.exists():
             item.update(read_json(metadata))
@@ -115,11 +118,13 @@ def make_snapshot(original):
     save_json(data / "bibliographies.json", bibliographies)
     save_csv(data / "contexts.csv", read_json(original / "data/citation_contexts.json"))
     (data / "context_coverage.csv").write_bytes((original / "data/citation_intent_edges.csv").read_bytes())
+
     settings = {
         "selection": read_json(original / "author_decisions.json"),
         "context_review": read_json(original / "context_review_labels.json"),
     }
     save_json(ROOT / "settings.json", settings)
+
     input_files = ["corpus.json", "scope_audit.csv", "bibliographies.json", "contexts.csv", "context_coverage.csv"]
     input_hashes = {}
     for name in input_files:
